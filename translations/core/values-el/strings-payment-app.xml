@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Πληρωμή για το FUTO πληκτρολόγιο</string>
+  <string name="payment_app_main_menu_title">Έχεις πληρώσει για το FUTO πληκτρολόγιο</string>
+  <string name="payment_app_main_menu_line_1">Ευχαριστούμε για πληρωμή!</string>
+  <string name="payment_app_main_menu_line_2">Η αγορά σας θα συνεισφερει στη συνεχή ανάπτυξη του FUTO πληκτρολογίου και άλλων έργων της FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Αυτή η εφαρμογή εξυπηρετεί μόνο την πληρωμή του FUTO πληκτρολογίου μέσω του Google συστήματος πληρωμής. Δεν χρειάζεται να παραμείνει εγκατεστημένη. Για την απόκρυψη της ειδοποίησης πληρωμής του FUTO πληκτρολογίου, επέλεξε \'Έχω ήδη πληρώσει\' ή το κουμπί παρακάτω.</string>
+  <string name="payment_app_activate_keyboard_button">Όρισε το FUTO πληκτρολόγιο ως πληρωμένο</string>
+  <string name="payment_app_more_options_download_keyboard">Κατέβασε το FUTO πληκτρολόγιο απο το Play Store</string>
+  <string name="payment_app_more_options_visit_website">Επισκέψου την ιστοσελίδα του FUTO πληκτρολογίου</string>
+  <string name="payment_app_more_options_email_support">Email υποστήριξη</string>
+</resources>

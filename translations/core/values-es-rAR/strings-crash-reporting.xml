@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">¡Teclado FUTO no responde! Por favor enviá un mail para ayudarnos a resolverlo (keyboard@futo.org)</string>
+  <string name="crashed_text">¡Teclado FUTO no responde! Por favor enviá un reporte para ayudarnos a resolverlo.</string>
+  <string name="crashed_title">Herramienta de Reporte</string>
+  <string name="crash_report_accept">Enviar Reporte</string>
+  <string name="crash_report_reject">Ignorar</string>
+</resources>

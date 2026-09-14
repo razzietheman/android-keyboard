@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2014, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+
+  These Emoji symbols are unsupported by TTS.
+  TODO: Remove this file when TTS/TalkBack support these Emoji symbols.
+-->
+
+<resources>
+  <!-- Spoken description for Unicode code point U+00A9: "©" COPYRIGHT SIGN -->
+  <string name="spoken_emoji_00A9">"Copyright-merkki"</string>
+  <!-- Spoken description for Unicode code point U+00AE: "®" REGISTERED SIGN -->
+  <string name="spoken_emoji_00AE">"Rekisteröidyn tavaramerkin merkki"</string>
+  <!-- Spoken description for Unicode code point U+203C: "‼" DOUBLE EXCLAMATION MARK -->
+  <string name="spoken_emoji_203C">"Kaksi huutomerkkiä"</string>
+  <!-- Spoken description for Unicode code point U+2049: "⁉" EXCLAMATION QUESTION MARK -->
+  <string name="spoken_emoji_2049">"Huutomerkki ja kysymysmerkki"</string>
+  <!-- Spoken description for Unicode code point U+2122: "™" TRADE MARK SIGN -->
+  <string name="spoken_emoji_2122">"Tavaramerkin merkki"</string>
+  <!-- Spoken description for Unicode code point U+2139: "ℹ" INFORMATION SOURCE -->
+  <string name="spoken_emoji_2139">"Tietolähde"</string>
+  <!-- Spoken description for Unicode code point U+2194: "↔" LEFT RIGHT ARROW -->
+  <string name="spoken_emoji_2194">"Nuoli vasemmalle ja oikealle"</string>
+  <!-- Spoken description for Unicode code point U+2195: "↕" UP DOWN ARROW -->
+  <string name="spoken_emoji_2195">"Nuoli ylös ja alas"</string>
+  <!-- Spoken description for Unicode code point U+2196: "↖" NORTH WEST ARROW -->
+  <string name="spoken_emoji_2196">"Nuoli vasemmalle ylös"</string>
+  <!-- Spoken description for Unicode code point U+2197: "↗" NORTH EAST ARROW -->
+  <string name="spoken_emoji_2197">"Nuoli oikealle ylös"</string>
+  <!-- Spoken description for Unicode code point U+2198: "↘" SOUTH EAST ARROW -->
+  <string name="spoken_emoji_2198">"Nuoli oikealle alas"</string>
+  <!-- Spoken description for Unicode code point U+2199: "↙" SOUTH WEST ARROW -->
+  <string name="spoken_emoji_2199">"Nuoli vasemmalle alas"</string>
+  <!-- Spoken description for Unicode code point U+21A9: "↩" LEFTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21A9">"Koukkunuoli vasemmalle"</string>
+  <!-- Spoken description for Unicode code point U+21AA: "↪" RIGHTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21AA">"Koukkunuoli oikealle"</string>
+  <!-- Spoken description for Unicode code point U+231A: "⌚" WATCH -->
+  <string name="spoken_emoji_231A">"Katso"</string>
+  <!-- Spoken description for Unicode code point U+231B: "⌛" HOURGLASS -->
+  <string name="spoken_emoji_231B">"Tiimalasi"</string>
+  <!-- Spoken description for Unicode code point U+23E9: "⏩" BLACK RIGHT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23E9">"Musta oikealle osoittava kaksoiskolmio"</string>
+  <!-- Spoken description for Unicode code point U+23EA: "⏪" BLACK LEFT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EA">"Musta vasemmalle osoittava kaksoiskolmio"</string>
+  <!-- Spoken description for Unicode code point U+23EB: "⏫" BLACK UP-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EB">"Musta ylös osoittava kaksoiskolmio"</string>
+  <!-- Spoken description for Unicode code point U+23EC: "⏬" BLACK DOWN-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EC">"Musta alas osoittava kaksoiskolmio"</string>
+  <!-- Spoken description for Unicode code point U+23F0: "⏰" ALARM CLOCK -->
+  <string name="spoken_emoji_23F0">"Herätyskello"</string>
+  <!-- Spoken description for Unicode code point U+23F3: "⏳" HOURGLASS WITH FLOWING SAND -->
+  <string name="spoken_emoji_23F3">"Tiimalasi ja hiekka"</string>
+  <!-- Spoken description for Unicode code point U+24C2: "Ⓜ" CIRCLED LATIN CAPITAL LETTER M -->
+  <string name="spoken_emoji_24C2">"Ympyröity iso M-kirjain"</string>
+  <!-- Spoken description for Unicode code point U+25AA: "▪" BLACK SMALL SQUARE -->
+  <string name="spoken_emoji_25AA">"Pieni musta neliö"</string>
+  <!-- Spoken description for Unicode code point U+25AB: "▫" WHITE SMALL SQUARE -->
+  <string name="spoken_emoji_25AB">"Pieni valkoinen neliö"</string>
+  <!-- Spoken description for Unicode code point U+25B6: "▶" BLACK RIGHT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25B6">"Musta oikealle osoittava kolmio"</string>
+  <!-- Spoken description for Unicode code point U+25C0: "◀" BLACK LEFT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25C0">"Musta vasemmalle osoittava kolmio"</string>
+  <!-- Spoken description for Unicode code point U+25FB: "◻" WHITE MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FB">"Suuri valkoinen neliö"</string>
+  <!-- Spoken description for Unicode code point U+25FC: "◼" BLACK MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FC">"Suuri musta neliö"</string>
+  <!-- Spoken description for Unicode code point U+25FD: "◽" WHITE MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FD">"Valkoinen neliö"</string>
+  <!-- Spoken description for Unicode code point U+25FE: "◾" BLACK MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FE">"Musta neliö"</string>
+  <!-- Spoken description for Unicode code point U+2600: "☀" BLACK SUN WITH RAYS -->
+  <string name="spoken_emoji_2600">"Musta aurinko"</string>
+  <!-- Spoken description for Unicode code point U+2601: "☁" CLOUD -->
+  <string name="spoken_emoji_2601">"Pilvi"</string>
+  <!-- Spoken description for Unicode code point U+260E: "☎" BLACK TELEPHONE -->
+  <string name="spoken_emoji_260E">"Musta puhelin"</string>
+  <!-- Spoken description for Unicode code point U+2611: "☑" BALLOT BOX WITH CHECK -->
+  <string name="spoken_emoji_2611">"Valittu kyselyruutu"</string>
+  <!-- Spoken description for Unicode code point U+2614: "☔" UMBRELLA WITH RAIN DROPS -->
+  <string name="spoken_emoji_2614">"Sateenvarjo ja sadepisarat"</string>
+  <!-- Spoken description for Unicode code point U+2615: "☕" HOT BEVERAGE -->
+  <string name="spoken_emoji_2615">"Kuuma juoma"</string>
+  <!-- Spoken description for Unicode code point U+261D: "☝" WHITE UP POINTING INDEX -->
+  <string name="spoken_emoji_261D">"Valkoinen käsi, ylös osoittava etusormi"</string>
+  <!-- Spoken description for Unicode code point U+263A: "☺" WHITE SMILING FACE -->
+  <string name="spoken_emoji_263A">"Valkoinen hymyilevä naama"</string>
+  <!-- Spoken description for Unicode code point U+2648: "♈" ARIES -->
+  <string name="spoken_emoji_2648">"Oinas"</string>
+  <!-- Spoken description for Unicode code point U+2649: "♉" TAURUS -->
+  <string name="spoken_emoji_2649">"Härkä"</string>
+  <!-- Spoken description for Unicode code point U+264A: "♊" GEMINI -->
+  <string name="spoken_emoji_264A">"Kaksoset"</string>
+  <!-- Spoken description for Unicode code point U+264B: "♋" CANCER -->
+  <string name="spoken_emoji_264B">"Rapu"</string>
+  <!-- Spoken description for Unicode code point U+264C: "♌" LEO -->
+  <string name="spoken_emoji_264C">"Leijona"</string>
+  <!-- Spoken description for Unicode code point U+264D: "♍" VIRGO -->
+  <string name="spoken_emoji_264D">"Neitsyt"</string>
+  <!-- Spoken description for Unicode code point U+264E: "♎" LIBRA -->
+  <string name="spoken_emoji_264E">"Vaaka"</string>
+  <!-- Spoken description for Unicode code point U+264F: "♏" SCORPIUS -->
+  <string name="spoken_emoji_264F">"Skorpioni"</string>
+  <!-- Spoken description for Unicode code point U+2650: "♐" SAGITTARIUS -->
+  <string name="spoken_emoji_2650">"Jousimies"</string>
+  <!-- Spoken description for Unicode code point U+2651: "♑" CAPRICORN -->
+  <string name="spoken_emoji_2651">"Kauris"</string>
+  <!-- Spoken description for Unicode code point U+2652: "♒" AQUARIUS -->
+  <string name="spoken_emoji_2652">"Vesimies"</string>
+  <!-- Spoken description for Unicode code point U+2653: "♓" PISCES -->
+  <string name="spoken_emoji_2653">"Kalat"</string>
+  <!-- Spoken description for Unicode code point U+2660: "♠" BLACK SPADE SUIT -->
+  <string name="spoken_emoji_2660">"Musta patasymboli"</string>
+  <!-- Spoken description for Unicode code point U+2663: "♣" BLACK CLUB SUIT -->
+  <string name="spoken_emoji_2663">"Musta ristisymboli"</string>
+  <!-- Spoken description for Unicode code point U+2665: "♥" BLACK HEART SUIT -->
+  <string name="spoken_emoji_2665">"Musta herttasymboli"</string>
+  <!-- Spoken description for Unicode code point U+2666: "♦" BLACK DIAMOND SUIT -->
+  <string name="spoken_emoji_2666">"Musta ruutusymboli"</string>
+  <!-- Spoken description for Unicode code point U+2668: "♨" HOT SPRINGS -->
+  <string name="spoken_emoji_2668">"Kuuma lähde"</string>
+  <!-- Spoken description for Unicode code point U+267B: "♻" BLACK UNIVERSAL RECYCLING SYMBOL -->
+  <string name="spoken_emoji_267B">"Musta kierrätysmerkki"</string>
+  <!-- Spoken description for Unicode code point U+267F: "♿" WHEELCHAIR SYMBOL -->
+  <string name="spoken_emoji_267F">"Pyörätuolin symboli"</string>
+  <!-- Spoken description for Unicode code point U+2693: "⚓" ANCHOR -->
+  <string name="spoken_emoji_2693">"Ankkuri"</string>
+  <!-- Spoken description for Unicode code point U+26A0: "⚠" WARNING SIGN -->
+  <string name="spoken_emoji_26A0">"Varoitusmerkki"</string>
+  <!-- Spoken description for Unicode code point U+26A1: "⚡" HIGH VOLTAGE SIGN -->
+  <string name="spoken_emoji_26A1">"Korkean jännitteen symboli"</string>
+  <!-- Spoken description for Unicode code point U+26AA: "⚪" MEDIUM WHITE CIRCLE -->
+  <string name="spoken_emoji_26AA">"Valkoinen ympyrä"</string>
+  <!-- Spoken description for Unicode code point U+26AB: "⚫" MEDIUM BLACK CIRCLE -->
+  <string name="spoken_emoji_26AB">"Musta ympyrä"</string>
+  <!-- Spoken description for Unicode code point U+26BD: "⚽" SOCCER BALL -->
+  <string name="spoken_emoji_26BD">"Jalkapallo"</string>
+  <!-- Spoken description for Unicode code point U+26BE: "⚾" BASEBALL -->
+  <string name="spoken_emoji_26BE">"Pesäpallo"</string>
+  <!-- Spoken description for Unicode code point U+26C4: "⛄" SNOWMAN WITHOUT SNOW -->
+  <string name="spoken_emoji_26C4">"Lumiukko ilman lunta"</string>
+  <!-- Spoken description for Unicode code point U+26C5: "⛅" SUN BEHIND CLOUD -->
+  <string name="spoken_emoji_26C5">"Aurinko pilven takana"</string>
+  <!-- Spoken description for Unicode code point U+26CE: "⛎" OPHIUCHUS -->
+  <string name="spoken_emoji_26CE">"Käärmeenkantaja"</string>
+  <!-- Spoken description for Unicode code point U+26D4: "⛔" NO ENTRY -->
+  <string name="spoken_emoji_26D4">"Kielletty ajosuunta"</string>
+  <!-- Spoken description for Unicode code point U+26EA: "⛪" CHURCH -->
+  <string name="spoken_emoji_26EA">"Kirkko"</string>
+  <!-- Spoken description for Unicode code point U+26F2: "⛲" FOUNTAIN -->
+  <string name="spoken_emoji_26F2">"Suihkulähde"</string>
+  <!-- Spoken description for Unicode code point U+26F3: "⛳" FLAG IN HOLE -->
+  <string name="spoken_emoji_26F3">"Lippu reiässä"</string>
+  <!-- Spoken description for Unicode code point U+26F5: "⛵" SAILBOAT -->
+  <string name="spoken_emoji_26F5">"Purjevene"</string>
+  <!-- Spoken description for Unicode code point U+26FA: "⛺" TENT -->
+  <string name="spoken_emoji_26FA">"Teltta"</string>
+  <!-- Spoken description for Unicode code point U+26FD: "⛽" FUEL PUMP -->
+  <string name="spoken_emoji_26FD">"Polttoainepumppu"</string>
+  <!-- Spoken description for Unicode code point U+2702: "✂" BLACK SCISSORS -->
+  <string name="spoken_emoji_2702">"Mustat sakset"</string>
+  <!-- Spoken description for Unicode code point U+2705: "✅" WHITE HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2705">"Valkoinen valintamerkki"</string>
+  <!-- Spoken description for Unicode code point U+2708: "✈" AIRPLANE -->
+  <string name="spoken_emoji_2708">"Lentokone"</string>
+  <!-- Spoken description for Unicode code point U+2709: "✉" ENVELOPE -->
+  <string name="spoken_emoji_2709">"Kirjekuori"</string>
+  <!-- Spoken description for Unicode code point U+270A: "✊" RAISED FIST -->
+  <string name="spoken_emoji_270A">"Nyrkki"</string>
+  <!-- Spoken description for Unicode code point U+270B: "✋" RAISED HAND -->
+  <string name="spoken_emoji_270B">"Pystyssä oleva kämmen"</string>
+  <!-- Spoken description for Unicode code point U+270C: "✌" VICTORY HAND -->
+  <string name="spoken_emoji_270C">"Voitonmerkki"</string>
+  <!-- Spoken description for Unicode code point U+270F: "✏" PENCIL -->
+  <string name="spoken_emoji_270F">"Lyijykynä"</string>
+  <!-- Spoken description for Unicode code point U+2712: "✒" BLACK NIB -->
+  <string name="spoken_emoji_2712">"Musta kynänkärki"</string>
+  <!-- Spoken description for Unicode code point U+2714: "✔" HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2714">"Paksu valintamerkki"</string>
+  <!-- Spoken description for Unicode code point U+2716: "✖" HEAVY MULTIPLICATION X -->
+  <string name="spoken_emoji_2716">"Paksu kertomerkki"</string>
+  <!-- Spoken description for Unicode code point U+2728: "✨" SPARKLES -->
+  <string name="spoken_emoji_2728">"Tuikkivat tähdet"</string>
+  <!-- Spoken description for Unicode code point U+2733: "✳" EIGHT SPOKED ASTERISK -->
+  <string name="spoken_emoji_2733">"Kahdeksansakarainen tähti"</string>
+  <!-- Spoken description for Unicode code point U+2734: "✴" EIGHT POINTED BLACK STAR -->
+  <string name="spoken_emoji_2734">"Kahdeksansakarainen musta tähti"</string>
+  <!-- Spoken description for Unicode code point U+2744: "❄" SNOWFLAKE -->
+  <string name="spoken_emoji_2744">"Lumihiutale"</string>
+  <!-- Spoken description for Unicode code point U+2747: "❇" SPARKLE -->
+  <string name="spoken_emoji_2747">"Kipinä"</string>
+  <!-- Spoken description for Unicode code point U+274C: "❌" CROSS MARK -->
+  <string name="spoken_emoji_274C">"Ristimerkki"</string>
+  <!-- Spoken description for Unicode code point U+274E: "❎" NEGATIVE SQUARED CROSS MARK -->
+  <string name="spoken_emoji_274E">"Valkoinen ristimerkki mustalla taustalla"</string>
+  <!-- Spoken description for Unicode code point U+2753: "❓" BLACK QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2753">"Musta koristeellinen kysymysmerkki"</string>
+  <!-- Spoken description for Unicode code point U+2754: "❔" WHITE QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2754">"Valkoinen koristeellinen kysymysmerkki"</string>
+  <!-- Spoken description for Unicode code point U+2755: "❕" WHITE EXCLAMATION MARK ORNAMENT -->
+  <string name="spoken_emoji_2755">"Valkoinen koristeellinen huutomerkki"</string>
+  <!-- Spoken description for Unicode code point U+2757: "❗" HEAVY EXCLAMATION MARK SYMBOL -->
+  <string name="spoken_emoji_2757">"Paksu huutomerkki"</string>
+  <!-- Spoken description for Unicode code point U+2764: "❤" HEAVY BLACK HEART -->
+  <string name="spoken_emoji_2764">"Väritetty sydän"</string>
+  <!-- Spoken description for Unicode code point U+2795: "➕" HEAVY PLUS SIGN -->
+  <string name="spoken_emoji_2795">"Paksu plusmerkki"</string>
+  <!-- Spoken description for Unicode code point U+2796: "➖" HEAVY MINUS SIGN -->
+  <string name="spoken_emoji_2796">"Paksu miinusmerkki"</string>
+  <!-- Spoken description for Unicode code point U+2797: "➗" HEAVY DIVISION SIGN -->
+  <string name="spoken_emoji_2797">"Paksu jakomerkki"</string>
+  <!-- Spoken description for Unicode code point U+27A1: "➡" BLACK RIGHTWARDS ARROW -->
+  <string name="spoken_emoji_27A1">"Musta nuoli oikealle"</string>
+  <!-- Spoken description for Unicode code point U+27B0: "➰" CURLY LOOP -->
+  <string name="spoken_emoji_27B0">"Silmukka"</string>
+  <!-- Spoken description for Unicode code point U+27BF: "➿" DOUBLE CURLY LOOP -->
+  <string name="spoken_emoji_27BF">"Kaksoissilmukka"</string>
+  <!-- Spoken description for Unicode code point U+2934: "⤴" ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+  <string name="spoken_emoji_2934">"Oikealle ja ylös osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+2935: "⤵" ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+  <string name="spoken_emoji_2935">"Oikealle ja alas osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+2B05: "⬅" LEFTWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B05">"Musta nuoli vasemmalle"</string>
+  <!-- Spoken description for Unicode code point U+2B06: "⬆" UPWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B06">"Musta nuoli ylös"</string>
+  <!-- Spoken description for Unicode code point U+2B07: "⬇" DOWNWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B07">"Musta nuoli alas"</string>
+  <!-- Spoken description for Unicode code point U+2B1B: "⬛" BLACK LARGE SQUARE -->
+  <string name="spoken_emoji_2B1B">"Suuri musta neliö"</string>
+  <!-- Spoken description for Unicode code point U+2B1C: "⬜" WHITE LARGE SQUARE -->
+  <string name="spoken_emoji_2B1C">"Suuri valkoinen neliö"</string>
+  <!-- Spoken description for Unicode code point U+2B50: "⭐" WHITE MEDIUM STAR -->
+  <string name="spoken_emoji_2B50">"Valkoinen tähti"</string>
+  <!-- Spoken description for Unicode code point U+2B55: "⭕" HEAVY LARGE CIRCLE -->
+  <string name="spoken_emoji_2B55">"Paksu suuri ympyrä"</string>
+  <!-- Spoken description for Unicode code point U+3030: "〰" WAVY DASH -->
+  <string name="spoken_emoji_3030">"Aaltoviiva"</string>
+  <!-- Spoken description for Unicode code point U+303D: "〽" PART ALTERNATION MARK -->
+  <string name="spoken_emoji_303D">"Vuorottelumerkki"</string>
+  <!-- Spoken description for Unicode code point U+3297: "㊗" CIRCLED IDEOGRAPH CONGRATULATION -->
+  <string name="spoken_emoji_3297">"Ideogrammi onnittelu ympyrän sisällä"</string>
+  <!-- Spoken description for Unicode code point U+3299: "㊙" CIRCLED IDEOGRAPH SECRET -->
+  <string name="spoken_emoji_3299">"Ideogrammi salaisuus ympyrän sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F004: "🀄" MAHJONG TILE RED DRAGON -->
+  <string name="spoken_emoji_1F004">"Mahjong-laatta, punainen lohikäärme"</string>
+  <!-- Spoken description for Unicode code point U+1F0CF: "🃏" PLAYING CARD BLACK JOKER -->
+  <string name="spoken_emoji_1F0CF">"Pelikortti, musta jokeri"</string>
+  <!-- Spoken description for Unicode code point U+1F170: "🅰" NEGATIVE SQUARED LATIN CAPITAL LETTER A -->
+  <string name="spoken_emoji_1F170">"Veriryhmä A"</string>
+  <!-- Spoken description for Unicode code point U+1F171: "🅱" NEGATIVE SQUARED LATIN CAPITAL LETTER B -->
+  <string name="spoken_emoji_1F171">"Veriryhmä B"</string>
+  <!-- Spoken description for Unicode code point U+1F17E: "🅾" NEGATIVE SQUARED LATIN CAPITAL LETTER O -->
+  <string name="spoken_emoji_1F17E">"Veriryhmä O"</string>
+  <!-- Spoken description for Unicode code point U+1F17F: "🅿" NEGATIVE SQUARED LATIN CAPITAL LETTER P -->
+  <string name="spoken_emoji_1F17F">"Pysäköintialue"</string>
+  <!-- Spoken description for Unicode code point U+1F18E: "🆎" NEGATIVE SQUARED AB -->
+  <string name="spoken_emoji_1F18E">"Veriryhmä AB"</string>
+  <!-- Spoken description for Unicode code point U+1F191: "🆑" SQUARED CL -->
+  <string name="spoken_emoji_1F191">"CL neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F192: "🆒" SQUARED COOL -->
+  <string name="spoken_emoji_1F192">"Sana COOL neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F193: "🆓" SQUARED FREE -->
+  <string name="spoken_emoji_1F193">"Sana FREE neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F194: "🆔" SQUARED ID -->
+  <string name="spoken_emoji_1F194">"ID neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F195: "🆕" SQUARED NEW -->
+  <string name="spoken_emoji_1F195">"Sana NEW neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F196: "🆖" SQUARED NG -->
+  <string name="spoken_emoji_1F196">"NG neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F197: "🆗" SQUARED OK -->
+  <string name="spoken_emoji_1F197">"OK neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F198: "🆘" SQUARED SOS -->
+  <string name="spoken_emoji_1F198">"SOS neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F199: "🆙" SQUARED UP WITH EXCLAMATION MARK -->
+  <string name="spoken_emoji_1F199">"Sana UP ja huutomerkki neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F19A: "🆚" SQUARED VS -->
+  <string name="spoken_emoji_1F19A">"VS neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F201: "🈁" SQUARED KATAKANA KOKO -->
+  <string name="spoken_emoji_1F201">"Katakana täällä neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F202: "🈂" SQUARED KATAKANA SA -->
+  <string name="spoken_emoji_1F202">"Katakana palvelu neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F21A: "🈚" SQUARED CJK UNIFIED IDEOGRAPH-7121 -->
+  <string name="spoken_emoji_1F21A">"Ideogrammi maksuton neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F22F: "🈯" SQUARED CJK UNIFIED IDEOGRAPH-6307 -->
+  <string name="spoken_emoji_1F22F">"Ideogrammi varattu paikka neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F232: "🈲" SQUARED CJK UNIFIED IDEOGRAPH-7981 -->
+  <string name="spoken_emoji_1F232">"Ideogrammi kielto neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F233: "🈳" SQUARED CJK UNIFIED IDEOGRAPH-7A7A -->
+  <string name="spoken_emoji_1F233">"Ideogrammi vapaita paikkoja neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F234: "🈴" SQUARED CJK UNIFIED IDEOGRAPH-5408 -->
+  <string name="spoken_emoji_1F234">"Ideogrammi hyväksyntä neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F235: "🈵" SQUARED CJK UNIFIED IDEOGRAPH-6E80 -->
+  <string name="spoken_emoji_1F235">"Ideogrammi täynnä neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F236: "🈶" SQUARED CJK UNIFIED IDEOGRAPH-6709 -->
+  <string name="spoken_emoji_1F236">"Ideogrammi maksettu neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F237: "🈷" SQUARED CJK UNIFIED IDEOGRAPH-6708 -->
+  <string name="spoken_emoji_1F237">"Ideogrammi kuukausittain neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F238: "🈸" SQUARED CJK UNIFIED IDEOGRAPH-7533 -->
+  <string name="spoken_emoji_1F238">"Ideogrammi tilaus neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F239: "🈹" SQUARED CJK UNIFIED IDEOGRAPH-5272 -->
+  <string name="spoken_emoji_1F239">"Ideogrammi alennus neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F23A: "🈺" SQUARED CJK UNIFIED IDEOGRAPH-55B6 -->
+  <string name="spoken_emoji_1F23A">"Ideogrammi liiketoiminta neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F250: "🉐" CIRCLED IDEOGRAPH ADVANTAGE -->
+  <string name="spoken_emoji_1F250">"Ideogrammi etu neliön sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F251: "🉑" CIRCLED IDEOGRAPH ACCEPT -->
+  <string name="spoken_emoji_1F251">"Ideogrammi hyväksy ympyrän sisällä"</string>
+  <!-- Spoken description for Unicode code point U+1F300: "🌀" CYCLONE -->
+  <string name="spoken_emoji_1F300">"Pyörremyrsky"</string>
+  <!-- Spoken description for Unicode code point U+1F301: "🌁" FOGGY -->
+  <string name="spoken_emoji_1F301">"Sumu"</string>
+  <!-- Spoken description for Unicode code point U+1F302: "🌂" CLOSED UMBRELLA -->
+  <string name="spoken_emoji_1F302">"Suljettu sateenvarjo"</string>
+  <!-- Spoken description for Unicode code point U+1F303: "🌃" NIGHT WITH STARS -->
+  <string name="spoken_emoji_1F303">"Yömaisema"</string>
+  <!-- Spoken description for Unicode code point U+1F304: "🌄" SUNRISE OVER MOUNTAINS -->
+  <string name="spoken_emoji_1F304">"Auringonnousu vuorilla"</string>
+  <!-- Spoken description for Unicode code point U+1F305: "🌅" SUNRISE -->
+  <string name="spoken_emoji_1F305">"Auringonnousu"</string>
+  <!-- Spoken description for Unicode code point U+1F306: "🌆" CITYSCAPE AT DUSK -->
+  <string name="spoken_emoji_1F306">"Kaupunkimaisema hämärässä"</string>
+  <!-- Spoken description for Unicode code point U+1F307: "🌇" SUNSET OVER BUILDINGS -->
+  <string name="spoken_emoji_1F307">"Auringonlasku rakennusten taakse"</string>
+  <!-- Spoken description for Unicode code point U+1F308: "🌈" RAINBOW -->
+  <string name="spoken_emoji_1F308">"Sateenkaari"</string>
+  <!-- Spoken description for Unicode code point U+1F309: "🌉" BRIDGE AT NIGHT -->
+  <string name="spoken_emoji_1F309">"Silta yöllä"</string>
+  <!-- Spoken description for Unicode code point U+1F30A: "🌊" WATER WAVE -->
+  <string name="spoken_emoji_1F30A">"Vaahtopää"</string>
+  <!-- Spoken description for Unicode code point U+1F30B: "🌋" VOLCANO -->
+  <string name="spoken_emoji_1F30B">"Tulivuori"</string>
+  <!-- Spoken description for Unicode code point U+1F30C: "🌌" MILKY WAY -->
+  <string name="spoken_emoji_1F30C">"Linnunrata"</string>
+  <!-- Spoken description for Unicode code point U+1F30D: "🌍" EARTH GLOBE EUROPE-AFRICA -->
+  <string name="spoken_emoji_1F30D">"Maapallo, Eurooppa – Afrikka"</string>
+  <!-- Spoken description for Unicode code point U+1F30E: "🌎" EARTH GLOBE AMERICAS -->
+  <string name="spoken_emoji_1F30E">"Maapallo, Amerikat"</string>
+  <!-- Spoken description for Unicode code point U+1F30F: "🌏" EARTH GLOBE ASIA-AUSTRALIA -->
+  <string name="spoken_emoji_1F30F">"Maapallo Aasia – Australia"</string>
+  <!-- Spoken description for Unicode code point U+1F310: "🌐" GLOBE WITH MERIDIANS -->
+  <string name="spoken_emoji_1F310">"Maapallo ja pituuspiirit"</string>
+  <!-- Spoken description for Unicode code point U+1F311: "🌑" NEW MOON SYMBOL -->
+  <string name="spoken_emoji_1F311">"Uudenkuun symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F312: "🌒" WAXING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F312">"Kasvavan kuunsirpin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F313: "🌓" FIRST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F313">"Kuun ensimmäisen neljänneksen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F314: "🌔" WAXING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F314">"Kasvavan puolikuun symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F315: "🌕" FULL MOON SYMBOL -->
+  <string name="spoken_emoji_1F315">"Täysikuun symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F316: "🌖" WANING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F316">"Vähenevän kuun symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F317: "🌗" LAST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F317">"Kuun viimeisen neljänneksen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F318: "🌘" WANING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F318">"Vähenevän kuunsirpin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F319: "🌙" CRESCENT MOON -->
+  <string name="spoken_emoji_1F319">"Kuunsirppi"</string>
+  <!-- Spoken description for Unicode code point U+1F31A: "🌚" NEW MOON WITH FACE -->
+  <string name="spoken_emoji_1F31A">"Uusikuu, jolla kasvot"</string>
+  <!-- Spoken description for Unicode code point U+1F31B: "🌛" FIRST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31B">"Ensimmäisen neljänneksen kuu, jolla kasvot"</string>
+  <!-- Spoken description for Unicode code point U+1F31C: "🌜" LAST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31C">"Viimeisen neljänneksen kuu, jolla kasvot"</string>
+  <!-- Spoken description for Unicode code point U+1F31D: "🌝" FULL MOON WITH FACE -->
+  <string name="spoken_emoji_1F31D">"Täysikuu, jolla kasvot"</string>
+  <!-- Spoken description for Unicode code point U+1F31E: "🌞" SUN WITH FACE -->
+  <string name="spoken_emoji_1F31E">"Aurinko, jolla kasvot"</string>
+  <!-- Spoken description for Unicode code point U+1F31F: "🌟" GLOWING STAR -->
+  <string name="spoken_emoji_1F31F">"Loistava tähti"</string>
+  <!-- Spoken description for Unicode code point U+1F320: "🌠" SHOOTING STAR -->
+  <string name="spoken_emoji_1F320">"Tähdenlento"</string>
+  <!-- Spoken description for Unicode code point U+1F330: "🌰" CHESTNUT -->
+  <string name="spoken_emoji_1F330">"Kastanja"</string>
+  <!-- Spoken description for Unicode code point U+1F331: "🌱" SEEDLING -->
+  <string name="spoken_emoji_1F331">"Taimi"</string>
+  <!-- Spoken description for Unicode code point U+1F332: "🌲" EVERGREEN TREE -->
+  <string name="spoken_emoji_1F332">"Havupuu"</string>
+  <!-- Spoken description for Unicode code point U+1F333: "🌳" DECIDUOUS TREE -->
+  <string name="spoken_emoji_1F333">"Lehtipuu"</string>
+  <!-- Spoken description for Unicode code point U+1F334: "🌴" PALM TREE -->
+  <string name="spoken_emoji_1F334">"Palmu"</string>
+  <!-- Spoken description for Unicode code point U+1F335: "🌵" CACTUS -->
+  <string name="spoken_emoji_1F335">"Kaktus"</string>
+  <!-- Spoken description for Unicode code point U+1F337: "🌷" TULIP -->
+  <string name="spoken_emoji_1F337">"Tulppaani"</string>
+  <!-- Spoken description for Unicode code point U+1F338: "🌸" CHERRY BLOSSOM -->
+  <string name="spoken_emoji_1F338">"Kirsikankukka"</string>
+  <!-- Spoken description for Unicode code point U+1F339: "🌹" ROSE -->
+  <string name="spoken_emoji_1F339">"Ruusu"</string>
+  <!-- Spoken description for Unicode code point U+1F33A: "🌺" HIBISCUS -->
+  <string name="spoken_emoji_1F33A">"Kiinanruusu"</string>
+  <!-- Spoken description for Unicode code point U+1F33B: "🌻" SUNFLOWER -->
+  <string name="spoken_emoji_1F33B">"Auringonkukka"</string>
+  <!-- Spoken description for Unicode code point U+1F33C: "🌼" BLOSSOM -->
+  <string name="spoken_emoji_1F33C">"Kukka"</string>
+  <!-- Spoken description for Unicode code point U+1F33D: "🌽" EAR OF MAIZE -->
+  <string name="spoken_emoji_1F33D">"Maissintähkä"</string>
+  <!-- Spoken description for Unicode code point U+1F33E: "🌾" EAR OF RICE -->
+  <string name="spoken_emoji_1F33E">"Riisintähkä"</string>
+  <!-- Spoken description for Unicode code point U+1F33F: "🌿" HERB -->
+  <string name="spoken_emoji_1F33F">"Yrtti"</string>
+  <!-- Spoken description for Unicode code point U+1F340: "🍀" FOUR LEAF CLOVER -->
+  <string name="spoken_emoji_1F340">"Neliapila"</string>
+  <!-- Spoken description for Unicode code point U+1F341: "🍁" MAPLE LEAF -->
+  <string name="spoken_emoji_1F341">"Vaahteranlehti"</string>
+  <!-- Spoken description for Unicode code point U+1F342: "🍂" FALLEN LEAF -->
+  <string name="spoken_emoji_1F342">"Pudonnut lehti"</string>
+  <!-- Spoken description for Unicode code point U+1F343: "🍃" LEAF FLUTTERING IN WIND -->
+  <string name="spoken_emoji_1F343">"Tuulessa leijaileva lehti"</string>
+  <!-- Spoken description for Unicode code point U+1F344: "🍄" MUSHROOM -->
+  <string name="spoken_emoji_1F344">"Sieni"</string>
+  <!-- Spoken description for Unicode code point U+1F345: "🍅" TOMATO -->
+  <string name="spoken_emoji_1F345">"Tomaatti"</string>
+  <!-- Spoken description for Unicode code point U+1F346: "🍆" AUBERGINE -->
+  <string name="spoken_emoji_1F346">"Munakoiso"</string>
+  <!-- Spoken description for Unicode code point U+1F347: "🍇" GRAPES -->
+  <string name="spoken_emoji_1F347">"Viinirypäleet"</string>
+  <!-- Spoken description for Unicode code point U+1F348: "🍈" MELON -->
+  <string name="spoken_emoji_1F348">"Meloni"</string>
+  <!-- Spoken description for Unicode code point U+1F349: "🍉" WATERMELON -->
+  <string name="spoken_emoji_1F349">"Vesimeloni"</string>
+  <!-- Spoken description for Unicode code point U+1F34A: "🍊" TANGERINE -->
+  <string name="spoken_emoji_1F34A">"Mandariini"</string>
+  <!-- Spoken description for Unicode code point U+1F34B: "🍋" LEMON -->
+  <string name="spoken_emoji_1F34B">"Sitruuna"</string>
+  <!-- Spoken description for Unicode code point U+1F34C: "🍌" BANANA -->
+  <string name="spoken_emoji_1F34C">"Banaani"</string>
+  <!-- Spoken description for Unicode code point U+1F34D: "🍍" PINEAPPLE -->
+  <string name="spoken_emoji_1F34D">"Ananas"</string>
+  <!-- Spoken description for Unicode code point U+1F34E: "🍎" RED APPLE -->
+  <string name="spoken_emoji_1F34E">"Punainen omena"</string>
+  <!-- Spoken description for Unicode code point U+1F34F: "🍏" GREEN APPLE -->
+  <string name="spoken_emoji_1F34F">"Vihreä omena"</string>
+  <!-- Spoken description for Unicode code point U+1F350: "🍐" PEAR -->
+  <string name="spoken_emoji_1F350">"Päärynä"</string>
+  <!-- Spoken description for Unicode code point U+1F351: "🍑" PEACH -->
+  <string name="spoken_emoji_1F351">"Persikka"</string>
+  <!-- Spoken description for Unicode code point U+1F352: "🍒" CHERRIES -->
+  <string name="spoken_emoji_1F352">"Kirsikat"</string>
+  <!-- Spoken description for Unicode code point U+1F353: "🍓" STRAWBERRY -->
+  <string name="spoken_emoji_1F353">"Mansikka"</string>
+  <!-- Spoken description for Unicode code point U+1F354: "🍔" HAMBURGER -->
+  <string name="spoken_emoji_1F354">"Hampurilainen"</string>
+  <!-- Spoken description for Unicode code point U+1F355: "🍕" SLICE OF PIZZA -->
+  <string name="spoken_emoji_1F355">"Pitsapala"</string>
+  <!-- Spoken description for Unicode code point U+1F356: "🍖" MEAT ON BONE -->
+  <string name="spoken_emoji_1F356">"Lihainen luu"</string>
+  <!-- Spoken description for Unicode code point U+1F357: "🍗" POULTRY LEG -->
+  <string name="spoken_emoji_1F357">"Kanankoipi"</string>
+  <!-- Spoken description for Unicode code point U+1F358: "🍘" RICE CRACKER -->
+  <string name="spoken_emoji_1F358">"Riisikeksi"</string>
+  <!-- Spoken description for Unicode code point U+1F359: "🍙" RICE BALL -->
+  <string name="spoken_emoji_1F359">"Riisipallo"</string>
+  <!-- Spoken description for Unicode code point U+1F35A: "🍚" COOKED RICE -->
+  <string name="spoken_emoji_1F35A">"Keitetty riisi"</string>
+  <!-- Spoken description for Unicode code point U+1F35B: "🍛" CURRY AND RICE -->
+  <string name="spoken_emoji_1F35B">"Curry ja riisi"</string>
+  <!-- Spoken description for Unicode code point U+1F35C: "🍜" STEAMING BOWL -->
+  <string name="spoken_emoji_1F35C">"Höyryävä kulho"</string>
+  <!-- Spoken description for Unicode code point U+1F35D: "🍝" SPAGHETTI -->
+  <string name="spoken_emoji_1F35D">"Spagetti"</string>
+  <!-- Spoken description for Unicode code point U+1F35E: "🍞" BREAD -->
+  <string name="spoken_emoji_1F35E">"Leipä"</string>
+  <!-- Spoken description for Unicode code point U+1F35F: "🍟" FRENCH FRIES -->
+  <string name="spoken_emoji_1F35F">"Ranskalaiset perunat"</string>
+  <!-- Spoken description for Unicode code point U+1F360: "🍠" ROASTED SWEET POTATO -->
+  <string name="spoken_emoji_1F360">"Jamssi"</string>
+  <!-- Spoken description for Unicode code point U+1F361: "🍡" DANGO -->
+  <string name="spoken_emoji_1F361">"Dango"</string>
+  <!-- Spoken description for Unicode code point U+1F362: "🍢" ODEN -->
+  <string name="spoken_emoji_1F362">"Oden"</string>
+  <!-- Spoken description for Unicode code point U+1F363: "🍣" SUSHI -->
+  <string name="spoken_emoji_1F363">"Sushi"</string>
+  <!-- Spoken description for Unicode code point U+1F364: "🍤" FRIED SHRIMP -->
+  <string name="spoken_emoji_1F364">"Friteeratut katkaravut"</string>
+  <!-- Spoken description for Unicode code point U+1F365: "🍥" FISH CAKE WITH SWIRL DESIGN -->
+  <string name="spoken_emoji_1F365">"Surimiviipale, jossa pyörrekuvio"</string>
+  <!-- Spoken description for Unicode code point U+1F366: "🍦" SOFT ICE CREAM -->
+  <string name="spoken_emoji_1F366">"Pehmytjäätelö"</string>
+  <!-- Spoken description for Unicode code point U+1F367: "🍧" SHAVED ICE -->
+  <string name="spoken_emoji_1F367">"Murskattu jää"</string>
+  <!-- Spoken description for Unicode code point U+1F368: "🍨" ICE CREAM -->
+  <string name="spoken_emoji_1F368">"Jäätelö"</string>
+  <!-- Spoken description for Unicode code point U+1F369: "🍩" DOUGHNUT -->
+  <string name="spoken_emoji_1F369">"Donitsi"</string>
+  <!-- Spoken description for Unicode code point U+1F36A: "🍪" COOKIE -->
+  <string name="spoken_emoji_1F36A">"Pikkuleipä"</string>
+  <!-- Spoken description for Unicode code point U+1F36B: "🍫" CHOCOLATE BAR -->
+  <string name="spoken_emoji_1F36B">"Suklaapatukka"</string>
+  <!-- Spoken description for Unicode code point U+1F36C: "🍬" CANDY -->
+  <string name="spoken_emoji_1F36C">"Karamelli"</string>
+  <!-- Spoken description for Unicode code point U+1F36D: "🍭" LOLLIPOP -->
+  <string name="spoken_emoji_1F36D">"Tikkari"</string>
+  <!-- Spoken description for Unicode code point U+1F36E: "🍮" CUSTARD -->
+  <string name="spoken_emoji_1F36E">"Vanukas"</string>
+  <!-- Spoken description for Unicode code point U+1F36F: "🍯" HONEY POT -->
+  <string name="spoken_emoji_1F36F">"Hunajapurkki"</string>
+  <!-- Spoken description for Unicode code point U+1F370: "🍰" SHORTCAKE -->
+  <string name="spoken_emoji_1F370">"Kakkuviipale"</string>
+  <!-- Spoken description for Unicode code point U+1F371: "🍱" BENTO BOX -->
+  <string name="spoken_emoji_1F371">"Bento-lounaslaatikko"</string>
+  <!-- Spoken description for Unicode code point U+1F372: "🍲" POT OF FOOD -->
+  <string name="spoken_emoji_1F372">"Ruokapata"</string>
+  <!-- Spoken description for Unicode code point U+1F373: "🍳" COOKING -->
+  <string name="spoken_emoji_1F373">"Ruoanlaitto"</string>
+  <!-- Spoken description for Unicode code point U+1F374: "🍴" FORK AND KNIFE -->
+  <string name="spoken_emoji_1F374">"Haarukka ja veitsi"</string>
+  <!-- Spoken description for Unicode code point U+1F375: "🍵" TEACUP WITHOUT HANDLE -->
+  <string name="spoken_emoji_1F375">"Teekuppi ilman korvaa"</string>
+  <!-- Spoken description for Unicode code point U+1F376: "🍶" SAKE BOTTLE AND CUP -->
+  <string name="spoken_emoji_1F376">"Sake-pullo ja kuppi"</string>
+  <!-- Spoken description for Unicode code point U+1F377: "🍷" WINE GLASS -->
+  <string name="spoken_emoji_1F377">"Viinilasi"</string>
+  <!-- Spoken description for Unicode code point U+1F378: "🍸" COCKTAIL GLASS -->
+  <string name="spoken_emoji_1F378">"Cocktail-lasi"</string>
+  <!-- Spoken description for Unicode code point U+1F379: "🍹" TROPICAL DRINK -->
+  <string name="spoken_emoji_1F379">"Trooppinen drinkki"</string>
+  <!-- Spoken description for Unicode code point U+1F37A: "🍺" BEER MUG -->
+  <string name="spoken_emoji_1F37A">"Oluttuoppi"</string>
+  <!-- Spoken description for Unicode code point U+1F37B: "🍻" CLINKING BEER MUGS -->
+  <string name="spoken_emoji_1F37B">"Kippistävät olutmukit"</string>
+  <!-- Spoken description for Unicode code point U+1F37C: "🍼" BABY BOTTLE -->
+  <string name="spoken_emoji_1F37C">"Tuttipullo"</string>
+  <!-- Spoken description for Unicode code point U+1F380: "🎀" RIBBON -->
+  <string name="spoken_emoji_1F380">"Rusetti"</string>
+  <!-- Spoken description for Unicode code point U+1F381: "🎁" WRAPPED PRESENT -->
+  <string name="spoken_emoji_1F381">"Lahjapaketti"</string>
+  <!-- Spoken description for Unicode code point U+1F382: "🎂" BIRTHDAY CAKE -->
+  <string name="spoken_emoji_1F382">"Syntymäpäiväkakku"</string>
+  <!-- Spoken description for Unicode code point U+1F383: "🎃" JACK-O-LANTERN -->
+  <string name="spoken_emoji_1F383">"Kurpitsalyhty"</string>
+  <!-- Spoken description for Unicode code point U+1F384: "🎄" CHRISTMAS TREE -->
+  <string name="spoken_emoji_1F384">"Joulukuusi"</string>
+  <!-- Spoken description for Unicode code point U+1F385: "🎅" FATHER CHRISTMAS -->
+  <string name="spoken_emoji_1F385">"Joulupukki"</string>
+  <!-- Spoken description for Unicode code point U+1F386: "🎆" FIREWORKS -->
+  <string name="spoken_emoji_1F386">"Ilotulitus"</string>
+  <!-- Spoken description for Unicode code point U+1F387: "🎇" FIREWORK SPARKLER -->
+  <string name="spoken_emoji_1F387">"Tähtisadetikku"</string>
+  <!-- Spoken description for Unicode code point U+1F388: "🎈" BALLOON -->
+  <string name="spoken_emoji_1F388">"Ilmapallo"</string>
+  <!-- Spoken description for Unicode code point U+1F389: "🎉" PARTY POPPER -->
+  <string name="spoken_emoji_1F389">"Konfettipommi"</string>
+  <!-- Spoken description for Unicode code point U+1F38A: "🎊" CONFETTI BALL -->
+  <string name="spoken_emoji_1F38A">"Konfettipallo"</string>
+  <!-- Spoken description for Unicode code point U+1F38B: "🎋" TANABATA TREE -->
+  <string name="spoken_emoji_1F38B">"Tanabata-puu"</string>
+  <!-- Spoken description for Unicode code point U+1F38C: "🎌" CROSSED FLAGS -->
+  <string name="spoken_emoji_1F38C">"Liput ristikkäin"</string>
+  <!-- Spoken description for Unicode code point U+1F38D: "🎍" PINE DECORATION -->
+  <string name="spoken_emoji_1F38D">"Japanilainen mäntykoriste"</string>
+  <!-- Spoken description for Unicode code point U+1F38E: "🎎" JAPANESE DOLLS -->
+  <string name="spoken_emoji_1F38E">"Japanilaiset nuket"</string>
+  <!-- Spoken description for Unicode code point U+1F38F: "🎏" CARP STREAMER -->
+  <string name="spoken_emoji_1F38F">"Kalanmuotoiset tuulipussit"</string>
+  <!-- Spoken description for Unicode code point U+1F390: "🎐" WIND CHIME -->
+  <string name="spoken_emoji_1F390">"Tuulikello"</string>
+  <!-- Spoken description for Unicode code point U+1F391: "🎑" MOON VIEWING CEREMONY -->
+  <string name="spoken_emoji_1F391">"Kuujuhla"</string>
+  <!-- Spoken description for Unicode code point U+1F392: "🎒" SCHOOL SATCHEL -->
+  <string name="spoken_emoji_1F392">"Koululaukku"</string>
+  <!-- Spoken description for Unicode code point U+1F393: "🎓" GRADUATION CAP -->
+  <string name="spoken_emoji_1F393">"Valmistujaislakki"</string>
+  <!-- Spoken description for Unicode code point U+1F3A0: "🎠" CAROUSEL HORSE -->
+  <string name="spoken_emoji_1F3A0">"Karusellihevonen"</string>
+  <!-- Spoken description for Unicode code point U+1F3A1: "🎡" FERRIS WHEEL -->
+  <string name="spoken_emoji_1F3A1">"Maailmanpyörä"</string>
+  <!-- Spoken description for Unicode code point U+1F3A2: "🎢" ROLLER COASTER -->
+  <string name="spoken_emoji_1F3A2">"Vuoristorata"</string>
+  <!-- Spoken description for Unicode code point U+1F3A3: "🎣" FISHING POLE AND FISH -->
+  <string name="spoken_emoji_1F3A3">"Onki ja kala"</string>
+  <!-- Spoken description for Unicode code point U+1F3A4: "🎤" MICROPHONE -->
+  <string name="spoken_emoji_1F3A4">"Mikrofoni"</string>
+  <!-- Spoken description for Unicode code point U+1F3A5: "🎥" MOVIE CAMERA -->
+  <string name="spoken_emoji_1F3A5">"Elokuvakamera"</string>
+  <!-- Spoken description for Unicode code point U+1F3A6: "🎦" CINEMA -->
+  <string name="spoken_emoji_1F3A6">"Elokuvateatteri"</string>
+  <!-- Spoken description for Unicode code point U+1F3A7: "🎧" HEADPHONE -->
+  <string name="spoken_emoji_1F3A7">"Kuulokkeet"</string>
+  <!-- Spoken description for Unicode code point U+1F3A8: "🎨" ARTIST PALETTE -->
+  <string name="spoken_emoji_1F3A8">"Taiteilijan paletti"</string>
+  <!-- Spoken description for Unicode code point U+1F3A9: "🎩" TOP HAT -->
+  <string name="spoken_emoji_1F3A9">"Silinterihattu"</string>
+  <!-- Spoken description for Unicode code point U+1F3AA: "🎪" CIRCUS TENT -->
+  <string name="spoken_emoji_1F3AA">"Sirkusteltta"</string>
+  <!-- Spoken description for Unicode code point U+1F3AB: "🎫" TICKET -->
+  <string name="spoken_emoji_1F3AB">"Lippu"</string>
+  <!-- Spoken description for Unicode code point U+1F3AC: "🎬" CLAPPER BOARD -->
+  <string name="spoken_emoji_1F3AC">"Klaffi"</string>
+  <!-- Spoken description for Unicode code point U+1F3AD: "🎭" PERFORMING ARTS -->
+  <string name="spoken_emoji_1F3AD">"Näyttämötaide"</string>
+  <!-- Spoken description for Unicode code point U+1F3AE: "🎮" VIDEO GAME -->
+  <string name="spoken_emoji_1F3AE">"Videopeli"</string>
+  <!-- Spoken description for Unicode code point U+1F3AF: "🎯" DIRECT HIT -->
+  <string name="spoken_emoji_1F3AF">"Napakymppi"</string>
+  <!-- Spoken description for Unicode code point U+1F3B0: "🎰" SLOT MACHINE -->
+  <string name="spoken_emoji_1F3B0">"Peliautomaatti"</string>
+  <!-- Spoken description for Unicode code point U+1F3B1: "🎱" BILLIARDS -->
+  <string name="spoken_emoji_1F3B1">"Biljardi"</string>
+  <!-- Spoken description for Unicode code point U+1F3B2: "🎲" GAME DIE -->
+  <string name="spoken_emoji_1F3B2">"Arpakuutio"</string>
+  <!-- Spoken description for Unicode code point U+1F3B3: "🎳" BOWLING -->
+  <string name="spoken_emoji_1F3B3">"Keilailu"</string>
+  <!-- Spoken description for Unicode code point U+1F3B4: "🎴" FLOWER PLAYING CARDS -->
+  <string name="spoken_emoji_1F3B4">"Hanafuda-pelikortit"</string>
+  <!-- Spoken description for Unicode code point U+1F3B5: "🎵" MUSICAL NOTE -->
+  <string name="spoken_emoji_1F3B5">"Nuotti"</string>
+  <!-- Spoken description for Unicode code point U+1F3B6: "🎶" MULTIPLE MUSICAL NOTES -->
+  <string name="spoken_emoji_1F3B6">"Nuotteja"</string>
+  <!-- Spoken description for Unicode code point U+1F3B7: "🎷" SAXOPHONE -->
+  <string name="spoken_emoji_1F3B7">"Saksofoni"</string>
+  <!-- Spoken description for Unicode code point U+1F3B8: "🎸" GUITAR -->
+  <string name="spoken_emoji_1F3B8">"Kitara"</string>
+  <!-- Spoken description for Unicode code point U+1F3B9: "🎹" MUSICAL KEYBOARD -->
+  <string name="spoken_emoji_1F3B9">"Koskettimet"</string>
+  <!-- Spoken description for Unicode code point U+1F3BA: "🎺" TRUMPET -->
+  <string name="spoken_emoji_1F3BA">"Trumpetti"</string>
+  <!-- Spoken description for Unicode code point U+1F3BB: "🎻" VIOLIN -->
+  <string name="spoken_emoji_1F3BB">"Viulu"</string>
+  <!-- Spoken description for Unicode code point U+1F3BC: "🎼" MUSICAL SCORE -->
+  <string name="spoken_emoji_1F3BC">"Nuottiviivasto"</string>
+  <!-- Spoken description for Unicode code point U+1F3BD: "🎽" RUNNING SHIRT WITH SASH -->
+  <string name="spoken_emoji_1F3BD">"Juoksupaita"</string>
+  <!-- Spoken description for Unicode code point U+1F3BE: "🎾" TENNIS RACQUET AND BALL -->
+  <string name="spoken_emoji_1F3BE">"Tennismaila ja pallo"</string>
+  <!-- Spoken description for Unicode code point U+1F3BF: "🎿" SKI AND SKI BOOT -->
+  <string name="spoken_emoji_1F3BF">"Suksi ja mono"</string>
+  <!-- Spoken description for Unicode code point U+1F3C0: "🏀" BASKETBALL AND HOOP -->
+  <string name="spoken_emoji_1F3C0">"Koripallo ja kori"</string>
+  <!-- Spoken description for Unicode code point U+1F3C1: "🏁" CHEQUERED FLAG -->
+  <string name="spoken_emoji_1F3C1">"Ruutulippu"</string>
+  <!-- Spoken description for Unicode code point U+1F3C2: "🏂" SNOWBOARDER -->
+  <string name="spoken_emoji_1F3C2">"Lumilautailija"</string>
+  <!-- Spoken description for Unicode code point U+1F3C3: "🏃" RUNNER -->
+  <string name="spoken_emoji_1F3C3">"Juoksija"</string>
+  <!-- Spoken description for Unicode code point U+1F3C4: "🏄" SURFER -->
+  <string name="spoken_emoji_1F3C4">"Lainelautailija"</string>
+  <!-- Spoken description for Unicode code point U+1F3C6: "🏆" TROPHY -->
+  <string name="spoken_emoji_1F3C6">"Palkintopokaali"</string>
+  <!-- Spoken description for Unicode code point U+1F3C7: "🏇" HORSE RACING -->
+  <string name="spoken_emoji_1F3C7">"Laukkakilpailut"</string>
+  <!-- Spoken description for Unicode code point U+1F3C8: "🏈" AMERICAN FOOTBALL -->
+  <string name="spoken_emoji_1F3C8">"Amerikkalainen jalkapallo"</string>
+  <!-- Spoken description for Unicode code point U+1F3C9: "🏉" RUGBY FOOTBALL -->
+  <string name="spoken_emoji_1F3C9">"Rugby-pallo"</string>
+  <!-- Spoken description for Unicode code point U+1F3CA: "🏊" SWIMMER -->
+  <string name="spoken_emoji_1F3CA">"Uimari"</string>
+  <!-- Spoken description for Unicode code point U+1F3E0: "🏠" HOUSE BUILDING -->
+  <string name="spoken_emoji_1F3E0">"Talo"</string>
+  <!-- Spoken description for Unicode code point U+1F3E1: "🏡" HOUSE WITH GARDEN -->
+  <string name="spoken_emoji_1F3E1">"Talo ja puutarha"</string>
+  <!-- Spoken description for Unicode code point U+1F3E2: "🏢" OFFICE BUILDING -->
+  <string name="spoken_emoji_1F3E2">"Toimistorakennus"</string>
+  <!-- Spoken description for Unicode code point U+1F3E3: "🏣" JAPANESE POST OFFICE -->
+  <string name="spoken_emoji_1F3E3">"Japanilainen postitoimisto"</string>
+  <!-- Spoken description for Unicode code point U+1F3E4: "🏤" EUROPEAN POST OFFICE -->
+  <string name="spoken_emoji_1F3E4">"Eurooppalainen postitoimisto"</string>
+  <!-- Spoken description for Unicode code point U+1F3E5: "🏥" HOSPITAL -->
+  <string name="spoken_emoji_1F3E5">"Sairaala"</string>
+  <!-- Spoken description for Unicode code point U+1F3E6: "🏦" BANK -->
+  <string name="spoken_emoji_1F3E6">"Pankki"</string>
+  <!-- Spoken description for Unicode code point U+1F3E7: "🏧" AUTOMATED TELLER MACHINE -->
+  <string name="spoken_emoji_1F3E7">"Pankkiautomaatti"</string>
+  <!-- Spoken description for Unicode code point U+1F3E8: "🏨" HOTEL -->
+  <string name="spoken_emoji_1F3E8">"Hotelli"</string>
+  <!-- Spoken description for Unicode code point U+1F3E9: "🏩" LOVE HOTEL -->
+  <string name="spoken_emoji_1F3E9">"Japanilainen love-hotelli"</string>
+  <!-- Spoken description for Unicode code point U+1F3EA: "🏪" CONVENIENCE STORE -->
+  <string name="spoken_emoji_1F3EA">"Päivittäistavarakauppa"</string>
+  <!-- Spoken description for Unicode code point U+1F3EB: "🏫" SCHOOL -->
+  <string name="spoken_emoji_1F3EB">"Koulu"</string>
+  <!-- Spoken description for Unicode code point U+1F3EC: "🏬" DEPARTMENT STORE -->
+  <string name="spoken_emoji_1F3EC">"Tavaratalo"</string>
+  <!-- Spoken description for Unicode code point U+1F3ED: "🏭" FACTORY -->
+  <string name="spoken_emoji_1F3ED">"Tehdas"</string>
+  <!-- Spoken description for Unicode code point U+1F3EE: "🏮" IZAKAYA LANTERN -->
+  <string name="spoken_emoji_1F3EE">"Izakaya-ravintolan lyhty"</string>
+  <!-- Spoken description for Unicode code point U+1F3EF: "🏯" JAPANESE CASTLE -->
+  <string name="spoken_emoji_1F3EF">"Japanilainen linna"</string>
+  <!-- Spoken description for Unicode code point U+1F3F0: "🏰" EUROPEAN CASTLE -->
+  <string name="spoken_emoji_1F3F0">"Eurooppalainen linna"</string>
+  <!-- Spoken description for Unicode code point U+1F400: "🐀" RAT -->
+  <string name="spoken_emoji_1F400">"Rotta"</string>
+  <!-- Spoken description for Unicode code point U+1F401: "🐁" MOUSE -->
+  <string name="spoken_emoji_1F401">"Hiiri"</string>
+  <!-- Spoken description for Unicode code point U+1F402: "🐂" OX -->
+  <string name="spoken_emoji_1F402">"Härkä"</string>
+  <!-- Spoken description for Unicode code point U+1F403: "🐃" WATER BUFFALO -->
+  <string name="spoken_emoji_1F403">"Vesipuhveli"</string>
+  <!-- Spoken description for Unicode code point U+1F404: "🐄" COW -->
+  <string name="spoken_emoji_1F404">"Lehmä"</string>
+  <!-- Spoken description for Unicode code point U+1F406: "🐆" LEOPARD -->
+  <string name="spoken_emoji_1F406">"Leopardi"</string>
+  <!-- Spoken description for Unicode code point U+1F407: "🐇" RABBIT -->
+  <string name="spoken_emoji_1F407">"Jänis"</string>
+  <!-- Spoken description for Unicode code point U+1F408: "🐈" CAT -->
+  <string name="spoken_emoji_1F408">"Kissa"</string>
+  <!-- Spoken description for Unicode code point U+1F409: "🐉" DRAGON -->
+  <string name="spoken_emoji_1F409">"Lohikäärme"</string>
+  <!-- Spoken description for Unicode code point U+1F40A: "🐊" CROCODILE -->
+  <string name="spoken_emoji_1F40A">"Krokotiili"</string>
+  <!-- Spoken description for Unicode code point U+1F40B: "🐋" WHALE -->
+  <string name="spoken_emoji_1F40B">"Valas"</string>
+  <!-- Spoken description for Unicode code point U+1F40C: "🐌" SNAIL -->
+  <string name="spoken_emoji_1F40C">"Etana"</string>
+  <!-- Spoken description for Unicode code point U+1F40D: "🐍" SNAKE -->
+  <string name="spoken_emoji_1F40D">"Käärme"</string>
+  <!-- Spoken description for Unicode code point U+1F40E: "🐎" HORSE -->
+  <string name="spoken_emoji_1F40E">"Hevonen"</string>
+  <!-- Spoken description for Unicode code point U+1F40F: "🐏" RAM -->
+  <string name="spoken_emoji_1F40F">"Pässi"</string>
+  <!-- Spoken description for Unicode code point U+1F410: "🐐" GOAT -->
+  <string name="spoken_emoji_1F410">"Vuohi"</string>
+  <!-- Spoken description for Unicode code point U+1F411: "🐑" SHEEP -->
+  <string name="spoken_emoji_1F411">"Lammas"</string>
+  <!-- Spoken description for Unicode code point U+1F412: "🐒" MONKEY -->
+  <string name="spoken_emoji_1F412">"Apina"</string>
+  <!-- Spoken description for Unicode code point U+1F413: "🐓" ROOSTER -->
+  <string name="spoken_emoji_1F413">"Kukko"</string>
+  <!-- Spoken description for Unicode code point U+1F414: "🐔" CHICKEN -->
+  <string name="spoken_emoji_1F414">"Kana"</string>
+  <!-- Spoken description for Unicode code point U+1F415: "🐕" DOG -->
+  <string name="spoken_emoji_1F415">"Koira"</string>
+  <!-- Spoken description for Unicode code point U+1F416: "🐖" PIG -->
+  <string name="spoken_emoji_1F416">"Sika"</string>
+  <!-- Spoken description for Unicode code point U+1F417: "🐗" BOAR -->
+  <string name="spoken_emoji_1F417">"Villisika"</string>
+  <!-- Spoken description for Unicode code point U+1F418: "🐘" ELEPHANT -->
+  <string name="spoken_emoji_1F418">"Norsu"</string>
+  <!-- Spoken description for Unicode code point U+1F419: "🐙" OCTOPUS -->
+  <string name="spoken_emoji_1F419">"Mustekala"</string>
+  <!-- Spoken description for Unicode code point U+1F41A: "🐚" SPIRAL SHELL -->
+  <string name="spoken_emoji_1F41A">"Simpukankuori"</string>
+  <!-- Spoken description for Unicode code point U+1F41B: "🐛" BUG -->
+  <string name="spoken_emoji_1F41B">"Hyönteinen"</string>
+  <!-- Spoken description for Unicode code point U+1F41C: "🐜" ANT -->
+  <string name="spoken_emoji_1F41C">"Muurahainen"</string>
+  <!-- Spoken description for Unicode code point U+1F41D: "🐝" HONEYBEE -->
+  <string name="spoken_emoji_1F41D">"Mehiläinen"</string>
+  <!-- Spoken description for Unicode code point U+1F41E: "🐞" LADY BEETLE -->
+  <string name="spoken_emoji_1F41E">"Leppäkerttu"</string>
+  <!-- Spoken description for Unicode code point U+1F41F: "🐟" FISH -->
+  <string name="spoken_emoji_1F41F">"Kala"</string>
+  <!-- Spoken description for Unicode code point U+1F420: "🐠" TROPICAL FISH -->
+  <string name="spoken_emoji_1F420">"Trooppinen kala"</string>
+  <!-- Spoken description for Unicode code point U+1F421: "🐡" BLOWFISH -->
+  <string name="spoken_emoji_1F421">"Pallokala"</string>
+  <!-- Spoken description for Unicode code point U+1F422: "🐢" TURTLE -->
+  <string name="spoken_emoji_1F422">"Kilpikonna"</string>
+  <!-- Spoken description for Unicode code point U+1F423: "🐣" HATCHING CHICK -->
+  <string name="spoken_emoji_1F423">"Kuoriutuva kananpoika"</string>
+  <!-- Spoken description for Unicode code point U+1F424: "🐤" BABY CHICK -->
+  <string name="spoken_emoji_1F424">"Kananpoika"</string>
+  <!-- Spoken description for Unicode code point U+1F425: "🐥" FRONT-FACING BABY CHICK -->
+  <string name="spoken_emoji_1F425">"Eteenpäin katsova kananpoika"</string>
+  <!-- Spoken description for Unicode code point U+1F426: "🐦" BIRD -->
+  <string name="spoken_emoji_1F426">"Lintu"</string>
+  <!-- Spoken description for Unicode code point U+1F427: "🐧" PENGUIN -->
+  <string name="spoken_emoji_1F427">"Pingviini"</string>
+  <!-- Spoken description for Unicode code point U+1F428: "🐨" KOALA -->
+  <string name="spoken_emoji_1F428">"Koala"</string>
+  <!-- Spoken description for Unicode code point U+1F429: "🐩" POODLE -->
+  <string name="spoken_emoji_1F429">"Villakoira"</string>
+  <!-- Spoken description for Unicode code point U+1F42A: "🐪" DROMEDARY CAMEL -->
+  <string name="spoken_emoji_1F42A">"Yksikyttyräinen kameli"</string>
+  <!-- Spoken description for Unicode code point U+1F42B: "🐫" BACTRIAN CAMEL -->
+  <string name="spoken_emoji_1F42B">"Kaksikyttyräinen kameli"</string>
+  <!-- Spoken description for Unicode code point U+1F42C: "🐬" DOLPHIN -->
+  <string name="spoken_emoji_1F42C">"Delfiini"</string>
+  <!-- Spoken description for Unicode code point U+1F42D: "🐭" MOUSE FACE -->
+  <string name="spoken_emoji_1F42D">"Hiiren pää"</string>
+  <!-- Spoken description for Unicode code point U+1F42E: "🐮" COW FACE -->
+  <string name="spoken_emoji_1F42E">"Lehmän pää"</string>
+  <!-- Spoken description for Unicode code point U+1F42F: "🐯" TIGER FACE -->
+  <string name="spoken_emoji_1F42F">"Tiikerin pää"</string>
+  <!-- Spoken description for Unicode code point U+1F430: "🐰" RABBIT FACE -->
+  <string name="spoken_emoji_1F430">"Jäniksen pää"</string>
+  <!-- Spoken description for Unicode code point U+1F431: "🐱" CAT FACE -->
+  <string name="spoken_emoji_1F431">"Kissan pää"</string>
+  <!-- Spoken description for Unicode code point U+1F432: "🐲" DRAGON FACE -->
+  <string name="spoken_emoji_1F432">"Lohikäärmeen pää"</string>
+  <!-- Spoken description for Unicode code point U+1F433: "🐳" SPOUTING WHALE -->
+  <string name="spoken_emoji_1F433">"Valas ja vesisuihku"</string>
+  <!-- Spoken description for Unicode code point U+1F434: "🐴" HORSE FACE -->
+  <string name="spoken_emoji_1F434">"Hevosen pää"</string>
+  <!-- Spoken description for Unicode code point U+1F435: "🐵" MONKEY FACE -->
+  <string name="spoken_emoji_1F435">"Apinan pää"</string>
+  <!-- Spoken description for Unicode code point U+1F436: "🐶" DOG FACE -->
+  <string name="spoken_emoji_1F436">"Koiran pää"</string>
+  <!-- Spoken description for Unicode code point U+1F437: "🐷" PIG FACE -->
+  <string name="spoken_emoji_1F437">"Sian pää"</string>
+  <!-- Spoken description for Unicode code point U+1F438: "🐸" FROG FACE -->
+  <string name="spoken_emoji_1F438">"Sammakon pää"</string>
+  <!-- Spoken description for Unicode code point U+1F439: "🐹" HAMSTER FACE -->
+  <string name="spoken_emoji_1F439">"Hamsterin pää"</string>
+  <!-- Spoken description for Unicode code point U+1F43A: "🐺" WOLF FACE -->
+  <string name="spoken_emoji_1F43A">"Suden pää"</string>
+  <!-- Spoken description for Unicode code point U+1F43B: "🐻" BEAR FACE -->
+  <string name="spoken_emoji_1F43B">"Karhun pää"</string>
+  <!-- Spoken description for Unicode code point U+1F43C: "🐼" PANDA FACE -->
+  <string name="spoken_emoji_1F43C">"Pandan pää"</string>
+  <!-- Spoken description for Unicode code point U+1F43D: "🐽" PIG NOSE -->
+  <string name="spoken_emoji_1F43D">"Sian kärsä"</string>
+  <!-- Spoken description for Unicode code point U+1F43E: "🐾" PAW PRINTS -->
+  <string name="spoken_emoji_1F43E">"Tassunjäljet"</string>
+  <!-- Spoken description for Unicode code point U+1F440: "👀" EYES -->
+  <string name="spoken_emoji_1F440">"Silmät"</string>
+  <!-- Spoken description for Unicode code point U+1F442: "👂" EAR -->
+  <string name="spoken_emoji_1F442">"Korva"</string>
+  <!-- Spoken description for Unicode code point U+1F443: "👃" NOSE -->
+  <string name="spoken_emoji_1F443">"Nenä"</string>
+  <!-- Spoken description for Unicode code point U+1F444: "👄" MOUTH -->
+  <string name="spoken_emoji_1F444">"Suu"</string>
+  <!-- Spoken description for Unicode code point U+1F445: "👅" TONGUE -->
+  <string name="spoken_emoji_1F445">"Kieli"</string>
+  <!-- Spoken description for Unicode code point U+1F446: "👆" WHITE UP POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F446">"Valkoinen käsi, ylös osoittava etusormi"</string>
+  <!-- Spoken description for Unicode code point U+1F447: "👇" WHITE DOWN POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F447">"Valkoinen käsi, alas osoittava etusormi"</string>
+  <!-- Spoken description for Unicode code point U+1F448: "👈" WHITE LEFT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F448">"Valkoinen käsi, vasemmalle osoittava etusormi"</string>
+  <!-- Spoken description for Unicode code point U+1F449: "👉" WHITE RIGHT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F449">"Valkoinen käsi, oikealle osoittava etusormi"</string>
+  <!-- Spoken description for Unicode code point U+1F44A: "👊" FISTED HAND SIGN -->
+  <string name="spoken_emoji_1F44A">"Käsi nyrkissä"</string>
+  <!-- Spoken description for Unicode code point U+1F44B: "👋" WAVING HAND SIGN -->
+  <string name="spoken_emoji_1F44B">"Vilkuttava käsi"</string>
+  <!-- Spoken description for Unicode code point U+1F44C: "👌" OK HAND SIGN -->
+  <string name="spoken_emoji_1F44C">"OK-merkki"</string>
+  <!-- Spoken description for Unicode code point U+1F44D: "👍" THUMBS UP SIGN -->
+  <string name="spoken_emoji_1F44D">"Peukalo pystyssä"</string>
+  <!-- Spoken description for Unicode code point U+1F44E: "👎" THUMBS DOWN SIGN -->
+  <string name="spoken_emoji_1F44E">"Peukalo alaspäin"</string>
+  <!-- Spoken description for Unicode code point U+1F44F: "👏" CLAPPING HANDS SIGN -->
+  <string name="spoken_emoji_1F44F">"Taputtavat kädet"</string>
+  <!-- Spoken description for Unicode code point U+1F450: "👐" OPEN HANDS SIGN -->
+  <string name="spoken_emoji_1F450">"Avoimet kämmenet"</string>
+  <!-- Spoken description for Unicode code point U+1F451: "👑" CROWN -->
+  <string name="spoken_emoji_1F451">"Kruunu"</string>
+  <!-- Spoken description for Unicode code point U+1F452: "👒" WOMANS HAT -->
+  <string name="spoken_emoji_1F452">"Naisen hattu"</string>
+  <!-- Spoken description for Unicode code point U+1F453: "👓" EYEGLASSES -->
+  <string name="spoken_emoji_1F453">"Silmälasit"</string>
+  <!-- Spoken description for Unicode code point U+1F454: "👔" NECKTIE -->
+  <string name="spoken_emoji_1F454">"Kravatti"</string>
+  <!-- Spoken description for Unicode code point U+1F455: "👕" T-SHIRT -->
+  <string name="spoken_emoji_1F455">"T-paita"</string>
+  <!-- Spoken description for Unicode code point U+1F456: "👖" JEANS -->
+  <string name="spoken_emoji_1F456">"Farkut"</string>
+  <!-- Spoken description for Unicode code point U+1F457: "👗" DRESS -->
+  <string name="spoken_emoji_1F457">"Leninki"</string>
+  <!-- Spoken description for Unicode code point U+1F458: "👘" KIMONO -->
+  <string name="spoken_emoji_1F458">"Kimono"</string>
+  <!-- Spoken description for Unicode code point U+1F459: "👙" BIKINI -->
+  <string name="spoken_emoji_1F459">"Bikinit"</string>
+  <!-- Spoken description for Unicode code point U+1F45A: "👚" WOMANS CLOTHES -->
+  <string name="spoken_emoji_1F45A">"Naisen paita"</string>
+  <!-- Spoken description for Unicode code point U+1F45B: "👛" PURSE -->
+  <string name="spoken_emoji_1F45B">"Kukkaro"</string>
+  <!-- Spoken description for Unicode code point U+1F45C: "👜" HANDBAG -->
+  <string name="spoken_emoji_1F45C">"Käsilaukku"</string>
+  <!-- Spoken description for Unicode code point U+1F45D: "👝" POUCH -->
+  <string name="spoken_emoji_1F45D">"Pussukka"</string>
+  <!-- Spoken description for Unicode code point U+1F45E: "👞" MANS SHOE -->
+  <string name="spoken_emoji_1F45E">"Miesten kenkä"</string>
+  <!-- Spoken description for Unicode code point U+1F45F: "👟" ATHLETIC SHOE -->
+  <string name="spoken_emoji_1F45F">"Urheilujalkine"</string>
+  <!-- Spoken description for Unicode code point U+1F460: "👠" HIGH-HEELED SHOE -->
+  <string name="spoken_emoji_1F460">"Korkokenkä"</string>
+  <!-- Spoken description for Unicode code point U+1F461: "👡" WOMANS SANDAL -->
+  <string name="spoken_emoji_1F461">"Naisen sandaali"</string>
+  <!-- Spoken description for Unicode code point U+1F462: "👢" WOMANS BOOTS -->
+  <string name="spoken_emoji_1F462">"Naisen saappaat"</string>
+  <!-- Spoken description for Unicode code point U+1F463: "👣" FOOTPRINTS -->
+  <string name="spoken_emoji_1F463">"Jalanjäljet"</string>
+  <!-- Spoken description for Unicode code point U+1F464: "👤" BUST IN SILHOUETTE -->
+  <string name="spoken_emoji_1F464">"Rintakuvan ääriviivat"</string>
+  <!-- Spoken description for Unicode code point U+1F465: "👥" BUSTS IN SILHOUETTE -->
+  <string name="spoken_emoji_1F465">"Rintakuvien ääriviivat"</string>
+  <!-- Spoken description for Unicode code point U+1F466: "👦" BOY -->
+  <string name="spoken_emoji_1F466">"Poika"</string>
+  <!-- Spoken description for Unicode code point U+1F467: "👧" GIRL -->
+  <string name="spoken_emoji_1F467">"Tyttö"</string>
+  <!-- Spoken description for Unicode code point U+1F468: "👨" MAN -->
+  <string name="spoken_emoji_1F468">"Mies"</string>
+  <!-- Spoken description for Unicode code point U+1F469: "👩" WOMAN -->
+  <string name="spoken_emoji_1F469">"Nainen"</string>
+  <!-- Spoken description for Unicode code point U+1F46A: "👪" FAMILY -->
+  <string name="spoken_emoji_1F46A">"Perhe"</string>
+  <!-- Spoken description for Unicode code point U+1F46B: "👫" MAN AND WOMAN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46B">"Mies ja nainen käsi kädessä"</string>
+  <!-- Spoken description for Unicode code point U+1F46C: "👬" TWO MEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46C">"Kaksi miestä käsi kädessä"</string>
+  <!-- Spoken description for Unicode code point U+1F46D: "👭" TWO WOMEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46D">"Kaksi naista käsi kädessä"</string>
+  <!-- Spoken description for Unicode code point U+1F46E: "👮" POLICE OFFICER -->
+  <string name="spoken_emoji_1F46E">"Poliisi"</string>
+  <!-- Spoken description for Unicode code point U+1F46F: "👯" WOMAN WITH BUNNY EARS -->
+  <string name="spoken_emoji_1F46F">"Nainen, jolla on pupun korvat"</string>
+  <!-- Spoken description for Unicode code point U+1F470: "👰" BRIDE WITH VEIL -->
+  <string name="spoken_emoji_1F470">"Morsian hunnussa"</string>
+  <!-- Spoken description for Unicode code point U+1F471: "👱" PERSON WITH BLOND HAIR -->
+  <string name="spoken_emoji_1F471">"Vaaleahiuksinen henkilö"</string>
+  <!-- Spoken description for Unicode code point U+1F472: "👲" MAN WITH GUA PI MAO -->
+  <string name="spoken_emoji_1F472">"Mies, jolla aasialainen päähine"</string>
+  <!-- Spoken description for Unicode code point U+1F473: "👳" MAN WITH TURBAN -->
+  <string name="spoken_emoji_1F473">"Mies, jolla turbaani"</string>
+  <!-- Spoken description for Unicode code point U+1F474: "👴" OLDER MAN -->
+  <string name="spoken_emoji_1F474">"Vanha mies"</string>
+  <!-- Spoken description for Unicode code point U+1F475: "👵" OLDER WOMAN -->
+  <string name="spoken_emoji_1F475">"Vanha nainen"</string>
+  <!-- Spoken description for Unicode code point U+1F476: "👶" BABY -->
+  <string name="spoken_emoji_1F476">"Vauva"</string>
+  <!-- Spoken description for Unicode code point U+1F477: "👷" CONSTRUCTION WORKER -->
+  <string name="spoken_emoji_1F477">"Rakennustyöläinen"</string>
+  <!-- Spoken description for Unicode code point U+1F478: "👸" PRINCESS -->
+  <string name="spoken_emoji_1F478">"Prinsessa"</string>
+  <!-- Spoken description for Unicode code point U+1F479: "👹" JAPANESE OGRE -->
+  <string name="spoken_emoji_1F479">"Japanilainen hirviö"</string>
+  <!-- Spoken description for Unicode code point U+1F47A: "👺" JAPANESE GOBLIN -->
+  <string name="spoken_emoji_1F47A">"Japanilainen menninkäinen"</string>
+  <!-- Spoken description for Unicode code point U+1F47B: "👻" GHOST -->
+  <string name="spoken_emoji_1F47B">"Kummitus"</string>
+  <!-- Spoken description for Unicode code point U+1F47C: "👼" BABY ANGEL -->
+  <string name="spoken_emoji_1F47C">"Enkelivauva"</string>
+  <!-- Spoken description for Unicode code point U+1F47D: "👽" EXTRATERRESTRIAL ALIEN -->
+  <string name="spoken_emoji_1F47D">"Ulkoavaruuden olento"</string>
+  <!-- Spoken description for Unicode code point U+1F47E: "👾" ALIEN MONSTER -->
+  <string name="spoken_emoji_1F47E">"Avaruusolio"</string>
+  <!-- Spoken description for Unicode code point U+1F47F: "👿" IMP -->
+  <string name="spoken_emoji_1F47F">"Pikkupiru"</string>
+  <!-- Spoken description for Unicode code point U+1F480: "💀" SKULL -->
+  <string name="spoken_emoji_1F480">"Kallo"</string>
+  <!-- Spoken description for Unicode code point U+1F481: "💁" INFORMATION DESK PERSON -->
+  <string name="spoken_emoji_1F481">"Asiakaspalvelija"</string>
+  <!-- Spoken description for Unicode code point U+1F482: "💂" GUARDSMAN -->
+  <string name="spoken_emoji_1F482">"Vartija"</string>
+  <!-- Spoken description for Unicode code point U+1F483: "💃" DANCER -->
+  <string name="spoken_emoji_1F483">"Tanssija"</string>
+  <!-- Spoken description for Unicode code point U+1F484: "💄" LIPSTICK -->
+  <string name="spoken_emoji_1F484">"Huulipuna"</string>
+  <!-- Spoken description for Unicode code point U+1F485: "💅" NAIL POLISH -->
+  <string name="spoken_emoji_1F485">"Kynsilakka"</string>
+  <!-- Spoken description for Unicode code point U+1F486: "💆" FACE MASSAGE -->
+  <string name="spoken_emoji_1F486">"Kasvohieronta"</string>
+  <!-- Spoken description for Unicode code point U+1F487: "💇" HAIRCUT -->
+  <string name="spoken_emoji_1F487">"Hiusten leikkaus"</string>
+  <!-- Spoken description for Unicode code point U+1F488: "💈" BARBER POLE -->
+  <string name="spoken_emoji_1F488">"Parturin pylväs"</string>
+  <!-- Spoken description for Unicode code point U+1F489: "💉" SYRINGE -->
+  <string name="spoken_emoji_1F489">"Ruisku"</string>
+  <!-- Spoken description for Unicode code point U+1F48A: "💊" PILL -->
+  <string name="spoken_emoji_1F48A">"Pilleri"</string>
+  <!-- Spoken description for Unicode code point U+1F48B: "💋" KISS MARK -->
+  <string name="spoken_emoji_1F48B">"Huulet"</string>
+  <!-- Spoken description for Unicode code point U+1F48C: "💌" LOVE LETTER -->
+  <string name="spoken_emoji_1F48C">"Rakkauskirje"</string>
+  <!-- Spoken description for Unicode code point U+1F48D: "💍" RING -->
+  <string name="spoken_emoji_1F48D">"Sormus"</string>
+  <!-- Spoken description for Unicode code point U+1F48E: "💎" GEM STONE -->
+  <string name="spoken_emoji_1F48E">"Jalokivi"</string>
+  <!-- Spoken description for Unicode code point U+1F48F: "💏" KISS -->
+  <string name="spoken_emoji_1F48F">"Suudelma"</string>
+  <!-- Spoken description for Unicode code point U+1F490: "💐" BOUQUET -->
+  <string name="spoken_emoji_1F490">"Kukkakimppu"</string>
+  <!-- Spoken description for Unicode code point U+1F491: "💑" COUPLE WITH HEART -->
+  <string name="spoken_emoji_1F491">"Pariskunta ja sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F492: "💒" WEDDING -->
+  <string name="spoken_emoji_1F492">"Häät"</string>
+  <!-- Spoken description for Unicode code point U+1F493: "💓" BEATING HEART -->
+  <string name="spoken_emoji_1F493">"Sykkivä sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F494: "💔" BROKEN HEART -->
+  <string name="spoken_emoji_1F494">"Särkynyt sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F495: "💕" TWO HEARTS -->
+  <string name="spoken_emoji_1F495">"Kaksi sydäntä"</string>
+  <!-- Spoken description for Unicode code point U+1F496: "💖" SPARKLING HEART -->
+  <string name="spoken_emoji_1F496">"Säihkyvä sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F497: "💗" GROWING HEART -->
+  <string name="spoken_emoji_1F497">"Kasvava sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F498: "💘" HEART WITH ARROW -->
+  <string name="spoken_emoji_1F498">"Sydän ja nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F499: "💙" BLUE HEART -->
+  <string name="spoken_emoji_1F499">"Sininen sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F49A: "💚" GREEN HEART -->
+  <string name="spoken_emoji_1F49A">"Vihreä sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F49B: "💛" YELLOW HEART -->
+  <string name="spoken_emoji_1F49B">"Keltainen sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F49C: "💜" PURPLE HEART -->
+  <string name="spoken_emoji_1F49C">"Violetti sydän"</string>
+  <!-- Spoken description for Unicode code point U+1F49D: "💝" HEART WITH RIBBON -->
+  <string name="spoken_emoji_1F49D">"Sydän ja rusetti"</string>
+  <!-- Spoken description for Unicode code point U+1F49E: "💞" REVOLVING HEARTS -->
+  <string name="spoken_emoji_1F49E">"Pyörivät sydämet"</string>
+  <!-- Spoken description for Unicode code point U+1F49F: "💟" HEART DECORATION -->
+  <string name="spoken_emoji_1F49F">"Sydänkoriste"</string>
+  <!-- Spoken description for Unicode code point U+1F4A0: "💠" DIAMOND SHAPE WITH A DOT INSIDE -->
+  <string name="spoken_emoji_1F4A0">"Vinoneliö, jossa on sisällä piste"</string>
+  <!-- Spoken description for Unicode code point U+1F4A1: "💡" ELECTRIC LIGHT BULB -->
+  <string name="spoken_emoji_1F4A1">"Hehkulamppu"</string>
+  <!-- Spoken description for Unicode code point U+1F4A2: "💢" ANGER SYMBOL -->
+  <string name="spoken_emoji_1F4A2">"Vihan symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4A3: "💣" BOMB -->
+  <string name="spoken_emoji_1F4A3">"Pommi"</string>
+  <!-- Spoken description for Unicode code point U+1F4A4: "💤" SLEEPING SYMBOL -->
+  <string name="spoken_emoji_1F4A4">"Unen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4A5: "💥" COLLISION SYMBOL -->
+  <string name="spoken_emoji_1F4A5">"Törmäyksen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4A6: "💦" SPLASHING SWEAT SYMBOL -->
+  <string name="spoken_emoji_1F4A6">"Hikipisarat"</string>
+  <!-- Spoken description for Unicode code point U+1F4A7: "💧" DROPLET -->
+  <string name="spoken_emoji_1F4A7">"Pisara"</string>
+  <!-- Spoken description for Unicode code point U+1F4A8: "💨" DASH SYMBOL -->
+  <string name="spoken_emoji_1F4A8">"Liikkeen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4A9: "💩" PILE OF POO -->
+  <string name="spoken_emoji_1F4A9">"Kakkakasa"</string>
+  <!-- Spoken description for Unicode code point U+1F4AA: "💪" FLEXED BICEPS -->
+  <string name="spoken_emoji_1F4AA">"Hauis"</string>
+  <!-- Spoken description for Unicode code point U+1F4AB: "💫" DIZZY SYMBOL -->
+  <string name="spoken_emoji_1F4AB">"Huimauksen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4AC: "💬" SPEECH BALLOON -->
+  <string name="spoken_emoji_1F4AC">"Puhekupla"</string>
+  <!-- Spoken description for Unicode code point U+1F4AD: "💭" THOUGHT BALLOON -->
+  <string name="spoken_emoji_1F4AD">"Ajatuskupla"</string>
+  <!-- Spoken description for Unicode code point U+1F4AE: "💮" WHITE FLOWER -->
+  <string name="spoken_emoji_1F4AE">"Valkoinen kukka"</string>
+  <!-- Spoken description for Unicode code point U+1F4AF: "💯" HUNDRED POINTS SYMBOL -->
+  <string name="spoken_emoji_1F4AF">"Sadan pisteen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4B0: "💰" MONEY BAG -->
+  <string name="spoken_emoji_1F4B0">"Rahasäkki"</string>
+  <!-- Spoken description for Unicode code point U+1F4B1: "💱" CURRENCY EXCHANGE -->
+  <string name="spoken_emoji_1F4B1">"Valuutanvaihto"</string>
+  <!-- Spoken description for Unicode code point U+1F4B2: "💲" HEAVY DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B2">"Paksu dollarin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4B3: "💳" CREDIT CARD -->
+  <string name="spoken_emoji_1F4B3">"Luottokortti"</string>
+  <!-- Spoken description for Unicode code point U+1F4B4: "💴" BANKNOTE WITH YEN SIGN -->
+  <string name="spoken_emoji_1F4B4">"Seteli, jossa jenin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4B5: "💵" BANKNOTE WITH DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B5">"Seteli, jossa dollarin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4B6: "💶" BANKNOTE WITH EURO SIGN -->
+  <string name="spoken_emoji_1F4B6">"Seteli, jossa euron symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4B7: "💷" BANKNOTE WITH POUND SIGN -->
+  <string name="spoken_emoji_1F4B7">"Seteli, jossa punnan symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4B8: "💸" MONEY WITH WINGS -->
+  <string name="spoken_emoji_1F4B8">"Setelinippu, jolla siivet"</string>
+  <!-- Spoken description for Unicode code point U+1F4B9: "💹" CHART WITH UPWARDS TREND AND YEN SIGN -->
+  <string name="spoken_emoji_1F4B9">"Noususuuntainen kaavio, jossa jenin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4BA: "💺" SEAT -->
+  <string name="spoken_emoji_1F4BA">"Paikka"</string>
+  <!-- Spoken description for Unicode code point U+1F4BB: "💻" PERSONAL COMPUTER -->
+  <string name="spoken_emoji_1F4BB">"Tietokone"</string>
+  <!-- Spoken description for Unicode code point U+1F4BC: "💼" BRIEFCASE -->
+  <string name="spoken_emoji_1F4BC">"Salkku"</string>
+  <!-- Spoken description for Unicode code point U+1F4BD: "💽" MINIDISC -->
+  <string name="spoken_emoji_1F4BD">"Minilevy"</string>
+  <!-- Spoken description for Unicode code point U+1F4BE: "💾" FLOPPY DISK -->
+  <string name="spoken_emoji_1F4BE">"Levyke"</string>
+  <!-- Spoken description for Unicode code point U+1F4BF: "💿" OPTICAL DISC -->
+  <string name="spoken_emoji_1F4BF">"Optinen levy"</string>
+  <!-- Spoken description for Unicode code point U+1F4C0: "📀" DVD -->
+  <string name="spoken_emoji_1F4C0">"DVD-levy"</string>
+  <!-- Spoken description for Unicode code point U+1F4C1: "📁" FILE FOLDER -->
+  <string name="spoken_emoji_1F4C1">"Tiedostokansio"</string>
+  <!-- Spoken description for Unicode code point U+1F4C2: "📂" OPEN FILE FOLDER -->
+  <string name="spoken_emoji_1F4C2">"Avaa tiedostokansio"</string>
+  <!-- Spoken description for Unicode code point U+1F4C3: "📃" PAGE WITH CURL -->
+  <string name="spoken_emoji_1F4C3">"Alhaalta käpristynyt sivu"</string>
+  <!-- Spoken description for Unicode code point U+1F4C4: "📄" PAGE FACING UP -->
+  <string name="spoken_emoji_1F4C4">"Sivu edestä"</string>
+  <!-- Spoken description for Unicode code point U+1F4C5: "📅" CALENDAR -->
+  <string name="spoken_emoji_1F4C5">"Kalenteri"</string>
+  <!-- Spoken description for Unicode code point U+1F4C6: "📆" TEAR-OFF CALENDAR -->
+  <string name="spoken_emoji_1F4C6">"Kalenteri, irtirevittävät sivut"</string>
+  <!-- Spoken description for Unicode code point U+1F4C7: "📇" CARD INDEX -->
+  <string name="spoken_emoji_1F4C7">"Kortihakemisto"</string>
+  <!-- Spoken description for Unicode code point U+1F4C8: "📈" CHART WITH UPWARDS TREND -->
+  <string name="spoken_emoji_1F4C8">"Noususuuntainen kaavio"</string>
+  <!-- Spoken description for Unicode code point U+1F4C9: "📉" CHART WITH DOWNWARDS TREND -->
+  <string name="spoken_emoji_1F4C9">"Laskusuuntainen kaavio"</string>
+  <!-- Spoken description for Unicode code point U+1F4CA: "📊" BAR CHART -->
+  <string name="spoken_emoji_1F4CA">"Pylväskaavio"</string>
+  <!-- Spoken description for Unicode code point U+1F4CB: "📋" CLIPBOARD -->
+  <string name="spoken_emoji_1F4CB">"Leikepöytä"</string>
+  <!-- Spoken description for Unicode code point U+1F4CC: "📌" PUSHPIN -->
+  <string name="spoken_emoji_1F4CC">"Nasta"</string>
+  <!-- Spoken description for Unicode code point U+1F4CD: "📍" ROUND PUSHPIN -->
+  <string name="spoken_emoji_1F4CD">"Pyöreäpäinen nasta"</string>
+  <!-- Spoken description for Unicode code point U+1F4CE: "📎" PAPERCLIP -->
+  <string name="spoken_emoji_1F4CE">"Paperiliitin"</string>
+  <!-- Spoken description for Unicode code point U+1F4CF: "📏" STRAIGHT RULER -->
+  <string name="spoken_emoji_1F4CF">"Suora viivain"</string>
+  <!-- Spoken description for Unicode code point U+1F4D0: "📐" TRIANGULAR RULER -->
+  <string name="spoken_emoji_1F4D0">"Kolmioviivain"</string>
+  <!-- Spoken description for Unicode code point U+1F4D1: "📑" BOOKMARK TABS -->
+  <string name="spoken_emoji_1F4D1">"Kirjanmerkit"</string>
+  <!-- Spoken description for Unicode code point U+1F4D2: "📒" LEDGER -->
+  <string name="spoken_emoji_1F4D2">"Kierreselkäinen vihko"</string>
+  <!-- Spoken description for Unicode code point U+1F4D3: "📓" NOTEBOOK -->
+  <string name="spoken_emoji_1F4D3">"Muistikirja"</string>
+  <!-- Spoken description for Unicode code point U+1F4D4: "📔" NOTEBOOK WITH DECORATIVE COVER -->
+  <string name="spoken_emoji_1F4D4">"Muistikirja, jossa koristekansi"</string>
+  <!-- Spoken description for Unicode code point U+1F4D5: "📕" CLOSED BOOK -->
+  <string name="spoken_emoji_1F4D5">"Suljettu kirja"</string>
+  <!-- Spoken description for Unicode code point U+1F4D6: "📖" OPEN BOOK -->
+  <string name="spoken_emoji_1F4D6">"Avoin kirja"</string>
+  <!-- Spoken description for Unicode code point U+1F4D7: "📗" GREEN BOOK -->
+  <string name="spoken_emoji_1F4D7">"Vihreä kirja"</string>
+  <!-- Spoken description for Unicode code point U+1F4D8: "📘" BLUE BOOK -->
+  <string name="spoken_emoji_1F4D8">"Sininen kirja"</string>
+  <!-- Spoken description for Unicode code point U+1F4D9: "📙" ORANGE BOOK -->
+  <string name="spoken_emoji_1F4D9">"Oranssi kirja"</string>
+  <!-- Spoken description for Unicode code point U+1F4DA: "📚" BOOKS -->
+  <string name="spoken_emoji_1F4DA">"Kirjat"</string>
+  <!-- Spoken description for Unicode code point U+1F4DB: "📛" NAME BADGE -->
+  <string name="spoken_emoji_1F4DB">"Nimilappu"</string>
+  <!-- Spoken description for Unicode code point U+1F4DC: "📜" SCROLL -->
+  <string name="spoken_emoji_1F4DC">"Rulla"</string>
+  <!-- Spoken description for Unicode code point U+1F4DD: "📝" MEMO -->
+  <string name="spoken_emoji_1F4DD">"Muistio"</string>
+  <!-- Spoken description for Unicode code point U+1F4DE: "📞" TELEPHONE RECEIVER -->
+  <string name="spoken_emoji_1F4DE">"Puhelimen kuuloke"</string>
+  <!-- Spoken description for Unicode code point U+1F4DF: "📟" PAGER -->
+  <string name="spoken_emoji_1F4DF">"Hakulaite"</string>
+  <!-- Spoken description for Unicode code point U+1F4E0: "📠" FAX MACHINE -->
+  <string name="spoken_emoji_1F4E0">"Faksi"</string>
+  <!-- Spoken description for Unicode code point U+1F4E1: "📡" SATELLITE ANTENNA -->
+  <string name="spoken_emoji_1F4E1">"Satelliittiantenni"</string>
+  <!-- Spoken description for Unicode code point U+1F4E2: "📢" PUBLIC ADDRESS LOUDSPEAKER -->
+  <string name="spoken_emoji_1F4E2">"Julkisen tilan kovaääninen"</string>
+  <!-- Spoken description for Unicode code point U+1F4E3: "📣" CHEERING MEGAPHONE -->
+  <string name="spoken_emoji_1F4E3">"Megafoni"</string>
+  <!-- Spoken description for Unicode code point U+1F4E4: "📤" OUTBOX TRAY -->
+  <string name="spoken_emoji_1F4E4">"Lähtevien lokero"</string>
+  <!-- Spoken description for Unicode code point U+1F4E5: "📥" INBOX TRAY -->
+  <string name="spoken_emoji_1F4E5">"Saapuvien lokero"</string>
+  <!-- Spoken description for Unicode code point U+1F4E6: "📦" PACKAGE -->
+  <string name="spoken_emoji_1F4E6">"Paketti"</string>
+  <!-- Spoken description for Unicode code point U+1F4E7: "📧" E-MAIL SYMBOL -->
+  <string name="spoken_emoji_1F4E7">"Sähköpostin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F4E8: "📨" INCOMING ENVELOPE -->
+  <string name="spoken_emoji_1F4E8">"Saapuva kirjekuori"</string>
+  <!-- Spoken description for Unicode code point U+1F4E9: "📩" ENVELOPE WITH DOWNWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F4E9">"Kirjekuori alaspäin osoittavan nuolen alla"</string>
+  <!-- Spoken description for Unicode code point U+1F4EA: "📪" CLOSED MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4EA">"Suljettu postilaatikko lippu alhaalla"</string>
+  <!-- Spoken description for Unicode code point U+1F4EB: "📫" CLOSED MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EB">"Suljettu postilaatikko lippu ylhäällä"</string>
+  <!-- Spoken description for Unicode code point U+1F4EC: "📬" OPEN MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EC">"Avattu postilaatikko lippu ylhäällä"</string>
+  <!-- Spoken description for Unicode code point U+1F4ED: "📭" OPEN MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4ED">"Avattu postilaatikko lippu alhaalla"</string>
+  <!-- Spoken description for Unicode code point U+1F4EE: "📮" POSTBOX -->
+  <string name="spoken_emoji_1F4EE">"Postilaatikko"</string>
+  <!-- Spoken description for Unicode code point U+1F4EF: "📯" POSTAL HORN -->
+  <string name="spoken_emoji_1F4EF">"Postitorvi"</string>
+  <!-- Spoken description for Unicode code point U+1F4F0: "📰" NEWSPAPER -->
+  <string name="spoken_emoji_1F4F0">"Sanomalehti"</string>
+  <!-- Spoken description for Unicode code point U+1F4F1: "📱" MOBILE PHONE -->
+  <string name="spoken_emoji_1F4F1">"Matkapuhelin"</string>
+  <!-- Spoken description for Unicode code point U+1F4F2: "📲" MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT -->
+  <string name="spoken_emoji_1F4F2">"Matkapuhelin, jonka vasemmalla puolella on sitä osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F4F3: "📳" VIBRATION MODE -->
+  <string name="spoken_emoji_1F4F3">"Värinätila"</string>
+  <!-- Spoken description for Unicode code point U+1F4F4: "📴" MOBILE PHONE OFF -->
+  <string name="spoken_emoji_1F4F4">"Matkapuhelin pois käytöstä"</string>
+  <!-- Spoken description for Unicode code point U+1F4F5: "📵" NO MOBILE PHONES -->
+  <string name="spoken_emoji_1F4F5">"Ei matkapuhelimia"</string>
+  <!-- Spoken description for Unicode code point U+1F4F6: "📶" ANTENNA WITH BARS -->
+  <string name="spoken_emoji_1F4F6">"Antennisymboli ja palkit"</string>
+  <!-- Spoken description for Unicode code point U+1F4F7: "📷" CAMERA -->
+  <string name="spoken_emoji_1F4F7">"Kamera"</string>
+  <!-- Spoken description for Unicode code point U+1F4F9: "📹" VIDEO CAMERA -->
+  <string name="spoken_emoji_1F4F9">"Videokamera"</string>
+  <!-- Spoken description for Unicode code point U+1F4FA: "📺" TELEVISION -->
+  <string name="spoken_emoji_1F4FA">"Televisio"</string>
+  <!-- Spoken description for Unicode code point U+1F4FB: "📻" RADIO -->
+  <string name="spoken_emoji_1F4FB">"Radio"</string>
+  <!-- Spoken description for Unicode code point U+1F4FC: "📼" VIDEOCASSETTE -->
+  <string name="spoken_emoji_1F4FC">"Videokasetti"</string>
+  <!-- Spoken description for Unicode code point U+1F500: "🔀" TWISTED RIGHTWARDS ARROWS -->
+  <string name="spoken_emoji_1F500">"Kaksi ristikkäistä oikealle osoittavaa nuolta"</string>
+  <!-- Spoken description for Unicode code point U+1F501: "🔁" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F501">"Ympyrä, jossa myötäpäivään oikealle ja vasemmalle osoittavat nuolet"</string>
+  <!-- Spoken description for Unicode code point U+1F502: "🔂" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY -->
+  <string name="spoken_emoji_1F502">"Ympyrä, jossa myötäpäivään oikealle ja vasemmalle osoittavat nuolet ja jonka päällä ympyröity numero yksi"</string>
+  <!-- Spoken description for Unicode code point U+1F503: "🔃" CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F503">"Ympyrä, jossa myötäpäivään ylös ja alas osoittavat nuolet"</string>
+  <!-- Spoken description for Unicode code point U+1F504: "🔄" ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F504">"Ympyrä, jossa vastapäivään ylös ja alas osoittavat nuolet"</string>
+  <!-- Spoken description for Unicode code point U+1F505: "🔅" LOW BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F505">"Alhaisen kirkkauden symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F506: "🔆" HIGH BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F506">"Suuren kirkkauden symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F507: "🔇" SPEAKER WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F507">"Yliviivattu kaiutin"</string>
+  <!-- Spoken description for Unicode code point U+1F508: "🔈" SPEAKER -->
+  <string name="spoken_emoji_1F508">"Kaiutin"</string>
+  <!-- Spoken description for Unicode code point U+1F509: "🔉" SPEAKER WITH ONE SOUND WAVE -->
+  <string name="spoken_emoji_1F509">"Kaiutin ja yksi ääniaalto"</string>
+  <!-- Spoken description for Unicode code point U+1F50A: "🔊" SPEAKER WITH THREE SOUND WAVES -->
+  <string name="spoken_emoji_1F50A">"Kaiutin ja kolme ääniaaltoa"</string>
+  <!-- Spoken description for Unicode code point U+1F50B: "🔋" BATTERY -->
+  <string name="spoken_emoji_1F50B">"Akku"</string>
+  <!-- Spoken description for Unicode code point U+1F50C: "🔌" ELECTRIC PLUG -->
+  <string name="spoken_emoji_1F50C">"Pistoke"</string>
+  <!-- Spoken description for Unicode code point U+1F50D: "🔍" LEFT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50D">"Vasemmalle osoittava suurennuslasi"</string>
+  <!-- Spoken description for Unicode code point U+1F50E: "🔎" RIGHT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50E">"Oikealle osoittava suurennuslasi"</string>
+  <!-- Spoken description for Unicode code point U+1F50F: "🔏" LOCK WITH INK PEN -->
+  <string name="spoken_emoji_1F50F">"Lukko ja mustekynä"</string>
+  <!-- Spoken description for Unicode code point U+1F510: "🔐" CLOSED LOCK WITH KEY -->
+  <string name="spoken_emoji_1F510">"Suljettu lukko ja avain"</string>
+  <!-- Spoken description for Unicode code point U+1F511: "🔑" KEY -->
+  <string name="spoken_emoji_1F511">"Avain"</string>
+  <!-- Spoken description for Unicode code point U+1F512: "🔒" LOCK -->
+  <string name="spoken_emoji_1F512">"Lukko"</string>
+  <!-- Spoken description for Unicode code point U+1F513: "🔓" OPEN LOCK -->
+  <string name="spoken_emoji_1F513">"Avoin lukko"</string>
+  <!-- Spoken description for Unicode code point U+1F514: "🔔" BELL -->
+  <string name="spoken_emoji_1F514">"Soittokello"</string>
+  <!-- Spoken description for Unicode code point U+1F515: "🔕" BELL WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F515">"Yliviivattu soittokello"</string>
+  <!-- Spoken description for Unicode code point U+1F516: "🔖" BOOKMARK -->
+  <string name="spoken_emoji_1F516">"Kirjanmerkki"</string>
+  <!-- Spoken description for Unicode code point U+1F517: "🔗" LINK SYMBOL -->
+  <string name="spoken_emoji_1F517">"Linkin symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F518: "🔘" RADIO BUTTON -->
+  <string name="spoken_emoji_1F518">"Valintanappi"</string>
+  <!-- Spoken description for Unicode code point U+1F519: "🔙" BACK WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F519">"Sana BACK, jonka yläpuolella vasemmalle osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F51A: "🔚" END WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51A">"Sana END, jonka yläpuolella vasemmalle osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F51B: "🔛" ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE -->
+  <string name="spoken_emoji_1F51B">"Sana ON ja huutomerkki, yläpuolella vasemmalle ja oikealle osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F51C: "🔜" SOON WITH RIGHTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51C">"Sana SOON, jonka yläpuolella oikealle osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F51D: "🔝" TOP WITH UPWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51D">"Sana TOP, jonka yläpuolella ylös osoittava nuoli"</string>
+  <!-- Spoken description for Unicode code point U+1F51E: "🔞" NO ONE UNDER EIGHTEEN SYMBOL -->
+  <string name="spoken_emoji_1F51E">"Ikäraja 18 vuotta"</string>
+  <!-- Spoken description for Unicode code point U+1F51F: "🔟" KEYCAP TEN -->
+  <string name="spoken_emoji_1F51F">"Näppäin 10"</string>
+  <!-- Spoken description for Unicode code point U+1F520: "🔠" INPUT SYMBOL FOR LATIN CAPITAL LETTERS -->
+  <string name="spoken_emoji_1F520">"Latinalaisten isojen kirjainten symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F521: "🔡" INPUT SYMBOL FOR LATIN SMALL LETTERS -->
+  <string name="spoken_emoji_1F521">"Latinalaisten pienten kirjainten symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F522: "🔢" INPUT SYMBOL FOR NUMBERS -->
+  <string name="spoken_emoji_1F522">"Numeroiden symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F523: "🔣" INPUT SYMBOL FOR SYMBOLS -->
+  <string name="spoken_emoji_1F523">"Symbolien symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F524: "🔤" INPUT SYMBOL FOR LATIN LETTERS -->
+  <string name="spoken_emoji_1F524">"Latinalaisten kirjainten symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F525: "🔥" FIRE -->
+  <string name="spoken_emoji_1F525">"Tuli"</string>
+  <!-- Spoken description for Unicode code point U+1F526: "🔦" ELECTRIC TORCH -->
+  <string name="spoken_emoji_1F526">"Taskulamppu"</string>
+  <!-- Spoken description for Unicode code point U+1F527: "🔧" WRENCH -->
+  <string name="spoken_emoji_1F527">"Jakoavain"</string>
+  <!-- Spoken description for Unicode code point U+1F528: "🔨" HAMMER -->
+  <string name="spoken_emoji_1F528">"Vasara"</string>
+  <!-- Spoken description for Unicode code point U+1F529: "🔩" NUT AND BOLT -->
+  <string name="spoken_emoji_1F529">"Mutteri ja pultti"</string>
+  <!-- Spoken description for Unicode code point U+1F52A: "🔪" HOCHO -->
+  <string name="spoken_emoji_1F52A">"Hochoveitsi"</string>
+  <!-- Spoken description for Unicode code point U+1F52B: "🔫" PISTOL -->
+  <string name="spoken_emoji_1F52B">"Pistooli"</string>
+  <!-- Spoken description for Unicode code point U+1F52C: "🔬" MICROSCOPE -->
+  <string name="spoken_emoji_1F52C">"Mikroskooppi"</string>
+  <!-- Spoken description for Unicode code point U+1F52D: "🔭" TELESCOPE -->
+  <string name="spoken_emoji_1F52D">"Kaukoputki"</string>
+  <!-- Spoken description for Unicode code point U+1F52E: "🔮" CRYSTAL BALL -->
+  <string name="spoken_emoji_1F52E">"Kristallipallo"</string>
+  <!-- Spoken description for Unicode code point U+1F52F: "🔯" SIX POINTED STAR WITH MIDDLE DOT -->
+  <string name="spoken_emoji_1F52F">"Kuusisakarainen tähti, jossa keskellä piste"</string>
+  <!-- Spoken description for Unicode code point U+1F530: "🔰" JAPANESE SYMBOL FOR BEGINNER -->
+  <string name="spoken_emoji_1F530">"Japanilainen aloittelijan merkki"</string>
+  <!-- Spoken description for Unicode code point U+1F531: "🔱" TRIDENT EMBLEM -->
+  <string name="spoken_emoji_1F531">"Trident-symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F532: "🔲" BLACK SQUARE BUTTON -->
+  <string name="spoken_emoji_1F532">"Musta neliönmuotoinen painike"</string>
+  <!-- Spoken description for Unicode code point U+1F533: "🔳" WHITE SQUARE BUTTON -->
+  <string name="spoken_emoji_1F533">"Valkoinen neliönmuotoinen painike"</string>
+  <!-- Spoken description for Unicode code point U+1F534: "🔴" LARGE RED CIRCLE -->
+  <string name="spoken_emoji_1F534">"Suuri punainen ympyrä"</string>
+  <!-- Spoken description for Unicode code point U+1F535: "🔵" LARGE BLUE CIRCLE -->
+  <string name="spoken_emoji_1F535">"Suuri sininen ympyrä"</string>
+  <!-- Spoken description for Unicode code point U+1F536: "🔶" LARGE ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F536">"Suuri oranssi vinoneliö"</string>
+  <!-- Spoken description for Unicode code point U+1F537: "🔷" LARGE BLUE DIAMOND -->
+  <string name="spoken_emoji_1F537">"Suuri sininen vinoneliö"</string>
+  <!-- Spoken description for Unicode code point U+1F538: "🔸" SMALL ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F538">"Pieni oranssi vinoneliö"</string>
+  <!-- Spoken description for Unicode code point U+1F539: "🔹" SMALL BLUE DIAMOND -->
+  <string name="spoken_emoji_1F539">"Pieni sininen vinoneliö"</string>
+  <!-- Spoken description for Unicode code point U+1F53A: "🔺" UP-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53A">"Ylöspäin osoittava punainen kolmio"</string>
+  <!-- Spoken description for Unicode code point U+1F53B: "🔻" DOWN-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53B">"Alaspäin osoittava punainen kolmio"</string>
+  <!-- Spoken description for Unicode code point U+1F53C: "🔼" UP-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53C">"Ylöspäin osoittava pieni punainen kolmio"</string>
+  <!-- Spoken description for Unicode code point U+1F53D: "🔽" DOWN-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53D">"Alaspäin osoittava pieni punainen kolmio"</string>
+  <!-- Spoken description for Unicode code point U+1F550: "🕐" CLOCK FACE ONE OCLOCK -->
+  <string name="spoken_emoji_1F550">"Kellotaulu, kello yksi"</string>
+  <!-- Spoken description for Unicode code point U+1F551: "🕑" CLOCK FACE TWO OCLOCK -->
+  <string name="spoken_emoji_1F551">"Kellotaulu, kello kaksi"</string>
+  <!-- Spoken description for Unicode code point U+1F552: "🕒" CLOCK FACE THREE OCLOCK -->
+  <string name="spoken_emoji_1F552">"Kellotaulu, kello kolme"</string>
+  <!-- Spoken description for Unicode code point U+1F553: "🕓" CLOCK FACE FOUR OCLOCK -->
+  <string name="spoken_emoji_1F553">"Kellotaulu, kello neljä"</string>
+  <!-- Spoken description for Unicode code point U+1F554: "🕔" CLOCK FACE FIVE OCLOCK -->
+  <string name="spoken_emoji_1F554">"Kellotaulu, kello viisi"</string>
+  <!-- Spoken description for Unicode code point U+1F555: "🕕" CLOCK FACE SIX OCLOCK -->
+  <string name="spoken_emoji_1F555">"Kellotaulu, kello kuusi"</string>
+  <!-- Spoken description for Unicode code point U+1F556: "🕖" CLOCK FACE SEVEN OCLOCK -->
+  <string name="spoken_emoji_1F556">"Kellotaulu, kello seitsemän"</string>
+  <!-- Spoken description for Unicode code point U+1F557: "🕗" CLOCK FACE EIGHT OCLOCK -->
+  <string name="spoken_emoji_1F557">"Kellotaulu, kello kahdeksan"</string>
+  <!-- Spoken description for Unicode code point U+1F558: "🕘" CLOCK FACE NINE OCLOCK -->
+  <string name="spoken_emoji_1F558">"Kellotaulu, kello yhdeksän"</string>
+  <!-- Spoken description for Unicode code point U+1F559: "🕙" CLOCK FACE TEN OCLOCK -->
+  <string name="spoken_emoji_1F559">"Kellotaulu, kello kymmenen"</string>
+  <!-- Spoken description for Unicode code point U+1F55A: "🕚" CLOCK FACE ELEVEN OCLOCK -->
+  <string name="spoken_emoji_1F55A">"Kellotaulu, kello yksitoista"</string>
+  <!-- Spoken description for Unicode code point U+1F55B: "🕛" CLOCK FACE TWELVE OCLOCK -->
+  <string name="spoken_emoji_1F55B">"Kellotaulu, kello kaksitoista"</string>
+  <!-- Spoken description for Unicode code point U+1F55C: "🕜" CLOCK FACE ONE-THIRTY -->
+  <string name="spoken_emoji_1F55C">"Kellotaulu, kello puoli kaksi"</string>
+  <!-- Spoken description for Unicode code point U+1F55D: "🕝" CLOCK FACE TWO-THIRTY -->
+  <string name="spoken_emoji_1F55D">"Kellotaulu, kello puoli kolme"</string>
+  <!-- Spoken description for Unicode code point U+1F55E: "🕞" CLOCK FACE THREE-THIRTY -->
+  <string name="spoken_emoji_1F55E">"Kellotaulu, kello puoli neljä"</string>
+  <!-- Spoken description for Unicode code point U+1F55F: "🕟" CLOCK FACE FOUR-THIRTY -->
+  <string name="spoken_emoji_1F55F">"Kellotaulu, kello puoli viisi"</string>
+  <!-- Spoken description for Unicode code point U+1F560: "🕠" CLOCK FACE FIVE-THIRTY -->
+  <string name="spoken_emoji_1F560">"Kellotaulu, kello puoli kuusi"</string>
+  <!-- Spoken description for Unicode code point U+1F561: "🕡" CLOCK FACE SIX-THIRTY -->
+  <string name="spoken_emoji_1F561">"Kellotaulu, kello puoli seitsemän"</string>
+  <!-- Spoken description for Unicode code point U+1F562: "🕢" CLOCK FACE SEVEN-THIRTY -->
+  <string name="spoken_emoji_1F562">"Kellotaulu, kello puoli kahdeksan"</string>
+  <!-- Spoken description for Unicode code point U+1F563: "🕣" CLOCK FACE EIGHT-THIRTY -->
+  <string name="spoken_emoji_1F563">"Kellotaulu, kello puoli yhdeksän"</string>
+  <!-- Spoken description for Unicode code point U+1F564: "🕤" CLOCK FACE NINE-THIRTY -->
+  <string name="spoken_emoji_1F564">"Kellotaulu, kello puoli kymmenen"</string>
+  <!-- Spoken description for Unicode code point U+1F565: "🕥" CLOCK FACE TEN-THIRTY -->
+  <string name="spoken_emoji_1F565">"Kellotaulu, kello puoli yksitoista"</string>
+  <!-- Spoken description for Unicode code point U+1F566: "🕦" CLOCK FACE ELEVEN-THIRTY -->
+  <string name="spoken_emoji_1F566">"Kellotaulu, kello puoli kaksitoista"</string>
+  <!-- Spoken description for Unicode code point U+1F567: "🕧" CLOCK FACE TWELVE-THIRTY -->
+  <string name="spoken_emoji_1F567">"Kellotaulu, kello puoli yksi"</string>
+  <!-- Spoken description for Unicode code point U+1F5FB: "🗻" MOUNT FUJI -->
+  <string name="spoken_emoji_1F5FB">"Fuji-vuori"</string>
+  <!-- Spoken description for Unicode code point U+1F5FC: "🗼" TOKYO TOWER -->
+  <string name="spoken_emoji_1F5FC">"Tokio-torni"</string>
+  <!-- Spoken description for Unicode code point U+1F5FD: "🗽" STATUE OF LIBERTY -->
+  <string name="spoken_emoji_1F5FD">"Vapaudenpatsas"</string>
+  <!-- Spoken description for Unicode code point U+1F5FE: "🗾" SILHOUETTE OF JAPAN -->
+  <string name="spoken_emoji_1F5FE">"Japanin kartta"</string>
+  <!-- Spoken description for Unicode code point U+1F5FF: "🗿" MOYAI -->
+  <string name="spoken_emoji_1F5FF">"Moai-kivipatsas"</string>
+  <!-- Spoken description for Unicode code point U+1F600: "😀" GRINNING FACE -->
+  <string name="spoken_emoji_1F600">"Virnistävä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F601: "😁" GRINNING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F601">"Virnistävä naama silmät sirrillään"</string>
+  <!-- Spoken description for Unicode code point U+1F602: "😂" FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F602">"Naama ja ilon kyyneleet"</string>
+  <!-- Spoken description for Unicode code point U+1F603: "😃" SMILING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F603">"Hymyilevä naama, suu auki"</string>
+  <!-- Spoken description for Unicode code point U+1F604: "😄" SMILING FACE WITH OPEN MOUTH AND SMILING EYES -->
+  <string name="spoken_emoji_1F604">"Hymyilevä naama, suu auki ja silmät sirrillään"</string>
+  <!-- Spoken description for Unicode code point U+1F605: "😅" SMILING FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F605">"Hymyilevä naama, suu auki ja kylmä hiki"</string>
+  <!-- Spoken description for Unicode code point U+1F606: "😆" SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F606">"Hymyilevä naama, suu auki ja silmät kiinni"</string>
+  <!-- Spoken description for Unicode code point U+1F607: "😇" SMILING FACE WITH HALO -->
+  <string name="spoken_emoji_1F607">"Hymyilevä naama ja sädekehä"</string>
+  <!-- Spoken description for Unicode code point U+1F608: "😈" SMILING FACE WITH HORNS -->
+  <string name="spoken_emoji_1F608">"Hymyilevä naama ja sarvet"</string>
+  <!-- Spoken description for Unicode code point U+1F609: "😉" WINKING FACE -->
+  <string name="spoken_emoji_1F609">"Silmää iskevä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F60A: "😊" SMILING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F60A">"Hymyilevä naama, silmät sirrillään"</string>
+  <!-- Spoken description for Unicode code point U+1F60B: "😋" FACE SAVOURING DELICIOUS FOOD -->
+  <string name="spoken_emoji_1F60B">"Naama ja huulia lipova kieli"</string>
+  <!-- Spoken description for Unicode code point U+1F60C: "😌" RELIEVED FACE -->
+  <string name="spoken_emoji_1F60C">"Helpottunut naama"</string>
+  <!-- Spoken description for Unicode code point U+1F60D: "😍" SMILING FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F60D">"Hymyilevä naama ja sydämenmuotoiset silmät"</string>
+  <!-- Spoken description for Unicode code point U+1F60E: "😎" SMILING FACE WITH SUNGLASSES -->
+  <string name="spoken_emoji_1F60E">"Hymyilevä naama ja aurinkolasit"</string>
+  <!-- Spoken description for Unicode code point U+1F60F: "😏" SMIRKING FACE -->
+  <string name="spoken_emoji_1F60F">"Virnistävä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F610: "😐" NEUTRAL FACE -->
+  <string name="spoken_emoji_1F610">"Naamalla perusilme"</string>
+  <!-- Spoken description for Unicode code point U+1F611: "😑" EXPRESSIONLESS FACE -->
+  <string name="spoken_emoji_1F611">"Ilmeetön naama"</string>
+  <!-- Spoken description for Unicode code point U+1F612: "😒" UNAMUSED FACE -->
+  <string name="spoken_emoji_1F612">"Kyllästynyt naama"</string>
+  <!-- Spoken description for Unicode code point U+1F613: "😓" FACE WITH COLD SWEAT -->
+  <string name="spoken_emoji_1F613">"Naama ja kylmä hiki"</string>
+  <!-- Spoken description for Unicode code point U+1F614: "😔" PENSIVE FACE -->
+  <string name="spoken_emoji_1F614">"Mietteliäs naama"</string>
+  <!-- Spoken description for Unicode code point U+1F615: "😕" CONFUSED FACE -->
+  <string name="spoken_emoji_1F615">"Ymmällä oleva naama"</string>
+  <!-- Spoken description for Unicode code point U+1F616: "😖" CONFOUNDED FACE -->
+  <string name="spoken_emoji_1F616">"Hämmentynyt naama"</string>
+  <!-- Spoken description for Unicode code point U+1F617: "😗" KISSING FACE -->
+  <string name="spoken_emoji_1F617">"Naama ja pusuhuulet"</string>
+  <!-- Spoken description for Unicode code point U+1F618: "😘" FACE THROWING A KISS -->
+  <string name="spoken_emoji_1F618">"Lentosuukko ja silmänisku"</string>
+  <!-- Spoken description for Unicode code point U+1F619: "😙" KISSING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F619">"Naama ja pusuhuulet, silmät sirrillään"</string>
+  <!-- Spoken description for Unicode code point U+1F61A: "😚" KISSING FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F61A">"Naama ja pusuhuulet, silmät kiinni"</string>
+  <!-- Spoken description for Unicode code point U+1F61B: "😛" FACE WITH STUCK-OUT TONGUE -->
+  <string name="spoken_emoji_1F61B">"Kieltä näyttävä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F61C: "😜" FACE WITH STUCK-OUT TONGUE AND WINKING EYE -->
+  <string name="spoken_emoji_1F61C">"Silmää iskevä ja kieltä näyttävä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F61D: "😝" FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F61D">"Kieltä näyttävä naama, silmät kiinni"</string>
+  <!-- Spoken description for Unicode code point U+1F61E: "😞" DISAPPOINTED FACE -->
+  <string name="spoken_emoji_1F61E">"Pettynyt naama"</string>
+  <!-- Spoken description for Unicode code point U+1F61F: "😟" WORRIED FACE -->
+  <string name="spoken_emoji_1F61F">"Huolestunut naama"</string>
+  <!-- Spoken description for Unicode code point U+1F620: "😠" ANGRY FACE -->
+  <string name="spoken_emoji_1F620">"Vihainen naama"</string>
+  <!-- Spoken description for Unicode code point U+1F621: "😡" POUTING FACE -->
+  <string name="spoken_emoji_1F621">"Mököttävä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F622: "😢" CRYING FACE -->
+  <string name="spoken_emoji_1F622">"Itkevä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F623: "😣" PERSEVERING FACE -->
+  <string name="spoken_emoji_1F623">"Sinnikäs naama"</string>
+  <!-- Spoken description for Unicode code point U+1F624: "😤" FACE WITH LOOK OF TRIUMPH -->
+  <string name="spoken_emoji_1F624">"Voitokas naama"</string>
+  <!-- Spoken description for Unicode code point U+1F625: "😥" DISAPPOINTED BUT RELIEVED FACE -->
+  <string name="spoken_emoji_1F625">"Pettynyt mutta huojentunut naama"</string>
+  <!-- Spoken description for Unicode code point U+1F626: "😦" FROWNING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F626">"Surullinen naama, suu auki"</string>
+  <!-- Spoken description for Unicode code point U+1F627: "😧" ANGUISHED FACE -->
+  <string name="spoken_emoji_1F627">"Tuskainen naama"</string>
+  <!-- Spoken description for Unicode code point U+1F628: "😨" FEARFUL FACE -->
+  <string name="spoken_emoji_1F628">"Pelokas naama"</string>
+  <!-- Spoken description for Unicode code point U+1F629: "😩" WEARY FACE -->
+  <string name="spoken_emoji_1F629">"Uupunut naama"</string>
+  <!-- Spoken description for Unicode code point U+1F62A: "😪" SLEEPY FACE -->
+  <string name="spoken_emoji_1F62A">"Uninen naama"</string>
+  <!-- Spoken description for Unicode code point U+1F62B: "😫" TIRED FACE -->
+  <string name="spoken_emoji_1F62B">"Väsynyt naama"</string>
+  <!-- Spoken description for Unicode code point U+1F62C: "😬" GRIMACING FACE -->
+  <string name="spoken_emoji_1F62C">"Irvistävä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F62D: "😭" LOUDLY CRYING FACE -->
+  <string name="spoken_emoji_1F62D">"Rajusti itkevä naama"</string>
+  <!-- Spoken description for Unicode code point U+1F62E: "😮" FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F62E">"Naama, suu auki"</string>
+  <!-- Spoken description for Unicode code point U+1F62F: "😯" HUSHED FACE -->
+  <string name="spoken_emoji_1F62F">"Pelokas naama"</string>
+  <!-- Spoken description for Unicode code point U+1F630: "😰" FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F630">"Naama, suu auki ja kylmä hiki"</string>
+  <!-- Spoken description for Unicode code point U+1F631: "😱" FACE SCREAMING IN FEAR -->
+  <string name="spoken_emoji_1F631">"Pelosta kirkuva naama"</string>
+  <!-- Spoken description for Unicode code point U+1F632: "😲" ASTONISHED FACE -->
+  <string name="spoken_emoji_1F632">"Hämmästynyt naama"</string>
+  <!-- Spoken description for Unicode code point U+1F633: "😳" FLUSHED FACE -->
+  <string name="spoken_emoji_1F633">"Punastunut naama"</string>
+  <!-- Spoken description for Unicode code point U+1F634: "😴" SLEEPING FACE -->
+  <string name="spoken_emoji_1F634">"Nukkuva naama"</string>
+  <!-- Spoken description for Unicode code point U+1F635: "😵" DIZZY FACE -->
+  <string name="spoken_emoji_1F635">"Naama taju kankaalla"</string>
+  <!-- Spoken description for Unicode code point U+1F636: "😶" FACE WITHOUT MOUTH -->
+  <string name="spoken_emoji_1F636">"Naama ilman suuta"</string>
+  <!-- Spoken description for Unicode code point U+1F637: "😷" FACE WITH MEDICAL MASK -->
+  <string name="spoken_emoji_1F637">"Naama ja suumaski"</string>
+  <!-- Spoken description for Unicode code point U+1F638: "😸" GRINNING CAT FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F638">"Virnistävä kissan naama, silmät sirrillään"</string>
+  <!-- Spoken description for Unicode code point U+1F639: "😹" CAT FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F639">"Kissan naama ja ilon kyyneleet"</string>
+  <!-- Spoken description for Unicode code point U+1F63A: "😺" SMILING CAT FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F63A">"Hymyilevä kissan naama, suu auki"</string>
+  <!-- Spoken description for Unicode code point U+1F63B: "😻" SMILING CAT FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F63B">"Hymyilevä kissan naama, sydämen muotoiset silmät"</string>
+  <!-- Spoken description for Unicode code point U+1F63C: "😼" CAT FACE WITH WRY SMILE -->
+  <string name="spoken_emoji_1F63C">"Kissan naama, kuivakka hymy"</string>
+  <!-- Spoken description for Unicode code point U+1F63D: "😽" KISSING CAT FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F63D">"Kissan naama, pusuhuulet ja silmät kiinni"</string>
+  <!-- Spoken description for Unicode code point U+1F63E: "😾" POUTING CAT FACE -->
+  <string name="spoken_emoji_1F63E">"Mököttävä kissan naama"</string>
+  <!-- Spoken description for Unicode code point U+1F63F: "😿" CRYING CAT FACE -->
+  <string name="spoken_emoji_1F63F">"Itkevä kissan naama"</string>
+  <!-- Spoken description for Unicode code point U+1F640: "🙀" WEARY CAT FACE -->
+  <string name="spoken_emoji_1F640">"Uupunut kissan naama"</string>
+  <!-- Spoken description for Unicode code point U+1F645: "🙅" FACE WITH NO GOOD GESTURE -->
+  <string name="spoken_emoji_1F645">"Naama ja epäonnistumisen ele"</string>
+  <!-- Spoken description for Unicode code point U+1F646: "🙆" FACE WITH OK GESTURE -->
+  <string name="spoken_emoji_1F646">"Naama, OK-ele"</string>
+  <!-- Spoken description for Unicode code point U+1F647: "🙇" PERSON BOWING DEEPLY -->
+  <string name="spoken_emoji_1F647">"Syvään kumartava henkilö"</string>
+  <!-- Spoken description for Unicode code point U+1F648: "🙈" SEE-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F648">"Silmänsä peittänyt apina"</string>
+  <!-- Spoken description for Unicode code point U+1F649: "🙉" HEAR-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F649">"Korvansa peittänyt apina"</string>
+  <!-- Spoken description for Unicode code point U+1F64A: "🙊" SPEAK-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F64A">"Suunsa peittänyt apina"</string>
+  <!-- Spoken description for Unicode code point U+1F64B: "🙋" HAPPY PERSON RAISING ONE HAND -->
+  <string name="spoken_emoji_1F64B">"Iloinen henkilö yksi käsi pystyssä"</string>
+  <!-- Spoken description for Unicode code point U+1F64C: "🙌" PERSON RAISING BOTH HANDS IN CELEBRATION -->
+  <string name="spoken_emoji_1F64C">"Juhliva henkilö molemmat kädet pystyssä"</string>
+  <!-- Spoken description for Unicode code point U+1F64D: "🙍" PERSON FROWNING -->
+  <string name="spoken_emoji_1F64D">"Henkilö otsa kurtussa"</string>
+  <!-- Spoken description for Unicode code point U+1F64E: "🙎" PERSON WITH POUTING FACE -->
+  <string name="spoken_emoji_1F64E">"Henkilö ja mököttävä ilme"</string>
+  <!-- Spoken description for Unicode code point U+1F64F: "🙏" PERSON WITH FOLDED HANDS -->
+  <string name="spoken_emoji_1F64F">"Henkilö, jolla kämmenet yhdessä"</string>
+  <!-- Spoken description for Unicode code point U+1F680: "🚀" ROCKET -->
+  <string name="spoken_emoji_1F680">"Raketti"</string>
+  <!-- Spoken description for Unicode code point U+1F681: "🚁" HELICOPTER -->
+  <string name="spoken_emoji_1F681">"Helikopteri"</string>
+  <!-- Spoken description for Unicode code point U+1F682: "🚂" STEAM LOCOMOTIVE -->
+  <string name="spoken_emoji_1F682">"Höyryveturi"</string>
+  <!-- Spoken description for Unicode code point U+1F683: "🚃" RAILWAY CAR -->
+  <string name="spoken_emoji_1F683">"Junanvaunu"</string>
+  <!-- Spoken description for Unicode code point U+1F684: "🚄" HIGH-SPEED TRAIN -->
+  <string name="spoken_emoji_1F684">"Pikajuna"</string>
+  <!-- Spoken description for Unicode code point U+1F685: "🚅" HIGH-SPEED TRAIN WITH BULLET NOSE -->
+  <string name="spoken_emoji_1F685">"Luotijuna"</string>
+  <!-- Spoken description for Unicode code point U+1F686: "🚆" TRAIN -->
+  <string name="spoken_emoji_1F686">"Juna"</string>
+  <!-- Spoken description for Unicode code point U+1F687: "🚇" METRO -->
+  <string name="spoken_emoji_1F687">"Metro"</string>
+  <!-- Spoken description for Unicode code point U+1F688: "🚈" LIGHT RAIL -->
+  <string name="spoken_emoji_1F688">"Kevyt raideliikenne"</string>
+  <!-- Spoken description for Unicode code point U+1F689: "🚉" STATION -->
+  <string name="spoken_emoji_1F689">"Asema"</string>
+  <!-- Spoken description for Unicode code point U+1F68A: "🚊" TRAM -->
+  <string name="spoken_emoji_1F68A">"Raitiovaunu"</string>
+  <!-- Spoken description for Unicode code point U+1F68B: "🚋" TRAM CAR -->
+  <string name="spoken_emoji_1F68B">"Raitiovaunun vaunu"</string>
+  <!-- Spoken description for Unicode code point U+1F68C: "🚌" BUS -->
+  <string name="spoken_emoji_1F68C">"Bussi"</string>
+  <!-- Spoken description for Unicode code point U+1F68D: "🚍" ONCOMING BUS -->
+  <string name="spoken_emoji_1F68D">"Bussi edestä"</string>
+  <!-- Spoken description for Unicode code point U+1F68E: "🚎" TROLLEYBUS -->
+  <string name="spoken_emoji_1F68E">"Johdinauto"</string>
+  <!-- Spoken description for Unicode code point U+1F68F: "🚏" BUS STOP -->
+  <string name="spoken_emoji_1F68F">"Bussipysäkki"</string>
+  <!-- Spoken description for Unicode code point U+1F690: "🚐" MINIBUS -->
+  <string name="spoken_emoji_1F690">"Pikkubussi"</string>
+  <!-- Spoken description for Unicode code point U+1F691: "🚑" AMBULANCE -->
+  <string name="spoken_emoji_1F691">"Ambulanssi"</string>
+  <!-- Spoken description for Unicode code point U+1F692: "🚒" FIRE ENGINE -->
+  <string name="spoken_emoji_1F692">"Paloauto"</string>
+  <!-- Spoken description for Unicode code point U+1F693: "🚓" POLICE CAR -->
+  <string name="spoken_emoji_1F693">"Poliisiauto"</string>
+  <!-- Spoken description for Unicode code point U+1F694: "🚔" ONCOMING POLICE CAR -->
+  <string name="spoken_emoji_1F694">"Poliisiauto edestä"</string>
+  <!-- Spoken description for Unicode code point U+1F695: "🚕" TAXI -->
+  <string name="spoken_emoji_1F695">"Taksi"</string>
+  <!-- Spoken description for Unicode code point U+1F696: "🚖" ONCOMING TAXI -->
+  <string name="spoken_emoji_1F696">"Taksi edestä"</string>
+  <!-- Spoken description for Unicode code point U+1F697: "🚗" AUTOMOBILE -->
+  <string name="spoken_emoji_1F697">"Auto"</string>
+  <!-- Spoken description for Unicode code point U+1F698: "🚘" ONCOMING AUTOMOBILE -->
+  <string name="spoken_emoji_1F698">"Auto edestä"</string>
+  <!-- Spoken description for Unicode code point U+1F699: "🚙" RECREATIONAL VEHICLE -->
+  <string name="spoken_emoji_1F699">"Maastoauto"</string>
+  <!-- Spoken description for Unicode code point U+1F69A: "🚚" DELIVERY TRUCK -->
+  <string name="spoken_emoji_1F69A">"Kuorma-auto"</string>
+  <!-- Spoken description for Unicode code point U+1F69B: "🚛" ARTICULATED LORRY -->
+  <string name="spoken_emoji_1F69B">"Kuorma-auto"</string>
+  <!-- Spoken description for Unicode code point U+1F69C: "🚜" TRACTOR -->
+  <string name="spoken_emoji_1F69C">"Traktori"</string>
+  <!-- Spoken description for Unicode code point U+1F69D: "🚝" MONORAIL -->
+  <string name="spoken_emoji_1F69D">"Yksiraiteinen rautatie"</string>
+  <!-- Spoken description for Unicode code point U+1F69E: "🚞" MOUNTAIN RAILWAY -->
+  <string name="spoken_emoji_1F69E">"Vuoristojuna"</string>
+  <!-- Spoken description for Unicode code point U+1F69F: "🚟" SUSPENSION RAILWAY -->
+  <string name="spoken_emoji_1F69F">"Riippuva rautatie"</string>
+  <!-- Spoken description for Unicode code point U+1F6A0: "🚠" MOUNTAIN CABLEWAY -->
+  <string name="spoken_emoji_1F6A0">"Köysirata"</string>
+  <!-- Spoken description for Unicode code point U+1F6A1: "🚡" AERIAL TRAMWAY -->
+  <string name="spoken_emoji_1F6A1">"Köysirata"</string>
+  <!-- Spoken description for Unicode code point U+1F6A2: "🚢" SHIP -->
+  <string name="spoken_emoji_1F6A2">"Laiva"</string>
+  <!-- Spoken description for Unicode code point U+1F6A3: "🚣" ROWBOAT -->
+  <string name="spoken_emoji_1F6A3">"Soutuvene"</string>
+  <!-- Spoken description for Unicode code point U+1F6A4: "🚤" SPEEDBOAT -->
+  <string name="spoken_emoji_1F6A4">"Pikavene"</string>
+  <!-- Spoken description for Unicode code point U+1F6A5: "🚥" HORIZONTAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A5">"Vaakasuuntaiset liikennevalot"</string>
+  <!-- Spoken description for Unicode code point U+1F6A6: "🚦" VERTICAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A6">"Pystysuuntaiset liikennevalot"</string>
+  <!-- Spoken description for Unicode code point U+1F6A7: "🚧" CONSTRUCTION SIGN -->
+  <string name="spoken_emoji_1F6A7">"Rakennustyömaan merkki"</string>
+  <!-- Spoken description for Unicode code point U+1F6A8: "🚨" POLICE CARS REVOLVING LIGHT -->
+  <string name="spoken_emoji_1F6A8">"Poliisiauton hälytysvalo"</string>
+  <!-- Spoken description for Unicode code point U+1F6A9: "🚩" TRIANGULAR FLAG ON POST -->
+  <string name="spoken_emoji_1F6A9">"Kolmiolippu"</string>
+  <!-- Spoken description for Unicode code point U+1F6AA: "🚪" DOOR -->
+  <string name="spoken_emoji_1F6AA">"Ovi"</string>
+  <!-- Spoken description for Unicode code point U+1F6AB: "🚫" NO ENTRY SIGN -->
+  <string name="spoken_emoji_1F6AB">"Kulku kielletty -merkki"</string>
+  <!-- Spoken description for Unicode code point U+1F6AC: "🚬" SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AC">"Tupakointisymboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6AD: "🚭" NO SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AD">"Tupakointi kielletty"</string>
+  <!-- Spoken description for Unicode code point U+1F6AE: "🚮" PUT LITTER IN ITS PLACE SYMBOL -->
+  <string name="spoken_emoji_1F6AE">"Roskat roskakoriin -symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6AF: "🚯" DO NOT LITTER SYMBOL -->
+  <string name="spoken_emoji_1F6AF">"Älä roskaa -symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6B0: "🚰" POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B0">"Juomaveden symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6B1: "🚱" NON-POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B1">"Juomakelvottoman veden symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6B2: "🚲" BICYCLE -->
+  <string name="spoken_emoji_1F6B2">"Polkupyörä"</string>
+  <!-- Spoken description for Unicode code point U+1F6B3: "🚳" NO BICYCLES -->
+  <string name="spoken_emoji_1F6B3">"Pyöräily kielletty"</string>
+  <!-- Spoken description for Unicode code point U+1F6B4: "🚴" BICYCLIST -->
+  <string name="spoken_emoji_1F6B4">"Pyöräilijä"</string>
+  <!-- Spoken description for Unicode code point U+1F6B5: "🚵" MOUNTAIN BICYCLIST -->
+  <string name="spoken_emoji_1F6B5">"Maastopyöräilijä"</string>
+  <!-- Spoken description for Unicode code point U+1F6B6: "🚶" PEDESTRIAN -->
+  <string name="spoken_emoji_1F6B6">"Jalankulkija"</string>
+  <!-- Spoken description for Unicode code point U+1F6B7: "🚷" NO PEDESTRIANS -->
+  <string name="spoken_emoji_1F6B7">"Jalankulku kieletty"</string>
+  <!-- Spoken description for Unicode code point U+1F6B8: "🚸" CHILDREN CROSSING -->
+  <string name="spoken_emoji_1F6B8">"Lapsia-varoitusmerkki"</string>
+  <!-- Spoken description for Unicode code point U+1F6B9: "🚹" MENS SYMBOL -->
+  <string name="spoken_emoji_1F6B9">"Miehen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6BA: "🚺" WOMENS SYMBOL -->
+  <string name="spoken_emoji_1F6BA">"Naisen symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6BB: "🚻" RESTROOM -->
+  <string name="spoken_emoji_1F6BB">"WC"</string>
+  <!-- Spoken description for Unicode code point U+1F6BC: "🚼" BABY SYMBOL -->
+  <string name="spoken_emoji_1F6BC">"Vauvan symboli"</string>
+  <!-- Spoken description for Unicode code point U+1F6BD: "🚽" TOILET -->
+  <string name="spoken_emoji_1F6BD">"WC"</string>
+  <!-- Spoken description for Unicode code point U+1F6BE: "🚾" WATER CLOSET -->
+  <string name="spoken_emoji_1F6BE">"WC"</string>
+  <!-- Spoken description for Unicode code point U+1F6BF: "🚿" SHOWER -->
+  <string name="spoken_emoji_1F6BF">"Suihku"</string>
+  <!-- Spoken description for Unicode code point U+1F6C0: "🛀" BATH -->
+  <string name="spoken_emoji_1F6C0">"Kylpy"</string>
+  <!-- Spoken description for Unicode code point U+1F6C1: "🛁" BATHTUB -->
+  <string name="spoken_emoji_1F6C1">"Kylpyamme"</string>
+  <!-- Spoken description for Unicode code point U+1F6C2: "🛂" PASSPORT CONTROL -->
+  <string name="spoken_emoji_1F6C2">"Passintarkastus"</string>
+  <!-- Spoken description for Unicode code point U+1F6C3: "🛃" CUSTOMS -->
+  <string name="spoken_emoji_1F6C3">"Tulli"</string>
+  <!-- Spoken description for Unicode code point U+1F6C4: "🛄" BAGGAGE CLAIM -->
+  <string name="spoken_emoji_1F6C4">"Matkatavaroiden nouto"</string>
+  <!-- Spoken description for Unicode code point U+1F6C5: "🛅" LEFT LUGGAGE -->
+  <string name="spoken_emoji_1F6C5">"Matkatavaroiden säilytys"</string>
+</resources>

@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2014, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+
+  These Emoji symbols are unsupported by TTS.
+  TODO: Remove this file when TTS/TalkBack support these Emoji symbols.
+-->
+
+<resources>
+  <!-- Spoken description for Unicode code point U+00A9: "©" COPYRIGHT SIGN -->
+  <string name="spoken_emoji_00A9">"Σύμβολο πνευματικών δικαιωμάτων"</string>
+  <!-- Spoken description for Unicode code point U+00AE: "®" REGISTERED SIGN -->
+  <string name="spoken_emoji_00AE">"Σύμβολο κατατεθέντος"</string>
+  <!-- Spoken description for Unicode code point U+203C: "‼" DOUBLE EXCLAMATION MARK -->
+  <string name="spoken_emoji_203C">"Διπλό θαυμαστικό"</string>
+  <!-- Spoken description for Unicode code point U+2049: "⁉" EXCLAMATION QUESTION MARK -->
+  <string name="spoken_emoji_2049">"Θαυμαστικό ερωτηματικό"</string>
+  <!-- Spoken description for Unicode code point U+2122: "™" TRADE MARK SIGN -->
+  <string name="spoken_emoji_2122">"Σύμβολο εμπορικού σήματος"</string>
+  <!-- Spoken description for Unicode code point U+2139: "ℹ" INFORMATION SOURCE -->
+  <string name="spoken_emoji_2139">"Πηγή πληροφοριών"</string>
+  <!-- Spoken description for Unicode code point U+2194: "↔" LEFT RIGHT ARROW -->
+  <string name="spoken_emoji_2194">"Αριστερό-δεξί βέλος"</string>
+  <!-- Spoken description for Unicode code point U+2195: "↕" UP DOWN ARROW -->
+  <string name="spoken_emoji_2195">"Επάνω-κάτω βέλος"</string>
+  <!-- Spoken description for Unicode code point U+2196: "↖" NORTH WEST ARROW -->
+  <string name="spoken_emoji_2196">"Βορειοδυτικό βέλος"</string>
+  <!-- Spoken description for Unicode code point U+2197: "↗" NORTH EAST ARROW -->
+  <string name="spoken_emoji_2197">"Βορειοανατολικό βέλος"</string>
+  <!-- Spoken description for Unicode code point U+2198: "↘" SOUTH EAST ARROW -->
+  <string name="spoken_emoji_2198">"Νοτιοανατολικό βέλος"</string>
+  <!-- Spoken description for Unicode code point U+2199: "↙" SOUTH WEST ARROW -->
+  <string name="spoken_emoji_2199">"Νοτιοδυτικό βέλος"</string>
+  <!-- Spoken description for Unicode code point U+21A9: "↩" LEFTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21A9">"Βέλος προς τα αριστερά με κλείσιμο"</string>
+  <!-- Spoken description for Unicode code point U+21AA: "↪" RIGHTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21AA">"Βέλος προς τα δεξιά με κλείσιμο"</string>
+  <!-- Spoken description for Unicode code point U+231A: "⌚" WATCH -->
+  <string name="spoken_emoji_231A">"Ρολόι"</string>
+  <!-- Spoken description for Unicode code point U+231B: "⌛" HOURGLASS -->
+  <string name="spoken_emoji_231B">"Κλεψύδρα"</string>
+  <!-- Spoken description for Unicode code point U+23E9: "⏩" BLACK RIGHT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23E9">"Δύο μαύρα τρίγωνα που δείχνουν προς τα δεξιά"</string>
+  <!-- Spoken description for Unicode code point U+23EA: "⏪" BLACK LEFT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EA">"Δύο μαύρα τρίγωνα που δείχνουν προς τα αριστερά"</string>
+  <!-- Spoken description for Unicode code point U+23EB: "⏫" BLACK UP-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EB">"Δύο μαύρα τρίγωνα που δείχνουν προς τα επάνω"</string>
+  <!-- Spoken description for Unicode code point U+23EC: "⏬" BLACK DOWN-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EC">"Δύο μαύρα τρίγωνα που δείχνουν προς τα κάτω"</string>
+  <!-- Spoken description for Unicode code point U+23F0: "⏰" ALARM CLOCK -->
+  <string name="spoken_emoji_23F0">"Ξυπνητήρι"</string>
+  <!-- Spoken description for Unicode code point U+23F3: "⏳" HOURGLASS WITH FLOWING SAND -->
+  <string name="spoken_emoji_23F3">"Κλεψύδρα με άμμο που ρέει"</string>
+  <!-- Spoken description for Unicode code point U+24C2: "Ⓜ" CIRCLED LATIN CAPITAL LETTER M -->
+  <string name="spoken_emoji_24C2">"Λατινικό κεφαλαίο γράμμα M σε κύκλο"</string>
+  <!-- Spoken description for Unicode code point U+25AA: "▪" BLACK SMALL SQUARE -->
+  <string name="spoken_emoji_25AA">"Μαύρο μικρό τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+25AB: "▫" WHITE SMALL SQUARE -->
+  <string name="spoken_emoji_25AB">"Λευκό μικρό τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+25B6: "▶" BLACK RIGHT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25B6">"Μαύρο τρίγωνο που δείχνει προς τα δεξιά"</string>
+  <!-- Spoken description for Unicode code point U+25C0: "◀" BLACK LEFT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25C0">"Μαύρο τρίγωνο που δείχνει προς τα αριστερά"</string>
+  <!-- Spoken description for Unicode code point U+25FB: "◻" WHITE MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FB">"Τετράγωνο με λευκό εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+25FC: "◼" BLACK MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FC">"Τετράγωνο με μαύρο εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+25FD: "◽" WHITE MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FD">"Μικρό τετράγωνο με λευκό εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+25FE: "◾" BLACK MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FE">"Μικρό τετράγωνο με μαύρο εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+2600: "☀" BLACK SUN WITH RAYS -->
+  <string name="spoken_emoji_2600">"Μαύρος ήλιος με ακτίνες"</string>
+  <!-- Spoken description for Unicode code point U+2601: "☁" CLOUD -->
+  <string name="spoken_emoji_2601">"Σύννεφο"</string>
+  <!-- Spoken description for Unicode code point U+260E: "☎" BLACK TELEPHONE -->
+  <string name="spoken_emoji_260E">"Μαύρο τηλέφωνο"</string>
+  <!-- Spoken description for Unicode code point U+2611: "☑" BALLOT BOX WITH CHECK -->
+  <string name="spoken_emoji_2611">"Κουτάκι με τσεκάρισμα"</string>
+  <!-- Spoken description for Unicode code point U+2614: "☔" UMBRELLA WITH RAIN DROPS -->
+  <string name="spoken_emoji_2614">"Ομπρέλα με σταγόνες βροχής"</string>
+  <!-- Spoken description for Unicode code point U+2615: "☕" HOT BEVERAGE -->
+  <string name="spoken_emoji_2615">"Ζεστό ρόφημα"</string>
+  <!-- Spoken description for Unicode code point U+261D: "☝" WHITE UP POINTING INDEX -->
+  <string name="spoken_emoji_261D">"Λευκός δείκτης που δείχνει προς τα επάνω"</string>
+  <!-- Spoken description for Unicode code point U+263A: "☺" WHITE SMILING FACE -->
+  <string name="spoken_emoji_263A">"Λευκό χαμογελαστό πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+2648: "♈" ARIES -->
+  <string name="spoken_emoji_2648">"Κριός"</string>
+  <!-- Spoken description for Unicode code point U+2649: "♉" TAURUS -->
+  <string name="spoken_emoji_2649">"Ταύρος"</string>
+  <!-- Spoken description for Unicode code point U+264A: "♊" GEMINI -->
+  <string name="spoken_emoji_264A">"Δίδυμοι"</string>
+  <!-- Spoken description for Unicode code point U+264B: "♋" CANCER -->
+  <string name="spoken_emoji_264B">"Καρκίνος"</string>
+  <!-- Spoken description for Unicode code point U+264C: "♌" LEO -->
+  <string name="spoken_emoji_264C">"Λέων"</string>
+  <!-- Spoken description for Unicode code point U+264D: "♍" VIRGO -->
+  <string name="spoken_emoji_264D">"Παρθένος"</string>
+  <!-- Spoken description for Unicode code point U+264E: "♎" LIBRA -->
+  <string name="spoken_emoji_264E">"Ζυγός"</string>
+  <!-- Spoken description for Unicode code point U+264F: "♏" SCORPIUS -->
+  <string name="spoken_emoji_264F">"Σκορπιός"</string>
+  <!-- Spoken description for Unicode code point U+2650: "♐" SAGITTARIUS -->
+  <string name="spoken_emoji_2650">"Τοξότης"</string>
+  <!-- Spoken description for Unicode code point U+2651: "♑" CAPRICORN -->
+  <string name="spoken_emoji_2651">"Αιγόκερως"</string>
+  <!-- Spoken description for Unicode code point U+2652: "♒" AQUARIUS -->
+  <string name="spoken_emoji_2652">"Υδροχόος"</string>
+  <!-- Spoken description for Unicode code point U+2653: "♓" PISCES -->
+  <string name="spoken_emoji_2653">"Ιχθείς"</string>
+  <!-- Spoken description for Unicode code point U+2660: "♠" BLACK SPADE SUIT -->
+  <string name="spoken_emoji_2660">"Μαύρο μπαστούνι"</string>
+  <!-- Spoken description for Unicode code point U+2663: "♣" BLACK CLUB SUIT -->
+  <string name="spoken_emoji_2663">"Μαύρο σπαθί"</string>
+  <!-- Spoken description for Unicode code point U+2665: "♥" BLACK HEART SUIT -->
+  <string name="spoken_emoji_2665">"Μαύρη κούπα"</string>
+  <!-- Spoken description for Unicode code point U+2666: "♦" BLACK DIAMOND SUIT -->
+  <string name="spoken_emoji_2666">"Μαύρο καρό"</string>
+  <!-- Spoken description for Unicode code point U+2668: "♨" HOT SPRINGS -->
+  <string name="spoken_emoji_2668">"Θερμές πηγές"</string>
+  <!-- Spoken description for Unicode code point U+267B: "♻" BLACK UNIVERSAL RECYCLING SYMBOL -->
+  <string name="spoken_emoji_267B">"Μαύρο γενικό σύμβολο ανακύκλωσης"</string>
+  <!-- Spoken description for Unicode code point U+267F: "♿" WHEELCHAIR SYMBOL -->
+  <string name="spoken_emoji_267F">"Σύμβολο αναπηρικής καρέκλας"</string>
+  <!-- Spoken description for Unicode code point U+2693: "⚓" ANCHOR -->
+  <string name="spoken_emoji_2693">"Άγκυρα"</string>
+  <!-- Spoken description for Unicode code point U+26A0: "⚠" WARNING SIGN -->
+  <string name="spoken_emoji_26A0">"Προειδοποιητικό σήμα"</string>
+  <!-- Spoken description for Unicode code point U+26A1: "⚡" HIGH VOLTAGE SIGN -->
+  <string name="spoken_emoji_26A1">"Σύμβολο υψηλής τάσης"</string>
+  <!-- Spoken description for Unicode code point U+26AA: "⚪" MEDIUM WHITE CIRCLE -->
+  <string name="spoken_emoji_26AA">"Κύκλος με λευκό εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+26AB: "⚫" MEDIUM BLACK CIRCLE -->
+  <string name="spoken_emoji_26AB">"Κύκλος με μαύρο εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+26BD: "⚽" SOCCER BALL -->
+  <string name="spoken_emoji_26BD">"Μπάλα ποδοσφαίρου"</string>
+  <!-- Spoken description for Unicode code point U+26BE: "⚾" BASEBALL -->
+  <string name="spoken_emoji_26BE">"Μπάλα μπέιζμπολ"</string>
+  <!-- Spoken description for Unicode code point U+26C4: "⛄" SNOWMAN WITHOUT SNOW -->
+  <string name="spoken_emoji_26C4">"Χιονάνθρωπος χωρίς χιόνι"</string>
+  <!-- Spoken description for Unicode code point U+26C5: "⛅" SUN BEHIND CLOUD -->
+  <string name="spoken_emoji_26C5">"Ήλιος πίσω από σύννεφο"</string>
+  <!-- Spoken description for Unicode code point U+26CE: "⛎" OPHIUCHUS -->
+  <string name="spoken_emoji_26CE">"Οφιούχος"</string>
+  <!-- Spoken description for Unicode code point U+26D4: "⛔" NO ENTRY -->
+  <string name="spoken_emoji_26D4">"Απαγορεύεται η είσοδος"</string>
+  <!-- Spoken description for Unicode code point U+26EA: "⛪" CHURCH -->
+  <string name="spoken_emoji_26EA">"Εκκλησία"</string>
+  <!-- Spoken description for Unicode code point U+26F2: "⛲" FOUNTAIN -->
+  <string name="spoken_emoji_26F2">"Σιντριβάνι"</string>
+  <!-- Spoken description for Unicode code point U+26F3: "⛳" FLAG IN HOLE -->
+  <string name="spoken_emoji_26F3">"Σημαιάκι σε τρύπα"</string>
+  <!-- Spoken description for Unicode code point U+26F5: "⛵" SAILBOAT -->
+  <string name="spoken_emoji_26F5">"Ιστιοπλοϊκό"</string>
+  <!-- Spoken description for Unicode code point U+26FA: "⛺" TENT -->
+  <string name="spoken_emoji_26FA">"Σκηνή"</string>
+  <!-- Spoken description for Unicode code point U+26FD: "⛽" FUEL PUMP -->
+  <string name="spoken_emoji_26FD">"Αντλία βενζίνης"</string>
+  <!-- Spoken description for Unicode code point U+2702: "✂" BLACK SCISSORS -->
+  <string name="spoken_emoji_2702">"Μαύρο ψαλίδι"</string>
+  <!-- Spoken description for Unicode code point U+2705: "✅" WHITE HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2705">"Λευκό έντονο σημάδι ολοκλήρωσης"</string>
+  <!-- Spoken description for Unicode code point U+2708: "✈" AIRPLANE -->
+  <string name="spoken_emoji_2708">"Αεροπλάνο"</string>
+  <!-- Spoken description for Unicode code point U+2709: "✉" ENVELOPE -->
+  <string name="spoken_emoji_2709">"Φάκελος"</string>
+  <!-- Spoken description for Unicode code point U+270A: "✊" RAISED FIST -->
+  <string name="spoken_emoji_270A">"Υψωμένη γροθιά"</string>
+  <!-- Spoken description for Unicode code point U+270B: "✋" RAISED HAND -->
+  <string name="spoken_emoji_270B">"Υψωμένο χέρι"</string>
+  <!-- Spoken description for Unicode code point U+270C: "✌" VICTORY HAND -->
+  <string name="spoken_emoji_270C">"Σήμα νίκης"</string>
+  <!-- Spoken description for Unicode code point U+270F: "✏" PENCIL -->
+  <string name="spoken_emoji_270F">"Μολύβι"</string>
+  <!-- Spoken description for Unicode code point U+2712: "✒" BLACK NIB -->
+  <string name="spoken_emoji_2712">"Μαύρη μύτη πένας"</string>
+  <!-- Spoken description for Unicode code point U+2714: "✔" HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2714">"Έντονο σημάδι ολοκλήρωσης"</string>
+  <!-- Spoken description for Unicode code point U+2716: "✖" HEAVY MULTIPLICATION X -->
+  <string name="spoken_emoji_2716">"Έντονο σύμβολο πολλαπλασιασμού Χ"</string>
+  <!-- Spoken description for Unicode code point U+2728: "✨" SPARKLES -->
+  <string name="spoken_emoji_2728">"Αστεράκια που ακτινοβολούν"</string>
+  <!-- Spoken description for Unicode code point U+2733: "✳" EIGHT SPOKED ASTERISK -->
+  <string name="spoken_emoji_2733">"Αστερίσκος οκτώ ακτίνων"</string>
+  <!-- Spoken description for Unicode code point U+2734: "✴" EIGHT POINTED BLACK STAR -->
+  <string name="spoken_emoji_2734">"Μαύρο αστέρι οκτώ ακτίνων"</string>
+  <!-- Spoken description for Unicode code point U+2744: "❄" SNOWFLAKE -->
+  <string name="spoken_emoji_2744">"Νιφάδα χιονιού"</string>
+  <!-- Spoken description for Unicode code point U+2747: "❇" SPARKLE -->
+  <string name="spoken_emoji_2747">"Αστεράκι που ακτινοβολεί"</string>
+  <!-- Spoken description for Unicode code point U+274C: "❌" CROSS MARK -->
+  <string name="spoken_emoji_274C">"Σύμβολο \"Χ\""</string>
+  <!-- Spoken description for Unicode code point U+274E: "❎" NEGATIVE SQUARED CROSS MARK -->
+  <string name="spoken_emoji_274E">"Αρνητικό σύμβολο \"Χ\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+2753: "❓" BLACK QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2753">"Μαύρο διακοσμητικό ερωτηματικό"</string>
+  <!-- Spoken description for Unicode code point U+2754: "❔" WHITE QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2754">"Λευκό διακοσμητικό ερωτηματικό"</string>
+  <!-- Spoken description for Unicode code point U+2755: "❕" WHITE EXCLAMATION MARK ORNAMENT -->
+  <string name="spoken_emoji_2755">"Λευκό διακοσμητικό θαυμαστικό"</string>
+  <!-- Spoken description for Unicode code point U+2757: "❗" HEAVY EXCLAMATION MARK SYMBOL -->
+  <string name="spoken_emoji_2757">"Έντονο σύμβολο θαυμαστικού"</string>
+  <!-- Spoken description for Unicode code point U+2764: "❤" HEAVY BLACK HEART -->
+  <string name="spoken_emoji_2764">"Έντονες μαύρες κούπες"</string>
+  <!-- Spoken description for Unicode code point U+2795: "➕" HEAVY PLUS SIGN -->
+  <string name="spoken_emoji_2795">"Έντονο σύμβολο του \"συν\""</string>
+  <!-- Spoken description for Unicode code point U+2796: "➖" HEAVY MINUS SIGN -->
+  <string name="spoken_emoji_2796">"Έντονο σύμβολο του \"μείον\""</string>
+  <!-- Spoken description for Unicode code point U+2797: "➗" HEAVY DIVISION SIGN -->
+  <string name="spoken_emoji_2797">"Έντονο σύμβολο διαίρεσης"</string>
+  <!-- Spoken description for Unicode code point U+27A1: "➡" BLACK RIGHTWARDS ARROW -->
+  <string name="spoken_emoji_27A1">"Μαύρο βέλος προς τα δεξιά"</string>
+  <!-- Spoken description for Unicode code point U+27B0: "➰" CURLY LOOP -->
+  <string name="spoken_emoji_27B0">"Καμπυλωτή θηλιά"</string>
+  <!-- Spoken description for Unicode code point U+27BF: "➿" DOUBLE CURLY LOOP -->
+  <string name="spoken_emoji_27BF">"Διπλή καμπυλωτή θηλιά"</string>
+  <!-- Spoken description for Unicode code point U+2934: "⤴" ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+  <string name="spoken_emoji_2934">"Βέλος που δείχνει προς τα δεξιά και έπειτα στρίβει προς τα πάνω"</string>
+  <!-- Spoken description for Unicode code point U+2935: "⤵" ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+  <string name="spoken_emoji_2935">"Βέλος που δείχνει προς τα δεξιά και έπειτα στρίβει προς τα κάτω"</string>
+  <!-- Spoken description for Unicode code point U+2B05: "⬅" LEFTWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B05">"Μαύρο βέλος προς τα αριστερά"</string>
+  <!-- Spoken description for Unicode code point U+2B06: "⬆" UPWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B06">"Μαύρο βέλος προς τα πάνω"</string>
+  <!-- Spoken description for Unicode code point U+2B07: "⬇" DOWNWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B07">"Μαύρο βέλος προς τα κάτω"</string>
+  <!-- Spoken description for Unicode code point U+2B1B: "⬛" BLACK LARGE SQUARE -->
+  <string name="spoken_emoji_2B1B">"Μαύρο μεγάλο τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+2B1C: "⬜" WHITE LARGE SQUARE -->
+  <string name="spoken_emoji_2B1C">"Λευκό μεγάλο τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+2B50: "⭐" WHITE MEDIUM STAR -->
+  <string name="spoken_emoji_2B50">"Αστέρι με λευκό εσωτερικό"</string>
+  <!-- Spoken description for Unicode code point U+2B55: "⭕" HEAVY LARGE CIRCLE -->
+  <string name="spoken_emoji_2B55">"Έντονος μεγάλος κύκλος"</string>
+  <!-- Spoken description for Unicode code point U+3030: "〰" WAVY DASH -->
+  <string name="spoken_emoji_3030">"Κυματιστή παύλα"</string>
+  <!-- Spoken description for Unicode code point U+303D: "〽" PART ALTERNATION MARK -->
+  <string name="spoken_emoji_303D">"Σημάδι εναλλαγής μέρους"</string>
+  <!-- Spoken description for Unicode code point U+3297: "㊗" CIRCLED IDEOGRAPH CONGRATULATION -->
+  <string name="spoken_emoji_3297">"Ιδεογράφημα σε κύκλο \"συγχαρητήρια\""</string>
+  <!-- Spoken description for Unicode code point U+3299: "㊙" CIRCLED IDEOGRAPH SECRET -->
+  <string name="spoken_emoji_3299">"Ιδεογράφημα σε κύκλο \"μυστικό\""</string>
+  <!-- Spoken description for Unicode code point U+1F004: "🀄" MAHJONG TILE RED DRAGON -->
+  <string name="spoken_emoji_1F004">"Πλακίδιο Mahjong με κόκκινο δράκο"</string>
+  <!-- Spoken description for Unicode code point U+1F0CF: "🃏" PLAYING CARD BLACK JOKER -->
+  <string name="spoken_emoji_1F0CF">"Χαρτί τράπουλας με μαύρο μπαλαντέρ"</string>
+  <!-- Spoken description for Unicode code point U+1F170: "🅰" NEGATIVE SQUARED LATIN CAPITAL LETTER A -->
+  <string name="spoken_emoji_1F170">"Ομάδα αίματος Α"</string>
+  <!-- Spoken description for Unicode code point U+1F171: "🅱" NEGATIVE SQUARED LATIN CAPITAL LETTER B -->
+  <string name="spoken_emoji_1F171">"Ομάδα αίματος Β"</string>
+  <!-- Spoken description for Unicode code point U+1F17E: "🅾" NEGATIVE SQUARED LATIN CAPITAL LETTER O -->
+  <string name="spoken_emoji_1F17E">"Ομάδα αίματος Ο"</string>
+  <!-- Spoken description for Unicode code point U+1F17F: "🅿" NEGATIVE SQUARED LATIN CAPITAL LETTER P -->
+  <string name="spoken_emoji_1F17F">"Χώρος στάθμευσης"</string>
+  <!-- Spoken description for Unicode code point U+1F18E: "🆎" NEGATIVE SQUARED AB -->
+  <string name="spoken_emoji_1F18E">"Ομάδα αίματος ΑΒ"</string>
+  <!-- Spoken description for Unicode code point U+1F191: "🆑" SQUARED CL -->
+  <string name="spoken_emoji_1F191">"\"CL\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F192: "🆒" SQUARED COOL -->
+  <string name="spoken_emoji_1F192">"\"Cool\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F193: "🆓" SQUARED FREE -->
+  <string name="spoken_emoji_1F193">"\"Free\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F194: "🆔" SQUARED ID -->
+  <string name="spoken_emoji_1F194">"\"ID\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F195: "🆕" SQUARED NEW -->
+  <string name="spoken_emoji_1F195">"\"New\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F196: "🆖" SQUARED NG -->
+  <string name="spoken_emoji_1F196">"\"NG\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F197: "🆗" SQUARED OK -->
+  <string name="spoken_emoji_1F197">"\"OK\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F198: "🆘" SQUARED SOS -->
+  <string name="spoken_emoji_1F198">"\"SOS\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F199: "🆙" SQUARED UP WITH EXCLAMATION MARK -->
+  <string name="spoken_emoji_1F199">"\"Up\" με θαυμαστικό σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F19A: "🆚" SQUARED VS -->
+  <string name="spoken_emoji_1F19A">"\"VS\" σε τετράγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F201: "🈁" SQUARED KATAKANA KOKO -->
+  <string name="spoken_emoji_1F201">"Γράμμα Katakana σε τετράγωνο \"εδώ\""</string>
+  <!-- Spoken description for Unicode code point U+1F202: "🈂" SQUARED KATAKANA SA -->
+  <string name="spoken_emoji_1F202">"Γράμμα Katakana σε τετράγωνο \"υπηρεσία\""</string>
+  <!-- Spoken description for Unicode code point U+1F21A: "🈚" SQUARED CJK UNIFIED IDEOGRAPH-7121 -->
+  <string name="spoken_emoji_1F21A">"Ιδεογράφημα σε τετράγωνο \"δωρεάν\""</string>
+  <!-- Spoken description for Unicode code point U+1F22F: "🈯" SQUARED CJK UNIFIED IDEOGRAPH-6307 -->
+  <string name="spoken_emoji_1F22F">"Ιδεογράφημα σε τετράγωνο \"κρατημένη θέση\""</string>
+  <!-- Spoken description for Unicode code point U+1F232: "🈲" SQUARED CJK UNIFIED IDEOGRAPH-7981 -->
+  <string name="spoken_emoji_1F232">"Ιδεογράφημα σε τετράγωνο \"απαγόρευση\""</string>
+  <!-- Spoken description for Unicode code point U+1F233: "🈳" SQUARED CJK UNIFIED IDEOGRAPH-7A7A -->
+  <string name="spoken_emoji_1F233">"Ιδεογράφημα σε τετράγωνο \"κενή θέση\""</string>
+  <!-- Spoken description for Unicode code point U+1F234: "🈴" SQUARED CJK UNIFIED IDEOGRAPH-5408 -->
+  <string name="spoken_emoji_1F234">"Ιδεογράφημα σε τετράγωνο \"αποδοχή\""</string>
+  <!-- Spoken description for Unicode code point U+1F236: "🈶" SQUARED CJK UNIFIED IDEOGRAPH-6709 -->
+  <string name="spoken_emoji_1F236">"Ιδεογράφημα σε τετράγωνο \"πληρώθηκε\""</string>
+  <!-- Spoken description for Unicode code point U+1F237: "🈷" SQUARED CJK UNIFIED IDEOGRAPH-6708 -->
+  <string name="spoken_emoji_1F237">"Ιδεογράφημα σε τετράγωνο \"μηνιαίως\""</string>
+  <!-- Spoken description for Unicode code point U+1F238: "🈸" SQUARED CJK UNIFIED IDEOGRAPH-7533 -->
+  <string name="spoken_emoji_1F238">"Ιδεογράφημα σε τετράγωνο \"εφαρμογή\""</string>
+  <!-- Spoken description for Unicode code point U+1F239: "🈹" SQUARED CJK UNIFIED IDEOGRAPH-5272 -->
+  <string name="spoken_emoji_1F239">"Ιδεογράφημα σε τετράγωνο \"έκπτωση\""</string>
+  <!-- Spoken description for Unicode code point U+1F23A: "🈺" SQUARED CJK UNIFIED IDEOGRAPH-55B6 -->
+  <string name="spoken_emoji_1F23A">"Ιδεογράφημα σε τετράγωνο \"ανοίξαμε\""</string>
+  <!-- Spoken description for Unicode code point U+1F250: "🉐" CIRCLED IDEOGRAPH ADVANTAGE -->
+  <string name="spoken_emoji_1F250">"Ιδεογράφημα σε κύκλο \"πλεονέκτημα\""</string>
+  <!-- Spoken description for Unicode code point U+1F251: "🉑" CIRCLED IDEOGRAPH ACCEPT -->
+  <string name="spoken_emoji_1F251">"Ιδεογράφημα σε κύκλο \"αποδοχή\""</string>
+  <!-- Spoken description for Unicode code point U+1F300: "🌀" CYCLONE -->
+  <string name="spoken_emoji_1F300">"Κυκλώνας"</string>
+  <!-- Spoken description for Unicode code point U+1F301: "🌁" FOGGY -->
+  <string name="spoken_emoji_1F301">"Ομιχλώδης"</string>
+  <!-- Spoken description for Unicode code point U+1F302: "🌂" CLOSED UMBRELLA -->
+  <string name="spoken_emoji_1F302">"Κλειστή ομπρέλα"</string>
+  <!-- Spoken description for Unicode code point U+1F303: "🌃" NIGHT WITH STARS -->
+  <string name="spoken_emoji_1F303">"Νύχτα με αστέρια"</string>
+  <!-- Spoken description for Unicode code point U+1F304: "🌄" SUNRISE OVER MOUNTAINS -->
+  <string name="spoken_emoji_1F304">"Ανατολή του ηλίου πίσω από τα βουνά"</string>
+  <!-- Spoken description for Unicode code point U+1F305: "🌅" SUNRISE -->
+  <string name="spoken_emoji_1F305">"Ανατολή ηλίου"</string>
+  <!-- Spoken description for Unicode code point U+1F306: "🌆" CITYSCAPE AT DUSK -->
+  <string name="spoken_emoji_1F306">"Περίγραμμα πόλης το σούρουπο"</string>
+  <!-- Spoken description for Unicode code point U+1F307: "🌇" SUNSET OVER BUILDINGS -->
+  <string name="spoken_emoji_1F307">"Ηλιοβασίλεμα πίσω από κτίρια"</string>
+  <!-- Spoken description for Unicode code point U+1F308: "🌈" RAINBOW -->
+  <string name="spoken_emoji_1F308">"Ουράνιο τόξο"</string>
+  <!-- Spoken description for Unicode code point U+1F309: "🌉" BRIDGE AT NIGHT -->
+  <string name="spoken_emoji_1F309">"Γέφυρα τη νύχτα"</string>
+  <!-- Spoken description for Unicode code point U+1F30A: "🌊" WATER WAVE -->
+  <string name="spoken_emoji_1F30A">"Κύμα νερού"</string>
+  <!-- Spoken description for Unicode code point U+1F30B: "🌋" VOLCANO -->
+  <string name="spoken_emoji_1F30B">"Ηφαίστειο"</string>
+  <!-- Spoken description for Unicode code point U+1F30C: "🌌" MILKY WAY -->
+  <string name="spoken_emoji_1F30C">"Γαλαξίας"</string>
+  <!-- Spoken description for Unicode code point U+1F30D: "🌍" EARTH GLOBE EUROPE-AFRICA -->
+  <string name="spoken_emoji_1F30D">"Υδρόγειος Ευρώπη-Αφρική"</string>
+  <!-- Spoken description for Unicode code point U+1F30E: "🌎" EARTH GLOBE AMERICAS -->
+  <string name="spoken_emoji_1F30E">"Υδρόγειος Αμερική"</string>
+  <!-- Spoken description for Unicode code point U+1F30F: "🌏" EARTH GLOBE ASIA-AUSTRALIA -->
+  <string name="spoken_emoji_1F30F">"Υδρόγειος Ασία-Αυστραλία"</string>
+  <!-- Spoken description for Unicode code point U+1F310: "🌐" GLOBE WITH MERIDIANS -->
+  <string name="spoken_emoji_1F310">"Υδρόγειος με μεσημβρινούς"</string>
+  <!-- Spoken description for Unicode code point U+1F311: "🌑" NEW MOON SYMBOL -->
+  <string name="spoken_emoji_1F311">"Σύμβολο νέας σελήνης"</string>
+  <!-- Spoken description for Unicode code point U+1F312: "🌒" WAXING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F312">"Σύμβολο σελήνης αύξουσας, πριν από το πρώτο τέταρτο"</string>
+  <!-- Spoken description for Unicode code point U+1F313: "🌓" FIRST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F313">"Σύμβολο σελήνης πρώτου τετάρτου"</string>
+  <!-- Spoken description for Unicode code point U+1F314: "🌔" WAXING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F314">"Σύμβολο σελήνης αύξουσας, πριν από την πανσέληνο"</string>
+  <!-- Spoken description for Unicode code point U+1F315: "🌕" FULL MOON SYMBOL -->
+  <string name="spoken_emoji_1F315">"Σύμβολο πανσελήνου"</string>
+  <!-- Spoken description for Unicode code point U+1F316: "🌖" WANING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F316">"Σύμβολο σελήνης φθίνουσας, πριν από το τελευταίο τέταρτο"</string>
+  <!-- Spoken description for Unicode code point U+1F317: "🌗" LAST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F317">"Σύμβολο σελήνης τελευταίου τετάρτου"</string>
+  <!-- Spoken description for Unicode code point U+1F318: "🌘" WANING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F318">"Σύμβολο σελήνης φθίνουσας, πριν από τη νέα σελήνη"</string>
+  <!-- Spoken description for Unicode code point U+1F319: "🌙" CRESCENT MOON -->
+  <string name="spoken_emoji_1F319">"Ημισέληνος"</string>
+  <!-- Spoken description for Unicode code point U+1F31A: "🌚" NEW MOON WITH FACE -->
+  <string name="spoken_emoji_1F31A">"Νέα σελήνη με πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F31B: "🌛" FIRST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31B">"Σελήνη πρώτου τετάρτου με πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F31C: "🌜" LAST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31C">"Σελήνη τελευταίου τετάρτου με πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F31D: "🌝" FULL MOON WITH FACE -->
+  <string name="spoken_emoji_1F31D">"Πανσέληνος με πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F31E: "🌞" SUN WITH FACE -->
+  <string name="spoken_emoji_1F31E">"Ήλιος με πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F31F: "🌟" GLOWING STAR -->
+  <string name="spoken_emoji_1F31F">"Λαμπερό αστέρι"</string>
+  <!-- Spoken description for Unicode code point U+1F320: "🌠" SHOOTING STAR -->
+  <string name="spoken_emoji_1F320">"Πεφταστέρι"</string>
+  <!-- Spoken description for Unicode code point U+1F330: "🌰" CHESTNUT -->
+  <string name="spoken_emoji_1F330">"Κάστανο"</string>
+  <!-- Spoken description for Unicode code point U+1F331: "🌱" SEEDLING -->
+  <string name="spoken_emoji_1F331">"Δενδρύλλιο"</string>
+  <!-- Spoken description for Unicode code point U+1F332: "🌲" EVERGREEN TREE -->
+  <string name="spoken_emoji_1F332">"Αειθαλές δέντρο"</string>
+  <!-- Spoken description for Unicode code point U+1F333: "🌳" DECIDUOUS TREE -->
+  <string name="spoken_emoji_1F333">"Φυλλοβόλο δέντρο"</string>
+  <!-- Spoken description for Unicode code point U+1F334: "🌴" PALM TREE -->
+  <string name="spoken_emoji_1F334">"Φοίνικας"</string>
+  <!-- Spoken description for Unicode code point U+1F335: "🌵" CACTUS -->
+  <string name="spoken_emoji_1F335">"Κάκτος"</string>
+  <!-- Spoken description for Unicode code point U+1F337: "🌷" TULIP -->
+  <string name="spoken_emoji_1F337">"Τουλίπα"</string>
+  <!-- Spoken description for Unicode code point U+1F338: "🌸" CHERRY BLOSSOM -->
+  <string name="spoken_emoji_1F338">"Άνθος κερασιάς"</string>
+  <!-- Spoken description for Unicode code point U+1F339: "🌹" ROSE -->
+  <string name="spoken_emoji_1F339">"Τριαντάφυλλο"</string>
+  <!-- Spoken description for Unicode code point U+1F33A: "🌺" HIBISCUS -->
+  <string name="spoken_emoji_1F33A">"Ιβίσκος"</string>
+  <!-- Spoken description for Unicode code point U+1F33B: "🌻" SUNFLOWER -->
+  <string name="spoken_emoji_1F33B">"Ηλιοτρόπιο"</string>
+  <!-- Spoken description for Unicode code point U+1F33C: "🌼" BLOSSOM -->
+  <string name="spoken_emoji_1F33C">"Άνθος"</string>
+  <!-- Spoken description for Unicode code point U+1F33D: "🌽" EAR OF MAIZE -->
+  <string name="spoken_emoji_1F33D">"Στάχυ καλαμποκιού"</string>
+  <!-- Spoken description for Unicode code point U+1F33E: "🌾" EAR OF RICE -->
+  <string name="spoken_emoji_1F33E">"Στάχυ ρυζιού"</string>
+  <!-- Spoken description for Unicode code point U+1F33F: "🌿" HERB -->
+  <string name="spoken_emoji_1F33F">"Γρασίδι"</string>
+  <!-- Spoken description for Unicode code point U+1F340: "🍀" FOUR LEAF CLOVER -->
+  <string name="spoken_emoji_1F340">"Τετράφυλλο τριφύλλι"</string>
+  <!-- Spoken description for Unicode code point U+1F341: "🍁" MAPLE LEAF -->
+  <string name="spoken_emoji_1F341">"Φύλλο σφενδάμου"</string>
+  <!-- Spoken description for Unicode code point U+1F342: "🍂" FALLEN LEAF -->
+  <string name="spoken_emoji_1F342">"Πεσμένο φύλλο"</string>
+  <!-- Spoken description for Unicode code point U+1F343: "🍃" LEAF FLUTTERING IN WIND -->
+  <string name="spoken_emoji_1F343">"Φύλλο που πετάει στον άνεμο"</string>
+  <!-- Spoken description for Unicode code point U+1F344: "🍄" MUSHROOM -->
+  <string name="spoken_emoji_1F344">"Μανιτάρι"</string>
+  <!-- Spoken description for Unicode code point U+1F345: "🍅" TOMATO -->
+  <string name="spoken_emoji_1F345">"Ντομάτα"</string>
+  <!-- Spoken description for Unicode code point U+1F346: "🍆" AUBERGINE -->
+  <string name="spoken_emoji_1F346">"Μελιτζάνα"</string>
+  <!-- Spoken description for Unicode code point U+1F347: "🍇" GRAPES -->
+  <string name="spoken_emoji_1F347">"Σταφύλια"</string>
+  <!-- Spoken description for Unicode code point U+1F348: "🍈" MELON -->
+  <string name="spoken_emoji_1F348">"Πεπόνι"</string>
+  <!-- Spoken description for Unicode code point U+1F349: "🍉" WATERMELON -->
+  <string name="spoken_emoji_1F349">"Καρπούζι"</string>
+  <!-- Spoken description for Unicode code point U+1F34A: "🍊" TANGERINE -->
+  <string name="spoken_emoji_1F34A">"Μανταρίνι"</string>
+  <!-- Spoken description for Unicode code point U+1F34B: "🍋" LEMON -->
+  <string name="spoken_emoji_1F34B">"Λεμόνι"</string>
+  <!-- Spoken description for Unicode code point U+1F34C: "🍌" BANANA -->
+  <string name="spoken_emoji_1F34C">"Μπανάνα"</string>
+  <!-- Spoken description for Unicode code point U+1F34D: "🍍" PINEAPPLE -->
+  <string name="spoken_emoji_1F34D">"Ανανάς"</string>
+  <!-- Spoken description for Unicode code point U+1F34E: "🍎" RED APPLE -->
+  <string name="spoken_emoji_1F34E">"Κόκκινο μήλο"</string>
+  <!-- Spoken description for Unicode code point U+1F34F: "🍏" GREEN APPLE -->
+  <string name="spoken_emoji_1F34F">"Πράσινο μήλο"</string>
+  <!-- Spoken description for Unicode code point U+1F350: "🍐" PEAR -->
+  <string name="spoken_emoji_1F350">"Αχλάδι"</string>
+  <!-- Spoken description for Unicode code point U+1F351: "🍑" PEACH -->
+  <string name="spoken_emoji_1F351">"Ροδάκινο"</string>
+  <!-- Spoken description for Unicode code point U+1F352: "🍒" CHERRIES -->
+  <string name="spoken_emoji_1F352">"Κεράσια"</string>
+  <!-- Spoken description for Unicode code point U+1F353: "🍓" STRAWBERRY -->
+  <string name="spoken_emoji_1F353">"Φράουλα"</string>
+  <!-- Spoken description for Unicode code point U+1F354: "🍔" HAMBURGER -->
+  <string name="spoken_emoji_1F354">"Χάμπουργκερ"</string>
+  <!-- Spoken description for Unicode code point U+1F355: "🍕" SLICE OF PIZZA -->
+  <string name="spoken_emoji_1F355">"Κομμάτι πίτσας"</string>
+  <!-- Spoken description for Unicode code point U+1F356: "🍖" MEAT ON BONE -->
+  <string name="spoken_emoji_1F356">"Κρέας σε κόκαλο"</string>
+  <!-- Spoken description for Unicode code point U+1F357: "🍗" POULTRY LEG -->
+  <string name="spoken_emoji_1F357">"Μπούτι πουλερικού"</string>
+  <!-- Spoken description for Unicode code point U+1F358: "🍘" RICE CRACKER -->
+  <string name="spoken_emoji_1F358">"Ρυζογκοφρέτα"</string>
+  <!-- Spoken description for Unicode code point U+1F359: "🍙" RICE BALL -->
+  <string name="spoken_emoji_1F359">"Μπαλάκι ρυζιού"</string>
+  <!-- Spoken description for Unicode code point U+1F35A: "🍚" COOKED RICE -->
+  <string name="spoken_emoji_1F35A">"Μαγειρεμένο ρύζι"</string>
+  <!-- Spoken description for Unicode code point U+1F35B: "🍛" CURRY AND RICE -->
+  <string name="spoken_emoji_1F35B">"Κάρι και ρύζι"</string>
+  <!-- Spoken description for Unicode code point U+1F35C: "🍜" STEAMING BOWL -->
+  <string name="spoken_emoji_1F35C">"Αχνιστό μπολ"</string>
+  <!-- Spoken description for Unicode code point U+1F35D: "🍝" SPAGHETTI -->
+  <string name="spoken_emoji_1F35D">"Σπαγγέτι"</string>
+  <!-- Spoken description for Unicode code point U+1F35E: "🍞" BREAD -->
+  <string name="spoken_emoji_1F35E">"Ψωμί"</string>
+  <!-- Spoken description for Unicode code point U+1F35F: "🍟" FRENCH FRIES -->
+  <string name="spoken_emoji_1F35F">"Τηγανητές πατάτες"</string>
+  <!-- Spoken description for Unicode code point U+1F360: "🍠" ROASTED SWEET POTATO -->
+  <string name="spoken_emoji_1F360">"Ψητή γλυκοπατάτα"</string>
+  <!-- Spoken description for Unicode code point U+1F361: "🍡" DANGO -->
+  <string name="spoken_emoji_1F361">"Ντάνγκο"</string>
+  <!-- Spoken description for Unicode code point U+1F362: "🍢" ODEN -->
+  <string name="spoken_emoji_1F362">"Όντεν"</string>
+  <!-- Spoken description for Unicode code point U+1F363: "🍣" SUSHI -->
+  <string name="spoken_emoji_1F363">"Σούσι"</string>
+  <!-- Spoken description for Unicode code point U+1F364: "🍤" FRIED SHRIMP -->
+  <string name="spoken_emoji_1F364">"Τηγανητή γαρίδα"</string>
+  <!-- Spoken description for Unicode code point U+1F365: "🍥" FISH CAKE WITH SWIRL DESIGN -->
+  <string name="spoken_emoji_1F365">"Ψαροκεφτές με σχέδιο δίνης"</string>
+  <!-- Spoken description for Unicode code point U+1F366: "🍦" SOFT ICE CREAM -->
+  <string name="spoken_emoji_1F366">"Μαλακό παγωτό"</string>
+  <!-- Spoken description for Unicode code point U+1F367: "🍧" SHAVED ICE -->
+  <string name="spoken_emoji_1F367">"Τριμμένος πάγος"</string>
+  <!-- Spoken description for Unicode code point U+1F368: "🍨" ICE CREAM -->
+  <string name="spoken_emoji_1F368">"Παγωτό"</string>
+  <!-- Spoken description for Unicode code point U+1F369: "🍩" DOUGHNUT -->
+  <string name="spoken_emoji_1F369">"Ντόνατ"</string>
+  <!-- Spoken description for Unicode code point U+1F36A: "🍪" COOKIE -->
+  <string name="spoken_emoji_1F36A">"Κούκι"</string>
+  <!-- Spoken description for Unicode code point U+1F36B: "🍫" CHOCOLATE BAR -->
+  <string name="spoken_emoji_1F36B">"Σοκολάτα"</string>
+  <!-- Spoken description for Unicode code point U+1F36C: "🍬" CANDY -->
+  <string name="spoken_emoji_1F36C">"Γλυκά"</string>
+  <!-- Spoken description for Unicode code point U+1F36D: "🍭" LOLLIPOP -->
+  <string name="spoken_emoji_1F36D">"Lollipop"</string>
+  <!-- Spoken description for Unicode code point U+1F36E: "🍮" CUSTARD -->
+  <string name="spoken_emoji_1F36E">"Κρέμα"</string>
+  <!-- Spoken description for Unicode code point U+1F36F: "🍯" HONEY POT -->
+  <string name="spoken_emoji_1F36F">"Βάζο με μέλι"</string>
+  <!-- Spoken description for Unicode code point U+1F370: "🍰" SHORTCAKE -->
+  <string name="spoken_emoji_1F370">"Μπισκότο"</string>
+  <!-- Spoken description for Unicode code point U+1F371: "🍱" BENTO BOX -->
+  <string name="spoken_emoji_1F371">"Κουτί γεύματος"</string>
+  <!-- Spoken description for Unicode code point U+1F372: "🍲" POT OF FOOD -->
+  <string name="spoken_emoji_1F372">"Κατσαρόλα με φαγητό"</string>
+  <!-- Spoken description for Unicode code point U+1F373: "🍳" COOKING -->
+  <string name="spoken_emoji_1F373">"Μαγείρεμα"</string>
+  <!-- Spoken description for Unicode code point U+1F374: "🍴" FORK AND KNIFE -->
+  <string name="spoken_emoji_1F374">"Πιρούνι και μαχαίρι"</string>
+  <!-- Spoken description for Unicode code point U+1F375: "🍵" TEACUP WITHOUT HANDLE -->
+  <string name="spoken_emoji_1F375">"Φλιτζάνι τσαγιού χωρίς χερούλι"</string>
+  <!-- Spoken description for Unicode code point U+1F376: "🍶" SAKE BOTTLE AND CUP -->
+  <string name="spoken_emoji_1F376">"Μπουκάλι και ποτήρι σακέ"</string>
+  <!-- Spoken description for Unicode code point U+1F377: "🍷" WINE GLASS -->
+  <string name="spoken_emoji_1F377">"Ποτήρι κρασιού"</string>
+  <!-- Spoken description for Unicode code point U+1F378: "🍸" COCKTAIL GLASS -->
+  <string name="spoken_emoji_1F378">"Ποτήρι κοκτέιλ"</string>
+  <!-- Spoken description for Unicode code point U+1F379: "🍹" TROPICAL DRINK -->
+  <string name="spoken_emoji_1F379">"Τροπικό ποτό"</string>
+  <!-- Spoken description for Unicode code point U+1F37A: "🍺" BEER MUG -->
+  <string name="spoken_emoji_1F37A">"Ποτήρι μπύρας"</string>
+  <!-- Spoken description for Unicode code point U+1F37B: "🍻" CLINKING BEER MUGS -->
+  <string name="spoken_emoji_1F37B">"Ποτήρια μπύρας που τσουγκρίζουν"</string>
+  <!-- Spoken description for Unicode code point U+1F37C: "🍼" BABY BOTTLE -->
+  <string name="spoken_emoji_1F37C">"Μπιμπερό"</string>
+  <!-- Spoken description for Unicode code point U+1F380: "🎀" RIBBON -->
+  <string name="spoken_emoji_1F380">"Κορδέλα"</string>
+  <!-- Spoken description for Unicode code point U+1F381: "🎁" WRAPPED PRESENT -->
+  <string name="spoken_emoji_1F381">"Τυλιγμένο δώρο"</string>
+  <!-- Spoken description for Unicode code point U+1F382: "🎂" BIRTHDAY CAKE -->
+  <string name="spoken_emoji_1F382">"Τούρτα γενεθλίων"</string>
+  <!-- Spoken description for Unicode code point U+1F383: "🎃" JACK-O-LANTERN -->
+  <string name="spoken_emoji_1F383">"Σκαλισμένο πρόσωπο σε κολοκύθα"</string>
+  <!-- Spoken description for Unicode code point U+1F384: "🎄" CHRISTMAS TREE -->
+  <string name="spoken_emoji_1F384">"Χριστουγεννιάτικο δέντρο"</string>
+  <!-- Spoken description for Unicode code point U+1F385: "🎅" FATHER CHRISTMAS -->
+  <string name="spoken_emoji_1F385">"Άγιος Βασίλης"</string>
+  <!-- Spoken description for Unicode code point U+1F386: "🎆" FIREWORKS -->
+  <string name="spoken_emoji_1F386">"Πυροτεχνήματα"</string>
+  <!-- Spoken description for Unicode code point U+1F387: "🎇" FIREWORK SPARKLER -->
+  <string name="spoken_emoji_1F387">"Στικάκι με σπίθες"</string>
+  <!-- Spoken description for Unicode code point U+1F388: "🎈" BALLOON -->
+  <string name="spoken_emoji_1F388">"Μπαλόνι"</string>
+  <!-- Spoken description for Unicode code point U+1F389: "🎉" PARTY POPPER -->
+  <string name="spoken_emoji_1F389">"Εκτοξευτήρας για πάρτι"</string>
+  <!-- Spoken description for Unicode code point U+1F38A: "🎊" CONFETTI BALL -->
+  <string name="spoken_emoji_1F38A">"Μπάλα με κομφετί"</string>
+  <!-- Spoken description for Unicode code point U+1F38B: "🎋" TANABATA TREE -->
+  <string name="spoken_emoji_1F38B">"Διακοσμημένο δέντρο"</string>
+  <!-- Spoken description for Unicode code point U+1F38C: "🎌" CROSSED FLAGS -->
+  <string name="spoken_emoji_1F38C">"Διασταυρωμένες σημαίες"</string>
+  <!-- Spoken description for Unicode code point U+1F38D: "🎍" PINE DECORATION -->
+  <string name="spoken_emoji_1F38D">"Στολίδια πεύκου"</string>
+  <!-- Spoken description for Unicode code point U+1F38E: "🎎" JAPANESE DOLLS -->
+  <string name="spoken_emoji_1F38E">"Ιαπωνικές κούκλες"</string>
+  <!-- Spoken description for Unicode code point U+1F38F: "🎏" CARP STREAMER -->
+  <string name="spoken_emoji_1F38F">"Αιωρούμενα ψαράκια"</string>
+  <!-- Spoken description for Unicode code point U+1F390: "🎐" WIND CHIME -->
+  <string name="spoken_emoji_1F390">"Μελωδός"</string>
+  <!-- Spoken description for Unicode code point U+1F391: "🎑" MOON VIEWING CEREMONY -->
+  <string name="spoken_emoji_1F391">"Εορτασμός θέασης της σελήνης"</string>
+  <!-- Spoken description for Unicode code point U+1F392: "🎒" SCHOOL SATCHEL -->
+  <string name="spoken_emoji_1F392">"Σχολική τσάντα"</string>
+  <!-- Spoken description for Unicode code point U+1F393: "🎓" GRADUATION CAP -->
+  <string name="spoken_emoji_1F393">"Καπέλο αποφοίτησης"</string>
+  <!-- Spoken description for Unicode code point U+1F3A0: "🎠" CAROUSEL HORSE -->
+  <string name="spoken_emoji_1F3A0">"Ξύλινο αλογάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F3A1: "🎡" FERRIS WHEEL -->
+  <string name="spoken_emoji_1F3A1">"Τροχός λούνα παρκ"</string>
+  <!-- Spoken description for Unicode code point U+1F3A2: "🎢" ROLLER COASTER -->
+  <string name="spoken_emoji_1F3A2">"Τρενάκι λούνα παρκ"</string>
+  <!-- Spoken description for Unicode code point U+1F3A3: "🎣" FISHING POLE AND FISH -->
+  <string name="spoken_emoji_1F3A3">"Καλάμι ψαρέματος και ψάρι"</string>
+  <!-- Spoken description for Unicode code point U+1F3A4: "🎤" MICROPHONE -->
+  <string name="spoken_emoji_1F3A4">"Μικρόφωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F3A5: "🎥" MOVIE CAMERA -->
+  <string name="spoken_emoji_1F3A5">"Κινηματογραφική κάμερα"</string>
+  <!-- Spoken description for Unicode code point U+1F3A6: "🎦" CINEMA -->
+  <string name="spoken_emoji_1F3A6">"Κινηματογράφος"</string>
+  <!-- Spoken description for Unicode code point U+1F3A7: "🎧" HEADPHONE -->
+  <string name="spoken_emoji_1F3A7">"Ακουστικά"</string>
+  <!-- Spoken description for Unicode code point U+1F3A8: "🎨" ARTIST PALETTE -->
+  <string name="spoken_emoji_1F3A8">"Παλέτα καλλιτέχνη"</string>
+  <!-- Spoken description for Unicode code point U+1F3A9: "🎩" TOP HAT -->
+  <string name="spoken_emoji_1F3A9">"Ημίψηλο"</string>
+  <!-- Spoken description for Unicode code point U+1F3AA: "🎪" CIRCUS TENT -->
+  <string name="spoken_emoji_1F3AA">"Tσίρκο"</string>
+  <!-- Spoken description for Unicode code point U+1F3AB: "🎫" TICKET -->
+  <string name="spoken_emoji_1F3AB">"Εισιτήριο"</string>
+  <!-- Spoken description for Unicode code point U+1F3AC: "🎬" CLAPPER BOARD -->
+  <string name="spoken_emoji_1F3AC">"Κλακέτα"</string>
+  <!-- Spoken description for Unicode code point U+1F3AD: "🎭" PERFORMING ARTS -->
+  <string name="spoken_emoji_1F3AD">"Παραστατικές τέχνες"</string>
+  <!-- Spoken description for Unicode code point U+1F3AE: "🎮" VIDEO GAME -->
+  <string name="spoken_emoji_1F3AE">"Βιντεοπαιχνίδι"</string>
+  <!-- Spoken description for Unicode code point U+1F3AF: "🎯" DIRECT HIT -->
+  <string name="spoken_emoji_1F3AF">"Απευθείας κρούση"</string>
+  <!-- Spoken description for Unicode code point U+1F3B0: "🎰" SLOT MACHINE -->
+  <string name="spoken_emoji_1F3B0">"Κουλοχέρης"</string>
+  <!-- Spoken description for Unicode code point U+1F3B1: "🎱" BILLIARDS -->
+  <string name="spoken_emoji_1F3B1">"Μπιλιάρδο"</string>
+  <!-- Spoken description for Unicode code point U+1F3B2: "🎲" GAME DIE -->
+  <string name="spoken_emoji_1F3B2">"Ζάρια παιχνιδιού"</string>
+  <!-- Spoken description for Unicode code point U+1F3B3: "🎳" BOWLING -->
+  <string name="spoken_emoji_1F3B3">"Μπόουλινγκ"</string>
+  <!-- Spoken description for Unicode code point U+1F3B4: "🎴" FLOWER PLAYING CARDS -->
+  <string name="spoken_emoji_1F3B4">"Τράπουλα με λουλούδια"</string>
+  <!-- Spoken description for Unicode code point U+1F3B5: "🎵" MUSICAL NOTE -->
+  <string name="spoken_emoji_1F3B5">"Μουσική νότα"</string>
+  <!-- Spoken description for Unicode code point U+1F3B6: "🎶" MULTIPLE MUSICAL NOTES -->
+  <string name="spoken_emoji_1F3B6">"Πολλές μουσικές νότες"</string>
+  <!-- Spoken description for Unicode code point U+1F3B7: "🎷" SAXOPHONE -->
+  <string name="spoken_emoji_1F3B7">"Σαξόφωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F3B8: "🎸" GUITAR -->
+  <string name="spoken_emoji_1F3B8">"Κιθάρα"</string>
+  <!-- Spoken description for Unicode code point U+1F3B9: "🎹" MUSICAL KEYBOARD -->
+  <string name="spoken_emoji_1F3B9">"Αρμόνιο"</string>
+  <!-- Spoken description for Unicode code point U+1F3BA: "🎺" TRUMPET -->
+  <string name="spoken_emoji_1F3BA">"Τρομπέτα"</string>
+  <!-- Spoken description for Unicode code point U+1F3BB: "🎻" VIOLIN -->
+  <string name="spoken_emoji_1F3BB">"Βιολί"</string>
+  <!-- Spoken description for Unicode code point U+1F3BC: "🎼" MUSICAL SCORE -->
+  <string name="spoken_emoji_1F3BC">"Παρτιτούρα"</string>
+  <!-- Spoken description for Unicode code point U+1F3BD: "🎽" RUNNING SHIRT WITH SASH -->
+  <string name="spoken_emoji_1F3BD">"Μπλουζάκι με κορδέλα"</string>
+  <!-- Spoken description for Unicode code point U+1F3BE: "🎾" TENNIS RACQUET AND BALL -->
+  <string name="spoken_emoji_1F3BE">"Ρακέτα και μπαλάκι τένις"</string>
+  <!-- Spoken description for Unicode code point U+1F3BF: "🎿" SKI AND SKI BOOT -->
+  <string name="spoken_emoji_1F3BF">"Σκι και μποτάκι του σκι"</string>
+  <!-- Spoken description for Unicode code point U+1F3C0: "🏀" BASKETBALL AND HOOP -->
+  <string name="spoken_emoji_1F3C0">"Καλάθι και στεφάνη μπάσκετ"</string>
+  <!-- Spoken description for Unicode code point U+1F3C1: "🏁" CHEQUERED FLAG -->
+  <string name="spoken_emoji_1F3C1">"Καρό σημαία"</string>
+  <!-- Spoken description for Unicode code point U+1F3C2: "🏂" SNOWBOARDER -->
+  <string name="spoken_emoji_1F3C2">"Αθλητής του σνόουμπορντ"</string>
+  <!-- Spoken description for Unicode code point U+1F3C3: "🏃" RUNNER -->
+  <string name="spoken_emoji_1F3C3">"Δρομέας"</string>
+  <!-- Spoken description for Unicode code point U+1F3C4: "🏄" SURFER -->
+  <string name="spoken_emoji_1F3C4">"Σέρφερ"</string>
+  <!-- Spoken description for Unicode code point U+1F3C6: "🏆" TROPHY -->
+  <string name="spoken_emoji_1F3C6">"Τρόπαιο"</string>
+  <!-- Spoken description for Unicode code point U+1F3C7: "🏇" HORSE RACING -->
+  <string name="spoken_emoji_1F3C7">"Ιπποδρομίες"</string>
+  <!-- Spoken description for Unicode code point U+1F3C8: "🏈" AMERICAN FOOTBALL -->
+  <string name="spoken_emoji_1F3C8">"Αμερικανικό ποδόσφαιρο"</string>
+  <!-- Spoken description for Unicode code point U+1F3C9: "🏉" RUGBY FOOTBALL -->
+  <string name="spoken_emoji_1F3C9">"Ράγκμπι"</string>
+  <!-- Spoken description for Unicode code point U+1F3CA: "🏊" SWIMMER -->
+  <string name="spoken_emoji_1F3CA">"Κολυμβητής"</string>
+  <!-- Spoken description for Unicode code point U+1F3E0: "🏠" HOUSE BUILDING -->
+  <string name="spoken_emoji_1F3E0">"Πολυκατοικία"</string>
+  <!-- Spoken description for Unicode code point U+1F3E1: "🏡" HOUSE WITH GARDEN -->
+  <string name="spoken_emoji_1F3E1">"Σπίτι με κήπο"</string>
+  <!-- Spoken description for Unicode code point U+1F3E2: "🏢" OFFICE BUILDING -->
+  <string name="spoken_emoji_1F3E2">"Κτίριο γραφείων"</string>
+  <!-- Spoken description for Unicode code point U+1F3E3: "🏣" JAPANESE POST OFFICE -->
+  <string name="spoken_emoji_1F3E3">"Ιαπωνικό ταχυδρομείο"</string>
+  <!-- Spoken description for Unicode code point U+1F3E4: "🏤" EUROPEAN POST OFFICE -->
+  <string name="spoken_emoji_1F3E4">"Ευρωπαϊκό ταχυδρομείο"</string>
+  <!-- Spoken description for Unicode code point U+1F3E5: "🏥" HOSPITAL -->
+  <string name="spoken_emoji_1F3E5">"Νοσοκομείο"</string>
+  <!-- Spoken description for Unicode code point U+1F3E6: "🏦" BANK -->
+  <string name="spoken_emoji_1F3E6">"Τράπεζα"</string>
+  <!-- Spoken description for Unicode code point U+1F3E7: "🏧" AUTOMATED TELLER MACHINE -->
+  <string name="spoken_emoji_1F3E7">"ΑΤΜ"</string>
+  <!-- Spoken description for Unicode code point U+1F3E8: "🏨" HOTEL -->
+  <string name="spoken_emoji_1F3E8">"Ξενοδοχείο"</string>
+  <!-- Spoken description for Unicode code point U+1F3E9: "🏩" LOVE HOTEL -->
+  <string name="spoken_emoji_1F3E9">"Ξενοδοχείο για ζευγάρια"</string>
+  <!-- Spoken description for Unicode code point U+1F3EA: "🏪" CONVENIENCE STORE -->
+  <string name="spoken_emoji_1F3EA">"Ψιλικατζίδικο"</string>
+  <!-- Spoken description for Unicode code point U+1F3EB: "🏫" SCHOOL -->
+  <string name="spoken_emoji_1F3EB">"Σχολείο"</string>
+  <!-- Spoken description for Unicode code point U+1F3EC: "🏬" DEPARTMENT STORE -->
+  <string name="spoken_emoji_1F3EC">"Πολυκατάστημα"</string>
+  <!-- Spoken description for Unicode code point U+1F3ED: "🏭" FACTORY -->
+  <string name="spoken_emoji_1F3ED">"Εργοστάσιο"</string>
+  <!-- Spoken description for Unicode code point U+1F3EE: "🏮" IZAKAYA LANTERN -->
+  <string name="spoken_emoji_1F3EE">"Φανάρι Izakaya"</string>
+  <!-- Spoken description for Unicode code point U+1F3EF: "🏯" JAPANESE CASTLE -->
+  <string name="spoken_emoji_1F3EF">"Ιαπωνικό κάστρο"</string>
+  <!-- Spoken description for Unicode code point U+1F3F0: "🏰" EUROPEAN CASTLE -->
+  <string name="spoken_emoji_1F3F0">"Ευρωπαϊκό κάστρο"</string>
+  <!-- Spoken description for Unicode code point U+1F400: "🐀" RAT -->
+  <string name="spoken_emoji_1F400">"Αρουραίος"</string>
+  <!-- Spoken description for Unicode code point U+1F401: "🐁" MOUSE -->
+  <string name="spoken_emoji_1F401">"Ποντίκι"</string>
+  <!-- Spoken description for Unicode code point U+1F402: "🐂" OX -->
+  <string name="spoken_emoji_1F402">"Βόδι"</string>
+  <!-- Spoken description for Unicode code point U+1F403: "🐃" WATER BUFFALO -->
+  <string name="spoken_emoji_1F403">"Νεροβούβαλος"</string>
+  <!-- Spoken description for Unicode code point U+1F404: "🐄" COW -->
+  <string name="spoken_emoji_1F404">"Αγελάδα"</string>
+  <!-- Spoken description for Unicode code point U+1F406: "🐆" LEOPARD -->
+  <string name="spoken_emoji_1F406">"Λεοπάρδαλη"</string>
+  <!-- Spoken description for Unicode code point U+1F407: "🐇" RABBIT -->
+  <string name="spoken_emoji_1F407">"Κουνέλι"</string>
+  <!-- Spoken description for Unicode code point U+1F408: "🐈" CAT -->
+  <string name="spoken_emoji_1F408">"Γάτα"</string>
+  <!-- Spoken description for Unicode code point U+1F409: "🐉" DRAGON -->
+  <string name="spoken_emoji_1F409">"Δράκος"</string>
+  <!-- Spoken description for Unicode code point U+1F40A: "🐊" CROCODILE -->
+  <string name="spoken_emoji_1F40A">"Κροκόδειλος"</string>
+  <!-- Spoken description for Unicode code point U+1F40B: "🐋" WHALE -->
+  <string name="spoken_emoji_1F40B">"Φάλαινα"</string>
+  <!-- Spoken description for Unicode code point U+1F40C: "🐌" SNAIL -->
+  <string name="spoken_emoji_1F40C">"Σαλιγκάρι"</string>
+  <!-- Spoken description for Unicode code point U+1F40D: "🐍" SNAKE -->
+  <string name="spoken_emoji_1F40D">"Φίδι"</string>
+  <!-- Spoken description for Unicode code point U+1F40E: "🐎" HORSE -->
+  <string name="spoken_emoji_1F40E">"Άλογο"</string>
+  <!-- Spoken description for Unicode code point U+1F40F: "🐏" RAM -->
+  <string name="spoken_emoji_1F40F">"Κριάρι"</string>
+  <!-- Spoken description for Unicode code point U+1F410: "🐐" GOAT -->
+  <string name="spoken_emoji_1F410">"Κατσίκα"</string>
+  <!-- Spoken description for Unicode code point U+1F411: "🐑" SHEEP -->
+  <string name="spoken_emoji_1F411">"Πρόβατο"</string>
+  <!-- Spoken description for Unicode code point U+1F412: "🐒" MONKEY -->
+  <string name="spoken_emoji_1F412">"Μαϊμού"</string>
+  <!-- Spoken description for Unicode code point U+1F413: "🐓" ROOSTER -->
+  <string name="spoken_emoji_1F413">"Κόκορας"</string>
+  <!-- Spoken description for Unicode code point U+1F414: "🐔" CHICKEN -->
+  <string name="spoken_emoji_1F414">"Κοτόπουλο"</string>
+  <!-- Spoken description for Unicode code point U+1F415: "🐕" DOG -->
+  <string name="spoken_emoji_1F415">"Σκύλος"</string>
+  <!-- Spoken description for Unicode code point U+1F416: "🐖" PIG -->
+  <string name="spoken_emoji_1F416">"Γουρούνι"</string>
+  <!-- Spoken description for Unicode code point U+1F417: "🐗" BOAR -->
+  <string name="spoken_emoji_1F417">"Αγριογούρουνο"</string>
+  <!-- Spoken description for Unicode code point U+1F418: "🐘" ELEPHANT -->
+  <string name="spoken_emoji_1F418">"Ελέφαντας"</string>
+  <!-- Spoken description for Unicode code point U+1F419: "🐙" OCTOPUS -->
+  <string name="spoken_emoji_1F419">"Χταπόδι"</string>
+  <!-- Spoken description for Unicode code point U+1F41A: "🐚" SPIRAL SHELL -->
+  <string name="spoken_emoji_1F41A">"Κοχύλι"</string>
+  <!-- Spoken description for Unicode code point U+1F41B: "🐛" BUG -->
+  <string name="spoken_emoji_1F41B">"Έντομο"</string>
+  <!-- Spoken description for Unicode code point U+1F41C: "🐜" ANT -->
+  <string name="spoken_emoji_1F41C">"Μυρμήγκι"</string>
+  <!-- Spoken description for Unicode code point U+1F41D: "🐝" HONEYBEE -->
+  <string name="spoken_emoji_1F41D">"Μέλισσα"</string>
+  <!-- Spoken description for Unicode code point U+1F41E: "🐞" LADY BEETLE -->
+  <string name="spoken_emoji_1F41E">"Πασχαλίτσα"</string>
+  <!-- Spoken description for Unicode code point U+1F41F: "🐟" FISH -->
+  <string name="spoken_emoji_1F41F">"Ψάρι"</string>
+  <!-- Spoken description for Unicode code point U+1F420: "🐠" TROPICAL FISH -->
+  <string name="spoken_emoji_1F420">"Τροπικό ψάρι"</string>
+  <!-- Spoken description for Unicode code point U+1F421: "🐡" BLOWFISH -->
+  <string name="spoken_emoji_1F421">"Μπαλονόψαρο"</string>
+  <!-- Spoken description for Unicode code point U+1F422: "🐢" TURTLE -->
+  <string name="spoken_emoji_1F422">"Χελώνα"</string>
+  <!-- Spoken description for Unicode code point U+1F423: "🐣" HATCHING CHICK -->
+  <string name="spoken_emoji_1F423">"Εκκολαπτόμενος νεοσσός"</string>
+  <!-- Spoken description for Unicode code point U+1F424: "🐤" BABY CHICK -->
+  <string name="spoken_emoji_1F424">"Νεοσσός"</string>
+  <!-- Spoken description for Unicode code point U+1F425: "🐥" FRONT-FACING BABY CHICK -->
+  <string name="spoken_emoji_1F425">"Νεοσσός σε ανφάς"</string>
+  <!-- Spoken description for Unicode code point U+1F426: "🐦" BIRD -->
+  <string name="spoken_emoji_1F426">"Πουλί"</string>
+  <!-- Spoken description for Unicode code point U+1F427: "🐧" PENGUIN -->
+  <string name="spoken_emoji_1F427">"Πιγκουίνος"</string>
+  <!-- Spoken description for Unicode code point U+1F428: "🐨" KOALA -->
+  <string name="spoken_emoji_1F428">"Κοάλα"</string>
+  <!-- Spoken description for Unicode code point U+1F429: "🐩" POODLE -->
+  <string name="spoken_emoji_1F429">"Πουντλ"</string>
+  <!-- Spoken description for Unicode code point U+1F42A: "🐪" DROMEDARY CAMEL -->
+  <string name="spoken_emoji_1F42A">"Καμήλα δρομάς"</string>
+  <!-- Spoken description for Unicode code point U+1F42B: "🐫" BACTRIAN CAMEL -->
+  <string name="spoken_emoji_1F42B">"Βακτριανή καμήλα"</string>
+  <!-- Spoken description for Unicode code point U+1F42C: "🐬" DOLPHIN -->
+  <string name="spoken_emoji_1F42C">"Δελφίνι"</string>
+  <!-- Spoken description for Unicode code point U+1F42D: "🐭" MOUSE FACE -->
+  <string name="spoken_emoji_1F42D">"Πρόσωπο ποντικιού"</string>
+  <!-- Spoken description for Unicode code point U+1F42E: "🐮" COW FACE -->
+  <string name="spoken_emoji_1F42E">"Πρόσωπο αγελάδας"</string>
+  <!-- Spoken description for Unicode code point U+1F42F: "🐯" TIGER FACE -->
+  <string name="spoken_emoji_1F42F">"Πρόσωπο τίγρης"</string>
+  <!-- Spoken description for Unicode code point U+1F430: "🐰" RABBIT FACE -->
+  <string name="spoken_emoji_1F430">"Πρόσωπο κουνελιού"</string>
+  <!-- Spoken description for Unicode code point U+1F431: "🐱" CAT FACE -->
+  <string name="spoken_emoji_1F431">"Πρόσωπο γάτας"</string>
+  <!-- Spoken description for Unicode code point U+1F432: "🐲" DRAGON FACE -->
+  <string name="spoken_emoji_1F432">"Πρόσωπο δράκου"</string>
+  <!-- Spoken description for Unicode code point U+1F433: "🐳" SPOUTING WHALE -->
+  <string name="spoken_emoji_1F433">"Φάλαινα που εκτοξεύει νερό"</string>
+  <!-- Spoken description for Unicode code point U+1F434: "🐴" HORSE FACE -->
+  <string name="spoken_emoji_1F434">"Πρόσωπο αλόγου"</string>
+  <!-- Spoken description for Unicode code point U+1F435: "🐵" MONKEY FACE -->
+  <string name="spoken_emoji_1F435">"Πρόσωπο μαϊμούς"</string>
+  <!-- Spoken description for Unicode code point U+1F436: "🐶" DOG FACE -->
+  <string name="spoken_emoji_1F436">"Πρόσωπο σκύλου"</string>
+  <!-- Spoken description for Unicode code point U+1F437: "🐷" PIG FACE -->
+  <string name="spoken_emoji_1F437">"Πρόσωπο γουρουνιού"</string>
+  <!-- Spoken description for Unicode code point U+1F438: "🐸" FROG FACE -->
+  <string name="spoken_emoji_1F438">"Πρόσωπο βατράχου"</string>
+  <!-- Spoken description for Unicode code point U+1F439: "🐹" HAMSTER FACE -->
+  <string name="spoken_emoji_1F439">"Πρόσωπο χάμστερ"</string>
+  <!-- Spoken description for Unicode code point U+1F43A: "🐺" WOLF FACE -->
+  <string name="spoken_emoji_1F43A">"Πρόσωπο λύκου"</string>
+  <!-- Spoken description for Unicode code point U+1F43B: "🐻" BEAR FACE -->
+  <string name="spoken_emoji_1F43B">"Πρόσωπο αρκούδας"</string>
+  <!-- Spoken description for Unicode code point U+1F43C: "🐼" PANDA FACE -->
+  <string name="spoken_emoji_1F43C">"Πρόσωπο πάντα"</string>
+  <!-- Spoken description for Unicode code point U+1F43D: "🐽" PIG NOSE -->
+  <string name="spoken_emoji_1F43D">"Μουσούδι γουρουνιού"</string>
+  <!-- Spoken description for Unicode code point U+1F43E: "🐾" PAW PRINTS -->
+  <string name="spoken_emoji_1F43E">"Αποτυπώματα πατούσας ζώου"</string>
+  <!-- Spoken description for Unicode code point U+1F440: "👀" EYES -->
+  <string name="spoken_emoji_1F440">"Μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F442: "👂" EAR -->
+  <string name="spoken_emoji_1F442">"Αυτί"</string>
+  <!-- Spoken description for Unicode code point U+1F443: "👃" NOSE -->
+  <string name="spoken_emoji_1F443">"Μύτη"</string>
+  <!-- Spoken description for Unicode code point U+1F444: "👄" MOUTH -->
+  <string name="spoken_emoji_1F444">"Στόμα"</string>
+  <!-- Spoken description for Unicode code point U+1F445: "👅" TONGUE -->
+  <string name="spoken_emoji_1F445">"Γλώσσα"</string>
+  <!-- Spoken description for Unicode code point U+1F446: "👆" WHITE UP POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F446">"Λευκός δείκτης χεριού που δείχνει προς τα επάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F447: "👇" WHITE DOWN POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F447">"Λευκός δείκτης χεριού που δείχνει προς τα κάτω"</string>
+  <!-- Spoken description for Unicode code point U+1F448: "👈" WHITE LEFT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F448">"Λευκός δείκτης χεριού που δείχνει προς τα αριστερά"</string>
+  <!-- Spoken description for Unicode code point U+1F449: "👉" WHITE RIGHT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F449">"Λευκός δείκτης χεριού που δείχνει προς τα δεξιά"</string>
+  <!-- Spoken description for Unicode code point U+1F44A: "👊" FISTED HAND SIGN -->
+  <string name="spoken_emoji_1F44A">"Σήμα γροθιάς"</string>
+  <!-- Spoken description for Unicode code point U+1F44B: "👋" WAVING HAND SIGN -->
+  <string name="spoken_emoji_1F44B">"Σήμα χεριού που χαιρετάει"</string>
+  <!-- Spoken description for Unicode code point U+1F44C: "👌" OK HAND SIGN -->
+  <string name="spoken_emoji_1F44C">"Σήμα χεριού που λέει \"OK\""</string>
+  <!-- Spoken description for Unicode code point U+1F44D: "👍" THUMBS UP SIGN -->
+  <string name="spoken_emoji_1F44D">"Σήμα \"Μου αρέσει\""</string>
+  <!-- Spoken description for Unicode code point U+1F44E: "👎" THUMBS DOWN SIGN -->
+  <string name="spoken_emoji_1F44E">"Σήμα \"Δεν μου αρέσει\""</string>
+  <!-- Spoken description for Unicode code point U+1F44F: "👏" CLAPPING HANDS SIGN -->
+  <string name="spoken_emoji_1F44F">"Σήμα χεριών που χειροκροτούν"</string>
+  <!-- Spoken description for Unicode code point U+1F450: "👐" OPEN HANDS SIGN -->
+  <string name="spoken_emoji_1F450">"Σήμα ανοιχτών χεριών"</string>
+  <!-- Spoken description for Unicode code point U+1F451: "👑" CROWN -->
+  <string name="spoken_emoji_1F451">"Κορώνα"</string>
+  <!-- Spoken description for Unicode code point U+1F452: "👒" WOMANS HAT -->
+  <string name="spoken_emoji_1F452">"Γυναικείο καπέλο"</string>
+  <!-- Spoken description for Unicode code point U+1F453: "👓" EYEGLASSES -->
+  <string name="spoken_emoji_1F453">"Γυαλιά όρασης"</string>
+  <!-- Spoken description for Unicode code point U+1F454: "👔" NECKTIE -->
+  <string name="spoken_emoji_1F454">"Γραβάτα"</string>
+  <!-- Spoken description for Unicode code point U+1F455: "👕" T-SHIRT -->
+  <string name="spoken_emoji_1F455">"Μπλουζάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F456: "👖" JEANS -->
+  <string name="spoken_emoji_1F456">"Τζιν"</string>
+  <!-- Spoken description for Unicode code point U+1F457: "👗" DRESS -->
+  <string name="spoken_emoji_1F457">"Φόρεμα"</string>
+  <!-- Spoken description for Unicode code point U+1F458: "👘" KIMONO -->
+  <string name="spoken_emoji_1F458">"Κιμονό"</string>
+  <!-- Spoken description for Unicode code point U+1F459: "👙" BIKINI -->
+  <string name="spoken_emoji_1F459">"Μπικίνι"</string>
+  <!-- Spoken description for Unicode code point U+1F45A: "👚" WOMANS CLOTHES -->
+  <string name="spoken_emoji_1F45A">"Γυναικεία ρούχα"</string>
+  <!-- Spoken description for Unicode code point U+1F45B: "👛" PURSE -->
+  <string name="spoken_emoji_1F45B">"Γυναικείο τσαντάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F45C: "👜" HANDBAG -->
+  <string name="spoken_emoji_1F45C">"Τσάντα"</string>
+  <!-- Spoken description for Unicode code point U+1F45D: "👝" POUCH -->
+  <string name="spoken_emoji_1F45D">"Τσαντάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F45E: "👞" MANS SHOE -->
+  <string name="spoken_emoji_1F45E">"Ανδρικό παπούτσι"</string>
+  <!-- Spoken description for Unicode code point U+1F45F: "👟" ATHLETIC SHOE -->
+  <string name="spoken_emoji_1F45F">"Αθλητικό παπούτσι"</string>
+  <!-- Spoken description for Unicode code point U+1F460: "👠" HIGH-HEELED SHOE -->
+  <string name="spoken_emoji_1F460">"Ψηλοτάκουνο παπούτσι"</string>
+  <!-- Spoken description for Unicode code point U+1F461: "👡" WOMANS SANDAL -->
+  <string name="spoken_emoji_1F461">"Γυναικείο σανδάλι"</string>
+  <!-- Spoken description for Unicode code point U+1F462: "👢" WOMANS BOOTS -->
+  <string name="spoken_emoji_1F462">"Γυναικείες μπότες"</string>
+  <!-- Spoken description for Unicode code point U+1F463: "👣" FOOTPRINTS -->
+  <string name="spoken_emoji_1F463">"Αποτυπώματα"</string>
+  <!-- Spoken description for Unicode code point U+1F464: "👤" BUST IN SILHOUETTE -->
+  <string name="spoken_emoji_1F464">"Περίγραμμα άνω κορμού"</string>
+  <!-- Spoken description for Unicode code point U+1F465: "👥" BUSTS IN SILHOUETTE -->
+  <string name="spoken_emoji_1F465">"Περίγραμμα άνω κορμών"</string>
+  <!-- Spoken description for Unicode code point U+1F466: "👦" BOY -->
+  <string name="spoken_emoji_1F466">"Αγόρι"</string>
+  <!-- Spoken description for Unicode code point U+1F467: "👧" GIRL -->
+  <string name="spoken_emoji_1F467">"Κορίτσι"</string>
+  <!-- Spoken description for Unicode code point U+1F468: "👨" MAN -->
+  <string name="spoken_emoji_1F468">"Άνδρας"</string>
+  <!-- Spoken description for Unicode code point U+1F469: "👩" WOMAN -->
+  <string name="spoken_emoji_1F469">"Γυναίκα"</string>
+  <!-- Spoken description for Unicode code point U+1F46A: "👪" FAMILY -->
+  <string name="spoken_emoji_1F46A">"Οικογένεια"</string>
+  <!-- Spoken description for Unicode code point U+1F46B: "👫" MAN AND WOMAN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46B">"Άνδρας και γυναίκα χέρι-χέρι"</string>
+  <!-- Spoken description for Unicode code point U+1F46C: "👬" TWO MEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46C">"Δύο άνδρες χέρι-χέρι"</string>
+  <!-- Spoken description for Unicode code point U+1F46D: "👭" TWO WOMEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46D">"Δύο γυναίκες χέρι-χέρι"</string>
+  <!-- Spoken description for Unicode code point U+1F46E: "👮" POLICE OFFICER -->
+  <string name="spoken_emoji_1F46E">"Αστυνομικός"</string>
+  <!-- Spoken description for Unicode code point U+1F46F: "👯" WOMAN WITH BUNNY EARS -->
+  <string name="spoken_emoji_1F46F">"Γυναίκα με αυτιά κουνελιού"</string>
+  <!-- Spoken description for Unicode code point U+1F470: "👰" BRIDE WITH VEIL -->
+  <string name="spoken_emoji_1F470">"Νύφη με πέπλο"</string>
+  <!-- Spoken description for Unicode code point U+1F471: "👱" PERSON WITH BLOND HAIR -->
+  <string name="spoken_emoji_1F471">"Ξανθό άτομο"</string>
+  <!-- Spoken description for Unicode code point U+1F472: "👲" MAN WITH GUA PI MAO -->
+  <string name="spoken_emoji_1F472">"Άνδρας με κασκέτο gua pi mao"</string>
+  <!-- Spoken description for Unicode code point U+1F473: "👳" MAN WITH TURBAN -->
+  <string name="spoken_emoji_1F473">"Άνδρας με τουρμπάνι"</string>
+  <!-- Spoken description for Unicode code point U+1F474: "👴" OLDER MAN -->
+  <string name="spoken_emoji_1F474">"Ηλικιωμένος άνδρας"</string>
+  <!-- Spoken description for Unicode code point U+1F475: "👵" OLDER WOMAN -->
+  <string name="spoken_emoji_1F475">"Ηλικιωμένη γυναίκα"</string>
+  <!-- Spoken description for Unicode code point U+1F476: "👶" BABY -->
+  <string name="spoken_emoji_1F476">"Μωρό"</string>
+  <!-- Spoken description for Unicode code point U+1F477: "👷" CONSTRUCTION WORKER -->
+  <string name="spoken_emoji_1F477">"Οικοδόμος"</string>
+  <!-- Spoken description for Unicode code point U+1F478: "👸" PRINCESS -->
+  <string name="spoken_emoji_1F478">"Πριγκίπισσα"</string>
+  <!-- Spoken description for Unicode code point U+1F479: "👹" JAPANESE OGRE -->
+  <string name="spoken_emoji_1F479">"Ιαπωνικός δράκος"</string>
+  <!-- Spoken description for Unicode code point U+1F47A: "👺" JAPANESE GOBLIN -->
+  <string name="spoken_emoji_1F47A">"Ιαπωνικός καλικάντζαρος"</string>
+  <!-- Spoken description for Unicode code point U+1F47B: "👻" GHOST -->
+  <string name="spoken_emoji_1F47B">"Φάντασμα"</string>
+  <!-- Spoken description for Unicode code point U+1F47C: "👼" BABY ANGEL -->
+  <string name="spoken_emoji_1F47C">"Αγγελάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F47D: "👽" EXTRATERRESTRIAL ALIEN -->
+  <string name="spoken_emoji_1F47D">"Εξωγήινος"</string>
+  <!-- Spoken description for Unicode code point U+1F47E: "👾" ALIEN MONSTER -->
+  <string name="spoken_emoji_1F47E">"Εξωγήινο τέρας"</string>
+  <!-- Spoken description for Unicode code point U+1F47F: "👿" IMP -->
+  <string name="spoken_emoji_1F47F">"Διαβολάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F480: "💀" SKULL -->
+  <string name="spoken_emoji_1F480">"Νεκροκεφαλή"</string>
+  <!-- Spoken description for Unicode code point U+1F481: "💁" INFORMATION DESK PERSON -->
+  <string name="spoken_emoji_1F481">"Ρεσεψιονίστ"</string>
+  <!-- Spoken description for Unicode code point U+1F482: "💂" GUARDSMAN -->
+  <string name="spoken_emoji_1F482">"Φύλακας"</string>
+  <!-- Spoken description for Unicode code point U+1F483: "💃" DANCER -->
+  <string name="spoken_emoji_1F483">"Χορευτής"</string>
+  <!-- Spoken description for Unicode code point U+1F484: "💄" LIPSTICK -->
+  <string name="spoken_emoji_1F484">"Κραγιόν"</string>
+  <!-- Spoken description for Unicode code point U+1F485: "💅" NAIL POLISH -->
+  <string name="spoken_emoji_1F485">"Βερνίκι νυχιών"</string>
+  <!-- Spoken description for Unicode code point U+1F486: "💆" FACE MASSAGE -->
+  <string name="spoken_emoji_1F486">"Μασάζ προσώπου"</string>
+  <!-- Spoken description for Unicode code point U+1F487: "💇" HAIRCUT -->
+  <string name="spoken_emoji_1F487">"Κούρεμα"</string>
+  <!-- Spoken description for Unicode code point U+1F488: "💈" BARBER POLE -->
+  <string name="spoken_emoji_1F488">"Σήμα κουρείου"</string>
+  <!-- Spoken description for Unicode code point U+1F489: "💉" SYRINGE -->
+  <string name="spoken_emoji_1F489">"Σύριγγα"</string>
+  <!-- Spoken description for Unicode code point U+1F48A: "💊" PILL -->
+  <string name="spoken_emoji_1F48A">"Χάπι"</string>
+  <!-- Spoken description for Unicode code point U+1F48B: "💋" KISS MARK -->
+  <string name="spoken_emoji_1F48B">"Αποτύπωμα χειλιών"</string>
+  <!-- Spoken description for Unicode code point U+1F48C: "💌" LOVE LETTER -->
+  <string name="spoken_emoji_1F48C">"Ερωτική επιστολή"</string>
+  <!-- Spoken description for Unicode code point U+1F48D: "💍" RING -->
+  <string name="spoken_emoji_1F48D">"Δαχτυλίδι"</string>
+  <!-- Spoken description for Unicode code point U+1F48E: "💎" GEM STONE -->
+  <string name="spoken_emoji_1F48E">"Πολύτιμος λίθος"</string>
+  <!-- Spoken description for Unicode code point U+1F48F: "💏" KISS -->
+  <string name="spoken_emoji_1F48F">"Φιλί"</string>
+  <!-- Spoken description for Unicode code point U+1F490: "💐" BOUQUET -->
+  <string name="spoken_emoji_1F490">"Μπουκέτο"</string>
+  <!-- Spoken description for Unicode code point U+1F491: "💑" COUPLE WITH HEART -->
+  <string name="spoken_emoji_1F491">"Ζευγάρι με καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F492: "💒" WEDDING -->
+  <string name="spoken_emoji_1F492">"Γάμος"</string>
+  <!-- Spoken description for Unicode code point U+1F493: "💓" BEATING HEART -->
+  <string name="spoken_emoji_1F493">"Καρδιά που πάλλεται"</string>
+  <!-- Spoken description for Unicode code point U+1F494: "💔" BROKEN HEART -->
+  <string name="spoken_emoji_1F494">"Ραγισμένη καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F495: "💕" TWO HEARTS -->
+  <string name="spoken_emoji_1F495">"Δύο καρδιές"</string>
+  <!-- Spoken description for Unicode code point U+1F496: "💖" SPARKLING HEART -->
+  <string name="spoken_emoji_1F496">"Απαστράπτουσα καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F497: "💗" GROWING HEART -->
+  <string name="spoken_emoji_1F497">"Καρδιά που μεγαλώνει"</string>
+  <!-- Spoken description for Unicode code point U+1F498: "💘" HEART WITH ARROW -->
+  <string name="spoken_emoji_1F498">"Καρδιά με βέλος"</string>
+  <!-- Spoken description for Unicode code point U+1F499: "💙" BLUE HEART -->
+  <string name="spoken_emoji_1F499">"Μπλε καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F49A: "💚" GREEN HEART -->
+  <string name="spoken_emoji_1F49A">"Πράσινη καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F49B: "💛" YELLOW HEART -->
+  <string name="spoken_emoji_1F49B">"Κίτρινη καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F49C: "💜" PURPLE HEART -->
+  <string name="spoken_emoji_1F49C">"Μωβ καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F49D: "💝" HEART WITH RIBBON -->
+  <string name="spoken_emoji_1F49D">"Καρδιά με κορδέλα"</string>
+  <!-- Spoken description for Unicode code point U+1F49E: "💞" REVOLVING HEARTS -->
+  <string name="spoken_emoji_1F49E">"Καρδούλες που στριφογυρίζουν"</string>
+  <!-- Spoken description for Unicode code point U+1F49F: "💟" HEART DECORATION -->
+  <string name="spoken_emoji_1F49F">"Διακοσμητική καρδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F4A0: "💠" DIAMOND SHAPE WITH A DOT INSIDE -->
+  <string name="spoken_emoji_1F4A0">"Σχήμα διαμαντιού με τελεία"</string>
+  <!-- Spoken description for Unicode code point U+1F4A1: "💡" ELECTRIC LIGHT BULB -->
+  <string name="spoken_emoji_1F4A1">"Ηλεκτρικός λαμπτήρας"</string>
+  <!-- Spoken description for Unicode code point U+1F4A2: "💢" ANGER SYMBOL -->
+  <string name="spoken_emoji_1F4A2">"Σύμβολο θυμού"</string>
+  <!-- Spoken description for Unicode code point U+1F4A3: "💣" BOMB -->
+  <string name="spoken_emoji_1F4A3">"Βόμβα"</string>
+  <!-- Spoken description for Unicode code point U+1F4A4: "💤" SLEEPING SYMBOL -->
+  <string name="spoken_emoji_1F4A4">"Σύμβολο ύπνου"</string>
+  <!-- Spoken description for Unicode code point U+1F4A5: "💥" COLLISION SYMBOL -->
+  <string name="spoken_emoji_1F4A5">"Σύμβολο σύγκρουσης"</string>
+  <!-- Spoken description for Unicode code point U+1F4A6: "💦" SPLASHING SWEAT SYMBOL -->
+  <string name="spoken_emoji_1F4A6">"Σύμβολο πιτσιλίσματος ιδρώτα"</string>
+  <!-- Spoken description for Unicode code point U+1F4A7: "💧" DROPLET -->
+  <string name="spoken_emoji_1F4A7">"Σταγονίδιο"</string>
+  <!-- Spoken description for Unicode code point U+1F4A8: "💨" DASH SYMBOL -->
+  <string name="spoken_emoji_1F4A8">"Σύμβολο παύλας"</string>
+  <!-- Spoken description for Unicode code point U+1F4A9: "💩" PILE OF POO -->
+  <string name="spoken_emoji_1F4A9">"Σωρός από κακά"</string>
+  <!-- Spoken description for Unicode code point U+1F4AA: "💪" FLEXED BICEPS -->
+  <string name="spoken_emoji_1F4AA">"Δικέφαλος σε κάμψη"</string>
+  <!-- Spoken description for Unicode code point U+1F4AB: "💫" DIZZY SYMBOL -->
+  <string name="spoken_emoji_1F4AB">"Σύμβολο ζαλάδας"</string>
+  <!-- Spoken description for Unicode code point U+1F4AC: "💬" SPEECH BALLOON -->
+  <string name="spoken_emoji_1F4AC">"Συννεφάκι ομιλίας"</string>
+  <!-- Spoken description for Unicode code point U+1F4AD: "💭" THOUGHT BALLOON -->
+  <string name="spoken_emoji_1F4AD">"Συννεφάκι σκέψης"</string>
+  <!-- Spoken description for Unicode code point U+1F4AE: "💮" WHITE FLOWER -->
+  <string name="spoken_emoji_1F4AE">"Λευκό λουλούδι"</string>
+  <!-- Spoken description for Unicode code point U+1F4AF: "💯" HUNDRED POINTS SYMBOL -->
+  <string name="spoken_emoji_1F4AF">"Σύμβολο εκατό βαθμών"</string>
+  <!-- Spoken description for Unicode code point U+1F4B0: "💰" MONEY BAG -->
+  <string name="spoken_emoji_1F4B0">"Σάκος χρημάτων"</string>
+  <!-- Spoken description for Unicode code point U+1F4B1: "💱" CURRENCY EXCHANGE -->
+  <string name="spoken_emoji_1F4B1">"Συνάλλαγμα"</string>
+  <!-- Spoken description for Unicode code point U+1F4B2: "💲" HEAVY DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B2">"Έντονο σήμα δολαρίου"</string>
+  <!-- Spoken description for Unicode code point U+1F4B3: "💳" CREDIT CARD -->
+  <string name="spoken_emoji_1F4B3">"Πιστωτική κάρτα"</string>
+  <!-- Spoken description for Unicode code point U+1F4B4: "💴" BANKNOTE WITH YEN SIGN -->
+  <string name="spoken_emoji_1F4B4">"Χαρτονόμισμα με σήμα γεν"</string>
+  <!-- Spoken description for Unicode code point U+1F4B5: "💵" BANKNOTE WITH DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B5">"Χαρτονόμισμα με σήμα δολαρίου"</string>
+  <!-- Spoken description for Unicode code point U+1F4B6: "💶" BANKNOTE WITH EURO SIGN -->
+  <string name="spoken_emoji_1F4B6">"Χαρτονόμισμα με σήμα ευρώ"</string>
+  <!-- Spoken description for Unicode code point U+1F4B7: "💷" BANKNOTE WITH POUND SIGN -->
+  <string name="spoken_emoji_1F4B7">"Χαρτονόμισμα με σήμα στερλίνας"</string>
+  <!-- Spoken description for Unicode code point U+1F4B8: "💸" MONEY WITH WINGS -->
+  <string name="spoken_emoji_1F4B8">"Χρήματα με φτερά"</string>
+  <!-- Spoken description for Unicode code point U+1F4B9: "💹" CHART WITH UPWARDS TREND AND YEN SIGN -->
+  <string name="spoken_emoji_1F4B9">"Πίνακας με ανοδική τάση και σήμα γεν"</string>
+  <!-- Spoken description for Unicode code point U+1F4BA: "💺" SEAT -->
+  <string name="spoken_emoji_1F4BA">"Κάθισμα"</string>
+  <!-- Spoken description for Unicode code point U+1F4BB: "💻" PERSONAL COMPUTER -->
+  <string name="spoken_emoji_1F4BB">"Προσωπικός υπολογιστής"</string>
+  <!-- Spoken description for Unicode code point U+1F4BC: "💼" BRIEFCASE -->
+  <string name="spoken_emoji_1F4BC">"Χαρτοφύλακας"</string>
+  <!-- Spoken description for Unicode code point U+1F4BD: "💽" MINIDISC -->
+  <string name="spoken_emoji_1F4BD">"Μίνι δίσκος"</string>
+  <!-- Spoken description for Unicode code point U+1F4BE: "💾" FLOPPY DISK -->
+  <string name="spoken_emoji_1F4BE">"Δισκέτα"</string>
+  <!-- Spoken description for Unicode code point U+1F4BF: "💿" OPTICAL DISC -->
+  <string name="spoken_emoji_1F4BF">"Οπτικός δίσκος"</string>
+  <!-- Spoken description for Unicode code point U+1F4C0: "📀" DVD -->
+  <string name="spoken_emoji_1F4C0">"Dvd"</string>
+  <!-- Spoken description for Unicode code point U+1F4C1: "📁" FILE FOLDER -->
+  <string name="spoken_emoji_1F4C1">"Φάκελος αρχείων"</string>
+  <!-- Spoken description for Unicode code point U+1F4C2: "📂" OPEN FILE FOLDER -->
+  <string name="spoken_emoji_1F4C2">"Ανοιχτός φάκελος αρχείων"</string>
+  <!-- Spoken description for Unicode code point U+1F4C3: "📃" PAGE WITH CURL -->
+  <string name="spoken_emoji_1F4C3">"Ζαρωμένη σελίδα"</string>
+  <!-- Spoken description for Unicode code point U+1F4C4: "📄" PAGE FACING UP -->
+  <string name="spoken_emoji_1F4C4">"Σελίδα προς τα επάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F4C5: "📅" CALENDAR -->
+  <string name="spoken_emoji_1F4C5">"Ημερολόγιο"</string>
+  <!-- Spoken description for Unicode code point U+1F4C6: "📆" TEAR-OFF CALENDAR -->
+  <string name="spoken_emoji_1F4C6">"Ημερολόγιο με φυλλαράκια"</string>
+  <!-- Spoken description for Unicode code point U+1F4C7: "📇" CARD INDEX -->
+  <string name="spoken_emoji_1F4C7">"Ευρετήριο καρτών"</string>
+  <!-- Spoken description for Unicode code point U+1F4C8: "📈" CHART WITH UPWARDS TREND -->
+  <string name="spoken_emoji_1F4C8">"Πίνακας με ανοδική τάση"</string>
+  <!-- Spoken description for Unicode code point U+1F4C9: "📉" CHART WITH DOWNWARDS TREND -->
+  <string name="spoken_emoji_1F4C9">"Πίνακας με πτωτική τάση"</string>
+  <!-- Spoken description for Unicode code point U+1F4CA: "📊" BAR CHART -->
+  <string name="spoken_emoji_1F4CA">"Γράφημα ράβδων"</string>
+  <!-- Spoken description for Unicode code point U+1F4CB: "📋" CLIPBOARD -->
+  <string name="spoken_emoji_1F4CB">"Πρόχειρο"</string>
+  <!-- Spoken description for Unicode code point U+1F4CC: "📌" PUSHPIN -->
+  <string name="spoken_emoji_1F4CC">"Πινέζα"</string>
+  <!-- Spoken description for Unicode code point U+1F4CD: "📍" ROUND PUSHPIN -->
+  <string name="spoken_emoji_1F4CD">"Στρογγυλή πινέζα"</string>
+  <!-- Spoken description for Unicode code point U+1F4CE: "📎" PAPERCLIP -->
+  <string name="spoken_emoji_1F4CE">"Συνδετήρας"</string>
+  <!-- Spoken description for Unicode code point U+1F4CF: "📏" STRAIGHT RULER -->
+  <string name="spoken_emoji_1F4CF">"Χάρακας"</string>
+  <!-- Spoken description for Unicode code point U+1F4D0: "📐" TRIANGULAR RULER -->
+  <string name="spoken_emoji_1F4D0">"Τρίγωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D1: "📑" BOOKMARK TABS -->
+  <string name="spoken_emoji_1F4D1">"Σελιδοδείκτες"</string>
+  <!-- Spoken description for Unicode code point U+1F4D2: "📒" LEDGER -->
+  <string name="spoken_emoji_1F4D2">"Λογιστικό βιβλίο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D3: "📓" NOTEBOOK -->
+  <string name="spoken_emoji_1F4D3">"Σημειωματάριο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D4: "📔" NOTEBOOK WITH DECORATIVE COVER -->
+  <string name="spoken_emoji_1F4D4">"Σημειωματάριο με διακοσμητικό εξώφυλλο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D5: "📕" CLOSED BOOK -->
+  <string name="spoken_emoji_1F4D5">"Κλειστό βιβλίο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D6: "📖" OPEN BOOK -->
+  <string name="spoken_emoji_1F4D6">"Ανοιχτό βιβλίο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D7: "📗" GREEN BOOK -->
+  <string name="spoken_emoji_1F4D7">"Πράσινο βιβλίο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D8: "📘" BLUE BOOK -->
+  <string name="spoken_emoji_1F4D8">"Μπλε βιβλίο"</string>
+  <!-- Spoken description for Unicode code point U+1F4D9: "📙" ORANGE BOOK -->
+  <string name="spoken_emoji_1F4D9">"Πορτοκαλί βιβλίο"</string>
+  <!-- Spoken description for Unicode code point U+1F4DA: "📚" BOOKS -->
+  <string name="spoken_emoji_1F4DA">"Βιβλία"</string>
+  <!-- Spoken description for Unicode code point U+1F4DB: "📛" NAME BADGE -->
+  <string name="spoken_emoji_1F4DB">"Καρτελάκι ονόματος"</string>
+  <!-- Spoken description for Unicode code point U+1F4DC: "📜" SCROLL -->
+  <string name="spoken_emoji_1F4DC">"Περγαμηνή"</string>
+  <!-- Spoken description for Unicode code point U+1F4DD: "📝" MEMO -->
+  <string name="spoken_emoji_1F4DD">"Σημείωμα"</string>
+  <!-- Spoken description for Unicode code point U+1F4DE: "📞" TELEPHONE RECEIVER -->
+  <string name="spoken_emoji_1F4DE">"Ακουστικό τηλεφώνου"</string>
+  <!-- Spoken description for Unicode code point U+1F4DF: "📟" PAGER -->
+  <string name="spoken_emoji_1F4DF">"Βομβητής"</string>
+  <!-- Spoken description for Unicode code point U+1F4E0: "📠" FAX MACHINE -->
+  <string name="spoken_emoji_1F4E0">"Μηχάνημα φαξ"</string>
+  <!-- Spoken description for Unicode code point U+1F4E1: "📡" SATELLITE ANTENNA -->
+  <string name="spoken_emoji_1F4E1">"Δορυφορική κεραία"</string>
+  <!-- Spoken description for Unicode code point U+1F4E2: "📢" PUBLIC ADDRESS LOUDSPEAKER -->
+  <string name="spoken_emoji_1F4E2">"Μεγάφωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F4E3: "📣" CHEERING MEGAPHONE -->
+  <string name="spoken_emoji_1F4E3">"Ντουντούκα"</string>
+  <!-- Spoken description for Unicode code point U+1F4E4: "📤" OUTBOX TRAY -->
+  <string name="spoken_emoji_1F4E4">"Δίσκος εξερχομένων"</string>
+  <!-- Spoken description for Unicode code point U+1F4E5: "📥" INBOX TRAY -->
+  <string name="spoken_emoji_1F4E5">"Δίσκος εισερχομένων"</string>
+  <!-- Spoken description for Unicode code point U+1F4E6: "📦" PACKAGE -->
+  <string name="spoken_emoji_1F4E6">"Πακέτο"</string>
+  <!-- Spoken description for Unicode code point U+1F4E7: "📧" E-MAIL SYMBOL -->
+  <string name="spoken_emoji_1F4E7">"Σύμβολο ηλεκτρονικού ταχυδρομείου"</string>
+  <!-- Spoken description for Unicode code point U+1F4E8: "📨" INCOMING ENVELOPE -->
+  <string name="spoken_emoji_1F4E8">"Εισερχόμενος φάκελος"</string>
+  <!-- Spoken description for Unicode code point U+1F4E9: "📩" ENVELOPE WITH DOWNWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F4E9">"Φάκελος με κάτω βέλος από πάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F4EA: "📪" CLOSED MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4EA">"Κλειστό γραμματοκιβώτιο με κατεβασμένο σημαιάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F4EB: "📫" CLOSED MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EB">"Κλειστό γραμματοκιβώτιο με κατεβασμένο σημαιάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F4EC: "📬" OPEN MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EC">"Ανοιχτό γραμματοκιβώτιο με ανεβασμένο σημαιάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F4ED: "📭" OPEN MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4ED">"Ανοιχτό γραμματοκιβώτιο με κατεβασμένο σημαιάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F4EE: "📮" POSTBOX -->
+  <string name="spoken_emoji_1F4EE">"Γραμματοκιβώτιο"</string>
+  <!-- Spoken description for Unicode code point U+1F4EF: "📯" POSTAL HORN -->
+  <string name="spoken_emoji_1F4EF">"Ταχυδρομική κόρνα"</string>
+  <!-- Spoken description for Unicode code point U+1F4F0: "📰" NEWSPAPER -->
+  <string name="spoken_emoji_1F4F0">"Εφημερίδα"</string>
+  <!-- Spoken description for Unicode code point U+1F4F1: "📱" MOBILE PHONE -->
+  <string name="spoken_emoji_1F4F1">"Κινητό τηλέφωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F4F2: "📲" MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT -->
+  <string name="spoken_emoji_1F4F2">"Κινητό τηλέφωνο με δεξί βέλος στα αριστερά"</string>
+  <!-- Spoken description for Unicode code point U+1F4F3: "📳" VIBRATION MODE -->
+  <string name="spoken_emoji_1F4F3">"Λειτουργία δόνησης"</string>
+  <!-- Spoken description for Unicode code point U+1F4F4: "📴" MOBILE PHONE OFF -->
+  <string name="spoken_emoji_1F4F4">"Απενεργοποιημένο κινητό τηλέφωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F4F5: "📵" NO MOBILE PHONES -->
+  <string name="spoken_emoji_1F4F5">"Δεν επιτρέπονται τα κινητά τηλέφωνα"</string>
+  <!-- Spoken description for Unicode code point U+1F4F6: "📶" ANTENNA WITH BARS -->
+  <string name="spoken_emoji_1F4F6">"Κεραία με ράβδους"</string>
+  <!-- Spoken description for Unicode code point U+1F4F7: "📷" CAMERA -->
+  <string name="spoken_emoji_1F4F7">"Φωτογραφική μηχανή"</string>
+  <!-- Spoken description for Unicode code point U+1F4F9: "📹" VIDEO CAMERA -->
+  <string name="spoken_emoji_1F4F9">"Βιντεοκάμερα"</string>
+  <!-- Spoken description for Unicode code point U+1F4FA: "📺" TELEVISION -->
+  <string name="spoken_emoji_1F4FA">"Τηλεόραση"</string>
+  <!-- Spoken description for Unicode code point U+1F4FB: "📻" RADIO -->
+  <string name="spoken_emoji_1F4FB">"Ραδιόφωνο"</string>
+  <!-- Spoken description for Unicode code point U+1F4FC: "📼" VIDEOCASSETTE -->
+  <string name="spoken_emoji_1F4FC">"Βιντεοκασέτα"</string>
+  <!-- Spoken description for Unicode code point U+1F500: "🔀" TWISTED RIGHTWARDS ARROWS -->
+  <string name="spoken_emoji_1F500">"Στριφτά βέλη προς τα δεξιά"</string>
+  <!-- Spoken description for Unicode code point U+1F501: "🔁" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F501">"Δεξιόστροφο αριστερό και δεξί βέλος σε ανοιχτό κύκλο"</string>
+  <!-- Spoken description for Unicode code point U+1F502: "🔂" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY -->
+  <string name="spoken_emoji_1F502">"Δεξιόστροφο αριστερό και δεξί βέλος σε ανοιχτό κύκλο με προσθήκη του αριθμού ένα εντός κύκλου"</string>
+  <!-- Spoken description for Unicode code point U+1F503: "🔃" CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F503">"Δεξιόστροφο κάτω και άνω βέλος σε ανοιχτό κύκλο"</string>
+  <!-- Spoken description for Unicode code point U+1F504: "🔄" ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F504">"Αριστερόστροφο κάτω και άνω βέλος σε ανοιχτό κύκλο"</string>
+  <!-- Spoken description for Unicode code point U+1F505: "🔅" LOW BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F505">"Σύμβολο χαμηλής φωτεινότητας"</string>
+  <!-- Spoken description for Unicode code point U+1F506: "🔆" HIGH BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F506">"Σύμβολο υψηλής φωτεινότητας"</string>
+  <!-- Spoken description for Unicode code point U+1F507: "🔇" SPEAKER WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F507">"Ηχείο με διαγραφή"</string>
+  <!-- Spoken description for Unicode code point U+1F508: "🔈" SPEAKER -->
+  <string name="spoken_emoji_1F508">"Ηχείο"</string>
+  <!-- Spoken description for Unicode code point U+1F509: "🔉" SPEAKER WITH ONE SOUND WAVE -->
+  <string name="spoken_emoji_1F509">"Ηχείο με ένα ηχητικό κύμα"</string>
+  <!-- Spoken description for Unicode code point U+1F50A: "🔊" SPEAKER WITH THREE SOUND WAVES -->
+  <string name="spoken_emoji_1F50A">"Ηχείο με τρία ηχητικά κύματα"</string>
+  <!-- Spoken description for Unicode code point U+1F50B: "🔋" BATTERY -->
+  <string name="spoken_emoji_1F50B">"Μπαταρία"</string>
+  <!-- Spoken description for Unicode code point U+1F50C: "🔌" ELECTRIC PLUG -->
+  <string name="spoken_emoji_1F50C">"Πρίζα"</string>
+  <!-- Spoken description for Unicode code point U+1F50D: "🔍" LEFT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50D">"Μεγεθυντικός φακός που δείχνει προς τα αριστερά"</string>
+  <!-- Spoken description for Unicode code point U+1F50E: "🔎" RIGHT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50E">"Μεγεθυντικός φακός που δείχνει προς τα δεξιά"</string>
+  <!-- Spoken description for Unicode code point U+1F50F: "🔏" LOCK WITH INK PEN -->
+  <string name="spoken_emoji_1F50F">"Κλειδαριά με κονδυλοφόρο"</string>
+  <!-- Spoken description for Unicode code point U+1F510: "🔐" CLOSED LOCK WITH KEY -->
+  <string name="spoken_emoji_1F510">"Κλειστή κλειδαριά με κλειδί"</string>
+  <!-- Spoken description for Unicode code point U+1F511: "🔑" KEY -->
+  <string name="spoken_emoji_1F511">"Κλειδί"</string>
+  <!-- Spoken description for Unicode code point U+1F512: "🔒" LOCK -->
+  <string name="spoken_emoji_1F512">"Κλειδαριά"</string>
+  <!-- Spoken description for Unicode code point U+1F513: "🔓" OPEN LOCK -->
+  <string name="spoken_emoji_1F513">"Ανοιχτή κλειδαριά"</string>
+  <!-- Spoken description for Unicode code point U+1F514: "🔔" BELL -->
+  <string name="spoken_emoji_1F514">"Καμπανάκι"</string>
+  <!-- Spoken description for Unicode code point U+1F515: "🔕" BELL WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F515">"Καμπανάκι με διαγραφή"</string>
+  <!-- Spoken description for Unicode code point U+1F516: "🔖" BOOKMARK -->
+  <string name="spoken_emoji_1F516">"Σελιδοδείκτης"</string>
+  <!-- Spoken description for Unicode code point U+1F517: "🔗" LINK SYMBOL -->
+  <string name="spoken_emoji_1F517">"Σύμβολο σύνδεσης"</string>
+  <!-- Spoken description for Unicode code point U+1F518: "🔘" RADIO BUTTON -->
+  <string name="spoken_emoji_1F518">"Κουμπί επιλογής"</string>
+  <!-- Spoken description for Unicode code point U+1F519: "🔙" BACK WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F519">"Ένδειξη \"Back\" με βέλος προς τα αριστερά από πάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F51A: "🔚" END WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51A">"Ένδειξη \"End\" με βέλος προς τα αριστερά από πάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F51B: "🔛" ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE -->
+  <string name="spoken_emoji_1F51B">"Ένδειξη \"On\" με θαυμαστικό με αριστερό-δεξί βέλος από πάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F51C: "🔜" SOON WITH RIGHTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51C">"Ένδειξη \"Soon\" με βέλος προς τα δεξιά από πάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F51D: "🔝" TOP WITH UPWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51D">"Ένδειξη \"Top\" με άνω βέλος από πάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F51E: "🔞" NO ONE UNDER EIGHTEEN SYMBOL -->
+  <string name="spoken_emoji_1F51E">"Σύμβολο απαγόρευσης κάτω των δεκαοκτώ"</string>
+  <!-- Spoken description for Unicode code point U+1F51F: "🔟" KEYCAP TEN -->
+  <string name="spoken_emoji_1F51F">"Πλήκτρο με τον αριθμό 10"</string>
+  <!-- Spoken description for Unicode code point U+1F520: "🔠" INPUT SYMBOL FOR LATIN CAPITAL LETTERS -->
+  <string name="spoken_emoji_1F520">"Σύμβολο εισαγωγής για λατινικά κεφαλαία γράμματα"</string>
+  <!-- Spoken description for Unicode code point U+1F521: "🔡" INPUT SYMBOL FOR LATIN SMALL LETTERS -->
+  <string name="spoken_emoji_1F521">"Σύμβολο εισαγωγής για λατινικά μικρά γράμματα"</string>
+  <!-- Spoken description for Unicode code point U+1F522: "🔢" INPUT SYMBOL FOR NUMBERS -->
+  <string name="spoken_emoji_1F522">"Σύμβολο εισαγωγής για αριθμούς"</string>
+  <!-- Spoken description for Unicode code point U+1F523: "🔣" INPUT SYMBOL FOR SYMBOLS -->
+  <string name="spoken_emoji_1F523">"Σύμβολο εισαγωγής συμβόλων"</string>
+  <!-- Spoken description for Unicode code point U+1F524: "🔤" INPUT SYMBOL FOR LATIN LETTERS -->
+  <string name="spoken_emoji_1F524">"Σύμβολο εισαγωγής για λατινικά γράμματα"</string>
+  <!-- Spoken description for Unicode code point U+1F525: "🔥" FIRE -->
+  <string name="spoken_emoji_1F525">"Φωτιά"</string>
+  <!-- Spoken description for Unicode code point U+1F526: "🔦" ELECTRIC TORCH -->
+  <string name="spoken_emoji_1F526">"Φακός"</string>
+  <!-- Spoken description for Unicode code point U+1F527: "🔧" WRENCH -->
+  <string name="spoken_emoji_1F527">"Γαλλικό κλειδί"</string>
+  <!-- Spoken description for Unicode code point U+1F528: "🔨" HAMMER -->
+  <string name="spoken_emoji_1F528">"Σφυρί"</string>
+  <!-- Spoken description for Unicode code point U+1F529: "🔩" NUT AND BOLT -->
+  <string name="spoken_emoji_1F529">"Παξιμάδι και μπουλόνι"</string>
+  <!-- Spoken description for Unicode code point U+1F52A: "🔪" HOCHO -->
+  <string name="spoken_emoji_1F52A">"Μαχαίρι Hocho"</string>
+  <!-- Spoken description for Unicode code point U+1F52B: "🔫" PISTOL -->
+  <string name="spoken_emoji_1F52B">"Πιστόλι"</string>
+  <!-- Spoken description for Unicode code point U+1F52C: "🔬" MICROSCOPE -->
+  <string name="spoken_emoji_1F52C">"Μικροσκόπιο"</string>
+  <!-- Spoken description for Unicode code point U+1F52D: "🔭" TELESCOPE -->
+  <string name="spoken_emoji_1F52D">"Τηλεσκόπιο"</string>
+  <!-- Spoken description for Unicode code point U+1F52E: "🔮" CRYSTAL BALL -->
+  <string name="spoken_emoji_1F52E">"Κρυστάλλινη σφαίρα"</string>
+  <!-- Spoken description for Unicode code point U+1F52F: "🔯" SIX POINTED STAR WITH MIDDLE DOT -->
+  <string name="spoken_emoji_1F52F">"Αστέρι με έξι μύτες και τελεία στη μέση"</string>
+  <!-- Spoken description for Unicode code point U+1F530: "🔰" JAPANESE SYMBOL FOR BEGINNER -->
+  <string name="spoken_emoji_1F530">"Ιαπωνικό σύμβολο για αρχάριο"</string>
+  <!-- Spoken description for Unicode code point U+1F531: "🔱" TRIDENT EMBLEM -->
+  <string name="spoken_emoji_1F531">"Έμβλημα τρίαινας"</string>
+  <!-- Spoken description for Unicode code point U+1F532: "🔲" BLACK SQUARE BUTTON -->
+  <string name="spoken_emoji_1F532">"Μαύρο τετράγωνο κουμπί"</string>
+  <!-- Spoken description for Unicode code point U+1F533: "🔳" WHITE SQUARE BUTTON -->
+  <string name="spoken_emoji_1F533">"Λευκό τετράγωνο κουμπί"</string>
+  <!-- Spoken description for Unicode code point U+1F534: "🔴" LARGE RED CIRCLE -->
+  <string name="spoken_emoji_1F534">"Μεγάλος κόκκινος κύκλος"</string>
+  <!-- Spoken description for Unicode code point U+1F535: "🔵" LARGE BLUE CIRCLE -->
+  <string name="spoken_emoji_1F535">"Μεγάλος μπλε κύκλος"</string>
+  <!-- Spoken description for Unicode code point U+1F536: "🔶" LARGE ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F536">"Μεγάλος πορτοκαλί ρόμβος"</string>
+  <!-- Spoken description for Unicode code point U+1F537: "🔷" LARGE BLUE DIAMOND -->
+  <string name="spoken_emoji_1F537">"Μεγάλος μπλε ρόμβος"</string>
+  <!-- Spoken description for Unicode code point U+1F538: "🔸" SMALL ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F538">"Μικρός πορτοκαλί ρόμβος"</string>
+  <!-- Spoken description for Unicode code point U+1F539: "🔹" SMALL BLUE DIAMOND -->
+  <string name="spoken_emoji_1F539">"Μικρός μπλε ρόμβος"</string>
+  <!-- Spoken description for Unicode code point U+1F53A: "🔺" UP-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53A">"Κόκκινο τρίγωνο που δείχνει προς τα επάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F53B: "🔻" DOWN-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53B">"Κόκκινο τρίγωνο που δείχνει προς τα κάτω"</string>
+  <!-- Spoken description for Unicode code point U+1F53C: "🔼" UP-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53C">"Μικρό κόκκινο τρίγωνο που δείχνει προς τα επάνω"</string>
+  <!-- Spoken description for Unicode code point U+1F53D: "🔽" DOWN-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53D">"Μικρό κόκκινο τρίγωνο που δείχνει προς τα κάτω"</string>
+  <!-- Spoken description for Unicode code point U+1F550: "🕐" CLOCK FACE ONE OCLOCK -->
+  <string name="spoken_emoji_1F550">"Μπροστινή όψη ρολογιού μία η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F551: "🕑" CLOCK FACE TWO OCLOCK -->
+  <string name="spoken_emoji_1F551">"Μπροστινή όψη ρολογιού δύο η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F552: "🕒" CLOCK FACE THREE OCLOCK -->
+  <string name="spoken_emoji_1F552">"Μπροστινή όψη ρολογιού τρεις η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F553: "🕓" CLOCK FACE FOUR OCLOCK -->
+  <string name="spoken_emoji_1F553">"Μπροστινή όψη ρολογιού τέσσερις η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F554: "🕔" CLOCK FACE FIVE OCLOCK -->
+  <string name="spoken_emoji_1F554">"Μπροστινή όψη ρολογιού πέντε η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F555: "🕕" CLOCK FACE SIX OCLOCK -->
+  <string name="spoken_emoji_1F555">"Μπροστινή όψη ρολογιού έξι η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F556: "🕖" CLOCK FACE SEVEN OCLOCK -->
+  <string name="spoken_emoji_1F556">"Μπροστινή όψη ρολογιού επτά η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F557: "🕗" CLOCK FACE EIGHT OCLOCK -->
+  <string name="spoken_emoji_1F557">"Μπροστινή όψη ρολογιού οκτώ η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F558: "🕘" CLOCK FACE NINE OCLOCK -->
+  <string name="spoken_emoji_1F558">"Μπροστινή όψη ρολογιού εννέα η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F559: "🕙" CLOCK FACE TEN OCLOCK -->
+  <string name="spoken_emoji_1F559">"Μπροστινή όψη ρολογιού δέκα η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F55A: "🕚" CLOCK FACE ELEVEN OCLOCK -->
+  <string name="spoken_emoji_1F55A">"Μπροστινή όψη ρολογιού έντεκα η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F55B: "🕛" CLOCK FACE TWELVE OCLOCK -->
+  <string name="spoken_emoji_1F55B">"Μπροστινή όψη ρολογιού δώδεκα η ώρα"</string>
+  <!-- Spoken description for Unicode code point U+1F55C: "🕜" CLOCK FACE ONE-THIRTY -->
+  <string name="spoken_emoji_1F55C">"Μπροστινή όψη ρολογιού μία και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F55D: "🕝" CLOCK FACE TWO-THIRTY -->
+  <string name="spoken_emoji_1F55D">"Μπροστινή όψη ρολογιού δύο και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F55E: "🕞" CLOCK FACE THREE-THIRTY -->
+  <string name="spoken_emoji_1F55E">"Μπροστινή όψη ρολογιού τρεις και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F55F: "🕟" CLOCK FACE FOUR-THIRTY -->
+  <string name="spoken_emoji_1F55F">"Μπροστινή όψη ρολογιού τέσσερις και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F560: "🕠" CLOCK FACE FIVE-THIRTY -->
+  <string name="spoken_emoji_1F560">"Μπροστινή όψη ρολογιού πέντε και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F561: "🕡" CLOCK FACE SIX-THIRTY -->
+  <string name="spoken_emoji_1F561">"Μπροστινή όψη ρολογιού έξι και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F562: "🕢" CLOCK FACE SEVEN-THIRTY -->
+  <string name="spoken_emoji_1F562">"Μπροστινή όψη ρολογιού επτά και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F563: "🕣" CLOCK FACE EIGHT-THIRTY -->
+  <string name="spoken_emoji_1F563">"Μπροστινή όψη ρολογιού οκτώ και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F564: "🕤" CLOCK FACE NINE-THIRTY -->
+  <string name="spoken_emoji_1F564">"Μπροστινή όψη ρολογιού εννέα και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F565: "🕥" CLOCK FACE TEN-THIRTY -->
+  <string name="spoken_emoji_1F565">"Μπροστινή όψη ρολογιού δέκα και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F566: "🕦" CLOCK FACE ELEVEN-THIRTY -->
+  <string name="spoken_emoji_1F566">"Μπροστινή όψη ρολογιού έντεκα και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F567: "🕧" CLOCK FACE TWELVE-THIRTY -->
+  <string name="spoken_emoji_1F567">"Μπροστινή όψη ρολογιού δώδεκα και μισή"</string>
+  <!-- Spoken description for Unicode code point U+1F5FB: "🗻" MOUNT FUJI -->
+  <string name="spoken_emoji_1F5FB">"Όρος Φούτζι"</string>
+  <!-- Spoken description for Unicode code point U+1F5FC: "🗼" TOKYO TOWER -->
+  <string name="spoken_emoji_1F5FC">"Πύργος του Τόκιο"</string>
+  <!-- Spoken description for Unicode code point U+1F5FD: "🗽" STATUE OF LIBERTY -->
+  <string name="spoken_emoji_1F5FD">"Άγαλμα της Ελευθερίας"</string>
+  <!-- Spoken description for Unicode code point U+1F5FE: "🗾" SILHOUETTE OF JAPAN -->
+  <string name="spoken_emoji_1F5FE">"Περίγραμμα της Ιαπωνίας"</string>
+  <!-- Spoken description for Unicode code point U+1F5FF: "🗿" MOYAI -->
+  <string name="spoken_emoji_1F5FF">"Πέτρινο άγαλμα Moyai"</string>
+  <!-- Spoken description for Unicode code point U+1F600: "😀" GRINNING FACE -->
+  <string name="spoken_emoji_1F600">"Γελαστό πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F601: "😁" GRINNING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F601">"Γελαστό πρόσωπο με χαμογελαστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F602: "😂" FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F602">"Πρόσωπο γάτας με δάκρυα χαράς"</string>
+  <!-- Spoken description for Unicode code point U+1F603: "😃" SMILING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F603">"Χαμογελαστό πρόσωπο με ανοιχτό στόμα"</string>
+  <!-- Spoken description for Unicode code point U+1F604: "😄" SMILING FACE WITH OPEN MOUTH AND SMILING EYES -->
+  <string name="spoken_emoji_1F604">"Χαμογελαστό πρόσωπο με ανοιχτό στόμα και χαμογελαστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F605: "😅" SMILING FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F605">"Χαμογελαστό πρόσωπο με ανοιχτό στόμα και κρύο ιδρώτα"</string>
+  <!-- Spoken description for Unicode code point U+1F606: "😆" SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F606">"Χαμογελαστό πρόσωπο με ανοιχτό στόμα και ερμητικά κλειστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F607: "😇" SMILING FACE WITH HALO -->
+  <string name="spoken_emoji_1F607">"Χαμογελαστό πρόσωπο με φωτοστέφανο"</string>
+  <!-- Spoken description for Unicode code point U+1F608: "😈" SMILING FACE WITH HORNS -->
+  <string name="spoken_emoji_1F608">"Χαμογελαστό πρόσωπο με κερατάκια"</string>
+  <!-- Spoken description for Unicode code point U+1F609: "😉" WINKING FACE -->
+  <string name="spoken_emoji_1F609">"Πρόσωπο που κλείνει το μάτι"</string>
+  <!-- Spoken description for Unicode code point U+1F60A: "😊" SMILING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F60A">"Χαμογελαστό πρόσωπο με χαμογελαστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F60B: "😋" FACE SAVOURING DELICIOUS FOOD -->
+  <string name="spoken_emoji_1F60B">"Πρόσωπο που δοκιμάζει νόστιμο φαγητό"</string>
+  <!-- Spoken description for Unicode code point U+1F60C: "😌" RELIEVED FACE -->
+  <string name="spoken_emoji_1F60C">"Ανακουφισμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F60D: "😍" SMILING FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F60D">"Χαμογελαστό πρόσωπο με μάτια-καρδούλες"</string>
+  <!-- Spoken description for Unicode code point U+1F60E: "😎" SMILING FACE WITH SUNGLASSES -->
+  <string name="spoken_emoji_1F60E">"Χαμογελαστό πρόσωπο με γυαλιά ηλίου"</string>
+  <!-- Spoken description for Unicode code point U+1F60F: "😏" SMIRKING FACE -->
+  <string name="spoken_emoji_1F60F">"Πρόσωπο με επιτηδευμένο χαμόγελο"</string>
+  <!-- Spoken description for Unicode code point U+1F610: "😐" NEUTRAL FACE -->
+  <string name="spoken_emoji_1F610">"Ουδέτερο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F611: "😑" EXPRESSIONLESS FACE -->
+  <string name="spoken_emoji_1F611">"Ανέκφραστο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F612: "😒" UNAMUSED FACE -->
+  <string name="spoken_emoji_1F612">"Πρόσωπο που δεν δείχνει να διασκεδάζει"</string>
+  <!-- Spoken description for Unicode code point U+1F613: "😓" FACE WITH COLD SWEAT -->
+  <string name="spoken_emoji_1F613">"Πρόσωπο με κρύο ιδρώτα"</string>
+  <!-- Spoken description for Unicode code point U+1F614: "😔" PENSIVE FACE -->
+  <string name="spoken_emoji_1F614">"Σκεπτικό πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F615: "😕" CONFUSED FACE -->
+  <string name="spoken_emoji_1F615">"Μπερδεμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F616: "😖" CONFOUNDED FACE -->
+  <string name="spoken_emoji_1F616">"Αποσβολωμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F617: "😗" KISSING FACE -->
+  <string name="spoken_emoji_1F617">"Πρόσωπο που δίνει φιλί"</string>
+  <!-- Spoken description for Unicode code point U+1F618: "😘" FACE THROWING A KISS -->
+  <string name="spoken_emoji_1F618">"Πρόσωπο που στέλνει φιλί"</string>
+  <!-- Spoken description for Unicode code point U+1F619: "😙" KISSING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F619">"Πρόσωπο που δίνει φιλί με χαμογελαστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F61A: "😚" KISSING FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F61A">"Πρόσωπο που δίνει φιλί με κλειστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F61B: "😛" FACE WITH STUCK-OUT TONGUE -->
+  <string name="spoken_emoji_1F61B">"Πρόσωπο με τη γλώσσα έξω"</string>
+  <!-- Spoken description for Unicode code point U+1F61C: "😜" FACE WITH STUCK-OUT TONGUE AND WINKING EYE -->
+  <string name="spoken_emoji_1F61C">"Πρόσωπο που κλείνει το μάτι με τη γλώσσα έξω"</string>
+  <!-- Spoken description for Unicode code point U+1F61D: "😝" FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F61D">"Πρόσωπο με ερμητικά κλειστά μάτια και τη γλώσσα έξω"</string>
+  <!-- Spoken description for Unicode code point U+1F61E: "😞" DISAPPOINTED FACE -->
+  <string name="spoken_emoji_1F61E">"Απογοητευμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F61F: "😟" WORRIED FACE -->
+  <string name="spoken_emoji_1F61F">"Ανήσυχο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F620: "😠" ANGRY FACE -->
+  <string name="spoken_emoji_1F620">"Θυμωμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F621: "😡" POUTING FACE -->
+  <string name="spoken_emoji_1F621">"Μουτρωμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F622: "😢" CRYING FACE -->
+  <string name="spoken_emoji_1F622">"Πρόσωπο που κλαίει"</string>
+  <!-- Spoken description for Unicode code point U+1F623: "😣" PERSEVERING FACE -->
+  <string name="spoken_emoji_1F623">"Καρτερικό πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F624: "😤" FACE WITH LOOK OF TRIUMPH -->
+  <string name="spoken_emoji_1F624">"Πρόσωπο με βλέμμα θριάμβου"</string>
+  <!-- Spoken description for Unicode code point U+1F625: "😥" DISAPPOINTED BUT RELIEVED FACE -->
+  <string name="spoken_emoji_1F625">"Απογοητευμένο αλλά ανακουφισμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F626: "😦" FROWNING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F626">"Σκυθρωπό πρόσωπο με ανοιχτό στόμα"</string>
+  <!-- Spoken description for Unicode code point U+1F627: "😧" ANGUISHED FACE -->
+  <string name="spoken_emoji_1F627">"Πρόσωπο αγωνίας"</string>
+  <!-- Spoken description for Unicode code point U+1F628: "😨" FEARFUL FACE -->
+  <string name="spoken_emoji_1F628">"Φοβισμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F629: "😩" WEARY FACE -->
+  <string name="spoken_emoji_1F629">"Εξαντλημένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F62A: "😪" SLEEPY FACE -->
+  <string name="spoken_emoji_1F62A">"Νυσταγμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F62B: "😫" TIRED FACE -->
+  <string name="spoken_emoji_1F62B">"Κουρασμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F62C: "😬" GRIMACING FACE -->
+  <string name="spoken_emoji_1F62C">"Πρόσωπο που κάνει γκριμάτσα"</string>
+  <!-- Spoken description for Unicode code point U+1F62D: "😭" LOUDLY CRYING FACE -->
+  <string name="spoken_emoji_1F62D">"Πρόσωπο που κλαίει δυνατά"</string>
+  <!-- Spoken description for Unicode code point U+1F62E: "😮" FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F62E">"Πρόσωπο με ανοιχτό στόμα"</string>
+  <!-- Spoken description for Unicode code point U+1F62F: "😯" HUSHED FACE -->
+  <string name="spoken_emoji_1F62F">"Σιωπηλό πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F630: "😰" FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F630">"Πρόσωπο με ανοιχτό στόμα και κρύο ιδρώτα"</string>
+  <!-- Spoken description for Unicode code point U+1F631: "😱" FACE SCREAMING IN FEAR -->
+  <string name="spoken_emoji_1F631">"Πρόσωπο που ουρλιάζει από φόβο"</string>
+  <!-- Spoken description for Unicode code point U+1F632: "😲" ASTONISHED FACE -->
+  <string name="spoken_emoji_1F632">"Κατάπληκτο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F633: "😳" FLUSHED FACE -->
+  <string name="spoken_emoji_1F633">"Αναψοκοκκινισμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F634: "😴" SLEEPING FACE -->
+  <string name="spoken_emoji_1F634">"Κοιμισμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F635: "😵" DIZZY FACE -->
+  <string name="spoken_emoji_1F635">"Ζαλισμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F636: "😶" FACE WITHOUT MOUTH -->
+  <string name="spoken_emoji_1F636">"Πρόσωπο χωρίς στόμα"</string>
+  <!-- Spoken description for Unicode code point U+1F637: "😷" FACE WITH MEDICAL MASK -->
+  <string name="spoken_emoji_1F637">"Πρόσωπο με ιατρική μάσκα"</string>
+  <!-- Spoken description for Unicode code point U+1F638: "😸" GRINNING CAT FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F638">"Γελαστό πρόσωπο γάτας με χαμογελαστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F639: "😹" CAT FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F639">"Πρόσωπο γάτας με δάκρυα χαράς"</string>
+  <!-- Spoken description for Unicode code point U+1F63A: "😺" SMILING CAT FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F63A">"Χαμογελαστό πρόσωπο γάτας με ανοιχτό στόμα"</string>
+  <!-- Spoken description for Unicode code point U+1F63B: "😻" SMILING CAT FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F63B">"Χαμογελαστό πρόσωπο γάτας με μάτια-καρδούλες"</string>
+  <!-- Spoken description for Unicode code point U+1F63C: "😼" CAT FACE WITH WRY SMILE -->
+  <string name="spoken_emoji_1F63C">"Πρόσωπο γάτας με πικρό χαμόγελο"</string>
+  <!-- Spoken description for Unicode code point U+1F63D: "😽" KISSING CAT FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F63D">"Πρόσωπο γάτας που δίνει φιλί με κλειστά μάτια"</string>
+  <!-- Spoken description for Unicode code point U+1F63E: "😾" POUTING CAT FACE -->
+  <string name="spoken_emoji_1F63E">"Μουτρωμένο πρόσωπο γάτας"</string>
+  <!-- Spoken description for Unicode code point U+1F63F: "😿" CRYING CAT FACE -->
+  <string name="spoken_emoji_1F63F">"Πρόσωπο γάτας που κλαίει"</string>
+  <!-- Spoken description for Unicode code point U+1F640: "🙀" WEARY CAT FACE -->
+  <string name="spoken_emoji_1F640">"Εξαντλημένο πρόσωπο γάτας"</string>
+  <!-- Spoken description for Unicode code point U+1F645: "🙅" FACE WITH NO GOOD GESTURE -->
+  <string name="spoken_emoji_1F645">"Πρόσωπο με χειρονομία \"Δεν είναι καλό\""</string>
+  <!-- Spoken description for Unicode code point U+1F646: "🙆" FACE WITH OK GESTURE -->
+  <string name="spoken_emoji_1F646">"Πρόσωπο με χειρονομία \"OK\""</string>
+  <!-- Spoken description for Unicode code point U+1F647: "🙇" PERSON BOWING DEEPLY -->
+  <string name="spoken_emoji_1F647">"Άτομο που υποκλίνεται βαθιά"</string>
+  <!-- Spoken description for Unicode code point U+1F648: "🙈" SEE-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F648">"Μαϊμού \"Δεν είδα τίποτα\""</string>
+  <!-- Spoken description for Unicode code point U+1F649: "🙉" HEAR-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F649">"Μαϊμού \"Δεν άκουσα τίποτα\""</string>
+  <!-- Spoken description for Unicode code point U+1F64A: "🙊" SPEAK-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F64A">"Μαϊμού \"Δεν λέω τίποτα\""</string>
+  <!-- Spoken description for Unicode code point U+1F64B: "🙋" HAPPY PERSON RAISING ONE HAND -->
+  <string name="spoken_emoji_1F64B">"Χαρούμενο άτομο που σηκώνει ένα χέρι"</string>
+  <!-- Spoken description for Unicode code point U+1F64C: "🙌" PERSON RAISING BOTH HANDS IN CELEBRATION -->
+  <string name="spoken_emoji_1F64C">"Άτομο που σηκώνει και τα δύο χέρια σε σήμα εορτασμού"</string>
+  <!-- Spoken description for Unicode code point U+1F64D: "🙍" PERSON FROWNING -->
+  <string name="spoken_emoji_1F64D">"Άτομο που κατσουφιάζει"</string>
+  <!-- Spoken description for Unicode code point U+1F64E: "🙎" PERSON WITH POUTING FACE -->
+  <string name="spoken_emoji_1F64E">"Άτομο με μουτρωμένο πρόσωπο"</string>
+  <!-- Spoken description for Unicode code point U+1F64F: "🙏" PERSON WITH FOLDED HANDS -->
+  <string name="spoken_emoji_1F64F">"Άτομο με σταυρωμένα χέρια"</string>
+  <!-- Spoken description for Unicode code point U+1F680: "🚀" ROCKET -->
+  <string name="spoken_emoji_1F680">"Πύραυλος"</string>
+  <!-- Spoken description for Unicode code point U+1F681: "🚁" HELICOPTER -->
+  <string name="spoken_emoji_1F681">"Ελικόπτερο"</string>
+  <!-- Spoken description for Unicode code point U+1F682: "🚂" STEAM LOCOMOTIVE -->
+  <string name="spoken_emoji_1F682">"Ατμομηχανή"</string>
+  <!-- Spoken description for Unicode code point U+1F683: "🚃" RAILWAY CAR -->
+  <string name="spoken_emoji_1F683">"Βαγόνι τρένου"</string>
+  <!-- Spoken description for Unicode code point U+1F684: "🚄" HIGH-SPEED TRAIN -->
+  <string name="spoken_emoji_1F684">"Τρένο υψηλής ταχύτητας"</string>
+  <!-- Spoken description for Unicode code point U+1F685: "🚅" HIGH-SPEED TRAIN WITH BULLET NOSE -->
+  <string name="spoken_emoji_1F685">"Τρένο υψηλής ταχύτητας με μυτερή πρόσοψη"</string>
+  <!-- Spoken description for Unicode code point U+1F686: "🚆" TRAIN -->
+  <string name="spoken_emoji_1F686">"Τρένο"</string>
+  <!-- Spoken description for Unicode code point U+1F687: "🚇" METRO -->
+  <string name="spoken_emoji_1F687">"Μετρό"</string>
+  <!-- Spoken description for Unicode code point U+1F688: "🚈" LIGHT RAIL -->
+  <string name="spoken_emoji_1F688">"Ελαφρύς σιδηρόδρομος"</string>
+  <!-- Spoken description for Unicode code point U+1F689: "🚉" STATION -->
+  <string name="spoken_emoji_1F689">"Σταθμός"</string>
+  <!-- Spoken description for Unicode code point U+1F68A: "🚊" TRAM -->
+  <string name="spoken_emoji_1F68A">"Τραμ"</string>
+  <!-- Spoken description for Unicode code point U+1F68B: "🚋" TRAM CAR -->
+  <string name="spoken_emoji_1F68B">"Βαγόνι τραμ"</string>
+  <!-- Spoken description for Unicode code point U+1F68C: "🚌" BUS -->
+  <string name="spoken_emoji_1F68C">"Λεωφορείο"</string>
+  <!-- Spoken description for Unicode code point U+1F68D: "🚍" ONCOMING BUS -->
+  <string name="spoken_emoji_1F68D">"Ερχόμενο λεωφορείο"</string>
+  <!-- Spoken description for Unicode code point U+1F68E: "🚎" TROLLEYBUS -->
+  <string name="spoken_emoji_1F68E">"Τρόλεϊ"</string>
+  <!-- Spoken description for Unicode code point U+1F68F: "🚏" BUS STOP -->
+  <string name="spoken_emoji_1F68F">"Στάση λεωφορείου"</string>
+  <!-- Spoken description for Unicode code point U+1F690: "🚐" MINIBUS -->
+  <string name="spoken_emoji_1F690">"Μικρό λεωφορείο"</string>
+  <!-- Spoken description for Unicode code point U+1F691: "🚑" AMBULANCE -->
+  <string name="spoken_emoji_1F691">"Ασθενοφόρο"</string>
+  <!-- Spoken description for Unicode code point U+1F692: "🚒" FIRE ENGINE -->
+  <string name="spoken_emoji_1F692">"Πυροσβεστικό"</string>
+  <!-- Spoken description for Unicode code point U+1F693: "🚓" POLICE CAR -->
+  <string name="spoken_emoji_1F693">"Περιπολικό"</string>
+  <!-- Spoken description for Unicode code point U+1F694: "🚔" ONCOMING POLICE CAR -->
+  <string name="spoken_emoji_1F694">"Ερχόμενο περιπολικό"</string>
+  <!-- Spoken description for Unicode code point U+1F695: "🚕" TAXI -->
+  <string name="spoken_emoji_1F695">"Ταξί"</string>
+  <!-- Spoken description for Unicode code point U+1F696: "🚖" ONCOMING TAXI -->
+  <string name="spoken_emoji_1F696">"Ερχόμενο ταξί"</string>
+  <!-- Spoken description for Unicode code point U+1F697: "🚗" AUTOMOBILE -->
+  <string name="spoken_emoji_1F697">"Αυτοκίνητο"</string>
+  <!-- Spoken description for Unicode code point U+1F698: "🚘" ONCOMING AUTOMOBILE -->
+  <string name="spoken_emoji_1F698">"Ερχόμενο αυτοκίνητο"</string>
+  <!-- Spoken description for Unicode code point U+1F699: "🚙" RECREATIONAL VEHICLE -->
+  <string name="spoken_emoji_1F699">"Τροχόσπιτο"</string>
+  <!-- Spoken description for Unicode code point U+1F69A: "🚚" DELIVERY TRUCK -->
+  <string name="spoken_emoji_1F69A">"Φορτηγό μεταφορών"</string>
+  <!-- Spoken description for Unicode code point U+1F69B: "🚛" ARTICULATED LORRY -->
+  <string name="spoken_emoji_1F69B">"Αρθρωτό φορτηγό"</string>
+  <!-- Spoken description for Unicode code point U+1F69C: "🚜" TRACTOR -->
+  <string name="spoken_emoji_1F69C">"Τρακτέρ"</string>
+  <!-- Spoken description for Unicode code point U+1F69D: "🚝" MONORAIL -->
+  <string name="spoken_emoji_1F69D">"Μονοτρόχιος σιδηρόδρομος"</string>
+  <!-- Spoken description for Unicode code point U+1F69E: "🚞" MOUNTAIN RAILWAY -->
+  <string name="spoken_emoji_1F69E">"Ορεινή σιδηροδρομική γραμμή"</string>
+  <!-- Spoken description for Unicode code point U+1F69F: "🚟" SUSPENSION RAILWAY -->
+  <string name="spoken_emoji_1F69F">"Σιδηρόδρομος με σύστημα ανάρτησης"</string>
+  <!-- Spoken description for Unicode code point U+1F6A0: "🚠" MOUNTAIN CABLEWAY -->
+  <string name="spoken_emoji_1F6A0">"Τελεφερίκ"</string>
+  <!-- Spoken description for Unicode code point U+1F6A1: "🚡" AERIAL TRAMWAY -->
+  <string name="spoken_emoji_1F6A1">"Εναέριο τραμ"</string>
+  <!-- Spoken description for Unicode code point U+1F6A2: "🚢" SHIP -->
+  <string name="spoken_emoji_1F6A2">"Πλοίο"</string>
+  <!-- Spoken description for Unicode code point U+1F6A3: "🚣" ROWBOAT -->
+  <string name="spoken_emoji_1F6A3">"Βάρκα με κουπιά"</string>
+  <!-- Spoken description for Unicode code point U+1F6A4: "🚤" SPEEDBOAT -->
+  <string name="spoken_emoji_1F6A4">"Ταχύπλοο"</string>
+  <!-- Spoken description for Unicode code point U+1F6A5: "🚥" HORIZONTAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A5">"Οριζόντιος φωτεινός σηματοδότης"</string>
+  <!-- Spoken description for Unicode code point U+1F6A6: "🚦" VERTICAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A6">"Κάθετος φωτεινός σηματοδότης"</string>
+  <!-- Spoken description for Unicode code point U+1F6A7: "🚧" CONSTRUCTION SIGN -->
+  <string name="spoken_emoji_1F6A7">"Ταμπέλα έργων"</string>
+  <!-- Spoken description for Unicode code point U+1F6A8: "🚨" POLICE CARS REVOLVING LIGHT -->
+  <string name="spoken_emoji_1F6A8">"Σειρήνα περιπολικών"</string>
+  <!-- Spoken description for Unicode code point U+1F6A9: "🚩" TRIANGULAR FLAG ON POST -->
+  <string name="spoken_emoji_1F6A9">"Τριγωνική σημαία σε ιστό"</string>
+  <!-- Spoken description for Unicode code point U+1F6AA: "🚪" DOOR -->
+  <string name="spoken_emoji_1F6AA">"Πόρτα"</string>
+  <!-- Spoken description for Unicode code point U+1F6AB: "🚫" NO ENTRY SIGN -->
+  <string name="spoken_emoji_1F6AB">"Σήμα \"Απαγορεύεται η είσοδος\""</string>
+  <!-- Spoken description for Unicode code point U+1F6AC: "🚬" SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AC">"Σύμβολο \"Επιτρέπεται το κάπνισμα\""</string>
+  <!-- Spoken description for Unicode code point U+1F6AD: "🚭" NO SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AD">"Σύμβολο \"Απαγορεύεται το κάπνισμα\""</string>
+  <!-- Spoken description for Unicode code point U+1F6AE: "🚮" PUT LITTER IN ITS PLACE SYMBOL -->
+  <string name="spoken_emoji_1F6AE">"Σύμβολο \"Πετάξτε τα απορρίμματα στους κάδους\""</string>
+  <!-- Spoken description for Unicode code point U+1F6AF: "🚯" DO NOT LITTER SYMBOL -->
+  <string name="spoken_emoji_1F6AF">"Σύμβολο \"Μην πετάτε σκουπίδια\""</string>
+  <!-- Spoken description for Unicode code point U+1F6B0: "🚰" POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B0">"Σύμβολο πόσιμου νερού"</string>
+  <!-- Spoken description for Unicode code point U+1F6B1: "🚱" NON-POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B1">"Σύμβολο μη πόσιμου νερού"</string>
+  <!-- Spoken description for Unicode code point U+1F6B2: "🚲" BICYCLE -->
+  <string name="spoken_emoji_1F6B2">"Ποδήλατο"</string>
+  <!-- Spoken description for Unicode code point U+1F6B3: "🚳" NO BICYCLES -->
+  <string name="spoken_emoji_1F6B3">"Δεν επιτρέπονται τα ποδήλατα"</string>
+  <!-- Spoken description for Unicode code point U+1F6B4: "🚴" BICYCLIST -->
+  <string name="spoken_emoji_1F6B4">"Ποδηλάτης"</string>
+  <!-- Spoken description for Unicode code point U+1F6B5: "🚵" MOUNTAIN BICYCLIST -->
+  <string name="spoken_emoji_1F6B5">"Ποδηλάτης ορεινής ποδηλασίας"</string>
+  <!-- Spoken description for Unicode code point U+1F6B6: "🚶" PEDESTRIAN -->
+  <string name="spoken_emoji_1F6B6">"Πεζός"</string>
+  <!-- Spoken description for Unicode code point U+1F6B7: "🚷" NO PEDESTRIANS -->
+  <string name="spoken_emoji_1F6B7">"Δεν επιτρέπονται οι πεζοί"</string>
+  <!-- Spoken description for Unicode code point U+1F6B8: "🚸" CHILDREN CROSSING -->
+  <string name="spoken_emoji_1F6B8">"Διασχίζουν παιδιά"</string>
+  <!-- Spoken description for Unicode code point U+1F6B9: "🚹" MENS SYMBOL -->
+  <string name="spoken_emoji_1F6B9">"Σύμβολο ανδρών"</string>
+  <!-- Spoken description for Unicode code point U+1F6BA: "🚺" WOMENS SYMBOL -->
+  <string name="spoken_emoji_1F6BA">"Σύμβολο γυναικών"</string>
+  <!-- Spoken description for Unicode code point U+1F6BB: "🚻" RESTROOM -->
+  <string name="spoken_emoji_1F6BB">"Τουαλέτες"</string>
+  <!-- Spoken description for Unicode code point U+1F6BC: "🚼" BABY SYMBOL -->
+  <string name="spoken_emoji_1F6BC">"Σύμβολο μωρού"</string>
+  <!-- Spoken description for Unicode code point U+1F6BD: "🚽" TOILET -->
+  <string name="spoken_emoji_1F6BD">"Τουαλέτα"</string>
+  <!-- Spoken description for Unicode code point U+1F6BE: "🚾" WATER CLOSET -->
+  <string name="spoken_emoji_1F6BE">"Αποχωρητήριο"</string>
+  <!-- Spoken description for Unicode code point U+1F6BF: "🚿" SHOWER -->
+  <string name="spoken_emoji_1F6BF">"Ντους"</string>
+  <!-- Spoken description for Unicode code point U+1F6C0: "🛀" BATH -->
+  <string name="spoken_emoji_1F6C0">"Μπάνιο"</string>
+  <!-- Spoken description for Unicode code point U+1F6C1: "🛁" BATHTUB -->
+  <string name="spoken_emoji_1F6C1">"Μπανιέρα"</string>
+  <!-- Spoken description for Unicode code point U+1F6C2: "🛂" PASSPORT CONTROL -->
+  <string name="spoken_emoji_1F6C2">"Έλεγχος διαβατηρίων"</string>
+  <!-- Spoken description for Unicode code point U+1F6C3: "🛃" CUSTOMS -->
+  <string name="spoken_emoji_1F6C3">"Τελωνείο"</string>
+  <!-- Spoken description for Unicode code point U+1F6C4: "🛄" BAGGAGE CLAIM -->
+  <string name="spoken_emoji_1F6C4">"Παραλαβή αποσκευών"</string>
+  <!-- Spoken description for Unicode code point U+1F6C5: "🛅" LEFT LUGGAGE -->
+  <string name="spoken_emoji_1F6C5">"Απολεσθείσες αποσκευές"</string>
+</resources>

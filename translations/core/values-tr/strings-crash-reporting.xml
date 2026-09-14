@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">FUTO Klavye çöktü! Lütfen bunu düzeltmemize yardımcı olacak bir raporu bize e-posta ile gönderin (keyboard@futo.org)</string>
+  <string name="crashed_text">FUTO Klavye çöktü! Lütfen bunu düzeltmemize yardımcı olacak bir rapor gönderin.</string>
+  <string name="crashed_title">Hata Raporlayıcı</string>
+  <string name="crash_report_accept">Rapor Gönder</string>
+  <string name="crash_report_reject">Yoksay</string>
+</resources>

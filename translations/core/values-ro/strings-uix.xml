@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Schimbă tema</string>
+  <string name="action_select_all_title">Selectează tot</string>
+  <string name="action_cut_title">Taie în clipboard</string>
+  <string name="action_copy_title">Copiază în clipboard</string>
+  <string name="action_paste_title">Lipeşte din clipboard</string>
+  <string name="action_undo_title">Anulează</string>
+  <string name="action_redo_title">Refă</string>
+  <string name="action_text_editor_title">Editor text</string>
+  <string name="action_debug_title">Informații debug</string>
+  <string name="action_more_actions_title">Toate acțiunile</string>
+  <string name="action_bug_viewer_title">Vizualizator erori</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Săgeată sus</string>
+  <string name="action_cursor_down_title">Săgeată jos</string>
+  <string name="action_cursor_left_title">Săgeată stânga</string>
+  <string name="action_cursor_right_title">Săgeată dreapta</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emoji</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Recente</string>
+  <string name="action_emoji_category_smileys_emotion">Smiley &amp; Emoție</string>
+  <string name="action_emoji_category_people_body">Persoane &amp; Corp</string>
+  <string name="action_emoji_category_animals_nature">Animale &amp; natură</string>
+  <string name="action_emoji_category_food_drink">Mâncare și băutură</string>
+  <string name="action_emoji_category_travel_places">Călătorii și locații</string>
+  <string name="action_emoji_category_activities">Activități</string>
+  <string name="action_emoji_category_objects">Obiecte</string>
+  <string name="action_emoji_category_symbols">Simboluri</string>
+  <string name="action_emoji_category_flags">Steaguri</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Niciun rezultat</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">Sări la <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Ștergi emoji recente?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Anulează</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Șterge</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Ștergi emoji recente</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Caută</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Intrare vocală</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Intrare vocală (sistem)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">Nu este instalat modelul de intrare vocală pentru <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>, apasă pentru a verifica opțiunile?</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Mergi la Permisiuni și activează permisiunea pentru Microfon ca să poți folosi intrarea vocală</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Manager clipboard</string>
+  <string name="action_clipboard_manager_unpin_item">Dezancorează elementul</string>
+  <string name="action_clipboard_manager_pin_item">Ancorează elementul</string>
+  <string name="action_clipboard_manager_remove_item">Șterge elementul</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Anulează</string>
+  <string name="action_clipboard_manager_disable_text">Nu sunt elemente de șters. Dezactivez istoricul clipboard-ului?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Dezactivează</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Nu există elemente ancorate pentru a fi șterse. Dorești să dezancorezi toate elementele?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Dezancorează</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Șterge toate elementele neancorate?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Șterge</string>
+  <string name="action_clipboard_manager_clear_clipboard">Șterge clipboard</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Dispozitiv blocat</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Te rog deblochează dispozitivul pentru a accesa istoricul clipboard-ului</string>
+  <string name="action_clipboard_manager_error_general_title">Eroare clipboard</string>
+  <string name="action_clipboard_manager_error_general_text">Istoricul clipboard-ului nu a putut fi salvat sau încărcat. S-ar putea să fie corupt. Poți încerca să-l ștergi sau să repornești tastatura. Te rugăm să raportezi acest bug. Motiv: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Șterge clipboard-ul? TOATE elementele vor fi pierdute.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Încearcă din nou</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Inspectează eroarea în Bug Viewer</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Șterge</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Istoric clipboard inactiv</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">Pentru a salva elementele din clipboard, poți activa istoricul clipboard-ului. Acesta va păstra până la <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> elemente timp de <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> zile (elementele ancorate nu sunt incluse). Poți configura această opțiune în setări.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Activează istoric clipboard</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Aplicația nu suportă inserarea de imagini</string>
+  <string name="action_clipboard_manager_settings_title">Setări manager clipboard</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Câte ore se păstrează fragmentele nefixate</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Numărul de fragmente nefixate de păstrat</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Salvează texte sensibile</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Dacă este activat, va salva elemente din manager-ul de parole, ferestre incognito etc.</string>
+  <string name="action_clipboard_manager_settings_list_layout">Folosește listă verticală în loc de grilă</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Păstrează sus fragmentele fixate</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Afișează textul copiat recent în bara de sugestii</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Moduri tastatură</string>
+  <string name="action_keyboard_modes_go_back">Înapoi</string>
+  <string name="action_keyboard_modes_resize_keyboard">Redimensionează tastatura</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standard</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">O mână</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Împărțit</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Flotant</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Resetează</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Aplică</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">WordStyles</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Este posibil ca aplicația să nu accepte inserarea de imagini, iar această funcție să nu funcționeze.</string>
+  <string name="action_fonttyper_select_a_preset">Selectează presetarea</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Scratch</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Supererou</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Text dramatic</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Bomboane</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Curcubeu</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Orizont</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">Crawl-ul de deschidere</string>
+  <string name="action_fonttyper_finish">Finalizează</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Tastă de acțiune</string>
+  <string name="action_kind_pinned_key">Acțiune(i) fixată</string>
+  <string name="action_kind_favorites">Acțiuni preferate</string>
+  <string name="action_kind_more">Mai multe acțiuni</string>
+  <string name="action_kind_disabled">Acțiuni ascunse</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Mod întunecat</string>
+  <string name="theme_default_light">Mod luminos</string>
+  <string name="theme_amoled_dark">AMOLED Violet închis</string>
+  <string name="theme_catppuccin_mocha">Catppuccin Mocha</string>
+  <string name="theme_classic_dark">AOSP Material întunecat</string>
+  <string name="theme_classic_light">AOSP Material luminos</string>
+  <string name="theme_vi">Tema FUTO VI</string>
+  <string name="theme_deepsea_dark">Întunericul din adâncul mării</string>
+  <string name="theme_deepsea_light">Lumina din adâncul mării</string>
+  <string name="theme_emerald">Smarald</string>
+  <string name="theme_gradient1">Gradient 1</string>
+  <string name="theme_gradient2">Gradient 2</string>
+  <string name="theme_rainbow">Curcubeu</string>
+  <string name="theme_snowfall">Ninsoare</string>
+  <string name="theme_steel_gray">Oțel gri</string>
+  <string name="theme_sunflower">Floarea-soarelui</string>
+  <string name="theme_cotton_candy">Vată de zahăr</string>
+  <string name="theme_hotdog">Hot Dog</string>
+  <string name="theme_high_contrast_yellow">Galben cu contrast ridicat</string>
+  <string name="theme_dev">Tema construcției</string>
+  <string name="theme_dynamic_system">Dinamic Auto</string>
+  <string name="theme_dynamic_dark">Dinamic Întunecat</string>
+  <string name="theme_dynamic_light">Dinamic Luminos</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Serviciu de verificare actualizări</string>
+  <string name="autoupdater_update_available_title">Actualizare disponibilă</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">Este disponibilă o actualizare (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Atinge pentru a descărca</string>]]></string>
+  <string name="autoupdater_dismiss_update">Respinge</string>
+  <string name="autoupdater_perform_update">Actualizare</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[<string name=\\\"keyboard_suggest_blacklist_body\\\">Adăugați cuvântul pe lista neagră \\&quot;<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>\\&quot; astfel încât să nu mai fie sugerat?</string>]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Listă neagră</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Dezactivează sugestiile de emoji</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Alfa</string>
+  <string name="keyboard_switch_keyboard">Schimbă tastatura</string>
+  <string name="keyboard_language_settings">Setări</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Atingeți pentru a verifica actualizările sau verificați în setări</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Niciun dicționar instalat, atingeți pentru a descărca?</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Deschide bara de acțiuni</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Închide bara de acțiuni</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Închide</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Înapoi</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Arată tastatura</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Închide</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Colapsează</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Plată</string>
+  <string name="payment_screen_title">Plătește pentru tastatura FUTO</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">Utilizați tastatura FUTO de <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> zile. Dacă considerați că această aplicație este utilă, vă rugăm să luați în considerare achiziționarea ei pentru a sprijini dezvoltarea viitoare a software-ului FUTO.</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Vă mulțumim că ați încercat tastatura FUTO! Dacă considerați că această aplicație este utilă, vă rugăm să luați în considerare achiziționarea ei pentru a sprijini dezvoltarea viitoare a software-ului FUTO.</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO se dedică creării de software de calitate, care nu abuzează de utilizatori. Această aplicație nu vă va afișa niciodată reclame și nu vă va colecta datele personale.</string>
+  <string name="payment_screen_sales_point_development_title">Dezvoltare sustenabilă</string>
+  <string name="payment_screen_sales_point_development_body">Misiunea FUTO este ca software-ul open-source și practicile comerciale non-răufăcătoare să devină o sursă de venit sustenabilă pentru proiecte și dezvoltatorii acestora. Din acest motiv, suntem în favoarea plății efective a software-ului de către utilizatori.</string>
+  <string name="payment_screen_sales_point_privacy_title">Angajament față de confidențialitate</string>
+  <string name="payment_screen_sales_point_privacy_body">Această aplicație nu vă va afișa niciodată reclame și nu vă va vinde datele. Nu ne ocupăm cu astfel de activități.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Plata nu este acceptată pe această versiune</string>
+  <string name="payment_screen_already_paid_title">Deja ați plătit?</string>
+  <string name="payment_screen_already_paid_body">Dacă ați plătit deja pentru FUTO Keyboard sau FUTO Voice Input, atingeți mai jos.</string>
+  <string name="payment_screen_already_paid_button">Am plătit deja</string>
+  <string name="payment_screen_already_paid_confirmation">Confirmați alegerea</string>
+  <string name="payment_screen_already_paid_confirmation_body">Sunteți sigur că doriți să confirmați că ați plătit deja? Odată confirmat, nu vi se va mai solicita să plătiți din nou.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Am plătit deja</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Anulează</string>
+  <string name="payment_screen_set_reminder_title">Nu sunteți încă gata să plătiți?</string>
+  <string name="payment_screen_set_reminder_body">Aceasta va ascunde notificarea de reamintire din ecranul de setări pentru numărul de zile introdus.</string>
+  <string name="payment_screen_set_reminder_setter">Când doriți să vi se reamintească?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">în 7 zile</string>
+  <string name="payment_screen_set_reminder_setter_1_month">într-o lună</string>
+  <string name="payment_screen_set_reminder_setter_6_months">în 6 luni</string>
+  <string name="payment_screen_set_reminder_setter_next_century">secolul următor</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Confirmare reamintire</string>
+  <string name="payment_screen_other_options">Alte Opțiuni</string>
+  <string name="payment_screen_need_help_title">Ajutor</string>
+  <string name="payment_screen_need_help_subtitle">Aveți nevoie de ajutor? Vizitați site-ul nostru web</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Plătiți prin Google Play (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + taxe)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">Plătește (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + taxe)</string>]]></string>
+  <string name="payment_screen_more_options">Alte opțiuni</string>
+  <string name="payment_screen_payment_complete_title">Plată finalizată</string>
+  <string name="payment_screen_aftersales_title">Vă mulțumim</string>
+  <string name="payment_screen_aftersales_title_pending">Plată în așteptare</string>
+  <string name="payment_screen_aftersales_paragraph_1">Vă mulțumim că ați achiziționat tastatura FUTO!</string>
+  <string name="payment_screen_aftersales_paragraph_2">Achiziția ta va susține dezvoltarea continuă a tastaturii FUTO și a altor proiecte FUTO.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Plata este încă în așteptare, dar ar trebui să fie procesată în curând.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Dacă tocmai ați efectuat plata, este posibil ca aceasta să fie încă în curs de procesare, veți primi un e-mail cu mai multe informații.</string>
+  <string name="payment_screen_payment_failed_title">Eroare de plată</string>
+  <string name="payment_screen_payment_failed_body">Din păcate, plata a eșuat din diverse motive. Vă rugăm să ne contactați dacă aveți nevoie de ajutor. Ne puteți contacta la adresa keyboard@futo.org, folosind butonul de mai jos sau opțiunea Trimiteți feedback din secțiunea Ajutor</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Este posibil să fi apărut o problemă cu plata. Dacă a fost efectuată, ar trebui să primiți un e-mail cu o cheie de licență. Vă rugăm să ne contactați dacă aveți nevoie de ajutor. Ne puteți contacta la adresa keyboard@futo.org, folosind butonul de mai jos sau opțiunea Trimiteți feedback din ecranul principal.</string>
+  <string name="payment_screen_license_integrity_error">Nu s-a putut verifica licența. Dacă considerați că este vorba de o eroare, vă rugăm să ne contactați.</string>
+  <string name="payment_screen_continue_button">Continuare</string>
+  <string name="payment_unpaid_version_title">Tastatură FUTO neplătită</string>
+  <string name="payment_unpaid_version_indicator">Neplătit</string>
+  <string name="payment_paid_version_indicator">Vă mulțumim că utilizați versiunea plătită a tastaturii FUTO!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Notificare privind actualizările</string>
+  <string name="manual_update_notice_paragraph_1">Această aplicație nu se conectează la internet și nu va putea verifica actualizările automate. Puteți verifica actualizările manual.</string>
+  <string name="manual_update_notice_paragraph_2">Vă rugăm să utilizați F-Droid sau Obtainium pentru actualizări automate. Vizitați keyboard.futo.org pentru opțiuni de descărcare.</string>
+  <string name="manual_update_notice_dev_paragraph">Vă aflați pe versiunea de dezvoltare a tastaturii FUTO. Vizitați keyboard.futo.org dacă doriți să descărcați versiunea stabilă.</string>
+  <string name="manual_update_notice_visit_site_button">Vizitați</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Am înțeles</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Sfat</string>
+  <string name="settings_unknown_error_title">Eroare necunoscută</string>
+  <string name="settings_unknown_error_subtitle">A apărut o eroare necunoscută.</string>
+  <string name="settings_try_typing_here">Încercați să tastați aici…</string>
+  <string name="settings_external_model_name">Model importat din exterior</string>
+  <string name="settings_check_for_updates_manually">Verificați manual dacă există actualizări</string>
+  <string name="settings_update_available">Actualizare disponibilă</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Limbi și modele</string>
+  <string name="language_settings_add_language_button">Adăugați limba</string>
+  <string name="language_settings_select_language">Selectați limba pe care doriți să o adăugați</string>
+  <string name="language_settings_search">Căutați</string>
+</resources>

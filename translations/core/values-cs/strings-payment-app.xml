@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Platba za Klávesnici FUTO</string>
+  <string name="payment_app_main_menu_title">Zaplatili jste za Klávesnici FUTO</string>
+  <string name="payment_app_main_menu_line_1">Děkujeme za zaplacení!</string>
+  <string name="payment_app_main_menu_line_2">Váš nákup pomůže dalšímu vývoji klávesnice FUTO a ostatních projektů FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Tato aplikace slouží pouze pro možnost platby za Klávesnici FUTO skrze platební systém společnosti Google. Tuto aplikaci nemusíte nechávat nainstalovanou. Pro skrytí poznámky o platbě v Klávesnici FUTO klepněte na „Již jsem zaplatil/a“ nebo na tlačítko níže.</string>
+  <string name="payment_app_activate_keyboard_button">Nastavit Klávesnici FUTO jako zaplacenou</string>
+  <string name="payment_app_more_options_download_keyboard">Stáhněte si Klávesnici FUTO z Obchodu Play</string>
+  <string name="payment_app_more_options_visit_website">Navštivte web Klávesnice FUTO</string>
+  <string name="payment_app_more_options_email_support">E-mailová podpora</string>
+</resources>

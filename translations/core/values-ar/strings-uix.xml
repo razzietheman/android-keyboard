@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">غيّر المظهر</string>
+  <string name="action_select_all_title">اختر الكل</string>
+  <string name="action_cut_title">قص إلى الحافظة</string>
+  <string name="action_copy_title">انسخ إلى الحافظة</string>
+  <string name="action_paste_title">لصق من الحافظة</string>
+  <string name="action_undo_title">تراجع</string>
+  <string name="action_redo_title">إعادة</string>
+  <string name="action_text_editor_title">محرر النصوص</string>
+  <string name="action_debug_title">معلومات الأخطاء</string>
+  <string name="action_more_actions_title">كل الإجراءات</string>
+  <string name="action_bug_viewer_title">مستعرض الأخطاء</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">السهم لأعلى</string>
+  <string name="action_cursor_down_title">السهم لأسفل</string>
+  <string name="action_cursor_left_title">السهم لليسار</string>
+  <string name="action_cursor_right_title">السهم لليمين</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">الرموز التعبيرية</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">الأخير</string>
+  <string name="action_emoji_category_smileys_emotion">الرموز التعبيرية والوجوه</string>
+  <string name="action_emoji_category_people_body">الأشخاص والجسم</string>
+  <string name="action_emoji_category_animals_nature">حيوانات وطبيعة</string>
+  <string name="action_emoji_category_food_drink">أغذية ومشروبات</string>
+  <string name="action_emoji_category_travel_places">سفر وأماكن</string>
+  <string name="action_emoji_category_activities">الأنشطة</string>
+  <string name="action_emoji_category_objects">كائنات</string>
+  <string name="action_emoji_category_symbols">رموز</string>
+  <string name="action_emoji_category_flags">أعلام</string>
+  <string name="action_emoji_category_ascii">رموز ASCII</string>
+  <string name="action_emoji_search_no_results_found">لا نتائج</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">انتقل إلى <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">مسح الرموز التعبيرية الأخيرة؟</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">إلغاء</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">مسح</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">مسح الرموز التعبيرية الأخيرة</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">بحث</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">الإدخال الصوتي</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">الإدخال الصوتي (النظام)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">لا يوجد نموذج إدخال صوتي مثبت للغة <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>، اضغط للتحقق من الخيارات؟</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">يرجى الانتقال إلى الأذونات وتفعيل إذن الميكروفون لاستخدام الصوتي</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">مدير الحافظة</string>
+  <string name="action_clipboard_manager_unpin_item">إلغاء تثبيت العنصر</string>
+  <string name="action_clipboard_manager_pin_item">تثبيت العنصر</string>
+  <string name="action_clipboard_manager_remove_item">حذف العنصر</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">تأكيد الحذف:\n%s</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog_image">تأكيد إزالة الصورة</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">إلغاء</string>
+  <string name="action_clipboard_manager_disable_text">لا عناصر للمسح. هل تريد إيقاف سجل الحافظة؟</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">تعطيل</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">لا عناصر مثبتة. هل تريد إزالة تثبيت الكل؟</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">إلغاء التثبيت</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">محو جميع العناصر الغير مثبتة؟</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">محو</string>
+  <string name="action_clipboard_manager_clear_clipboard">محو الحافظة</string>
+  <string name="action_clipboard_manager_search">بحث في الحافظة…</string>
+  <string name="action_clipboard_manager_enter_your_search">أدخل مصطلح البحث…</string>
+  <string name="action_clipboard_manager_no_clips_found">لم يتم العثور على نتائج</string>
+  <string name="action_clipboard_manager_error_device_locked_title">الجهاز مغلق</string>
+  <string name="action_clipboard_manager_error_device_locked_text">يرجى فتح قفل جهازك للوصول إلى سجل الحافظة</string>
+  <string name="action_clipboard_manager_error_general_title">خطأ في الحافظة</string>
+  <string name="action_clipboard_manager_error_general_text">تعذر حفظ أو تحميل سجل الحافظة. قد يكون تالفًا. يمكنك محاولة حذفه أو إعادة تشغيل لوحة المفاتيح. يُرجى الإبلاغ عن هذه المشكلة كخطأ برمجي. السبب: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">حذف الحافظة؟ ستفقد جميع العناصر.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">إعادة المحاولة</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">افحص الخطأ في عارض الأخطاء</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">حذف</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">سجل الحافظة غير نشط</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2">لحفظ عناصر الحافظة، يمكنك تمكين سجل الحافظة. سيحتفظ هذا الخيار بما يصل إلى <xliff:g id="numItems" example="25">%1$s</xliff:g> عنصرًا لمدة <xliff:g id="numDays" example="3">%2$s</xliff:g> يومًا (العناصر المثبتة مستثناة). يمكنك ضبط هذا الخيار في الإعدادات.</string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">تمكين سجل الحافظة</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">هذا التطبيق لا يدعم لصق الصور</string>
+  <string name="action_clipboard_manager_settings_title">إعدادات مدير الحافظة</string>
+  <string name="action_clipboard_manager_settings_save_images">حفظ الصور المنسوخة</string>
+  <string name="action_clipboard_manager_settings_save_screenshots">حفظ صور لقطات الشاشة</string>
+  <string name="action_clipboard_manager_settings_save_screenshots_subtitle">ستحتاج إلى منح الإذن للوصول إلى لقطات الشاشة الخاصة بك</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">الساعات التي يتم فيها الاحتفاظ بالعناصر غير المثبتة</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">عدد العناصر غير المثبتة التي يجب الاحتفاظ بها</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">حفظ العناصر المهمة</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">في حال تمكين هذا الخيار، سيتم حفظ العناصر من برامج إدارة كلمات المرور، ونوافذ التصفح المتخفي، وما إلى ذلك</string>
+  <string name="action_clipboard_manager_settings_list_layout">استخدم تخطيط القائمة الرأسية بدلًا من تخطيط الشبكة</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">أبقِ العناصر المثبتة في الأعلى</string>
+  <string name="action_clipboard_manager_settings_skip_delete_confirmation">تخطَّ التأكيد عند حذف العناصر غير المثبتة</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">عرض النص المنسوخ مؤخرًا في شريط الاقتراحات</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">انماط لوحة المفاتيح</string>
+  <string name="action_keyboard_modes_go_back">الرجوع</string>
+  <string name="action_keyboard_modes_resize_keyboard">تغيير حجم لوحة المفاتيح</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">الأساسي</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">بيد واحدة</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">مقسم</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">عائم</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">إعادة تعيين</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">تطبيق</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">أنماط الكلمات</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">هذا التطبيق قد لا يدعم لصق الصور، هذه الوظيفة قد لا تعمل.</string>
+  <string name="action_fonttyper_select_a_preset">اختر الإعداد المسبق</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">خربشة</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">بطل خارق</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">نص بالـ3D</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">حلوى</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">ألوان الطيف</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">الأفق</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">المقدمة النصية</string>
+  <string name="action_fonttyper_finish">انهاء</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">مفتاح الإجراء</string>
+  <string name="action_kind_pinned_key">الإجراءات المثبتة</string>
+  <string name="action_kind_favorites">الإجراءات المفضلة</string>
+  <string name="action_kind_more">المزيد من الإجراءات</string>
+  <string name="action_kind_disabled">الإجراءات المخفية</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">الوضع الداكن</string>
+  <string name="theme_default_light">الوضع الفاتح</string>
+  <string name="theme_amoled_dark">بنفسجي داكن AMOLED</string>
+  <string name="theme_catppuccin_mocha">Catppuccin Mocha</string>
+  <string name="theme_classic_dark">AOSP Material داكن</string>
+  <string name="theme_classic_light">AOSP Material فاتح</string>
+  <string name="theme_vi">ثيم FUTO VI</string>
+  <string name="theme_deepsea_dark">المحيط الداكن</string>
+  <string name="theme_deepsea_light">المحيط الفاتح</string>
+  <string name="theme_emerald">زمرد</string>
+  <string name="theme_gradient1">التدرج اللوني 1</string>
+  <string name="theme_gradient2">التدرج اللوني 2</string>
+  <string name="theme_rainbow">ألوان الطيف</string>
+  <string name="theme_snowfall">الثلج</string>
+  <string name="theme_steel_gray">رمادي فولاذي</string>
+  <string name="theme_sunflower">دوّار الشمس</string>
+  <string name="theme_cotton_candy">حلوى القطن</string>
+  <string name="theme_hotdog">هوت دوغ</string>
+  <string name="theme_high_contrast_yellow">الاصفر عالي التباين</string>
+  <string name="theme_dev">ثيم البناء</string>
+  <string name="theme_dynamic_system">الإفتراضي Auto</string>
+  <string name="theme_dynamic_dark">الإفتراضي داكن</string>
+  <string name="theme_dynamic_light">الإفتراضي فاتح</string>
+  <string name="theme_custom_named">مخصص: %s</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">خدمة التحقق من التحديثات</string>
+  <string name="autoupdater_update_available_title">يتوفر تحديث</string>
+  <string name="autoupdater_update_available_body">يتوفر تحديث (<xliff:g name="versionDiff" example="v1 -&gt; v2">%s</xliff:g>). انقر للتنزيل</string>
+  <string name="autoupdater_dismiss_update">رفض</string>
+  <string name="autoupdater_perform_update">تحديث</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body">هل تريد حظر كلمة \"<xliff:g name="wordToBlacklist" example="crane">%s</xliff:g>\" من الظهور في الاقتراحات؟</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">القائمة السوداء</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">تعطيل اقتراحات الرموز التعبيرية</string>
+  <string name="keyboard_switch_keyboard">تبديل لوحة المفاتيح</string>
+  <string name="keyboard_language_settings">الإعدادات</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">انقر هنا للتحقق من التحديثات، او تحقق بنفسك من الإعدادات</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">لا يوجد قاموس مثبت، انقر للتنزيل؟</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">فتح شريط الإجراءات</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">إغلاق شريط الإجراءات</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">إغلاق</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">رجوع</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">عرض لوحة المفاتيح</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">إغلاق</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">طي</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">الدفع</string>
+  <string name="payment_screen_title">ادفع للوحة مفاتيح FUTO</string>
+  <string name="payment_screen_sales_paragraph_1">لقد استخدمتَ لوحة مفاتيح FUTO لمدة <xliff:g name="days" example="30">%d</xliff:g> يومًا. إذا وجدتَ هذا التطبيق مفيدًا، فيُرجى التفكير في الدفع لدعم تطوير برامج FUTO مستقبلًا.</string>
+  <string name="payment_screen_sales_paragraph_1_alt">نشكرك على تجربة لوحة مفاتيح FUTO! إذا وجدت هذا التطبيق مفيدًا، يُرجى التفكير في الدفع لدعم التطوير المستقبلي لبرامج FUTO.</string>
+  <string name="payment_screen_sales_paragraph_2">تلتزم FUTO بتطوير برامج جيدة لا تسيء استخدامك. لن يعرض لك هذا التطبيق إعلانات ولن يجمع بياناتك الشخصية.</string>
+  <string name="payment_screen_sales_point_development_title">التنمية المستدامة</string>
+  <string name="payment_screen_sales_point_development_body">تتمثل مهمة FUTO في جعل البرمجيات مفتوحة المصدر وممارسات الأعمال البرمجية غير الضارة مصدر دخل مستدام للمشاريع ومطوريها. ولهذا السبب، نؤيد أن يدفع المستخدمون مقابل البرمجيات.</string>
+  <string name="payment_screen_sales_point_privacy_title">الالتزام بالخصوصية</string>
+  <string name="payment_screen_sales_point_privacy_body">لن يعرض لك هذا التطبيق إعلانات ولن يبيع بياناتك. لسنا بصدد القيام بذلك.</string>
+  <string name="payment_screen_error_build_unsupported_payment">الدفع غير مدعوم في هذا الإصدار</string>
+  <string name="payment_screen_already_paid_title">هل تم الدفع مسبقًا؟</string>
+  <string name="payment_screen_already_paid_body">إذا كنت قد دفعت بالفعل مقابل لوحة مفاتيح FUTO أو إدخال الصوت FUTO، فانقر أدناه.</string>
+  <string name="payment_screen_already_paid_button">لقد دفعت بالفعل</string>
+  <string name="payment_screen_already_paid_confirmation">أكد اختيارك</string>
+  <string name="payment_screen_already_paid_confirmation_body">هل أنت متأكد من رغبتك في تأكيد أنك قد دفعت بالفعل؟ بمجرد التأكيد، لن يُطلب منك الدفع مرة أخرى.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">لقد دفعت بالفعل</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">إلغاء</string>
+  <string name="payment_screen_set_reminder_title">لست مستعدًا للدفع بعد؟</string>
+  <string name="payment_screen_set_reminder_body">سيؤدي هذا إلى إخفاء التذكير في شاشة الإعدادات لفترة الأيام المدخلة.</string>
+  <string name="payment_screen_set_reminder_setter">متى ترغب في أن يتم تذكيرك؟</string>
+  <string name="payment_screen_set_reminder_setter_7_days">في غضون 7 أيام</string>
+  <string name="payment_screen_set_reminder_setter_1_month">في غضون 1 شهر</string>
+  <string name="payment_screen_set_reminder_setter_6_months">في غضون 6 أشهر</string>
+  <string name="payment_screen_set_reminder_setter_next_century">القرن القادم</string>
+  <string name="payment_screen_set_reminder_setter_confirm">تأكيد التذكير</string>
+  <string name="payment_screen_other_options">خيارات أخرى</string>
+  <string name="payment_screen_need_help_title">مساعدة</string>
+  <string name="payment_screen_need_help_subtitle">تحتاج إلى مساعدة؟ تفضل بزيارة موقعنا الإلكتروني</string>
+  <string name="payment_screen_pay_via_google">ادفع عبر Google Play (<xliff:g name="price" example="~$2.99">%s</xliff:g> + الضريبة)</string>
+  <string name="payment_screen_pay_via_futopay">ادفع (<xliff:g name="price" example="~$2.99">%s</xliff:g> + الضريبة)</string>
+  <string name="payment_screen_pay_via_futopay2">ادفع عبر FUTO Pay (<xliff:g name="price" example="~$2.99">%s</xliff:g> + الضريبة)</string>
+  <string name="payment_screen_more_options">خيارات إضافية</string>
+  <string name="payment_screen_payment_complete_title">تم إتمام الدفع</string>
+  <string name="payment_screen_aftersales_title">شكرًا لك</string>
+  <string name="payment_screen_aftersales_title_pending">الدفع معلق</string>
+  <string name="payment_screen_aftersales_paragraph_1">شكرًا لشرائك لوحة مفاتيح FUTO!</string>
+  <string name="payment_screen_aftersales_paragraph_2">سيساعد شراؤك في استمرار تطوير لوحة مفاتيح FUTO، ومشاريع FUTO الأخرى.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">لا يزال دفعك معلقًا، ولكن من المتوقع أن يتم إتمامه قريبًا.</string>
+  <string name="payment_screen_aftersales_paragraph_3">إذا قمت بالدفع للتو، فقد لا تزال عملية الدفع قيد المعالجة، وستتلقى بريدًا إلكترونيًا يحتوي على مزيد من المعلومات.</string>
+  <string name="payment_screen_payment_failed_title">خطأ في الدفع</string>
+  <string name="payment_screen_payment_failed_body">للأسف، فشلت عملية الدفع لسببٍ ما. يُرجى التواصل معنا إذا كنت بحاجة إلى مساعدة. يمكنك التواصل معنا عبر البريد الإلكتروني keyboard@futo.org، أو من خلال الزر أدناه، أو عبر إرسال ملاحظات في قسم المساعدة</string>
+  <string name="payment_screen_payment_failed_body_unconfident">قد يكون هناك مشكلة في عملية الدفع. إذا تمت العملية بنجاح، فستتلقى رسالة بريد إلكتروني تحتوي على مفتاح الترخيص. يُرجى التواصل معنا إذا احتجت إلى أي مساعدة. يمكنك التواصل معنا عبر البريد الإلكتروني keyboard@futo.org أو من خلال الزر أدناه، أو عبر خيار مشاركة الملاحظات في الشاشة الرئيسية.</string>
+  <string name="payment_screen_license_integrity_error">تعذر التحقق من الترخيص. إذا كنت تعتقد أن هذا خطأ، فيرجى الاتصال بنا.</string>
+  <string name="payment_screen_continue_button">متابعة</string>
+  <string name="payment_unpaid_version_title">لوحة مفاتيح FUTO غير مدفوعة</string>
+  <string name="payment_unpaid_version_indicator">غير مدفوعة</string>
+  <string name="payment_paid_version_indicator">شكرًا لاستخدامك النسخة المدفوعة من لوحة مفاتيح FUTO!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">إشعار التحديثات</string>
+  <string name="manual_update_notice_paragraph_1">هذا التطبيق لا يتصل بالإنترنت ولن يتمكن من التحقق من التحديثات التلقائية. يمكنك التحقق من التحديثات يدويًا.</string>
+  <string name="manual_update_notice_paragraph_2">يرجى استخدام F-Droid أو Obtainium للتحديثات التلقائية. تفضل بزيارة keyboard.futo.org للاطلاع على خيارات التنزيل.</string>
+  <string name="manual_update_notice_dev_paragraph">أنت تستخدم نسخة تجريبية من لوحة مفاتيح FUTO. تفضل بزيارة keyboard.futo.org إذا كنت ترغب في تنزيل النسخة المستقرة.</string>
+  <string name="manual_update_notice_visit_site_button">زيارة</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">تجاهل</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">نصيحة</string>
+  <string name="settings_unknown_error_title">خطأ غير معروف</string>
+  <string name="settings_unknown_error_subtitle">حدث خطأ غير معروف.</string>
+  <string name="settings_try_typing_here">جرِّب الكتابة هنا…</string>
+  <string name="settings_external_model_name">نموذج مستورد خارجيًا</string>
+  <string name="settings_check_for_updates_manually">تحقق من توفر تحديثات يدويًا</string>
+  <string name="settings_update_available">تحديث متوفر</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">الصفحة الرئيسية</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">هذا الخيار معطل لأنه يعتمد على خيار آخر، انقر لزيارة القائمة: %1$s</string>
+  <string name="settings_search_menu_title">بحث</string>
+  <string name="settings_search_enter_your_search">أدخل مصطلح البحث…</string>
+  <string name="settings_search_no_options_found">لم يتم العثور على نتائج</string>
+  <string name="misc_settings_title">متنوعة</string>
+  <string name="setting_section_expanded">موسع</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">اللغات والنماذج</string>
+  <string name="language_settings_add_language_button">إضافة لغة</string>
+  <string name="language_settings_select_language">اختر اللغة المراد إضافتها</string>
+  <string name="language_settings_search">بحث</string>
+  <string name="language_settings_select_layout">اختر تخطيطًا لإضافته</string>
+  <string name="language_settings_warning_language_has_no_dict">لا تحتوي هذه اللغة على قاموس مدمج. ننصح بتنزيل قاموس واستيراده للحصول على التصحيح التلقائي واقتراحات الكلمات.</string>
+  <string name="language_settings_resource_none">(بدون)</string>
+  <string name="language_settings_layouts_of_this_language">تخطيطات لوحة المفاتيح</string>
+  <string name="language_settings_add_layout_for_this_language">إضافة تخطيط لوحة المفاتيح</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">الكتابة متعددة اللغات</string>
+  <string name="language_settings_remove_this_language">إزالة اللغة</string>
+  <string name="language_settings_manage_languages_title">إدارة اللغات والتخطيطات</string>
+  <string name="language_settings_manage_languages_subtitle">يمكنك عرض اللغات التي قمت بتفعيلها، أو إزالة اللغات، أو تغيير أو إضافة تخطيطات إضافية، أو تبديل الكتابة متعددة اللغات</string>
+  <string name="language_settings_resource_imported_indicator">(مستورد)</string>
+  <string name="language_settings_resource_unsupported_indicator">(غير مدعوم)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">القاموس المدمج</string>
+  <string name="language_settings_resource_voice_input_selected">هل ترغب في إعادة نموذج إدخال الصوت إلى الوضع الافتراضي، أم استبداله بملف آخر؟</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">لا يوجد نموذج إدخال صوتي مدمج لهذه اللغة، لذا إذا قمت بإزالته، فسيتوقف الإدخال الصوتي عن العمل لهذه اللغة حتى تقوم باستيراد نموذج مختلف!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">لم تقم بتكوين نموذج إدخال صوتي مخصص لهذه اللغة. يمكنك البحث عن التنزيلات عبر الإنترنت، أو استيراد نموذج من ملف.</string>
+  <string name="language_settings_resource_transformer_selected">هل ترغب في إعادة نموذج المحول إلى الوضع الافتراضي، أم استبداله بملف آخر؟</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">لا يوجد نموذج محول مدمج لهذه اللغة، لذلك إذا قمت بإزالته، فستتوقف التنبؤات القائمة على المحول عن العمل لهذه اللغة حتى تقوم باستيراد نموذج مختلف!</string>
+  <string name="language_settings_resource_transformer_selected_unset">لم تقم بتكوين نموذج محول مخصص لهذه اللغة. يمكنك البحث عن التنزيلات عبر الإنترنت، أو استيراد واحد من ملف.</string>
+  <string name="language_settings_resource_dictionary_selected">هل ترغب في إعادة القاموس إلى الوضع الافتراضي، أم استبداله بملف آخر؟</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">لا يوجد قاموس مدمج لهذه اللغة، لذا إذا قمت بإزالته، فسيتوقف التصحيح التلقائي والتنبؤات عن العمل لهذه اللغة حتى تقوم باستيراد قاموس مختلف!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">لم تقم بإعداد قاموس مخصص لهذه اللغة. يمكنك البحث عن التنزيلات عبر الإنترنت، أو استيراد قاموس من ملف.</string>
+  <string name="language_settings_resource_replace_button">استبدال</string>
+  <string name="language_settings_resource_import_file_button">استيراد</string>
+  <string name="language_settings_resource_revert_to_default_button">العودة إلى الوضع الافتراضي</string>
+  <string name="language_settings_resource_remove_button">إزالة</string>
+  <string name="language_settings_resource_explore_online_button">استكشف</string>
+  <string name="language_settings_remove_language_title">حذف %1$s؟</string>
+  <string name="language_settings_remove_language_body">هل تريد إزالة %1$s وجميع التخطيطات والموارد المخصصة المرتبطة بها؟</string>
+  <string name="language_settings_remove_language_remove_button">إزالة</string>
+  <string name="language_settings_remove_language_cancel_button">إلغاء</string>
+  <string name="language_settings_other_options">خيارات أخرى</string>
+  <string name="language_settings_import_resource_from_file">استيراد ملف الموارد</string>
+  <string name="language_settings_explore_voice_input_models_online">استكشف نماذج الإدخال الصوتي</string>
+  <string name="language_settings_explore_dictionaries_online">استكشف القواميس</string>
+  <string name="language_settings_explore_transformers_online">استكشف نماذج المحولات</string>
+  <string name="language_settings_import_dictionary_or_model">استيراد قاموس أو نموذج</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">نموذج إدخال الصوت</string>
+  <string name="file_kind_transformer_model">نموذج المحول</string>
+  <string name="file_kind_dictionary">قاموس</string>
+  <string name="file_kind_invalid_file">ملف غير صالح</string>
+  <string name="file_kind_cfg_backup">النسخ الاحتياطي للتكوين</string>
+  <string name="resource_importer_import_title">استيراد - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">خطأ: يبدو أن هذا الملف عبارة عن قائمة كلمات مصدرية (_wordlist.combined) بدلًا من ملف قاموس مُجمّع (.dict).</string>
+  <string name="resource_importer_error_wordlist_2">يرجى تنزيل ملف القاموس المُجمّع، وليس قائمة الكلمات. إذا كنت قد أنشأت قائمة الكلمات هذه بنفسك، فقم بتجميعها خارجيًا باستخدام أداة القاموس dicttool.</string>
+  <string name="resource_importer_error_invalid_fiile">خطأ: تعذر التعرف على هذا الملف. قد يكون تالفًا أو غير صالح. حاول إعادة تنزيله، أو جرب ملفًا آخر.</string>
+  <string name="resource_importer_cancel_button">إلغاء</string>
+  <string name="resource_importer_import_button">استيراد</string>
+  <string name="resource_importer_file_info">معلومات الملف: %1$s</string>
+  <string name="resource_importer_importing">جارٍ استيراد اللغة: %1$s</string>
+  <string name="resource_importer_importing_cfg">جارٍ استيراد الإعدادات... يرجى عدم إغلاق هذه القائمة حتى تكتمل العملية (من 5 إلى 10 ثوانٍ)</string>
+  <string name="resource_importer_select_language">حدد اللغة المراد استيرادها لـ:</string>
+  <string name="resource_importer_warning_language_missing">يبدو أن هذا الملف مخصص للغة (%1$s) غير مفعلة في الإعدادات</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">هل أنت متأكد من رغبتك في استيراد نسخة احتياطية من إعداداتك؟ سيؤدي ذلك إلى استبدال جميع إعداداتك، وقاموسك الشخصي (على مستوى النظام)، وكلمات القاموس التي تعلمتها، وأي موارد مستوردة، وغير ذلك. إذا كنت غير متأكد، فقم بعمل نسخة احتياطية أخرى قبل ذلك.</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">تم إنشاء نسخة احتياطية من هذا التكوين بواسطة إصدار أحدث من لوحة مفاتيح FUTO، وقد لا يتم استيرادها بشكل صحيح. حاول تحديث لوحة مفاتيح FUTO أولاً.</string>
+  <string name="settings_export_configuration_title">نسخ احتياطي للإعدادات</string>
+  <string name="settings_export_configuration">تصدير الإعدادات</string>
+  <string name="settings_export_configuration_subtitle">قم بعمل نسخة احتياطية من جميع إعداداتك، وحافظتك، والكلمات التي تعلمتها، ومواردك، وغير ذلك.</string>
+  <string name="settings_export_configuration_exporting">جارٍ تصدير الإعدادات…</string>
+  <string name="settings_export_configuration_exporting_text">يرجى عدم إغلاق هذه القائمة حتى تكتمل العملية (من 5 إلى 10 ثوانٍ)</string>
+  <string name="settings_import_configuration">استيراد الإعدادات</string>
+  <string name="settings_import_configuration_subtitle">إذا كنت قد قمت بتصدير إعداداتك مسبقًا، فيمكنك إعادة استيرادها هنا.</string>
+  <string name="settings_import_export_tags">النسخ الاحتياطي، الاستعادة، الحفظ، التحميل، التصدير، الاستيراد، نقل الجهاز</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">تعديل الإجراءات</string>
+  <string name="action_editor_subtitle">قم بتعديل الإجراءات المفضلة، والإجراءات المثبتة، ومفتاح الإجراء المجاور لمفتاح المسافة</string>
+  <string name="action_editor_edit_actions">تعديل الإجراءات</string>
+  <string name="action_editor_warning_no_actions">لا توجد إجراءات مفعلة</string>
+  <string name="action_editor_error_more_than_one_action_key">يرجى تعيين مفتاح إجراء واحد فقط. لا يمكنك تعيين أكثر من إجراء واحد لمفتاح الإجراء.</string>
+  <string name="action_editor_warning_too_many_pinned">يرجى التفكير في تثبيت عدد أقل من الإجراءات. سيتطلب الأمر تقليص شريط الاقتراحات لاستيعاب هذا العدد الكبير من الإجراءات.</string>
+  <string name="action_editor_add_next_action">إضافة التالي</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">الإجراءات</string>
+  <string name="action_settings_quick_options_title">خيارات سريعة</string>
+  <string name="action_settings_quick_option_enable_action_key">تمكين مفتاح الإجراء</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">عرض مفتاحًا على يسار مفتاح المسافة للوصول السريع إلى إجراء معين. سيؤدي تفعيل هذا الخيار إلى وضع مفتاح رمز تعبيري، ولكن يمكنك تخصيصه من خلال \"تعديل الإجراءات\"</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">عرض مفتاحًا على يسار مفتاح المسافة للوصول السريع إلى إجراء. سيؤدي تعطيل هذا الخيار إلى نقل الإجراء المُعيّن حاليًا: %s</string>
+  <string name="action_settings_quick_option_language_switch_key">مفتاح تبديل اللغة</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">استبدال مفتاح الرموز التعبيرية بمفتاح تبديل اللغة. انتقل إلى \"تعديل الإجراءات\" لإضافة شيء آخر.</string>
+  <string name="action_settings_action_settings">إعدادات الإجراء</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">تغيير حجم لوحة المفاتيح</string>
+  <string name="size_settings_subtitle2">غيّر حجم لوحة المفاتيح، واجعلها قابلة للاستخدام بيد واحدة، أو عائمة، أو مقسمة</string>
+  <string name="size_settings_resize_tip">انقر على زر \"تغيير حجم لوحة المفاتيح\" لتغيير الحجم.</string>
+  <string name="size_settings_keyboard_modes_tip">يمكنك الوصول إلى هذا من أي مكان باستخدام إجراء أوضاع لوحة المفاتيح:</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">يتم حفظ الحجم والوضع بشكل منفصل لكل من الوضع الرأسي والأفقي.</string>
+  <string name="size_settings_reset">إعادة ضبط إعدادات الحجم</string>
+  <string name="size_settings_reset_subtitle">انقر لإعادة ضبط جميع الأحجام والأوضاع لكل من الوضع الرأسي والأفقي إلى الوضع الافتراضي</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">الضغط المطول على المفاتيح ومفتاح المسافة</string>
+  <string name="morekey_settings_subtitle">قم بضبط مدة الضغط المطول، وكيفية ترتيب الأحرف/الرموز، وسلوك مفتاح المسافة ومفتاح الحذف.</string>
+  <string name="morekey_settings_layout">تخطيط مفاتيح الضغط المطول</string>
+  <string name="morekey_settings_reset">إعادة الضبط إلى الوضع الافتراضي</string>
+  <string name="morekey_settings_move_kind_up">تحريك للأعلى</string>
+  <string name="morekey_settings_move_kind_down">تحريك للأسفل</string>
+  <string name="morekey_settings_move_kind_up_to_top">تحريك إلى الأعلى</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">التحريك إلى الأسفل</string>
+  <string name="morekey_settings_kind_position">الموقع %1$s من %2$s</string>
+  <string name="morekey_settings_active">نشط</string>
+  <string name="morekey_settings_inactive">غير نشط</string>
+  <string name="morekey_settings_reactivate">إعادة التنشيط</string>
+  <string name="morekey_settings_disable">إلغاء التنشيط</string>
+  <string name="morekey_settings_keys">مفاتيح الضغط المطوّل</string>
+  <string name="morekey_settings_show_hints">عرض التلميحات</string>
+  <string name="morekey_settings_show_hints_subtitle">عرض تلميحًا صغيرًا على كل مفتاح، يوضح مفتاح الضغط المطول الأساسي</string>
+  <string name="morekey_settings_show_hints_tags">أحرف إضافية، مفاتيح بديلة، رموز، المفاتيح المنبثقة</string>
+  <string name="morekey_settings_duration">مدة الضغط المطول</string>
+  <string name="morekey_settings_duration_subtitle">ما هي المدة اللازمة للضغط على المفتاح حتى يُعتبر ضغطًا مطولًا</string>
+  <string name="morekey_settings_backspace_title">مفتاح الحذف</string>
+  <string name="morekey_settings_backspace_hold_delete_words">اضغط مطولاً لحذف الكلمات</string>
+  <string name="morekey_settings_backspace_swipe_to_delete">مرر للحذف</string>
+  <string name="morekey_settings_backspace_swipe_to_delete_off">إيقاف</string>
+  <string name="morekey_settings_backspace_swipe_to_delete_characters">أحرف</string>
+  <string name="morekey_settings_backspace_swipe_to_delete_words">كلمات</string>
+  <string name="morekey_settings_spacebar_title">مفتاح المسافة</string>
+  <string name="morekey_settings_spacebar_swipe_shortcut">تمرير</string>
+  <string name="morekey_settings_spacebar_swipe_shortcut_off">إيقاف</string>
+  <string name="morekey_settings_spacebar_swipe_shortcut_cursor">تحريك المؤشر</string>
+  <string name="morekey_settings_spacebar_swipe_shortcut_language">تبديل اللغة</string>
+  <string name="morekey_settings_spacebar_hold_shortcut">الضغط المطول</string>
+  <string name="morekey_settings_spacebar_hold_shortcut_cursor">تحريك المؤشر</string>
+  <string name="morekey_settings_spacebar_hold_shortcut_language">تبديل اللغة</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">الأرقام</string>
+  <string name="morekey_settings_kind_numbers_example">مثال: [1] على [q]</string>
+  <string name="morekey_settings_kind_language_keys">مفاتيح اللغة</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">مثال: [ñ] على [n] في الإسبانية</string>
+  <string name="morekey_settings_kind_symbols">الرموز</string>
+  <string name="morekey_settings_kind_symbols_example">مثال: [@] على [a]</string>
+  <string name="morekey_settings_kind_actions">الإجراءات السريعة</string>
+  <string name="morekey_settings_kind_actions_example">مثال: [نسخ] على [C]</string>
+  <string name="morekey_settings_kind_misc_common">أحرف متنوعة من اللغات الشائعة</string>
+  <string name="morekey_settings_kind_misc_common_example">مثال: [ß] على [s] في كل اللغات بالأحرف اللاتينية</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">تفضيلات الكتابة</string>
+  <string name="typing_settings_suggest_emojis">اقتراحات الرموز التعبيرية</string>
+  <string name="typing_settings_suggest_emojis_subtitle">اقتراح رموزًا تعبيرية أثناء الكتابة</string>
+  <string name="typing_settings_vibration_strength">اهتزاز</string>
+  <string name="typing_settings_vibration_strength_default">الافتراضي</string>
+  <string name="typing_settings_keypress_sound_volume">مستوى الصوت</string>
+  <string name="typing_settings_keypress_sound_volume_default">الافتراضي</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">قد لا يكون لإعدادات مستوى الصوت أي تأثير على بعض إصدارات نظام أندرويد.</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">لن يتم تشغيل الصوت إذا كان وضع الرنين مضبوطًا على الوضع الصامت أو الاهتزاز.</string>
+  <string name="typing_settings_enable_clipboard_history">سجل الحافظة</string>
+  <string name="typing_settings_enable_clipboard_history_tags">نسخ، لصق</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">حذف النص الملصق/المدرج باستخدام مفتاح الحذف</string>
+  <string name="typing_settings_revert_correction_on_backspace">التراجع عن التصحيح التلقائي باستخدام زر الحذف</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">وضع المسافات التلقائي</string>
+  <string name="typing_settings_auto_space_mode_auto2">مسافة مباشرة بعد الاقتراحات وعلامات الترقيم</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">مسافة مباشرة بعد الاقتراحات</string>
+  <string name="typing_settings_auto_space_mode_legacy2">مسافة متأخرة بعد الاقتراحات (الوضع القديم)</string>
+  <string name="typing_settings_auto_space_mode_none2">تعطيل (غير مستحسن)</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">لوحة المفاتيح</string>
+  <string name="keyboard_settings_show_number_row">عرض صف الأرقام</string>
+  <string name="keyboard_settings_show_number_row_subtitle">عند التمكين، يظهر صف الأرقام أعلى لوحة المفاتيح في التخطيطات المدعومة</string>
+  <string name="keyboard_settings_show_arrow_row">عرض مفاتيح الأسهم</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">عند التمكين، يظهر صف مفاتيح الأسهم في أسفل لوحة المفاتيح</string>
+  <string name="keyboard_settings_extra_layouts">تخطيطات إضافية</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">تكوين تخطيطات إضافية في شاشة اللغات</string>
+  <string name="keyboard_settings_show_suggestion_row">عرض شريط الإجراءات/الاقتراحات</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">عرض شريط الاقتراحات. يُنصح بإبقائه مُفعّلًا</string>
+  <string name="keyboard_settings_inline_autofill">التعبئة التلقائية المضمنة</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">عرض اقتراحات التعبئة التلقائية لمدير كلمات المرور واقتراحات الرد التلقائي (المقدمة من التطبيق) في شريط الاقتراحات</string>
+  <string name="keyboard_settings_period_key">مفتاح النقطة السريع</string>
+  <string name="keyboard_settings_period_key_subtitle2">يستبدل تخطيط مفتاح النقطة المضغوطة مطولاً بتخطيط قابل للتمرير: ! , . ?</string>
+  <string name="keyboard_settings_number_row_title">صف الأرقام</string>
+  <string name="keyboard_settings_number_row_style">نمط صف الأرقام</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">صغير الحجم</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">مفتاح</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">استخدام الأرقام الغربية دائمًا</string>
+  <string name="keyboard_settings_hide_when_hardware_keyboard_is_connected">إخفاء عند اكتشاف لوحة مفاتيح USB</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">لوحة المفاتيح والكتابة</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">المظهر</string>
+  <string name="theme_settings_key_borders">حدود المفاتيح</string>
+  <string name="theme_settings_default_themes">مدمج</string>
+  <string name="theme_settings_seasonal_themes">موسمي</string>
+  <string name="theme_settings_custom_themes">الثيمات الخاصة بك</string>
+  <string name="theme_settings_custom_theme_delete_title">هل تريد حذف الثيم؟</string>
+  <string name="theme_settings_custom_theme_delete_body">الثيم: %s</string>
+  <string name="theme_settings_custom_theme_delete_confirm">حذف</string>
+  <string name="theme_settings_custom_theme_delete_cancel">إلغاء</string>
+  <!-- Theme customizer -->
+  <string name="theme_customizer_select_background_image_button">حدد الصورة</string>
+  <string name="theme_customizer_adjust_background_image_hint">اسحب أو اضغط لضبط الصورة</string>
+  <string name="theme_customizer_transparency_slider_name">الشفافية</string>
+  <string name="theme_customizer_blur_slider_name">التشويش</string>
+  <string name="theme_customizer_color_sliders_name">اللون</string>
+  <string name="theme_customizer_dark_mode_toggle">الوضع الداكن</string>
+  <string name="theme_customizer_light_mode_toggle">الوضع الفاتح</string>
+  <string name="theme_customizer_finish_theme_adjustment">إنهاء</string>
+  <string name="theme_customizer_load_custom_theme_file">التحميل من ملف ZIP</string>
+  <string name="theme_customizer_import_custom_theme_menu_title">استيراد ثيم مخصص</string>
+  <string name="theme_customizer_import_custom_theme_name_text">اسم الثيم: %s</string>
+  <string name="theme_customizer_import_custom_theme_author_text">المؤلف: %s</string>
+  <string name="dev_settings_title">إعدادات المطور</string>
+  <!--
+    Swipe typing settings menu
+
+    When translating, rename it to something like "gesture typing" if it makes more sense for that language
+  -->
+  <string name="swipe_settings_title">الكتابة بالتمرير</string>
+  <string name="swipe_settings_enable_swipe_typing">تمكين الكتابة بالتمرير</string>
+  <string name="swipe_settings_enable_swipe_typing_subtitle">السماح بالتمرير من مفتاح إلى آخر لكتابة الكلمات.</string>
+  <string name="swipe_settings_suggest_mode">وضع شريط الاقتراحات</string>
+  <string name="swipe_settings_suggest_mode_tags">عرض 3 اقتراحات، الكلمة المستخدمة، الكلمة المقبولة، الكلمة الرئيسية، عرض 3 بدائل، الكتابة بالتمرير، الإدراج بالتمرير، swype، الوسط، المنتصف، المركز، كلمات أخرى</string>
+  <string name="swipe_settings_suggest_mode_top4_title">3 بدائل</string>
+  <string name="swipe_settings_suggest_mode_top3_title">2 بدائل</string>
+  <string name="swipe_settings_suggest_mode_used_word">الرئيسية</string>
+  <string name="swipe_settings_suggest_mode_alternative_word_1">بديل 1</string>
+  <string name="swipe_settings_suggest_mode_alternative_word_2">بديل 2</string>
+  <string name="swipe_settings_suggest_mode_alternative_word_3">بديل 3</string>
+  <string name="swipe_settings_miscellaneous_title">أخرى</string>
+  <string name="swipe_settings_configure_shortcuts">اختصارات</string>
+  <string name="swipe_settings_configure_shortcuts_subtitle">تكوين إيماءات مفتاح المسافة ومفتاح الحذف في إعدادات الضغط المطول</string>
+  <string name="swipe_settings_show_unsupported">عرض الإعدادات غير المدعومة...</string>
+  <string name="swipe_settings_use_old_swipe">استخدم خوارزمية التمرير القديمة</string>
+  <string name="swipe_settings_use_old_swipe_subtitle_short">الخوارزمية القديمة غير دقيقة للغاية ولا يُنصح باستخدامها.</string>
+  <string name="swipe_settings_use_old_swipe_subtitle">الخوارزمية القديمة غير دقيقة للغاية ولا يُنصح باستخدامها. إذا كنت مضطرًا لاستخدامها، فيُرجى إخبارنا بالسبب على البريد الإلكتروني keyboard@futo.org. سيتم إزالة هذا الخيار لاحقًا.</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">الإدخال الصوتي</string>
+  <string name="voice_input_settings_builtin_disabled_notice">تم تعطيل خاصية إدخال الصوت المدمجة!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">تعطيل إدخال الصوت المدمج</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">استخدام الإدخال الصوتي الذي يوفره التطبيق الخارجي</string>
+  <string name="voice_input_settings_indication_sounds">أصوات التنبيه</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">تشغيل صوت قصير عند البدء ثم الإلغاء</string>
+  <string name="voice_input_settings_verbose_progress">التقدم المطول</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">عرض معلومات إضافية، مثل الميكروفون المستخدم</string>
+  <string name="voice_input_settings_use_personal_dict">قاموس شخصي للصوت</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">استخدام أو عدم استخدام القاموس الشخصي للإدخال الصوتي</string>
+  <string name="voice_input_settings_use_bluetooth_mic">تفضيل استخدام ميكروفون بلوتوث</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">قد يكون هناك تأخير إضافي في بدء التسجيل حيث يجب التفاوض على اتصال Bluetooth SCO</string>
+  <string name="voice_input_settings_audio_focus">تركيز الصوت</string>
+  <string name="voice_input_settings_audio_focus_subtitle">إيقاف تشغيل الفيديوهات/الموسيقى مؤقتًا عند تمكين الإدخال الصوتي</string>
+  <string name="voice_input_settings_suppress_symbols">إخفاء الرموز</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">منع إدخال الصوت من إخراج الرموز</string>
+  <string name="voice_input_settings_long_form">إدخال صوتي طويل</string>
+  <string name="voice_input_settings_long_form_subtitle">في حالة تعطيل هذه الميزة، سيتوقف إدخال الصوت تلقائيًا بعد 30 ثانية.</string>
+  <string name="voice_input_settings_autostop_vad">الإيقاف التلقائي عند الصمت</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">يتوقف النظام تلقائيًا عند اكتشاف الصمت. قد تحتاج إلى إيقافه يدويًا في حال وجود ضوضاء خلفية عالية.</string>
+  <string name="voice_input_settings_animate_bubble">تأثيرات الحركة</string>
+  <string name="voice_input_settings_animate_bubble_subtitle">عرض فقاعة تتفاعل مع الكلام</string>
+  <string name="voice_input_settings_change_models">النماذج</string>
+  <string name="voice_input_settings_change_models_subtitle">لتغيير النماذج، انتقل إلى قائمة اللغات والنماذج</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">التنبؤ بالنص</string>
+  <string name="prediction_settings_transformer">Transformer LM</string>
+  <string name="prediction_settings_transformer_finetuning">ضبط دقيق للمحول</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">قد يؤدي تمكين هذه الميزة إلى استنزاف بطاريتك! هذه الميزة قيد التطوير</string>
+  <string name="prediction_settings_transformer_models">نماذج المحول</string>
+  <string name="prediction_settings_transformer_alpha_notice">ملاحظة: محول Transformer LM اللغوي لا يزال تجريبي</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">هذه الإعدادات تجريبية وتخص اللغة الإنجليزية فقط، ولا تؤثر على اللغات الأخرى.</string>
+  <string name="prediction_settings_smart_keyhit_detection">الكشف الذكي عن ضغطة المفتاح</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">تستخدم القاموس لتحديد المفاتيح التالية ذات الصلة، وتُكبر مساحة النقر عليها. يُتَجنَّب التكبير بعد الضغط على مفتاح الحذف</string>
+  <string name="prediction_settings_word_blacklist">قائمة الكلمات المحظورة</string>
+  <string name="prediction_settings_word_blacklist_add">أضف إلى القائمة السوداء</string>
+  <string name="prediction_settings_word_blacklist_none">لا توجد كلمات محظورة.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">عرض وتعديل الكلمات المحظورة</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">انقر هنا لعرض قائمة الاقتراحات المحظورة، أو لإضافة/إزالة إدخالات</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">إزالة الكلمة</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">المساعدة والملاحظات</string>
+  <string name="help_menu_version_name">اسم الإصدار: %1$s</string>
+  <string name="help_menu_version_code">رمز الإصدار: %1$s</string>
+  <string name="help_menu_version_tip">نريد أن نسمع منك! إذا كنت تُبلغ عن مشكلة، فقد يكون إصدارك ذا صلة: v%1$s</string>
+  <string name="help_menu_website">موقع FUTO</string>
+  <string name="help_menu_website_subtitle">تعرف على المزيد عنا وعن فلسفتنا</string>
+  <string name="help_menu_website_tags">التنزيل، التطبيقات، الإدخال الصوتي</string>
+  <string name="help_menu_documentation">الوثائق</string>
+  <string name="help_menu_documentation_subtitle">تعرف على المزيد حول ميزات وإمكانيات لوحة المفاتيح</string>
+  <string name="help_menu_discord">Discord Server</string>
+  <string name="help_menu_discord_subtitle">هل ترغب بالتحدث ولكنك لا تفضل Zulip؟ تواصل معنا هنا</string>
+  <string name="help_menu_futo_chat">محادثة FUTO (Zulip)</string>
+  <string name="help_menu_futo_chat_subtitle">هل ترغب بالتحدث ولكنك لا تفضل استخدام ديسكورد؟ تواصل معنا هنا</string>
+  <string name="help_menu_github">نظام تتبع المشكلات العامة (GitHub)</string>
+  <string name="help_menu_github_subtitle">هل لديك مشكلة محددة أو طلب إضافة ميزة؟ انشرها هنا</string>
+  <string name="help_menu_email">بريد إلكتروني keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">هل لديك ملاحظات خاصة، أو تحتاج إلى مساعدة، أو لا تستخدم GitHub؟ راسلنا عبر البريد الإلكتروني</string>
+  <string name="help_menu_email_tags">جيميل، دعم، اتصال، مساعدة، معطل، خلل، خطأ، مشكلة، شكوى، تذكرة، دفع، دعم، عطل، خلل، إصلاح، خدمة العملاء، تعطل، سؤال، استفسار، مساعدة</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">الإعداد - الخطوة 1</string>
+  <string name="setup_step_2">الإعداد - الخطوة 2</string>
+  <string name="setup_step_3">الإعداد - الخطوة 3</string>
+  <string name="setup_welcome_text">مرحباً بكم في لوحة مفاتيح FUTO! ما زالت قيد التطوير، لذا قد تفتقر إلى بعض الميزات أو اللغات. نشكر لكم صبركم وتفهمكم.\n\nللبدء، فعّلوا لوحة مفاتيح FUTO كطريقة إدخال.</string>
+  <string name="setup_open_input_settings">فتح إعدادات طريقة الإدخال</string>
+  <string name="setup_warning_multiple_versions">تحذير: يبدو أن لديك كلًا من إصدار متجر Play والإصدار المستقل مثبتين، ونوصي بتثبيت إصدار واحد فقط</string>
+  <string name="setup_active_input_method">يرجى اختيار لوحة مفاتيح FUTO كطريقة الإدخال النشطة.</string>
+  <string name="setup_switch_input_methods">تبديل طرق الإدخال</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">الشكر والتقدير</string>
+  <string name="credits_menu_header_text">شكرًا لهؤلاء الأشخاص لمساهمتهم في جعل تطبيق FUTO Keyboard تطبيقًا رائعًا!</string>
+  <string name="credits_menu_team_translators_title">المترجمون</string>
+  <string name="credits_menu_team_keyboard_layouts_title">مساهمو التصميم</string>
+  <string name="credits_menu_team_code_title">مساهمو الكود</string>
+  <string name="credits_menu_team_third_party_libraries_title2">أكواد وأصول جهات خارجية</string>
+  <string name="credits_menu_nonaffiliation_notice">المؤلفون المذكورون أعلاه ليسوا تابعين لنا، وقد لا يؤيدوننا أو يروجون لنا بالضرورة. ولا يعني ذكر أسمائهم أي انتماء أو تأييد.</string>
+  <string name="credits_menu_contribute_translations_button">ساعد في ترجمة التطبيق</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">ساهم في التخطيطات</string>
+  <string name="credits_menu_contribute_code_button">ساهم في كتابة الكود</string>
+  <string name="credits_menu_project_information_title">%s معلومات</string>
+  <string name="credits_menu_project_url_link">رابط المشروع</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">إعدادات خاصة باللغة</string>
+  <!-- Specific to Chinese input method -->
+  <string name="chinese_settings_title">إعدادات الإدخال باللغة الصينية</string>
+  <string name="chinese_setting_search_tags">الصينية، القافية</string>
+  <string name="chinese_setting_simplification_simplify_by_language_country">الوضع الافتراضي (حسب البلد)</string>
+  <string name="chinese_setting_simplification_force_simplified">المبسطة</string>
+  <string name="chinese_setting_simplification_force_traditional">التقليدية</string>
+  <string name="chinese_setting_pinyin_scheme">نظام بينيين</string>
+  <string name="chinese_setting_fuzzy_pinyin">بينيين غير واضح</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">إعدادات الإدخال اليابانية</string>
+  <string name="japanese_settings_toggle_flick_only">نقرة واحدة فقط</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">يعطل التبديل بين حروف العلة عند الضغط المتكرر على المفاتيح (إدخال Keitai)</string>
+  <string name="japanese_settings_toggle_halfwidth_space">استخدام مساحة نصف العرض</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">استخدم دائمًا مساحة نصف العرض</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">المعايير المتقدمة</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">الخيارات أدناه تجريبية وقد تُحذف أو تُعدّل مستقبلًا مع تطورات التطبيق. قد يؤثر تغيير هذه القيم سلبًا على تجربتك. ملاحظة: هذه الخيارات خاصة باللغة الإنجليزية فقط</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">قوة محول Transformer LM</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">القيمة المنخفضة ستجعل التصحيح التلقائي يعمل بشكل مشابه للوحة مفاتيح AOSP القياسية، بينما القيمة المرتفعة ستجعله أكثر اعتمادًا على الشبكة العصبية. القيمة الافتراضية هي %1$s</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">دائماً محول Transformer LM</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">دائمًا قاموس Binary</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">مستوى التصحيح التلقائي</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">سيؤدي خفض الحد الأدنى إلى تصحيح تلقائي أكثر تكرارًا (وتصحيح خاطئ أكثر تكرارًا)، بينما سيؤدي رفع الحد الأدنى إلى تصحيح تلقائي أقل تكرارًا (وتصحيح خاطئ أقل تكرارًا). القيمة الافتراضية هي %1$s</string>
+  <!-- Personal dictionary -->
+  <string name="personal_dictionary_shortcut_error_symbols">خطأ: قد لا يبدأ الاختصار بالرمز</string>
+  <plurals name="personal_dictionary_language_word_count">
+    <item quantity="zero">%1$s كلمة</item>
+    <item quantity="one">%1$s كلمة</item>
+    <item quantity="two">%1$s كلمتان</item>
+    <item quantity="few">%1$s كلمات</item>
+    <item quantity="many">%1$s كلمة</item>
+    <item quantity="other">%1$s كلمات</item>
+  </plurals>
+  <string name="personal_dictionary_imported_additional_files_list_header">الملفات</string>
+  <string name="personal_dictionary_import_additional_file">استيراد</string>
+  <string name="personal_dictionary_words_list_header">الكلمات</string>
+  <string name="personal_dictionary_cancel_action">إلغاء</string>
+  <string name="personal_dictionary_delete_additional_file">هل تريد حذف ملف القاموس الإضافي؟</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s سيتم حذفه</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- May be translated as "Stop voice input", "Stop input", etc -->
+  <string name="stop_recording">Zastavit nahrávání</string>
+  <!-- Appears when voice input is recording and no speech has been detected yet, we prompt the user to try talking. Must be fairly short. -->
+  <string name="try_saying_something">Zkuste něco říct</string>
+  <!-- Appears when voice input is recording and no sound has been detected in a while, this is typically caused by disabling the microphone in Android quick settings -->
+  <string name="no_audio_detected_is_your_microphone_blocked">Nebyl detekován žádný zvuk, nemáte zablokovaný mikrofon?</string>
+  <!-- Appears when voice input is recording and speech is being actively detected. Must be fairly short. -->
+  <string name="listening">Poslouchám…</string>
+  <!-- When the user is trying to use voice input but has not granted our app the Android microphone permission, we ask the user to please grant it to use voice input -->
+  <string name="grant_microphone_permission_to_use_voice_input">Pro použití Hlasového vstupu udělte oprávnění k mikrofonu</string>
+  <string name="open_voice_input_settings">Otevřít nastavení Hlasového vstupu</string>
+  <!-- Verbose mode string to indicate we are extracting mel spectrogram audio features from the recorded audio. Must be fairly short. -->
+  <string name="extracting_features">Extrahování funkcí…</string>
+  <!-- Verbose mode string to indicate we are loading the voice recognition model file into memory. Must be fairly short. -->
+  <string name="loading_model">Načítání modelu…</string>
+  <!-- Verbose mode string to indicate the voice recognition model has switched to decoding mode and is outputting text. Must be fairly short. -->
+  <string name="decoding">Spuštěno dekódování…</string>
+  <!-- String to indicate that a language has been detected for which we have a better voice recognition model, so we are switching models for the detected language. Must be fairly short. -->
+  <string name="switching_model">Přepínání jazyka…</string>
+  <!-- Generic string to indicate the voice recognition model is processing the recorded audio. Must be fairly short. -->
+  <string name="processing">Zpracování…</string>
+  <!-- Generic string to indicate the voice recognition model is initializing. Must be fairly short. -->
+  <string name="initializing">Inicializace…</string>
+  <!-- Model name for the tiny english model -->
+  <string name="tiny_en_name">Angličtina-39 (výchozí)</string>
+  <!-- Model name for the base english model -->
+  <string name="base_en_name">Angličtina-74 (pomalejší, přesnější)</string>
+  <!-- Model name for the small english model -->
+  <string name="small_en_name">Angličtina-244 (pomalá)</string>
+  <!-- Model name for the tiny model -->
+  <string name="tiny_name">Vícejazyčný-39 (méně přesný)</string>
+  <!-- Model name for the base model -->
+  <string name="base_name">Vícejazyčný-74 (výchozí)</string>
+  <!-- Model name for the small model -->
+  <string name="small_name">Vícejazyčný-244 (pomalý)</string>
+  <!-- Indicates that a bluetooth mic is being used -->
+  <string name="using_bluetooth_mic">Používání Bluetooth mikrofonu (%1$s)</string>
+  <!-- Indicates that although bluetooth mic is preferred, the builtin one is being used instead -->
+  <string name="using_built_in_mic">Používání vestavěného mikrofonu (%1$s)</string>
+  <!--
+    Occurs when the model is corrupted, or loading failed for some other unknown reason,
+    usually the fix is to re-download the model and re-import it. For example this may happen
+    when the model is imported before the file is finished downloading
+  -->
+  <string name="model_load_error">Chyba při načítání modelu. Soubor modelu by mohl být porušený nebo neúplný. Zkuste vrátit nastavení na výchozí hodnotu nebo model stáhnout znovu.</string>
+</resources>

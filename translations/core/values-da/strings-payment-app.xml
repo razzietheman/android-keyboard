@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Betaling af FUTO tastatur</string>
+  <string name="payment_app_main_menu_title">Du har betalt for FUTO tastaturet</string>
+  <string name="payment_app_main_menu_line_1">Tak for at betale!</string>
+  <string name="payment_app_main_menu_line_2">Dit køb vil hjælpe med at fortsætte udviklingen af FUTO tastaturet og andre FUTO-projekter.</string>
+</resources>

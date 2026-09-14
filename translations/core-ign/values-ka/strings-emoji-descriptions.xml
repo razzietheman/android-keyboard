@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2014, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+
+  These Emoji symbols are unsupported by TTS.
+  TODO: Remove this file when TTS/TalkBack support these Emoji symbols.
+-->
+
+<resources>
+  <!-- Spoken description for Unicode code point U+00A9: "©" COPYRIGHT SIGN -->
+  <string name="spoken_emoji_00A9">"საავტორო უფლების ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+00AE: "®" REGISTERED SIGN -->
+  <string name="spoken_emoji_00AE">"რეგისტრირებული სავაჭრო ნიშნის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+203C: "‼" DOUBLE EXCLAMATION MARK -->
+  <string name="spoken_emoji_203C">"ორმაგი ძახილის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2049: "⁉" EXCLAMATION QUESTION MARK -->
+  <string name="spoken_emoji_2049">"ძახილის და კითხვის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2122: "™" TRADE MARK SIGN -->
+  <string name="spoken_emoji_2122">"სავაჭრო ნიშნის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2139: "ℹ" INFORMATION SOURCE -->
+  <string name="spoken_emoji_2139">"ინფორმაციის წყარო"</string>
+  <!-- Spoken description for Unicode code point U+2194: "↔" LEFT RIGHT ARROW -->
+  <string name="spoken_emoji_2194">"მარცხენა და მარჯვენა ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2195: "↕" UP DOWN ARROW -->
+  <string name="spoken_emoji_2195">"ზედა და ქვედა ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2196: "↖" NORTH WEST ARROW -->
+  <string name="spoken_emoji_2196">"ჩრდილო დასავლეთის ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2197: "↗" NORTH EAST ARROW -->
+  <string name="spoken_emoji_2197">"ჩრდილო აღმოსავლეთის ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2198: "↘" SOUTH EAST ARROW -->
+  <string name="spoken_emoji_2198">"სამხრეთ აღმოსავლეთის ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2199: "↙" SOUTH WEST ARROW -->
+  <string name="spoken_emoji_2199">"სამხრეთ დასავლეთის ისარი"</string>
+  <!-- Spoken description for Unicode code point U+21A9: "↩" LEFTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21A9">"მარცხნივ მიმართული ისარი კაუჭით"</string>
+  <!-- Spoken description for Unicode code point U+21AA: "↪" RIGHTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21AA">"მარჯვნივ მიმართული ისარი კაუჭით"</string>
+  <!-- Spoken description for Unicode code point U+231A: "⌚" WATCH -->
+  <string name="spoken_emoji_231A">"საათი"</string>
+  <!-- Spoken description for Unicode code point U+231B: "⌛" HOURGLASS -->
+  <string name="spoken_emoji_231B">"ქვიშის საათი"</string>
+  <!-- Spoken description for Unicode code point U+23E9: "⏩" BLACK RIGHT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23E9">"მარჯვნივ მიმართული შავი ორმაგი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+23EA: "⏪" BLACK LEFT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EA">"მარცხნივ მიმართული შავი ორმაგი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+23EB: "⏫" BLACK UP-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EB">"ზევით მიმართული შავი ორმაგი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+23EC: "⏬" BLACK DOWN-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EC">"ქვევით მიმართული შავი ორმაგი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+23F0: "⏰" ALARM CLOCK -->
+  <string name="spoken_emoji_23F0">"მაღვიძარა"</string>
+  <!-- Spoken description for Unicode code point U+23F3: "⏳" HOURGLASS WITH FLOWING SAND -->
+  <string name="spoken_emoji_23F3">"ქვიშის საათი ჩამოყრილი ქვიშით"</string>
+  <!-- Spoken description for Unicode code point U+24C2: "Ⓜ" CIRCLED LATIN CAPITAL LETTER M -->
+  <string name="spoken_emoji_24C2">"წრეში ჩასმული ლათინური ასო m"</string>
+  <!-- Spoken description for Unicode code point U+25AA: "▪" BLACK SMALL SQUARE -->
+  <string name="spoken_emoji_25AA">"შავი პატარა კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+25AB: "▫" WHITE SMALL SQUARE -->
+  <string name="spoken_emoji_25AB">"თეთრი პატარა კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+25B6: "▶" BLACK RIGHT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25B6">"შავი მარჯვნივ მიმართული სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+25C0: "◀" BLACK LEFT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25C0">"შავი მარცხნივ მიმართული სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+25FB: "◻" WHITE MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FB">"თეთრი საშუალო კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+25FC: "◼" BLACK MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FC">"შავი საშუალო კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+25FD: "◽" WHITE MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FD">"თეთრი საშუალო პატარა კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+25FE: "◾" BLACK MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FE">"შავი საშუალო პატარა კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+2600: "☀" BLACK SUN WITH RAYS -->
+  <string name="spoken_emoji_2600">"შავი მზე სხივებით"</string>
+  <!-- Spoken description for Unicode code point U+2601: "☁" CLOUD -->
+  <string name="spoken_emoji_2601">"ღრუბელი"</string>
+  <!-- Spoken description for Unicode code point U+260E: "☎" BLACK TELEPHONE -->
+  <string name="spoken_emoji_260E">"შავი ტელეფონი"</string>
+  <!-- Spoken description for Unicode code point U+2611: "☑" BALLOT BOX WITH CHECK -->
+  <string name="spoken_emoji_2611">"მონიშნული საარჩევნო ბიულეტენი"</string>
+  <!-- Spoken description for Unicode code point U+2614: "☔" UMBRELLA WITH RAIN DROPS -->
+  <string name="spoken_emoji_2614">"ქოლგა წვიმის წვეთებით"</string>
+  <!-- Spoken description for Unicode code point U+2615: "☕" HOT BEVERAGE -->
+  <string name="spoken_emoji_2615">"ცხელი სასმელი"</string>
+  <!-- Spoken description for Unicode code point U+261D: "☝" WHITE UP POINTING INDEX -->
+  <string name="spoken_emoji_261D">"თეთრი ზევით მიმართული საჩვენებელი"</string>
+  <!-- Spoken description for Unicode code point U+263A: "☺" WHITE SMILING FACE -->
+  <string name="spoken_emoji_263A">"თეთრი მომღიმარი სახე"</string>
+  <!-- Spoken description for Unicode code point U+2648: "♈" ARIES -->
+  <string name="spoken_emoji_2648">"ვერძი"</string>
+  <!-- Spoken description for Unicode code point U+2649: "♉" TAURUS -->
+  <string name="spoken_emoji_2649">"კურო"</string>
+  <!-- Spoken description for Unicode code point U+264A: "♊" GEMINI -->
+  <string name="spoken_emoji_264A">"ტყუპები"</string>
+  <!-- Spoken description for Unicode code point U+264B: "♋" CANCER -->
+  <string name="spoken_emoji_264B">"კირჩხიბი"</string>
+  <!-- Spoken description for Unicode code point U+264C: "♌" LEO -->
+  <string name="spoken_emoji_264C">"ლომი"</string>
+  <!-- Spoken description for Unicode code point U+264D: "♍" VIRGO -->
+  <string name="spoken_emoji_264D">"ქალწული"</string>
+  <!-- Spoken description for Unicode code point U+264E: "♎" LIBRA -->
+  <string name="spoken_emoji_264E">"სასწორი"</string>
+  <!-- Spoken description for Unicode code point U+264F: "♏" SCORPIUS -->
+  <string name="spoken_emoji_264F">"მორიელი"</string>
+  <!-- Spoken description for Unicode code point U+2650: "♐" SAGITTARIUS -->
+  <string name="spoken_emoji_2650">"მშვილდოსანი"</string>
+  <!-- Spoken description for Unicode code point U+2651: "♑" CAPRICORN -->
+  <string name="spoken_emoji_2651">"თხის რქა"</string>
+  <!-- Spoken description for Unicode code point U+2652: "♒" AQUARIUS -->
+  <string name="spoken_emoji_2652">"მერწყული"</string>
+  <!-- Spoken description for Unicode code point U+2653: "♓" PISCES -->
+  <string name="spoken_emoji_2653">"თევზები"</string>
+  <!-- Spoken description for Unicode code point U+2660: "♠" BLACK SPADE SUIT -->
+  <string name="spoken_emoji_2660">"ბანქოს შავი ყვავი"</string>
+  <!-- Spoken description for Unicode code point U+2663: "♣" BLACK CLUB SUIT -->
+  <string name="spoken_emoji_2663">"ბანქოს შავი ჯვარი"</string>
+  <!-- Spoken description for Unicode code point U+2665: "♥" BLACK HEART SUIT -->
+  <string name="spoken_emoji_2665">"ბანქოს შავი გული"</string>
+  <!-- Spoken description for Unicode code point U+2666: "♦" BLACK DIAMOND SUIT -->
+  <string name="spoken_emoji_2666">"ბანქოს შავი აგური"</string>
+  <!-- Spoken description for Unicode code point U+2668: "♨" HOT SPRINGS -->
+  <string name="spoken_emoji_2668">"ცხელი წყარო"</string>
+  <!-- Spoken description for Unicode code point U+267B: "♻" BLACK UNIVERSAL RECYCLING SYMBOL -->
+  <string name="spoken_emoji_267B">"უნივერსალური გადამუშავების შავი სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+267F: "♿" WHEELCHAIR SYMBOL -->
+  <string name="spoken_emoji_267F">"სატარებელი სავარძლის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+2693: "⚓" ANCHOR -->
+  <string name="spoken_emoji_2693">"ღუზა"</string>
+  <!-- Spoken description for Unicode code point U+26A0: "⚠" WARNING SIGN -->
+  <string name="spoken_emoji_26A0">"გაფრთხილების ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+26A1: "⚡" HIGH VOLTAGE SIGN -->
+  <string name="spoken_emoji_26A1">"მაღალი ძაბვის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+26AA: "⚪" MEDIUM WHITE CIRCLE -->
+  <string name="spoken_emoji_26AA">"საშუალო თეთრი წრე"</string>
+  <!-- Spoken description for Unicode code point U+26AB: "⚫" MEDIUM BLACK CIRCLE -->
+  <string name="spoken_emoji_26AB">"საშუალო შავი წრე"</string>
+  <!-- Spoken description for Unicode code point U+26BD: "⚽" SOCCER BALL -->
+  <string name="spoken_emoji_26BD">"ფეხბურთის ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+26BE: "⚾" BASEBALL -->
+  <string name="spoken_emoji_26BE">"ბეისბოლის ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+26C4: "⛄" SNOWMAN WITHOUT SNOW -->
+  <string name="spoken_emoji_26C4">"თოვლის კაცი თოვლის გარეშე"</string>
+  <!-- Spoken description for Unicode code point U+26C5: "⛅" SUN BEHIND CLOUD -->
+  <string name="spoken_emoji_26C5">"ღრუბელს მიფარებული მზე"</string>
+  <!-- Spoken description for Unicode code point U+26CE: "⛎" OPHIUCHUS -->
+  <string name="spoken_emoji_26CE">"გველისმჭერის თანავარსკვლავედი"</string>
+  <!-- Spoken description for Unicode code point U+26D4: "⛔" NO ENTRY -->
+  <string name="spoken_emoji_26D4">"შესვლა აკრძალულია"</string>
+  <!-- Spoken description for Unicode code point U+26EA: "⛪" CHURCH -->
+  <string name="spoken_emoji_26EA">"ეკლესია"</string>
+  <!-- Spoken description for Unicode code point U+26F2: "⛲" FOUNTAIN -->
+  <string name="spoken_emoji_26F2">"შადრევანი"</string>
+  <!-- Spoken description for Unicode code point U+26F3: "⛳" FLAG IN HOLE -->
+  <string name="spoken_emoji_26F3">"ალამი ორმოში"</string>
+  <!-- Spoken description for Unicode code point U+26F5: "⛵" SAILBOAT -->
+  <string name="spoken_emoji_26F5">"იალქნიანი გემი"</string>
+  <!-- Spoken description for Unicode code point U+26FA: "⛺" TENT -->
+  <string name="spoken_emoji_26FA">"კარავი"</string>
+  <!-- Spoken description for Unicode code point U+26FD: "⛽" FUEL PUMP -->
+  <string name="spoken_emoji_26FD">"საწვავის სატუმბი"</string>
+  <!-- Spoken description for Unicode code point U+2702: "✂" BLACK SCISSORS -->
+  <string name="spoken_emoji_2702">"შავი მაკრატელი"</string>
+  <!-- Spoken description for Unicode code point U+2705: "✅" WHITE HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2705">"თეთრი მკვეთრი მონიშვნის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2708: "✈" AIRPLANE -->
+  <string name="spoken_emoji_2708">"თვითმფრინავი"</string>
+  <!-- Spoken description for Unicode code point U+2709: "✉" ENVELOPE -->
+  <string name="spoken_emoji_2709">"კონვერტი"</string>
+  <!-- Spoken description for Unicode code point U+270A: "✊" RAISED FIST -->
+  <string name="spoken_emoji_270A">"აღმართული მუშტი"</string>
+  <!-- Spoken description for Unicode code point U+270B: "✋" RAISED HAND -->
+  <string name="spoken_emoji_270B">"აღმართული ხელი"</string>
+  <!-- Spoken description for Unicode code point U+270C: "✌" VICTORY HAND -->
+  <string name="spoken_emoji_270C">"გამარჯვების აღმნიშვნელი ხელი"</string>
+  <!-- Spoken description for Unicode code point U+270F: "✏" PENCIL -->
+  <string name="spoken_emoji_270F">"ფანქარი"</string>
+  <!-- Spoken description for Unicode code point U+2712: "✒" BLACK NIB -->
+  <string name="spoken_emoji_2712">"შავი კალმის წვერი"</string>
+  <!-- Spoken description for Unicode code point U+2714: "✔" HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2714">"მკვეთრი მონიშვნის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2716: "✖" HEAVY MULTIPLICATION X -->
+  <string name="spoken_emoji_2716">"მკვეთრი გამრავლების x"</string>
+  <!-- Spoken description for Unicode code point U+2728: "✨" SPARKLES -->
+  <string name="spoken_emoji_2728">"ნაპერწკლები"</string>
+  <!-- Spoken description for Unicode code point U+2733: "✳" EIGHT SPOKED ASTERISK -->
+  <string name="spoken_emoji_2733">"რვაწვერა ვარსკვლავი"</string>
+  <!-- Spoken description for Unicode code point U+2734: "✴" EIGHT POINTED BLACK STAR -->
+  <string name="spoken_emoji_2734">"რვაქიმიანი შავი ვარსკვლავი"</string>
+  <!-- Spoken description for Unicode code point U+2744: "❄" SNOWFLAKE -->
+  <string name="spoken_emoji_2744">"ფიფქი"</string>
+  <!-- Spoken description for Unicode code point U+2747: "❇" SPARKLE -->
+  <string name="spoken_emoji_2747">"ნაპერწკალი"</string>
+  <!-- Spoken description for Unicode code point U+274C: "❌" CROSS MARK -->
+  <string name="spoken_emoji_274C">"გადახაზვის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+274E: "❎" NEGATIVE SQUARED CROSS MARK -->
+  <string name="spoken_emoji_274E">"კვადრატში ჩასმული გადახაზული ნიშანი ნეგატივში"</string>
+  <!-- Spoken description for Unicode code point U+2753: "❓" BLACK QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2753">"შავი კითხვის ნიშნის ორნამენტი"</string>
+  <!-- Spoken description for Unicode code point U+2754: "❔" WHITE QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2754">"თეთრი კითხვის ნიშნის ორნამენტი"</string>
+  <!-- Spoken description for Unicode code point U+2755: "❕" WHITE EXCLAMATION MARK ORNAMENT -->
+  <string name="spoken_emoji_2755">"თეთრი ძახილის ნიშნის ორნამენტი"</string>
+  <!-- Spoken description for Unicode code point U+2757: "❗" HEAVY EXCLAMATION MARK SYMBOL -->
+  <string name="spoken_emoji_2757">"მკვეთრი ძახილის ნიშნის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+2764: "❤" HEAVY BLACK HEART -->
+  <string name="spoken_emoji_2764">"დიდი შავი გული"</string>
+  <!-- Spoken description for Unicode code point U+2795: "➕" HEAVY PLUS SIGN -->
+  <string name="spoken_emoji_2795">"მკვეთრი პლუსის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2796: "➖" HEAVY MINUS SIGN -->
+  <string name="spoken_emoji_2796">"მკვეთრი მინუსის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+2797: "➗" HEAVY DIVISION SIGN -->
+  <string name="spoken_emoji_2797">"მკვეთრი გაყოფის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+27A1: "➡" BLACK RIGHTWARDS ARROW -->
+  <string name="spoken_emoji_27A1">"შავი მარჯვნივ მიმართული ისარი"</string>
+  <!-- Spoken description for Unicode code point U+27B0: "➰" CURLY LOOP -->
+  <string name="spoken_emoji_27B0">"მარყუჟი"</string>
+  <!-- Spoken description for Unicode code point U+27BF: "➿" DOUBLE CURLY LOOP -->
+  <string name="spoken_emoji_27BF">"ორმაგი მარყუჟი"</string>
+  <!-- Spoken description for Unicode code point U+2934: "⤴" ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+  <string name="spoken_emoji_2934">"მარჯვნივ მიმართული და ზევით მოხვეული ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2935: "⤵" ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+  <string name="spoken_emoji_2935">"მარჯვნივ მიმართული და ქვევით მოხვეული ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2B05: "⬅" LEFTWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B05">"მარცხნივ მიმართული შავი ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2B06: "⬆" UPWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B06">"ზევით მიმართული შავი ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2B07: "⬇" DOWNWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B07">"მარცხნივ ქვევით მიმართული შავი ისარი"</string>
+  <!-- Spoken description for Unicode code point U+2B1B: "⬛" BLACK LARGE SQUARE -->
+  <string name="spoken_emoji_2B1B">"დიდი შავი კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+2B1C: "⬜" WHITE LARGE SQUARE -->
+  <string name="spoken_emoji_2B1C">"დიდი თეთრი კვადრატი"</string>
+  <!-- Spoken description for Unicode code point U+2B50: "⭐" WHITE MEDIUM STAR -->
+  <string name="spoken_emoji_2B50">"თეთრი საშუალო ვარსკვლავი"</string>
+  <!-- Spoken description for Unicode code point U+2B55: "⭕" HEAVY LARGE CIRCLE -->
+  <string name="spoken_emoji_2B55">"მკვეთრი დიდი წრე"</string>
+  <!-- Spoken description for Unicode code point U+3030: "〰" WAVY DASH -->
+  <string name="spoken_emoji_3030">"ტალღოვანი ტირე"</string>
+  <!-- Spoken description for Unicode code point U+303D: "〽" PART ALTERNATION MARK -->
+  <string name="spoken_emoji_303D">"იორიტენი"</string>
+  <!-- Spoken description for Unicode code point U+3297: "㊗" CIRCLED IDEOGRAPH CONGRATULATION -->
+  <string name="spoken_emoji_3297">"მილოცვის იდეოგრაფი წრეში"</string>
+  <!-- Spoken description for Unicode code point U+3299: "㊙" CIRCLED IDEOGRAPH SECRET -->
+  <string name="spoken_emoji_3299">"საიდუმლოების იდეოგრაფი წრეში"</string>
+  <!-- Spoken description for Unicode code point U+1F004: "🀄" MAHJONG TILE RED DRAGON -->
+  <string name="spoken_emoji_1F004">"Mahjong მოზაიკის წითელი დრაკონი"</string>
+  <!-- Spoken description for Unicode code point U+1F0CF: "🃏" PLAYING CARD BLACK JOKER -->
+  <string name="spoken_emoji_1F0CF">"ბანქოს შავი ჯოკერი"</string>
+  <!-- Spoken description for Unicode code point U+1F170: "🅰" NEGATIVE SQUARED LATIN CAPITAL LETTER A -->
+  <string name="spoken_emoji_1F170">"სისხლის ტიპი A"</string>
+  <!-- Spoken description for Unicode code point U+1F171: "🅱" NEGATIVE SQUARED LATIN CAPITAL LETTER B -->
+  <string name="spoken_emoji_1F171">"სისხლის ტიპი B"</string>
+  <!-- Spoken description for Unicode code point U+1F17E: "🅾" NEGATIVE SQUARED LATIN CAPITAL LETTER O -->
+  <string name="spoken_emoji_1F17E">"სისხლის ტიპი O"</string>
+  <!-- Spoken description for Unicode code point U+1F17F: "🅿" NEGATIVE SQUARED LATIN CAPITAL LETTER P -->
+  <string name="spoken_emoji_1F17F">"პარკინგის ადგილი"</string>
+  <!-- Spoken description for Unicode code point U+1F18E: "🆎" NEGATIVE SQUARED AB -->
+  <string name="spoken_emoji_1F18E">"სისხლის ტიპი AB"</string>
+  <!-- Spoken description for Unicode code point U+1F191: "🆑" SQUARED CL -->
+  <string name="spoken_emoji_1F191">"CL კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F192: "🆒" SQUARED COOL -->
+  <string name="spoken_emoji_1F192">"cool კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F193: "🆓" SQUARED FREE -->
+  <string name="spoken_emoji_1F193">"free კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F194: "🆔" SQUARED ID -->
+  <string name="spoken_emoji_1F194">"ID კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F195: "🆕" SQUARED NEW -->
+  <string name="spoken_emoji_1F195">"new კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F196: "🆖" SQUARED NG -->
+  <string name="spoken_emoji_1F196">"N G კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F197: "🆗" SQUARED OK -->
+  <string name="spoken_emoji_1F197">"OK კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F198: "🆘" SQUARED SOS -->
+  <string name="spoken_emoji_1F198">"SOS კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F199: "🆙" SQUARED UP WITH EXCLAMATION MARK -->
+  <string name="spoken_emoji_1F199">"up ძახილის ნიშნით კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F19A: "🆚" SQUARED VS -->
+  <string name="spoken_emoji_1F19A">"vs კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F201: "🈁" SQUARED KATAKANA KOKO -->
+  <string name="spoken_emoji_1F201">"katakana koko კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F202: "🈂" SQUARED KATAKANA SA -->
+  <string name="spoken_emoji_1F202">"katakana sa კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F21A: "🈚" SQUARED CJK UNIFIED IDEOGRAPH-7121 -->
+  <string name="spoken_emoji_1F21A">"CJK უნიფიცირებული იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F22F: "🈯" SQUARED CJK UNIFIED IDEOGRAPH-6307 -->
+  <string name="spoken_emoji_1F22F">"დაჯავშნილი ადგილის იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F232: "🈲" SQUARED CJK UNIFIED IDEOGRAPH-7981 -->
+  <string name="spoken_emoji_1F232">"პროჰიბიციის იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F233: "🈳" SQUARED CJK UNIFIED IDEOGRAPH-7A7A -->
+  <string name="spoken_emoji_1F233">"ვაკანსიის იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F234: "🈴" SQUARED CJK UNIFIED IDEOGRAPH-5408 -->
+  <string name="spoken_emoji_1F234">"მიღების იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F235: "🈵" SQUARED CJK UNIFIED IDEOGRAPH-6E80 -->
+  <string name="spoken_emoji_1F235">"დაკავებულობის იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F236: "🈶" SQUARED CJK UNIFIED IDEOGRAPH-6709 -->
+  <string name="spoken_emoji_1F236">"იდეოგრაფი გადახდილია კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F237: "🈷" SQUARED CJK UNIFIED IDEOGRAPH-6708 -->
+  <string name="spoken_emoji_1F237">"იდეოგრაფი ყოველთვიურად კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F238: "🈸" SQUARED CJK UNIFIED IDEOGRAPH-7533 -->
+  <string name="spoken_emoji_1F238">"იდეოგრაფი აპლიკაცია კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F239: "🈹" SQUARED CJK UNIFIED IDEOGRAPH-5272 -->
+  <string name="spoken_emoji_1F239">"ფასდაკლების იდეოგრაფი კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F23A: "🈺" SQUARED CJK UNIFIED IDEOGRAPH-55B6 -->
+  <string name="spoken_emoji_1F23A">"იდეოგრაფი მუშაობს კვადრატში"</string>
+  <!-- Spoken description for Unicode code point U+1F250: "🉐" CIRCLED IDEOGRAPH ADVANTAGE -->
+  <string name="spoken_emoji_1F250">"უპირატესობის იდეოგრაფი წრეში"</string>
+  <!-- Spoken description for Unicode code point U+1F251: "🉑" CIRCLED IDEOGRAPH ACCEPT -->
+  <string name="spoken_emoji_1F251">"მიღების იდეოგრაფი წრეში"</string>
+  <!-- Spoken description for Unicode code point U+1F300: "🌀" CYCLONE -->
+  <string name="spoken_emoji_1F300">"ციკლონი"</string>
+  <!-- Spoken description for Unicode code point U+1F301: "🌁" FOGGY -->
+  <string name="spoken_emoji_1F301">"ნისლიანი"</string>
+  <!-- Spoken description for Unicode code point U+1F302: "🌂" CLOSED UMBRELLA -->
+  <string name="spoken_emoji_1F302">"დახურული ქოლგა"</string>
+  <!-- Spoken description for Unicode code point U+1F303: "🌃" NIGHT WITH STARS -->
+  <string name="spoken_emoji_1F303">"ვარსკვლავიანი ღამე"</string>
+  <!-- Spoken description for Unicode code point U+1F304: "🌄" SUNRISE OVER MOUNTAINS -->
+  <string name="spoken_emoji_1F304">"მზის ამოსვლა მთებზე"</string>
+  <!-- Spoken description for Unicode code point U+1F305: "🌅" SUNRISE -->
+  <string name="spoken_emoji_1F305">"მზის ამოსვლა"</string>
+  <!-- Spoken description for Unicode code point U+1F306: "🌆" CITYSCAPE AT DUSK -->
+  <string name="spoken_emoji_1F306">"ქალაქის პეიზაჟი შებინდებისას"</string>
+  <!-- Spoken description for Unicode code point U+1F307: "🌇" SUNSET OVER BUILDINGS -->
+  <string name="spoken_emoji_1F307">"მზის ჩასვლა შენობების ფონზე"</string>
+  <!-- Spoken description for Unicode code point U+1F308: "🌈" RAINBOW -->
+  <string name="spoken_emoji_1F308">"ცისარტყელა"</string>
+  <!-- Spoken description for Unicode code point U+1F309: "🌉" BRIDGE AT NIGHT -->
+  <string name="spoken_emoji_1F309">"ხიდი ღამით"</string>
+  <!-- Spoken description for Unicode code point U+1F30A: "🌊" WATER WAVE -->
+  <string name="spoken_emoji_1F30A">"წყლის ტალღა"</string>
+  <!-- Spoken description for Unicode code point U+1F30B: "🌋" VOLCANO -->
+  <string name="spoken_emoji_1F30B">"ვულკანი"</string>
+  <!-- Spoken description for Unicode code point U+1F30C: "🌌" MILKY WAY -->
+  <string name="spoken_emoji_1F30C">"ირმის ნახტომი"</string>
+  <!-- Spoken description for Unicode code point U+1F30D: "🌍" EARTH GLOBE EUROPE-AFRICA -->
+  <string name="spoken_emoji_1F30D">"გლობუსი ევროპა-აფრიკა"</string>
+  <!-- Spoken description for Unicode code point U+1F30E: "🌎" EARTH GLOBE AMERICAS -->
+  <string name="spoken_emoji_1F30E">"გლობუსი ამერიკა"</string>
+  <!-- Spoken description for Unicode code point U+1F30F: "🌏" EARTH GLOBE ASIA-AUSTRALIA -->
+  <string name="spoken_emoji_1F30F">"გლობუსი აზია-ავსტრალია"</string>
+  <!-- Spoken description for Unicode code point U+1F310: "🌐" GLOBE WITH MERIDIANS -->
+  <string name="spoken_emoji_1F310">"გლობუსი მერიდიანებით"</string>
+  <!-- Spoken description for Unicode code point U+1F311: "🌑" NEW MOON SYMBOL -->
+  <string name="spoken_emoji_1F311">"ახალი მთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F312: "🌒" WAXING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F312">"შევსებადი ნახევარმთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F313: "🌓" FIRST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F313">"პირველი მეოთხედის მთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F314: "🌔" WAXING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F314">"მილევადი ნახევარმთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F315: "🌕" FULL MOON SYMBOL -->
+  <string name="spoken_emoji_1F315">"სავსე მთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F316: "🌖" WANING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F316">"შევსებადი კუზიანი მთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F317: "🌗" LAST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F317">"ბოლო მეოთხედის მთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F318: "🌘" WANING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F318">"შევსებადი ნახევარმთვარის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F319: "🌙" CRESCENT MOON -->
+  <string name="spoken_emoji_1F319">"ნახევარმთვარე"</string>
+  <!-- Spoken description for Unicode code point U+1F31A: "🌚" NEW MOON WITH FACE -->
+  <string name="spoken_emoji_1F31A">"ახალი მთვარი სახით"</string>
+  <!-- Spoken description for Unicode code point U+1F31B: "🌛" FIRST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31B">"პირველი მეოთხედის მთვარე სახით"</string>
+  <!-- Spoken description for Unicode code point U+1F31C: "🌜" LAST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31C">"ბოლო მეოთხედის მთვარე სახით"</string>
+  <!-- Spoken description for Unicode code point U+1F31D: "🌝" FULL MOON WITH FACE -->
+  <string name="spoken_emoji_1F31D">"სავსე მთვარე სახით"</string>
+  <!-- Spoken description for Unicode code point U+1F31E: "🌞" SUN WITH FACE -->
+  <string name="spoken_emoji_1F31E">"მზე სახით"</string>
+  <!-- Spoken description for Unicode code point U+1F31F: "🌟" GLOWING STAR -->
+  <string name="spoken_emoji_1F31F">"მოკიაფე ვარსკვლავი"</string>
+  <!-- Spoken description for Unicode code point U+1F320: "🌠" SHOOTING STAR -->
+  <string name="spoken_emoji_1F320">"ჩამოვარდნილი ვარსკვლავი"</string>
+  <!-- Spoken description for Unicode code point U+1F330: "🌰" CHESTNUT -->
+  <string name="spoken_emoji_1F330">"წაბლი"</string>
+  <!-- Spoken description for Unicode code point U+1F331: "🌱" SEEDLING -->
+  <string name="spoken_emoji_1F331">"ნერგი"</string>
+  <!-- Spoken description for Unicode code point U+1F332: "🌲" EVERGREEN TREE -->
+  <string name="spoken_emoji_1F332">"მარადმწვანე ხე"</string>
+  <!-- Spoken description for Unicode code point U+1F333: "🌳" DECIDUOUS TREE -->
+  <string name="spoken_emoji_1F333">"ფოთლოვანი ხე"</string>
+  <!-- Spoken description for Unicode code point U+1F334: "🌴" PALM TREE -->
+  <string name="spoken_emoji_1F334">"პალმის ხე"</string>
+  <!-- Spoken description for Unicode code point U+1F335: "🌵" CACTUS -->
+  <string name="spoken_emoji_1F335">"კაქტუსი"</string>
+  <!-- Spoken description for Unicode code point U+1F337: "🌷" TULIP -->
+  <string name="spoken_emoji_1F337">"ტიტა"</string>
+  <!-- Spoken description for Unicode code point U+1F338: "🌸" CHERRY BLOSSOM -->
+  <string name="spoken_emoji_1F338">"აყვავებული ალუბალი"</string>
+  <!-- Spoken description for Unicode code point U+1F339: "🌹" ROSE -->
+  <string name="spoken_emoji_1F339">"ვარდი"</string>
+  <!-- Spoken description for Unicode code point U+1F33A: "🌺" HIBISCUS -->
+  <string name="spoken_emoji_1F33A">"ჰიბისკუსი"</string>
+  <!-- Spoken description for Unicode code point U+1F33B: "🌻" SUNFLOWER -->
+  <string name="spoken_emoji_1F33B">"მზესუმზირა"</string>
+  <!-- Spoken description for Unicode code point U+1F33C: "🌼" BLOSSOM -->
+  <string name="spoken_emoji_1F33C">"ყვავილობა"</string>
+  <!-- Spoken description for Unicode code point U+1F33D: "🌽" EAR OF MAIZE -->
+  <string name="spoken_emoji_1F33D">"სიმინდის ტარო"</string>
+  <!-- Spoken description for Unicode code point U+1F33E: "🌾" EAR OF RICE -->
+  <string name="spoken_emoji_1F33E">"ბრინჯის თავთავი"</string>
+  <!-- Spoken description for Unicode code point U+1F33F: "🌿" HERB -->
+  <string name="spoken_emoji_1F33F">"ბალახი"</string>
+  <!-- Spoken description for Unicode code point U+1F340: "🍀" FOUR LEAF CLOVER -->
+  <string name="spoken_emoji_1F340">"ოთხფოთლიანი სამყურა"</string>
+  <!-- Spoken description for Unicode code point U+1F341: "🍁" MAPLE LEAF -->
+  <string name="spoken_emoji_1F341">"ნეკერჩხლის ფოთოლი"</string>
+  <!-- Spoken description for Unicode code point U+1F342: "🍂" FALLEN LEAF -->
+  <string name="spoken_emoji_1F342">"ჩამოვარდნილი ფოთოლი"</string>
+  <!-- Spoken description for Unicode code point U+1F343: "🍃" LEAF FLUTTERING IN WIND -->
+  <string name="spoken_emoji_1F343">"ქარში მოფრიალე ფოთოლი"</string>
+  <!-- Spoken description for Unicode code point U+1F344: "🍄" MUSHROOM -->
+  <string name="spoken_emoji_1F344">"სოკო"</string>
+  <!-- Spoken description for Unicode code point U+1F345: "🍅" TOMATO -->
+  <string name="spoken_emoji_1F345">"პომიდორი"</string>
+  <!-- Spoken description for Unicode code point U+1F346: "🍆" AUBERGINE -->
+  <string name="spoken_emoji_1F346">"ბადრიჯანი"</string>
+  <!-- Spoken description for Unicode code point U+1F347: "🍇" GRAPES -->
+  <string name="spoken_emoji_1F347">"ყურძენი"</string>
+  <!-- Spoken description for Unicode code point U+1F348: "🍈" MELON -->
+  <string name="spoken_emoji_1F348">"ნესვი"</string>
+  <!-- Spoken description for Unicode code point U+1F349: "🍉" WATERMELON -->
+  <string name="spoken_emoji_1F349">"საზამთრო"</string>
+  <!-- Spoken description for Unicode code point U+1F34A: "🍊" TANGERINE -->
+  <string name="spoken_emoji_1F34A">"მანდარინი"</string>
+  <!-- Spoken description for Unicode code point U+1F34B: "🍋" LEMON -->
+  <string name="spoken_emoji_1F34B">"ლიმონი"</string>
+  <!-- Spoken description for Unicode code point U+1F34C: "🍌" BANANA -->
+  <string name="spoken_emoji_1F34C">"ბანანი"</string>
+  <!-- Spoken description for Unicode code point U+1F34D: "🍍" PINEAPPLE -->
+  <string name="spoken_emoji_1F34D">"ანანასი"</string>
+  <!-- Spoken description for Unicode code point U+1F34E: "🍎" RED APPLE -->
+  <string name="spoken_emoji_1F34E">"წითელი ვაშლი"</string>
+  <!-- Spoken description for Unicode code point U+1F34F: "🍏" GREEN APPLE -->
+  <string name="spoken_emoji_1F34F">"მწვანე ვაშლი"</string>
+  <!-- Spoken description for Unicode code point U+1F350: "🍐" PEAR -->
+  <string name="spoken_emoji_1F350">"მსხალი"</string>
+  <!-- Spoken description for Unicode code point U+1F351: "🍑" PEACH -->
+  <string name="spoken_emoji_1F351">"ატამი"</string>
+  <!-- Spoken description for Unicode code point U+1F352: "🍒" CHERRIES -->
+  <string name="spoken_emoji_1F352">"ალუბალი"</string>
+  <!-- Spoken description for Unicode code point U+1F353: "🍓" STRAWBERRY -->
+  <string name="spoken_emoji_1F353">"მარწყვი"</string>
+  <!-- Spoken description for Unicode code point U+1F354: "🍔" HAMBURGER -->
+  <string name="spoken_emoji_1F354">"ჰამბურგერი"</string>
+  <!-- Spoken description for Unicode code point U+1F355: "🍕" SLICE OF PIZZA -->
+  <string name="spoken_emoji_1F355">"პიცას ნაჭერი"</string>
+  <!-- Spoken description for Unicode code point U+1F356: "🍖" MEAT ON BONE -->
+  <string name="spoken_emoji_1F356">"ხორცი ძვალზე"</string>
+  <!-- Spoken description for Unicode code point U+1F357: "🍗" POULTRY LEG -->
+  <string name="spoken_emoji_1F357">"ქათმის ბარკალი"</string>
+  <!-- Spoken description for Unicode code point U+1F358: "🍘" RICE CRACKER -->
+  <string name="spoken_emoji_1F358">"ბრინჯის კრეკერი"</string>
+  <!-- Spoken description for Unicode code point U+1F359: "🍙" RICE BALL -->
+  <string name="spoken_emoji_1F359">"ბრინჯის გუნდა"</string>
+  <!-- Spoken description for Unicode code point U+1F35A: "🍚" COOKED RICE -->
+  <string name="spoken_emoji_1F35A">"მოხარშული ბრინჯი"</string>
+  <!-- Spoken description for Unicode code point U+1F35B: "🍛" CURRY AND RICE -->
+  <string name="spoken_emoji_1F35B">"კარი და ბრინჯი"</string>
+  <!-- Spoken description for Unicode code point U+1F35C: "🍜" STEAMING BOWL -->
+  <string name="spoken_emoji_1F35C">"ორთქლიანი თასი"</string>
+  <!-- Spoken description for Unicode code point U+1F35D: "🍝" SPAGHETTI -->
+  <string name="spoken_emoji_1F35D">"სპაგეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F35E: "🍞" BREAD -->
+  <string name="spoken_emoji_1F35E">"პური"</string>
+  <!-- Spoken description for Unicode code point U+1F35F: "🍟" FRENCH FRIES -->
+  <string name="spoken_emoji_1F35F">"კარტოფილი ფრი"</string>
+  <!-- Spoken description for Unicode code point U+1F360: "🍠" ROASTED SWEET POTATO -->
+  <string name="spoken_emoji_1F360">"შემწვარი ტკბილი კარტოფილი"</string>
+  <!-- Spoken description for Unicode code point U+1F361: "🍡" DANGO -->
+  <string name="spoken_emoji_1F361">"დანგო"</string>
+  <!-- Spoken description for Unicode code point U+1F362: "🍢" ODEN -->
+  <string name="spoken_emoji_1F362">"ოდენი"</string>
+  <!-- Spoken description for Unicode code point U+1F363: "🍣" SUSHI -->
+  <string name="spoken_emoji_1F363">"სუში"</string>
+  <!-- Spoken description for Unicode code point U+1F364: "🍤" FRIED SHRIMP -->
+  <string name="spoken_emoji_1F364">"შემწვარი კრევეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F365: "🍥" FISH CAKE WITH SWIRL DESIGN -->
+  <string name="spoken_emoji_1F365">"ტორტი ლოკოკინის დიზაინით"</string>
+  <!-- Spoken description for Unicode code point U+1F366: "🍦" SOFT ICE CREAM -->
+  <string name="spoken_emoji_1F366">"ჩამოსასხმელი ნაყინი"</string>
+  <!-- Spoken description for Unicode code point U+1F367: "🍧" SHAVED ICE -->
+  <string name="spoken_emoji_1F367">"გაცრილი ყინული"</string>
+  <!-- Spoken description for Unicode code point U+1F368: "🍨" ICE CREAM -->
+  <string name="spoken_emoji_1F368">"ნაყინი"</string>
+  <!-- Spoken description for Unicode code point U+1F369: "🍩" DOUGHNUT -->
+  <string name="spoken_emoji_1F369">"დონატი"</string>
+  <!-- Spoken description for Unicode code point U+1F36A: "🍪" COOKIE -->
+  <string name="spoken_emoji_1F36A">"შინაური ნამცხვარი"</string>
+  <!-- Spoken description for Unicode code point U+1F36B: "🍫" CHOCOLATE BAR -->
+  <string name="spoken_emoji_1F36B">"შოკოლადის ფილა"</string>
+  <!-- Spoken description for Unicode code point U+1F36C: "🍬" CANDY -->
+  <string name="spoken_emoji_1F36C">"კანფეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F36D: "🍭" LOLLIPOP -->
+  <string name="spoken_emoji_1F36D">"შაქარყინული"</string>
+  <!-- Spoken description for Unicode code point U+1F36E: "🍮" CUSTARD -->
+  <string name="spoken_emoji_1F36E">"ნადუღის კრემი"</string>
+  <!-- Spoken description for Unicode code point U+1F36F: "🍯" HONEY POT -->
+  <string name="spoken_emoji_1F36F">"თაფლის ქოთანი"</string>
+  <!-- Spoken description for Unicode code point U+1F370: "🍰" SHORTCAKE -->
+  <string name="spoken_emoji_1F370">"ფხვიერი ნამცხვარი"</string>
+  <!-- Spoken description for Unicode code point U+1F371: "🍱" BENTO BOX -->
+  <string name="spoken_emoji_1F371">"ბენტოს ყუთი"</string>
+  <!-- Spoken description for Unicode code point U+1F372: "🍲" POT OF FOOD -->
+  <string name="spoken_emoji_1F372">"საკვების თასი"</string>
+  <!-- Spoken description for Unicode code point U+1F373: "🍳" COOKING -->
+  <string name="spoken_emoji_1F373">"სამზარეულო"</string>
+  <!-- Spoken description for Unicode code point U+1F374: "🍴" FORK AND KNIFE -->
+  <string name="spoken_emoji_1F374">"დანა-ჩანგალი"</string>
+  <!-- Spoken description for Unicode code point U+1F375: "🍵" TEACUP WITHOUT HANDLE -->
+  <string name="spoken_emoji_1F375">"ჩაის"</string>
+  <!-- Spoken description for Unicode code point U+1F376: "🍶" SAKE BOTTLE AND CUP -->
+  <string name="spoken_emoji_1F376">"საკეს ბოთლი და ჭიქა"</string>
+  <!-- Spoken description for Unicode code point U+1F377: "🍷" WINE GLASS -->
+  <string name="spoken_emoji_1F377">"ღვინის ჭიქა"</string>
+  <!-- Spoken description for Unicode code point U+1F378: "🍸" COCKTAIL GLASS -->
+  <string name="spoken_emoji_1F378">"კოქტეილის ჭიქა"</string>
+  <!-- Spoken description for Unicode code point U+1F379: "🍹" TROPICAL DRINK -->
+  <string name="spoken_emoji_1F379">"ტროპიკული სასმელი"</string>
+  <!-- Spoken description for Unicode code point U+1F37A: "🍺" BEER MUG -->
+  <string name="spoken_emoji_1F37A">"ლუდის კათხა"</string>
+  <!-- Spoken description for Unicode code point U+1F37B: "🍻" CLINKING BEER MUGS -->
+  <string name="spoken_emoji_1F37B">"ლუდის კათხების მიჭახუნება"</string>
+  <!-- Spoken description for Unicode code point U+1F37C: "🍼" BABY BOTTLE -->
+  <string name="spoken_emoji_1F37C">"ჩვილის ბოთლი"</string>
+  <!-- Spoken description for Unicode code point U+1F380: "🎀" RIBBON -->
+  <string name="spoken_emoji_1F380">"ლენტი"</string>
+  <!-- Spoken description for Unicode code point U+1F381: "🎁" WRAPPED PRESENT -->
+  <string name="spoken_emoji_1F381">"შეფუთული საჩუქარი"</string>
+  <!-- Spoken description for Unicode code point U+1F382: "🎂" BIRTHDAY CAKE -->
+  <string name="spoken_emoji_1F382">"დაბადების დღის ტორტი"</string>
+  <!-- Spoken description for Unicode code point U+1F383: "🎃" JACK-O-LANTERN -->
+  <string name="spoken_emoji_1F383">"ჯეკის ფარანი"</string>
+  <!-- Spoken description for Unicode code point U+1F384: "🎄" CHRISTMAS TREE -->
+  <string name="spoken_emoji_1F384">"ნაძვის ხე"</string>
+  <!-- Spoken description for Unicode code point U+1F385: "🎅" FATHER CHRISTMAS -->
+  <string name="spoken_emoji_1F385">"თოვლის ბაბუა"</string>
+  <!-- Spoken description for Unicode code point U+1F386: "🎆" FIREWORKS -->
+  <string name="spoken_emoji_1F386">"ფეიერვერკი"</string>
+  <!-- Spoken description for Unicode code point U+1F387: "🎇" FIREWORK SPARKLER -->
+  <string name="spoken_emoji_1F387">"ფეიერვერკის შუშხუნი"</string>
+  <!-- Spoken description for Unicode code point U+1F388: "🎈" BALLOON -->
+  <string name="spoken_emoji_1F388">"ბუშტი"</string>
+  <!-- Spoken description for Unicode code point U+1F389: "🎉" PARTY POPPER -->
+  <string name="spoken_emoji_1F389">"სადღესასწაულო სატკაცუნო"</string>
+  <!-- Spoken description for Unicode code point U+1F38A: "🎊" CONFETTI BALL -->
+  <string name="spoken_emoji_1F38A">"კონფეტის ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+1F38B: "🎋" TANABATA TREE -->
+  <string name="spoken_emoji_1F38B">"ტანაბატას ტოტი"</string>
+  <!-- Spoken description for Unicode code point U+1F38C: "🎌" CROSSED FLAGS -->
+  <string name="spoken_emoji_1F38C">"გადაჯვარედინებული დროშები"</string>
+  <!-- Spoken description for Unicode code point U+1F38D: "🎍" PINE DECORATION -->
+  <string name="spoken_emoji_1F38D">"ფიჭვის დეკორაცია"</string>
+  <!-- Spoken description for Unicode code point U+1F38E: "🎎" JAPANESE DOLLS -->
+  <string name="spoken_emoji_1F38E">"იაპონური სათამაშოები"</string>
+  <!-- Spoken description for Unicode code point U+1F38F: "🎏" CARP STREAMER -->
+  <string name="spoken_emoji_1F38F">"კარპას ალამი"</string>
+  <!-- Spoken description for Unicode code point U+1F390: "🎐" WIND CHIME -->
+  <string name="spoken_emoji_1F390">"ქარის ზარი"</string>
+  <!-- Spoken description for Unicode code point U+1F391: "🎑" MOON VIEWING CEREMONY -->
+  <string name="spoken_emoji_1F391">"მთვარის ჭვრეტის ცერემონიალი"</string>
+  <!-- Spoken description for Unicode code point U+1F392: "🎒" SCHOOL SATCHEL -->
+  <string name="spoken_emoji_1F392">"სკოლის ჩანთა"</string>
+  <!-- Spoken description for Unicode code point U+1F393: "🎓" GRADUATION CAP -->
+  <string name="spoken_emoji_1F393">"ოქსფორდის ქუდი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A0: "🎠" CAROUSEL HORSE -->
+  <string name="spoken_emoji_1F3A0">"კარუსელის ცხენი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A1: "🎡" FERRIS WHEEL -->
+  <string name="spoken_emoji_1F3A1">"ეშმაკის ბორბალი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A2: "🎢" ROLLER COASTER -->
+  <string name="spoken_emoji_1F3A2">"როლერკოსტერი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A3: "🎣" FISHING POLE AND FISH -->
+  <string name="spoken_emoji_1F3A3">"თევზი და ანკესი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A4: "🎤" MICROPHONE -->
+  <string name="spoken_emoji_1F3A4">"მიკროფონი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A5: "🎥" MOVIE CAMERA -->
+  <string name="spoken_emoji_1F3A5">"კინოკამერა"</string>
+  <!-- Spoken description for Unicode code point U+1F3A6: "🎦" CINEMA -->
+  <string name="spoken_emoji_1F3A6">"კინოთეატრი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A7: "🎧" HEADPHONE -->
+  <string name="spoken_emoji_1F3A7">"ყურსასმენი"</string>
+  <!-- Spoken description for Unicode code point U+1F3A8: "🎨" ARTIST PALETTE -->
+  <string name="spoken_emoji_1F3A8">"მხატვრის პალიტრა"</string>
+  <!-- Spoken description for Unicode code point U+1F3A9: "🎩" TOP HAT -->
+  <string name="spoken_emoji_1F3A9">"ცილინდრი"</string>
+  <!-- Spoken description for Unicode code point U+1F3AA: "🎪" CIRCUS TENT -->
+  <string name="spoken_emoji_1F3AA">"ცირკის კარავი"</string>
+  <!-- Spoken description for Unicode code point U+1F3AB: "🎫" TICKET -->
+  <string name="spoken_emoji_1F3AB">"ბილეთი"</string>
+  <!-- Spoken description for Unicode code point U+1F3AC: "🎬" CLAPPER BOARD -->
+  <string name="spoken_emoji_1F3AC">"კინოს ტკაცუნა"</string>
+  <!-- Spoken description for Unicode code point U+1F3AD: "🎭" PERFORMING ARTS -->
+  <string name="spoken_emoji_1F3AD">"საშემსრულებლო ხელოვნება"</string>
+  <!-- Spoken description for Unicode code point U+1F3AE: "🎮" VIDEO GAME -->
+  <string name="spoken_emoji_1F3AE">"ვიდეოთამაში"</string>
+  <!-- Spoken description for Unicode code point U+1F3AF: "🎯" DIRECT HIT -->
+  <string name="spoken_emoji_1F3AF">"მიზანში გარტყმა"</string>
+  <!-- Spoken description for Unicode code point U+1F3B0: "🎰" SLOT MACHINE -->
+  <string name="spoken_emoji_1F3B0">"სლოტ-ავტომატი"</string>
+  <!-- Spoken description for Unicode code point U+1F3B1: "🎱" BILLIARDS -->
+  <string name="spoken_emoji_1F3B1">"ბილიარდი"</string>
+  <!-- Spoken description for Unicode code point U+1F3B2: "🎲" GAME DIE -->
+  <string name="spoken_emoji_1F3B2">"კამათელი"</string>
+  <!-- Spoken description for Unicode code point U+1F3B3: "🎳" BOWLING -->
+  <string name="spoken_emoji_1F3B3">"ბოულინგი"</string>
+  <!-- Spoken description for Unicode code point U+1F3B4: "🎴" FLOWER PLAYING CARDS -->
+  <string name="spoken_emoji_1F3B4">"ჰანაფუდა"</string>
+  <!-- Spoken description for Unicode code point U+1F3B5: "🎵" MUSICAL NOTE -->
+  <string name="spoken_emoji_1F3B5">"მუსიკალური ნოტი"</string>
+  <!-- Spoken description for Unicode code point U+1F3B6: "🎶" MULTIPLE MUSICAL NOTES -->
+  <string name="spoken_emoji_1F3B6">"მუსიკალური ნოტები"</string>
+  <!-- Spoken description for Unicode code point U+1F3B7: "🎷" SAXOPHONE -->
+  <string name="spoken_emoji_1F3B7">"საქსოფონი"</string>
+  <!-- Spoken description for Unicode code point U+1F3B8: "🎸" GUITAR -->
+  <string name="spoken_emoji_1F3B8">"გიტარა"</string>
+  <!-- Spoken description for Unicode code point U+1F3B9: "🎹" MUSICAL KEYBOARD -->
+  <string name="spoken_emoji_1F3B9">"კლავიშებიანი მუსიკალური ინსტრუმენტი"</string>
+  <!-- Spoken description for Unicode code point U+1F3BA: "🎺" TRUMPET -->
+  <string name="spoken_emoji_1F3BA">"საყვირი"</string>
+  <!-- Spoken description for Unicode code point U+1F3BB: "🎻" VIOLIN -->
+  <string name="spoken_emoji_1F3BB">"ვიოლინო"</string>
+  <!-- Spoken description for Unicode code point U+1F3BC: "🎼" MUSICAL SCORE -->
+  <string name="spoken_emoji_1F3BC">"მუსიკალური ნოტები"</string>
+  <!-- Spoken description for Unicode code point U+1F3BD: "🎽" RUNNING SHIRT WITH SASH -->
+  <string name="spoken_emoji_1F3BD">"სარბენი მაისური ლენტით"</string>
+  <!-- Spoken description for Unicode code point U+1F3BE: "🎾" TENNIS RACQUET AND BALL -->
+  <string name="spoken_emoji_1F3BE">"ტენისის ჩოგანი და ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+1F3BF: "🎿" SKI AND SKI BOOT -->
+  <string name="spoken_emoji_1F3BF">"თხილამური და ჩექმა"</string>
+  <!-- Spoken description for Unicode code point U+1F3C0: "🏀" BASKETBALL AND HOOP -->
+  <string name="spoken_emoji_1F3C0">"ბურთი და კალათა"</string>
+  <!-- Spoken description for Unicode code point U+1F3C1: "🏁" CHEQUERED FLAG -->
+  <string name="spoken_emoji_1F3C1">"კუბოკრული დროშა"</string>
+  <!-- Spoken description for Unicode code point U+1F3C2: "🏂" SNOWBOARDER -->
+  <string name="spoken_emoji_1F3C2">"სნოუბორდერი"</string>
+  <!-- Spoken description for Unicode code point U+1F3C3: "🏃" RUNNER -->
+  <string name="spoken_emoji_1F3C3">"მორბენალი"</string>
+  <!-- Spoken description for Unicode code point U+1F3C4: "🏄" SURFER -->
+  <string name="spoken_emoji_1F3C4">"სერფერი"</string>
+  <!-- Spoken description for Unicode code point U+1F3C6: "🏆" TROPHY -->
+  <string name="spoken_emoji_1F3C6">"თასი"</string>
+  <!-- Spoken description for Unicode code point U+1F3C7: "🏇" HORSE RACING -->
+  <string name="spoken_emoji_1F3C7">"ცხენების დოღი"</string>
+  <!-- Spoken description for Unicode code point U+1F3C8: "🏈" AMERICAN FOOTBALL -->
+  <string name="spoken_emoji_1F3C8">"ამერიკული ფეხბურთის ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+1F3C9: "🏉" RUGBY FOOTBALL -->
+  <string name="spoken_emoji_1F3C9">"რაგბის ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+1F3CA: "🏊" SWIMMER -->
+  <string name="spoken_emoji_1F3CA">"მოცურავე"</string>
+  <!-- Spoken description for Unicode code point U+1F3E0: "🏠" HOUSE BUILDING -->
+  <string name="spoken_emoji_1F3E0">"სახლის შენება"</string>
+  <!-- Spoken description for Unicode code point U+1F3E1: "🏡" HOUSE WITH GARDEN -->
+  <string name="spoken_emoji_1F3E1">"სახლი ბაღით"</string>
+  <!-- Spoken description for Unicode code point U+1F3E2: "🏢" OFFICE BUILDING -->
+  <string name="spoken_emoji_1F3E2">"საოფისე შენობა"</string>
+  <!-- Spoken description for Unicode code point U+1F3E3: "🏣" JAPANESE POST OFFICE -->
+  <string name="spoken_emoji_1F3E3">"იაპონური ფოსტა"</string>
+  <!-- Spoken description for Unicode code point U+1F3E4: "🏤" EUROPEAN POST OFFICE -->
+  <string name="spoken_emoji_1F3E4">"ევროპული ფოსტა"</string>
+  <!-- Spoken description for Unicode code point U+1F3E5: "🏥" HOSPITAL -->
+  <string name="spoken_emoji_1F3E5">"საავადმყოფო"</string>
+  <!-- Spoken description for Unicode code point U+1F3E6: "🏦" BANK -->
+  <string name="spoken_emoji_1F3E6">"ბანკი"</string>
+  <!-- Spoken description for Unicode code point U+1F3E7: "🏧" AUTOMATED TELLER MACHINE -->
+  <string name="spoken_emoji_1F3E7">"ბანკომატი"</string>
+  <!-- Spoken description for Unicode code point U+1F3E8: "🏨" HOTEL -->
+  <string name="spoken_emoji_1F3E8">"სასტუმრო"</string>
+  <!-- Spoken description for Unicode code point U+1F3E9: "🏩" LOVE HOTEL -->
+  <string name="spoken_emoji_1F3E9">"სიყვარულის სასტუმრო"</string>
+  <!-- Spoken description for Unicode code point U+1F3EA: "🏪" CONVENIENCE STORE -->
+  <string name="spoken_emoji_1F3EA">"სადღეღამისო მაღაზია"</string>
+  <!-- Spoken description for Unicode code point U+1F3EB: "🏫" SCHOOL -->
+  <string name="spoken_emoji_1F3EB">"სკოლა"</string>
+  <!-- Spoken description for Unicode code point U+1F3EC: "🏬" DEPARTMENT STORE -->
+  <string name="spoken_emoji_1F3EC">"უნივერსალური მაღაზია"</string>
+  <!-- Spoken description for Unicode code point U+1F3ED: "🏭" FACTORY -->
+  <string name="spoken_emoji_1F3ED">"ქარხანა"</string>
+  <!-- Spoken description for Unicode code point U+1F3EE: "🏮" IZAKAYA LANTERN -->
+  <string name="spoken_emoji_1F3EE">"იზაკაიას ფარანი"</string>
+  <!-- Spoken description for Unicode code point U+1F3EF: "🏯" JAPANESE CASTLE -->
+  <string name="spoken_emoji_1F3EF">"იაპონური ციხე-სიმაგრე"</string>
+  <!-- Spoken description for Unicode code point U+1F3F0: "🏰" EUROPEAN CASTLE -->
+  <string name="spoken_emoji_1F3F0">"ევროპული ციხე-სიმაგრე"</string>
+  <!-- Spoken description for Unicode code point U+1F400: "🐀" RAT -->
+  <string name="spoken_emoji_1F400">"ვირთხა"</string>
+  <!-- Spoken description for Unicode code point U+1F401: "🐁" MOUSE -->
+  <string name="spoken_emoji_1F401">"თაგვი"</string>
+  <!-- Spoken description for Unicode code point U+1F402: "🐂" OX -->
+  <string name="spoken_emoji_1F402">"ხარი"</string>
+  <!-- Spoken description for Unicode code point U+1F403: "🐃" WATER BUFFALO -->
+  <string name="spoken_emoji_1F403">"აზიური კამეჩი"</string>
+  <!-- Spoken description for Unicode code point U+1F404: "🐄" COW -->
+  <string name="spoken_emoji_1F404">"ძროხა"</string>
+  <!-- Spoken description for Unicode code point U+1F406: "🐆" LEOPARD -->
+  <string name="spoken_emoji_1F406">"ლეოპარდი"</string>
+  <!-- Spoken description for Unicode code point U+1F407: "🐇" RABBIT -->
+  <string name="spoken_emoji_1F407">"კურდღელი"</string>
+  <!-- Spoken description for Unicode code point U+1F408: "🐈" CAT -->
+  <string name="spoken_emoji_1F408">"კატა"</string>
+  <!-- Spoken description for Unicode code point U+1F409: "🐉" DRAGON -->
+  <string name="spoken_emoji_1F409">"დრაკონი"</string>
+  <!-- Spoken description for Unicode code point U+1F40A: "🐊" CROCODILE -->
+  <string name="spoken_emoji_1F40A">"ნიანგი"</string>
+  <!-- Spoken description for Unicode code point U+1F40B: "🐋" WHALE -->
+  <string name="spoken_emoji_1F40B">"ვეშაპი"</string>
+  <!-- Spoken description for Unicode code point U+1F40C: "🐌" SNAIL -->
+  <string name="spoken_emoji_1F40C">"ლოკოკინა"</string>
+  <!-- Spoken description for Unicode code point U+1F40D: "🐍" SNAKE -->
+  <string name="spoken_emoji_1F40D">"გველი"</string>
+  <!-- Spoken description for Unicode code point U+1F40E: "🐎" HORSE -->
+  <string name="spoken_emoji_1F40E">"ცხენი"</string>
+  <!-- Spoken description for Unicode code point U+1F40F: "🐏" RAM -->
+  <string name="spoken_emoji_1F40F">"ვერძი"</string>
+  <!-- Spoken description for Unicode code point U+1F410: "🐐" GOAT -->
+  <string name="spoken_emoji_1F410">"თხა"</string>
+  <!-- Spoken description for Unicode code point U+1F411: "🐑" SHEEP -->
+  <string name="spoken_emoji_1F411">"ცხვარი"</string>
+  <!-- Spoken description for Unicode code point U+1F412: "🐒" MONKEY -->
+  <string name="spoken_emoji_1F412">"მაიმუნი"</string>
+  <!-- Spoken description for Unicode code point U+1F413: "🐓" ROOSTER -->
+  <string name="spoken_emoji_1F413">"მამალი"</string>
+  <!-- Spoken description for Unicode code point U+1F414: "🐔" CHICKEN -->
+  <string name="spoken_emoji_1F414">"ქათამი"</string>
+  <!-- Spoken description for Unicode code point U+1F415: "🐕" DOG -->
+  <string name="spoken_emoji_1F415">"ძაღლი"</string>
+  <!-- Spoken description for Unicode code point U+1F416: "🐖" PIG -->
+  <string name="spoken_emoji_1F416">"ღორი"</string>
+  <!-- Spoken description for Unicode code point U+1F417: "🐗" BOAR -->
+  <string name="spoken_emoji_1F417">"დათვი"</string>
+  <!-- Spoken description for Unicode code point U+1F418: "🐘" ELEPHANT -->
+  <string name="spoken_emoji_1F418">"სპილო"</string>
+  <!-- Spoken description for Unicode code point U+1F419: "🐙" OCTOPUS -->
+  <string name="spoken_emoji_1F419">"რვაფეხა"</string>
+  <!-- Spoken description for Unicode code point U+1F41A: "🐚" SPIRAL SHELL -->
+  <string name="spoken_emoji_1F41A">"სპირალური ნიჟარა"</string>
+  <!-- Spoken description for Unicode code point U+1F41B: "🐛" BUG -->
+  <string name="spoken_emoji_1F41B">"ხოჭო"</string>
+  <!-- Spoken description for Unicode code point U+1F41C: "🐜" ANT -->
+  <string name="spoken_emoji_1F41C">"ჭიანჭველა"</string>
+  <!-- Spoken description for Unicode code point U+1F41D: "🐝" HONEYBEE -->
+  <string name="spoken_emoji_1F41D">"ფუტკარი"</string>
+  <!-- Spoken description for Unicode code point U+1F41E: "🐞" LADY BEETLE -->
+  <string name="spoken_emoji_1F41E">"ჭიამაია"</string>
+  <!-- Spoken description for Unicode code point U+1F41F: "🐟" FISH -->
+  <string name="spoken_emoji_1F41F">"თევზი"</string>
+  <!-- Spoken description for Unicode code point U+1F420: "🐠" TROPICAL FISH -->
+  <string name="spoken_emoji_1F420">"ტროპიკული თევზი"</string>
+  <!-- Spoken description for Unicode code point U+1F421: "🐡" BLOWFISH -->
+  <string name="spoken_emoji_1F421">"ზღარბთევზა"</string>
+  <!-- Spoken description for Unicode code point U+1F422: "🐢" TURTLE -->
+  <string name="spoken_emoji_1F422">"კუ"</string>
+  <!-- Spoken description for Unicode code point U+1F423: "🐣" HATCHING CHICK -->
+  <string name="spoken_emoji_1F423">"წიწილა და ნაჭუჭი"</string>
+  <!-- Spoken description for Unicode code point U+1F424: "🐤" BABY CHICK -->
+  <string name="spoken_emoji_1F424">"წიწილა"</string>
+  <!-- Spoken description for Unicode code point U+1F425: "🐥" FRONT-FACING BABY CHICK -->
+  <string name="spoken_emoji_1F425">"წიწილას სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F426: "🐦" BIRD -->
+  <string name="spoken_emoji_1F426">"ჩიტი"</string>
+  <!-- Spoken description for Unicode code point U+1F427: "🐧" PENGUIN -->
+  <string name="spoken_emoji_1F427">"პინგვინი"</string>
+  <!-- Spoken description for Unicode code point U+1F428: "🐨" KOALA -->
+  <string name="spoken_emoji_1F428">"კოალა"</string>
+  <!-- Spoken description for Unicode code point U+1F429: "🐩" POODLE -->
+  <string name="spoken_emoji_1F429">"პუდელი"</string>
+  <!-- Spoken description for Unicode code point U+1F42A: "🐪" DROMEDARY CAMEL -->
+  <string name="spoken_emoji_1F42A">"ცალკუზა აქლემი"</string>
+  <!-- Spoken description for Unicode code point U+1F42B: "🐫" BACTRIAN CAMEL -->
+  <string name="spoken_emoji_1F42B">"ორკუზა აქლემი"</string>
+  <!-- Spoken description for Unicode code point U+1F42C: "🐬" DOLPHIN -->
+  <string name="spoken_emoji_1F42C">"დელფინი"</string>
+  <!-- Spoken description for Unicode code point U+1F42D: "🐭" MOUSE FACE -->
+  <string name="spoken_emoji_1F42D">"თაგვის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F42E: "🐮" COW FACE -->
+  <string name="spoken_emoji_1F42E">"ძროხის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F42F: "🐯" TIGER FACE -->
+  <string name="spoken_emoji_1F42F">"ვეფხვის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F430: "🐰" RABBIT FACE -->
+  <string name="spoken_emoji_1F430">"კურდღლის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F431: "🐱" CAT FACE -->
+  <string name="spoken_emoji_1F431">"კატის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F432: "🐲" DRAGON FACE -->
+  <string name="spoken_emoji_1F432">"დრაკონის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F433: "🐳" SPOUTING WHALE -->
+  <string name="spoken_emoji_1F433">"მჩქეფარე ვეშაპი"</string>
+  <!-- Spoken description for Unicode code point U+1F434: "🐴" HORSE FACE -->
+  <string name="spoken_emoji_1F434">"ცხენის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F435: "🐵" MONKEY FACE -->
+  <string name="spoken_emoji_1F435">"მაიმუნის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F436: "🐶" DOG FACE -->
+  <string name="spoken_emoji_1F436">"ძაღლის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F437: "🐷" PIG FACE -->
+  <string name="spoken_emoji_1F437">"ღორის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F438: "🐸" FROG FACE -->
+  <string name="spoken_emoji_1F438">"ბაყაყის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F439: "🐹" HAMSTER FACE -->
+  <string name="spoken_emoji_1F439">"ზაზუნას სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F43A: "🐺" WOLF FACE -->
+  <string name="spoken_emoji_1F43A">"მგლის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F43B: "🐻" BEAR FACE -->
+  <string name="spoken_emoji_1F43B">"დათვის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F43C: "🐼" PANDA FACE -->
+  <string name="spoken_emoji_1F43C">"პანდას სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F43D: "🐽" PIG NOSE -->
+  <string name="spoken_emoji_1F43D">"ღორის ცხვირი"</string>
+  <!-- Spoken description for Unicode code point U+1F43E: "🐾" PAW PRINTS -->
+  <string name="spoken_emoji_1F43E">"თათების კვალი"</string>
+  <!-- Spoken description for Unicode code point U+1F440: "👀" EYES -->
+  <string name="spoken_emoji_1F440">"თვალები"</string>
+  <!-- Spoken description for Unicode code point U+1F442: "👂" EAR -->
+  <string name="spoken_emoji_1F442">"ყური"</string>
+  <!-- Spoken description for Unicode code point U+1F443: "👃" NOSE -->
+  <string name="spoken_emoji_1F443">"ცხვირი"</string>
+  <!-- Spoken description for Unicode code point U+1F444: "👄" MOUTH -->
+  <string name="spoken_emoji_1F444">"პირი"</string>
+  <!-- Spoken description for Unicode code point U+1F445: "👅" TONGUE -->
+  <string name="spoken_emoji_1F445">"ენა"</string>
+  <!-- Spoken description for Unicode code point U+1F446: "👆" WHITE UP POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F446">"თეთრი ზევით მიმართული შეტრიალებული საჩვენებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F447: "👇" WHITE DOWN POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F447">"თეთრი ქვევით მიმართული შეტრიალებული საჩვენებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F448: "👈" WHITE LEFT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F448">"თეთრი მარცხნივ მიმართული შეტრიალებული საჩვენებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F449: "👉" WHITE RIGHT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F449">"თეთრი მარჯვნივ მიმართული შეტრიალებული საჩვენებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F44A: "👊" FISTED HAND SIGN -->
+  <string name="spoken_emoji_1F44A">"მომუშტული ხელი"</string>
+  <!-- Spoken description for Unicode code point U+1F44B: "👋" WAVING HAND SIGN -->
+  <string name="spoken_emoji_1F44B">"ხელის დაქნევა"</string>
+  <!-- Spoken description for Unicode code point U+1F44C: "👌" OK HAND SIGN -->
+  <string name="spoken_emoji_1F44C">"ხელის ნიშანი OK"</string>
+  <!-- Spoken description for Unicode code point U+1F44D: "👍" THUMBS UP SIGN -->
+  <string name="spoken_emoji_1F44D">"მაღლა აწეული ცერი"</string>
+  <!-- Spoken description for Unicode code point U+1F44E: "👎" THUMBS DOWN SIGN -->
+  <string name="spoken_emoji_1F44E">"დაბლა დაწეული ცერი"</string>
+  <!-- Spoken description for Unicode code point U+1F44F: "👏" CLAPPING HANDS SIGN -->
+  <string name="spoken_emoji_1F44F">"ტაშის დაკვრა"</string>
+  <!-- Spoken description for Unicode code point U+1F450: "👐" OPEN HANDS SIGN -->
+  <string name="spoken_emoji_1F450">"ღია ხელები"</string>
+  <!-- Spoken description for Unicode code point U+1F451: "👑" CROWN -->
+  <string name="spoken_emoji_1F451">"გვირგვინი"</string>
+  <!-- Spoken description for Unicode code point U+1F452: "👒" WOMANS HAT -->
+  <string name="spoken_emoji_1F452">"ქალის ქუდი"</string>
+  <!-- Spoken description for Unicode code point U+1F453: "👓" EYEGLASSES -->
+  <string name="spoken_emoji_1F453">"სათვალეები"</string>
+  <!-- Spoken description for Unicode code point U+1F454: "👔" NECKTIE -->
+  <string name="spoken_emoji_1F454">"ჰალსტუხი"</string>
+  <!-- Spoken description for Unicode code point U+1F455: "👕" T-SHIRT -->
+  <string name="spoken_emoji_1F455">"მაისური"</string>
+  <!-- Spoken description for Unicode code point U+1F456: "👖" JEANS -->
+  <string name="spoken_emoji_1F456">"ჯინსი"</string>
+  <!-- Spoken description for Unicode code point U+1F457: "👗" DRESS -->
+  <string name="spoken_emoji_1F457">"კაბა"</string>
+  <!-- Spoken description for Unicode code point U+1F458: "👘" KIMONO -->
+  <string name="spoken_emoji_1F458">"კიმონო"</string>
+  <!-- Spoken description for Unicode code point U+1F459: "👙" BIKINI -->
+  <string name="spoken_emoji_1F459">"ბიკინი"</string>
+  <!-- Spoken description for Unicode code point U+1F45A: "👚" WOMANS CLOTHES -->
+  <string name="spoken_emoji_1F45A">"ქალის ტანსაცმელი"</string>
+  <!-- Spoken description for Unicode code point U+1F45B: "👛" PURSE -->
+  <string name="spoken_emoji_1F45B">"საფულე"</string>
+  <!-- Spoken description for Unicode code point U+1F45C: "👜" HANDBAG -->
+  <string name="spoken_emoji_1F45C">"ხელჩანთა"</string>
+  <!-- Spoken description for Unicode code point U+1F45D: "👝" POUCH -->
+  <string name="spoken_emoji_1F45D">"ქისა"</string>
+  <!-- Spoken description for Unicode code point U+1F45E: "👞" MANS SHOE -->
+  <string name="spoken_emoji_1F45E">"კაცის ფეხსაცმელი"</string>
+  <!-- Spoken description for Unicode code point U+1F45F: "👟" ATHLETIC SHOE -->
+  <string name="spoken_emoji_1F45F">"სპორტული ფეხსაცმელი"</string>
+  <!-- Spoken description for Unicode code point U+1F460: "👠" HIGH-HEELED SHOE -->
+  <string name="spoken_emoji_1F460">"მაღალქუსლიანი ფეხსაცმელი"</string>
+  <!-- Spoken description for Unicode code point U+1F461: "👡" WOMANS SANDAL -->
+  <string name="spoken_emoji_1F461">"ქალის სანდალი"</string>
+  <!-- Spoken description for Unicode code point U+1F462: "👢" WOMANS BOOTS -->
+  <string name="spoken_emoji_1F462">"ქალის ჩექმა"</string>
+  <!-- Spoken description for Unicode code point U+1F463: "👣" FOOTPRINTS -->
+  <string name="spoken_emoji_1F463">"ფეხის კვალი"</string>
+  <!-- Spoken description for Unicode code point U+1F464: "👤" BUST IN SILHOUETTE -->
+  <string name="spoken_emoji_1F464">"ბიუსტი სილუეტში"</string>
+  <!-- Spoken description for Unicode code point U+1F465: "👥" BUSTS IN SILHOUETTE -->
+  <string name="spoken_emoji_1F465">"ბიუსეტები სილუეტში"</string>
+  <!-- Spoken description for Unicode code point U+1F466: "👦" BOY -->
+  <string name="spoken_emoji_1F466">"ბიჭი"</string>
+  <!-- Spoken description for Unicode code point U+1F467: "👧" GIRL -->
+  <string name="spoken_emoji_1F467">"გოგო"</string>
+  <!-- Spoken description for Unicode code point U+1F468: "👨" MAN -->
+  <string name="spoken_emoji_1F468">"კაცი"</string>
+  <!-- Spoken description for Unicode code point U+1F469: "👩" WOMAN -->
+  <string name="spoken_emoji_1F469">"ქალი"</string>
+  <!-- Spoken description for Unicode code point U+1F46A: "👪" FAMILY -->
+  <string name="spoken_emoji_1F46A">"ოჯახი"</string>
+  <!-- Spoken description for Unicode code point U+1F46B: "👫" MAN AND WOMAN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46B">"ხელჩაკიდებული ქალი და კაცი"</string>
+  <!-- Spoken description for Unicode code point U+1F46C: "👬" TWO MEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46C">"ხელჩაკიდებული ორი კაცი"</string>
+  <!-- Spoken description for Unicode code point U+1F46D: "👭" TWO WOMEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46D">"ხელჩაკიდებული ორი ქალი"</string>
+  <!-- Spoken description for Unicode code point U+1F46E: "👮" POLICE OFFICER -->
+  <string name="spoken_emoji_1F46E">"პოლიციელი"</string>
+  <!-- Spoken description for Unicode code point U+1F46F: "👯" WOMAN WITH BUNNY EARS -->
+  <string name="spoken_emoji_1F46F">"ქალი კურდღის ყურებით"</string>
+  <!-- Spoken description for Unicode code point U+1F470: "👰" BRIDE WITH VEIL -->
+  <string name="spoken_emoji_1F470">"პატარძალი პირბადით"</string>
+  <!-- Spoken description for Unicode code point U+1F471: "👱" PERSON WITH BLOND HAIR -->
+  <string name="spoken_emoji_1F471">"ქერათმიანი ადამიანი"</string>
+  <!-- Spoken description for Unicode code point U+1F472: "👲" MAN WITH GUA PI MAO -->
+  <string name="spoken_emoji_1F472">"კაცი გუა-პი-მაოს ქუდით"</string>
+  <!-- Spoken description for Unicode code point U+1F473: "👳" MAN WITH TURBAN -->
+  <string name="spoken_emoji_1F473">"კაცი ჩალმით"</string>
+  <!-- Spoken description for Unicode code point U+1F474: "👴" OLDER MAN -->
+  <string name="spoken_emoji_1F474">"ხანდაზმული ადამიანი"</string>
+  <!-- Spoken description for Unicode code point U+1F475: "👵" OLDER WOMAN -->
+  <string name="spoken_emoji_1F475">"ხანდაზმული ქალი"</string>
+  <!-- Spoken description for Unicode code point U+1F476: "👶" BABY -->
+  <string name="spoken_emoji_1F476">"ჩვილი"</string>
+  <!-- Spoken description for Unicode code point U+1F477: "👷" CONSTRUCTION WORKER -->
+  <string name="spoken_emoji_1F477">"მშენებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F478: "👸" PRINCESS -->
+  <string name="spoken_emoji_1F478">"პრინცესა"</string>
+  <!-- Spoken description for Unicode code point U+1F479: "👹" JAPANESE OGRE -->
+  <string name="spoken_emoji_1F479">"იაპონელი კაციჭამია"</string>
+  <!-- Spoken description for Unicode code point U+1F47A: "👺" JAPANESE GOBLIN -->
+  <string name="spoken_emoji_1F47A">"იაპონელი გობლინი"</string>
+  <!-- Spoken description for Unicode code point U+1F47B: "👻" GHOST -->
+  <string name="spoken_emoji_1F47B">"მოჩვენება"</string>
+  <!-- Spoken description for Unicode code point U+1F47C: "👼" BABY ANGEL -->
+  <string name="spoken_emoji_1F47C">"ჩვილი ანგელოზი"</string>
+  <!-- Spoken description for Unicode code point U+1F47D: "👽" EXTRATERRESTRIAL ALIEN -->
+  <string name="spoken_emoji_1F47D">"უცხოპლანეტელი"</string>
+  <!-- Spoken description for Unicode code point U+1F47E: "👾" ALIEN MONSTER -->
+  <string name="spoken_emoji_1F47E">"უცხოპლანეტელი მონსტრი"</string>
+  <!-- Spoken description for Unicode code point U+1F47F: "👿" IMP -->
+  <string name="spoken_emoji_1F47F">"ჭინკა"</string>
+  <!-- Spoken description for Unicode code point U+1F480: "💀" SKULL -->
+  <string name="spoken_emoji_1F480">"თავის ქალა"</string>
+  <!-- Spoken description for Unicode code point U+1F481: "💁" INFORMATION DESK PERSON -->
+  <string name="spoken_emoji_1F481">"ინფორმაციის პუნქტის თანამშრომელი"</string>
+  <!-- Spoken description for Unicode code point U+1F482: "💂" GUARDSMAN -->
+  <string name="spoken_emoji_1F482">"მცველი"</string>
+  <!-- Spoken description for Unicode code point U+1F483: "💃" DANCER -->
+  <string name="spoken_emoji_1F483">"მოცეკვავე"</string>
+  <!-- Spoken description for Unicode code point U+1F484: "💄" LIPSTICK -->
+  <string name="spoken_emoji_1F484">"პომადა"</string>
+  <!-- Spoken description for Unicode code point U+1F485: "💅" NAIL POLISH -->
+  <string name="spoken_emoji_1F485">"მანიკური"</string>
+  <!-- Spoken description for Unicode code point U+1F486: "💆" FACE MASSAGE -->
+  <string name="spoken_emoji_1F486">"სახის მასაჟი"</string>
+  <!-- Spoken description for Unicode code point U+1F487: "💇" HAIRCUT -->
+  <string name="spoken_emoji_1F487">"ვარცხნილობა"</string>
+  <!-- Spoken description for Unicode code point U+1F488: "💈" BARBER POLE -->
+  <string name="spoken_emoji_1F488">"დალაქის ბოძი"</string>
+  <!-- Spoken description for Unicode code point U+1F489: "💉" SYRINGE -->
+  <string name="spoken_emoji_1F489">"შპრიცი"</string>
+  <!-- Spoken description for Unicode code point U+1F48A: "💊" PILL -->
+  <string name="spoken_emoji_1F48A">"აბი"</string>
+  <!-- Spoken description for Unicode code point U+1F48B: "💋" KISS MARK -->
+  <string name="spoken_emoji_1F48B">"კოცნის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F48C: "💌" LOVE LETTER -->
+  <string name="spoken_emoji_1F48C">"სასიყვარულო წერილი"</string>
+  <!-- Spoken description for Unicode code point U+1F48D: "💍" RING -->
+  <string name="spoken_emoji_1F48D">"დარეკვა"</string>
+  <!-- Spoken description for Unicode code point U+1F48E: "💎" GEM STONE -->
+  <string name="spoken_emoji_1F48E">"ძვირფასი ქვა"</string>
+  <!-- Spoken description for Unicode code point U+1F48F: "💏" KISS -->
+  <string name="spoken_emoji_1F48F">"კოცნა"</string>
+  <!-- Spoken description for Unicode code point U+1F490: "💐" BOUQUET -->
+  <string name="spoken_emoji_1F490">"ბუკეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F491: "💑" COUPLE WITH HEART -->
+  <string name="spoken_emoji_1F491">"წყვილი გულით"</string>
+  <!-- Spoken description for Unicode code point U+1F492: "💒" WEDDING -->
+  <string name="spoken_emoji_1F492">"ქორწილი"</string>
+  <!-- Spoken description for Unicode code point U+1F493: "💓" BEATING HEART -->
+  <string name="spoken_emoji_1F493">"მფეთქავი გული"</string>
+  <!-- Spoken description for Unicode code point U+1F494: "💔" BROKEN HEART -->
+  <string name="spoken_emoji_1F494">"გატეხილი გული"</string>
+  <!-- Spoken description for Unicode code point U+1F495: "💕" TWO HEARTS -->
+  <string name="spoken_emoji_1F495">"ორი გული"</string>
+  <!-- Spoken description for Unicode code point U+1F496: "💖" SPARKLING HEART -->
+  <string name="spoken_emoji_1F496">"მღელვარე გული"</string>
+  <!-- Spoken description for Unicode code point U+1F497: "💗" GROWING HEART -->
+  <string name="spoken_emoji_1F497">"დიდი გული"</string>
+  <!-- Spoken description for Unicode code point U+1F498: "💘" HEART WITH ARROW -->
+  <string name="spoken_emoji_1F498">"გული ისრით"</string>
+  <!-- Spoken description for Unicode code point U+1F499: "💙" BLUE HEART -->
+  <string name="spoken_emoji_1F499">"ლურჯი გული"</string>
+  <!-- Spoken description for Unicode code point U+1F49A: "💚" GREEN HEART -->
+  <string name="spoken_emoji_1F49A">"მწვანე გული"</string>
+  <!-- Spoken description for Unicode code point U+1F49B: "💛" YELLOW HEART -->
+  <string name="spoken_emoji_1F49B">"ყვითელი გული"</string>
+  <!-- Spoken description for Unicode code point U+1F49C: "💜" PURPLE HEART -->
+  <string name="spoken_emoji_1F49C">"მეწამული გული"</string>
+  <!-- Spoken description for Unicode code point U+1F49D: "💝" HEART WITH RIBBON -->
+  <string name="spoken_emoji_1F49D">"გული ლენტით"</string>
+  <!-- Spoken description for Unicode code point U+1F49E: "💞" REVOLVING HEARTS -->
+  <string name="spoken_emoji_1F49E">"მბრუნავი გულები"</string>
+  <!-- Spoken description for Unicode code point U+1F49F: "💟" HEART DECORATION -->
+  <string name="spoken_emoji_1F49F">"გულის დეკორაცია"</string>
+  <!-- Spoken description for Unicode code point U+1F4A0: "💠" DIAMOND SHAPE WITH A DOT INSIDE -->
+  <string name="spoken_emoji_1F4A0">"ალმასის ფორმა შიგნით წერტილით"</string>
+  <!-- Spoken description for Unicode code point U+1F4A1: "💡" ELECTRIC LIGHT BULB -->
+  <string name="spoken_emoji_1F4A1">"ნათურა"</string>
+  <!-- Spoken description for Unicode code point U+1F4A2: "💢" ANGER SYMBOL -->
+  <string name="spoken_emoji_1F4A2">"სიბრაზის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4A3: "💣" BOMB -->
+  <string name="spoken_emoji_1F4A3">"ბომბი"</string>
+  <!-- Spoken description for Unicode code point U+1F4A4: "💤" SLEEPING SYMBOL -->
+  <string name="spoken_emoji_1F4A4">"ძილის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4A5: "💥" COLLISION SYMBOL -->
+  <string name="spoken_emoji_1F4A5">"დაჯახების სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4A6: "💦" SPLASHING SWEAT SYMBOL -->
+  <string name="spoken_emoji_1F4A6">"დაღვრილი ოფლის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4A7: "💧" DROPLET -->
+  <string name="spoken_emoji_1F4A7">"წვეთი"</string>
+  <!-- Spoken description for Unicode code point U+1F4A8: "💨" DASH SYMBOL -->
+  <string name="spoken_emoji_1F4A8">"შხაპის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4A9: "💩" PILE OF POO -->
+  <string name="spoken_emoji_1F4A9">"განავალი"</string>
+  <!-- Spoken description for Unicode code point U+1F4AA: "💪" FLEXED BICEPS -->
+  <string name="spoken_emoji_1F4AA">"დაჭიმული კუნთი"</string>
+  <!-- Spoken description for Unicode code point U+1F4AB: "💫" DIZZY SYMBOL -->
+  <string name="spoken_emoji_1F4AB">"თავბრუსხვევის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4AC: "💬" SPEECH BALLOON -->
+  <string name="spoken_emoji_1F4AC">"დიალოგის ბუშტი"</string>
+  <!-- Spoken description for Unicode code point U+1F4AD: "💭" THOUGHT BALLOON -->
+  <string name="spoken_emoji_1F4AD">"ფიქრის ბუშტი"</string>
+  <!-- Spoken description for Unicode code point U+1F4AE: "💮" WHITE FLOWER -->
+  <string name="spoken_emoji_1F4AE">"თეთრი ყვავილი"</string>
+  <!-- Spoken description for Unicode code point U+1F4AF: "💯" HUNDRED POINTS SYMBOL -->
+  <string name="spoken_emoji_1F4AF">"ასქულიანი სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4B0: "💰" MONEY BAG -->
+  <string name="spoken_emoji_1F4B0">"ფულის ჩანთა"</string>
+  <!-- Spoken description for Unicode code point U+1F4B1: "💱" CURRENCY EXCHANGE -->
+  <string name="spoken_emoji_1F4B1">"ვალუტის გაცვლა"</string>
+  <!-- Spoken description for Unicode code point U+1F4B2: "💲" HEAVY DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B2">"დოლარის მუქი ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F4B3: "💳" CREDIT CARD -->
+  <string name="spoken_emoji_1F4B3">"საკრედიტო ბარათი"</string>
+  <!-- Spoken description for Unicode code point U+1F4B4: "💴" BANKNOTE WITH YEN SIGN -->
+  <string name="spoken_emoji_1F4B4">"ბანკნოტი იენის ნიშნით"</string>
+  <!-- Spoken description for Unicode code point U+1F4B5: "💵" BANKNOTE WITH DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B5">"ბანკნოტი დოლარის ნიშნით"</string>
+  <!-- Spoken description for Unicode code point U+1F4B6: "💶" BANKNOTE WITH EURO SIGN -->
+  <string name="spoken_emoji_1F4B6">"ბანკნოტი ევროს ნიშნით"</string>
+  <!-- Spoken description for Unicode code point U+1F4B7: "💷" BANKNOTE WITH POUND SIGN -->
+  <string name="spoken_emoji_1F4B7">"ბანკნოტი ფუნტის ნიშნით"</string>
+  <!-- Spoken description for Unicode code point U+1F4B8: "💸" MONEY WITH WINGS -->
+  <string name="spoken_emoji_1F4B8">"ფრთიანი ფული"</string>
+  <!-- Spoken description for Unicode code point U+1F4B9: "💹" CHART WITH UPWARDS TREND AND YEN SIGN -->
+  <string name="spoken_emoji_1F4B9">"მატებადი დიაგრამა იენის ნიშნით"</string>
+  <!-- Spoken description for Unicode code point U+1F4BA: "💺" SEAT -->
+  <string name="spoken_emoji_1F4BA">"ადგილი"</string>
+  <!-- Spoken description for Unicode code point U+1F4BB: "💻" PERSONAL COMPUTER -->
+  <string name="spoken_emoji_1F4BB">"პერსონალური კომპიუტერი"</string>
+  <!-- Spoken description for Unicode code point U+1F4BC: "💼" BRIEFCASE -->
+  <string name="spoken_emoji_1F4BC">"ქეისი"</string>
+  <!-- Spoken description for Unicode code point U+1F4BD: "💽" MINIDISC -->
+  <string name="spoken_emoji_1F4BD">"Minidisc"</string>
+  <!-- Spoken description for Unicode code point U+1F4BE: "💾" FLOPPY DISK -->
+  <string name="spoken_emoji_1F4BE">"Floppy დიკსი"</string>
+  <!-- Spoken description for Unicode code point U+1F4BF: "💿" OPTICAL DISC -->
+  <string name="spoken_emoji_1F4BF">"ოპტიკური დისკი"</string>
+  <!-- Spoken description for Unicode code point U+1F4C0: "📀" DVD -->
+  <string name="spoken_emoji_1F4C0">"DVD"</string>
+  <!-- Spoken description for Unicode code point U+1F4C1: "📁" FILE FOLDER -->
+  <string name="spoken_emoji_1F4C1">"ფაილის საქაღალდე"</string>
+  <!-- Spoken description for Unicode code point U+1F4C2: "📂" OPEN FILE FOLDER -->
+  <string name="spoken_emoji_1F4C2">"ღია საქაღალდე"</string>
+  <!-- Spoken description for Unicode code point U+1F4C3: "📃" PAGE WITH CURL -->
+  <string name="spoken_emoji_1F4C3">"მოღუნული ქაღალდი"</string>
+  <!-- Spoken description for Unicode code point U+1F4C4: "📄" PAGE FACING UP -->
+  <string name="spoken_emoji_1F4C4">"გვერდი პირაღმა"</string>
+  <!-- Spoken description for Unicode code point U+1F4C5: "📅" CALENDAR -->
+  <string name="spoken_emoji_1F4C5">"კალენდარი"</string>
+  <!-- Spoken description for Unicode code point U+1F4C6: "📆" TEAR-OFF CALENDAR -->
+  <string name="spoken_emoji_1F4C6">"მოსახევი კალენდარი"</string>
+  <!-- Spoken description for Unicode code point U+1F4C7: "📇" CARD INDEX -->
+  <string name="spoken_emoji_1F4C7">"ბარათების ინდექსი"</string>
+  <!-- Spoken description for Unicode code point U+1F4C8: "📈" CHART WITH UPWARDS TREND -->
+  <string name="spoken_emoji_1F4C8">"მატებადი დიაგრამა"</string>
+  <!-- Spoken description for Unicode code point U+1F4C9: "📉" CHART WITH DOWNWARDS TREND -->
+  <string name="spoken_emoji_1F4C9">"კლებადი დიაგრამა"</string>
+  <!-- Spoken description for Unicode code point U+1F4CA: "📊" BAR CHART -->
+  <string name="spoken_emoji_1F4CA">"სვეტებიანი დიაგრამა"</string>
+  <!-- Spoken description for Unicode code point U+1F4CB: "📋" CLIPBOARD -->
+  <string name="spoken_emoji_1F4CB">"ფურცლის სამაგრი დაფა"</string>
+  <!-- Spoken description for Unicode code point U+1F4CC: "📌" PUSHPIN -->
+  <string name="spoken_emoji_1F4CC">"საკანცელარიო ჭიკარტი"</string>
+  <!-- Spoken description for Unicode code point U+1F4CD: "📍" ROUND PUSHPIN -->
+  <string name="spoken_emoji_1F4CD">"მომრგვალებული ჭიკარტი"</string>
+  <!-- Spoken description for Unicode code point U+1F4CE: "📎" PAPERCLIP -->
+  <string name="spoken_emoji_1F4CE">"ფურცლის საკინძი"</string>
+  <!-- Spoken description for Unicode code point U+1F4CF: "📏" STRAIGHT RULER -->
+  <string name="spoken_emoji_1F4CF">"სწორი სახაზავი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D0: "📐" TRIANGULAR RULER -->
+  <string name="spoken_emoji_1F4D0">"სამკუთხა სახაზავი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D1: "📑" BOOKMARK TABS -->
+  <string name="spoken_emoji_1F4D1">"სანიშნის ყურები"</string>
+  <!-- Spoken description for Unicode code point U+1F4D2: "📒" LEDGER -->
+  <string name="spoken_emoji_1F4D2">"დავთარი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D3: "📓" NOTEBOOK -->
+  <string name="spoken_emoji_1F4D3">"რვეული"</string>
+  <!-- Spoken description for Unicode code point U+1F4D4: "📔" NOTEBOOK WITH DECORATIVE COVER -->
+  <string name="spoken_emoji_1F4D4">"რვეული დეკორატიული ყდით"</string>
+  <!-- Spoken description for Unicode code point U+1F4D5: "📕" CLOSED BOOK -->
+  <string name="spoken_emoji_1F4D5">"დახურული წიგნი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D6: "📖" OPEN BOOK -->
+  <string name="spoken_emoji_1F4D6">"ღია წიგნი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D7: "📗" GREEN BOOK -->
+  <string name="spoken_emoji_1F4D7">"მწვანე წიგნი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D8: "📘" BLUE BOOK -->
+  <string name="spoken_emoji_1F4D8">"ლურჯი წიგნი"</string>
+  <!-- Spoken description for Unicode code point U+1F4D9: "📙" ORANGE BOOK -->
+  <string name="spoken_emoji_1F4D9">"ნარინჯისფერი წიგნი"</string>
+  <!-- Spoken description for Unicode code point U+1F4DA: "📚" BOOKS -->
+  <string name="spoken_emoji_1F4DA">"წიგნები"</string>
+  <!-- Spoken description for Unicode code point U+1F4DB: "📛" NAME BADGE -->
+  <string name="spoken_emoji_1F4DB">"ბეჯი"</string>
+  <!-- Spoken description for Unicode code point U+1F4DC: "📜" SCROLL -->
+  <string name="spoken_emoji_1F4DC">"გრაგნილი"</string>
+  <!-- Spoken description for Unicode code point U+1F4DD: "📝" MEMO -->
+  <string name="spoken_emoji_1F4DD">"ჩანაწერი"</string>
+  <!-- Spoken description for Unicode code point U+1F4DE: "📞" TELEPHONE RECEIVER -->
+  <string name="spoken_emoji_1F4DE">"ყურმილი"</string>
+  <!-- Spoken description for Unicode code point U+1F4DF: "📟" PAGER -->
+  <string name="spoken_emoji_1F4DF">"პეიჯერი"</string>
+  <!-- Spoken description for Unicode code point U+1F4E0: "📠" FAX MACHINE -->
+  <string name="spoken_emoji_1F4E0">"ფაქსის აპარატი"</string>
+  <!-- Spoken description for Unicode code point U+1F4E1: "📡" SATELLITE ANTENNA -->
+  <string name="spoken_emoji_1F4E1">"სატელიტური ანტენა"</string>
+  <!-- Spoken description for Unicode code point U+1F4E2: "📢" PUBLIC ADDRESS LOUDSPEAKER -->
+  <string name="spoken_emoji_1F4E2">"რუპორი"</string>
+  <!-- Spoken description for Unicode code point U+1F4E3: "📣" CHEERING MEGAPHONE -->
+  <string name="spoken_emoji_1F4E3">"გამამხნევებელი მეგაფონი"</string>
+  <!-- Spoken description for Unicode code point U+1F4E4: "📤" OUTBOX TRAY -->
+  <string name="spoken_emoji_1F4E4">"გამავალ წერილთა სათავსო"</string>
+  <!-- Spoken description for Unicode code point U+1F4E5: "📥" INBOX TRAY -->
+  <string name="spoken_emoji_1F4E5">"შემოსულების სათავსო"</string>
+  <!-- Spoken description for Unicode code point U+1F4E6: "📦" PACKAGE -->
+  <string name="spoken_emoji_1F4E6">"ამანათი"</string>
+  <!-- Spoken description for Unicode code point U+1F4E7: "📧" E-MAIL SYMBOL -->
+  <string name="spoken_emoji_1F4E7">"ელფოსტის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F4E8: "📨" INCOMING ENVELOPE -->
+  <string name="spoken_emoji_1F4E8">"შემომავალი კონვერტი"</string>
+  <!-- Spoken description for Unicode code point U+1F4E9: "📩" ENVELOPE WITH DOWNWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F4E9">"კონვერტი ქვედა ისრით ზევით"</string>
+  <!-- Spoken description for Unicode code point U+1F4EA: "📪" CLOSED MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4EA">"დახურული საფოსტო ყუთი დაშვებული ალმით"</string>
+  <!-- Spoken description for Unicode code point U+1F4EB: "📫" CLOSED MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EB">"დახურული საფოსტო ყუთი აღმართული ალმით"</string>
+  <!-- Spoken description for Unicode code point U+1F4EC: "📬" OPEN MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EC">"ღია საფოსტო ყუთი აღმართული ალმით"</string>
+  <!-- Spoken description for Unicode code point U+1F4ED: "📭" OPEN MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4ED">"ღია საფოსტო ყუთი დაშვებული ალმით"</string>
+  <!-- Spoken description for Unicode code point U+1F4EE: "📮" POSTBOX -->
+  <string name="spoken_emoji_1F4EE">"საფოსტო ყუთი"</string>
+  <!-- Spoken description for Unicode code point U+1F4EF: "📯" POSTAL HORN -->
+  <string name="spoken_emoji_1F4EF">"საფოსტო საყვირი"</string>
+  <!-- Spoken description for Unicode code point U+1F4F0: "📰" NEWSPAPER -->
+  <string name="spoken_emoji_1F4F0">"გაზეთი"</string>
+  <!-- Spoken description for Unicode code point U+1F4F1: "📱" MOBILE PHONE -->
+  <string name="spoken_emoji_1F4F1">"მობილური ტელეფონი"</string>
+  <!-- Spoken description for Unicode code point U+1F4F2: "📲" MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT -->
+  <string name="spoken_emoji_1F4F2">"მობილური ტელეფონი მარჯვნივ მიმართული ისრით მარცხნივ"</string>
+  <!-- Spoken description for Unicode code point U+1F4F3: "📳" VIBRATION MODE -->
+  <string name="spoken_emoji_1F4F3">"ვიბრაციის რეჟიმი"</string>
+  <!-- Spoken description for Unicode code point U+1F4F4: "📴" MOBILE PHONE OFF -->
+  <string name="spoken_emoji_1F4F4">"მობილური ტელეფონის გამორთვა"</string>
+  <!-- Spoken description for Unicode code point U+1F4F5: "📵" NO MOBILE PHONES -->
+  <string name="spoken_emoji_1F4F5">"მობილური ტელეფონები აკრძალულია"</string>
+  <!-- Spoken description for Unicode code point U+1F4F6: "📶" ANTENNA WITH BARS -->
+  <string name="spoken_emoji_1F4F6">"ანტენა სვეტებით"</string>
+  <!-- Spoken description for Unicode code point U+1F4F7: "📷" CAMERA -->
+  <string name="spoken_emoji_1F4F7">"ფოტოაპარატი"</string>
+  <!-- Spoken description for Unicode code point U+1F4F9: "📹" VIDEO CAMERA -->
+  <string name="spoken_emoji_1F4F9">"ვიდეოკამერა"</string>
+  <!-- Spoken description for Unicode code point U+1F4FA: "📺" TELEVISION -->
+  <string name="spoken_emoji_1F4FA">"ტელევიზია"</string>
+  <!-- Spoken description for Unicode code point U+1F4FB: "📻" RADIO -->
+  <string name="spoken_emoji_1F4FB">"რადიო"</string>
+  <!-- Spoken description for Unicode code point U+1F4FC: "📼" VIDEOCASSETTE -->
+  <string name="spoken_emoji_1F4FC">"ვიდეოკასეტა"</string>
+  <!-- Spoken description for Unicode code point U+1F500: "🔀" TWISTED RIGHTWARDS ARROWS -->
+  <string name="spoken_emoji_1F500">"გადაჯვარედინებული მარჯვნივ მიმართული ისრები"</string>
+  <!-- Spoken description for Unicode code point U+1F501: "🔁" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F501">"საათის მიმართულებით მარჯვენა და მარცხენა ღია წრიული ისრები"</string>
+  <!-- Spoken description for Unicode code point U+1F502: "🔂" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY -->
+  <string name="spoken_emoji_1F502">"საათის მიმართულებით მარჯვენა და მარცხენა ღია წრიული ისრები, ერთიანით წრეში"</string>
+  <!-- Spoken description for Unicode code point U+1F503: "🔃" CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F503">"საათის მიმართულებით ქვედა და ზედა ღია წრიული ისრები"</string>
+  <!-- Spoken description for Unicode code point U+1F504: "🔄" ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F504">"საათის საწინააღმდეგო მიმართულებით ქვედა და ზედა ღია წრიული ისრები"</string>
+  <!-- Spoken description for Unicode code point U+1F505: "🔅" LOW BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F505">"დაბალი სიკაშკაშის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F506: "🔆" HIGH BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F506">"მაღალი სიკაშკაშის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F507: "🔇" SPEAKER WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F507">"ხაზგადასმული სპიკერი"</string>
+  <!-- Spoken description for Unicode code point U+1F508: "🔈" SPEAKER -->
+  <string name="spoken_emoji_1F508">"სპიკერი"</string>
+  <!-- Spoken description for Unicode code point U+1F509: "🔉" SPEAKER WITH ONE SOUND WAVE -->
+  <string name="spoken_emoji_1F509">"სპიკერი ხმის ერთი ტალღით"</string>
+  <!-- Spoken description for Unicode code point U+1F50A: "🔊" SPEAKER WITH THREE SOUND WAVES -->
+  <string name="spoken_emoji_1F50A">"სპიკერი ხმის სამი ტალღით"</string>
+  <!-- Spoken description for Unicode code point U+1F50B: "🔋" BATTERY -->
+  <string name="spoken_emoji_1F50B">"ბატარეა"</string>
+  <!-- Spoken description for Unicode code point U+1F50C: "🔌" ELECTRIC PLUG -->
+  <string name="spoken_emoji_1F50C">"ელექტრონული შესაერთებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F50D: "🔍" LEFT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50D">"მარცხნივ მიმართული გამადიდებელი ლუპა"</string>
+  <!-- Spoken description for Unicode code point U+1F50E: "🔎" RIGHT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50E">"მარჯვნივ მიმართული გამადიდებელი ლუპა"</string>
+  <!-- Spoken description for Unicode code point U+1F50F: "🔏" LOCK WITH INK PEN -->
+  <string name="spoken_emoji_1F50F">"საკეტი მელნის კალმით"</string>
+  <!-- Spoken description for Unicode code point U+1F510: "🔐" CLOSED LOCK WITH KEY -->
+  <string name="spoken_emoji_1F510">"დახურული საკეტი გასაღებით"</string>
+  <!-- Spoken description for Unicode code point U+1F511: "🔑" KEY -->
+  <string name="spoken_emoji_1F511">"გასაღები"</string>
+  <!-- Spoken description for Unicode code point U+1F512: "🔒" LOCK -->
+  <string name="spoken_emoji_1F512">"საკეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F513: "🔓" OPEN LOCK -->
+  <string name="spoken_emoji_1F513">"ღია საკეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F514: "🔔" BELL -->
+  <string name="spoken_emoji_1F514">"ზარი"</string>
+  <!-- Spoken description for Unicode code point U+1F515: "🔕" BELL WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F515">"ხაზგადასმული ზარი"</string>
+  <!-- Spoken description for Unicode code point U+1F516: "🔖" BOOKMARK -->
+  <string name="spoken_emoji_1F516">"სანიშნე"</string>
+  <!-- Spoken description for Unicode code point U+1F517: "🔗" LINK SYMBOL -->
+  <string name="spoken_emoji_1F517">"ბმულის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F518: "🔘" RADIO BUTTON -->
+  <string name="spoken_emoji_1F518">"არჩევანის ღილაკი"</string>
+  <!-- Spoken description for Unicode code point U+1F519: "🔙" BACK WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F519">"Back მარცხენა ისრით ზევით"</string>
+  <!-- Spoken description for Unicode code point U+1F51A: "🔚" END WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51A">"End მარცხენა ისრით ზევით"</string>
+  <!-- Spoken description for Unicode code point U+1F51B: "🔛" ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE -->
+  <string name="spoken_emoji_1F51B">"On ძახილის ნიშნით, მარცხენა მარჯვენა ისრით ზევით"</string>
+  <!-- Spoken description for Unicode code point U+1F51C: "🔜" SOON WITH RIGHTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51C">"Soon მარჯვენა ისრით ზევით"</string>
+  <!-- Spoken description for Unicode code point U+1F51D: "🔝" TOP WITH UPWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51D">"Top ზედა ისრით ზევით"</string>
+  <!-- Spoken description for Unicode code point U+1F51E: "🔞" NO ONE UNDER EIGHTEEN SYMBOL -->
+  <string name="spoken_emoji_1F51E">"18 წლამდე აკრძალვის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F51F: "🔟" KEYCAP TEN -->
+  <string name="spoken_emoji_1F51F">"კლავიში ათი"</string>
+  <!-- Spoken description for Unicode code point U+1F520: "🔠" INPUT SYMBOL FOR LATIN CAPITAL LETTERS -->
+  <string name="spoken_emoji_1F520">"ლათინური დიდი ასოების შეყვანის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F521: "🔡" INPUT SYMBOL FOR LATIN SMALL LETTERS -->
+  <string name="spoken_emoji_1F521">"ლათინური პატარა ასოების შეყვანის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F522: "🔢" INPUT SYMBOL FOR NUMBERS -->
+  <string name="spoken_emoji_1F522">"რიცხვების შეყვანის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F523: "🔣" INPUT SYMBOL FOR SYMBOLS -->
+  <string name="spoken_emoji_1F523">"სიმბოლოთა შეყვანის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F524: "🔤" INPUT SYMBOL FOR LATIN LETTERS -->
+  <string name="spoken_emoji_1F524">"ლათინური ასოების შეყვანის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F525: "🔥" FIRE -->
+  <string name="spoken_emoji_1F525">"ხანძარი"</string>
+  <!-- Spoken description for Unicode code point U+1F526: "🔦" ELECTRIC TORCH -->
+  <string name="spoken_emoji_1F526">"ელექტრო ლამპარი"</string>
+  <!-- Spoken description for Unicode code point U+1F527: "🔧" WRENCH -->
+  <string name="spoken_emoji_1F527">"ქანჩი"</string>
+  <!-- Spoken description for Unicode code point U+1F528: "🔨" HAMMER -->
+  <string name="spoken_emoji_1F528">"ჩაქუჩი"</string>
+  <!-- Spoken description for Unicode code point U+1F529: "🔩" NUT AND BOLT -->
+  <string name="spoken_emoji_1F529">"თხილი და სამტვრევი"</string>
+  <!-- Spoken description for Unicode code point U+1F52A: "🔪" HOCHO -->
+  <string name="spoken_emoji_1F52A">"ჰოჩოს დანა"</string>
+  <!-- Spoken description for Unicode code point U+1F52B: "🔫" PISTOL -->
+  <string name="spoken_emoji_1F52B">"პისტოლეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F52C: "🔬" MICROSCOPE -->
+  <string name="spoken_emoji_1F52C">"მიკროსკოპი"</string>
+  <!-- Spoken description for Unicode code point U+1F52D: "🔭" TELESCOPE -->
+  <string name="spoken_emoji_1F52D">"ტელესკოპი"</string>
+  <!-- Spoken description for Unicode code point U+1F52E: "🔮" CRYSTAL BALL -->
+  <string name="spoken_emoji_1F52E">"კრისტალის ბურთი"</string>
+  <!-- Spoken description for Unicode code point U+1F52F: "🔯" SIX POINTED STAR WITH MIDDLE DOT -->
+  <string name="spoken_emoji_1F52F">"ექვსქიმა ვარსკვლავი შუა წერტილით"</string>
+  <!-- Spoken description for Unicode code point U+1F530: "🔰" JAPANESE SYMBOL FOR BEGINNER -->
+  <string name="spoken_emoji_1F530">"დამწყების იაპონური სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F531: "🔱" TRIDENT EMBLEM -->
+  <string name="spoken_emoji_1F531">"სამკაპის ემბლემა"</string>
+  <!-- Spoken description for Unicode code point U+1F532: "🔲" BLACK SQUARE BUTTON -->
+  <string name="spoken_emoji_1F532">"შავი კვადრატული ღილაკი"</string>
+  <!-- Spoken description for Unicode code point U+1F533: "🔳" WHITE SQUARE BUTTON -->
+  <string name="spoken_emoji_1F533">"თეთრი კვადრატული ღილაკი"</string>
+  <!-- Spoken description for Unicode code point U+1F534: "🔴" LARGE RED CIRCLE -->
+  <string name="spoken_emoji_1F534">"დიდი წითელი წრე"</string>
+  <!-- Spoken description for Unicode code point U+1F535: "🔵" LARGE BLUE CIRCLE -->
+  <string name="spoken_emoji_1F535">"დიდი ლურჯი წრე"</string>
+  <!-- Spoken description for Unicode code point U+1F536: "🔶" LARGE ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F536">"დიდი ნარინჯისფერი ალმასი"</string>
+  <!-- Spoken description for Unicode code point U+1F537: "🔷" LARGE BLUE DIAMOND -->
+  <string name="spoken_emoji_1F537">"დიდი ლურჯი ალმასი"</string>
+  <!-- Spoken description for Unicode code point U+1F538: "🔸" SMALL ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F538">"პატარა ნარინჯისფერი ალმასი"</string>
+  <!-- Spoken description for Unicode code point U+1F539: "🔹" SMALL BLUE DIAMOND -->
+  <string name="spoken_emoji_1F539">"პატარა ლურჯი ალმასი"</string>
+  <!-- Spoken description for Unicode code point U+1F53A: "🔺" UP-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53A">"ზევით მიმართული წითელი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+1F53B: "🔻" DOWN-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53B">"ქვევით მიმართული წითელი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+1F53C: "🔼" UP-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53C">"ზევით მიმართული პატარა წითელი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+1F53D: "🔽" DOWN-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53D">"ქვევით მიმართული პატარა წითელი სამკუთხედი"</string>
+  <!-- Spoken description for Unicode code point U+1F550: "🕐" CLOCK FACE ONE OCLOCK -->
+  <string name="spoken_emoji_1F550">"საათი, რომელიც აჩვენებს პირველ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F551: "🕑" CLOCK FACE TWO OCLOCK -->
+  <string name="spoken_emoji_1F551">"საათი, რომელიც აჩვენებს ორ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F552: "🕒" CLOCK FACE THREE OCLOCK -->
+  <string name="spoken_emoji_1F552">"საათი, რომელიც აჩვენებს სამ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F553: "🕓" CLOCK FACE FOUR OCLOCK -->
+  <string name="spoken_emoji_1F553">"საათი, რომელიც აჩვენებს ოთხ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F554: "🕔" CLOCK FACE FIVE OCLOCK -->
+  <string name="spoken_emoji_1F554">"საათი, რომელიც აჩვენებს ხუთ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F555: "🕕" CLOCK FACE SIX OCLOCK -->
+  <string name="spoken_emoji_1F555">"საათი, რომელიც აჩვენებს ექვს საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F556: "🕖" CLOCK FACE SEVEN OCLOCK -->
+  <string name="spoken_emoji_1F556">"საათი, რომელიც აჩვენებს შვიდ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F557: "🕗" CLOCK FACE EIGHT OCLOCK -->
+  <string name="spoken_emoji_1F557">"საათი, რომელიც აჩვენებს რვა საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F558: "🕘" CLOCK FACE NINE OCLOCK -->
+  <string name="spoken_emoji_1F558">"საათი, რომელიც აჩვენებს ცხრა საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F559: "🕙" CLOCK FACE TEN OCLOCK -->
+  <string name="spoken_emoji_1F559">"საათი, რომელიც აჩვენებს ათ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F55A: "🕚" CLOCK FACE ELEVEN OCLOCK -->
+  <string name="spoken_emoji_1F55A">"საათი, რომელიც აჩვენებს თერთმეტ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F55B: "🕛" CLOCK FACE TWELVE OCLOCK -->
+  <string name="spoken_emoji_1F55B">"საათი, რომელიც აჩვენებს თორმეტ საათს"</string>
+  <!-- Spoken description for Unicode code point U+1F55C: "🕜" CLOCK FACE ONE-THIRTY -->
+  <string name="spoken_emoji_1F55C">"საათი, რომელიც აჩვენებს ორის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F55D: "🕝" CLOCK FACE TWO-THIRTY -->
+  <string name="spoken_emoji_1F55D">"საათი, რომელიც აჩვენებს სამის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F55E: "🕞" CLOCK FACE THREE-THIRTY -->
+  <string name="spoken_emoji_1F55E">"საათი, რომელიც აჩვენებს ოთხის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F55F: "🕟" CLOCK FACE FOUR-THIRTY -->
+  <string name="spoken_emoji_1F55F">"საათი, რომელიც აჩვენებს ხუთის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F560: "🕠" CLOCK FACE FIVE-THIRTY -->
+  <string name="spoken_emoji_1F560">"საათი, რომელიც აჩვენებს ექვსის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F561: "🕡" CLOCK FACE SIX-THIRTY -->
+  <string name="spoken_emoji_1F561">"საათი, რომელიც აჩვენებს შვიდის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F562: "🕢" CLOCK FACE SEVEN-THIRTY -->
+  <string name="spoken_emoji_1F562">"საათი, რომელიც აჩვენებს რვის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F563: "🕣" CLOCK FACE EIGHT-THIRTY -->
+  <string name="spoken_emoji_1F563">"საათი, რომელიც აჩვენებს ცხრის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F564: "🕤" CLOCK FACE NINE-THIRTY -->
+  <string name="spoken_emoji_1F564">"საათი, რომელიც აჩვენებს ათის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F565: "🕥" CLOCK FACE TEN-THIRTY -->
+  <string name="spoken_emoji_1F565">"საათი, რომელიც აჩვენებს თერთმეტის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F566: "🕦" CLOCK FACE ELEVEN-THIRTY -->
+  <string name="spoken_emoji_1F566">"საათი, რომელიც აჩვენებს თორმეტის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F567: "🕧" CLOCK FACE TWELVE-THIRTY -->
+  <string name="spoken_emoji_1F567">"საათი, რომელიც აჩვენებს პირველის ნახევარს"</string>
+  <!-- Spoken description for Unicode code point U+1F5FB: "🗻" MOUNT FUJI -->
+  <string name="spoken_emoji_1F5FB">"ფუძიამა"</string>
+  <!-- Spoken description for Unicode code point U+1F5FC: "🗼" TOKYO TOWER -->
+  <string name="spoken_emoji_1F5FC">"ტოკიოს ანძა"</string>
+  <!-- Spoken description for Unicode code point U+1F5FD: "🗽" STATUE OF LIBERTY -->
+  <string name="spoken_emoji_1F5FD">"თავისუფლების ქანდაკება"</string>
+  <!-- Spoken description for Unicode code point U+1F5FE: "🗾" SILHOUETTE OF JAPAN -->
+  <string name="spoken_emoji_1F5FE">"იაპონიის სილუეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F5FF: "🗿" MOYAI -->
+  <string name="spoken_emoji_1F5FF">"მოიანის ქვის ქანდაკება"</string>
+  <!-- Spoken description for Unicode code point U+1F600: "😀" GRINNING FACE -->
+  <string name="spoken_emoji_1F600">"სასტიკი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F601: "😁" GRINNING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F601">"სასტიკი სახე მომღიმარი თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F602: "😂" FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F602">"სახე სიხარულის ცრემლებით"</string>
+  <!-- Spoken description for Unicode code point U+1F603: "😃" SMILING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F603">"მომღიმარი პირდაღებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F604: "😄" SMILING FACE WITH OPEN MOUTH AND SMILING EYES -->
+  <string name="spoken_emoji_1F604">"მომღიმარი სახე, ღია პირით და მოცინარი თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F605: "😅" SMILING FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F605">"მომღიმარი სახე, ღია პირით და ცივი ოფლით"</string>
+  <!-- Spoken description for Unicode code point U+1F606: "😆" SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F606">"მომღიმარი სახე, ღია პირით და კარგად დახუჭული თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F607: "😇" SMILING FACE WITH HALO -->
+  <string name="spoken_emoji_1F607">"მომღიმარი სახე მნათი წრით"</string>
+  <!-- Spoken description for Unicode code point U+1F608: "😈" SMILING FACE WITH HORNS -->
+  <string name="spoken_emoji_1F608">"მომღიმარი სახე რქებით"</string>
+  <!-- Spoken description for Unicode code point U+1F609: "😉" WINKING FACE -->
+  <string name="spoken_emoji_1F609">"თვალის ჩაკვრა"</string>
+  <!-- Spoken description for Unicode code point U+1F60A: "😊" SMILING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F60A">"მომღიმარი სახე მომღიმარი თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F60B: "😋" FACE SAVOURING DELICIOUS FOOD -->
+  <string name="spoken_emoji_1F60B">"გემრიელი საჭმლის დამაგემოვნებელი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F60C: "😌" RELIEVED FACE -->
+  <string name="spoken_emoji_1F60C">"შებამოგვრილი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F60D: "😍" SMILING FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F60D">"მომღიმარი სახე გულის ფორმის თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F60E: "😎" SMILING FACE WITH SUNGLASSES -->
+  <string name="spoken_emoji_1F60E">"მომღიმარი სახე მზის სათვალეებით"</string>
+  <!-- Spoken description for Unicode code point U+1F60F: "😏" SMIRKING FACE -->
+  <string name="spoken_emoji_1F60F">"თავმომწონე სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F610: "😐" NEUTRAL FACE -->
+  <string name="spoken_emoji_1F610">"ნეიტრალური სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F611: "😑" EXPRESSIONLESS FACE -->
+  <string name="spoken_emoji_1F611">"უემოციო სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F612: "😒" UNAMUSED FACE -->
+  <string name="spoken_emoji_1F612">"უკმაყოფილო სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F613: "😓" FACE WITH COLD SWEAT -->
+  <string name="spoken_emoji_1F613">"სახე ცივი ოფლით"</string>
+  <!-- Spoken description for Unicode code point U+1F614: "😔" PENSIVE FACE -->
+  <string name="spoken_emoji_1F614">"ჩაფიქრებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F615: "😕" CONFUSED FACE -->
+  <string name="spoken_emoji_1F615">"დაბნეული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F616: "😖" CONFOUNDED FACE -->
+  <string name="spoken_emoji_1F616">"შეცბუნებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F617: "😗" KISSING FACE -->
+  <string name="spoken_emoji_1F617">"კოცნის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F618: "😘" FACE THROWING A KISS -->
+  <string name="spoken_emoji_1F618">"კოცნის გაგზავნის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F619: "😙" KISSING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F619">"კოცნის სახე მომღიმარი თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F61A: "😚" KISSING FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F61A">"კოცნის სახე დახუჭული თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F61B: "😛" FACE WITH STUCK-OUT TONGUE -->
+  <string name="spoken_emoji_1F61B">"ენაგამოყოფილი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F61C: "😜" FACE WITH STUCK-OUT TONGUE AND WINKING EYE -->
+  <string name="spoken_emoji_1F61C">"ენაგამოყოფილი სახე თვალის ჩაკვრით"</string>
+  <!-- Spoken description for Unicode code point U+1F61D: "😝" FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F61D">"ენაგამოყოფილი სახე მჭიდროდ დახუჭული თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F61E: "😞" DISAPPOINTED FACE -->
+  <string name="spoken_emoji_1F61E">"იმედგაცრუებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F61F: "😟" WORRIED FACE -->
+  <string name="spoken_emoji_1F61F">"შეწუხებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F620: "😠" ANGRY FACE -->
+  <string name="spoken_emoji_1F620">"ბრაზიანი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F621: "😡" POUTING FACE -->
+  <string name="spoken_emoji_1F621">"გაბუტული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F622: "😢" CRYING FACE -->
+  <string name="spoken_emoji_1F622">"მტირალი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F623: "😣" PERSEVERING FACE -->
+  <string name="spoken_emoji_1F623">"შეუპოვარი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F624: "😤" FACE WITH LOOK OF TRIUMPH -->
+  <string name="spoken_emoji_1F624">"ტრიუმფალური სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F625: "😥" DISAPPOINTED BUT RELIEVED FACE -->
+  <string name="spoken_emoji_1F625">"იმედგაცრუებული მაგრამ შვებამოგვრილი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F626: "😦" FROWNING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F626">"წარბშეჭმუხნული პირდაღებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F627: "😧" ANGUISHED FACE -->
+  <string name="spoken_emoji_1F627">"გატანჯული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F628: "😨" FEARFUL FACE -->
+  <string name="spoken_emoji_1F628">"შიშნარევი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F629: "😩" WEARY FACE -->
+  <string name="spoken_emoji_1F629">"დაქანცული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F62A: "😪" SLEEPY FACE -->
+  <string name="spoken_emoji_1F62A">"მომძინარე სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F62B: "😫" TIRED FACE -->
+  <string name="spoken_emoji_1F62B">"დაღლილი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F62C: "😬" GRIMACING FACE -->
+  <string name="spoken_emoji_1F62C">"დამანჭული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F62D: "😭" LOUDLY CRYING FACE -->
+  <string name="spoken_emoji_1F62D">"ხმამაღლა მტირალი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F62E: "😮" FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F62E">"პირდაღებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F62F: "😯" HUSHED FACE -->
+  <string name="spoken_emoji_1F62F">"გაჩუმებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F630: "😰" FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F630">"სახე ღია პირით და ცივი ოფლით"</string>
+  <!-- Spoken description for Unicode code point U+1F631: "😱" FACE SCREAMING IN FEAR -->
+  <string name="spoken_emoji_1F631">"შიშისგან მყვირალი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F632: "😲" ASTONISHED FACE -->
+  <string name="spoken_emoji_1F632">"გაოცებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F633: "😳" FLUSHED FACE -->
+  <string name="spoken_emoji_1F633">"წამოწითლებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F634: "😴" SLEEPING FACE -->
+  <string name="spoken_emoji_1F634">"მძინარი სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F635: "😵" DIZZY FACE -->
+  <string name="spoken_emoji_1F635">"თავბრუდახვეული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F636: "😶" FACE WITHOUT MOUTH -->
+  <string name="spoken_emoji_1F636">"უპირო სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F637: "😷" FACE WITH MEDICAL MASK -->
+  <string name="spoken_emoji_1F637">"სახე სამედიცინო ნიღბით"</string>
+  <!-- Spoken description for Unicode code point U+1F638: "😸" GRINNING CAT FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F638">"სასტიკი კატის სახე მომღიმარი თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F639: "😹" CAT FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F639">"კატის სახე სიხარულის ცრემლებით"</string>
+  <!-- Spoken description for Unicode code point U+1F63A: "😺" SMILING CAT FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F63A">"მომღიმარი კატის პირდაღებული სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F63B: "😻" SMILING CAT FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F63B">"მომღიმარი კატის სახე გულის ფორმის თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F63C: "😼" CAT FACE WITH WRY SMILE -->
+  <string name="spoken_emoji_1F63C">"კატის სახე ირონიული ღიმილით"</string>
+  <!-- Spoken description for Unicode code point U+1F63D: "😽" KISSING CAT FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F63D">"კოცნის სახე დახუჭული თვალებით"</string>
+  <!-- Spoken description for Unicode code point U+1F63E: "😾" POUTING CAT FACE -->
+  <string name="spoken_emoji_1F63E">"გაბუტული კატის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F63F: "😿" CRYING CAT FACE -->
+  <string name="spoken_emoji_1F63F">"მტირალი კატის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F640: "🙀" WEARY CAT FACE -->
+  <string name="spoken_emoji_1F640">"დაქანცული კატის სახე"</string>
+  <!-- Spoken description for Unicode code point U+1F645: "🙅" FACE WITH NO GOOD GESTURE -->
+  <string name="spoken_emoji_1F645">"სახე უვარგისობის ჟესტით"</string>
+  <!-- Spoken description for Unicode code point U+1F646: "🙆" FACE WITH OK GESTURE -->
+  <string name="spoken_emoji_1F646">"სახე ok ჟესტით"</string>
+  <!-- Spoken description for Unicode code point U+1F647: "🙇" PERSON BOWING DEEPLY -->
+  <string name="spoken_emoji_1F647">"ადამიანი თავის დაკვრით"</string>
+  <!-- Spoken description for Unicode code point U+1F648: "🙈" SEE-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F648">"არც-თუ-ისე ეშმაკი მაიმუნი"</string>
+  <!-- Spoken description for Unicode code point U+1F649: "🙉" HEAR-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F649">"არ-მესმის მაიმუნი"</string>
+  <!-- Spoken description for Unicode code point U+1F64A: "🙊" SPEAK-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F64A">"არ ვლაპარაკობ მაიმუნი"</string>
+  <!-- Spoken description for Unicode code point U+1F64B: "🙋" HAPPY PERSON RAISING ONE HAND -->
+  <string name="spoken_emoji_1F64B">"ბედნიერი, ხელაწეული ადამიანი"</string>
+  <!-- Spoken description for Unicode code point U+1F64C: "🙌" PERSON RAISING BOTH HANDS IN CELEBRATION -->
+  <string name="spoken_emoji_1F64C">"სიხარულით ხელაპყრობილი ადამიანი"</string>
+  <!-- Spoken description for Unicode code point U+1F64D: "🙍" PERSON FROWNING -->
+  <string name="spoken_emoji_1F64D">"წარბშეკრული ადამიანი"</string>
+  <!-- Spoken description for Unicode code point U+1F64E: "🙎" PERSON WITH POUTING FACE -->
+  <string name="spoken_emoji_1F64E">"ადამიანი გაბუტული სახით"</string>
+  <!-- Spoken description for Unicode code point U+1F64F: "🙏" PERSON WITH FOLDED HANDS -->
+  <string name="spoken_emoji_1F64F">"ადამიანი დაწყობილი ხელებით"</string>
+  <!-- Spoken description for Unicode code point U+1F680: "🚀" ROCKET -->
+  <string name="spoken_emoji_1F680">"რაკეტა"</string>
+  <!-- Spoken description for Unicode code point U+1F681: "🚁" HELICOPTER -->
+  <string name="spoken_emoji_1F681">"ვერტმფრენი"</string>
+  <!-- Spoken description for Unicode code point U+1F682: "🚂" STEAM LOCOMOTIVE -->
+  <string name="spoken_emoji_1F682">"ორთქლის ლოკომოტივი"</string>
+  <!-- Spoken description for Unicode code point U+1F683: "🚃" RAILWAY CAR -->
+  <string name="spoken_emoji_1F683">"რკინიგზის ვაგონი"</string>
+  <!-- Spoken description for Unicode code point U+1F684: "🚄" HIGH-SPEED TRAIN -->
+  <string name="spoken_emoji_1F684">"ჩქაროსნული მატარებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F685: "🚅" HIGH-SPEED TRAIN WITH BULLET NOSE -->
+  <string name="spoken_emoji_1F685">"ჩქაროსნული მატარებელი ტყვიის წვერით"</string>
+  <!-- Spoken description for Unicode code point U+1F686: "🚆" TRAIN -->
+  <string name="spoken_emoji_1F686">"მატარებელი"</string>
+  <!-- Spoken description for Unicode code point U+1F687: "🚇" METRO -->
+  <string name="spoken_emoji_1F687">"მეტრო"</string>
+  <!-- Spoken description for Unicode code point U+1F688: "🚈" LIGHT RAIL -->
+  <string name="spoken_emoji_1F688">"მსუბუქი რკინიგზა"</string>
+  <!-- Spoken description for Unicode code point U+1F689: "🚉" STATION -->
+  <string name="spoken_emoji_1F689">"სადგური"</string>
+  <!-- Spoken description for Unicode code point U+1F68A: "🚊" TRAM -->
+  <string name="spoken_emoji_1F68A">"ტრამვაი"</string>
+  <!-- Spoken description for Unicode code point U+1F68B: "🚋" TRAM CAR -->
+  <string name="spoken_emoji_1F68B">"ტრამვაის ვაგონი"</string>
+  <!-- Spoken description for Unicode code point U+1F68C: "🚌" BUS -->
+  <string name="spoken_emoji_1F68C">"ავტობუსი"</string>
+  <!-- Spoken description for Unicode code point U+1F68D: "🚍" ONCOMING BUS -->
+  <string name="spoken_emoji_1F68D">"მომავალი ავტობუსი"</string>
+  <!-- Spoken description for Unicode code point U+1F68E: "🚎" TROLLEYBUS -->
+  <string name="spoken_emoji_1F68E">"ტროლეიბუსი"</string>
+  <!-- Spoken description for Unicode code point U+1F68F: "🚏" BUS STOP -->
+  <string name="spoken_emoji_1F68F">"ავტობუსის გაჩერება"</string>
+  <!-- Spoken description for Unicode code point U+1F690: "🚐" MINIBUS -->
+  <string name="spoken_emoji_1F690">"მიკროავტობუსი"</string>
+  <!-- Spoken description for Unicode code point U+1F691: "🚑" AMBULANCE -->
+  <string name="spoken_emoji_1F691">"სასწრაფო"</string>
+  <!-- Spoken description for Unicode code point U+1F692: "🚒" FIRE ENGINE -->
+  <string name="spoken_emoji_1F692">"სახანძრო"</string>
+  <!-- Spoken description for Unicode code point U+1F693: "🚓" POLICE CAR -->
+  <string name="spoken_emoji_1F693">"პოლიციის მანქანა"</string>
+  <!-- Spoken description for Unicode code point U+1F694: "🚔" ONCOMING POLICE CAR -->
+  <string name="spoken_emoji_1F694">"მომავალი პოლიციის მანქანა"</string>
+  <!-- Spoken description for Unicode code point U+1F695: "🚕" TAXI -->
+  <string name="spoken_emoji_1F695">"ტაქსი"</string>
+  <!-- Spoken description for Unicode code point U+1F696: "🚖" ONCOMING TAXI -->
+  <string name="spoken_emoji_1F696">"მომავალი ტაქსი"</string>
+  <!-- Spoken description for Unicode code point U+1F697: "🚗" AUTOMOBILE -->
+  <string name="spoken_emoji_1F697">"ავტომობილი"</string>
+  <!-- Spoken description for Unicode code point U+1F698: "🚘" ONCOMING AUTOMOBILE -->
+  <string name="spoken_emoji_1F698">"მომავალი ავტომობილი"</string>
+  <!-- Spoken description for Unicode code point U+1F699: "🚙" RECREATIONAL VEHICLE -->
+  <string name="spoken_emoji_1F699">"რეკრეაციული ავტომანქანა"</string>
+  <!-- Spoken description for Unicode code point U+1F69A: "🚚" DELIVERY TRUCK -->
+  <string name="spoken_emoji_1F69A">"სატვირთო მანქანა"</string>
+  <!-- Spoken description for Unicode code point U+1F69B: "🚛" ARTICULATED LORRY -->
+  <string name="spoken_emoji_1F69B">"გადაბმული სატვირთო"</string>
+  <!-- Spoken description for Unicode code point U+1F69C: "🚜" TRACTOR -->
+  <string name="spoken_emoji_1F69C">"ტრაქტორი"</string>
+  <!-- Spoken description for Unicode code point U+1F69D: "🚝" MONORAIL -->
+  <string name="spoken_emoji_1F69D">"მონორელსი"</string>
+  <!-- Spoken description for Unicode code point U+1F69E: "🚞" MOUNTAIN RAILWAY -->
+  <string name="spoken_emoji_1F69E">"მთის რკინიგზა"</string>
+  <!-- Spoken description for Unicode code point U+1F69F: "🚟" SUSPENSION RAILWAY -->
+  <string name="spoken_emoji_1F69F">"შეჩერებული რკინიგზა"</string>
+  <!-- Spoken description for Unicode code point U+1F6A0: "🚠" MOUNTAIN CABLEWAY -->
+  <string name="spoken_emoji_1F6A0">"მთის საბაგირო"</string>
+  <!-- Spoken description for Unicode code point U+1F6A1: "🚡" AERIAL TRAMWAY -->
+  <string name="spoken_emoji_1F6A1">"საბაგირო"</string>
+  <!-- Spoken description for Unicode code point U+1F6A2: "🚢" SHIP -->
+  <string name="spoken_emoji_1F6A2">"გემი"</string>
+  <!-- Spoken description for Unicode code point U+1F6A3: "🚣" ROWBOAT -->
+  <string name="spoken_emoji_1F6A3">"სანიჩბოსნო ნავი"</string>
+  <!-- Spoken description for Unicode code point U+1F6A4: "🚤" SPEEDBOAT -->
+  <string name="spoken_emoji_1F6A4">"სწრაფმავალი მოტორიანი გემი"</string>
+  <!-- Spoken description for Unicode code point U+1F6A5: "🚥" HORIZONTAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A5">"ჰორიზონტალური შუქნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6A6: "🚦" VERTICAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A6">"ვერტიკალური შუქნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6A7: "🚧" CONSTRUCTION SIGN -->
+  <string name="spoken_emoji_1F6A7">"მშენებლობის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6A8: "🚨" POLICE CARS REVOLVING LIGHT -->
+  <string name="spoken_emoji_1F6A8">"პოლიციის მანქანა შუქის სიგნალით"</string>
+  <!-- Spoken description for Unicode code point U+1F6A9: "🚩" TRIANGULAR FLAG ON POST -->
+  <string name="spoken_emoji_1F6A9">"სამკუთხა ალამი პოსტზე"</string>
+  <!-- Spoken description for Unicode code point U+1F6AA: "🚪" DOOR -->
+  <string name="spoken_emoji_1F6AA">"კარი"</string>
+  <!-- Spoken description for Unicode code point U+1F6AB: "🚫" NO ENTRY SIGN -->
+  <string name="spoken_emoji_1F6AB">"შესვლის აკრძალვის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6AC: "🚬" SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AC">"მოწევის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6AD: "🚭" NO SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AD">"მოწევის აკრძალვის ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6AE: "🚮" PUT LITTER IN ITS PLACE SYMBOL -->
+  <string name="spoken_emoji_1F6AE">"ნაგვის გამოყოფილ ადგილზე ჩაყრის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F6AF: "🚯" DO NOT LITTER SYMBOL -->
+  <string name="spoken_emoji_1F6AF">"სიმბოლო ნაგავი არ დაყაროთ"</string>
+  <!-- Spoken description for Unicode code point U+1F6B0: "🚰" POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B0">"დასალევად ვარგისი წყლის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F6B1: "🚱" NON-POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B1">"დასალევად უვარგისი წყლის სიმბოლო"</string>
+  <!-- Spoken description for Unicode code point U+1F6B2: "🚲" BICYCLE -->
+  <string name="spoken_emoji_1F6B2">"ველოსიპედი"</string>
+  <!-- Spoken description for Unicode code point U+1F6B3: "🚳" NO BICYCLES -->
+  <string name="spoken_emoji_1F6B3">"ველოსიპედები არ არის"</string>
+  <!-- Spoken description for Unicode code point U+1F6B4: "🚴" BICYCLIST -->
+  <string name="spoken_emoji_1F6B4">"ველოსიპედისტი"</string>
+  <!-- Spoken description for Unicode code point U+1F6B5: "🚵" MOUNTAIN BICYCLIST -->
+  <string name="spoken_emoji_1F6B5">"სამთო ველოსიპედისტი"</string>
+  <!-- Spoken description for Unicode code point U+1F6B6: "🚶" PEDESTRIAN -->
+  <string name="spoken_emoji_1F6B6">"ფეხით მოსიარულე"</string>
+  <!-- Spoken description for Unicode code point U+1F6B7: "🚷" NO PEDESTRIANS -->
+  <string name="spoken_emoji_1F6B7">"ფეხით სიარული აკრძალულია"</string>
+  <!-- Spoken description for Unicode code point U+1F6B8: "🚸" CHILDREN CROSSING -->
+  <string name="spoken_emoji_1F6B8">"ბავშვების გადასასვლელი"</string>
+  <!-- Spoken description for Unicode code point U+1F6B9: "🚹" MENS SYMBOL -->
+  <string name="spoken_emoji_1F6B9">"კაცების ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6BA: "🚺" WOMENS SYMBOL -->
+  <string name="spoken_emoji_1F6BA">"ქალების ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6BB: "🚻" RESTROOM -->
+  <string name="spoken_emoji_1F6BB">"საპირფარეშო"</string>
+  <!-- Spoken description for Unicode code point U+1F6BC: "🚼" BABY SYMBOL -->
+  <string name="spoken_emoji_1F6BC">"ჩვილების ნიშანი"</string>
+  <!-- Spoken description for Unicode code point U+1F6BD: "🚽" TOILET -->
+  <string name="spoken_emoji_1F6BD">"ტუალეტი"</string>
+  <!-- Spoken description for Unicode code point U+1F6BE: "🚾" WATER CLOSET -->
+  <string name="spoken_emoji_1F6BE">"უნიტაზი"</string>
+  <!-- Spoken description for Unicode code point U+1F6BF: "🚿" SHOWER -->
+  <string name="spoken_emoji_1F6BF">"შხაპი"</string>
+  <!-- Spoken description for Unicode code point U+1F6C0: "🛀" BATH -->
+  <string name="spoken_emoji_1F6C0">"სააბაზანო"</string>
+  <!-- Spoken description for Unicode code point U+1F6C1: "🛁" BATHTUB -->
+  <string name="spoken_emoji_1F6C1">"აბაზანა"</string>
+  <!-- Spoken description for Unicode code point U+1F6C2: "🛂" PASSPORT CONTROL -->
+  <string name="spoken_emoji_1F6C2">"პასპორტის კონტროლი"</string>
+  <!-- Spoken description for Unicode code point U+1F6C3: "🛃" CUSTOMS -->
+  <string name="spoken_emoji_1F6C3">"საბაჟო"</string>
+  <!-- Spoken description for Unicode code point U+1F6C4: "🛄" BAGGAGE CLAIM -->
+  <string name="spoken_emoji_1F6C4">"ბარგის აღება"</string>
+  <!-- Spoken description for Unicode code point U+1F6C5: "🛅" LEFT LUGGAGE -->
+  <string name="spoken_emoji_1F6C5">"ბარგის ჩაბარება"</string>
+</resources>

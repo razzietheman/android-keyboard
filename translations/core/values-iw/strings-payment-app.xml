@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">תשלום בעבור מקלדת FUTO</string>
+  <string name="payment_app_main_menu_title">שילמת בעבור מקלדת FUTO</string>
+  <string name="payment_app_main_menu_line_1">תודה על התשלום!</string>
+  <string name="payment_app_main_menu_line_2">הקנייה שלך תעזור לנו לקדם ולפתח את מקלדת FUTO, ועוד פרויקטים של ארגון FUTO.</string>
+  <string name="payment_app_activate_keyboard_button">הגדר את מקלדת FUTO כמשולמת</string>
+  <string name="payment_app_more_options_download_keyboard">הורד את מקלדת FUTO דרך ה - Play Store</string>
+  <string name="payment_app_more_options_visit_website">בקר באתר של מקלדת FUTO</string>
+  <string name="payment_app_more_options_email_support">תמיכה במייל</string>
+</resources>

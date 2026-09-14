@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Temaväljare</string>
+  <string name="action_select_all_title">Markera Allt</string>
+  <string name="action_cut_title">Klipp ut till Urklipp</string>
+  <string name="action_copy_title">Kopiera till Urklipp</string>
+  <string name="action_paste_title">Klistra in från Urklipp</string>
+  <string name="action_undo_title">Ångra</string>
+  <string name="action_redo_title">Gör om</string>
+  <string name="action_text_editor_title">Textredigerare</string>
+  <string name="action_debug_title">Debuginfo</string>
+  <string name="action_more_actions_title">Alla Åtgärder</string>
+  <string name="action_bug_viewer_title">Buggvisare</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Pil Upp</string>
+  <string name="action_cursor_down_title">Pil Ner</string>
+  <string name="action_cursor_left_title">Pil Vänster</string>
+  <string name="action_cursor_right_title">Pil Höger</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emojis</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Senaste</string>
+  <string name="action_emoji_category_smileys_emotion">Smileys &amp; Känslouttryck</string>
+  <string name="action_emoji_category_people_body">Personer &amp; Kroppsdelar</string>
+  <string name="action_emoji_category_animals_nature">Djur &amp; Natur</string>
+  <string name="action_emoji_category_food_drink">Mat &amp; Dryck</string>
+  <string name="action_emoji_category_travel_places">Resor &amp; Platser</string>
+  <string name="action_emoji_category_activities">Aktiviteter</string>
+  <string name="action_emoji_category_objects">Objekt</string>
+  <string name="action_emoji_category_symbols">Symboler</string>
+  <string name="action_emoji_category_flags">Flaggor</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Inga resultat hittades</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">Hoppa till <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Rensa senaste emojis?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Avbryt</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Rensa</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Rensa senaste emojis</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Sök</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Röstinmatning</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Röstinmatning (System)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">Ingen röstinmatningsmodell installerad för <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>, tap to check options?</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Gå till Behörigheter och aktivera Mikrofonbehörighet för att använda röstinmatning</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Urklippshanterare</string>
+  <string name="action_clipboard_manager_unpin_item">Lossa</string>
+  <string name="action_clipboard_manager_pin_item">Fäst</string>
+  <string name="action_clipboard_manager_remove_item">Ta bort</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">Bekräfta borttagning:\n\"%s\"</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Avbryt</string>
+  <string name="action_clipboard_manager_disable_text">Det finns inget att ta bort. Avaktivera urklippshistorik?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Avaktivera</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Det finns inget fäst att rensa. Lossa alla?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Lossa</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Rensa lossade?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Rensa</string>
+  <string name="action_clipboard_manager_clear_clipboard">Rensa urklipp</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Enhet Låst</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Lås upp din enhet för att komma åt urklippshistorik</string>
+  <string name="action_clipboard_manager_error_general_title">Fel i Urklipp</string>
+  <string name="action_clipboard_manager_error_general_text">Urklippshistoriken kunde inte sparas eller läsas in. Den kan vara korrupt. Du kan försöka att ta bort det, eller att starta om tangentbordet. Rapportera gärna denna bugg. Anledning: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Ta bort urklipp? ALLT i urklippet kommer att tas bort.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Försök igen</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Inspektera felet i Buggvisaren</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Ta bort</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Urklippshistorik Inaktiverat</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">För att spara urklipp kan du aktivera urklippshistorik. Det kommer hålla upp till <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> urklipp i <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> dagar (fästa räknas inte in i detta). Du kan ställa in detta i inställningarna.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Aktivera Urklippshistorik</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Appen stödjer inte bildinsättning</string>
+  <string name="action_clipboard_manager_settings_title">Inställningar för Urklippshanterare</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Timmar att behålla icke-fästa urklipp</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Antal icke-fästa urklipp att spara</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Spara känsliga urklipp</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Om aktiverat, kommer att spara urklipp från lösenordshanterare, inkognitofönster med mera</string>
+  <string name="action_clipboard_manager_settings_list_layout">Använd vertikal lista istället för rutnät</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Visa fästa urklipp överst</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Visa nyligen kopierad text i förslagsraden</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Tangentbordslägen</string>
+  <string name="action_keyboard_modes_go_back">Gå tillbaka</string>
+  <string name="action_keyboard_modes_resize_keyboard">Justera Tangentbordsstorlek</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standard</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">En Hand</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Delat</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Flytande</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Återställ</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Tillämpa</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">WordStyles</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Appen kanske inte stödjer bildinsättning. Den här funktionen kanske inte fungerar.</string>
+  <string name="action_fonttyper_select_a_preset">Välj förinställning</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Scratch</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Superhjälte</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Dramatisk Text</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Godis</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Regnbåge</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Horisont</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">TV-öppning</string>
+  <string name="action_fonttyper_finish">Slutför</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Åtgärdstangent</string>
+  <string name="action_kind_pinned_key">Fästa Åtgärd(er)</string>
+  <string name="action_kind_favorites">Favoritåtgärder</string>
+  <string name="action_kind_more">Fler Åtgärder</string>
+  <string name="action_kind_disabled">Dolda Åtgärder</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Mörkt Läge</string>
+  <string name="theme_default_light">Ljust Läge</string>
+  <string name="theme_amoled_dark">AMOLED Mörklila</string>
+  <string name="theme_catppuccin_mocha">Catppuccin Mocha</string>
+  <string name="theme_classic_dark">AOSP Material Mörk</string>
+  <string name="theme_classic_light">AOSP Material Ljust</string>
+  <string name="theme_vi">FUTO VI-tema</string>
+  <string name="theme_deepsea_dark">Djuphavsmörk</string>
+  <string name="theme_deepsea_light">Djuphavsljus</string>
+  <string name="theme_emerald">Smaragd</string>
+  <string name="theme_gradient1">Toning 1</string>
+  <string name="theme_gradient2">Toning 2</string>
+  <string name="theme_rainbow">Regnbåge</string>
+  <string name="theme_snowfall">Snöfall</string>
+  <string name="theme_steel_gray">Stålgrå</string>
+  <string name="theme_sunflower">Solros</string>
+  <string name="theme_cotton_candy">Sockervadd</string>
+  <string name="theme_hotdog">Varmkorv</string>
+  <string name="theme_high_contrast_yellow">Högkontrastsgul</string>
+  <string name="theme_dev">Byggtema</string>
+  <string name="theme_dynamic_system">Dynamisk Auto</string>
+  <string name="theme_dynamic_dark">Dynamisk Mörk</string>
+  <string name="theme_dynamic_light">Dynamisk Ljus</string>
+  <string name="theme_custom_named">Anpassat: %s</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Uppdateringstjänst</string>
+  <string name="autoupdater_update_available_title">Uppdatering Tillgänglig</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">En uppdatering är tillgänglig (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Klicka för att ladda ner</string>]]></string>
+  <string name="autoupdater_dismiss_update">Avvisa</string>
+  <string name="autoupdater_perform_update">Uppdatera</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[<string name=\\\"keyboard_suggest_blacklist_body\\\">Svartlista ordet \\&quot;<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>\\&quot; från att föreslås?</string>]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Svartlista</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Stäng av emojiförslag</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Bokstäver</string>
+  <string name="keyboard_switch_keyboard">Byt Tangentbord</string>
+  <string name="keyboard_language_settings">Inställningar</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Klicka för att söka efter uppdateringar, eller kolla i inställningarna</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Ordlista saknas, tryck för att ladda ner?</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Öppna Åtgärder</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Stäng Åtgärder</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Stäng</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Tillbaka</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Visa Tangentbord</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Stäng</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Fäll ihop</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Betalningar</string>
+  <string name="payment_screen_title">Betala för FUTO Tangentbord</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">Du har använt FUTO Tangentbord i <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> dagar. Om du tycker att appen är användbar får du gärna stödja fortsatt utveckling av FUTO:s mjukvara.</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Tack för att du provar FUTO Tangentbord! Om du tycker att appen är användbar får du gärna stödja fortsatt utveckling av FUTO:s mjukvara.</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO bygger tillförlitlig mjukvara som inte utnyttjar dig. Den här appen kommer aldrig att visa annonser eller samla in din personliga data.</string>
+  <string name="payment_screen_sales_point_development_title">Hållbar Utveckling</string>
+  <string name="payment_screen_sales_point_development_body">FUTO:s uppdrag är att få öppen källkod-program och icke-skadliga affärsmetoder att bli hållbara inkomstkällor för projekt och deras utvecklare. Av den här anledningen föredrar vi att användare betalar för mjukvara.</string>
+  <string name="payment_screen_sales_point_privacy_title">Åtagande för Integritet</string>
+  <string name="payment_screen_sales_point_privacy_body">Den här appen kommer aldrig att visa annonser eller sälja din data. Vi sysslar inte med sånt.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Betalningar stöds inte i det här bygget</string>
+  <string name="payment_screen_already_paid_title">Redan betalat?</string>
+  <string name="payment_screen_already_paid_body">Om du redan har betalar för FUTO Tangentbord eller FUTO Röstinmatning, klicka nedan.</string>
+  <string name="payment_screen_already_paid_button">Jag har redan betalat</string>
+  <string name="payment_screen_already_paid_confirmation">Bekräfta ditt val</string>
+  <string name="payment_screen_already_paid_confirmation_body">Är du säker på att du vill bekräfta att du redan har betalat? När det är bekräftat kommer du inte bli tillfrågad om betalning igen.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Jag har redan betalat</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Avbryt</string>
+  <string name="payment_screen_set_reminder_title">Inte redo att betala än?</string>
+  <string name="payment_screen_set_reminder_body">Det här kommer att dölja påminnelsen i inställningarna under den valda tiden.</string>
+  <string name="payment_screen_set_reminder_setter">När vill du bli påmind?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">om 7 dagar</string>
+  <string name="payment_screen_set_reminder_setter_1_month">om 1 månad</string>
+  <string name="payment_screen_set_reminder_setter_6_months">om 6 månader</string>
+  <string name="payment_screen_set_reminder_setter_next_century">nästa århundrade</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Bekräfta påminnelse</string>
+  <string name="payment_screen_other_options">Andra Möjligheter</string>
+  <string name="payment_screen_need_help_title">Hjälp</string>
+  <string name="payment_screen_need_help_subtitle">Behöver du hjälp? Besök vår webbplats</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Betala via Google Play (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + skatt)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">Betala (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + skatt)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay2"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay2\\\">Betala med FUTO Pay (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + moms)</string>]]></string>
+  <string name="payment_screen_more_options">Fler möjligheter</string>
+  <string name="payment_screen_payment_complete_title">Betalning Sutförd</string>
+  <string name="payment_screen_aftersales_title">Tack så mycket</string>
+  <string name="payment_screen_aftersales_title_pending">Betalning Behandlas</string>
+  <string name="payment_screen_aftersales_paragraph_1">Tack för att du köpt FUTO Tangentbord!</string>
+  <string name="payment_screen_aftersales_paragraph_2">Ditt köp kommer att hjälpa fortsatt utveckling av FUTO Tangentbord och andra FUTO-projekt.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Din betalning behandlas fortfarande, men borde snart gå igenom.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Om du precis har betalat kan din betalning fortfarande vara under behandling. Du bör få ett e-postmeddelande med mer information.</string>
+  <string name="payment_screen_payment_failed_title">Fel vid Betalning</string>
+  <string name="payment_screen_payment_failed_body">Tyvärr har din betalning av någon anledning misslyckats. Kontakta oss om du behöver hjälp. Du kan nå oss på keyboard@futo.org, med knappen nedan eller via Skicka Återkoppling under Hjälp</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Det kan ha uppstått ett problem med din betalning. Om den har gått igenom bör du ha fått ett e-postmeddelande med en licensnyckel. Kontakta oss om du behöver hjälp. Du kan nå oss på keyboard@futo.org, med knappen nedan eller via Skicka Återkoppling på huvudsidan.</string>
+  <string name="payment_screen_license_integrity_error">Misslyckades med att verifiera licensen. Kontakta oss om du tror att detta är fel.</string>
+  <string name="payment_screen_continue_button">Fortsätt</string>
+  <string name="payment_unpaid_version_title">Ångra betalningen av FUTO Tangentbord</string>
+  <string name="payment_unpaid_version_indicator">Ångra betalningen</string>
+  <string name="payment_paid_version_indicator">Tack för att du använder betalversionen av FUTO Tangentbord!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Uppdateringar</string>
+  <string name="manual_update_notice_paragraph_1">Den här appen kopplar inte upp sig på internet och kommer inte att kunna söka efter uppdateringar automatiskt. Du kan söka efter uppdateringar manuellt dock.</string>
+  <string name="manual_update_notice_paragraph_2">Använd F-Droid eller Obtainium för automatiska uppdateringar. Besök keyboard.futo.org för nedladdningsalternativ.</string>
+  <string name="manual_update_notice_dev_paragraph">Du är på en utvecklingsversion av FUTO Tangentbord. Besök keyboard.futo.org om du vill ladda ner en stabil version.</string>
+  <string name="manual_update_notice_visit_site_button">Besök</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Avvisa</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Tips</string>
+  <string name="settings_unknown_error_title">Okänt Fel</string>
+  <string name="settings_unknown_error_subtitle">Ett okänt fel har inträffat.</string>
+  <string name="settings_try_typing_here">Testa att skriva här…</string>
+  <string name="settings_external_model_name">Externt importerade modeller</string>
+  <string name="settings_check_for_updates_manually">Sök efter uppdateringar manuellt</string>
+  <string name="settings_update_available">Uppdatering Tillgänglig</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Hem</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">Alternativet är inaktiverat eftersom det beror på ett annat alternativ, tryck för att gå till menyn: %1$s</string>
+  <string name="settings_search_menu_title">Sök</string>
+  <string name="settings_search_enter_your_search">Skriv in ett sökord…</string>
+  <string name="settings_search_no_options_found">Inga resultat hittades</string>
+  <string name="misc_settings_title">Övrigt</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Språk &amp; Modeller</string>
+  <string name="language_settings_add_language_button">Lägg till språk</string>
+  <string name="language_settings_select_language">Välj språk att lägga till</string>
+  <string name="language_settings_search">Sök</string>
+  <string name="language_settings_select_layout">Välj en layout att lägga till</string>
+  <string name="language_settings_warning_language_has_no_dict">Det här språket ha ingen inbyggd ordlista. Vi rekommenderar att du laddar ner och importerar en för att få autokorrigering och ordförslag.</string>
+  <string name="language_settings_resource_none">(Ingen)</string>
+  <string name="language_settings_layouts_of_this_language">Tangentbordslayout</string>
+  <string name="language_settings_add_layout_for_this_language">Lägg till Tangentbordslayout</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Skriv på flera språk</string>
+  <string name="language_settings_remove_this_language">Ta bort Språk</string>
+  <string name="language_settings_manage_languages_title">Hantera språk och layouter</string>
+  <string name="language_settings_manage_languages_subtitle">Se språk du har aktiverat, ta bort språk, ändra eller lägg till ytterligare layouter, eller slå på/av flerspråkig inmatning</string>
+  <string name="language_settings_resource_imported_indicator">(Importerad)</string>
+  <string name="language_settings_resource_unsupported_indicator">(Stöds inte)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Inbyggd Ordlista</string>
+  <string name="language_settings_resource_voice_input_selected">Vill du återställa röstinmatningsmodellen till standard eller byta ut den mot en annan fil?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Det finns ingen inbyggd röstinmatningsmodell för det här språket, så om du tar bort den kommer röstinmatning att sluta fungera tills du har importerat en annan modell!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Du har inte konfigurerat någon egen röstinmatningsmodell för det här språket. Du kan söka efter nedladdningsbara filer online eller importera en från en fil.</string>
+  <string name="language_settings_resource_transformer_selected">Vill du återställa transformer-modellen till standardmodellen eller byta ut den mot en annan fil?</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">Det finns ingen inbyggd transformer-modell för det här språket, så om du tar bort den kommer transformer-baserade förslag att sluta fungera tills du har importerat en annan modell!</string>
+  <string name="language_settings_resource_transformer_selected_unset">Du har inte konfigurerat någon egen transformer-modell för det här språket. Du kan söka efter nedladdningsbara filer online eller importera en från en fil.</string>
+  <string name="language_settings_resource_dictionary_selected">Vill du återställa ordlistan till standard eller byta ut den mot en annan fil?</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">Det finns ingen inbyggd ordlista för det här språket, så om du tar bort den kommer autokorrigering och förslag att sluta fungera tills du har importerat en annan modell!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">Du har inte konfigurerat någon egen ordlista för det här språket. Du kan söka efter nedladdningsbara filer online eller importera en från en fil.</string>
+  <string name="language_settings_resource_replace_button">Byt ut</string>
+  <string name="language_settings_resource_import_file_button">Importera</string>
+  <string name="language_settings_resource_revert_to_default_button">Återställ till Standard</string>
+  <string name="language_settings_resource_remove_button">Ta bort</string>
+  <string name="language_settings_resource_explore_online_button">Utforska</string>
+  <string name="language_settings_remove_language_title">Ta bort %1$s?</string>
+  <string name="language_settings_remove_language_body">Ta bort %1$s, alla dess associerade layouter och egna resurser?</string>
+  <string name="language_settings_remove_language_remove_button">Ta bort</string>
+  <string name="language_settings_remove_language_cancel_button">Avbryt</string>
+  <string name="language_settings_other_options">Andra alternativ</string>
+  <string name="language_settings_import_resource_from_file">Importera en resursfil</string>
+  <string name="language_settings_explore_voice_input_models_online">Utforska röstinmatningsmodeller</string>
+  <string name="language_settings_explore_dictionaries_online">Utforska ordlistor</string>
+  <string name="language_settings_explore_transformers_online">Utforska transformer-modeller</string>
+  <string name="language_settings_import_dictionary_or_model">Importera en ordlista eller modell</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Röstinmatningsmodell</string>
+  <string name="file_kind_transformer_model">Transformer-modell</string>
+  <string name="file_kind_dictionary">Ordlista</string>
+  <string name="file_kind_invalid_file">Ogiltig fil</string>
+  <string name="file_kind_cfg_backup">Säkerhetskopia för inställningar</string>
+  <string name="resource_importer_import_title">Importera - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">Fel: Den här filer verkar vara en källfil (_wordlist.combined) istället för en sammanställd ordlista (.dict).</string>
+  <string name="resource_importer_error_wordlist_2">Ladda ner den sammanställda ordlistan, inte en källfilen. Om du har skapat den här ordlistan själv kan du kompilera den externt genom dicttool.</string>
+  <string name="resource_importer_error_invalid_fiile">Fel: Den här filen kändes inte igen. Den kan vara ogiltig eller ha blivit korrupt. Försök att ladda ner filer igen, eller försök med en annan fil.</string>
+  <string name="resource_importer_cancel_button">Avbryt</string>
+  <string name="resource_importer_import_button">Importera</string>
+  <string name="resource_importer_file_info">Filinformation: %1$s</string>
+  <string name="resource_importer_importing">Importerar för språk: %1$s</string>
+  <string name="resource_importer_importing_cfg">Importerar inställningar… Stäng inte den här menyn innan processen är färdig (5 till 10 sekunder)</string>
+  <string name="resource_importer_select_language">Välj språk att importera för:</string>
+  <string name="resource_importer_warning_language_missing">Den här filen verkar vara gjord för ett språk (%1$s) som inte är aktiverat i inställningarna</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">Är du säker på att du vill importera den här säkerhetskopian med inställningar? Detta kommer att ersätta alla dina inställningar, din personliga ordlista (systemomfattande), inlärda ord, alla importerade resurser med mera. Om du är osäker bör du göra en ny säkerhetskopia innan du fortsätter.</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">Den här säkerhetskopian av inställningar skapades med en nyare version av FUTO Tangentbord och kanske inte kommer att importeras korrekt. Försök att uppdatera FUTO Tangentbord först.</string>
+  <string name="settings_export_configuration_title">Säkerhetskopia av Inställningar</string>
+  <string name="settings_export_configuration">Exportera inställningarna</string>
+  <string name="settings_export_configuration_subtitle">Exportera alla dina inställningar, inlärda ord, resurser med mera.</string>
+  <string name="settings_export_configuration_exporting">Exportera inställningarna…</string>
+  <string name="settings_export_configuration_exporting_text">Stäng inte den här menyn tills processen är färdig (5 till 10 sekunder)</string>
+  <string name="settings_import_configuration">Importera inställningar</string>
+  <string name="settings_import_configuration_subtitle">Om du tidigare har exporterat dina inställningar kan du importera dem här.</string>
+  <string name="settings_import_export_tags">säkerhetskopia, backup, återställ, spara, ladda, exportera, importera, byt enhet</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Redigera Åtgärder</string>
+  <string name="action_editor_subtitle">Redigera favoritåtgärder, fästa åtgärder och åtgärdsknappen jämte mellanslagstangenten</string>
+  <string name="action_editor_edit_actions">Redigera åtgärder</string>
+  <string name="action_editor_warning_no_actions">Inga åtgärder aktiverade</string>
+  <string name="action_editor_error_more_than_one_action_key">Välj högst en åtgärdsknapp. Du kan inte välja fler än en åtgärd till åtgärdsknappen.</string>
+  <string name="action_editor_warning_too_many_pinned">Överväg att fästa färre åtgärder. Förslagsradens storlek måste minska för att få plats med så många åtgärder.</string>
+  <string name="action_editor_add_next_action">Lägg till nästa</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Åtgärder</string>
+  <string name="action_settings_quick_options_title">Snabb Åtgärd</string>
+  <string name="action_settings_quick_option_enable_action_key">Aktivera åtgärdsknapp</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">Visa en tangent till vänster om mellanslagstangenten för att snabbt ha tillgång till en åtgärd. Att aktivera detta sätter en emoji-knapp, men den kan anpassas i “Redigera Åtgärder“</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">Visa en tangent till vänster om mellanslagstangenten för att snabbt ha tillgång till en åtgärd. Att inaktivera detta kommer att flytta den nuvarande åtgärden: %s</string>
+  <string name="action_settings_quick_option_language_switch_key">Språkbytesknapp</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">Byt ut emoji-knappen mot en språkbytesknapp. Gå till “Redigera Åtgärder” för att sätta något annat.</string>
+  <string name="action_settings_action_settings">Åtgärdsinställningar</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">Ändra Storlek på Tangentbordet</string>
+  <string name="size_settings_subtitle2">Ändra tangentbordets storlek, gör det enhandsanpassat, flytande eller delat</string>
+  <string name="size_settings_resize_tip">Klicka på knappen \"Ändra Storlek på Tangentbordet\" för att ändra storlek.</string>
+  <string name="size_settings_keyboard_modes_tip">Du kan komma åt det här överallt med åtgärden Tangentbordslägen:</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">Storlek och läge sparas separat för stående och liggande orientering.</string>
+  <string name="size_settings_reset">Återställ storleksinställningar</string>
+  <string name="size_settings_reset_subtitle">Klicka för att återställa alla storlekar och lägen för både porträtt- och landskapsläge till standardinställningar</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">Långtrycksknappar &amp; Mellanslag</string>
+  <string name="morekey_settings_subtitle">Ställ in fördröjning för långt tryck, hur bokstäver/symboler ska ordnas och beteende för mellanslags- och delete-tangenten.</string>
+  <string name="morekey_settings_layout">Layout för långtrycksknappar</string>
+  <string name="morekey_settings_reset">Återställ till standardinställningar</string>
+  <string name="morekey_settings_move_kind_up">Flytta upp</string>
+  <string name="morekey_settings_move_kind_down">Flytta ner</string>
+  <string name="morekey_settings_move_kind_up_to_top">Flytta till toppen</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">Flytta till botten</string>
+  <string name="morekey_settings_kind_position">Plats %1$s av %2$s</string>
+  <string name="morekey_settings_active">Aktiv</string>
+  <string name="morekey_settings_inactive">Inaktiv</string>
+  <string name="morekey_settings_reactivate">Återaktivera</string>
+  <string name="morekey_settings_disable">Avaktivera</string>
+  <string name="morekey_settings_keys">Långtrycksknappar</string>
+  <string name="morekey_settings_show_hints">Visa indikator</string>
+  <string name="morekey_settings_show_hints_subtitle">Visa en liten indikator på varje tangent som visar vad som händer när man trycker länge på en tangenten</string>
+  <string name="morekey_settings_show_hints_tags">ytterligare tecken, alternativa tangenter, symboler, popuptangenter</string>
+  <string name="morekey_settings_duration">Fördröjning för långt tryck</string>
+  <string name="morekey_settings_duration_subtitle">Hur länge en tangent måste vara nedtryckt för att anses vara ett långt tryck</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Siffror</string>
+  <string name="morekey_settings_kind_numbers_example">t.ex. [1] på [q]</string>
+  <string name="morekey_settings_kind_language_keys">Språkknappar</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">t.ex. [ñ] på [n] på spanska</string>
+  <string name="morekey_settings_kind_symbols">Symboler</string>
+  <string name="morekey_settings_kind_symbols_example">t.ex. [@] på [a]</string>
+  <string name="morekey_settings_kind_actions">Snabba åtgärder</string>
+  <string name="morekey_settings_kind_actions_example">t.ex. [Kopiera] på [c]</string>
+  <string name="morekey_settings_kind_misc_common">Diverse bokstäver från vanliga språk</string>
+  <string name="morekey_settings_kind_misc_common_example">t.ex. [ß] på [s] på alla latinska skriftspråk</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">Skrivinställningar</string>
+  <string name="typing_settings_suggest_emojis">Emoji-förslag</string>
+  <string name="typing_settings_suggest_emojis_subtitle">Föreslå emojis när du skriver</string>
+  <string name="typing_settings_vibration_strength">Vibration</string>
+  <string name="typing_settings_vibration_strength_default">Standard</string>
+  <string name="typing_settings_keypress_sound_volume">Ljudvolym</string>
+  <string name="typing_settings_keypress_sound_volume_default">Standard</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">Volyminställningen kan ha ingen effekt på vissa versioner av Android.</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">Ljudet spelas inte upp om telefonen är satt till ljudlöst- eller vibrationsläge.</string>
+  <string name="typing_settings_enable_clipboard_history">Urklippshistorik</string>
+  <string name="typing_settings_enable_clipboard_history_tags">kopiera, klistra in</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">Radera inklistrad/infogad text på baksteg</string>
+  <string name="typing_settings_revert_correction_on_backspace">Ångra autokorrigering vid backsteg</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">Läge för automatiskt mellanslag</string>
+  <string name="typing_settings_auto_space_mode_auto2">Omdelbart mellanslag efter förslag &amp; skiljetecken</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">Omedelbart mellanslag efter förslag</string>
+  <string name="typing_settings_auto_space_mode_legacy2">Fördröjt mellanslag efter förslag (kompatibilitetsläge)</string>
+  <string name="typing_settings_auto_space_mode_none2">Avstängt (inte rekommenderat)</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Tangentbord</string>
+  <string name="keyboard_settings_show_number_row">Visa Sifferrad</string>
+  <string name="keyboard_settings_show_number_row_subtitle">Visa sifferraden ovanför tangentbordet på layouter som stöds</string>
+  <string name="keyboard_settings_show_arrow_row">Visa Piltangenter</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">Visa piltangenterna under tangentbordet</string>
+  <string name="keyboard_settings_extra_layouts">Ytterligare Layouter</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">Ställ in ytterligare layouter på sidan för språk</string>
+  <string name="keyboard_settings_show_suggestion_row">Visa rad för åtgärd/förslag</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">Visa raden som innehåller förslag. Rekommenderas att behålla aktiverad</string>
+  <string name="keyboard_settings_inline_autofill">Autofyll i förslagsraden</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">Visa lösenordhanterares autofyll i förslagsraden</string>
+  <string name="keyboard_settings_period_key">Snabbpunktstangent</string>
+  <string name="keyboard_settings_period_key_subtitle2">Ersätter layouten för punktknappen vid långtryck med en svepbar layout: ! , . ?</string>
+  <string name="keyboard_settings_number_row_title">Sifferrad</string>
+  <string name="keyboard_settings_number_row_style">Sifferradsstil</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">Kompakt</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">Tangent</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">Använd alltid västerländska siffror</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Tangentbord &amp; Skrift</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">Tema</string>
+  <string name="theme_settings_key_borders">Tangentramar</string>
+  <string name="theme_settings_default_themes">Inbyggda</string>
+  <string name="theme_settings_seasonal_themes">Säsongsenliga</string>
+  <string name="theme_settings_custom_themes">Dina teman</string>
+  <string name="theme_settings_custom_theme_delete_title">Ta bort anpassat tema?</string>
+  <string name="theme_settings_custom_theme_delete_body">Tema: %s</string>
+  <string name="theme_settings_custom_theme_delete_confirm">Ta bort</string>
+  <string name="theme_settings_custom_theme_delete_cancel">Avbryt</string>
+  <!-- Theme customizer -->
+  <string name="theme_customizer_select_background_image_button">Välj bild</string>
+  <string name="theme_customizer_adjust_background_image_hint">Dra eller nyp för att justera bilden</string>
+  <string name="theme_customizer_transparency_slider_name">Transparens</string>
+  <string name="theme_customizer_blur_slider_name">Oskärpa</string>
+  <string name="theme_customizer_color_sliders_name">Färg</string>
+  <string name="theme_customizer_dark_mode_toggle">Mörkt läge</string>
+  <string name="theme_customizer_light_mode_toggle">Ljust läge</string>
+  <string name="theme_customizer_finish_theme_adjustment">Slutför</string>
+  <string name="theme_customizer_load_custom_theme_file">Ladda från ZIP</string>
+  <string name="theme_customizer_import_custom_theme_menu_title">Importera anpassat tema</string>
+  <string name="theme_customizer_import_custom_theme_name_text">Temanamn: %s</string>
+  <string name="theme_customizer_import_custom_theme_author_text">Skapare: %s</string>
+  <string name="dev_settings_title">Utvecklaralternativ</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Röstinmatning</string>
+  <string name="voice_input_settings_builtin_disabled_notice">Inbyggd röstinmatning är inaktiverad!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Inaktivera inbyggd röstinmatning</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">Använd röstinmatning från en extern app</string>
+  <string name="voice_input_settings_indication_sounds">Indikatorljud</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">Spela ett kort ljud vid start och avbrytning</string>
+  <string name="voice_input_settings_verbose_progress">Detaljerad förloppsindikator</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">Visa ytterligare information, till exempel vilken mikrofon som används</string>
+  <string name="voice_input_settings_use_personal_dict">Personlig ordlista för röst</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">Om den personliga ordlistan ska användas för röstinmatning eller inte</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Föredra Bluetooth-mikrofon</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">Det kan vara extra fördröjning innan inspelning startar eftersom Bluetooth SCO-anslutning måste genomföras</string>
+  <string name="voice_input_settings_audio_focus">Ljudfokus</string>
+  <string name="voice_input_settings_audio_focus_subtitle">Pausa videor/musik när röstinmatning används</string>
+  <string name="voice_input_settings_suppress_symbols">Hindra symboler</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">Hindra röstinmatning från att skriva symboler</string>
+  <string name="voice_input_settings_long_form">Lyssna länge</string>
+  <string name="voice_input_settings_long_form_subtitle">Tillåt röstinmatning längre än 30 sekunder.</string>
+  <string name="voice_input_settings_autostop_vad">Auto-stopp vid tystnad</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">Stoppa automatiskt när tystnad upptäckts. Du kan alltid stoppa manuellt oavsett bakgrundsljud.</string>
+  <string name="voice_input_settings_change_models">Modeller</string>
+  <string name="voice_input_settings_change_models_subtitle">För att byta modell går du till menyn Språk &amp; Modeller</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">Textförslag</string>
+  <string name="prediction_settings_transformer">Transformer LM</string>
+  <string name="prediction_settings_transformer_finetuning">Finjustera transformer</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">Kan döda ditt batteri! Den här funktionen är under utveckling</string>
+  <string name="prediction_settings_transformer_models">Transformer-modeller</string>
+  <string name="prediction_settings_transformer_alpha_notice">OBS: Transformer LM är i alfa-stadie</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">Dessa inställningar är experimentella och endast relevanta för engelska. De har ingen effekt för andra språk.</string>
+  <string name="prediction_settings_smart_keyhit_detection">Smart knapptrycksidentifiering</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">Använd ordlistan för att avgöra vilka tangenter som kan vara relevanta för nästa tangent och ökar deras träffyta. Ökningen tas bort efter backsteg</string>
+  <string name="prediction_settings_word_blacklist">Svartlista för Ord</string>
+  <string name="prediction_settings_word_blacklist_add">Lägg till i svartlista</string>
+  <string name="prediction_settings_word_blacklist_none">Det finns inga svartlistade ord.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">Visa och redigera svartlistade ord</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">Klicka här för att visa listan över svartlistade förslag, lägga till eller ta bort poster</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">Ta bort ord</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Hjälp &amp; Återkoppling</string>
+  <string name="help_menu_version_name">Versionsnamn: %1$s</string>
+  <string name="help_menu_version_code">Versionskod: %1$s</string>
+  <string name="help_menu_version_tip">Vi vill höra från dig! Om du rapporterar problem kan dun version vara relevant: v%1$s</string>
+  <string name="help_menu_website">FUTOs hemsida</string>
+  <string name="help_menu_website_subtitle">Lär känna oss och vår filosofi</string>
+  <string name="help_menu_website_tags">ladda ner, appar, röstinmatning</string>
+  <string name="help_menu_documentation">Dokumentation</string>
+  <string name="help_menu_documentation_subtitle">Lär dig mer om tangentbordets funktioner</string>
+  <string name="help_menu_discord">Discordserver</string>
+  <string name="help_menu_discord_subtitle">Vill du prata, men inte på Zulip? Chatta här</string>
+  <string name="help_menu_futo_chat">FUTO Chat</string>
+  <string name="help_menu_futo_chat_subtitle">Vill du prata, men inte på Discord? Chatta här</string>
+  <string name="help_menu_github">Offentlig ärendehantering</string>
+  <string name="help_menu_github_subtitle">Specifik bugg eller funktionsförslag? Skriv här</string>
+  <string name="help_menu_email">E-post keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">Privat återkoppling, hjälp eller använder du inte GitHub? Mejla oss</string>
+  <string name="help_menu_email_tags">gmail, support, kontakt, hjälp, trasig, bugg, fel, problem, klagomål, ärende, betalning, support, glitch, funktionsfel, åtgärda, kundtjänst, krasch, fråga, förfrågan, assistans</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">Setup - Steg 1</string>
+  <string name="setup_step_2">Setup - Steg 2</string>
+  <string name="setup_step_3">Setup - Steg 3</string>
+  <string name="setup_welcome_text">Välkommen till FUTO Tangentbord (alfa)! Den här produkten utvecklas fortfarande och är inte färdig ännu. Vi uppskattar ditt tålamod och förståelse.\n\nFör att komma igång aktiverar du FUTO Tangentbord som en inmatningsmetod.</string>
+  <string name="setup_open_input_settings">Öppna Inställningarna för Inmatningsmetoder</string>
+  <string name="setup_warning_multiple_versions">Varning: Du verkar ha både Play Butik-versionen och den fristående versionen installerade. Vi rekommenderar att bara ha en installerad</string>
+  <string name="setup_active_input_method">Välj FUTO Tangentbord som din aktiva inmatningsmetod.</string>
+  <string name="setup_switch_input_methods">Byt Inmatningsmetod</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">Omnämnanden</string>
+  <string name="credits_menu_header_text">Tack till de här personerna som hjälper till att göra FUTO Tangentbord till en jättebra app!</string>
+  <string name="credits_menu_team_translators_title">Översättare</string>
+  <string name="credits_menu_team_keyboard_layouts_title">Har bidragit med layouter</string>
+  <string name="credits_menu_team_code_title">Har bidragit med kod</string>
+  <string name="credits_menu_team_third_party_libraries_title2">Kod och resurser från tredje part</string>
+  <string name="credits_menu_nonaffiliation_notice">Författarna ovan är inte knutna till oss, och kanske inte stödjer eller rekommenderar oss. Att någon listas innebär inte att vi stödjer eller är knutna till den.</string>
+  <string name="credits_menu_contribute_translations_button">Hjälp till att översätta appen</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">Bidra med layouter</string>
+  <string name="credits_menu_contribute_code_button">Bidra med kod</string>
+  <string name="credits_menu_project_information_title">%s-information</string>
+  <string name="credits_menu_project_url_link">Projektets URL</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">Språkspecifika inställningar</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">Inställningar för japansk inmatning</string>
+  <string name="japanese_settings_toggle_flick_only">Svep enbart</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">Inaktiverar växling mellan vokaler vid upprepade knapptryckningar (Keitai-inmatning)</string>
+  <string name="japanese_settings_toggle_halfwidth_space">Använd halvbreddsblanksteg</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">Använd alltid halvbreddssteg</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">Avancerade Parametrar</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">Alternativen nedan är experimentella och kan komma att tas bort eller ändras i framtiden i takt med att appens interna funktioner förändras. Om du ändrar dessa värden kan det påverka din upplevelse negativt. Obs: Dessa påverkar endast engelska</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">Transformer LM-styrka</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">Lägre värden gör att autokorrigeringen fungerar mer likt ett vanligt AOSP-tangentbord, medan ett högre värde gör den mer beroende av det neurala nätverket. Standard är %1$s</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">alltid Transformer LM</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">alltid BinaryDictionary</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">Tröskelvärde för autokorrigering</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">Ett lägre tröskelvärde gör att autokorrigering sker oftare (och felaktiga korrigeringar blir fler), medan ett högre tröskelvärde gör att autokorrigering sker mer sällan (och felaktiga korrigeringar blir färre). Standard är %1$s</string>
+  <!-- Personal dictionary -->
+  <string name="personal_dictionary_shortcut_error_symbols">Fel: Genvägen får inte börja med en symbol</string>
+  <string name="personal_dictionary_imported_additional_files_list_header">Filer</string>
+  <string name="personal_dictionary_import_additional_file">Importera</string>
+  <string name="personal_dictionary_words_list_header">Ord</string>
+  <string name="personal_dictionary_cancel_action">Avbryt</string>
+  <string name="personal_dictionary_delete_additional_file">Ta bort extra ordlistsfil?</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s kommer tas bort</string>
+</resources>

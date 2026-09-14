@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Přepínač motivů</string>
+  <string name="action_select_all_title">Vybrat vše</string>
+  <string name="action_cut_title">Vyjmout do schránky</string>
+  <string name="action_copy_title">Kopírovat do schránky</string>
+  <string name="action_paste_title">Vložit ze schránky</string>
+  <string name="action_undo_title">Zpět</string>
+  <string name="action_redo_title">Znovu</string>
+  <string name="action_text_editor_title">Textový editor</string>
+  <string name="action_debug_title">Ladicí informace</string>
+  <string name="action_more_actions_title">Všechny akce</string>
+  <string name="action_bug_viewer_title">Prohlížeč chyb</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Šipka nahoru</string>
+  <string name="action_cursor_down_title">Šipka dolů</string>
+  <string name="action_cursor_left_title">Šipka vlevo</string>
+  <string name="action_cursor_right_title">Šipka vpravo</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emodži</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Nedávné</string>
+  <string name="action_emoji_category_smileys_emotion">Smajlíky a emotikony</string>
+  <string name="action_emoji_category_people_body">Lidé a tělo</string>
+  <string name="action_emoji_category_animals_nature">Zvířata a příroda</string>
+  <string name="action_emoji_category_food_drink">Jídlo a pití</string>
+  <string name="action_emoji_category_travel_places">Cestování a místa</string>
+  <string name="action_emoji_category_activities">Aktivity</string>
+  <string name="action_emoji_category_objects">Předměty</string>
+  <string name="action_emoji_category_symbols">Symboly</string>
+  <string name="action_emoji_category_flags">Vlajky</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Nenalezeny žádné výsledky</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">Přejít na <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Vymazat nedávná emodži?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Zrušit</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Vymazat</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Vymazat nedávná emodži</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Hledat</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Hlasový vstup</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Hlasový vstup (systém)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">Pro jazyk <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g> není nainstalován žádný vstupní model, klepněte pro kontrolu možností.</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Pro použití hlasového vstupu prosím přejděte do Oprávnění a povolte oprávnění Mikrofon</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Správa schránky</string>
+  <string name="action_clipboard_manager_unpin_item">Odepnout položku</string>
+  <string name="action_clipboard_manager_pin_item">Připnout položku</string>
+  <string name="action_clipboard_manager_remove_item">Odstranit položku</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Zrušit</string>
+  <string name="action_clipboard_manager_disable_text">Nemáte žádné položky k vymazání. Chcete zakázat historii schránky?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Zakázat</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Nemáte žádné nepřipnuté položky k vymazání. Chcete odepnout všechny položky?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Odepnout</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Vymazat všechny nepřipnuté položky?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Vymazat</string>
+  <string name="action_clipboard_manager_clear_clipboard">Vymazat schránku</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Zařízení uzamčeno</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Pro přístup k historii schránky prosím odemkněte vaše zařízení</string>
+  <string name="action_clipboard_manager_error_general_title">Chyba schránky</string>
+  <string name="action_clipboard_manager_error_general_text">Nepodařilo se uložit nebo načíst historii schránky. Může být poškozená. Zkuste ji smazat nebo restartovat klávesnici. Nahlaste prosím toto jako chybu. Důvod: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Smazat schránku? VŠECHNY položky budou ztraceny.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Opakovat</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Prozkoumat chybu v prohlížeči chyb</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Smazat</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Historie schránky není aktivní</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">Pro uložení položek ve schránce povolte její historii. Tím bude uchováno až <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> položek po dobu <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> dní (netýká se připnutých). Tuto funkci lze upravit v nastavení.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Povolit historii schránky</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Aplikace nepodporuje vkládání obrázků</string>
+  <string name="action_clipboard_manager_settings_title">Nastavení správce schránky</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Počet hodin k uchování nepřipnutých položek</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Počet nepřipnutých položek k uchování</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Ukládat citlivé položky</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Pokud je poovleno, budou uloženy položky ze správců hesel, anonymních oken apod.</string>
+  <string name="action_clipboard_manager_settings_list_layout">Použít rozložení vertikálního seznamu namísto mřížky</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Ponechat připnuté položky nahoře</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Zobrazit nedávno zkopírovaný text v liště návrhů</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Režimy klávesnice</string>
+  <string name="action_keyboard_modes_go_back">Přejít zpět</string>
+  <string name="action_keyboard_modes_resize_keyboard">Změnit velikost klávesnice</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standardní</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Jedna ruka</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Rozdělit</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Vznášení</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Resetovat</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Použít</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">Styly slov</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Aplikace nejspíše nepodporuje vkládání obrázků, tato funkce nemusí fungovat.</string>
+  <string name="action_fonttyper_select_a_preset">Vybrat předvolbu</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Scratch</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Superhrdina</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Dramatický text</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Bonbon</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Duha</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Obzor</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">Znělka</string>
+  <string name="action_fonttyper_finish">Dokončit</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Akční klávesa</string>
+  <string name="action_kind_pinned_key">Připnuté akce</string>
+  <string name="action_kind_favorites">Oblíbené akce</string>
+  <string name="action_kind_more">Další akce</string>
+  <string name="action_kind_disabled">Skryté akce</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Tmavý režim</string>
+  <string name="theme_default_light">Světlý režim</string>
+  <string name="theme_amoled_dark">AMOLED tmavá fialová</string>
+  <string name="theme_catppuccin_mocha">Catppuccin Mocha</string>
+  <string name="theme_classic_dark">AOSP Material tmavá</string>
+  <string name="theme_classic_light">AOSP Material světlá</string>
+  <string name="theme_vi">Motiv FUTO VI</string>
+  <string name="theme_deepsea_dark">Podmořská tmavá</string>
+  <string name="theme_deepsea_light">Podmořská světlá</string>
+  <string name="theme_emerald">Smaragd</string>
+  <string name="theme_gradient1">Přechod 1</string>
+  <string name="theme_gradient2">Přechod 2</string>
+  <string name="theme_rainbow">Duha</string>
+  <string name="theme_snowfall">Sníh</string>
+  <string name="theme_steel_gray">Ocelově šedá</string>
+  <string name="theme_sunflower">Slunečnice</string>
+  <string name="theme_cotton_candy">Cukrová vata</string>
+  <string name="theme_hotdog">Párek v rohlíku</string>
+  <string name="theme_high_contrast_yellow">Vysoce kontrastní žlutá</string>
+  <string name="theme_dev">Motiv stavby</string>
+  <string name="theme_dynamic_system">Automatická dynamická</string>
+  <string name="theme_dynamic_dark">Tmavá dynamická</string>
+  <string name="theme_dynamic_light">Světlá dynamická</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Služba kontroly aktualizací</string>
+  <string name="autoupdater_update_available_title">Je dostupná aktualizace</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">Je dostupná aktualizace (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Klepněte pro stažení</string>]]></string>
+  <string name="autoupdater_dismiss_update">Zavřít</string>
+  <string name="autoupdater_perform_update">Aktualizovat</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[<string name=\\\"keyboard_suggest_blacklist_body\\\">Zakázat navrhování slova \\&quot;<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>\\&quot;?</string>]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Černá listina</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Zakázat návrhy emodži</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Alfa</string>
+  <string name="keyboard_switch_keyboard">Přepnout klávesnici</string>
+  <string name="keyboard_language_settings">Nastavení</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Klepněte pro kontrolu aktualizací nebo je zkontrolujte v nastavení</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Slovník není stažen, klikněte pro stažení</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Otevřít akční lištu</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Zavřít akční lištu</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Zavřít</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Zpět</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Zobrazit klávesnici</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Zavřít</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Sbalit</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Platba</string>
+  <string name="payment_screen_title">Zaplaťte za Klávesnici FUTO</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">Klávesnici FUTO používáte <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> dní. Pokud je pro vás užitečná, zvažte prosím platbu pro podpoření dalšího vývoje softwaru FUTO.</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Děkujeme za vyzkoušení Klávesnice FUTO! Pokud je pro vás aplikace užitečná, zvažte prosím platbu pro podpoření dalšího vývoje softwaru FUTO.</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO se věnuje tvorbě kvalitního softwaru, který vás nezneužívá. Tato aplikace vám nikdy nebude zobrazovat reklamy ani shromažďovat vaše osobní údaje.</string>
+  <string name="payment_screen_sales_point_development_title">Udržitelný vývoj</string>
+  <string name="payment_screen_sales_point_development_body">Posláním FUTO je, aby se software s otevřeným zdrojovým kódem a obchodní praktiky nezaložené na škodlivém softwaru staly udržitelným zdrojem příjmů pro projekty a jejich vývojáře. Z tohoto důvodu propagujeme, aby uživatelé za software skutečně platili.</string>
+  <string name="payment_screen_sales_point_privacy_title">Závazek k ochraně soukromí</string>
+  <string name="payment_screen_sales_point_privacy_body">Tato aplikace vám nikdy nebude zobrazovat reklamy ani prodávat vaše data. Tím se prostě nezabýváme.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Platba není na tomto sestavení podporována</string>
+  <string name="payment_screen_already_paid_title">Již jste zaplatili?</string>
+  <string name="payment_screen_already_paid_body">Pokud jste již zaplatili za Klávesnici FUTO nebo Hlasový vstup FUTO, klepněte níže.</string>
+  <string name="payment_screen_already_paid_button">Již jsem zaplatil/a</string>
+  <string name="payment_screen_already_paid_confirmation">Potvrďte svou volbu</string>
+  <string name="payment_screen_already_paid_confirmation_body">Opravdu chcete potvrdit, že jste již zaplatili? Po potvrzení nebudete znovu dotázáni na platbu.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Již jsem zaplatil/a</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Zrušit</string>
+  <string name="payment_screen_set_reminder_title">Zatím nejste připraveni na platbu?</string>
+  <string name="payment_screen_set_reminder_body">Toto skryje upomínku v nastavení na zadaný počet dnů.</string>
+  <string name="payment_screen_set_reminder_setter">Kdy chcete znovu dostat upomínku?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">za 7 dní</string>
+  <string name="payment_screen_set_reminder_setter_1_month">za 1 měsíc</string>
+  <string name="payment_screen_set_reminder_setter_6_months">za 6 měsíců</string>
+  <string name="payment_screen_set_reminder_setter_next_century">v dalším století</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Potvrdit upomínku</string>
+  <string name="payment_screen_other_options">Další možnosti</string>
+  <string name="payment_screen_need_help_title">Nápověda</string>
+  <string name="payment_screen_need_help_subtitle">Potřebujete poradit? Navštivte naše webové stránky</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Zaplatit skrze Google Play (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + daň)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">Zaplatit (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + daň)</string>]]></string>
+  <string name="payment_screen_more_options">Další možnosti</string>
+  <string name="payment_screen_payment_complete_title">Platba dokončena</string>
+  <string name="payment_screen_aftersales_title">Děkujeme</string>
+  <string name="payment_screen_aftersales_title_pending">Čekající platba</string>
+  <string name="payment_screen_aftersales_paragraph_1">Děkujeme za zakoupení Klávesnice FUTO!</string>
+  <string name="payment_screen_aftersales_paragraph_2">Váš nákup pomůže s dalším vývojem Klávesnice FUTO a ostatních projektů FUTO.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Vaše platba stále čeká, brzy by ale měla být dokončena.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Pokud jste právě zaplatili, je možné, že se vaše platba ještě zpracovává, měli byste obdržet e-mail s dalšími informacemi.</string>
+  <string name="payment_screen_payment_failed_title">Chyba platby</string>
+  <string name="payment_screen_payment_failed_body">Vaše platba bohužel z nějakého důvodu selhala. Pokud potřebujete pomoci, kontaktujte nás. Můžete nám napsat na keyboard@futo.org, použít tlačítko níže nebo odeslat zpětnou vazbu v sekci Nápověda</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Je možné, že se vyskytl problém s vaší platbou. Pokud platba proběhla úspěšně, měli byste obdržet e-mail s licenčním klíčem. Pokud potřebujete pomoc, kontaktujte nás. Můžete nám napsat na adresu keyboard@futo.org, použít tlačítko níže nebo funkci Sdílet zpětnou vazbu na hlavní obrazovce.</string>
+  <string name="payment_screen_license_integrity_error">Nepodařilo se ověřit licenci. Pokud si myslíte, že jde o chybu, kontaktujte nás.</string>
+  <string name="payment_screen_continue_button">Pokračovat</string>
+  <string name="payment_unpaid_version_title">Nezaplacená Klávesnice FUTO</string>
+  <string name="payment_unpaid_version_indicator">Nezaplaceno</string>
+  <string name="payment_paid_version_indicator">Děkujeme, že používáte placenou verzi Klávesnice FUTO!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Informace o aktualizacích</string>
+  <string name="manual_update_notice_paragraph_1">Tato aplikace nemá připojení k internetu a nebude moci automaticky kontrolovat aktualizace. Můžete je ale zkontrolovat ručně.</string>
+  <string name="manual_update_notice_paragraph_2">Pro automatické aktualizace prosím použijte F-Droid nebo Obtainium. Navštivte keyboard.futo.org pro možnosti stažení.</string>
+  <string name="manual_update_notice_dev_paragraph">Používáte vývojářské sestavení Klávesnice FUTO. Navštivte keyboard.futo.org, pokud si chcete stáhnout stabilní sestavení.</string>
+  <string name="manual_update_notice_visit_site_button">Navštívit</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Zavřít</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Tip</string>
+  <string name="settings_unknown_error_title">Neznámá chyba</string>
+  <string name="settings_unknown_error_subtitle">Došlo k neznámé chybě.</string>
+  <string name="settings_try_typing_here">Zkuste něco napsat…</string>
+  <string name="settings_external_model_name">Externě importovaný model</string>
+  <string name="settings_check_for_updates_manually">Ručně zkontrolovat aktualizace</string>
+  <string name="settings_update_available">Je dostupná aktualizace</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Domů</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">Nastavení je vypnuto, protože závisí na jiném nastavení, klikněte pro přesměrování na nabídku: %1$s</string>
+  <string name="settings_search_menu_title">Hledat</string>
+  <string name="settings_search_no_options_found">Nenalezeny žádné výsledky</string>
+  <string name="misc_settings_title">Různé</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Jazyky a modely</string>
+  <string name="language_settings_add_language_button">Přidat jazyk</string>
+  <string name="language_settings_select_language">Vyberte jazyk, který chcete přidat</string>
+  <string name="language_settings_search">Hledat</string>
+  <string name="language_settings_select_layout">Vyberte rozložení, které chcete přidat</string>
+  <string name="language_settings_warning_language_has_no_dict">Tento jazyk nemá vestavěný slovník. Doporučujeme jeho stažení a importování pro získání automatických oprav a návrhů slov.</string>
+  <string name="language_settings_resource_none">(Žádný)</string>
+  <string name="language_settings_layouts_of_this_language">Rozložení klávesnice</string>
+  <string name="language_settings_add_layout_for_this_language">Přidat rozložení klávesnice</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Vícejazyčné psaní</string>
+  <string name="language_settings_remove_this_language">Odstranit jazyk</string>
+  <string name="language_settings_manage_languages_title">Správa jazyků a rozložení</string>
+  <string name="language_settings_resource_imported_indicator">(Importován)</string>
+  <string name="language_settings_resource_unsupported_indicator">(Nepodporován)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Vestavěný slovník</string>
+  <string name="language_settings_resource_voice_input_selected">Chcete vrátit model hlasového vstupu na výchozí, nebo jej nahradit jiným souborem?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Pro tento jazyk neexistuje žádný vestavěný model hlasového vstupu, takže pokud jej odstraníte, přestane u tohoto jazyka fungovat hlasový vstup, dokud neimportujete jiný model!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Pro tento jazyk jste nenastavili vlastní model hlasového vstupu. Můžete si jej stáhnout online nebo ho importovat ze souboru.</string>
+  <string name="language_settings_resource_transformer_selected">Přejete si vrátit transformační model na výchozí, nebo ho nahradit jiným souborem?</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">Pro vybraný jazyk neexistuje žádný zabudovaný transformační model, takže pokud tento odstraníte, predikce založené na transformačních modelech přestanou fungovat pro tento jazyk dokud neimportujete jiný model!</string>
+  <string name="language_settings_resource_replace_button">Nahradit</string>
+  <string name="language_settings_resource_import_file_button">Importovat</string>
+  <string name="language_settings_resource_revert_to_default_button">Vrátit na výchozí hodnotu</string>
+  <string name="language_settings_resource_remove_button">Odstranit</string>
+  <string name="language_settings_resource_explore_online_button">Prozkoumat</string>
+  <string name="language_settings_remove_language_title">Smazat %1$s?</string>
+  <string name="language_settings_remove_language_remove_button">Odstranit</string>
+  <string name="language_settings_remove_language_cancel_button">Zrušit</string>
+  <string name="language_settings_other_options">Další možnosti</string>
+  <string name="language_settings_explore_voice_input_models_online">Prozkoumat modely hlasového zadávání</string>
+  <string name="language_settings_explore_dictionaries_online">Prozkoumat slovníky</string>
+  <string name="language_settings_explore_transformers_online">Prozkoumat transformační modely</string>
+  <string name="language_settings_import_dictionary_or_model">Importovat slovník nebo model</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Model hlasového zadávání</string>
+  <string name="file_kind_transformer_model">Transformační model</string>
+  <string name="file_kind_dictionary">Slovníky</string>
+  <string name="file_kind_invalid_file">Neplatný soubor</string>
+  <string name="file_kind_cfg_backup">Záloha konfigurace</string>
+  <string name="resource_importer_import_title">Importovat - %1$s</string>
+  <string name="resource_importer_cancel_button">Zrušit</string>
+  <string name="resource_importer_import_button">Importovat</string>
+  <string name="resource_importer_file_info">Informace o souboru: %1$s</string>
+  <string name="resource_importer_importing">Importování pro jazyk: %1$s</string>
+  <string name="resource_importer_select_language">Vyberte jazyk, pro který si přejete importovat:</string>
+  <string name="resource_importer_warning_language_missing">Tento soubor vypadá, že je určen pro jazyk (%1$s), který není povolen v nastavení</string>
+  <string name="settings_export_configuration_title">Záloha konfigurace</string>
+  <string name="settings_export_configuration">Exportovat konfiguraci</string>
+  <string name="settings_import_configuration">Importovat konfiguraci</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Upravit akce</string>
+  <string name="action_editor_subtitle">Upravit oblíbené akce, připnuté akce a tlačítko akce vedle mezerníku</string>
+  <string name="action_editor_edit_actions">Upravit akce</string>
+  <string name="action_editor_warning_no_actions">Žádné akce nejsou povoleny</string>
+  <string name="action_editor_error_more_than_one_action_key">Prosím, přiřaďte pouze jedno tlačítko akce. Není možné přiřadit více akcí jednomu tlačítku akce.</string>
+  <string name="action_editor_add_next_action">Přidat další</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Akce</string>
+  <string name="action_settings_quick_option_enable_action_key">Zapnout klávesu akce</string>
+  <string name="action_settings_quick_option_language_switch_key">Klávesa přepínání jazyka</string>
+  <string name="action_settings_action_settings">Nastavení akcí</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">Změnit velikost klávesnice</string>
+  <string name="size_settings_resize_tip">Klikněte na tlačítko \"Změnit velikost klávesnice\" pro změnění velikosti.</string>
+  <string name="size_settings_reset">Resetovat nastavení velikosti</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">Dlouhý stisk kláves a mezerník</string>
+  <string name="morekey_settings_subtitle">Nastavte délku pro dlouhý stisk, jak řadit písmena/symboly a chování mezerníku a tlačítka smazat.</string>
+  <string name="morekey_settings_layout">Rozložení kláves dlouhého stisku</string>
+  <string name="morekey_settings_reset">Resetovat na výchozí</string>
+  <string name="morekey_settings_move_kind_up">Posunout nahoru</string>
+  <string name="morekey_settings_move_kind_down">Posunout dolů</string>
+  <string name="morekey_settings_move_kind_up_to_top">Posunout navrch</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">Posunout dospodu</string>
+  <string name="morekey_settings_kind_position">Pozice %1$s z %2$s</string>
+  <string name="morekey_settings_active">Aktivní</string>
+  <string name="morekey_settings_inactive">Neaktivní</string>
+  <string name="morekey_settings_reactivate">Znovu aktivovat</string>
+  <string name="morekey_settings_disable">Deaktivovat</string>
+  <string name="morekey_settings_keys">Klávesy dlouhého stisku</string>
+  <string name="morekey_settings_show_hints">Zobrazovat nápovědy</string>
+  <string name="morekey_settings_duration">Délka dlouhého stisku</string>
+  <string name="morekey_settings_duration_subtitle">Jak dlouho musí být klávesa stisknuta, aby to bylo považováno za dlouhý stisk</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Čísla</string>
+  <string name="morekey_settings_kind_numbers_example">např. [1] na [q]</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">např. [ñ] na [n] ve Španělštině</string>
+  <string name="morekey_settings_kind_symbols">Symboly</string>
+  <string name="morekey_settings_kind_symbols_example">např. [@] na [a]</string>
+  <string name="morekey_settings_kind_actions_example">např. [Kopírovat] na [c]</string>
+  <string name="typing_settings_suggest_emojis">Návrhy emodži</string>
+  <string name="typing_settings_suggest_emojis_subtitle">Narhovat emodži během psaní</string>
+  <string name="typing_settings_vibration_strength">Vibrace</string>
+  <string name="typing_settings_vibration_strength_default">Výchozí</string>
+  <string name="typing_settings_keypress_sound_volume">Hlasitost zvuků</string>
+  <string name="typing_settings_keypress_sound_volume_default">Výchozí</string>
+  <string name="typing_settings_enable_clipboard_history">Historie schránky</string>
+  <string name="typing_settings_enable_clipboard_history_tags">kopírování, vložení</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">Smazat vložený text při stisku klávesy backspace</string>
+  <string name="typing_settings_revert_correction_on_backspace">Vrátit automatickou opravu při stisku klávesy backspace</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">Režim automatických mezer</string>
+  <string name="typing_settings_auto_space_mode_auto2">Mezera za doporučením nebo interpunkcí</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">Mezera za doporučením</string>
+  <string name="typing_settings_auto_space_mode_legacy2">Opožděná mezera za doporučením (starší režim)</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Klávesnice</string>
+  <string name="keyboard_settings_show_number_row">Zobrazit řadu čísel</string>
+  <string name="keyboard_settings_show_arrow_row">Zobrazit klávesy šipek</string>
+  <string name="keyboard_settings_extra_layouts">Dodatečné rozložení</string>
+  <string name="keyboard_settings_show_suggestion_row">Zobrazit lištu akcí/návrhů</string>
+  <string name="keyboard_settings_number_row_title">Číselná řada</string>
+  <string name="keyboard_settings_number_row_style">Styl číselné řady</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">Kompaktní</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">Klávesa</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">Vždy používat západní číslice</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Klávesnice a psaní</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">Motiv</string>
+  <string name="theme_settings_key_borders">Okraje kláves</string>
+  <string name="dev_settings_title">Nastavení pro vývojáře</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Hlasové zadávání</string>
+  <string name="voice_input_settings_builtin_disabled_notice">Zabudované hlasové zadávání je vypnuté!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Vypnout zabudované hlasové zadávání</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">Použít hlasové zadávání poskytnuté externí aplikací</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">Zahrát krátky zvuk při spuštění a ukončení</string>
+  <string name="voice_input_settings_use_personal_dict">Osobní slovník pro hlasové zadávání</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">Používat nebo nepoužívat osobní slovník pro hlasové zadávání</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Upřednostňovat Bluetooth mikrofon</string>
+  <string name="voice_input_settings_audio_focus_subtitle">Pozastavit video/hudbu při aktivaci hlasového zadávání</string>
+  <string name="voice_input_settings_suppress_symbols">Potlačit symboly</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">Zabránit hlasovému zadávání používat symboly</string>
+  <string name="voice_input_settings_long_form">Dlouho trvající hlasové zadávání</string>
+  <string name="voice_input_settings_long_form_subtitle">Pokud je nastavení vypnuto, hlasové zadávání se automaticky ukončí po 30 vteřinách.</string>
+  <string name="voice_input_settings_autostop_vad">Automaticky ukončit při tichu</string>
+  <string name="voice_input_settings_change_models">Modely</string>
+  <string name="voice_input_settings_change_models_subtitle">Pro změnu modelů přejděte do nabídky Jazyky a modely</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">Predikce textu</string>
+  <string name="prediction_settings_transformer">Transformační model</string>
+  <string name="prediction_settings_transformer_finetuning">Ladění (fine-tuning) transformačního modelu</string>
+  <string name="prediction_settings_transformer_models">Transformační modely</string>
+  <string name="prediction_settings_transformer_alpha_notice">Poznámka: Transformační modely jsou v alfa verzi</string>
+  <string name="prediction_settings_word_blacklist">Černá listina slov</string>
+  <string name="prediction_settings_word_blacklist_add">Přidat na černou listinu</string>
+  <string name="prediction_settings_word_blacklist_none">Žádná slova na černé listině.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">Zobrazit a upravovat černou listinu slov</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">Odstranit slovo</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Pomoc a zpětná vazba</string>
+  <string name="help_menu_website">Webová stránka FUTO</string>
+  <string name="help_menu_documentation">Dokumentace</string>
+  <string name="help_menu_discord">Discord server</string>
+  <string name="help_menu_discord_subtitle">Chcete si povídat, ale nemáte rádi Zulip? Chatujte zde</string>
+  <string name="help_menu_futo_chat">Chat FUTO (Zulip)</string>
+  <string name="help_menu_futo_chat_subtitle">Chcete si povídat, ale nemáte rádi Discord? Chatujte zde</string>
+  <string name="help_menu_github">Veřejný systém řízení požadavků (GitHub)</string>
+  <string name="help_menu_github_subtitle">Určitý problém nebo požadavek? Zveřejněte ho zde</string>
+  <string name="help_menu_email">Zašlete e-mail na adresu keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">Osobní zpetná vazba, pomoc, nebo nemáte rádi GitHub? Pošlete nám e-mail</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">Počáteční konfigurace - krok 1</string>
+  <string name="setup_step_2">Počáteční konfigurace - krok 2</string>
+  <string name="setup_step_3">Počáteční konfigurace - krok 3</string>
+  <string name="setup_welcome_text">Vítejte v Klávesnici FUTO (alfa)! Tento produkt je stále ve vývoji a není dokončen, ceníme si vaší trpělivosti a pochopení.\n\nAbyste mohli začít, nastavte si Klávesnici FUTO jako způsob zadávání vstupu.</string>
+  <string name="setup_open_input_settings">Otevřít nastavení způsobu zadávání vstupu</string>
+  <string name="setup_active_input_method">Prosím vyberte Klávesnici FUTO jako váš aktivní způsob zadávání vstupu.</string>
+  <string name="setup_switch_input_methods">Přepnout způsob zadávání vstupu</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">Poděkování</string>
+  <string name="credits_menu_header_text">Poděkování těmto lidem za pomoc při dělání Klávesnice FUTO skvělou aplikací!</string>
+  <string name="credits_menu_team_translators_title">Překladatelé</string>
+  <string name="credits_menu_team_keyboard_layouts_title">Přispěvatelé rozložení</string>
+  <string name="credits_menu_team_code_title">Přispěvatelé kódu</string>
+  <string name="credits_menu_contribute_translations_button">Pomozte přeložit tuto aplikace</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">Přispějte rozložení</string>
+  <string name="credits_menu_contribute_code_button">Přispějte kód</string>
+  <string name="credits_menu_project_url_link">URL adresa projektu</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">Nastavení specifické dle jazyka</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">Pokročilé parametry</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">Síla transformačního modelu</string>
+  <string name="personal_dictionary_imported_additional_files_list_header">Soubory</string>
+  <string name="personal_dictionary_import_additional_file">Importovat</string>
+  <string name="personal_dictionary_words_list_header">Slova</string>
+  <string name="personal_dictionary_cancel_action">Zrušit</string>
+  <string name="personal_dictionary_delete_additional_file">Smazat přebývající slovníkový soubor?</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s bude smazán</string>
+</resources>

@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2014, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+
+  These Emoji symbols are unsupported by TTS.
+  TODO: Remove this file when TTS/TalkBack support these Emoji symbols.
+-->
+
+<resources>
+  <!-- Spoken description for Unicode code point U+00A9: "©" COPYRIGHT SIGN -->
+  <string name="spoken_emoji_00A9">"Uphawu le-copyright"</string>
+  <!-- Spoken description for Unicode code point U+00AE: "®" REGISTERED SIGN -->
+  <string name="spoken_emoji_00AE">"Uphawu olubhalisiwe"</string>
+  <!-- Spoken description for Unicode code point U+203C: "‼" DOUBLE EXCLAMATION MARK -->
+  <string name="spoken_emoji_203C">"Isababazo kabili"</string>
+  <!-- Spoken description for Unicode code point U+2049: "⁉" EXCLAMATION QUESTION MARK -->
+  <string name="spoken_emoji_2049">"Uphawu lesibabazo mbuzo"</string>
+  <!-- Spoken description for Unicode code point U+2122: "™" TRADE MARK SIGN -->
+  <string name="spoken_emoji_2122">"Uphawu lokuhweba"</string>
+  <!-- Spoken description for Unicode code point U+2139: "ℹ" INFORMATION SOURCE -->
+  <string name="spoken_emoji_2139">"Umthombo wolwazi"</string>
+  <!-- Spoken description for Unicode code point U+2194: "↔" LEFT RIGHT ARROW -->
+  <string name="spoken_emoji_2194">"Umcibisholo ongakwesokunxele-nakwesokudla"</string>
+  <!-- Spoken description for Unicode code point U+2195: "↕" UP DOWN ARROW -->
+  <string name="spoken_emoji_2195">"Umcibisholo obheke phezulu naphansi"</string>
+  <!-- Spoken description for Unicode code point U+2196: "↖" NORTH WEST ARROW -->
+  <string name="spoken_emoji_2196">"Umcibisholo wenyakatho nentshonalanga"</string>
+  <!-- Spoken description for Unicode code point U+2197: "↗" NORTH EAST ARROW -->
+  <string name="spoken_emoji_2197">"Umcibisholo wenyakatho nempumalanga"</string>
+  <!-- Spoken description for Unicode code point U+2198: "↘" SOUTH EAST ARROW -->
+  <string name="spoken_emoji_2198">"Umcibisholo weningizimu nempumalanga"</string>
+  <!-- Spoken description for Unicode code point U+2199: "↙" SOUTH WEST ARROW -->
+  <string name="spoken_emoji_2199">"Umcibisholo weningizimu nentshonalanga"</string>
+  <!-- Spoken description for Unicode code point U+21A9: "↩" LEFTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21A9">"Umcibisholo ongakwesokunxele nehhuku"</string>
+  <!-- Spoken description for Unicode code point U+21AA: "↪" RIGHTWARDS ARROW WITH HOOK -->
+  <string name="spoken_emoji_21AA">"Umcibisholo ongakwesokudla nehhuku"</string>
+  <!-- Spoken description for Unicode code point U+231A: "⌚" WATCH -->
+  <string name="spoken_emoji_231A">"Buka"</string>
+  <!-- Spoken description for Unicode code point U+231B: "⌛" HOURGLASS -->
+  <string name="spoken_emoji_231B">"Ingilasi yesikhathi"</string>
+  <!-- Spoken description for Unicode code point U+23E9: "⏩" BLACK RIGHT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23E9">"Unxande okabili omnyama obheke ngakwesokudla"</string>
+  <!-- Spoken description for Unicode code point U+23EA: "⏪" BLACK LEFT-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EA">"Unxande okabili omnyama obheke ngakwesokunxele"</string>
+  <!-- Spoken description for Unicode code point U+23EB: "⏫" BLACK UP-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EB">"Unxande okabili omnyama obheke ngaphezulu"</string>
+  <!-- Spoken description for Unicode code point U+23EC: "⏬" BLACK DOWN-POINTING DOUBLE TRIANGLE -->
+  <string name="spoken_emoji_23EC">"Unxande okabili omnyama obheke ngezansi"</string>
+  <!-- Spoken description for Unicode code point U+23F0: "⏰" ALARM CLOCK -->
+  <string name="spoken_emoji_23F0">"Iwashi le-alamu"</string>
+  <!-- Spoken description for Unicode code point U+23F3: "⏳" HOURGLASS WITH FLOWING SAND -->
+  <string name="spoken_emoji_23F3">"Ingilasi yesikhathi egeleza isihlabathi"</string>
+  <!-- Spoken description for Unicode code point U+24C2: "Ⓜ" CIRCLED LATIN CAPITAL LETTER M -->
+  <string name="spoken_emoji_24C2">"Igama elingu-m lofeleba oyingiliziwe"</string>
+  <!-- Spoken description for Unicode code point U+25AA: "▪" BLACK SMALL SQUARE -->
+  <string name="spoken_emoji_25AA">"Isikwele esincane esimnyama"</string>
+  <!-- Spoken description for Unicode code point U+25AB: "▫" WHITE SMALL SQUARE -->
+  <string name="spoken_emoji_25AB">"Isikwele esincane esimhlophe"</string>
+  <!-- Spoken description for Unicode code point U+25B6: "▶" BLACK RIGHT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25B6">"Unxande omnyama obheke ngakwesokudla"</string>
+  <!-- Spoken description for Unicode code point U+25C0: "◀" BLACK LEFT-POINTING TRIANGLE -->
+  <string name="spoken_emoji_25C0">"Unxande omnyama obheke ngakwesokunxele"</string>
+  <!-- Spoken description for Unicode code point U+25FB: "◻" WHITE MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FB">"Isikwele esimhlophe esimaphakathi"</string>
+  <!-- Spoken description for Unicode code point U+25FC: "◼" BLACK MEDIUM SQUARE -->
+  <string name="spoken_emoji_25FC">"Isikwele esimnyama esimaphakathi"</string>
+  <!-- Spoken description for Unicode code point U+25FD: "◽" WHITE MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FD">"Isikwele esincane esimaphakathi esimhlophe"</string>
+  <!-- Spoken description for Unicode code point U+25FE: "◾" BLACK MEDIUM SMALL SQUARE -->
+  <string name="spoken_emoji_25FE">"Isikwele esincane esimaphakathi esimnyama"</string>
+  <!-- Spoken description for Unicode code point U+2600: "☀" BLACK SUN WITH RAYS -->
+  <string name="spoken_emoji_2600">"Ilanga elimnyama elinemisebe"</string>
+  <!-- Spoken description for Unicode code point U+2601: "☁" CLOUD -->
+  <string name="spoken_emoji_2601">"Ifu"</string>
+  <!-- Spoken description for Unicode code point U+260E: "☎" BLACK TELEPHONE -->
+  <string name="spoken_emoji_260E">"Ucingo olumnyama"</string>
+  <!-- Spoken description for Unicode code point U+2611: "☑" BALLOT BOX WITH CHECK -->
+  <string name="spoken_emoji_2611">"Ibhokisi lokuvota nesheke"</string>
+  <!-- Spoken description for Unicode code point U+2614: "☔" UMBRELLA WITH RAIN DROPS -->
+  <string name="spoken_emoji_2614">"Isambulela esinamaconsi emvula"</string>
+  <!-- Spoken description for Unicode code point U+2615: "☕" HOT BEVERAGE -->
+  <string name="spoken_emoji_2615">"Isiphuzo esishisayo"</string>
+  <!-- Spoken description for Unicode code point U+261D: "☝" WHITE UP POINTING INDEX -->
+  <string name="spoken_emoji_261D">"Inkomba emhlophe ebheke phezulu"</string>
+  <!-- Spoken description for Unicode code point U+263A: "☺" WHITE SMILING FACE -->
+  <string name="spoken_emoji_263A">"Ubuso obumhlophe obumomothekayo"</string>
+  <!-- Spoken description for Unicode code point U+2648: "♈" ARIES -->
+  <string name="spoken_emoji_2648">"I-Aries"</string>
+  <!-- Spoken description for Unicode code point U+2649: "♉" TAURUS -->
+  <string name="spoken_emoji_2649">"I-Taurus"</string>
+  <!-- Spoken description for Unicode code point U+264A: "♊" GEMINI -->
+  <string name="spoken_emoji_264A">"I-Gemini"</string>
+  <!-- Spoken description for Unicode code point U+264B: "♋" CANCER -->
+  <string name="spoken_emoji_264B">"I-Cancer"</string>
+  <!-- Spoken description for Unicode code point U+264C: "♌" LEO -->
+  <string name="spoken_emoji_264C">"I-Leo"</string>
+  <!-- Spoken description for Unicode code point U+264D: "♍" VIRGO -->
+  <string name="spoken_emoji_264D">"I-Virgo"</string>
+  <!-- Spoken description for Unicode code point U+264E: "♎" LIBRA -->
+  <string name="spoken_emoji_264E">"I-Libra"</string>
+  <!-- Spoken description for Unicode code point U+264F: "♏" SCORPIUS -->
+  <string name="spoken_emoji_264F">"I-Scorpius"</string>
+  <!-- Spoken description for Unicode code point U+2650: "♐" SAGITTARIUS -->
+  <string name="spoken_emoji_2650">"I-Sagittarius"</string>
+  <!-- Spoken description for Unicode code point U+2651: "♑" CAPRICORN -->
+  <string name="spoken_emoji_2651">"I-Capricorn"</string>
+  <!-- Spoken description for Unicode code point U+2652: "♒" AQUARIUS -->
+  <string name="spoken_emoji_2652">"I-Aquarius"</string>
+  <!-- Spoken description for Unicode code point U+2653: "♓" PISCES -->
+  <string name="spoken_emoji_2653">"I-Pisces"</string>
+  <!-- Spoken description for Unicode code point U+2660: "♠" BLACK SPADE SUIT -->
+  <string name="spoken_emoji_2660">"Isudi yesipedi esimnyama"</string>
+  <!-- Spoken description for Unicode code point U+2663: "♣" BLACK CLUB SUIT -->
+  <string name="spoken_emoji_2663">"Isudi yeklabhu emnyama"</string>
+  <!-- Spoken description for Unicode code point U+2665: "♥" BLACK HEART SUIT -->
+  <string name="spoken_emoji_2665">"Isudi yenhliziyo emnyama"</string>
+  <!-- Spoken description for Unicode code point U+2666: "♦" BLACK DIAMOND SUIT -->
+  <string name="spoken_emoji_2666">"Isudi yedayimane elimnyama"</string>
+  <!-- Spoken description for Unicode code point U+2668: "♨" HOT SPRINGS -->
+  <string name="spoken_emoji_2668">"Intwasanhlobo eshisayo"</string>
+  <!-- Spoken description for Unicode code point U+267B: "♻" BLACK UNIVERSAL RECYCLING SYMBOL -->
+  <string name="spoken_emoji_267B">"Uphawu olumnyama lokusebenzisa kabusha jikelele"</string>
+  <!-- Spoken description for Unicode code point U+267F: "♿" WHEELCHAIR SYMBOL -->
+  <string name="spoken_emoji_267F">"Uphawu lesihlalo sabakhubazekile"</string>
+  <!-- Spoken description for Unicode code point U+2693: "⚓" ANCHOR -->
+  <string name="spoken_emoji_2693">"Ihange"</string>
+  <!-- Spoken description for Unicode code point U+26A0: "⚠" WARNING SIGN -->
+  <string name="spoken_emoji_26A0">"Uphawu lesexwayiso"</string>
+  <!-- Spoken description for Unicode code point U+26A1: "⚡" HIGH VOLTAGE SIGN -->
+  <string name="spoken_emoji_26A1">"Uphawu lesilinganiso sikagesi esiphezulu"</string>
+  <!-- Spoken description for Unicode code point U+26AA: "⚪" MEDIUM WHITE CIRCLE -->
+  <string name="spoken_emoji_26AA">"Isiyingi esimhlophe okumaphakathi"</string>
+  <!-- Spoken description for Unicode code point U+26AB: "⚫" MEDIUM BLACK CIRCLE -->
+  <string name="spoken_emoji_26AB">"Isiyingi esimaphakathi esimnyama"</string>
+  <!-- Spoken description for Unicode code point U+26BD: "⚽" SOCCER BALL -->
+  <string name="spoken_emoji_26BD">"Ibhola lezinyawo"</string>
+  <!-- Spoken description for Unicode code point U+26BE: "⚾" BASEBALL -->
+  <string name="spoken_emoji_26BE">"I-Baseball"</string>
+  <!-- Spoken description for Unicode code point U+26C4: "⛄" SNOWMAN WITHOUT SNOW -->
+  <string name="spoken_emoji_26C4">"Indoda yeqhwa engenalo iqhwa"</string>
+  <!-- Spoken description for Unicode code point U+26C5: "⛅" SUN BEHIND CLOUD -->
+  <string name="spoken_emoji_26C5">"Ilanga ngemva kwefu"</string>
+  <!-- Spoken description for Unicode code point U+26CE: "⛎" OPHIUCHUS -->
+  <string name="spoken_emoji_26CE">"I-Ophiuchus"</string>
+  <!-- Spoken description for Unicode code point U+26D4: "⛔" NO ENTRY -->
+  <string name="spoken_emoji_26D4">"Akungenwa"</string>
+  <!-- Spoken description for Unicode code point U+26EA: "⛪" CHURCH -->
+  <string name="spoken_emoji_26EA">"Isonto"</string>
+  <!-- Spoken description for Unicode code point U+26F2: "⛲" FOUNTAIN -->
+  <string name="spoken_emoji_26F2">"Umthombo"</string>
+  <!-- Spoken description for Unicode code point U+26F3: "⛳" FLAG IN HOLE -->
+  <string name="spoken_emoji_26F3">"Ifulegi kwimbobo"</string>
+  <!-- Spoken description for Unicode code point U+26F5: "⛵" SAILBOAT -->
+  <string name="spoken_emoji_26F5">"Isikebhe"</string>
+  <!-- Spoken description for Unicode code point U+26FA: "⛺" TENT -->
+  <string name="spoken_emoji_26FA">"Itende"</string>
+  <!-- Spoken description for Unicode code point U+26FD: "⛽" FUEL PUMP -->
+  <string name="spoken_emoji_26FD">"Isifutho sophethiloli"</string>
+  <!-- Spoken description for Unicode code point U+2702: "✂" BLACK SCISSORS -->
+  <string name="spoken_emoji_2702">"Izikele ezimnyama"</string>
+  <!-- Spoken description for Unicode code point U+2705: "✅" WHITE HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2705">"Uphawu lokuhlola olusindayo olumhlophe"</string>
+  <!-- Spoken description for Unicode code point U+2708: "✈" AIRPLANE -->
+  <string name="spoken_emoji_2708">"Indiza"</string>
+  <!-- Spoken description for Unicode code point U+2709: "✉" ENVELOPE -->
+  <string name="spoken_emoji_2709">"Imvilophi"</string>
+  <!-- Spoken description for Unicode code point U+270A: "✊" RAISED FIST -->
+  <string name="spoken_emoji_270A">"Ingqindi ephakanyisiwe"</string>
+  <!-- Spoken description for Unicode code point U+270B: "✋" RAISED HAND -->
+  <string name="spoken_emoji_270B">"Isandla esiphakamisiwe"</string>
+  <!-- Spoken description for Unicode code point U+270C: "✌" VICTORY HAND -->
+  <string name="spoken_emoji_270C">"Isandla sokunqoba"</string>
+  <!-- Spoken description for Unicode code point U+270F: "✏" PENCIL -->
+  <string name="spoken_emoji_270F">"Umsizi"</string>
+  <!-- Spoken description for Unicode code point U+2712: "✒" BLACK NIB -->
+  <string name="spoken_emoji_2712">"Inibhu emnyama"</string>
+  <!-- Spoken description for Unicode code point U+2714: "✔" HEAVY CHECK MARK -->
+  <string name="spoken_emoji_2714">"Uphawu lokuhlola olusindayo"</string>
+  <!-- Spoken description for Unicode code point U+2716: "✖" HEAVY MULTIPLICATION X -->
+  <string name="spoken_emoji_2716">"U-x wokuphinda osindayo"</string>
+  <!-- Spoken description for Unicode code point U+2728: "✨" SPARKLES -->
+  <string name="spoken_emoji_2728">"Ukucwebezela"</string>
+  <!-- Spoken description for Unicode code point U+2733: "✳" EIGHT SPOKED ASTERISK -->
+  <string name="spoken_emoji_2733">"Izinkanyezi ezihlanganisiwe eziyisishiyagalombili"</string>
+  <!-- Spoken description for Unicode code point U+2734: "✴" EIGHT POINTED BLACK STAR -->
+  <string name="spoken_emoji_2734">"Inkanyezi emnyama yamaphoyinti ayisishiyagalombili"</string>
+  <!-- Spoken description for Unicode code point U+2744: "❄" SNOWFLAKE -->
+  <string name="spoken_emoji_2744">"Iqhwa"</string>
+  <!-- Spoken description for Unicode code point U+2747: "❇" SPARKLE -->
+  <string name="spoken_emoji_2747">"Ukukhazimula"</string>
+  <!-- Spoken description for Unicode code point U+274C: "❌" CROSS MARK -->
+  <string name="spoken_emoji_274C">"Uphawu lokushayisana"</string>
+  <!-- Spoken description for Unicode code point U+274E: "❎" NEGATIVE SQUARED CROSS MARK -->
+  <string name="spoken_emoji_274E">"Uphawu lokushayisana lesikwele esingesihle"</string>
+  <!-- Spoken description for Unicode code point U+2753: "❓" BLACK QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2753">"Umhlobiso wophawu lombuzo olumnyama"</string>
+  <!-- Spoken description for Unicode code point U+2754: "❔" WHITE QUESTION MARK ORNAMENT -->
+  <string name="spoken_emoji_2754">"Umhlobiso wophawu lombuzo omhlophe"</string>
+  <!-- Spoken description for Unicode code point U+2755: "❕" WHITE EXCLAMATION MARK ORNAMENT -->
+  <string name="spoken_emoji_2755">"Umhlobisi wesibabazo esimhlophe"</string>
+  <!-- Spoken description for Unicode code point U+2757: "❗" HEAVY EXCLAMATION MARK SYMBOL -->
+  <string name="spoken_emoji_2757">"Uphawu lesibabazo olusindayo"</string>
+  <!-- Spoken description for Unicode code point U+2764: "❤" HEAVY BLACK HEART -->
+  <string name="spoken_emoji_2764">"Inhliziyo emnyama esindayo"</string>
+  <!-- Spoken description for Unicode code point U+2795: "➕" HEAVY PLUS SIGN -->
+  <string name="spoken_emoji_2795">"Uphawu lokuhlanganisa olusindayo"</string>
+  <!-- Spoken description for Unicode code point U+2796: "➖" HEAVY MINUS SIGN -->
+  <string name="spoken_emoji_2796">"Uphawu lokususa olusindayo"</string>
+  <!-- Spoken description for Unicode code point U+2797: "➗" HEAVY DIVISION SIGN -->
+  <string name="spoken_emoji_2797">"Uphawu lokwehlukanisa olusindayo"</string>
+  <!-- Spoken description for Unicode code point U+27A1: "➡" BLACK RIGHTWARDS ARROW -->
+  <string name="spoken_emoji_27A1">"Umcibisholo ongakwesokudla omnyama"</string>
+  <!-- Spoken description for Unicode code point U+27B0: "➰" CURLY LOOP -->
+  <string name="spoken_emoji_27B0">"Umumo otshekile"</string>
+  <!-- Spoken description for Unicode code point U+27BF: "➿" DOUBLE CURLY LOOP -->
+  <string name="spoken_emoji_27BF">"Umumo otshekile kabili"</string>
+  <!-- Spoken description for Unicode code point U+2934: "⤴" ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+  <string name="spoken_emoji_2934">"Umcibisholo obheke ngakwesokudla bese watsheka ngaphezulu"</string>
+  <!-- Spoken description for Unicode code point U+2935: "⤵" ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+  <string name="spoken_emoji_2935">"Umcibisholo obheke ngakwesokudla bese watsheka ngezansi"</string>
+  <!-- Spoken description for Unicode code point U+2B05: "⬅" LEFTWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B05">"Umcibisholo omnyama ongakwesokunxele"</string>
+  <!-- Spoken description for Unicode code point U+2B06: "⬆" UPWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B06">"Umncibisholo omnyama ongaphezulu"</string>
+  <!-- Spoken description for Unicode code point U+2B07: "⬇" DOWNWARDS BLACK ARROW -->
+  <string name="spoken_emoji_2B07">"Umcibisholo omnyama obheke phansi"</string>
+  <!-- Spoken description for Unicode code point U+2B1B: "⬛" BLACK LARGE SQUARE -->
+  <string name="spoken_emoji_2B1B">"Isikwele esikhulu esimnyama"</string>
+  <!-- Spoken description for Unicode code point U+2B1C: "⬜" WHITE LARGE SQUARE -->
+  <string name="spoken_emoji_2B1C">"Isikwele esikhulu esimhlophe"</string>
+  <!-- Spoken description for Unicode code point U+2B50: "⭐" WHITE MEDIUM STAR -->
+  <string name="spoken_emoji_2B50">"Inkanyezi emaphakathi emhlophe"</string>
+  <!-- Spoken description for Unicode code point U+2B55: "⭕" HEAVY LARGE CIRCLE -->
+  <string name="spoken_emoji_2B55">"Isiyingi esikhulu esisindayo"</string>
+  <!-- Spoken description for Unicode code point U+3030: "〰" WAVY DASH -->
+  <string name="spoken_emoji_3030">"I-Wavy dash"</string>
+  <!-- Spoken description for Unicode code point U+303D: "〽" PART ALTERNATION MARK -->
+  <string name="spoken_emoji_303D">"Olunye uphawu lwengxenye"</string>
+  <!-- Spoken description for Unicode code point U+3297: "㊗" CIRCLED IDEOGRAPH CONGRATULATION -->
+  <string name="spoken_emoji_3297">"Ukuhalalisa i-ideograph eyisiyingi"</string>
+  <!-- Spoken description for Unicode code point U+3299: "㊙" CIRCLED IDEOGRAPH SECRET -->
+  <string name="spoken_emoji_3299">"Imfihlo ye-ideograph eyisilingi"</string>
+  <!-- Spoken description for Unicode code point U+1F004: "🀄" MAHJONG TILE RED DRAGON -->
+  <string name="spoken_emoji_1F004">"Isilo esibomvu sethayili ye-Mahjong"</string>
+  <!-- Spoken description for Unicode code point U+1F0CF: "🃏" PLAYING CARD BLACK JOKER -->
+  <string name="spoken_emoji_1F0CF">"Ukudlala ikhadi le-joker omnyama"</string>
+  <!-- Spoken description for Unicode code point U+1F170: "🅰" NEGATIVE SQUARED LATIN CAPITAL LETTER A -->
+  <string name="spoken_emoji_1F170">"Uhlobo legazi A"</string>
+  <!-- Spoken description for Unicode code point U+1F171: "🅱" NEGATIVE SQUARED LATIN CAPITAL LETTER B -->
+  <string name="spoken_emoji_1F171">"Uhlobo legazi B"</string>
+  <!-- Spoken description for Unicode code point U+1F17E: "🅾" NEGATIVE SQUARED LATIN CAPITAL LETTER O -->
+  <string name="spoken_emoji_1F17E">"Uhlobo legazi O"</string>
+  <!-- Spoken description for Unicode code point U+1F17F: "🅿" NEGATIVE SQUARED LATIN CAPITAL LETTER P -->
+  <string name="spoken_emoji_1F17F">"Indawo yokupaka"</string>
+  <!-- Spoken description for Unicode code point U+1F18E: "🆎" NEGATIVE SQUARED AB -->
+  <string name="spoken_emoji_1F18E">"Uhlobo legazi AB"</string>
+  <!-- Spoken description for Unicode code point U+1F191: "🆑" SQUARED CL -->
+  <string name="spoken_emoji_1F191">"I-CL eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F192: "🆒" SQUARED COOL -->
+  <string name="spoken_emoji_1F192">"Okupholile okuyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F193: "🆓" SQUARED FREE -->
+  <string name="spoken_emoji_1F193">"Okuyisikwele kwamahhala"</string>
+  <!-- Spoken description for Unicode code point U+1F194: "🆔" SQUARED ID -->
+  <string name="spoken_emoji_1F194">"I-ID eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F195: "🆕" SQUARED NEW -->
+  <string name="spoken_emoji_1F195">"Okuyisikwele okusha"</string>
+  <!-- Spoken description for Unicode code point U+1F196: "🆖" SQUARED NG -->
+  <string name="spoken_emoji_1F196">"I-N G eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F197: "🆗" SQUARED OK -->
+  <string name="spoken_emoji_1F197">"U-OK oyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F198: "🆘" SQUARED SOS -->
+  <string name="spoken_emoji_1F198">"I-SOS eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F199: "🆙" SQUARED UP WITH EXCLAMATION MARK -->
+  <string name="spoken_emoji_1F199">"Kuhlanganiswe nophawu lesibabazo"</string>
+  <!-- Spoken description for Unicode code point U+1F19A: "🆚" SQUARED VS -->
+  <string name="spoken_emoji_1F19A">"Okuyisikwele okumelene"</string>
+  <!-- Spoken description for Unicode code point U+1F201: "🈁" SQUARED KATAKANA KOKO -->
+  <string name="spoken_emoji_1F201">"I-katakana eyisikwele lapha"</string>
+  <!-- Spoken description for Unicode code point U+1F202: "🈂" SQUARED KATAKANA SA -->
+  <string name="spoken_emoji_1F202">"Isevisi ye-katakana eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F21A: "🈚" SQUARED CJK UNIFIED IDEOGRAPH-7121 -->
+  <string name="spoken_emoji_1F21A">"Inani lamahhala le-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F22F: "🈯" SQUARED CJK UNIFIED IDEOGRAPH-6307 -->
+  <string name="spoken_emoji_1F22F">"Isihlalo esibekiwe se-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F232: "🈲" SQUARED CJK UNIFIED IDEOGRAPH-7981 -->
+  <string name="spoken_emoji_1F232">"Ukuvinjelwa kwe-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F233: "🈳" SQUARED CJK UNIFIED IDEOGRAPH-7A7A -->
+  <string name="spoken_emoji_1F233">"Isikhala se-ideography eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F234: "🈴" SQUARED CJK UNIFIED IDEOGRAPH-5408 -->
+  <string name="spoken_emoji_1F234">"Ukwamukelwa kwe-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F235: "🈵" SQUARED CJK UNIFIED IDEOGRAPH-6E80 -->
+  <string name="spoken_emoji_1F235">"Ukusetshenziswa ngokugcwele kwe-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F236: "🈶" SQUARED CJK UNIFIED IDEOGRAPH-6709 -->
+  <string name="spoken_emoji_1F236">"I-Ideograph eyisikwele ekhokhelwe"</string>
+  <!-- Spoken description for Unicode code point U+1F237: "🈷" SQUARED CJK UNIFIED IDEOGRAPH-6708 -->
+  <string name="spoken_emoji_1F237">"I-Ideography eyisikwele yanyanga zonke"</string>
+  <!-- Spoken description for Unicode code point U+1F238: "🈸" SQUARED CJK UNIFIED IDEOGRAPH-7533 -->
+  <string name="spoken_emoji_1F238">"Uhlelo lokusebenza le-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F239: "🈹" SQUARED CJK UNIFIED IDEOGRAPH-5272 -->
+  <string name="spoken_emoji_1F239">"Isaphulelo se-ideograph eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F23A: "🈺" SQUARED CJK UNIFIED IDEOGRAPH-55B6 -->
+  <string name="spoken_emoji_1F23A">"I-Ideograph eyisikwele kwezamabhizinisi"</string>
+  <!-- Spoken description for Unicode code point U+1F250: "🉐" CIRCLED IDEOGRAPH ADVANTAGE -->
+  <string name="spoken_emoji_1F250">"Inzuzo ye-ideograph eyisiyingi"</string>
+  <!-- Spoken description for Unicode code point U+1F251: "🉑" CIRCLED IDEOGRAPH ACCEPT -->
+  <string name="spoken_emoji_1F251">"Ukwamukela i-ideograph eyisiyingi"</string>
+  <!-- Spoken description for Unicode code point U+1F300: "🌀" CYCLONE -->
+  <string name="spoken_emoji_1F300">"Isihlwithi"</string>
+  <!-- Spoken description for Unicode code point U+1F301: "🌁" FOGGY -->
+  <string name="spoken_emoji_1F301">"Nenkungu"</string>
+  <!-- Spoken description for Unicode code point U+1F302: "🌂" CLOSED UMBRELLA -->
+  <string name="spoken_emoji_1F302">"Isambulela esivaliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F303: "🌃" NIGHT WITH STARS -->
+  <string name="spoken_emoji_1F303">"Ubusuku obunezinkanyezi"</string>
+  <!-- Spoken description for Unicode code point U+1F304: "🌄" SUNRISE OVER MOUNTAINS -->
+  <string name="spoken_emoji_1F304">"Ukuphuma kwelanga ezintabeni"</string>
+  <!-- Spoken description for Unicode code point U+1F305: "🌅" SUNRISE -->
+  <string name="spoken_emoji_1F305">"Ukuphuma kwelanga"</string>
+  <!-- Spoken description for Unicode code point U+1F306: "🌆" CITYSCAPE AT DUSK -->
+  <string name="spoken_emoji_1F306">"Ukubonakala kwedolobha lapho kuhlwa"</string>
+  <!-- Spoken description for Unicode code point U+1F307: "🌇" SUNSET OVER BUILDINGS -->
+  <string name="spoken_emoji_1F307">"Ukushona kwelanga emabhilidini"</string>
+  <!-- Spoken description for Unicode code point U+1F308: "🌈" RAINBOW -->
+  <string name="spoken_emoji_1F308">"Uthingo lwenkosazane"</string>
+  <!-- Spoken description for Unicode code point U+1F309: "🌉" BRIDGE AT NIGHT -->
+  <string name="spoken_emoji_1F309">"Ibhuloho ebusuku"</string>
+  <!-- Spoken description for Unicode code point U+1F30A: "🌊" WATER WAVE -->
+  <string name="spoken_emoji_1F30A">"Igagasi lamanzi"</string>
+  <!-- Spoken description for Unicode code point U+1F30B: "🌋" VOLCANO -->
+  <string name="spoken_emoji_1F30B">"Intabamlilo"</string>
+  <!-- Spoken description for Unicode code point U+1F30C: "🌌" MILKY WAY -->
+  <string name="spoken_emoji_1F30C">"Umthamo wezinkanyezi"</string>
+  <!-- Spoken description for Unicode code point U+1F30D: "🌍" EARTH GLOBE EUROPE-AFRICA -->
+  <string name="spoken_emoji_1F30D">"Imbulunga yomhlaba waseyurophu ne-afrika"</string>
+  <!-- Spoken description for Unicode code point U+1F30E: "🌎" EARTH GLOBE AMERICAS -->
+  <string name="spoken_emoji_1F30E">"I-Amelika yembulunga yomhlaba"</string>
+  <!-- Spoken description for Unicode code point U+1F30F: "🌏" EARTH GLOBE ASIA-AUSTRALIA -->
+  <string name="spoken_emoji_1F30F">"Imbulunga yomhlaba we-asia-australia"</string>
+  <!-- Spoken description for Unicode code point U+1F310: "🌐" GLOBE WITH MERIDIANS -->
+  <string name="spoken_emoji_1F310">"Imbulunga ye-meridians"</string>
+  <!-- Spoken description for Unicode code point U+1F311: "🌑" NEW MOON SYMBOL -->
+  <string name="spoken_emoji_1F311">"Uphawu lenyanga entsha"</string>
+  <!-- Spoken description for Unicode code point U+1F312: "🌒" WAXING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F312">"Uphawu locwezana lenyanga egcwele"</string>
+  <!-- Spoken description for Unicode code point U+1F313: "🌓" FIRST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F313">"Uphawu lenyanga yekota yokuqala"</string>
+  <!-- Spoken description for Unicode code point U+1F314: "🌔" WAXING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F314">"Uphawu lenyanga egcwele ye-gibbous"</string>
+  <!-- Spoken description for Unicode code point U+1F315: "🌕" FULL MOON SYMBOL -->
+  <string name="spoken_emoji_1F315">"Uphawu lenyanga egcwele"</string>
+  <!-- Spoken description for Unicode code point U+1F316: "🌖" WANING GIBBOUS MOON SYMBOL -->
+  <string name="spoken_emoji_1F316">"Uphawu lenyanga ye-gibbous eyehlayo"</string>
+  <!-- Spoken description for Unicode code point U+1F317: "🌗" LAST QUARTER MOON SYMBOL -->
+  <string name="spoken_emoji_1F317">"Uphawu lenyanga yekota yokugcina"</string>
+  <!-- Spoken description for Unicode code point U+1F318: "🌘" WANING CRESCENT MOON SYMBOL -->
+  <string name="spoken_emoji_1F318">"Uphawu lenyanga yocwezana olwehlayo"</string>
+  <!-- Spoken description for Unicode code point U+1F319: "🌙" CRESCENT MOON -->
+  <string name="spoken_emoji_1F319">"Ucwezana lenyanga"</string>
+  <!-- Spoken description for Unicode code point U+1F31A: "🌚" NEW MOON WITH FACE -->
+  <string name="spoken_emoji_1F31A">"Inyanga entsha enobuso"</string>
+  <!-- Spoken description for Unicode code point U+1F31B: "🌛" FIRST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31B">"Inyanga yekota yokuqala enobuso"</string>
+  <!-- Spoken description for Unicode code point U+1F31C: "🌜" LAST QUARTER MOON WITH FACE -->
+  <string name="spoken_emoji_1F31C">"Inyanga yekota yokugcina enobuso"</string>
+  <!-- Spoken description for Unicode code point U+1F31D: "🌝" FULL MOON WITH FACE -->
+  <string name="spoken_emoji_1F31D">"Inyanga egcwele enobuso"</string>
+  <!-- Spoken description for Unicode code point U+1F31E: "🌞" SUN WITH FACE -->
+  <string name="spoken_emoji_1F31E">"Ilanga elinobuso"</string>
+  <!-- Spoken description for Unicode code point U+1F31F: "🌟" GLOWING STAR -->
+  <string name="spoken_emoji_1F31F">"Inkanyezi ekhazimulayo"</string>
+  <!-- Spoken description for Unicode code point U+1F320: "🌠" SHOOTING STAR -->
+  <string name="spoken_emoji_1F320">"Inkanyezi entwizayo"</string>
+  <!-- Spoken description for Unicode code point U+1F330: "🌰" CHESTNUT -->
+  <string name="spoken_emoji_1F330">"I-Chestnut"</string>
+  <!-- Spoken description for Unicode code point U+1F331: "🌱" SEEDLING -->
+  <string name="spoken_emoji_1F331">"Isithombo"</string>
+  <!-- Spoken description for Unicode code point U+1F332: "🌲" EVERGREEN TREE -->
+  <string name="spoken_emoji_1F332">"Isihlahla esihlale siluhlaza"</string>
+  <!-- Spoken description for Unicode code point U+1F333: "🌳" DECIDUOUS TREE -->
+  <string name="spoken_emoji_1F333">"Isihlahla esibunayo"</string>
+  <!-- Spoken description for Unicode code point U+1F334: "🌴" PALM TREE -->
+  <string name="spoken_emoji_1F334">"Isundu"</string>
+  <!-- Spoken description for Unicode code point U+1F335: "🌵" CACTUS -->
+  <string name="spoken_emoji_1F335">"Umdolofiya"</string>
+  <!-- Spoken description for Unicode code point U+1F337: "🌷" TULIP -->
+  <string name="spoken_emoji_1F337">"I-Tulip"</string>
+  <!-- Spoken description for Unicode code point U+1F338: "🌸" CHERRY BLOSSOM -->
+  <string name="spoken_emoji_1F338">"Isithundu samathanduluka"</string>
+  <!-- Spoken description for Unicode code point U+1F339: "🌹" ROSE -->
+  <string name="spoken_emoji_1F339">"Irozi"</string>
+  <!-- Spoken description for Unicode code point U+1F33A: "🌺" HIBISCUS -->
+  <string name="spoken_emoji_1F33A">"I-Hibiscus"</string>
+  <!-- Spoken description for Unicode code point U+1F33B: "🌻" SUNFLOWER -->
+  <string name="spoken_emoji_1F33B">"Ujikanelanga"</string>
+  <!-- Spoken description for Unicode code point U+1F33C: "🌼" BLOSSOM -->
+  <string name="spoken_emoji_1F33C">"Imbali"</string>
+  <!-- Spoken description for Unicode code point U+1F33D: "🌽" EAR OF MAIZE -->
+  <string name="spoken_emoji_1F33D">"Indlebe yombila"</string>
+  <!-- Spoken description for Unicode code point U+1F33E: "🌾" EAR OF RICE -->
+  <string name="spoken_emoji_1F33E">"Indlebe yelayisi"</string>
+  <!-- Spoken description for Unicode code point U+1F33F: "🌿" HERB -->
+  <string name="spoken_emoji_1F33F">"Isithombo"</string>
+  <!-- Spoken description for Unicode code point U+1F340: "🍀" FOUR LEAF CLOVER -->
+  <string name="spoken_emoji_1F340">"I-Clover yamacembe amane"</string>
+  <!-- Spoken description for Unicode code point U+1F341: "🍁" MAPLE LEAF -->
+  <string name="spoken_emoji_1F341">"Icembe le-maple"</string>
+  <!-- Spoken description for Unicode code point U+1F342: "🍂" FALLEN LEAF -->
+  <string name="spoken_emoji_1F342">"Icembe eliwile"</string>
+  <!-- Spoken description for Unicode code point U+1F343: "🍃" LEAF FLUTTERING IN WIND -->
+  <string name="spoken_emoji_1F343">"Icembe eliphephezela emoyeni"</string>
+  <!-- Spoken description for Unicode code point U+1F344: "🍄" MUSHROOM -->
+  <string name="spoken_emoji_1F344">"Inkowankowane"</string>
+  <!-- Spoken description for Unicode code point U+1F345: "🍅" TOMATO -->
+  <string name="spoken_emoji_1F345">"Utamatisi"</string>
+  <!-- Spoken description for Unicode code point U+1F346: "🍆" AUBERGINE -->
+  <string name="spoken_emoji_1F346">"I-Aubergine"</string>
+  <!-- Spoken description for Unicode code point U+1F347: "🍇" GRAPES -->
+  <string name="spoken_emoji_1F347">"Amagilebhisi"</string>
+  <!-- Spoken description for Unicode code point U+1F348: "🍈" MELON -->
+  <string name="spoken_emoji_1F348">"Ikhabe"</string>
+  <!-- Spoken description for Unicode code point U+1F349: "🍉" WATERMELON -->
+  <string name="spoken_emoji_1F349">"Ikhabe"</string>
+  <!-- Spoken description for Unicode code point U+1F34A: "🍊" TANGERINE -->
+  <string name="spoken_emoji_1F34A">"I-Tangerine"</string>
+  <!-- Spoken description for Unicode code point U+1F34B: "🍋" LEMON -->
+  <string name="spoken_emoji_1F34B">"Ilamuni"</string>
+  <!-- Spoken description for Unicode code point U+1F34C: "🍌" BANANA -->
+  <string name="spoken_emoji_1F34C">"Ubhanana"</string>
+  <!-- Spoken description for Unicode code point U+1F34D: "🍍" PINEAPPLE -->
+  <string name="spoken_emoji_1F34D">"Uphayinaphu"</string>
+  <!-- Spoken description for Unicode code point U+1F34E: "🍎" RED APPLE -->
+  <string name="spoken_emoji_1F34E">"I-Apula elibomvu"</string>
+  <!-- Spoken description for Unicode code point U+1F34F: "🍏" GREEN APPLE -->
+  <string name="spoken_emoji_1F34F">"I-Apula eliluhlaza okotshani"</string>
+  <!-- Spoken description for Unicode code point U+1F350: "🍐" PEAR -->
+  <string name="spoken_emoji_1F350">"Iganandoda"</string>
+  <!-- Spoken description for Unicode code point U+1F351: "🍑" PEACH -->
+  <string name="spoken_emoji_1F351">"Ipentshisi"</string>
+  <!-- Spoken description for Unicode code point U+1F352: "🍒" CHERRIES -->
+  <string name="spoken_emoji_1F352">"Amasheri"</string>
+  <!-- Spoken description for Unicode code point U+1F353: "🍓" STRAWBERRY -->
+  <string name="spoken_emoji_1F353">"Ijikijolo"</string>
+  <!-- Spoken description for Unicode code point U+1F354: "🍔" HAMBURGER -->
+  <string name="spoken_emoji_1F354">"I-Hamburger"</string>
+  <!-- Spoken description for Unicode code point U+1F355: "🍕" SLICE OF PIZZA -->
+  <string name="spoken_emoji_1F355">"Ucezu le-pizza"</string>
+  <!-- Spoken description for Unicode code point U+1F356: "🍖" MEAT ON BONE -->
+  <string name="spoken_emoji_1F356">"Inyama enethambo"</string>
+  <!-- Spoken description for Unicode code point U+1F357: "🍗" POULTRY LEG -->
+  <string name="spoken_emoji_1F357">"Umlenze wenkukhu"</string>
+  <!-- Spoken description for Unicode code point U+1F358: "🍘" RICE CRACKER -->
+  <string name="spoken_emoji_1F358">"Ikhekhe lelayisi"</string>
+  <!-- Spoken description for Unicode code point U+1F359: "🍙" RICE BALL -->
+  <string name="spoken_emoji_1F359">"Ilayisi eliyibhola"</string>
+  <!-- Spoken description for Unicode code point U+1F35A: "🍚" COOKED RICE -->
+  <string name="spoken_emoji_1F35A">"Ilayisi eliphekiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F35B: "🍛" CURRY AND RICE -->
+  <string name="spoken_emoji_1F35B">"Inani nelayisi"</string>
+  <!-- Spoken description for Unicode code point U+1F35C: "🍜" STEAMING BOWL -->
+  <string name="spoken_emoji_1F35C">"Isitsha sokubilisa"</string>
+  <!-- Spoken description for Unicode code point U+1F35D: "🍝" SPAGHETTI -->
+  <string name="spoken_emoji_1F35D">"I-Spaghetti"</string>
+  <!-- Spoken description for Unicode code point U+1F35E: "🍞" BREAD -->
+  <string name="spoken_emoji_1F35E">"Isinkwa"</string>
+  <!-- Spoken description for Unicode code point U+1F35F: "🍟" FRENCH FRIES -->
+  <string name="spoken_emoji_1F35F">"Amazambane athosiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F360: "🍠" ROASTED SWEET POTATO -->
+  <string name="spoken_emoji_1F360">"Ubhatata oyosiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F361: "🍡" DANGO -->
+  <string name="spoken_emoji_1F361">"I-Dango"</string>
+  <!-- Spoken description for Unicode code point U+1F362: "🍢" ODEN -->
+  <string name="spoken_emoji_1F362">"I-Oden"</string>
+  <!-- Spoken description for Unicode code point U+1F363: "🍣" SUSHI -->
+  <string name="spoken_emoji_1F363">"I-Sushi"</string>
+  <!-- Spoken description for Unicode code point U+1F364: "🍤" FRIED SHRIMP -->
+  <string name="spoken_emoji_1F364">"Imbaza ethosiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F365: "🍥" FISH CAKE WITH SWIRL DESIGN -->
+  <string name="spoken_emoji_1F365">"Ikhekhe lenhlanzi elidizayinwe ngendlela eyaluzayo"</string>
+  <!-- Spoken description for Unicode code point U+1F366: "🍦" SOFT ICE CREAM -->
+  <string name="spoken_emoji_1F366">"I-Asikhilimu ethambile"</string>
+  <!-- Spoken description for Unicode code point U+1F367: "🍧" SHAVED ICE -->
+  <string name="spoken_emoji_1F367">"Iqhwa eliphuciwe"</string>
+  <!-- Spoken description for Unicode code point U+1F368: "🍨" ICE CREAM -->
+  <string name="spoken_emoji_1F368">"U-Ayisikhilimu"</string>
+  <!-- Spoken description for Unicode code point U+1F369: "🍩" DOUGHNUT -->
+  <string name="spoken_emoji_1F369">"Idonathi"</string>
+  <!-- Spoken description for Unicode code point U+1F36A: "🍪" COOKIE -->
+  <string name="spoken_emoji_1F36A">"Ikhukhi"</string>
+  <!-- Spoken description for Unicode code point U+1F36B: "🍫" CHOCOLATE BAR -->
+  <string name="spoken_emoji_1F36B">"Ibha yoshokholethi"</string>
+  <!-- Spoken description for Unicode code point U+1F36C: "🍬" CANDY -->
+  <string name="spoken_emoji_1F36C">"Uswidi"</string>
+  <!-- Spoken description for Unicode code point U+1F36D: "🍭" LOLLIPOP -->
+  <string name="spoken_emoji_1F36D">"I-Lollipop"</string>
+  <!-- Spoken description for Unicode code point U+1F36E: "🍮" CUSTARD -->
+  <string name="spoken_emoji_1F36E">"Ukhastadi"</string>
+  <!-- Spoken description for Unicode code point U+1F36F: "🍯" HONEY POT -->
+  <string name="spoken_emoji_1F36F">"Ibhodwe loju"</string>
+  <!-- Spoken description for Unicode code point U+1F370: "🍰" SHORTCAKE -->
+  <string name="spoken_emoji_1F370">"Okusaswidi"</string>
+  <!-- Spoken description for Unicode code point U+1F371: "🍱" BENTO BOX -->
+  <string name="spoken_emoji_1F371">"Ibhokisi le-Bento"</string>
+  <!-- Spoken description for Unicode code point U+1F372: "🍲" POT OF FOOD -->
+  <string name="spoken_emoji_1F372">"Imbiza yokudla"</string>
+  <!-- Spoken description for Unicode code point U+1F373: "🍳" COOKING -->
+  <string name="spoken_emoji_1F373">"Ukupheka"</string>
+  <!-- Spoken description for Unicode code point U+1F374: "🍴" FORK AND KNIFE -->
+  <string name="spoken_emoji_1F374">"Imfoloko nommese"</string>
+  <!-- Spoken description for Unicode code point U+1F375: "🍵" TEACUP WITHOUT HANDLE -->
+  <string name="spoken_emoji_1F375">"Inkomishi engenaso isibambo"</string>
+  <!-- Spoken description for Unicode code point U+1F376: "🍶" SAKE BOTTLE AND CUP -->
+  <string name="spoken_emoji_1F376">"Ibhodlela le-Sake nenkomishi"</string>
+  <!-- Spoken description for Unicode code point U+1F377: "🍷" WINE GLASS -->
+  <string name="spoken_emoji_1F377">"Ingilasi yewayini"</string>
+  <!-- Spoken description for Unicode code point U+1F378: "🍸" COCKTAIL GLASS -->
+  <string name="spoken_emoji_1F378">"Ingilasi ye-cocktail"</string>
+  <!-- Spoken description for Unicode code point U+1F379: "🍹" TROPICAL DRINK -->
+  <string name="spoken_emoji_1F379">"Isiphuzo esinoshukela"</string>
+  <!-- Spoken description for Unicode code point U+1F37A: "🍺" BEER MUG -->
+  <string name="spoken_emoji_1F37A">"Inkomishi yobhiya"</string>
+  <!-- Spoken description for Unicode code point U+1F37B: "🍻" CLINKING BEER MUGS -->
+  <string name="spoken_emoji_1F37B">"Ukuqhafaza izinkomishi zobhiya"</string>
+  <!-- Spoken description for Unicode code point U+1F37C: "🍼" BABY BOTTLE -->
+  <string name="spoken_emoji_1F37C">"Ibhodlela lomntwana"</string>
+  <!-- Spoken description for Unicode code point U+1F380: "🎀" RIBBON -->
+  <string name="spoken_emoji_1F380">"Iribhoni"</string>
+  <!-- Spoken description for Unicode code point U+1F381: "🎁" WRAPPED PRESENT -->
+  <string name="spoken_emoji_1F381">"Isipho esigoqiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F382: "🎂" BIRTHDAY CAKE -->
+  <string name="spoken_emoji_1F382">"Ikhekhe losuku lokuzalwa"</string>
+  <!-- Spoken description for Unicode code point U+1F383: "🎃" JACK-O-LANTERN -->
+  <string name="spoken_emoji_1F383">"I-Jack-o-lantern"</string>
+  <!-- Spoken description for Unicode code point U+1F384: "🎄" CHRISTMAS TREE -->
+  <string name="spoken_emoji_1F384">"Isihlahla sikakhisimusi"</string>
+  <!-- Spoken description for Unicode code point U+1F385: "🎅" FATHER CHRISTMAS -->
+  <string name="spoken_emoji_1F385">"Indoda yokhisimusi"</string>
+  <!-- Spoken description for Unicode code point U+1F386: "🎆" FIREWORKS -->
+  <string name="spoken_emoji_1F386">"Iziqhumane"</string>
+  <!-- Spoken description for Unicode code point U+1F387: "🎇" FIREWORK SPARKLER -->
+  <string name="spoken_emoji_1F387">"Iziqhumane ezibanikayo"</string>
+  <!-- Spoken description for Unicode code point U+1F388: "🎈" BALLOON -->
+  <string name="spoken_emoji_1F388">"Ibhamuza"</string>
+  <!-- Spoken description for Unicode code point U+1F389: "🎉" PARTY POPPER -->
+  <string name="spoken_emoji_1F389">"Umuntu oqeda ubumnandi"</string>
+  <!-- Spoken description for Unicode code point U+1F38A: "🎊" CONFETTI BALL -->
+  <string name="spoken_emoji_1F38A">"Ibhola le-confetti"</string>
+  <!-- Spoken description for Unicode code point U+1F38B: "🎋" TANABATA TREE -->
+  <string name="spoken_emoji_1F38B">"Isihlahla se-Tanabata"</string>
+  <!-- Spoken description for Unicode code point U+1F38C: "🎌" CROSSED FLAGS -->
+  <string name="spoken_emoji_1F38C">"Amafulegi ashayisanayo"</string>
+  <!-- Spoken description for Unicode code point U+1F38D: "🎍" PINE DECORATION -->
+  <string name="spoken_emoji_1F38D">"Umhlobiso wephayini"</string>
+  <!-- Spoken description for Unicode code point U+1F38E: "🎎" JAPANESE DOLLS -->
+  <string name="spoken_emoji_1F38E">"Onodoli besi-Japanese"</string>
+  <!-- Spoken description for Unicode code point U+1F38F: "🎏" CARP STREAMER -->
+  <string name="spoken_emoji_1F38F">"I-Carp streamer"</string>
+  <!-- Spoken description for Unicode code point U+1F390: "🎐" WIND CHIME -->
+  <string name="spoken_emoji_1F390">"Ushimula"</string>
+  <!-- Spoken description for Unicode code point U+1F391: "🎑" MOON VIEWING CEREMONY -->
+  <string name="spoken_emoji_1F391">"Umkhosi wokubuka inyanga"</string>
+  <!-- Spoken description for Unicode code point U+1F392: "🎒" SCHOOL SATCHEL -->
+  <string name="spoken_emoji_1F392">"Isikhwama sesikole"</string>
+  <!-- Spoken description for Unicode code point U+1F393: "🎓" GRADUATION CAP -->
+  <string name="spoken_emoji_1F393">"Isigqoko sokuthweswa iziqu"</string>
+  <!-- Spoken description for Unicode code point U+1F3A0: "🎠" CAROUSEL HORSE -->
+  <string name="spoken_emoji_1F3A0">"Umbukiso wamahhashi"</string>
+  <!-- Spoken description for Unicode code point U+1F3A1: "🎡" FERRIS WHEEL -->
+  <string name="spoken_emoji_1F3A1">"Isondo lasepaki lokuzijabulisa"</string>
+  <!-- Spoken description for Unicode code point U+1F3A2: "🎢" ROLLER COASTER -->
+  <string name="spoken_emoji_1F3A2">"I-Roller coaster"</string>
+  <!-- Spoken description for Unicode code point U+1F3A3: "🎣" FISHING POLE AND FISH -->
+  <string name="spoken_emoji_1F3A3">"Induku yokudoba nenhlanzi"</string>
+  <!-- Spoken description for Unicode code point U+1F3A4: "🎤" MICROPHONE -->
+  <string name="spoken_emoji_1F3A4">"Imakrofoni"</string>
+  <!-- Spoken description for Unicode code point U+1F3A5: "🎥" MOVIE CAMERA -->
+  <string name="spoken_emoji_1F3A5">"Ikhamela ye-movie"</string>
+  <!-- Spoken description for Unicode code point U+1F3A6: "🎦" CINEMA -->
+  <string name="spoken_emoji_1F3A6">"Ibhayisikobho"</string>
+  <!-- Spoken description for Unicode code point U+1F3A7: "🎧" HEADPHONE -->
+  <string name="spoken_emoji_1F3A7">"Ihedfoni"</string>
+  <!-- Spoken description for Unicode code point U+1F3A8: "🎨" ARTIST PALETTE -->
+  <string name="spoken_emoji_1F3A8">"Iseceshana sompendi sokufaka upende"</string>
+  <!-- Spoken description for Unicode code point U+1F3A9: "🎩" TOP HAT -->
+  <string name="spoken_emoji_1F3A9">"Isigqoko esiphezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F3AA: "🎪" CIRCUS TENT -->
+  <string name="spoken_emoji_1F3AA">"Itende lesekisi"</string>
+  <!-- Spoken description for Unicode code point U+1F3AB: "🎫" TICKET -->
+  <string name="spoken_emoji_1F3AB">"Ithikithi"</string>
+  <!-- Spoken description for Unicode code point U+1F3AC: "🎬" CLAPPER BOARD -->
+  <string name="spoken_emoji_1F3AC">"Idivayisi yokwenza ifilimu"</string>
+  <!-- Spoken description for Unicode code point U+1F3AD: "🎭" PERFORMING ARTS -->
+  <string name="spoken_emoji_1F3AD">"Ukwenza ubuciko"</string>
+  <!-- Spoken description for Unicode code point U+1F3AE: "🎮" VIDEO GAME -->
+  <string name="spoken_emoji_1F3AE">"Igeyimu yevidiyo"</string>
+  <!-- Spoken description for Unicode code point U+1F3AF: "🎯" DIRECT HIT -->
+  <string name="spoken_emoji_1F3AF">"Ukushaya ngokuqondile"</string>
+  <!-- Spoken description for Unicode code point U+1F3B0: "🎰" SLOT MACHINE -->
+  <string name="spoken_emoji_1F3B0">"Umshini wokugembula"</string>
+  <!-- Spoken description for Unicode code point U+1F3B1: "🎱" BILLIARDS -->
+  <string name="spoken_emoji_1F3B1">"Ama-Billiard"</string>
+  <!-- Spoken description for Unicode code point U+1F3B2: "🎲" GAME DIE -->
+  <string name="spoken_emoji_1F3B2">"Igeyimu yokufa"</string>
+  <!-- Spoken description for Unicode code point U+1F3B3: "🎳" BOWLING -->
+  <string name="spoken_emoji_1F3B3">"I-Bowling"</string>
+  <!-- Spoken description for Unicode code point U+1F3B4: "🎴" FLOWER PLAYING CARDS -->
+  <string name="spoken_emoji_1F3B4">"Imbali yokudlala amakhadi"</string>
+  <!-- Spoken description for Unicode code point U+1F3B5: "🎵" MUSICAL NOTE -->
+  <string name="spoken_emoji_1F3B5">"Inothi yomculo"</string>
+  <!-- Spoken description for Unicode code point U+1F3B6: "🎶" MULTIPLE MUSICAL NOTES -->
+  <string name="spoken_emoji_1F3B6">"Amanothi omculo amaningi"</string>
+  <!-- Spoken description for Unicode code point U+1F3B7: "🎷" SAXOPHONE -->
+  <string name="spoken_emoji_1F3B7">"Icilongo"</string>
+  <!-- Spoken description for Unicode code point U+1F3B8: "🎸" GUITAR -->
+  <string name="spoken_emoji_1F3B8">"Isiginci"</string>
+  <!-- Spoken description for Unicode code point U+1F3B9: "🎹" MUSICAL KEYBOARD -->
+  <string name="spoken_emoji_1F3B9">"Ikhibhodi yomculo"</string>
+  <!-- Spoken description for Unicode code point U+1F3BA: "🎺" TRUMPET -->
+  <string name="spoken_emoji_1F3BA">"Ithrampethi"</string>
+  <!-- Spoken description for Unicode code point U+1F3BB: "🎻" VIOLIN -->
+  <string name="spoken_emoji_1F3BB">"Ivayolini"</string>
+  <!-- Spoken description for Unicode code point U+1F3BC: "🎼" MUSICAL SCORE -->
+  <string name="spoken_emoji_1F3BC">"Isikolo somculo"</string>
+  <!-- Spoken description for Unicode code point U+1F3BD: "🎽" RUNNING SHIRT WITH SASH -->
+  <string name="spoken_emoji_1F3BD">"Ihembe lokugijima elinebhande"</string>
+  <!-- Spoken description for Unicode code point U+1F3BE: "🎾" TENNIS RACQUET AND BALL -->
+  <string name="spoken_emoji_1F3BE">"Irakhethi yethenisi nebhola"</string>
+  <!-- Spoken description for Unicode code point U+1F3BF: "🎿" SKI AND SKI BOOT -->
+  <string name="spoken_emoji_1F3BF">"Ukusheleleza eqhweni nezicathulo zokusheleleza"</string>
+  <!-- Spoken description for Unicode code point U+1F3C0: "🏀" BASKETBALL AND HOOP -->
+  <string name="spoken_emoji_1F3C0">"I-Basketball ne-hoop"</string>
+  <!-- Spoken description for Unicode code point U+1F3C1: "🏁" CHEQUERED FLAG -->
+  <string name="spoken_emoji_1F3C1">"Ifulegi lemibala eminingi"</string>
+  <!-- Spoken description for Unicode code point U+1F3C2: "🏂" SNOWBOARDER -->
+  <string name="spoken_emoji_1F3C2">"Ibhodi lokusheleleza eqhweni"</string>
+  <!-- Spoken description for Unicode code point U+1F3C3: "🏃" RUNNER -->
+  <string name="spoken_emoji_1F3C3">"Umgijimi"</string>
+  <!-- Spoken description for Unicode code point U+1F3C4: "🏄" SURFER -->
+  <string name="spoken_emoji_1F3C4">"Umtshuzi"</string>
+  <!-- Spoken description for Unicode code point U+1F3C6: "🏆" TROPHY -->
+  <string name="spoken_emoji_1F3C6">"Indondo"</string>
+  <!-- Spoken description for Unicode code point U+1F3C7: "🏇" HORSE RACING -->
+  <string name="spoken_emoji_1F3C7">"Umjaho wamahhashi"</string>
+  <!-- Spoken description for Unicode code point U+1F3C8: "🏈" AMERICAN FOOTBALL -->
+  <string name="spoken_emoji_1F3C8">"Ibhola lase-America"</string>
+  <!-- Spoken description for Unicode code point U+1F3C9: "🏉" RUGBY FOOTBALL -->
+  <string name="spoken_emoji_1F3C9">"Ibhola lombhoxo"</string>
+  <!-- Spoken description for Unicode code point U+1F3CA: "🏊" SWIMMER -->
+  <string name="spoken_emoji_1F3CA">"Umbhukudi"</string>
+  <!-- Spoken description for Unicode code point U+1F3E0: "🏠" HOUSE BUILDING -->
+  <string name="spoken_emoji_1F3E0">"Isakhiwo sendlu"</string>
+  <!-- Spoken description for Unicode code point U+1F3E1: "🏡" HOUSE WITH GARDEN -->
+  <string name="spoken_emoji_1F3E1">"Indlu enengadi"</string>
+  <!-- Spoken description for Unicode code point U+1F3E2: "🏢" OFFICE BUILDING -->
+  <string name="spoken_emoji_1F3E2">"Ibhilidi lehhovisi"</string>
+  <!-- Spoken description for Unicode code point U+1F3E3: "🏣" JAPANESE POST OFFICE -->
+  <string name="spoken_emoji_1F3E3">"Iposi lase-Japanese"</string>
+  <!-- Spoken description for Unicode code point U+1F3E4: "🏤" EUROPEAN POST OFFICE -->
+  <string name="spoken_emoji_1F3E4">"Iposi lase-European"</string>
+  <!-- Spoken description for Unicode code point U+1F3E5: "🏥" HOSPITAL -->
+  <string name="spoken_emoji_1F3E5">"Isibhedlela"</string>
+  <!-- Spoken description for Unicode code point U+1F3E6: "🏦" BANK -->
+  <string name="spoken_emoji_1F3E6">"Ibhange"</string>
+  <!-- Spoken description for Unicode code point U+1F3E7: "🏧" AUTOMATED TELLER MACHINE -->
+  <string name="spoken_emoji_1F3E7">"Umshini ozenzakalelayo womthengisi"</string>
+  <!-- Spoken description for Unicode code point U+1F3E8: "🏨" HOTEL -->
+  <string name="spoken_emoji_1F3E8">"Ihotela"</string>
+  <!-- Spoken description for Unicode code point U+1F3E9: "🏩" LOVE HOTEL -->
+  <string name="spoken_emoji_1F3E9">"Ihotela lothando"</string>
+  <!-- Spoken description for Unicode code point U+1F3EA: "🏪" CONVENIENCE STORE -->
+  <string name="spoken_emoji_1F3EA">"Isitolo esiphethe zonke izinto"</string>
+  <!-- Spoken description for Unicode code point U+1F3EB: "🏫" SCHOOL -->
+  <string name="spoken_emoji_1F3EB">"Isikole"</string>
+  <!-- Spoken description for Unicode code point U+1F3EC: "🏬" DEPARTMENT STORE -->
+  <string name="spoken_emoji_1F3EC">"Isitolo somnyango"</string>
+  <!-- Spoken description for Unicode code point U+1F3ED: "🏭" FACTORY -->
+  <string name="spoken_emoji_1F3ED">"Imboni"</string>
+  <!-- Spoken description for Unicode code point U+1F3EE: "🏮" IZAKAYA LANTERN -->
+  <string name="spoken_emoji_1F3EE">"I-Izakaya lantern"</string>
+  <!-- Spoken description for Unicode code point U+1F3EF: "🏯" JAPANESE CASTLE -->
+  <string name="spoken_emoji_1F3EF">"Inqaba yesi-Japanese"</string>
+  <!-- Spoken description for Unicode code point U+1F3F0: "🏰" EUROPEAN CASTLE -->
+  <string name="spoken_emoji_1F3F0">"Inqaba yesi-European"</string>
+  <!-- Spoken description for Unicode code point U+1F400: "🐀" RAT -->
+  <string name="spoken_emoji_1F400">"Igundane"</string>
+  <!-- Spoken description for Unicode code point U+1F401: "🐁" MOUSE -->
+  <string name="spoken_emoji_1F401">"Igundane"</string>
+  <!-- Spoken description for Unicode code point U+1F402: "🐂" OX -->
+  <string name="spoken_emoji_1F402">"Inkabi"</string>
+  <!-- Spoken description for Unicode code point U+1F403: "🐃" WATER BUFFALO -->
+  <string name="spoken_emoji_1F403">"Izinyathi"</string>
+  <!-- Spoken description for Unicode code point U+1F404: "🐄" COW -->
+  <string name="spoken_emoji_1F404">"Inkomo"</string>
+  <!-- Spoken description for Unicode code point U+1F406: "🐆" LEOPARD -->
+  <string name="spoken_emoji_1F406">"Ingwe"</string>
+  <!-- Spoken description for Unicode code point U+1F407: "🐇" RABBIT -->
+  <string name="spoken_emoji_1F407">"Unogwaja"</string>
+  <!-- Spoken description for Unicode code point U+1F408: "🐈" CAT -->
+  <string name="spoken_emoji_1F408">"Ikati"</string>
+  <!-- Spoken description for Unicode code point U+1F409: "🐉" DRAGON -->
+  <string name="spoken_emoji_1F409">"Isilo"</string>
+  <!-- Spoken description for Unicode code point U+1F40A: "🐊" CROCODILE -->
+  <string name="spoken_emoji_1F40A">"Ingwenya"</string>
+  <!-- Spoken description for Unicode code point U+1F40B: "🐋" WHALE -->
+  <string name="spoken_emoji_1F40B">"Umkhomo"</string>
+  <!-- Spoken description for Unicode code point U+1F40C: "🐌" SNAIL -->
+  <string name="spoken_emoji_1F40C">"Umnenke"</string>
+  <!-- Spoken description for Unicode code point U+1F40D: "🐍" SNAKE -->
+  <string name="spoken_emoji_1F40D">"Inyoka"</string>
+  <!-- Spoken description for Unicode code point U+1F40E: "🐎" HORSE -->
+  <string name="spoken_emoji_1F40E">"Ihhashi"</string>
+  <!-- Spoken description for Unicode code point U+1F40F: "🐏" RAM -->
+  <string name="spoken_emoji_1F40F">"Inyamazane yenduna"</string>
+  <!-- Spoken description for Unicode code point U+1F410: "🐐" GOAT -->
+  <string name="spoken_emoji_1F410">"Imbuzi"</string>
+  <!-- Spoken description for Unicode code point U+1F411: "🐑" SHEEP -->
+  <string name="spoken_emoji_1F411">"Imvu"</string>
+  <!-- Spoken description for Unicode code point U+1F412: "🐒" MONKEY -->
+  <string name="spoken_emoji_1F412">"Inkawu"</string>
+  <!-- Spoken description for Unicode code point U+1F413: "🐓" ROOSTER -->
+  <string name="spoken_emoji_1F413">"Iqhude"</string>
+  <!-- Spoken description for Unicode code point U+1F414: "🐔" CHICKEN -->
+  <string name="spoken_emoji_1F414">"Inkukhu"</string>
+  <!-- Spoken description for Unicode code point U+1F415: "🐕" DOG -->
+  <string name="spoken_emoji_1F415">"Inja"</string>
+  <!-- Spoken description for Unicode code point U+1F416: "🐖" PIG -->
+  <string name="spoken_emoji_1F416">"Ingulube"</string>
+  <!-- Spoken description for Unicode code point U+1F417: "🐗" BOAR -->
+  <string name="spoken_emoji_1F417">"Izingulube"</string>
+  <!-- Spoken description for Unicode code point U+1F418: "🐘" ELEPHANT -->
+  <string name="spoken_emoji_1F418">"Indlovu"</string>
+  <!-- Spoken description for Unicode code point U+1F419: "🐙" OCTOPUS -->
+  <string name="spoken_emoji_1F419">"Ingwane"</string>
+  <!-- Spoken description for Unicode code point U+1F41A: "🐚" SPIRAL SHELL -->
+  <string name="spoken_emoji_1F41A">"I-Shell Spiral"</string>
+  <!-- Spoken description for Unicode code point U+1F41B: "🐛" BUG -->
+  <string name="spoken_emoji_1F41B">"Imbungulu"</string>
+  <!-- Spoken description for Unicode code point U+1F41C: "🐜" ANT -->
+  <string name="spoken_emoji_1F41C">"Intuthwane"</string>
+  <!-- Spoken description for Unicode code point U+1F41D: "🐝" HONEYBEE -->
+  <string name="spoken_emoji_1F41D">"Inyosi"</string>
+  <!-- Spoken description for Unicode code point U+1F41E: "🐞" LADY BEETLE -->
+  <string name="spoken_emoji_1F41E">"Omanqulwane"</string>
+  <!-- Spoken description for Unicode code point U+1F41F: "🐟" FISH -->
+  <string name="spoken_emoji_1F41F">"Inhlanzi"</string>
+  <!-- Spoken description for Unicode code point U+1F420: "🐠" TROPICAL FISH -->
+  <string name="spoken_emoji_1F420">"Inhlanzi yasendaweni eshisayo"</string>
+  <!-- Spoken description for Unicode code point U+1F421: "🐡" BLOWFISH -->
+  <string name="spoken_emoji_1F421">"I-Blowfish"</string>
+  <!-- Spoken description for Unicode code point U+1F422: "🐢" TURTLE -->
+  <string name="spoken_emoji_1F422">"Ufudu"</string>
+  <!-- Spoken description for Unicode code point U+1F423: "🐣" HATCHING CHICK -->
+  <string name="spoken_emoji_1F423">"Ukuchamisela ichwane"</string>
+  <!-- Spoken description for Unicode code point U+1F424: "🐤" BABY CHICK -->
+  <string name="spoken_emoji_1F424">"Ichwane"</string>
+  <!-- Spoken description for Unicode code point U+1F425: "🐥" FRONT-FACING BABY CHICK -->
+  <string name="spoken_emoji_1F425">"Ichwane elibheke ngaphambili"</string>
+  <!-- Spoken description for Unicode code point U+1F426: "🐦" BIRD -->
+  <string name="spoken_emoji_1F426">"Inyoni"</string>
+  <!-- Spoken description for Unicode code point U+1F427: "🐧" PENGUIN -->
+  <string name="spoken_emoji_1F427">"Ihlengethwa"</string>
+  <!-- Spoken description for Unicode code point U+1F428: "🐨" KOALA -->
+  <string name="spoken_emoji_1F428">"I-Koala"</string>
+  <!-- Spoken description for Unicode code point U+1F429: "🐩" POODLE -->
+  <string name="spoken_emoji_1F429">"Uhlobo ou"</string>
+  <!-- Spoken description for Unicode code point U+1F42A: "🐪" DROMEDARY CAMEL -->
+  <string name="spoken_emoji_1F42A">"Ikamela le-Dromedary"</string>
+  <!-- Spoken description for Unicode code point U+1F42B: "🐫" BACTRIAN CAMEL -->
+  <string name="spoken_emoji_1F42B">"Ikamela le-Bactrian"</string>
+  <!-- Spoken description for Unicode code point U+1F42C: "🐬" DOLPHIN -->
+  <string name="spoken_emoji_1F42C">"Ihlengethwa"</string>
+  <!-- Spoken description for Unicode code point U+1F42D: "🐭" MOUSE FACE -->
+  <string name="spoken_emoji_1F42D">"Ubuso begundane"</string>
+  <!-- Spoken description for Unicode code point U+1F42E: "🐮" COW FACE -->
+  <string name="spoken_emoji_1F42E">"Ubuso benkomo"</string>
+  <!-- Spoken description for Unicode code point U+1F42F: "🐯" TIGER FACE -->
+  <string name="spoken_emoji_1F42F">"Ingwe"</string>
+  <!-- Spoken description for Unicode code point U+1F430: "🐰" RABBIT FACE -->
+  <string name="spoken_emoji_1F430">"Ubuso bonogwaja"</string>
+  <!-- Spoken description for Unicode code point U+1F431: "🐱" CAT FACE -->
+  <string name="spoken_emoji_1F431">"Ubuso bekati"</string>
+  <!-- Spoken description for Unicode code point U+1F432: "🐲" DRAGON FACE -->
+  <string name="spoken_emoji_1F432">"Ubuso besilo"</string>
+  <!-- Spoken description for Unicode code point U+1F433: "🐳" SPOUTING WHALE -->
+  <string name="spoken_emoji_1F433">"Umkhomo otshuzayo"</string>
+  <!-- Spoken description for Unicode code point U+1F434: "🐴" HORSE FACE -->
+  <string name="spoken_emoji_1F434">"Ubuso behhashi"</string>
+  <!-- Spoken description for Unicode code point U+1F435: "🐵" MONKEY FACE -->
+  <string name="spoken_emoji_1F435">"Ubuso bonogwaja"</string>
+  <!-- Spoken description for Unicode code point U+1F436: "🐶" DOG FACE -->
+  <string name="spoken_emoji_1F436">"Ubuso benja"</string>
+  <!-- Spoken description for Unicode code point U+1F437: "🐷" PIG FACE -->
+  <string name="spoken_emoji_1F437">"Ubuso bengulube"</string>
+  <!-- Spoken description for Unicode code point U+1F438: "🐸" FROG FACE -->
+  <string name="spoken_emoji_1F438">"Ubuso bexoxo"</string>
+  <!-- Spoken description for Unicode code point U+1F439: "🐹" HAMSTER FACE -->
+  <string name="spoken_emoji_1F439">"Ubuso be-hamster"</string>
+  <!-- Spoken description for Unicode code point U+1F43A: "🐺" WOLF FACE -->
+  <string name="spoken_emoji_1F43A">"Ubuso bempisi"</string>
+  <!-- Spoken description for Unicode code point U+1F43B: "🐻" BEAR FACE -->
+  <string name="spoken_emoji_1F43B">"Ubuso bebhele"</string>
+  <!-- Spoken description for Unicode code point U+1F43C: "🐼" PANDA FACE -->
+  <string name="spoken_emoji_1F43C">"Ubuso be-Panda"</string>
+  <!-- Spoken description for Unicode code point U+1F43D: "🐽" PIG NOSE -->
+  <string name="spoken_emoji_1F43D">"Ikhala lengulube"</string>
+  <!-- Spoken description for Unicode code point U+1F43E: "🐾" PAW PRINTS -->
+  <string name="spoken_emoji_1F43E">"Imikhondo yesidladla"</string>
+  <!-- Spoken description for Unicode code point U+1F440: "👀" EYES -->
+  <string name="spoken_emoji_1F440">"Amehlo"</string>
+  <!-- Spoken description for Unicode code point U+1F442: "👂" EAR -->
+  <string name="spoken_emoji_1F442">"Indlebe"</string>
+  <!-- Spoken description for Unicode code point U+1F443: "👃" NOSE -->
+  <string name="spoken_emoji_1F443">"Ikhala"</string>
+  <!-- Spoken description for Unicode code point U+1F444: "👄" MOUTH -->
+  <string name="spoken_emoji_1F444">"Umlomo"</string>
+  <!-- Spoken description for Unicode code point U+1F445: "👅" TONGUE -->
+  <string name="spoken_emoji_1F445">"Ulimi"</string>
+  <!-- Spoken description for Unicode code point U+1F446: "👆" WHITE UP POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F446">"Okumhlophe okubheke inkomba yesandla sasemuva"</string>
+  <!-- Spoken description for Unicode code point U+1F447: "👇" WHITE DOWN POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F447">"Okumhlophe okuphasni okubheke inkomba yesandla sasemuva"</string>
+  <!-- Spoken description for Unicode code point U+1F448: "👈" WHITE LEFT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F448">"Okumhlophe kwesokunxele okubheke inkomba yesandla sasemuva"</string>
+  <!-- Spoken description for Unicode code point U+1F449: "👉" WHITE RIGHT POINTING BACKHAND INDEX -->
+  <string name="spoken_emoji_1F449">"Okumhlophe kwesokudla okubheke inkomba yesandla sasemuva"</string>
+  <!-- Spoken description for Unicode code point U+1F44A: "👊" FISTED HAND SIGN -->
+  <string name="spoken_emoji_1F44A">"Uphawu lwesandla esiyingqindi"</string>
+  <!-- Spoken description for Unicode code point U+1F44B: "👋" WAVING HAND SIGN -->
+  <string name="spoken_emoji_1F44B">"Uphawu lwesandla esiphephezelayo"</string>
+  <!-- Spoken description for Unicode code point U+1F44C: "👌" OK HAND SIGN -->
+  <string name="spoken_emoji_1F44C">"Uphawu lwesandla esibonisa ukuthi kulungile"</string>
+  <!-- Spoken description for Unicode code point U+1F44D: "👍" THUMBS UP SIGN -->
+  <string name="spoken_emoji_1F44D">"Uphawu lokushaphu"</string>
+  <!-- Spoken description for Unicode code point U+1F44E: "👎" THUMBS DOWN SIGN -->
+  <string name="spoken_emoji_1F44E">"Uphawu lokungekho shaphu"</string>
+  <!-- Spoken description for Unicode code point U+1F44F: "👏" CLAPPING HANDS SIGN -->
+  <string name="spoken_emoji_1F44F">"Uphawu lokushaya izandla"</string>
+  <!-- Spoken description for Unicode code point U+1F450: "👐" OPEN HANDS SIGN -->
+  <string name="spoken_emoji_1F450">"Uphawu lwezandla ezivulekile"</string>
+  <!-- Spoken description for Unicode code point U+1F451: "👑" CROWN -->
+  <string name="spoken_emoji_1F451">"Umqhele"</string>
+  <!-- Spoken description for Unicode code point U+1F452: "👒" WOMANS HAT -->
+  <string name="spoken_emoji_1F452">"Isigqoko sowesifazane"</string>
+  <!-- Spoken description for Unicode code point U+1F453: "👓" EYEGLASSES -->
+  <string name="spoken_emoji_1F453">"Izibuko zamehlo"</string>
+  <!-- Spoken description for Unicode code point U+1F454: "👔" NECKTIE -->
+  <string name="spoken_emoji_1F454">"Uthayi"</string>
+  <!-- Spoken description for Unicode code point U+1F455: "👕" T-SHIRT -->
+  <string name="spoken_emoji_1F455">"Isikibha"</string>
+  <!-- Spoken description for Unicode code point U+1F456: "👖" JEANS -->
+  <string name="spoken_emoji_1F456">"Obhokhathi"</string>
+  <!-- Spoken description for Unicode code point U+1F457: "👗" DRESS -->
+  <string name="spoken_emoji_1F457">"Ingubo"</string>
+  <!-- Spoken description for Unicode code point U+1F458: "👘" KIMONO -->
+  <string name="spoken_emoji_1F458">"I-Kimono"</string>
+  <!-- Spoken description for Unicode code point U+1F459: "👙" BIKINI -->
+  <string name="spoken_emoji_1F459">"Ibhikhini"</string>
+  <!-- Spoken description for Unicode code point U+1F45A: "👚" WOMANS CLOTHES -->
+  <string name="spoken_emoji_1F45A">"Izingubo zabesifazane"</string>
+  <!-- Spoken description for Unicode code point U+1F45B: "👛" PURSE -->
+  <string name="spoken_emoji_1F45B">"Isikhwama semali"</string>
+  <!-- Spoken description for Unicode code point U+1F45C: "👜" HANDBAG -->
+  <string name="spoken_emoji_1F45C">"Isikhwama"</string>
+  <!-- Spoken description for Unicode code point U+1F45D: "👝" POUCH -->
+  <string name="spoken_emoji_1F45D">"Isikhwama esincane"</string>
+  <!-- Spoken description for Unicode code point U+1F45E: "👞" MANS SHOE -->
+  <string name="spoken_emoji_1F45E">"Izicathulo zabesilisa"</string>
+  <!-- Spoken description for Unicode code point U+1F45F: "👟" ATHLETIC SHOE -->
+  <string name="spoken_emoji_1F45F">"Izicathulo zabadlali"</string>
+  <!-- Spoken description for Unicode code point U+1F460: "👠" HIGH-HEELED SHOE -->
+  <string name="spoken_emoji_1F460">"Isicathulo sesithende esiphezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F461: "👡" WOMANS SANDAL -->
+  <string name="spoken_emoji_1F461">"Izicathulo ezivulekile zabesifazane"</string>
+  <!-- Spoken description for Unicode code point U+1F462: "👢" WOMANS BOOTS -->
+  <string name="spoken_emoji_1F462">"Amabhuthi abesifazane"</string>
+  <!-- Spoken description for Unicode code point U+1F463: "👣" FOOTPRINTS -->
+  <string name="spoken_emoji_1F463">"Izinyathelo"</string>
+  <!-- Spoken description for Unicode code point U+1F464: "👤" BUST IN SILHOUETTE -->
+  <string name="spoken_emoji_1F464">"Isithombe esibonisa ikhanda namahlombe"</string>
+  <!-- Spoken description for Unicode code point U+1F465: "👥" BUSTS IN SILHOUETTE -->
+  <string name="spoken_emoji_1F465">"Isithombe esibonisa ikhanda namahlombe"</string>
+  <!-- Spoken description for Unicode code point U+1F466: "👦" BOY -->
+  <string name="spoken_emoji_1F466">"Umfana"</string>
+  <!-- Spoken description for Unicode code point U+1F467: "👧" GIRL -->
+  <string name="spoken_emoji_1F467">"Intombazane"</string>
+  <!-- Spoken description for Unicode code point U+1F468: "👨" MAN -->
+  <string name="spoken_emoji_1F468">"Indoda"</string>
+  <!-- Spoken description for Unicode code point U+1F469: "👩" WOMAN -->
+  <string name="spoken_emoji_1F469">"Owesifazane"</string>
+  <!-- Spoken description for Unicode code point U+1F46A: "👪" FAMILY -->
+  <string name="spoken_emoji_1F46A">"Umndeni"</string>
+  <!-- Spoken description for Unicode code point U+1F46B: "👫" MAN AND WOMAN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46B">"Indoda nowesifazane ababambene izandla"</string>
+  <!-- Spoken description for Unicode code point U+1F46C: "👬" TWO MEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46C">"Amadoda amabili abambene izandla"</string>
+  <!-- Spoken description for Unicode code point U+1F46D: "👭" TWO WOMEN HOLDING HANDS -->
+  <string name="spoken_emoji_1F46D">"Abesifazane ababili ababambene izandla"</string>
+  <!-- Spoken description for Unicode code point U+1F46E: "👮" POLICE OFFICER -->
+  <string name="spoken_emoji_1F46E">"Ihhovisi"</string>
+  <!-- Spoken description for Unicode code point U+1F46F: "👯" WOMAN WITH BUNNY EARS -->
+  <string name="spoken_emoji_1F46F">"Owesifazane onezindlebe ezindizayo"</string>
+  <!-- Spoken description for Unicode code point U+1F470: "👰" BRIDE WITH VEIL -->
+  <string name="spoken_emoji_1F470">"Umakoti ofake umgubuzelo"</string>
+  <!-- Spoken description for Unicode code point U+1F471: "👱" PERSON WITH BLOND HAIR -->
+  <string name="spoken_emoji_1F471">"Umuntu onezinwele ezimhloshana"</string>
+  <!-- Spoken description for Unicode code point U+1F472: "👲" MAN WITH GUA PI MAO -->
+  <string name="spoken_emoji_1F472">"Indoda ene-gua pi mao"</string>
+  <!-- Spoken description for Unicode code point U+1F473: "👳" MAN WITH TURBAN -->
+  <string name="spoken_emoji_1F473">"Indoda enomshuqulo"</string>
+  <!-- Spoken description for Unicode code point U+1F474: "👴" OLDER MAN -->
+  <string name="spoken_emoji_1F474">"Indoda esekhulile"</string>
+  <!-- Spoken description for Unicode code point U+1F475: "👵" OLDER WOMAN -->
+  <string name="spoken_emoji_1F475">"Owesifazane osekhulile"</string>
+  <!-- Spoken description for Unicode code point U+1F476: "👶" BABY -->
+  <string name="spoken_emoji_1F476">"Umntwana"</string>
+  <!-- Spoken description for Unicode code point U+1F477: "👷" CONSTRUCTION WORKER -->
+  <string name="spoken_emoji_1F477">"Isisebenzi sezokwakha"</string>
+  <!-- Spoken description for Unicode code point U+1F478: "👸" PRINCESS -->
+  <string name="spoken_emoji_1F478">"Inkosazana"</string>
+  <!-- Spoken description for Unicode code point U+1F479: "👹" JAPANESE OGRE -->
+  <string name="spoken_emoji_1F479">"Isilwane esisabekayo sesi-Japanese"</string>
+  <!-- Spoken description for Unicode code point U+1F47A: "👺" JAPANESE GOBLIN -->
+  <string name="spoken_emoji_1F47A">"Isichwe sesi-Japanese"</string>
+  <!-- Spoken description for Unicode code point U+1F47B: "👻" GHOST -->
+  <string name="spoken_emoji_1F47B">"Isipoki"</string>
+  <!-- Spoken description for Unicode code point U+1F47C: "👼" BABY ANGEL -->
+  <string name="spoken_emoji_1F47C">"Ingelosi yomntwana"</string>
+  <!-- Spoken description for Unicode code point U+1F47D: "👽" EXTRATERRESTRIAL ALIEN -->
+  <string name="spoken_emoji_1F47D">"I-Alien esemkhathini"</string>
+  <!-- Spoken description for Unicode code point U+1F47E: "👾" ALIEN MONSTER -->
+  <string name="spoken_emoji_1F47E">"I-Alien esabekayo"</string>
+  <!-- Spoken description for Unicode code point U+1F47F: "👿" IMP -->
+  <string name="spoken_emoji_1F47F">"Idemoni"</string>
+  <!-- Spoken description for Unicode code point U+1F480: "💀" SKULL -->
+  <string name="spoken_emoji_1F480">"Ukhakhayi"</string>
+  <!-- Spoken description for Unicode code point U+1F481: "💁" INFORMATION DESK PERSON -->
+  <string name="spoken_emoji_1F481">"Umuntu wendawo yosizo"</string>
+  <!-- Spoken description for Unicode code point U+1F482: "💂" GUARDSMAN -->
+  <string name="spoken_emoji_1F482">"Ibutho"</string>
+  <!-- Spoken description for Unicode code point U+1F483: "💃" DANCER -->
+  <string name="spoken_emoji_1F483">"Umdansi"</string>
+  <!-- Spoken description for Unicode code point U+1F484: "💄" LIPSTICK -->
+  <string name="spoken_emoji_1F484">"Iluji"</string>
+  <!-- Spoken description for Unicode code point U+1F485: "💅" NAIL POLISH -->
+  <string name="spoken_emoji_1F485">"Ipholishi yenzipho"</string>
+  <!-- Spoken description for Unicode code point U+1F486: "💆" FACE MASSAGE -->
+  <string name="spoken_emoji_1F486">"Ukubhucunga ubuso"</string>
+  <!-- Spoken description for Unicode code point U+1F487: "💇" HAIRCUT -->
+  <string name="spoken_emoji_1F487">"Ukugunda izinwele"</string>
+  <!-- Spoken description for Unicode code point U+1F488: "💈" BARBER POLE -->
+  <string name="spoken_emoji_1F488">"Uphawu lasendaweni yokugunda"</string>
+  <!-- Spoken description for Unicode code point U+1F489: "💉" SYRINGE -->
+  <string name="spoken_emoji_1F489">"Isichatha"</string>
+  <!-- Spoken description for Unicode code point U+1F48A: "💊" PILL -->
+  <string name="spoken_emoji_1F48A">"Iphilisi"</string>
+  <!-- Spoken description for Unicode code point U+1F48B: "💋" KISS MARK -->
+  <string name="spoken_emoji_1F48B">"Uphawu lokuqabula"</string>
+  <!-- Spoken description for Unicode code point U+1F48C: "💌" LOVE LETTER -->
+  <string name="spoken_emoji_1F48C">"Incwadi yothando"</string>
+  <!-- Spoken description for Unicode code point U+1F48D: "💍" RING -->
+  <string name="spoken_emoji_1F48D">"Khalisa"</string>
+  <!-- Spoken description for Unicode code point U+1F48E: "💎" GEM STONE -->
+  <string name="spoken_emoji_1F48E">"Itshe eliyigugu"</string>
+  <!-- Spoken description for Unicode code point U+1F48F: "💏" KISS -->
+  <string name="spoken_emoji_1F48F">"Qabula"</string>
+  <!-- Spoken description for Unicode code point U+1F490: "💐" BOUQUET -->
+  <string name="spoken_emoji_1F490">"Umqulu wezimbali"</string>
+  <!-- Spoken description for Unicode code point U+1F491: "💑" COUPLE WITH HEART -->
+  <string name="spoken_emoji_1F491">"Izithandani ezinenhliziyo"</string>
+  <!-- Spoken description for Unicode code point U+1F492: "💒" WEDDING -->
+  <string name="spoken_emoji_1F492">"Umshado"</string>
+  <!-- Spoken description for Unicode code point U+1F493: "💓" BEATING HEART -->
+  <string name="spoken_emoji_1F493">"Inhliziyo eshayayo"</string>
+  <!-- Spoken description for Unicode code point U+1F494: "💔" BROKEN HEART -->
+  <string name="spoken_emoji_1F494">"Inhliziyo ephukile"</string>
+  <!-- Spoken description for Unicode code point U+1F495: "💕" TWO HEARTS -->
+  <string name="spoken_emoji_1F495">"Izinhliziyo ezimbili"</string>
+  <!-- Spoken description for Unicode code point U+1F496: "💖" SPARKLING HEART -->
+  <string name="spoken_emoji_1F496">"Inhliziyo ekhazimulayo"</string>
+  <!-- Spoken description for Unicode code point U+1F497: "💗" GROWING HEART -->
+  <string name="spoken_emoji_1F497">"Inhliziyo ekhulayo"</string>
+  <!-- Spoken description for Unicode code point U+1F498: "💘" HEART WITH ARROW -->
+  <string name="spoken_emoji_1F498">"Inhliziyo enomcibisholo"</string>
+  <!-- Spoken description for Unicode code point U+1F499: "💙" BLUE HEART -->
+  <string name="spoken_emoji_1F499">"Inhliziyo eluhlaza okwesibhakabha"</string>
+  <!-- Spoken description for Unicode code point U+1F49A: "💚" GREEN HEART -->
+  <string name="spoken_emoji_1F49A">"Inhliziyo eluhlaza okotshani"</string>
+  <!-- Spoken description for Unicode code point U+1F49B: "💛" YELLOW HEART -->
+  <string name="spoken_emoji_1F49B">"Inhliziyo eliphuzi"</string>
+  <!-- Spoken description for Unicode code point U+1F49C: "💜" PURPLE HEART -->
+  <string name="spoken_emoji_1F49C">"Inhliziyo ebumsomi"</string>
+  <!-- Spoken description for Unicode code point U+1F49D: "💝" HEART WITH RIBBON -->
+  <string name="spoken_emoji_1F49D">"Inhliziyo eneribhoni"</string>
+  <!-- Spoken description for Unicode code point U+1F49E: "💞" REVOLVING HEARTS -->
+  <string name="spoken_emoji_1F49E">"Izinhliziyo ezijikelezayo"</string>
+  <!-- Spoken description for Unicode code point U+1F49F: "💟" HEART DECORATION -->
+  <string name="spoken_emoji_1F49F">"Umhlobiso wenhliziyo"</string>
+  <!-- Spoken description for Unicode code point U+1F4A0: "💠" DIAMOND SHAPE WITH A DOT INSIDE -->
+  <string name="spoken_emoji_1F4A0">"Umumo wedayimane onechashazi ngaphakathi"</string>
+  <!-- Spoken description for Unicode code point U+1F4A1: "💡" ELECTRIC LIGHT BULB -->
+  <string name="spoken_emoji_1F4A1">"Igilobhu yogesi yokukhanyisa"</string>
+  <!-- Spoken description for Unicode code point U+1F4A2: "💢" ANGER SYMBOL -->
+  <string name="spoken_emoji_1F4A2">"Uphawu lentukuthelo"</string>
+  <!-- Spoken description for Unicode code point U+1F4A3: "💣" BOMB -->
+  <string name="spoken_emoji_1F4A3">"Ibhomu"</string>
+  <!-- Spoken description for Unicode code point U+1F4A4: "💤" SLEEPING SYMBOL -->
+  <string name="spoken_emoji_1F4A4">"Uphawu lokulala"</string>
+  <!-- Spoken description for Unicode code point U+1F4A5: "💥" COLLISION SYMBOL -->
+  <string name="spoken_emoji_1F4A5">"Uphawu lokushayisana"</string>
+  <!-- Spoken description for Unicode code point U+1F4A6: "💦" SPLASHING SWEAT SYMBOL -->
+  <string name="spoken_emoji_1F4A6">"Uphawu lokukhipha umjuluko"</string>
+  <!-- Spoken description for Unicode code point U+1F4A7: "💧" DROPLET -->
+  <string name="spoken_emoji_1F4A7">"Iconsi"</string>
+  <!-- Spoken description for Unicode code point U+1F4A8: "💨" DASH SYMBOL -->
+  <string name="spoken_emoji_1F4A8">"Uphawu lodwi"</string>
+  <!-- Spoken description for Unicode code point U+1F4A9: "💩" PILE OF POO -->
+  <string name="spoken_emoji_1F4A9">"Inqwaba yendle"</string>
+  <!-- Spoken description for Unicode code point U+1F4AA: "💪" FLEXED BICEPS -->
+  <string name="spoken_emoji_1F4AA">"Izinkonyane ezigobile"</string>
+  <!-- Spoken description for Unicode code point U+1F4AB: "💫" DIZZY SYMBOL -->
+  <string name="spoken_emoji_1F4AB">"Uphawu lwesiyezi"</string>
+  <!-- Spoken description for Unicode code point U+1F4AC: "💬" SPEECH BALLOON -->
+  <string name="spoken_emoji_1F4AC">"Ibhamuza lenkulumo"</string>
+  <!-- Spoken description for Unicode code point U+1F4AD: "💭" THOUGHT BALLOON -->
+  <string name="spoken_emoji_1F4AD">"Ibhamuza lomncabango"</string>
+  <!-- Spoken description for Unicode code point U+1F4AE: "💮" WHITE FLOWER -->
+  <string name="spoken_emoji_1F4AE">"Imbali emhlophe"</string>
+  <!-- Spoken description for Unicode code point U+1F4AF: "💯" HUNDRED POINTS SYMBOL -->
+  <string name="spoken_emoji_1F4AF">"Uphawu lamaphoyinti ayikhulu"</string>
+  <!-- Spoken description for Unicode code point U+1F4B0: "💰" MONEY BAG -->
+  <string name="spoken_emoji_1F4B0">"Isikhwama semali"</string>
+  <!-- Spoken description for Unicode code point U+1F4B1: "💱" CURRENCY EXCHANGE -->
+  <string name="spoken_emoji_1F4B1">"Ukushintshwa kohlobo lemali"</string>
+  <!-- Spoken description for Unicode code point U+1F4B2: "💲" HEAVY DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B2">"Uphawu lwedola esindayo"</string>
+  <!-- Spoken description for Unicode code point U+1F4B3: "💳" CREDIT CARD -->
+  <string name="spoken_emoji_1F4B3">"Ikhadi lesikweletu"</string>
+  <!-- Spoken description for Unicode code point U+1F4B4: "💴" BANKNOTE WITH YEN SIGN -->
+  <string name="spoken_emoji_1F4B4">"Uphawu lemali ye-yen"</string>
+  <!-- Spoken description for Unicode code point U+1F4B5: "💵" BANKNOTE WITH DOLLAR SIGN -->
+  <string name="spoken_emoji_1F4B5">"Imali enophawu ledola"</string>
+  <!-- Spoken description for Unicode code point U+1F4B6: "💶" BANKNOTE WITH EURO SIGN -->
+  <string name="spoken_emoji_1F4B6">"Uphawu lemali ye-euro"</string>
+  <!-- Spoken description for Unicode code point U+1F4B7: "💷" BANKNOTE WITH POUND SIGN -->
+  <string name="spoken_emoji_1F4B7">"Uphawu lemali yephawundi"</string>
+  <!-- Spoken description for Unicode code point U+1F4B8: "💸" MONEY WITH WINGS -->
+  <string name="spoken_emoji_1F4B8">"Imali enamaphiko"</string>
+  <!-- Spoken description for Unicode code point U+1F4B9: "💹" CHART WITH UPWARDS TREND AND YEN SIGN -->
+  <string name="spoken_emoji_1F4B9">"Ishadi elinomkhuba obheke phezulu nophawu le-yen"</string>
+  <!-- Spoken description for Unicode code point U+1F4BA: "💺" SEAT -->
+  <string name="spoken_emoji_1F4BA">"Isihlalo"</string>
+  <!-- Spoken description for Unicode code point U+1F4BB: "💻" PERSONAL COMPUTER -->
+  <string name="spoken_emoji_1F4BB">"Ikhompyutha yokomuntu siqu"</string>
+  <!-- Spoken description for Unicode code point U+1F4BC: "💼" BRIEFCASE -->
+  <string name="spoken_emoji_1F4BC">"Isikhwama"</string>
+  <!-- Spoken description for Unicode code point U+1F4BD: "💽" MINIDISC -->
+  <string name="spoken_emoji_1F4BD">"Idiski encane"</string>
+  <!-- Spoken description for Unicode code point U+1F4BE: "💾" FLOPPY DISK -->
+  <string name="spoken_emoji_1F4BE">"Iflophidiski"</string>
+  <!-- Spoken description for Unicode code point U+1F4BF: "💿" OPTICAL DISC -->
+  <string name="spoken_emoji_1F4BF">"Idiski ebonakalayo"</string>
+  <!-- Spoken description for Unicode code point U+1F4C0: "📀" DVD -->
+  <string name="spoken_emoji_1F4C0">"I-DVD"</string>
+  <!-- Spoken description for Unicode code point U+1F4C1: "📁" FILE FOLDER -->
+  <string name="spoken_emoji_1F4C1">"Ifolda yefayela"</string>
+  <!-- Spoken description for Unicode code point U+1F4C2: "📂" OPEN FILE FOLDER -->
+  <string name="spoken_emoji_1F4C2">"Vula ifolda yefayela"</string>
+  <!-- Spoken description for Unicode code point U+1F4C3: "📃" PAGE WITH CURL -->
+  <string name="spoken_emoji_1F4C3">"Ikhasi eligoqekile"</string>
+  <!-- Spoken description for Unicode code point U+1F4C4: "📄" PAGE FACING UP -->
+  <string name="spoken_emoji_1F4C4">"Ikhasi elibheke phezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F4C5: "📅" CALENDAR -->
+  <string name="spoken_emoji_1F4C5">"Ikhalenda"</string>
+  <!-- Spoken description for Unicode code point U+1F4C6: "📆" TEAR-OFF CALENDAR -->
+  <string name="spoken_emoji_1F4C6">"Ikhalenda yokukhipha"</string>
+  <!-- Spoken description for Unicode code point U+1F4C7: "📇" CARD INDEX -->
+  <string name="spoken_emoji_1F4C7">"Inkomba yekhadi"</string>
+  <!-- Spoken description for Unicode code point U+1F4C8: "📈" CHART WITH UPWARDS TREND -->
+  <string name="spoken_emoji_1F4C8">"Ishadi enomkhuba obheke phezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F4C9: "📉" CHART WITH DOWNWARDS TREND -->
+  <string name="spoken_emoji_1F4C9">"Ishadi elinomkhuba obheke phasni"</string>
+  <!-- Spoken description for Unicode code point U+1F4CA: "📊" BAR CHART -->
+  <string name="spoken_emoji_1F4CA">"Ishadi lebha"</string>
+  <!-- Spoken description for Unicode code point U+1F4CB: "📋" CLIPBOARD -->
+  <string name="spoken_emoji_1F4CB">"Ibhodi lokumanathisela"</string>
+  <!-- Spoken description for Unicode code point U+1F4CC: "📌" PUSHPIN -->
+  <string name="spoken_emoji_1F4CC">"Iphini"</string>
+  <!-- Spoken description for Unicode code point U+1F4CD: "📍" ROUND PUSHPIN -->
+  <string name="spoken_emoji_1F4CD">"Iphini eyindilinga"</string>
+  <!-- Spoken description for Unicode code point U+1F4CE: "📎" PAPERCLIP -->
+  <string name="spoken_emoji_1F4CE">"Okokubamba iphepha"</string>
+  <!-- Spoken description for Unicode code point U+1F4CF: "📏" STRAIGHT RULER -->
+  <string name="spoken_emoji_1F4CF">"Umbusi oqondile"</string>
+  <!-- Spoken description for Unicode code point U+1F4D0: "📐" TRIANGULAR RULER -->
+  <string name="spoken_emoji_1F4D0">"Umbusi ongunxantathu"</string>
+  <!-- Spoken description for Unicode code point U+1F4D1: "📑" BOOKMARK TABS -->
+  <string name="spoken_emoji_1F4D1">"Amathebhu ebhukhimakhi"</string>
+  <!-- Spoken description for Unicode code point U+1F4D2: "📒" LEDGER -->
+  <string name="spoken_emoji_1F4D2">"Ileja"</string>
+  <!-- Spoken description for Unicode code point U+1F4D3: "📓" NOTEBOOK -->
+  <string name="spoken_emoji_1F4D3">"Inothibhuku"</string>
+  <!-- Spoken description for Unicode code point U+1F4D4: "📔" NOTEBOOK WITH DECORATIVE COVER -->
+  <string name="spoken_emoji_1F4D4">"Inothibhuku enekhava ehlotshisiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4D5: "📕" CLOSED BOOK -->
+  <string name="spoken_emoji_1F4D5">"Ibhuku elivaliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4D6: "📖" OPEN BOOK -->
+  <string name="spoken_emoji_1F4D6">"Vula ibhuku"</string>
+  <!-- Spoken description for Unicode code point U+1F4D7: "📗" GREEN BOOK -->
+  <string name="spoken_emoji_1F4D7">"Ibhuku eliluhlaza okotshani"</string>
+  <!-- Spoken description for Unicode code point U+1F4D8: "📘" BLUE BOOK -->
+  <string name="spoken_emoji_1F4D8">"Ibhuku eliluhlaza okwesibhakabhaka"</string>
+  <!-- Spoken description for Unicode code point U+1F4D9: "📙" ORANGE BOOK -->
+  <string name="spoken_emoji_1F4D9">"Ibhuku elisawonlintshi"</string>
+  <!-- Spoken description for Unicode code point U+1F4DA: "📚" BOOKS -->
+  <string name="spoken_emoji_1F4DA">"Amabhuku"</string>
+  <!-- Spoken description for Unicode code point U+1F4DB: "📛" NAME BADGE -->
+  <string name="spoken_emoji_1F4DB">"Ibheji legama"</string>
+  <!-- Spoken description for Unicode code point U+1F4DC: "📜" SCROLL -->
+  <string name="spoken_emoji_1F4DC">"Phenya"</string>
+  <!-- Spoken description for Unicode code point U+1F4DD: "📝" MEMO -->
+  <string name="spoken_emoji_1F4DD">"Imemo"</string>
+  <!-- Spoken description for Unicode code point U+1F4DE: "📞" TELEPHONE RECEIVER -->
+  <string name="spoken_emoji_1F4DE">"Isamukeli socingo"</string>
+  <!-- Spoken description for Unicode code point U+1F4DF: "📟" PAGER -->
+  <string name="spoken_emoji_1F4DF">"Ipheyi"</string>
+  <!-- Spoken description for Unicode code point U+1F4E0: "📠" FAX MACHINE -->
+  <string name="spoken_emoji_1F4E0">"Umshini wefeksi"</string>
+  <!-- Spoken description for Unicode code point U+1F4E1: "📡" SATELLITE ANTENNA -->
+  <string name="spoken_emoji_1F4E1">"I-Antenna yesethalaythi"</string>
+  <!-- Spoken description for Unicode code point U+1F4E2: "📢" PUBLIC ADDRESS LOUDSPEAKER -->
+  <string name="spoken_emoji_1F4E2">"Isandisizwi sekheli elisesidlangalaleni"</string>
+  <!-- Spoken description for Unicode code point U+1F4E3: "📣" CHEERING MEGAPHONE -->
+  <string name="spoken_emoji_1F4E3">"I-Megaphone yenjabulo"</string>
+  <!-- Spoken description for Unicode code point U+1F4E4: "📤" OUTBOX TRAY -->
+  <string name="spoken_emoji_1F4E4">"Itreyi lokuphumayo"</string>
+  <!-- Spoken description for Unicode code point U+1F4E5: "📥" INBOX TRAY -->
+  <string name="spoken_emoji_1F4E5">"Itreyi lebhokisi lokungenayo"</string>
+  <!-- Spoken description for Unicode code point U+1F4E6: "📦" PACKAGE -->
+  <string name="spoken_emoji_1F4E6">"Iphakeji"</string>
+  <!-- Spoken description for Unicode code point U+1F4E7: "📧" E-MAIL SYMBOL -->
+  <string name="spoken_emoji_1F4E7">"Uphawu lwe-imeyili"</string>
+  <!-- Spoken description for Unicode code point U+1F4E8: "📨" INCOMING ENVELOPE -->
+  <string name="spoken_emoji_1F4E8">"Imvilophi yokungenayo"</string>
+  <!-- Spoken description for Unicode code point U+1F4E9: "📩" ENVELOPE WITH DOWNWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F4E9">"Imvilophi engenhla enomcibisholo obheke phansi"</string>
+  <!-- Spoken description for Unicode code point U+1F4EA: "📪" CLOSED MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4EA">"Ibhokisi lemeyili elivaliwe elinefulegi eyehlisiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4EB: "📫" CLOSED MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EB">"Ibhokisi lemeyili elivaliwe elinefulegi ekhushuliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4EC: "📬" OPEN MAILBOX WITH RAISED FLAG -->
+  <string name="spoken_emoji_1F4EC">"Vula ibhokisi lemeyili elinefulegi ekhushuliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4ED: "📭" OPEN MAILBOX WITH LOWERED FLAG -->
+  <string name="spoken_emoji_1F4ED">"Vula ibhokisi lemeyili elinefulegi eyehlisiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4EE: "📮" POSTBOX -->
+  <string name="spoken_emoji_1F4EE">"Isigxobo seposi"</string>
+  <!-- Spoken description for Unicode code point U+1F4EF: "📯" POSTAL HORN -->
+  <string name="spoken_emoji_1F4EF">"Uphondo lweposi"</string>
+  <!-- Spoken description for Unicode code point U+1F4F0: "📰" NEWSPAPER -->
+  <string name="spoken_emoji_1F4F0">"Iphephandaba"</string>
+  <!-- Spoken description for Unicode code point U+1F4F1: "📱" MOBILE PHONE -->
+  <string name="spoken_emoji_1F4F1">"Iselula"</string>
+  <!-- Spoken description for Unicode code point U+1F4F2: "📲" MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT -->
+  <string name="spoken_emoji_1F4F2">"Iselula yomcibisholo wokwesokudla ngakwesokunxele"</string>
+  <!-- Spoken description for Unicode code point U+1F4F3: "📳" VIBRATION MODE -->
+  <string name="spoken_emoji_1F4F3">"Imodi yokudlidliza"</string>
+  <!-- Spoken description for Unicode code point U+1F4F4: "📴" MOBILE PHONE OFF -->
+  <string name="spoken_emoji_1F4F4">"Iselula icishiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F4F5: "📵" NO MOBILE PHONES -->
+  <string name="spoken_emoji_1F4F5">"Awekho amaselula"</string>
+  <!-- Spoken description for Unicode code point U+1F4F6: "📶" ANTENNA WITH BARS -->
+  <string name="spoken_emoji_1F4F6">"I-Antenna enamabha"</string>
+  <!-- Spoken description for Unicode code point U+1F4F7: "📷" CAMERA -->
+  <string name="spoken_emoji_1F4F7">"Ikhamela"</string>
+  <!-- Spoken description for Unicode code point U+1F4F9: "📹" VIDEO CAMERA -->
+  <string name="spoken_emoji_1F4F9">"Ikhamela yevidiyo"</string>
+  <!-- Spoken description for Unicode code point U+1F4FA: "📺" TELEVISION -->
+  <string name="spoken_emoji_1F4FA">"Umabonakude"</string>
+  <!-- Spoken description for Unicode code point U+1F4FB: "📻" RADIO -->
+  <string name="spoken_emoji_1F4FB">"Irediyo"</string>
+  <!-- Spoken description for Unicode code point U+1F4FC: "📼" VIDEOCASSETTE -->
+  <string name="spoken_emoji_1F4FC">"Ikhasethi yevidiyo"</string>
+  <!-- Spoken description for Unicode code point U+1F500: "🔀" TWISTED RIGHTWARDS ARROWS -->
+  <string name="spoken_emoji_1F500">"Imicibisholo ejikiswe ngakwesokudla"</string>
+  <!-- Spoken description for Unicode code point U+1F501: "🔁" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F501">"Imicibisholo yendilinga evulwe ngakwesokudla nangakwesokunxele"</string>
+  <!-- Spoken description for Unicode code point U+1F502: "🔂" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY -->
+  <string name="spoken_emoji_1F502">"Imicibisholo yendilinga evulwe ngakwesokudla nangakwesokunxele enombondela eyodwa ezungezile"</string>
+  <!-- Spoken description for Unicode code point U+1F503: "🔃" CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F503">"Imicibisholo yendilinga evulwe ngezansi nangaphezulu ehamba njengewashi"</string>
+  <!-- Spoken description for Unicode code point U+1F504: "🔄" ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+  <string name="spoken_emoji_1F504">"Imicibisholo yendilinga evulwe ngezansi nangaphezulu ehamba ngokuphambene newashi"</string>
+  <!-- Spoken description for Unicode code point U+1F505: "🔅" LOW BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F505">"Uphawu lokukhanya okuphansi"</string>
+  <!-- Spoken description for Unicode code point U+1F506: "🔆" HIGH BRIGHTNESS SYMBOL -->
+  <string name="spoken_emoji_1F506">"Uphawu lokukhanya okuphezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F507: "🔇" SPEAKER WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F507">"Isipikha esinomudwa wokukhansela"</string>
+  <!-- Spoken description for Unicode code point U+1F508: "🔈" SPEAKER -->
+  <string name="spoken_emoji_1F508">"Isipikha"</string>
+  <!-- Spoken description for Unicode code point U+1F509: "🔉" SPEAKER WITH ONE SOUND WAVE -->
+  <string name="spoken_emoji_1F509">"Isipikha esinegagasi lomsindo elilodwa"</string>
+  <!-- Spoken description for Unicode code point U+1F50A: "🔊" SPEAKER WITH THREE SOUND WAVES -->
+  <string name="spoken_emoji_1F50A">"Isipikha esinamagagasi omsindo amathathu"</string>
+  <!-- Spoken description for Unicode code point U+1F50B: "🔋" BATTERY -->
+  <string name="spoken_emoji_1F50B">"Ibhethri"</string>
+  <!-- Spoken description for Unicode code point U+1F50C: "🔌" ELECTRIC PLUG -->
+  <string name="spoken_emoji_1F50C">"Ipulagi kagesi"</string>
+  <!-- Spoken description for Unicode code point U+1F50D: "🔍" LEFT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50D">"Isibonisakhulu esikhombe ngakwesokunxele"</string>
+  <!-- Spoken description for Unicode code point U+1F50E: "🔎" RIGHT-POINTING MAGNIFYING GLASS -->
+  <string name="spoken_emoji_1F50E">"Isibonisakhulu esikhombe ngakwesokudla"</string>
+  <!-- Spoken description for Unicode code point U+1F50F: "🔏" LOCK WITH INK PEN -->
+  <string name="spoken_emoji_1F50F">"Khiya ngepeni loyinki"</string>
+  <!-- Spoken description for Unicode code point U+1F510: "🔐" CLOSED LOCK WITH KEY -->
+  <string name="spoken_emoji_1F510">"Ilokhi evalwe ngokhiye"</string>
+  <!-- Spoken description for Unicode code point U+1F511: "🔑" KEY -->
+  <string name="spoken_emoji_1F511">"Ukhiye"</string>
+  <!-- Spoken description for Unicode code point U+1F512: "🔒" LOCK -->
+  <string name="spoken_emoji_1F512">"Khiya"</string>
+  <!-- Spoken description for Unicode code point U+1F513: "🔓" OPEN LOCK -->
+  <string name="spoken_emoji_1F513">"Vula ilokhi"</string>
+  <!-- Spoken description for Unicode code point U+1F514: "🔔" BELL -->
+  <string name="spoken_emoji_1F514">"Isikhalisi"</string>
+  <!-- Spoken description for Unicode code point U+1F515: "🔕" BELL WITH CANCELLATION STROKE -->
+  <string name="spoken_emoji_1F515">"Isikhalisi esinomudwa wokukhansela"</string>
+  <!-- Spoken description for Unicode code point U+1F516: "🔖" BOOKMARK -->
+  <string name="spoken_emoji_1F516">"Ibhukhimakhi"</string>
+  <!-- Spoken description for Unicode code point U+1F517: "🔗" LINK SYMBOL -->
+  <string name="spoken_emoji_1F517">"Isixhumanisi sophawu"</string>
+  <!-- Spoken description for Unicode code point U+1F518: "🔘" RADIO BUTTON -->
+  <string name="spoken_emoji_1F518">"Inkinobho yerediyo"</string>
+  <!-- Spoken description for Unicode code point U+1F519: "🔙" BACK WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F519">"Ngemuva ngomcibisholo ongakwesokunxele ngenhla"</string>
+  <!-- Spoken description for Unicode code point U+1F51A: "🔚" END WITH LEFTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51A">"Phetha ngomcibisholo ongakwesokunxele ngenhla"</string>
+  <!-- Spoken description for Unicode code point U+1F51B: "🔛" ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE -->
+  <string name="spoken_emoji_1F51B">"Kuvulwe ngesibabazo esinomcibisholo ongakwesokunxele nesokudla ngenhla"</string>
+  <!-- Spoken description for Unicode code point U+1F51C: "🔜" SOON WITH RIGHTWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51C">"Maduze ngomcibisholo ongakwesokudla ngenhla"</string>
+  <!-- Spoken description for Unicode code point U+1F51D: "🔝" TOP WITH UPWARDS ARROW ABOVE -->
+  <string name="spoken_emoji_1F51D">"Ngaphezulu ngomcibisholo opheke phezulu ngenhla"</string>
+  <!-- Spoken description for Unicode code point U+1F51E: "🔞" NO ONE UNDER EIGHTEEN SYMBOL -->
+  <string name="spoken_emoji_1F51E">"Akekho ongaphansi kophawu leshumi nesishiyagalombili"</string>
+  <!-- Spoken description for Unicode code point U+1F51F: "🔟" KEYCAP TEN -->
+  <string name="spoken_emoji_1F51F">"I-Keycap yeshumi"</string>
+  <!-- Spoken description for Unicode code point U+1F520: "🔠" INPUT SYMBOL FOR LATIN CAPITAL LETTERS -->
+  <string name="spoken_emoji_1F520">"Uphawu lokokufaka lamagama ofeleba be-latin"</string>
+  <!-- Spoken description for Unicode code point U+1F521: "🔡" INPUT SYMBOL FOR LATIN SMALL LETTERS -->
+  <string name="spoken_emoji_1F521">"Uphawu lokokufaka lamagama amancane e-latin"</string>
+  <!-- Spoken description for Unicode code point U+1F522: "🔢" INPUT SYMBOL FOR NUMBERS -->
+  <string name="spoken_emoji_1F522">"Uphawu lokokufaka lezinombolo"</string>
+  <!-- Spoken description for Unicode code point U+1F523: "🔣" INPUT SYMBOL FOR SYMBOLS -->
+  <string name="spoken_emoji_1F523">"Uphawu lokokufaka lezimpawu"</string>
+  <!-- Spoken description for Unicode code point U+1F524: "🔤" INPUT SYMBOL FOR LATIN LETTERS -->
+  <string name="spoken_emoji_1F524">"Uphawu lokokufaka lamagama e-latin"</string>
+  <!-- Spoken description for Unicode code point U+1F525: "🔥" FIRE -->
+  <string name="spoken_emoji_1F525">"Umlilo"</string>
+  <!-- Spoken description for Unicode code point U+1F526: "🔦" ELECTRIC TORCH -->
+  <string name="spoken_emoji_1F526">"Ithoshi logesi"</string>
+  <!-- Spoken description for Unicode code point U+1F527: "🔧" WRENCH -->
+  <string name="spoken_emoji_1F527">"Ukudonsa"</string>
+  <!-- Spoken description for Unicode code point U+1F528: "🔨" HAMMER -->
+  <string name="spoken_emoji_1F528">"Isando"</string>
+  <!-- Spoken description for Unicode code point U+1F529: "🔩" NUT AND BOLT -->
+  <string name="spoken_emoji_1F529">"Insinjana nomshudo"</string>
+  <!-- Spoken description for Unicode code point U+1F52A: "🔪" HOCHO -->
+  <string name="spoken_emoji_1F52A">"I-Hocho"</string>
+  <!-- Spoken description for Unicode code point U+1F52B: "🔫" PISTOL -->
+  <string name="spoken_emoji_1F52B">"Iphistoli"</string>
+  <!-- Spoken description for Unicode code point U+1F52C: "🔬" MICROSCOPE -->
+  <string name="spoken_emoji_1F52C">"Isibonakhulu"</string>
+  <!-- Spoken description for Unicode code point U+1F52D: "🔭" TELESCOPE -->
+  <string name="spoken_emoji_1F52D">"Isibonakude"</string>
+  <!-- Spoken description for Unicode code point U+1F52E: "🔮" CRYSTAL BALL -->
+  <string name="spoken_emoji_1F52E">"Ibhola le-Crystal"</string>
+  <!-- Spoken description for Unicode code point U+1F52F: "🔯" SIX POINTED STAR WITH MIDDLE DOT -->
+  <string name="spoken_emoji_1F52F">"Inkanyezi enamaphoyinti ayisithupha nechashazi eliphakathi nendawo"</string>
+  <!-- Spoken description for Unicode code point U+1F530: "🔰" JAPANESE SYMBOL FOR BEGINNER -->
+  <string name="spoken_emoji_1F530">"Uphawu lesi-Japanese lomqali"</string>
+  <!-- Spoken description for Unicode code point U+1F531: "🔱" TRIDENT EMBLEM -->
+  <string name="spoken_emoji_1F531">"Isibonakaliso se-Trident"</string>
+  <!-- Spoken description for Unicode code point U+1F532: "🔲" BLACK SQUARE BUTTON -->
+  <string name="spoken_emoji_1F532">"Inkinobho emnyama eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F533: "🔳" WHITE SQUARE BUTTON -->
+  <string name="spoken_emoji_1F533">"Inkinobho emhlophe eyisikwele"</string>
+  <!-- Spoken description for Unicode code point U+1F534: "🔴" LARGE RED CIRCLE -->
+  <string name="spoken_emoji_1F534">"Isiyingi esikhulu esibomvu"</string>
+  <!-- Spoken description for Unicode code point U+1F535: "🔵" LARGE BLUE CIRCLE -->
+  <string name="spoken_emoji_1F535">"Isiyingi esikhulu esiluhlaza okwesibhakabhaka"</string>
+  <!-- Spoken description for Unicode code point U+1F536: "🔶" LARGE ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F536">"Idayimane enkulu esawolintshi"</string>
+  <!-- Spoken description for Unicode code point U+1F537: "🔷" LARGE BLUE DIAMOND -->
+  <string name="spoken_emoji_1F537">"Idayimane elikhulu eliluhlaza okwesibhakabhaka"</string>
+  <!-- Spoken description for Unicode code point U+1F538: "🔸" SMALL ORANGE DIAMOND -->
+  <string name="spoken_emoji_1F538">"Idayimane elincane elisawolintshi"</string>
+  <!-- Spoken description for Unicode code point U+1F539: "🔹" SMALL BLUE DIAMOND -->
+  <string name="spoken_emoji_1F539">"Idayimane elincane eliluhlaza okwesibhakabhaka"</string>
+  <!-- Spoken description for Unicode code point U+1F53A: "🔺" UP-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53A">"Unxande obomvu obheke phezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F53B: "🔻" DOWN-POINTING RED TRIANGLE -->
+  <string name="spoken_emoji_1F53B">"Unxande obomvu obheke phansi"</string>
+  <!-- Spoken description for Unicode code point U+1F53C: "🔼" UP-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53C">"Unxande omncane obomvu obheke phezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F53D: "🔽" DOWN-POINTING SMALL RED TRIANGLE -->
+  <string name="spoken_emoji_1F53D">"Unxande omncane obomvu obheke phansi"</string>
+  <!-- Spoken description for Unicode code point U+1F550: "🕐" CLOCK FACE ONE OCLOCK -->
+  <string name="spoken_emoji_1F550">"Ubuso bewashi lehora lokuqala ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F551: "🕑" CLOCK FACE TWO OCLOCK -->
+  <string name="spoken_emoji_1F551">"Ubuso bewashi lehora lesibili ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F552: "🕒" CLOCK FACE THREE OCLOCK -->
+  <string name="spoken_emoji_1F552">"Ubuso bewashi lehora lesithathu ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F553: "🕓" CLOCK FACE FOUR OCLOCK -->
+  <string name="spoken_emoji_1F553">"Ubuso bewashi lehora lesine ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F554: "🕔" CLOCK FACE FIVE OCLOCK -->
+  <string name="spoken_emoji_1F554">"Ubuso bewashi lehora lesithathu ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F555: "🕕" CLOCK FACE SIX OCLOCK -->
+  <string name="spoken_emoji_1F555">"Ubuso bewashi lehora lesithupha ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F556: "🕖" CLOCK FACE SEVEN OCLOCK -->
+  <string name="spoken_emoji_1F556">"Ubuso bewashi lehora lesikhombisa ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F557: "🕗" CLOCK FACE EIGHT OCLOCK -->
+  <string name="spoken_emoji_1F557">"Ubuso bewashi lehora lesishiyagalombili ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F558: "🕘" CLOCK FACE NINE OCLOCK -->
+  <string name="spoken_emoji_1F558">"Ubuso bewashi lehora lesishiyagalolunye ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F559: "🕙" CLOCK FACE TEN OCLOCK -->
+  <string name="spoken_emoji_1F559">"Ubuso bewashi lehora leshumi ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F55A: "🕚" CLOCK FACE ELEVEN OCLOCK -->
+  <string name="spoken_emoji_1F55A">"Ubuso bewashi lehora leshumi nanye ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F55B: "🕛" CLOCK FACE TWELVE OCLOCK -->
+  <string name="spoken_emoji_1F55B">"Ubuso bewashi lehora leshumi nambili ezimpondweni"</string>
+  <!-- Spoken description for Unicode code point U+1F55C: "🕜" CLOCK FACE ONE-THIRTY -->
+  <string name="spoken_emoji_1F55C">"Ubuso bewashi bamashumi amathathu nanye"</string>
+  <!-- Spoken description for Unicode code point U+1F55D: "🕝" CLOCK FACE TWO-THIRTY -->
+  <string name="spoken_emoji_1F55D">"Ubuso bewashi bamashumi amathathu nambili"</string>
+  <!-- Spoken description for Unicode code point U+1F55E: "🕞" CLOCK FACE THREE-THIRTY -->
+  <string name="spoken_emoji_1F55E">"Ubuso bewashi bamashumi amathathu nantathu"</string>
+  <!-- Spoken description for Unicode code point U+1F55F: "🕟" CLOCK FACE FOUR-THIRTY -->
+  <string name="spoken_emoji_1F55F">"Ubuso bewashi bamashumi amathathu nane"</string>
+  <!-- Spoken description for Unicode code point U+1F560: "🕠" CLOCK FACE FIVE-THIRTY -->
+  <string name="spoken_emoji_1F560">"Ubuso bewashi bamashumi amathathu nanhlanu"</string>
+  <!-- Spoken description for Unicode code point U+1F561: "🕡" CLOCK FACE SIX-THIRTY -->
+  <string name="spoken_emoji_1F561">"Ubuso bewashi bamashumi amathathu nesithupha"</string>
+  <!-- Spoken description for Unicode code point U+1F562: "🕢" CLOCK FACE SEVEN-THIRTY -->
+  <string name="spoken_emoji_1F562">"Ubuso bewashi bamashumi amathathu nesikhombisa"</string>
+  <!-- Spoken description for Unicode code point U+1F563: "🕣" CLOCK FACE EIGHT-THIRTY -->
+  <string name="spoken_emoji_1F563">"Ubuso bewashi bamashumi amathathu nesishiyagalombili"</string>
+  <!-- Spoken description for Unicode code point U+1F564: "🕤" CLOCK FACE NINE-THIRTY -->
+  <string name="spoken_emoji_1F564">"Ubuso bewashi bamashumi amathathu nesishiyagalolunye"</string>
+  <!-- Spoken description for Unicode code point U+1F565: "🕥" CLOCK FACE TEN-THIRTY -->
+  <string name="spoken_emoji_1F565">"Ubuso bewashi bamashumi amathathu neshumi"</string>
+  <!-- Spoken description for Unicode code point U+1F566: "🕦" CLOCK FACE ELEVEN-THIRTY -->
+  <string name="spoken_emoji_1F566">"Ubuso bewashi bamashumi amathathu neshumi nanye"</string>
+  <!-- Spoken description for Unicode code point U+1F567: "🕧" CLOCK FACE TWELVE-THIRTY -->
+  <string name="spoken_emoji_1F567">"Ubuso bewashi bamashumi amathathu neshumi nambili"</string>
+  <!-- Spoken description for Unicode code point U+1F5FB: "🗻" MOUNT FUJI -->
+  <string name="spoken_emoji_1F5FB">"I-Mount fuji"</string>
+  <!-- Spoken description for Unicode code point U+1F5FC: "🗼" TOKYO TOWER -->
+  <string name="spoken_emoji_1F5FC">"Inqaba yase-Tokyo"</string>
+  <!-- Spoken description for Unicode code point U+1F5FD: "🗽" STATUE OF LIBERTY -->
+  <string name="spoken_emoji_1F5FD">"Isithombe senkululeko"</string>
+  <!-- Spoken description for Unicode code point U+1F5FE: "🗾" SILHOUETTE OF JAPAN -->
+  <string name="spoken_emoji_1F5FE">"I-Silhouette yase-japan"</string>
+  <!-- Spoken description for Unicode code point U+1F5FF: "🗿" MOYAI -->
+  <string name="spoken_emoji_1F5FF">"I-Moyai"</string>
+  <!-- Spoken description for Unicode code point U+1F600: "😀" GRINNING FACE -->
+  <string name="spoken_emoji_1F600">"Ubuso obuhlinile"</string>
+  <!-- Spoken description for Unicode code point U+1F601: "😁" GRINNING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F601">"Ubuso obuhlinile namehlo amomothekayo"</string>
+  <!-- Spoken description for Unicode code point U+1F602: "😂" FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F602">"Ubuso obunezinyembezi zenjabulo"</string>
+  <!-- Spoken description for Unicode code point U+1F603: "😃" SMILING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F603">"Ubuso obumomothekayo nomlomo ovuliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F604: "😄" SMILING FACE WITH OPEN MOUTH AND SMILING EYES -->
+  <string name="spoken_emoji_1F604">"Ubuso obumomothekayo nomlomo ovuliwe namehlo amomothekyo"</string>
+  <!-- Spoken description for Unicode code point U+1F605: "😅" SMILING FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F605">"Ubuso obumomothekayo nomlomo ovulekile nomjuluko obandayo"</string>
+  <!-- Spoken description for Unicode code point U+1F606: "😆" SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F606">"Ubuso obumomothekayo nomlomo ovulekile namehlo avalwe kakhulu"</string>
+  <!-- Spoken description for Unicode code point U+1F607: "😇" SMILING FACE WITH HALO -->
+  <string name="spoken_emoji_1F607">"Umlomo obumomothekayo obingelelayo"</string>
+  <!-- Spoken description for Unicode code point U+1F608: "😈" SMILING FACE WITH HORNS -->
+  <string name="spoken_emoji_1F608">"Ubuso obumomothekayo obunezimpondo"</string>
+  <!-- Spoken description for Unicode code point U+1F609: "😉" WINKING FACE -->
+  <string name="spoken_emoji_1F609">"Ubuso obucimezayo"</string>
+  <!-- Spoken description for Unicode code point U+1F60A: "😊" SMILING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F60A">"Ubuso obumomothekayo namehlo amomothekayo"</string>
+  <!-- Spoken description for Unicode code point U+1F60B: "😋" FACE SAVOURING DELICIOUS FOOD -->
+  <string name="spoken_emoji_1F60B">"Ubuso obujabulela ukudla okumnandi"</string>
+  <!-- Spoken description for Unicode code point U+1F60C: "😌" RELIEVED FACE -->
+  <string name="spoken_emoji_1F60C">"Ubuso obukhululekile"</string>
+  <!-- Spoken description for Unicode code point U+1F60D: "😍" SMILING FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F60D">"Ubuso obumomothekayo namehla amise okwenhliziyo"</string>
+  <!-- Spoken description for Unicode code point U+1F60E: "😎" SMILING FACE WITH SUNGLASSES -->
+  <string name="spoken_emoji_1F60E">"Ubuso obumomothekayo nezibuko zelanga"</string>
+  <!-- Spoken description for Unicode code point U+1F60F: "😏" SMIRKING FACE -->
+  <string name="spoken_emoji_1F60F">"Ubuso obusinekayo"</string>
+  <!-- Spoken description for Unicode code point U+1F610: "😐" NEUTRAL FACE -->
+  <string name="spoken_emoji_1F610">"Ubuso obungathathi hlangothi"</string>
+  <!-- Spoken description for Unicode code point U+1F611: "😑" EXPRESSIONLESS FACE -->
+  <string name="spoken_emoji_1F611">"Ubuso obungabonisi mizwa"</string>
+  <!-- Spoken description for Unicode code point U+1F612: "😒" UNAMUSED FACE -->
+  <string name="spoken_emoji_1F612">"Ubuso obungajabulile"</string>
+  <!-- Spoken description for Unicode code point U+1F613: "😓" FACE WITH COLD SWEAT -->
+  <string name="spoken_emoji_1F613">"Ubuso obunomjuluko obondayo"</string>
+  <!-- Spoken description for Unicode code point U+1F614: "😔" PENSIVE FACE -->
+  <string name="spoken_emoji_1F614">"Ubuso obujulayo"</string>
+  <!-- Spoken description for Unicode code point U+1F615: "😕" CONFUSED FACE -->
+  <string name="spoken_emoji_1F615">"Ubuso obudidekile"</string>
+  <!-- Spoken description for Unicode code point U+1F616: "😖" CONFOUNDED FACE -->
+  <string name="spoken_emoji_1F616">"Ubuso bokugcizelela"</string>
+  <!-- Spoken description for Unicode code point U+1F617: "😗" KISSING FACE -->
+  <string name="spoken_emoji_1F617">"Ubuso bokuqabula"</string>
+  <!-- Spoken description for Unicode code point U+1F618: "😘" FACE THROWING A KISS -->
+  <string name="spoken_emoji_1F618">"Ubuso obufutha ukuqabula"</string>
+  <!-- Spoken description for Unicode code point U+1F619: "😙" KISSING FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F619">"Ubuso obuqabulayo namehlo amomothekayo"</string>
+  <!-- Spoken description for Unicode code point U+1F61A: "😚" KISSING FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F61A">"Ubuso obuqabulayo namehlo avaliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F61B: "😛" FACE WITH STUCK-OUT TONGUE -->
+  <string name="spoken_emoji_1F61B">"Ubuso bolimi obukhishwe ngaphandle"</string>
+  <!-- Spoken description for Unicode code point U+1F61C: "😜" FACE WITH STUCK-OUT TONGUE AND WINKING EYE -->
+  <string name="spoken_emoji_1F61C">"Ubuso bolimi olukhishwe ngaphandle nehlo elicwayizayo"</string>
+  <!-- Spoken description for Unicode code point U+1F61D: "😝" FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES -->
+  <string name="spoken_emoji_1F61D">"Ubuso nolimi olukhishwe ngaphandle namehlo avalwe kakhulu"</string>
+  <!-- Spoken description for Unicode code point U+1F61E: "😞" DISAPPOINTED FACE -->
+  <string name="spoken_emoji_1F61E">"Ubuso obudumele"</string>
+  <!-- Spoken description for Unicode code point U+1F61F: "😟" WORRIED FACE -->
+  <string name="spoken_emoji_1F61F">"Ubuso obukhathazekile"</string>
+  <!-- Spoken description for Unicode code point U+1F620: "😠" ANGRY FACE -->
+  <string name="spoken_emoji_1F620">"Ubuso obucasukile"</string>
+  <!-- Spoken description for Unicode code point U+1F621: "😡" POUTING FACE -->
+  <string name="spoken_emoji_1F621">"Ubuso bomlomo ophukuliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F622: "😢" CRYING FACE -->
+  <string name="spoken_emoji_1F622">"Ubuso obukhalayo"</string>
+  <!-- Spoken description for Unicode code point U+1F623: "😣" PERSEVERING FACE -->
+  <string name="spoken_emoji_1F623">"Ubuso obubekezelayo"</string>
+  <!-- Spoken description for Unicode code point U+1F624: "😤" FACE WITH LOOK OF TRIUMPH -->
+  <string name="spoken_emoji_1F624">"Ubuso bokunqoba"</string>
+  <!-- Spoken description for Unicode code point U+1F625: "😥" DISAPPOINTED BUT RELIEVED FACE -->
+  <string name="spoken_emoji_1F625">"Ubuso obuphoxekile kodwa obukhululekile"</string>
+  <!-- Spoken description for Unicode code point U+1F626: "😦" FROWNING FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F626">"Ubuso obuhlinayo nomlomo ovuliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F627: "😧" ANGUISHED FACE -->
+  <string name="spoken_emoji_1F627">"Ubuso obukhathazekile"</string>
+  <!-- Spoken description for Unicode code point U+1F628: "😨" FEARFUL FACE -->
+  <string name="spoken_emoji_1F628">"Ubuso obethukile"</string>
+  <!-- Spoken description for Unicode code point U+1F629: "😩" WEARY FACE -->
+  <string name="spoken_emoji_1F629">"Ubuso obukhathele"</string>
+  <!-- Spoken description for Unicode code point U+1F62A: "😪" SLEEPY FACE -->
+  <string name="spoken_emoji_1F62A">"Ubuso obuzelayo"</string>
+  <!-- Spoken description for Unicode code point U+1F62B: "😫" TIRED FACE -->
+  <string name="spoken_emoji_1F62B">"Ubuso obukhathele"</string>
+  <!-- Spoken description for Unicode code point U+1F62C: "😬" GRIMACING FACE -->
+  <string name="spoken_emoji_1F62C">"Ubuso obuhlinayo"</string>
+  <!-- Spoken description for Unicode code point U+1F62D: "😭" LOUDLY CRYING FACE -->
+  <string name="spoken_emoji_1F62D">"Ubuso obukhalela phezulu"</string>
+  <!-- Spoken description for Unicode code point U+1F62E: "😮" FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F62E">"Ubuso bomlomo ovulekile"</string>
+  <!-- Spoken description for Unicode code point U+1F62F: "😯" HUSHED FACE -->
+  <string name="spoken_emoji_1F62F">"Ubuso obugcwele usizi"</string>
+  <!-- Spoken description for Unicode code point U+1F630: "😰" FACE WITH OPEN MOUTH AND COLD SWEAT -->
+  <string name="spoken_emoji_1F630">"Ubuso bomlomo ovulekile nomjuluko obandayo"</string>
+  <!-- Spoken description for Unicode code point U+1F631: "😱" FACE SCREAMING IN FEAR -->
+  <string name="spoken_emoji_1F631">"Ubuso obumemezayo ngenxa yokwesaba"</string>
+  <!-- Spoken description for Unicode code point U+1F632: "😲" ASTONISHED FACE -->
+  <string name="spoken_emoji_1F632">"Ubuso obumangele"</string>
+  <!-- Spoken description for Unicode code point U+1F633: "😳" FLUSHED FACE -->
+  <string name="spoken_emoji_1F633">"Ubuso obucobekile"</string>
+  <!-- Spoken description for Unicode code point U+1F634: "😴" SLEEPING FACE -->
+  <string name="spoken_emoji_1F634">"Ubuso obulele"</string>
+  <!-- Spoken description for Unicode code point U+1F635: "😵" DIZZY FACE -->
+  <string name="spoken_emoji_1F635">"Ubuso obunesiyezi"</string>
+  <!-- Spoken description for Unicode code point U+1F636: "😶" FACE WITHOUT MOUTH -->
+  <string name="spoken_emoji_1F636">"Ubuso obungenawo umlomo"</string>
+  <!-- Spoken description for Unicode code point U+1F637: "😷" FACE WITH MEDICAL MASK -->
+  <string name="spoken_emoji_1F637">"Ubuso obunesembozo sezempilo"</string>
+  <!-- Spoken description for Unicode code point U+1F638: "😸" GRINNING CAT FACE WITH SMILING EYES -->
+  <string name="spoken_emoji_1F638">"Ubuso bekati elihlinile namehlo amomothekayo"</string>
+  <!-- Spoken description for Unicode code point U+1F639: "😹" CAT FACE WITH TEARS OF JOY -->
+  <string name="spoken_emoji_1F639">"Ubuso bekati nezinyembezi zenjabulo"</string>
+  <!-- Spoken description for Unicode code point U+1F63A: "😺" SMILING CAT FACE WITH OPEN MOUTH -->
+  <string name="spoken_emoji_1F63A">"Ubuso bekati nomlomo ovulekile"</string>
+  <!-- Spoken description for Unicode code point U+1F63B: "😻" SMILING CAT FACE WITH HEART-SHAPED EYES -->
+  <string name="spoken_emoji_1F63B">"Ubuso bekati obumomothekayo namehlo amise okwenhliziyo"</string>
+  <!-- Spoken description for Unicode code point U+1F63C: "😼" CAT FACE WITH WRY SMILE -->
+  <string name="spoken_emoji_1F63C">"Ubuso bekati nokumomotheka obubhuqayo"</string>
+  <!-- Spoken description for Unicode code point U+1F63D: "😽" KISSING CAT FACE WITH CLOSED EYES -->
+  <string name="spoken_emoji_1F63D">"Ubuso bekati bokuqabula namehlo avaliwe"</string>
+  <!-- Spoken description for Unicode code point U+1F63E: "😾" POUTING CAT FACE -->
+  <string name="spoken_emoji_1F63E">"Ubuso bekati bokuphukula"</string>
+  <!-- Spoken description for Unicode code point U+1F63F: "😿" CRYING CAT FACE -->
+  <string name="spoken_emoji_1F63F">"Ubuso bekati obukhalayo"</string>
+  <!-- Spoken description for Unicode code point U+1F640: "🙀" WEARY CAT FACE -->
+  <string name="spoken_emoji_1F640">"Ubuso bekati obukhathele"</string>
+  <!-- Spoken description for Unicode code point U+1F645: "🙅" FACE WITH NO GOOD GESTURE -->
+  <string name="spoken_emoji_1F645">"Ubuso obungenaso isenzo esihle"</string>
+  <!-- Spoken description for Unicode code point U+1F646: "🙆" FACE WITH OK GESTURE -->
+  <string name="spoken_emoji_1F646">"Ubuso besenzo esilungile"</string>
+  <!-- Spoken description for Unicode code point U+1F647: "🙇" PERSON BOWING DEEPLY -->
+  <string name="spoken_emoji_1F647">"Umuntu ogobe ngokujulile"</string>
+  <!-- Spoken description for Unicode code point U+1F648: "🙈" SEE-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F648">"Ukungaboni unogwaja omubi"</string>
+  <!-- Spoken description for Unicode code point U+1F649: "🙉" HEAR-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F649">"Ukungezwa unogwaja omubi"</string>
+  <!-- Spoken description for Unicode code point U+1F64A: "🙊" SPEAK-NO-EVIL MONKEY -->
+  <string name="spoken_emoji_1F64A">"Ungakhulumi unogwaja omubi"</string>
+  <!-- Spoken description for Unicode code point U+1F64B: "🙋" HAPPY PERSON RAISING ONE HAND -->
+  <string name="spoken_emoji_1F64B">"Umuntu ojabulile ophakamisa isandla esisodwa"</string>
+  <!-- Spoken description for Unicode code point U+1F64C: "🙌" PERSON RAISING BOTH HANDS IN CELEBRATION -->
+  <string name="spoken_emoji_1F64C">"Umuntu ophakamise izandla ezimbili ngenxa yenjabulo"</string>
+  <!-- Spoken description for Unicode code point U+1F64D: "🙍" PERSON FROWNING -->
+  <string name="spoken_emoji_1F64D">"Umuntu ohlinayo"</string>
+  <!-- Spoken description for Unicode code point U+1F64E: "🙎" PERSON WITH POUTING FACE -->
+  <string name="spoken_emoji_1F64E">"Umuntu onobuso obuphukulayo"</string>
+  <!-- Spoken description for Unicode code point U+1F64F: "🙏" PERSON WITH FOLDED HANDS -->
+  <string name="spoken_emoji_1F64F">"Umuntu nezandla ezigoqiwe"</string>
+  <!-- Spoken description for Unicode code point U+1F680: "🚀" ROCKET -->
+  <string name="spoken_emoji_1F680">"Irokhethi"</string>
+  <!-- Spoken description for Unicode code point U+1F681: "🚁" HELICOPTER -->
+  <string name="spoken_emoji_1F681">"Indiza"</string>
+  <!-- Spoken description for Unicode code point U+1F682: "🚂" STEAM LOCOMOTIVE -->
+  <string name="spoken_emoji_1F682">"Intuthu yesitimela"</string>
+  <!-- Spoken description for Unicode code point U+1F683: "🚃" RAILWAY CAR -->
+  <string name="spoken_emoji_1F683">"Imoto yojantshi"</string>
+  <!-- Spoken description for Unicode code point U+1F684: "🚄" HIGH-SPEED TRAIN -->
+  <string name="spoken_emoji_1F684">"Isitimela sejubane elisheshayo"</string>
+  <!-- Spoken description for Unicode code point U+1F685: "🚅" HIGH-SPEED TRAIN WITH BULLET NOSE -->
+  <string name="spoken_emoji_1F685">"Isitimela sejubane elisheshayo nekhala elicijile"</string>
+  <!-- Spoken description for Unicode code point U+1F686: "🚆" TRAIN -->
+  <string name="spoken_emoji_1F686">"Isitimela"</string>
+  <!-- Spoken description for Unicode code point U+1F687: "🚇" METRO -->
+  <string name="spoken_emoji_1F687">"I-Metro"</string>
+  <!-- Spoken description for Unicode code point U+1F688: "🚈" LIGHT RAIL -->
+  <string name="spoken_emoji_1F688">"Ujantshi olula"</string>
+  <!-- Spoken description for Unicode code point U+1F689: "🚉" STATION -->
+  <string name="spoken_emoji_1F689">"Isiteshi"</string>
+  <!-- Spoken description for Unicode code point U+1F68A: "🚊" TRAM -->
+  <string name="spoken_emoji_1F68A">"Ithilamu"</string>
+  <!-- Spoken description for Unicode code point U+1F68B: "🚋" TRAM CAR -->
+  <string name="spoken_emoji_1F68B">"Imoto yethilamu"</string>
+  <!-- Spoken description for Unicode code point U+1F68C: "🚌" BUS -->
+  <string name="spoken_emoji_1F68C">"Ibhasi"</string>
+  <!-- Spoken description for Unicode code point U+1F68D: "🚍" ONCOMING BUS -->
+  <string name="spoken_emoji_1F68D">"Ibhasi ezayo"</string>
+  <!-- Spoken description for Unicode code point U+1F68E: "🚎" TROLLEYBUS -->
+  <string name="spoken_emoji_1F68E">"Ibhasi yenqola"</string>
+  <!-- Spoken description for Unicode code point U+1F68F: "🚏" BUS STOP -->
+  <string name="spoken_emoji_1F68F">"Isitobhi sebhasi"</string>
+  <!-- Spoken description for Unicode code point U+1F690: "🚐" MINIBUS -->
+  <string name="spoken_emoji_1F690">"Ikhumbi"</string>
+  <!-- Spoken description for Unicode code point U+1F691: "🚑" AMBULANCE -->
+  <string name="spoken_emoji_1F691">"I-Ambulensi"</string>
+  <!-- Spoken description for Unicode code point U+1F692: "🚒" FIRE ENGINE -->
+  <string name="spoken_emoji_1F692">"Injini yomlilo"</string>
+  <!-- Spoken description for Unicode code point U+1F693: "🚓" POLICE CAR -->
+  <string name="spoken_emoji_1F693">"Imoto yamaphoyisa"</string>
+  <!-- Spoken description for Unicode code point U+1F694: "🚔" ONCOMING POLICE CAR -->
+  <string name="spoken_emoji_1F694">"Imoto yamaphoyisa ezayo"</string>
+  <!-- Spoken description for Unicode code point U+1F695: "🚕" TAXI -->
+  <string name="spoken_emoji_1F695">"Itekisi"</string>
+  <!-- Spoken description for Unicode code point U+1F696: "🚖" ONCOMING TAXI -->
+  <string name="spoken_emoji_1F696">"Itekisi ezayo"</string>
+  <!-- Spoken description for Unicode code point U+1F697: "🚗" AUTOMOBILE -->
+  <string name="spoken_emoji_1F697">"Izimoto"</string>
+  <!-- Spoken description for Unicode code point U+1F698: "🚘" ONCOMING AUTOMOBILE -->
+  <string name="spoken_emoji_1F698">"Izimoto ezizayo"</string>
+  <!-- Spoken description for Unicode code point U+1F699: "🚙" RECREATIONAL VEHICLE -->
+  <string name="spoken_emoji_1F699">"Imoto yokuzithokozisa"</string>
+  <!-- Spoken description for Unicode code point U+1F69A: "🚚" DELIVERY TRUCK -->
+  <string name="spoken_emoji_1F69A">"Iloli yokuthumela"</string>
+  <!-- Spoken description for Unicode code point U+1F69B: "🚛" ARTICULATED LORRY -->
+  <string name="spoken_emoji_1F69B">"Iloli enezingxenye ezimbili"</string>
+  <!-- Spoken description for Unicode code point U+1F69C: "🚜" TRACTOR -->
+  <string name="spoken_emoji_1F69C">"Ugandaganda"</string>
+  <!-- Spoken description for Unicode code point U+1F69D: "🚝" MONORAIL -->
+  <string name="spoken_emoji_1F69D">"Ujantshi omncane"</string>
+  <!-- Spoken description for Unicode code point U+1F69E: "🚞" MOUNTAIN RAILWAY -->
+  <string name="spoken_emoji_1F69E">"Ujantshi wasentabeni"</string>
+  <!-- Spoken description for Unicode code point U+1F69F: "🚟" SUSPENSION RAILWAY -->
+  <string name="spoken_emoji_1F69F">"Ukumiswa kojantshi"</string>
+  <!-- Spoken description for Unicode code point U+1F6A0: "🚠" MOUNTAIN CABLEWAY -->
+  <string name="spoken_emoji_1F6A0">"Imoto yekhubula yasentabeni"</string>
+  <!-- Spoken description for Unicode code point U+1F6A1: "🚡" AERIAL TRAMWAY -->
+  <string name="spoken_emoji_1F6A1">"Indlela yethilamu ye-Aerial"</string>
+  <!-- Spoken description for Unicode code point U+1F6A2: "🚢" SHIP -->
+  <string name="spoken_emoji_1F6A2">"Umkhumbi"</string>
+  <!-- Spoken description for Unicode code point U+1F6A3: "🚣" ROWBOAT -->
+  <string name="spoken_emoji_1F6A3">"Isikebhe somdlalo"</string>
+  <!-- Spoken description for Unicode code point U+1F6A4: "🚤" SPEEDBOAT -->
+  <string name="spoken_emoji_1F6A4">"Isikebhe esigijimayo"</string>
+  <!-- Spoken description for Unicode code point U+1F6A5: "🚥" HORIZONTAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A5">"Ilobhothi elivundlile"</string>
+  <!-- Spoken description for Unicode code point U+1F6A6: "🚦" VERTICAL TRAFFIC LIGHT -->
+  <string name="spoken_emoji_1F6A6">"Ilobhothi emile"</string>
+  <!-- Spoken description for Unicode code point U+1F6A7: "🚧" CONSTRUCTION SIGN -->
+  <string name="spoken_emoji_1F6A7">"Uphawu lesakhiwo"</string>
+  <!-- Spoken description for Unicode code point U+1F6A8: "🚨" POLICE CARS REVOLVING LIGHT -->
+  <string name="spoken_emoji_1F6A8">"Izimoto zamaphoyisa ezikhanyisayo"</string>
+  <!-- Spoken description for Unicode code point U+1F6A9: "🚩" TRIANGULAR FLAG ON POST -->
+  <string name="spoken_emoji_1F6A9">"Ifulegi engunxantathu eposini"</string>
+  <!-- Spoken description for Unicode code point U+1F6AA: "🚪" DOOR -->
+  <string name="spoken_emoji_1F6AA">"Umnyango"</string>
+  <!-- Spoken description for Unicode code point U+1F6AB: "🚫" NO ENTRY SIGN -->
+  <string name="spoken_emoji_1F6AB">"Alukho uphawu lokungena"</string>
+  <!-- Spoken description for Unicode code point U+1F6AC: "🚬" SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AC">"Uphawu lokubhema"</string>
+  <!-- Spoken description for Unicode code point U+1F6AD: "🚭" NO SMOKING SYMBOL -->
+  <string name="spoken_emoji_1F6AD">"Uphawu lokungabhemi"</string>
+  <!-- Spoken description for Unicode code point U+1F6AE: "🚮" PUT LITTER IN ITS PLACE SYMBOL -->
+  <string name="spoken_emoji_1F6AE">"Uphawu lokubeka udoti endaweni yawo"</string>
+  <!-- Spoken description for Unicode code point U+1F6AF: "🚯" DO NOT LITTER SYMBOL -->
+  <string name="spoken_emoji_1F6AF">"Uphawu lokungalahleli phansi"</string>
+  <!-- Spoken description for Unicode code point U+1F6B0: "🚰" POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B0">"Uphawu lamanzi aphuzwayo"</string>
+  <!-- Spoken description for Unicode code point U+1F6B1: "🚱" NON-POTABLE WATER SYMBOL -->
+  <string name="spoken_emoji_1F6B1">"Uphawu lamanzi angaphuzwa"</string>
+  <!-- Spoken description for Unicode code point U+1F6B2: "🚲" BICYCLE -->
+  <string name="spoken_emoji_1F6B2">"Ibhayisikili"</string>
+  <!-- Spoken description for Unicode code point U+1F6B3: "🚳" NO BICYCLES -->
+  <string name="spoken_emoji_1F6B3">"Awekho amabhayisikili"</string>
+  <!-- Spoken description for Unicode code point U+1F6B4: "🚴" BICYCLIST -->
+  <string name="spoken_emoji_1F6B4">"Umqhubi webhayisikili"</string>
+  <!-- Spoken description for Unicode code point U+1F6B5: "🚵" MOUNTAIN BICYCLIST -->
+  <string name="spoken_emoji_1F6B5">"Umqhubi webhayisikili entabeni"</string>
+  <!-- Spoken description for Unicode code point U+1F6B6: "🚶" PEDESTRIAN -->
+  <string name="spoken_emoji_1F6B6">"Abahamba ngezinyawo"</string>
+  <!-- Spoken description for Unicode code point U+1F6B7: "🚷" NO PEDESTRIANS -->
+  <string name="spoken_emoji_1F6B7">"Abavumelekile abahamba ngezinyawo"</string>
+  <!-- Spoken description for Unicode code point U+1F6B8: "🚸" CHILDREN CROSSING -->
+  <string name="spoken_emoji_1F6B8">"Indawo yokuhamba izingane"</string>
+  <!-- Spoken description for Unicode code point U+1F6B9: "🚹" MENS SYMBOL -->
+  <string name="spoken_emoji_1F6B9">"Uphawu lamadoda"</string>
+  <!-- Spoken description for Unicode code point U+1F6BA: "🚺" WOMENS SYMBOL -->
+  <string name="spoken_emoji_1F6BA">"Uphawu labesifazane"</string>
+  <!-- Spoken description for Unicode code point U+1F6BB: "🚻" RESTROOM -->
+  <string name="spoken_emoji_1F6BB">"Indawo yangasese"</string>
+  <!-- Spoken description for Unicode code point U+1F6BC: "🚼" BABY SYMBOL -->
+  <string name="spoken_emoji_1F6BC">"Uphawu labantwana"</string>
+  <!-- Spoken description for Unicode code point U+1F6BD: "🚽" TOILET -->
+  <string name="spoken_emoji_1F6BD">"Indlu yangasese"</string>
+  <!-- Spoken description for Unicode code point U+1F6BE: "🚾" WATER CLOSET -->
+  <string name="spoken_emoji_1F6BE">"Ikhosambana lamanzi"</string>
+  <!-- Spoken description for Unicode code point U+1F6BF: "🚿" SHOWER -->
+  <string name="spoken_emoji_1F6BF">"Ishawa"</string>
+  <!-- Spoken description for Unicode code point U+1F6C0: "🛀" BATH -->
+  <string name="spoken_emoji_1F6C0">"Ubhavu"</string>
+  <!-- Spoken description for Unicode code point U+1F6C1: "🛁" BATHTUB -->
+  <string name="spoken_emoji_1F6C1">"Ubhavu"</string>
+  <!-- Spoken description for Unicode code point U+1F6C2: "🛂" PASSPORT CONTROL -->
+  <string name="spoken_emoji_1F6C2">"Ukulawula iphasiphothi"</string>
+  <!-- Spoken description for Unicode code point U+1F6C3: "🛃" CUSTOMS -->
+  <string name="spoken_emoji_1F6C3">"Umnyango wezimpahla"</string>
+  <!-- Spoken description for Unicode code point U+1F6C4: "🛄" BAGGAGE CLAIM -->
+  <string name="spoken_emoji_1F6C4">"Ukulanda umthwalo"</string>
+  <!-- Spoken description for Unicode code point U+1F6C5: "🛅" LEFT LUGGAGE -->
+  <string name="spoken_emoji_1F6C5">"Umthwalo oshiyiwe"</string>
+</resources>

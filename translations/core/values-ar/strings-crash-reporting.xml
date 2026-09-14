@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">تعطلت لوحة مفاتيح فوتو! أرسل تقريرًا لـ (keyboard@futo.org)</string>
+  <string name="crashed_text">تعطلت لوحة مفاتيح FUTO! يرجى إرسال تقرير لمساعدتنا في إصلاح هذه المشكلة.</string>
+  <string name="crashed_title">تقرير التعطلات</string>
+  <string name="crash_report_accept">إرسال التقرير</string>
+  <string name="crash_report_reject">تجاهل</string>
+</resources>

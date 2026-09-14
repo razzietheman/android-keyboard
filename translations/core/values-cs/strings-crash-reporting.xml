@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">Klávesnice FUTO havarovala! Pošlete nám prosím e-mail s hlášením, abychom mohli tuto chybu opravit (keyboard@futo.org)</string>
+  <string name="crashed_text">Klávesnice FUTO havarovala! Pošlete nám prosím hlášení, abychom mohli tuto chybu opravit.</string>
+  <string name="crashed_title">Hlášení o pádu</string>
+  <string name="crash_report_accept">Odeslat hlášení</string>
+  <string name="crash_report_reject">Ignorovat</string>
+</resources>

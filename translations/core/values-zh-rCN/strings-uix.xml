@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">主题切换器</string>
+  <string name="action_select_all_title">选中全部</string>
+  <string name="action_cut_title">剪切到剪切板</string>
+  <string name="action_copy_title">复制到剪切板</string>
+  <string name="action_paste_title">从剪切板粘贴</string>
+  <string name="action_undo_title">撤销</string>
+  <string name="action_redo_title">重做</string>
+  <string name="action_text_editor_title">文本编辑器</string>
+  <string name="action_debug_title">调试信息</string>
+  <string name="action_more_actions_title">所有操作项</string>
+  <string name="action_bug_viewer_title">故障查看器</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">向上箭头</string>
+  <string name="action_cursor_down_title">向下箭头</string>
+  <string name="action_cursor_left_title">向左箭头</string>
+  <string name="action_cursor_right_title">向右箭头</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">表情符号</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">最近</string>
+  <string name="action_emoji_category_smileys_emotion">笑脸和表情</string>
+  <string name="action_emoji_category_people_body">人和身体</string>
+  <string name="action_emoji_category_animals_nature">动物和自然</string>
+  <string name="action_emoji_category_food_drink">食品与饮品</string>
+  <string name="action_emoji_category_travel_places">旅行和地点</string>
+  <string name="action_emoji_category_activities">活动</string>
+  <string name="action_emoji_category_objects">物体</string>
+  <string name="action_emoji_category_symbols">符号</string>
+  <string name="action_emoji_category_flags">旗帜</string>
+  <string name="action_emoji_category_ascii">美国信息交换标准代码</string>
+  <string name="action_emoji_search_no_results_found">未找到结果</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">跳转至<xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">清除最近使用的表情？</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">取消</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">清除</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">清除最近使用的表情</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">搜索</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">语音输入</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">语音输入 (系统)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">没有为<xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>安装语音输入模型，点击查看选项？</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">请打开权限菜单，并授权麦克风使用权限以使用语音输入</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">剪切板管理器</string>
+  <string name="action_clipboard_manager_unpin_item">取消固定项目</string>
+  <string name="action_clipboard_manager_pin_item">固定项目</string>
+  <string name="action_clipboard_manager_remove_item">移除项目</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">请确认删除：\n“%s”</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">取消</string>
+  <string name="action_clipboard_manager_disable_text">这里没有项目可以清除了，要不关闭剪切板记录？</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">关闭</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">这里没有未固定的项目可以清除了，取消固定所有项目？</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">取消固定</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">清除所有未固定的项目？</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">清除</string>
+  <string name="action_clipboard_manager_clear_clipboard">清除剪切板</string>
+  <string name="action_clipboard_manager_error_device_locked_title">设备已锁定</string>
+  <string name="action_clipboard_manager_error_device_locked_text">请解锁你的设备以访问剪切板记录</string>
+  <string name="action_clipboard_manager_error_general_title">剪切板出错</string>
+  <string name="action_clipboard_manager_error_general_text">无法保存或加载剪切板历史记录，可能已经损坏，你可以尝试删除或重启剪切板。请将此问题报告为错误。原因: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">删除剪切板？你会失去所有东西。</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">重试</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">在错误查看器中查看错误</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">删除</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">剪切板记录已停用</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">要保存剪切板项目，你可以启用剪切板记录。此功能将保留最多<xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g>个项目，有效期为<xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g>天 (已固定项目除外)。你可以在设置里进行配置。</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">启用剪切板记录</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">应用不支持插入图片</string>
+  <string name="action_clipboard_manager_settings_title">剪切板管理器设置</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">保留未固定剪切项的时间</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">未固定剪切项的保留数量</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">保存敏感项</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">如果启用此功能，将会保存来自密码管理器、无痕窗口等处的项目</string>
+  <string name="action_clipboard_manager_settings_list_layout">使用垂直列表而非网格布局</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">将固定项置顶</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">在建议栏显示最近复制的内容</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">键盘模式</string>
+  <string name="action_keyboard_modes_go_back">返回</string>
+  <string name="action_keyboard_modes_resize_keyboard">调整键盘大小</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">标准</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">单手</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">分割</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">悬浮</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">重置</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">应用</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">字体样式</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">此应用可能不支持插入图片，这个功能可能不起效。</string>
+  <string name="action_fonttyper_select_a_preset">选择预设</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Scratch</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">超人</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">戏剧文本</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">糖果</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">彩虹</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">地平线</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">片头滚字</string>
+  <string name="action_fonttyper_finish">完成</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">操作键</string>
+  <string name="action_kind_pinned_key">固定操作项</string>
+  <string name="action_kind_favorites">最喜欢的操作项</string>
+  <string name="action_kind_more">更多操作项</string>
+  <string name="action_kind_disabled">隐藏的操作项</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">深色模式</string>
+  <string name="theme_default_light">浅色模式</string>
+  <string name="theme_amoled_dark">AMOLED 深紫色</string>
+  <string name="theme_classic_dark">AOSP Material 深色</string>
+  <string name="theme_classic_light">AOSP Material 浅色</string>
+  <string name="theme_vi">FUTO VI 主题</string>
+  <string name="theme_deepsea_dark">深海深色</string>
+  <string name="theme_deepsea_light">深海浅色</string>
+  <string name="theme_emerald">翡翠</string>
+  <string name="theme_gradient1">梯度 1</string>
+  <string name="theme_gradient2">梯度 2</string>
+  <string name="theme_rainbow">彩虹</string>
+  <string name="theme_snowfall">落雪</string>
+  <string name="theme_steel_gray">钢灰色</string>
+  <string name="theme_sunflower">向日葵</string>
+  <string name="theme_cotton_candy">棉花糖</string>
+  <string name="theme_hotdog">热狗</string>
+  <string name="theme_high_contrast_yellow">高对比度黄色</string>
+  <string name="theme_dev">建筑主题</string>
+  <string name="theme_dynamic_system">动态自动</string>
+  <string name="theme_dynamic_dark">动态深色</string>
+  <string name="theme_dynamic_light">动态浅色</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">更新检查服务</string>
+  <string name="autoupdater_update_available_title">有新更新可用</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">一个更新可用 (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>)。点击下载</string>]]></string>
+  <string name="autoupdater_dismiss_update">无视</string>
+  <string name="autoupdater_perform_update">更新</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[<string name=\\\"keyboard_suggest_blacklist_body\\\">将单词 \\&quot;<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>\\&quot; 加入黑名单，使其不会再被建议？</string>]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">黑名单</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">关闭表情建议</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">阿尔法</string>
+  <string name="keyboard_switch_keyboard">切换键盘</string>
+  <string name="keyboard_language_settings">设置</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">请单击检查更新，或在设置内检查</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">没有己安装的词典，要下载吗？</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">打开操作栏</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">关闭操作栏</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">关闭</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">返回</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">显示键盘</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">关闭</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">折叠</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">支付</string>
+  <string name="payment_screen_title">为FUTO Keyboard支付</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">你已经使用FUTO Keyboard<xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g>天了。若你觉得这个软件十分好用，请考虑通过支付支持FUTO软件的后续开发。</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">感谢你试用FUTO Keyboard！如果你觉得这款软件十分不错，请考虑通过支付支持FUTO软件的后续开发。</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO致力于打造优质软件，绝不侵犯用户权益。本应用绝不会向您展示广告或收集您的个人数据。</string>
+  <string name="payment_screen_sales_point_development_title">可持续开发</string>
+  <string name="payment_screen_sales_point_development_body">FUTO的使命是让开源软件和非恶意软件的商业实践成为项目及其开发者的可持续收入来源。因此，我们支持用户实际为软件付费。</string>
+  <string name="payment_screen_sales_point_privacy_title">对隐私的承诺</string>
+  <string name="payment_screen_sales_point_privacy_body">该应用绝不会向您展示广告或出售您的数据。我们不从事此类业务。</string>
+  <string name="payment_screen_error_build_unsupported_payment">此版本不支持支付功能</string>
+  <string name="payment_screen_already_paid_title">已经支付了？</string>
+  <string name="payment_screen_already_paid_body">如果你已经为FUTO Keyboard或FUTO Voice Input支付，点击下方。</string>
+  <string name="payment_screen_already_paid_button">我已经支付</string>
+  <string name="payment_screen_already_paid_confirmation">确认你的选择</string>
+  <string name="payment_screen_already_paid_confirmation_body">你真的确定你要确认你已付款吗？一旦确认，你将不会收到任何关于支付的请求。</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">我已经付款了</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">取消</string>
+  <string name="payment_screen_set_reminder_title">还没有准备好付款？</string>
+  <string name="payment_screen_set_reminder_setter">您想何时收到提醒呢？</string>
+  <string name="payment_screen_set_reminder_setter_7_days">7 天内</string>
+  <string name="payment_screen_set_reminder_setter_1_month">1 月内</string>
+  <string name="payment_screen_set_reminder_setter_6_months">6 月内</string>
+  <string name="payment_screen_set_reminder_setter_next_century">一世纪后</string>
+  <string name="payment_screen_set_reminder_setter_confirm">确认提醒</string>
+  <string name="payment_screen_other_options">其他选项</string>
+  <string name="payment_screen_need_help_title">帮助</string>
+  <string name="payment_screen_need_help_subtitle">需要帮助吗？请访问我们的网站！</string>
+  <string name="payment_screen_more_options">更多选项</string>
+  <string name="payment_screen_payment_complete_title">支付完成</string>
+  <string name="payment_screen_aftersales_title">谢谢！</string>
+  <string name="payment_screen_aftersales_paragraph_1">感谢您购买 FUTO 键盘！</string>
+  <string name="payment_screen_aftersales_paragraph_2">你的购买有助于 FUTO 键盘和其他 FUTO 产品的持续开发。</string>
+  <string name="payment_screen_payment_failed_title">支付异常</string>
+  <string name="payment_screen_payment_failed_body">抱歉，支付出于某些原因失败了。如果您需要帮助，请联系我们。您可以通过下面的按钮获取我们的邮箱（keyboard@futo.org），或者在“帮助”页面发送反馈。</string>
+  <string name="settings_unknown_error_title">未知错误</string>
+  <string name="settings_unknown_error_subtitle">发生了未知错误。</string>
+  <string name="settings_try_typing_here">试试在这里输入吧~</string>
+  <string name="settings_external_model_name">外部导入的模型</string>
+  <string name="settings_check_for_updates_manually">手动检查更新</string>
+  <string name="settings_update_available">可更新</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">主页</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">由于此选项依赖于另一个选项，所以它被禁用。点按转到目录：%1$s</string>
+  <string name="settings_search_menu_title">搜索</string>
+  <string name="settings_search_enter_your_search">键入搜索项…</string>
+  <string name="settings_search_no_options_found">未找到结果</string>
+  <string name="misc_settings_title">杂项</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">语言与模型</string>
+  <string name="language_settings_add_language_button">添加语言</string>
+  <string name="language_settings_select_language">添加一门语言</string>
+  <string name="language_settings_search">搜索</string>
+  <string name="language_settings_select_layout">添加一个布局</string>
+  <string name="language_settings_warning_language_has_no_dict">该语言没有内建词典，我们建议下载并导入以支持自动修正和词语建议功能。</string>
+  <string name="language_settings_resource_none">（暂无）</string>
+  <string name="language_settings_layouts_of_this_language">键盘布局</string>
+  <string name="language_settings_add_layout_for_this_language">添加键盘布局</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">多语言输入</string>
+  <string name="language_settings_remove_this_language">移除语言</string>
+  <string name="language_settings_manage_languages_title">管理语言和布局</string>
+  <string name="language_settings_resource_imported_indicator">（外部导入）</string>
+  <string name="language_settings_resource_unsupported_indicator">（暂未支持）</string>
+  <string name="language_settings_resource_builtin_dictionary_name">内建词典</string>
+  <string name="language_settings_resource_replace_button">替换</string>
+  <string name="language_settings_resource_import_file_button">导入</string>
+  <string name="language_settings_resource_revert_to_default_button">切换为默认值</string>
+  <string name="language_settings_resource_remove_button">移除</string>
+  <string name="language_settings_resource_explore_online_button">浏览</string>
+  <string name="language_settings_remove_language_title">删除%1$s？</string>
+  <string name="language_settings_remove_language_body">真的要删除%1$s吗？这包括所有与它关联的布局和自定义资源！</string>
+  <string name="language_settings_remove_language_remove_button">移除</string>
+  <string name="language_settings_remove_language_cancel_button">取消</string>
+  <string name="language_settings_other_options">其他选项</string>
+  <string name="language_settings_import_resource_from_file">导入资源文件</string>
+  <string name="language_settings_explore_voice_input_models_online">浏览语音输入模型</string>
+  <string name="language_settings_explore_dictionaries_online">浏览词典</string>
+  <string name="language_settings_explore_transformers_online">浏览转换模型</string>
+  <string name="language_settings_import_dictionary_or_model">导入词典或模型</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">语音输入模型</string>
+  <string name="file_kind_transformer_model">转换模型</string>
+  <string name="file_kind_dictionary">词典</string>
+  <string name="file_kind_invalid_file">无效文件</string>
+  <string name="file_kind_cfg_backup">备份设置</string>
+  <string name="resource_importer_import_title">导入 - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">错误：此文件似乎是词汇表源文件（_wordlist.combined），而不是已编译的字典文件（.dict）。</string>
+  <string name="resource_importer_error_wordlist_2">请下载已编译的词典文件而不是词汇表。如果这是您的自制词汇表，请使用 dicttool 自行编译。</string>
+  <string name="resource_importer_cancel_button">取消</string>
+  <string name="resource_importer_import_button">导入</string>
+  <string name="resource_importer_file_info">文件信息：%1$s</string>
+  <string name="resource_importer_importing">导入到语言：%1$s</string>
+  <string name="resource_importer_select_language">选择要导入到的语言：</string>
+  <string name="settings_export_configuration_subtitle">备份您所有的设置、剪贴板、自造词、资源文件等等。</string>
+  <string name="settings_export_configuration_exporting">正在导出设置…</string>
+  <string name="settings_export_configuration_exporting_text">在处理完毕前请勿关闭此菜单（5到10秒）</string>
+  <string name="settings_import_configuration">导入设置</string>
+  <string name="settings_import_configuration_subtitle">如果您先前导出过配置，您可以在此处重新导入。</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">编辑快捷方式</string>
+  <string name="action_editor_subtitle">编辑喜爱、固定以及空格键旁的快捷方式</string>
+  <string name="action_editor_edit_actions">编辑快捷方式</string>
+  <string name="action_editor_warning_no_actions">暂无已启用的快捷方式</string>
+  <string name="action_editor_error_more_than_one_action_key">请指定唯一的快捷键，快捷键不能指定超过一个快捷方式。</string>
+  <string name="action_editor_warning_too_many_pinned">建议固定更少快捷方式，否则建议栏会由于过多的快捷方式而变得拥挤。</string>
+  <string name="action_editor_add_next_action">添加下一个</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">快捷方式</string>
+  <string name="action_settings_quick_options_title">快速选项</string>
+  <string name="action_settings_quick_option_enable_action_key">启用快捷键</string>
+  <string name="action_settings_quick_option_language_switch_key">语言切换键</string>
+  <string name="action_settings_action_settings">快捷方式设置</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">调整键盘大小</string>
+  <string name="size_settings_subtitle2">改变键盘尺寸，切换为单手键盘、悬浮键盘或分割键盘</string>
+  <string name="size_settings_resize_tip">点按“调整键盘大小”以进行调整</string>
+  <string name="size_settings_reset">重置尺寸设置</string>
+  <string name="morekey_settings_layout">长按键布局</string>
+  <string name="morekey_settings_reset">重置为默认值</string>
+  <string name="morekey_settings_move_kind_up">上移</string>
+  <string name="morekey_settings_move_kind_down">下移</string>
+  <string name="morekey_settings_move_kind_up_to_top">移至顶部</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">移至底部</string>
+  <string name="morekey_settings_kind_position">位置：%2$s的%1$s</string>
+  <string name="morekey_settings_active">启用</string>
+  <string name="morekey_settings_inactive">未启用</string>
+  <string name="morekey_settings_reactivate">重新启用</string>
+  <string name="morekey_settings_disable">禁用</string>
+  <string name="morekey_settings_keys">长按键</string>
+  <string name="morekey_settings_show_hints">显示提示</string>
+  <string name="morekey_settings_show_hints_subtitle">在每个键上显示长按键的提示</string>
+  <string name="morekey_settings_duration">长按时间</string>
+  <string name="morekey_settings_duration_subtitle">需要按下多长时间才应该被视为长按</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">数字</string>
+  <string name="morekey_settings_kind_numbers_example">例如：[q]上方的[1]</string>
+  <string name="morekey_settings_kind_language_keys">语言键</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">例如：西班牙语中[n]上方的[ñ]</string>
+  <string name="morekey_settings_kind_symbols">符号</string>
+  <string name="morekey_settings_kind_symbols_example">例如：[a]上方的[@]</string>
+  <string name="morekey_settings_kind_actions">快捷方式</string>
+  <string name="morekey_settings_kind_actions_example">例好：[c]上方的[复制]</string>
+  <string name="morekey_settings_kind_misc_common">常见语言的字母变体</string>
+  <string name="morekey_settings_kind_misc_common_example">例如：在拉丁书写体系中[s]上方的[ß]</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">输入偏好</string>
+  <string name="typing_settings_suggest_emojis">表情建议</string>
+  <string name="typing_settings_suggest_emojis_subtitle">在输入时提供帮情建议</string>
+  <string name="typing_settings_vibration_strength">振动</string>
+  <string name="typing_settings_vibration_strength_default">默认</string>
+  <string name="typing_settings_keypress_sound_volume_default">默认</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">在某些安卓版本中音量设置可能无效。</string>
+  <string name="typing_settings_enable_clipboard_history">剪贴板历史记录</string>
+  <string name="typing_settings_enable_clipboard_history_tags">复制与粘贴</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">自动追加空格模式</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">键盘</string>
+  <string name="keyboard_settings_show_number_row">显示数字行</string>
+  <string name="keyboard_settings_show_number_row_subtitle">启用时，在支持的布局中会在键盘的顶部显示数字行</string>
+  <string name="keyboard_settings_show_arrow_row">显示方向键</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">启用时，方向键会显示在键盘底部</string>
+  <string name="keyboard_settings_extra_layouts">其他布局</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">在语言菜单中配置其他布局</string>
+  <string name="keyboard_settings_show_suggestion_row">显示操作栏/建议栏</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">显示建议栏。推荐保持开启</string>
+  <string name="keyboard_settings_inline_autofill">行内自动填充</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">键盘与输入</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">主题</string>
+  <string name="dev_settings_title">开发者选项</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">语音输入</string>
+  <string name="voice_input_settings_builtin_disabled_notice">内建语音输入已禁用！</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">禁用内建语音输入</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">使用外部应用提供的语音输入</string>
+  <string name="voice_input_settings_indication_sounds">指示音</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">在开始和取消时播放短促的提示音</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">显示额外信息，例如正在使用麦克风</string>
+  <string name="voice_input_settings_use_bluetooth_mic">优先使用蓝牙麦克风</string>
+  <string name="voice_input_settings_audio_focus">音频聚焦</string>
+  <string name="help_menu_email">电子邮箱 keyboard@futo.org</string>
+</resources>

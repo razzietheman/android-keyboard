@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">为FUTO Keyboard付款</string>
+  <string name="payment_app_main_menu_title">你已经为FUTO Keyboard付款了</string>
+  <string name="payment_app_main_menu_line_1">感谢你的支付！</string>
+  <string name="payment_app_main_menu_line_2">你的购买有助于FUTO Keyboard和其他FUTO产品的持续开发。</string>
+  <string name="payment_app_main_menu_line_3">这个应用只用于让您通过Google支付系统为FUTO Keyboard支付。您无需一直保留这个应用。如需关闭FUTO Keyboard内的支付提醒，只需点击“我已支付”或下方按钮。</string>
+  <string name="payment_app_activate_keyboard_button">将FUTO Keyboard设为已支付</string>
+  <string name="payment_app_more_options_download_keyboard">通过Play商店下载FUTO Keyboard</string>
+  <string name="payment_app_more_options_visit_website">查看FUTO Keyboard官方网站</string>
+  <string name="payment_app_more_options_email_support">支持邮箱</string>
+</resources>

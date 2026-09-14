@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Plačilo za FUTO tipkovnico</string>
+  <string name="payment_app_main_menu_title">Plačali ste za FUTO tipkovnico</string>
+  <string name="payment_app_main_menu_line_1">Hvala za plačilo!</string>
+  <string name="payment_app_main_menu_line_2">Vaš nakup bo pomagal pri nadaljnjem razvoju FUTO tipkovnice in drugih FUTO projektov.</string>
+  <string name="payment_app_main_menu_line_3">Ta aplikacija služi le za plačilo za FUTO tipkovnico preko Googlovega plačilnega sistema. Te aplikacije ni treba imeti nameščene. Če želite odstraniti obvestilo o plačilu v FUTO tipkovnici, kliknite \"Sem že plačal\" ali pa gumb spodaj.</string>
+  <string name="payment_app_activate_keyboard_button">Nastavite FUTO tipkovnico kot že plačano</string>
+  <string name="payment_app_more_options_download_keyboard">Prenesite FUTO tipkovnico preko trgovine Play Store</string>
+  <string name="payment_app_more_options_visit_website">Obiščite spletno stran FUTO tipkovnice</string>
+  <string name="payment_app_more_options_email_support">Email podpora</string>
+</resources>

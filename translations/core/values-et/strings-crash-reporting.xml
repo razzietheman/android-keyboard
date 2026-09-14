@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">FUTO klaviatuur jooksis kokku! Palun saada teade, et aidata meil seda parandada (keyboard@futo.org)</string>
+  <string name="crashed_text">FUTO klaviatuur jooksis kokku! Palun saada teade, et aidata meil seda parandada.</string>
+  <string name="crashed_title">Vigadest teavitamine</string>
+  <string name="crash_report_accept">Saada teade</string>
+  <string name="crash_report_reject">Eira</string>
+</resources>

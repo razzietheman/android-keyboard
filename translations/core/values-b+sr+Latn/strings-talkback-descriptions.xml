@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2015, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+-->
+
+<resources>
+  <!-- Spoken description to let the user know that when typing in a password, they can plug in a headset in to hear spoken descriptions of the keys they type. [CHAR LIMIT=NONE] -->
+  <string name="spoken_use_headphones">Uključite slušalice da čujete čitanje lozinke naglas.</string>
+  <!-- Spoken description for the currently entered text -->
+  <string name="spoken_current_text_is">Uneti tekst je "%s"</string>
+  <!-- Spoken description when there is no text entered -->
+  <string name="spoken_no_text_entered">Nema unetog teksta</string>
+  <!-- Spoken description to let the user know what auto-correction will be performed when a key is pressed. An auto-correction replaces a single word with one or more words. -->
+  <string name="spoken_auto_correct">&lt;string name="spoken_auto_correct"&gt;&lt;xliff:g id="KEY_NAME" example="Space"&gt;%1$s&lt;/xliff:g&gt; prepravlja &lt;xliff:g id="ORIGINAL_WORD"&gt;%2$s&lt;/xliff:g&gt; u &lt;xliff:g id="CORRECTED_WORD"&gt;%3$s&lt;/xliff:g&gt;&lt;/string&gt;</string>
+  <!-- Spoken description used during obscured (e.g. password) entry to let the user know that auto-correction will be performed when a key is pressed. -->
+  <string name="spoken_auto_correct_obscured">&lt;string name="spoken_auto_correct_obscured"&gt;&lt;xliff:g id="KEY_NAME" example="Space"&gt;%1$s&lt;/xliff:g&gt; izvršava automatsku ispravku&lt;/string&gt;</string>
+  <!-- Spoken description of a suggestion when nothing is specified and the field is blank. -->
+  <string name="spoken_empty_suggestion">Bez sugestija</string>
+  <!-- Spoken description for unknown keyboard keys. -->
+  <string name="spoken_description_unknown">Nepoznati znak</string>
+  <!-- Spoken description for the "Shift" keyboard key when "Shift" is off. -->
+  <string name="spoken_description_shift">Velika slova</string>
+  <!-- Spoken description for the "Shift" keyboard key in symbols mode. -->
+  <string name="spoken_description_symbols_shift">Više znakova</string>
+  <!-- Spoken description for the "Shift" keyboard key when "Shift" is on. -->
+  <string name="spoken_description_shift_shifted">Mala slova</string>
+  <!-- Spoken description for the "Shift" keyboard key in 2nd symbols (a.k.a. symbols shift) mode. -->
+  <string name="spoken_description_symbols_shift_shifted">Znaci</string>
+  <!-- Spoken description for the "Shift" keyboard key when "Caps lock" is on. -->
+  <string name="spoken_description_caps_lock">Mala slova</string>
+  <!-- Spoken description for the "Delete" keyboard key. -->
+  <string name="spoken_description_delete">Briši</string>
+  <!-- Spoken description for the "To Symbol" keyboard key. -->
+  <string name="spoken_description_to_symbol">Znaci</string>
+  <!-- Spoken description for the "To Alpha" keyboard key. -->
+  <string name="spoken_description_to_alpha">Slova</string>
+  <!-- Spoken description for the "To Numbers" keyboard key. -->
+  <string name="spoken_description_to_numeric">Brojevi</string>
+  <!-- Spoken description for the "Settings" keyboard key. -->
+  <string name="spoken_description_settings">Postavke</string>
+  <!-- Spoken description for the "Tab" keyboard key. -->
+  <string name="spoken_description_tab">Tab</string>
+  <!-- Spoken description for the "Space" keyboard key. -->
+  <string name="spoken_description_space">Razmak</string>
+  <!-- Spoken description for the "Mic" keyboard key. -->
+  <string name="spoken_description_mic">Glasovni unos</string>
+  <!-- Spoken description for the "Emoji" keyboard key. -->
+  <string name="spoken_description_emoji">Emodži</string>
+  <!-- Spoken description for the "Return" keyboard key. -->
+  <string name="spoken_description_return">Return</string>
+  <!-- Spoken description for the "Search" keyboard key. -->
+  <string name="spoken_description_search">Traži</string>
+  <!-- Spoken description for the "U+2022" (BULLET) keyboard key. -->
+  <string name="spoken_description_dot">Bulit</string>
+  <!-- Spoken description for the "Switch language" keyboard key. -->
+  <string name="spoken_description_language_switch">Menjaj jezik</string>
+  <!-- Spoken description for the "Next" action keyboard key. -->
+  <string name="spoken_description_action_next">Dalje</string>
+  <!-- Spoken description for the "Previous" action keyboard key. -->
+  <string name="spoken_description_action_previous">Nazad</string>
+  <!-- Spoken description for the "To Numbers" keyboard key. -->
+  <string name="spoken_description_to_alt_0">Strana 1</string>
+  <string name="spoken_description_to_alt_1">Strana 2</string>
+  <string name="spoken_description_to_alt_2">Strana 3</string>
+  <!-- Description of the keyboard mode for entering dates. -->
+  <string name="keyboard_mode_date">datum</string>
+  <!-- Description of the keyboard mode for entering dates and times. -->
+  <string name="keyboard_mode_date_time">datum i vreme</string>
+  <!-- Description of the keyboard mode for entering email addresses. -->
+  <string name="keyboard_mode_email">mejl</string>
+</resources>

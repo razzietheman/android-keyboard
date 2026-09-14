@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">FUTO klavye için ödeme yapın</string>
+  <string name="payment_app_main_menu_title">FUTO Klavye için ödeme yaptınız</string>
+  <string name="payment_app_main_menu_line_1">Ödeme yaptığınız için teşekkürler!</string>
+  <string name="payment_app_main_menu_line_2">Satın alımınız, FUTO Klavye ve diğer FUTO projelerinin devam eden geliştirilmesine yardımcı olacaktır.</string>
+  <string name="payment_app_main_menu_line_3">Bu uygulama yalnızca FUTO Klavye için Google’ın ödeme sistemi üzerinden ödeme yapmanızı sağlar. Bu uygulamayı yüklü tutmanıza gerek yoktur. FUTO Klavye’daki ödeme bildirimini kaldırmak için ‘Zaten ödedim’ seçeneğine veya aşağıdaki düğmeye dokunun.</string>
+  <string name="payment_app_activate_keyboard_button">FUTO Klavyeyi ödenmiş olarak ayarla</string>
+  <string name="payment_app_more_options_download_keyboard">FUTO Klavyeyi Play Store’dan indir</string>
+  <string name="payment_app_more_options_visit_website">FUTO Klavye web sitesini ziyaret et</string>
+  <string name="payment_app_more_options_email_support">E-posta Desteği</string>
+</resources>

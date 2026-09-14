@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Teema valik</string>
+  <string name="action_select_all_title">Vali kõik</string>
+  <string name="action_cut_title">Lõika lõikelauale</string>
+  <string name="action_copy_title">Kopeeri lõikelauale</string>
+  <string name="action_paste_title">Kleebi lõikelaualt</string>
+  <string name="action_undo_title">Võta tagasi</string>
+  <string name="action_redo_title">Tee uuesti</string>
+  <string name="action_text_editor_title">Tekstiredaktor</string>
+  <string name="action_debug_title">Silumisinfo</string>
+  <string name="action_more_actions_title">Kõik toimingud</string>
+  <string name="action_bug_viewer_title">Veavaatur</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Nool üles</string>
+  <string name="action_cursor_down_title">Nool alla</string>
+  <string name="action_cursor_left_title">Nool vasakule</string>
+  <string name="action_cursor_right_title">Nool paremale</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emotikonid</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Hiljutised</string>
+  <string name="action_emoji_category_smileys_emotion">Smailid ja emotikonid</string>
+  <string name="action_emoji_category_people_body">Inimesed ja keha</string>
+  <string name="action_emoji_category_animals_nature">Loomad ja loodus</string>
+  <string name="action_emoji_category_food_drink">Söök ja jook</string>
+  <string name="action_emoji_category_travel_places">Reisimine ja kohad</string>
+  <string name="action_emoji_category_activities">Tegevused</string>
+  <string name="action_emoji_category_objects">Objektid</string>
+  <string name="action_emoji_category_symbols">Sümbolid</string>
+  <string name="action_emoji_category_flags">Lipud</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Tulemusi ei leitud</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">Mine <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Kas tühjendada hiljutiste emotikonide loend?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Tühista</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Tühjenda</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Tühjenda hiljuti kasutud emotikonide loend</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Otsing</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Häälsisend</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Häälsisend (süsteem)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">Häälsisendi mudelit pole paigaldatud <xliff:g name=\\\"language\\\" example=\\\"español\\\">%skeelele</xliff:g>, kas puudutad valikuteks?</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Häälsisendi kasutamiseks mine menüüsse Load ja anna mikrofoni kasutamise luba</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Lõikelaua haldur</string>
+  <string name="action_clipboard_manager_unpin_item">Eemalda kinnitus</string>
+  <string name="action_clipboard_manager_pin_item">Kinnita üksus</string>
+  <string name="action_clipboard_manager_remove_item">Eemalda üksus</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Tühista</string>
+  <string name="action_clipboard_manager_disable_text">Pole midagi puhastada. Kas keelata lõikelaua ajalugu?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Keela</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Kinnitamata kirjeid pole. Kas eemaldada kõigi kinnitus?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Eemalda kinnitus</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Kas eemaldada kõik kinnitamata kirjed?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Tühjenda</string>
+  <string name="action_clipboard_manager_clear_clipboard">Tühjenda lõikelaud</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Seade on lukustatud</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Lõikelaua ajaloole juurdepääsuks ava seade</string>
+  <string name="action_clipboard_manager_error_general_title">Lõikelaua viga</string>
+  <string name="action_clipboard_manager_error_general_text">Lõikelaua ajalugu ei õnnestunud salvestada ega laadida. See võib olla rikutud. Proovi seda kustutada või klaviatuuri taaskäivitada. Palun teata sellest veast. Põhjus: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Kas kustutada lõikelaud? KÕIK üksused eemaldatakse.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Proovi uuesti</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Kontrolli viga veavaaturis</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Kustuta</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Lõikelaua ajalugu pole aktiivne</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">Lõikelaua üksuste salvestamiseks luba lõikelaua ajalugu. See salvestab kuni <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> üksust <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> päevas (kinnitatud üksused on välja arvatud). Seda saab määrata seadetes.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Lülita lõikelaua ajalugu sisse</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Rakendus ei toeta piltide sisestamist</string>
+  <string name="action_clipboard_manager_settings_title">Lõikelaua halduri seaded</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Kinnitamata kirjete hoidmise aeg tundides</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Hoitavate kinnitamata kirjete arv</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Salvesta tundlikud kirjed</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Kui see on lubatud, salvestab see paroolihalduritest, inkognito akendest jne pärit üksusi</string>
+  <string name="action_clipboard_manager_settings_list_layout">Kasuta ruudustiku asemel vertikaalset paigutust</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Klaviatuuri režiimid</string>
+  <string name="action_keyboard_modes_go_back">Mine tagasi</string>
+  <string name="action_keyboard_modes_resize_keyboard">Muuda klaviatuuri suurust</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standardne</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Ühekäeline</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Jagatud</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Hõljuv</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Lähtesta</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Rakenda</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Rakendus ei pruugi piltide sisestamist toetada, see funktsioon ei pruugi töötada.</string>
+  <string name="action_fonttyper_select_a_preset">Vali eelseadistus</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Dramaatiline tekst</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Vikerkaar</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Horisont</string>
+  <string name="action_fonttyper_finish">Lõpeta</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Toiminguklahv</string>
+  <string name="action_kind_pinned_key">Kinnitatud toimingud</string>
+  <string name="action_kind_favorites">Lemmiktoimingud</string>
+  <string name="action_kind_more">Rohkem toiminguid</string>
+  <string name="action_kind_disabled">Peidetud toimingud</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Tume teema</string>
+  <string name="theme_default_light">Hele teema</string>
+  <string name="theme_amoled_dark">AMOLED tume Lilla</string>
+  <string name="theme_classic_dark">AOSP Material tume</string>
+  <string name="theme_classic_light">AOSP Material hele</string>
+  <string name="theme_vi">FUTO VI teema</string>
+  <string name="theme_rainbow">Vikerkaar</string>
+  <string name="theme_snowfall">Lumesadu</string>
+  <string name="theme_steel_gray">Terashall</string>
+  <string name="theme_sunflower">Päevalill</string>
+  <string name="theme_cotton_candy">Suhkruvatt</string>
+  <string name="theme_high_contrast_yellow">Kõrge kontrastsusega kollane</string>
+  <string name="theme_dynamic_system">Dünaamiline automaatne</string>
+  <string name="theme_dynamic_dark">Dünaamiline tume</string>
+  <string name="theme_dynamic_light">Dünaamiline hele</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Uuenduste kontrollimise teenus</string>
+  <string name="autoupdater_update_available_title">Uuendus on saadaval</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">Saadaval on uuendus (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Puuduta allalaadimiseks</string>]]></string>
+  <string name="autoupdater_dismiss_update">Eira</string>
+  <string name="autoupdater_perform_update">Uuenda</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Must nimekiri</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Keela emotikonide soovitused</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Alfa</string>
+  <string name="keyboard_switch_keyboard">Vaheta klaviatuuri</string>
+  <string name="keyboard_language_settings">Seaded</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Puuduta värskenduste kontrollimiseks või otsi seadetes</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Ava toimingud</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Sule</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Tagasi</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Kuva klaviatuur</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Sule</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Ahenda</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Tasu</string>
+  <string name="payment_screen_title">Tasu FUTO klaviatuuri eest</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">Oled kasutanud FUTO klaviatuuri <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> päeva. Kui leiad, et see rakendus on kasulik, kaalu palun tasumist, et toetada FUTO tarkvara edasist arendamist.</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Täname FUTO klaviatuuri proovimise eest! Kui leiad, et see rakendus on kasulik, kaalu tasumist, et toetada FUTO tarkvara edasist arendamist.</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO on pühendunud hea tarkvara loomisele, mis sind ei kuritarvita. See rakendus ei kuva sulle kunagi reklaame ega kogu sinu isikuandmeid.</string>
+  <string name="payment_screen_sales_point_development_title">Jätkusuutlik arendamine</string>
+  <string name="payment_screen_sales_point_privacy_title">Pühendumine privaatsusele</string>
+  <string name="payment_screen_sales_point_privacy_body">See rakendus ei kuva kunagi reklaame ega müü teie andmeid. Me ei tegele sellega.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Selle versiooni puhul makseid ei toetata</string>
+  <string name="payment_screen_already_paid_title">Kas oled juba tasunud?</string>
+  <string name="payment_screen_already_paid_body">Kui oled FUTO klaviatuuri või FUTO häälsisendi eest juba tasunud, puuduta allpool.</string>
+  <string name="payment_screen_already_paid_button">Olen juba tasunud</string>
+  <string name="payment_screen_already_paid_confirmation">Kinnita oma valik</string>
+  <string name="payment_screen_already_paid_confirmation_body">Kas soovid kinnitada, et oled juba tasunud? Pärast seda tasumise kohta enam ei küsita.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Olen juba tasunud</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Tühista</string>
+  <string name="payment_screen_set_reminder_title">Pole veel valmis maksma?</string>
+  <string name="payment_screen_set_reminder_body">See peidab meeldetuletuse määratud perioodiks seadete ekraanilt.</string>
+  <string name="payment_screen_set_reminder_setter">Millal soovid meeldetuletust saada?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">7 päeva pärast</string>
+  <string name="payment_screen_set_reminder_setter_1_month">1 kuu pärast</string>
+  <string name="payment_screen_set_reminder_setter_6_months">6 kuu pärast</string>
+  <string name="payment_screen_set_reminder_setter_next_century">järgmisel sajandil</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Kinnita meeldetuletus</string>
+  <string name="payment_screen_other_options">Muud valikud</string>
+  <string name="payment_screen_need_help_title">Abi</string>
+  <string name="payment_screen_need_help_subtitle">Kas vajad abi? Külasta meie veebilehte</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Maksa Google Play abil (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + maksud)</string>]]></string>
+  <string name="payment_screen_more_options">Rohkem valikuid</string>
+  <string name="payment_screen_payment_complete_title">Makse on sooritatud</string>
+  <string name="payment_screen_aftersales_title">Aitäh</string>
+  <string name="payment_screen_aftersales_title_pending">Makse on ootel</string>
+  <string name="payment_screen_aftersales_paragraph_1">Täname FUTO klaviatuuri ostmise eest!</string>
+  <string name="payment_screen_aftersales_paragraph_2">See ost aitab kaasa FUTO klaviatuuri ja teiste FUTO projektide edasisele arendamisele.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Su makse on endiselt ootel, kuid see peaks peagi laekuma.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Kui sa just maksid ja sinu makse võib veel töötlemisel olla, peaksid saama lisateabega e-kirja.</string>
+  <string name="payment_screen_payment_failed_title">Makseviga</string>
+  <string name="payment_screen_payment_failed_body">Kahjuks makse nurjus mingil põhjusel. Palun võta meiega ühendust, kui vajad abi. Võid meiega ühendust võtta aadressil keyboard@futo.org, alloleva nupu abil või abimenüüs tagasiside saatmise kaudu</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Su maksega võis olla probleeme. Kui see õnnestus, peaksid saama litsentsivõtmega e-kirja. Kui vajad abi, võta meiega ühendust. Võid meiega ühendust võtta aadressil keyboard@futo.org, alloleva nupu abil või peamenüüs oleva tagasiside jagamise kaudu.</string>
+  <string name="payment_screen_license_integrity_error">Litsentsi kinnitamine nurjus. Kui usud, et see on viga, võta meiega ühendust.</string>
+  <string name="payment_screen_continue_button">Jätka</string>
+  <string name="payment_unpaid_version_title">Tasumata FUTO klaviatuur</string>
+  <string name="payment_unpaid_version_indicator">Tasumata</string>
+  <string name="payment_paid_version_indicator">Täname sind FUTO klaviatuuri tasulise versiooni kasutamise eest!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Uuenduse märguanne</string>
+  <string name="manual_update_notice_paragraph_1">See rakendus ei loo internetiühendust ja ei saa automaatselt uuendusi kontrollida. Kuid uuendusi saab otsida käsitsi.</string>
+  <string name="manual_update_notice_paragraph_2">Automaatsete uuenduste jaoks kasuta F-Droidi või Obtainiumit. Allalaadimisvõimaluste nägemiseks külasta veebilehte keyboard.futo.org.</string>
+  <string name="manual_update_notice_dev_paragraph">Kasutad FUTO klaviatuuri arendusversiooni. Stabiilse versiooni allalaadimiseks külasta keyboard.futo.org.</string>
+  <string name="manual_update_notice_visit_site_button">Külasta</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Eira</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Nõuanne</string>
+  <string name="settings_unknown_error_title">Tundmatu viga</string>
+  <string name="settings_unknown_error_subtitle">Tekkis tundmatu viga.</string>
+  <string name="settings_try_typing_here">Proovi siia kirjutada…</string>
+  <string name="settings_external_model_name">Väliselt imporditud mudel</string>
+  <string name="settings_check_for_updates_manually">Kontrolli uuendusi käsitsi</string>
+  <string name="settings_update_available">Uuendus on saadaval</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Keeled ja mudelid</string>
+  <string name="language_settings_add_language_button">Lisa keel</string>
+  <string name="language_settings_select_language">Vali lisatav keel</string>
+  <string name="language_settings_search">Otsi</string>
+  <string name="language_settings_select_layout">Vali lisatav paigutus</string>
+  <string name="language_settings_warning_language_has_no_dict">Sellel keelel pole sisseehitatud sõnastikku. Soovitame selle alla laadida ja importida, et saada automaatkorrektuuri ja sõnasoovitusi.</string>
+  <string name="language_settings_resource_none">(Puudub)</string>
+  <string name="language_settings_layouts_of_this_language">Klaviatuuripaigutused</string>
+  <string name="language_settings_add_layout_for_this_language">Lisa klaviatuuripaigutus</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Mitmekeelne tippimine</string>
+  <string name="language_settings_remove_this_language">Eemalda keel</string>
+  <string name="language_settings_resource_imported_indicator">(Imporditud)</string>
+  <string name="language_settings_resource_unsupported_indicator">(Ei toetata)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Sisseehitatud sõnastik</string>
+  <string name="language_settings_resource_voice_input_selected">Kas soovid taastada häälesisestusmudeli vaikeväärtused või asendada selle teise failiga?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Selle keele jaoks pole sisseehitatud häälsisestusmudelit, seega kui selle eemaldad, siis häälsisend lakkab selle keele puhul töötamast, kuni impordid uue mudeli!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Sa pole selle keele jaoks kohandatud häälsisestusmudelit seadistanud. Võid uurida allalaaditavaid faile veebis või importida selle failist.</string>
+  <string name="language_settings_resource_dictionary_selected">Kas soovid lähtestada sõnastiku vaikeväärtusele või asendada selle teise failiga?</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">Selle keele jaoks pole sisseehitatud sõnastikku, seega kui selle eemaldad, siis automaatkorrektuur ja ennustused lakkavad selle keele puhul uue sõnastiku importimiseni töötamast!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">Sa pole selle keele jaoks kohandatud sõnastikku seadistanud. Võid uurida allalaaditavaid faile veebis või failist sõnastiku importida.</string>
+  <string name="language_settings_resource_replace_button">Asenda</string>
+  <string name="language_settings_resource_import_file_button">Impordi</string>
+  <string name="language_settings_resource_revert_to_default_button">Taasta vaikeseaded</string>
+  <string name="language_settings_resource_remove_button">Eemalda</string>
+  <string name="language_settings_resource_explore_online_button">Uuri veebist</string>
+  <string name="language_settings_remove_language_title">Kas kustutada %1$s?</string>
+  <string name="language_settings_remove_language_body">Kas eemaldada %1$s, kõik sellega seotud paigutused ja kohandatud ressursid?</string>
+  <string name="language_settings_remove_language_remove_button">Eemalda</string>
+  <string name="language_settings_remove_language_cancel_button">Tühista</string>
+  <string name="language_settings_other_options">Muud valikud</string>
+  <string name="language_settings_import_resource_from_file">Impordi keelefail</string>
+  <string name="language_settings_explore_voice_input_models_online">Uuri häälsisestusmudeleid</string>
+  <string name="language_settings_explore_dictionaries_online">Uuri sõnastikke</string>
+  <string name="language_settings_import_dictionary_or_model">Impordi sõnastik või mudel</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Häälsisendi mudel</string>
+  <string name="file_kind_dictionary">Sõnastik</string>
+  <string name="file_kind_invalid_file">Vigane fail</string>
+  <string name="resource_importer_import_title">Impordi – %1$s</string>
+  <string name="resource_importer_error_invalid_fiile">Viga: Seda faili ei õnnestunud tuvastada. See võib olla vigane või rikutud. Proovi see uuesti alla laadida või proovi mõnda teist faili.</string>
+  <string name="resource_importer_cancel_button">Tühista</string>
+  <string name="resource_importer_file_info">Faili teave: %1$s</string>
+  <string name="resource_importer_importing">Imporditakse keelele: %1$s</string>
+  <string name="resource_importer_select_language">Valige importimiseks keel:</string>
+  <string name="settings_export_configuration_exporting">Konfiguratsiooni eksportimine…</string>
+  <string name="settings_import_configuration">Impordi konfiguratsioon</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Muuda toiminguid</string>
+  <string name="action_editor_edit_actions">Muuda toiminguid</string>
+  <string name="action_editor_warning_no_actions">Ükski toiming pole lubatud</string>
+  <string name="action_editor_error_more_than_one_action_key">Palun määra ainult üks toiminguklahv. Toiminguklahvile ei saa määrata rohkem kui ühte toimingut.</string>
+  <string name="action_editor_warning_too_many_pinned">Palun kaalu vähemate toimingute kinnitamist. Nii paljude toimingute mahutamiseks tuleb soovituste riba lühendada.</string>
+  <string name="action_editor_add_next_action">Lisa järgmine</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Toimingud</string>
+  <string name="action_settings_quick_options_title">Kiirvalikud</string>
+  <string name="action_settings_quick_option_enable_action_key">Luba toiminguklahv</string>
+  <string name="action_settings_quick_option_language_switch_key">Keelevahetuse nupp</string>
+  <string name="morekey_settings_reset">Taasta vaikeväärtused</string>
+  <string name="morekey_settings_show_hints">Näita vihjeid</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Numbrid</string>
+  <string name="morekey_settings_kind_symbols">Sümbolid</string>
+  <string name="typing_settings_vibration_strength">Vibreerimine</string>
+  <string name="typing_settings_enable_clipboard_history">Lõikelaua ajalugu</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Klaviatuur</string>
+  <string name="keyboard_settings_show_number_row">Kuva numbririda</string>
+  <string name="keyboard_settings_show_number_row_subtitle">Kui lubatud, kuvatakse numbririda toetatud paigutuse korral klaviatuuri ülaosas</string>
+  <string name="keyboard_settings_show_arrow_row">Kuva nooleklahvid</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">Kui lubatud, kuvatakse nooleklahvide rida klaviatuuri allosas</string>
+  <string name="keyboard_settings_extra_layouts">Lisapaigutused</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Klaviatuur ja tippimine</string>
+  <string name="dev_settings_title">Arendaja seaded</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Häälsisend</string>
+  <string name="voice_input_settings_builtin_disabled_notice">Sisseehitatud häälsisend on keelatud!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Keela sisseehitatud häälsisend</string>
+  <string name="voice_input_settings_change_models">Mudelid</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Abi ja tagasiside</string>
+  <string name="help_menu_version_name">Versiooni nimi: %1$s</string>
+  <string name="help_menu_version_code">Versioonikood: %1$s</string>
+  <string name="help_menu_version_tip">Tahame kuulda tagasisidet! Kui teatad probleemist, võib versioon olla tähtis: v%1$s</string>
+  <string name="help_menu_documentation">Dokumentatsioon</string>
+  <string name="help_menu_documentation_subtitle">Tutvu klaviatuuri funktsioonide ja võimalustega</string>
+  <string name="help_menu_discord">Discord server</string>
+  <string name="help_menu_email_subtitle">Privaatne tagasiside, abi või ei kasuta GitHubi? Kirjuta meile</string>
+  <string name="credits_menu_header_text">Tänan neid inimesi, kes aitasid muuta FUTO klaviatuuri suurepäraseks rakenduseks!</string>
+  <string name="credits_menu_team_translators_title">Tõlkijad</string>
+  <string name="credits_menu_nonaffiliation_notice">Ülaltoodud autorid ei ole meiega seotud ja ei pruugi meid tingimata toetada ega reklaamida. Nende nimetamine ei tähenda seotust ega toetust.</string>
+  <string name="credits_menu_contribute_translations_button">Aita rakendust tõlkida</string>
+  <string name="credits_menu_project_information_title">%s teave</string>
+  <string name="credits_menu_project_url_link">Projekti URL</string>
+</resources>

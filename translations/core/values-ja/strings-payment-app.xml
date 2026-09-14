@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">FUTO キーボードのお支払い</string>
+  <string name="payment_app_main_menu_title">FUTO キーボードの支払いは確認済み</string>
+  <string name="payment_app_main_menu_line_1">お支払いありがとうございます！</string>
+  <string name="payment_app_main_menu_line_2">あなたの購入が、FUTO キーボードやその他 FUTO プロジェクトの継続的な開発の支えとなっています。</string>
+  <string name="payment_app_main_menu_line_3">このアプリは FUTO キーボードの支払いを Google の決済システムを通じて行うためだけのものです。このアプリをインストールしたままにする必要はありません。FUTO キーボードの支払い通知を消すには、「すでに支払い済み」または下のボタンをタップしてください。</string>
+  <string name="payment_app_activate_keyboard_button">FUTO キーボードを有料版にする</string>
+  <string name="payment_app_more_options_download_keyboard">Play ストアから FUTO キーボードをダウンロード</string>
+  <string name="payment_app_more_options_visit_website">FUTO キーボードのウェブサイト</string>
+  <string name="payment_app_more_options_email_support">Eメールでお問い合わせ</string>
+</resources>

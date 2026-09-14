@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- May be translated as "Stop voice input", "Stop input", etc -->
+  <string name="stop_recording">Peata salvestamine</string>
+  <!-- Appears when voice input is recording and no speech has been detected yet, we prompt the user to try talking. Must be fairly short. -->
+  <string name="try_saying_something">Proovi midagi öelda</string>
+  <!-- Appears when voice input is recording and no sound has been detected in a while, this is typically caused by disabling the microphone in Android quick settings -->
+  <string name="no_audio_detected_is_your_microphone_blocked">Heli ei tuvastatud, kas mikrofon on blokeeritud?</string>
+  <!-- Appears when voice input is recording and speech is being actively detected. Must be fairly short. -->
+  <string name="listening">Kuulamine…</string>
+  <!-- When the user is trying to use voice input but has not granted our app the Android microphone permission, we ask the user to please grant it to use voice input -->
+  <string name="grant_microphone_permission_to_use_voice_input">Anna mikrofonile luba häälsisendi kasutamiseks</string>
+  <string name="open_voice_input_settings">Ava häälsisendi seaded</string>
+  <!-- String to indicate that a language has been detected for which we have a better voice recognition model, so we are switching models for the detected language. Must be fairly short. -->
+  <string name="switching_model">Keele vahetamine…</string>
+  <!-- Generic string to indicate the voice recognition model is processing the recorded audio. Must be fairly short. -->
+  <string name="processing">Töötlemine…</string>
+</resources>

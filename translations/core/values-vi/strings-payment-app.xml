@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Thanh toán cho bàn phím FUTO</string>
+  <string name="payment_app_main_menu_title">Bạn đã thanh toán cho bàn phím FUTO</string>
+  <string name="payment_app_main_menu_line_1">Cảm ơn bạn đã thanh toán!</string>
+  <string name="payment_app_main_menu_line_2">Việc bạn mua sẽ giúp bàn phím FUTO và các dự án FUTO khác tiếp tục phát triển.</string>
+  <string name="payment_app_main_menu_line_3">Ứng dụng này chỉ cho phép bạn thanh toán cho Bàn phím FUTO thông qua hệ thống thanh toán của Google. Bạn không cần phải giữ lại ứng dụng này. Để xóa thông báo thanh toán trên Bàn phím FUTO , hãy nhấn vào \"Tôi đã thanh toán\" hoặc nút bên dưới.</string>
+  <string name="payment_app_activate_keyboard_button">Đặt Bàn phím FUTO là đã thanh toán</string>
+  <string name="payment_app_more_options_download_keyboard">Tải xuống Bàn phím FUTO từ Cửa hàng Play</string>
+  <string name="payment_app_more_options_visit_website">Truy cập trang web Bàn phím FUTO</string>
+  <string name="payment_app_more_options_email_support">Hỗ trợ qua Email</string>
+</resources>

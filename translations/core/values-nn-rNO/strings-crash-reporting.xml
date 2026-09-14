@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">FUTO Tastatur har krasja! Send oss e-post for å hjelpe oss fikse dette (keyboard@futo.org)</string>
+  <string name="crashed_text">FUTO Tastatur har krasja! Send oss ein rapport for å hjelpe oss fikse dette.</string>
+  <string name="crashed_title">Rapporter eit Krasj</string>
+  <string name="crash_report_accept">Send Rapport</string>
+  <string name="crash_report_reject">Ignorer</string>
+</resources>

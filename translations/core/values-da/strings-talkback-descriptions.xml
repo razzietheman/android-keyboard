@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2015, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+-->
+
+<resources>
+  <!-- Spoken description to let the user know that when typing in a password, they can plug in a headset in to hear spoken descriptions of the keys they type. [CHAR LIMIT=NONE] -->
+  <string name="spoken_use_headphones">"Tilslut et headset for at få læst taster højt, når du indtaster en adgangskode."</string>
+  <!-- Spoken description for the currently entered text -->
+  <string name="spoken_current_text_is">"Nuværende tekst er %s"</string>
+  <!-- Spoken description when there is no text entered -->
+  <string name="spoken_no_text_entered">"Der er ingen indtastet tekst"</string>
+  <!-- Spoken description to let the user know what auto-correction will be performed when a key is pressed. An auto-correction replaces a single word with one or more words. -->
+  <string name="spoken_auto_correct">&lt;string name="spoken_auto_correct" msgid="965889269068888859"&gt;&amp;quot;&lt;xliff:g id="KEY_NAME"&gt;%1$s&lt;/xliff:g&gt; retter &lt;xliff:g id="ORIGINAL_WORD"&gt;%2$s&lt;/xliff:g&gt; til &lt;xliff:g id="CORRECTED_WORD"&gt;%3$s&lt;/xliff:g&gt;&amp;quot;&lt;/string&gt;</string>
+  <!-- Spoken description used during obscured (e.g. password) entry to let the user know that auto-correction will be performed when a key is pressed. -->
+  <string name="spoken_auto_correct_obscured">&lt;string name="spoken_auto_correct_obscured" msgid="7511607899335382699"&gt;&amp;quot;&lt;xliff:g id="KEY_NAME"&gt;%1$s&lt;/xliff:g&gt; udfører automatisk stavekontrol&amp;quot;&lt;/string&gt;</string>
+  <!-- Spoken description of a suggestion when nothing is specified and the field is blank. -->
+  <string name="spoken_empty_suggestion">"Ingen forslag"</string>
+  <!-- Spoken description for unknown keyboard keys. -->
+  <string name="spoken_description_unknown">"Ukendt tegn"</string>
+  <!-- Spoken description for the "Shift" keyboard key when "Shift" is off. -->
+  <string name="spoken_description_shift">"Shift"</string>
+  <!-- Spoken description for the "Shift" keyboard key in symbols mode. -->
+  <string name="spoken_description_symbols_shift">"Flere symboler"</string>
+  <!-- Spoken description for the "Shift" keyboard key when "Shift" is on. -->
+  <string name="spoken_description_shift_shifted">"Shift-tast"</string>
+  <!-- Spoken description for the "Shift" keyboard key in 2nd symbols (a.k.a. symbols shift) mode. -->
+  <string name="spoken_description_symbols_shift_shifted">"Symboler"</string>
+  <!-- Spoken description for the "Shift" keyboard key when "Caps lock" is on. -->
+  <string name="spoken_description_caps_lock">"Shift-tast"</string>
+  <!-- Spoken description for the "Delete" keyboard key. -->
+  <string name="spoken_description_delete">"Slet"</string>
+  <!-- Spoken description for the "To Symbol" keyboard key. -->
+  <string name="spoken_description_to_symbol">"Symboler"</string>
+  <!-- Spoken description for the "To Alpha" keyboard key. -->
+  <string name="spoken_description_to_alpha">"Bogstaver"</string>
+  <!-- Spoken description for the "To Numbers" keyboard key. -->
+  <string name="spoken_description_to_numeric">"Tal"</string>
+  <!-- Spoken description for the "Settings" keyboard key. -->
+  <string name="spoken_description_settings">"Indstillinger"</string>
+  <!-- Spoken description for the "Tab" keyboard key. -->
+  <string name="spoken_description_tab">"Fane"</string>
+  <!-- Spoken description for the "Space" keyboard key. -->
+  <string name="spoken_description_space">"Mellemrum"</string>
+  <!-- Spoken description for the "Mic" keyboard key. -->
+  <string name="spoken_description_mic">"Indtaling"</string>
+  <!-- Spoken description for the "Emoji" keyboard key. -->
+  <string name="spoken_description_emoji">"Emoji"</string>
+  <!-- Spoken description for the "Return" keyboard key. -->
+  <string name="spoken_description_return">"Return"</string>
+  <!-- Spoken description for the "Search" keyboard key. -->
+  <string name="spoken_description_search">"Søgning"</string>
+  <!-- Spoken description for the "U+2022" (BULLET) keyboard key. -->
+  <string name="spoken_description_dot">"Prik"</string>
+  <!-- Spoken description for the "Switch language" keyboard key. -->
+  <string name="spoken_description_language_switch">"Skift sprog"</string>
+  <!-- Spoken description for the "Next" action keyboard key. -->
+  <string name="spoken_description_action_next">"Næste"</string>
+  <!-- Spoken description for the "Previous" action keyboard key. -->
+  <string name="spoken_description_action_previous">"Forrige"</string>
+  <!-- Spoken feedback after turning "Shift" mode on. -->
+  <string name="spoken_description_shiftmode_on">"Shift er aktiveret"</string>
+  <!-- Spoken feedback after turning "Caps lock" mode on. -->
+  <string name="spoken_description_shiftmode_locked">"Caps lock er aktiveret"</string>
+  <!-- Spoken feedback after changing to the symbols keyboard. -->
+  <string name="spoken_description_mode_symbol">"Symboltilstand"</string>
+  <!-- Spoken feedback after changing to the 2nd symbols (a.k.a. symbols shift) keyboard. -->
+  <string name="spoken_description_mode_symbol_shift">"Tilstaden Flere symboler"</string>
+  <!-- Spoken feedback after changing to the alphanumeric keyboard. -->
+  <string name="spoken_description_mode_alpha">"Bogstavtilstand"</string>
+  <!-- Spoken feedback after changing to the phone dialer keyboard. -->
+  <string name="spoken_description_mode_phone">"Telefontilstand"</string>
+  <!-- Spoken feedback after changing to the shifted phone dialer (symbols) keyboard. -->
+  <string name="spoken_description_mode_phone_shift">"Telefonsymboltilstand"</string>
+  <!-- Spoken feedback when the keyboard is hidden. -->
+  <string name="announce_keyboard_hidden">"Tastaturet er skjult"</string>
+  <!-- Spoken feedback when the keyboard mode changes. -->
+  <string name="announce_keyboard_mode">&lt;string name="announce_keyboard_mode" msgid="5314352981874590170"&gt;&amp;quot;Viser tastatur til &lt;xliff:g id="KEYBOARD_MODE"&gt;%s&lt;/xliff:g&gt;&amp;quot;&lt;/string&gt;</string>
+  <!-- Description of the keyboard mode for entering dates. -->
+  <string name="keyboard_mode_date">"dato"</string>
+  <!-- Description of the keyboard mode for entering dates and times. -->
+  <string name="keyboard_mode_date_time">"dato og klokkeslæt"</string>
+  <!-- Description of the keyboard mode for entering email addresses. -->
+  <string name="keyboard_mode_email">"mail"</string>
+  <!-- Description of the keyboard mode for entering text messages. -->
+  <string name="keyboard_mode_im">"beskeder"</string>
+  <!-- Description of the keyboard mode for entering numbers. -->
+  <string name="keyboard_mode_number">"tal"</string>
+  <!-- Description of the keyboard mode for entering phone numbers. -->
+  <string name="keyboard_mode_phone">"telefonnummer"</string>
+  <!-- Description of the keyboard mode for entering generic text. -->
+  <string name="keyboard_mode_text">"tekst"</string>
+  <!-- Description of the keyboard mode for entering times. -->
+  <string name="keyboard_mode_time">"klokkeslæt"</string>
+  <!-- Description of the keyboard mode for entering URLs. -->
+  <string name="keyboard_mode_url">"webadresse"</string>
+  <!-- Description of the emoji category icon of Recents. -->
+  <string name="spoken_descrption_emoji_category_recents">"Seneste"</string>
+  <!-- Description of the emoji category icon of People. -->
+  <string name="spoken_descrption_emoji_category_people">"Personer"</string>
+  <!-- Description of the emoji category icon of Objects. -->
+  <string name="spoken_descrption_emoji_category_objects">"Objekter"</string>
+  <!-- Description of the emoji category icon of Nature. -->
+  <string name="spoken_descrption_emoji_category_nature">"Natur"</string>
+  <!-- Description of the emoji category icon of Places. -->
+  <string name="spoken_descrption_emoji_category_places">"Steder"</string>
+  <!-- Description of the emoji category icon of Symbols. -->
+  <string name="spoken_descrption_emoji_category_symbols">"Symboler"</string>
+  <!-- Description of the emoji category icon of Flags. -->
+  <string name="spoken_descrption_emoji_category_flags">"Flag"</string>
+  <!-- Description of the emoji category icon of Smiley & People. -->
+  <string name="spoken_descrption_emoji_category_eight_smiley_people">"Smileyer og personer"</string>
+  <!-- Description of the emoji category icon of Animals & Nature. -->
+  <string name="spoken_descrption_emoji_category_eight_animals_nature">"Dyr og natur"</string>
+  <!-- Description of the emoji category icon of Food & Drink. -->
+  <string name="spoken_descrption_emoji_category_eight_food_drink">"Mad og drikke"</string>
+  <!-- Description of the emoji category icon of Travel & Places. -->
+  <string name="spoken_descrption_emoji_category_eight_travel_places">"Rejser og steder"</string>
+  <!-- Description of the emoji category icon of Activity. -->
+  <string name="spoken_descrption_emoji_category_eight_activity">"Aktivitet"</string>
+  <!-- Description of the emoji category icon of Emoticons. -->
+  <string name="spoken_descrption_emoji_category_emoticons">"Humørikoner"</string>
+  <!-- Description of an upper case letter of LOWER_LETTER. -->
+  <string name="spoken_description_upper_case">&lt;string name="spoken_description_upper_case" msgid="548189286451849550"&gt;&amp;quot;Stort &lt;xliff:g id="LOWER_LETTER"&gt;%s&lt;/xliff:g&gt;&amp;quot;&lt;/string&gt;</string>
+  <!--
+    Spoken description for Unicode code point U+0049: "I" LATIN CAPITAL LETTER I
+    Note that depending on locale, the lower-case of this letter is U+0069 or U+0131.
+  -->
+  <string name="spoken_letter_0049">"Stort I"</string>
+  <!--
+    Spoken description for Unicode code point U+0130: "İ" LATIN CAPITAL LETTER I WITH DOT ABOVE
+    Note that depending on locale, the lower-case of this letter is U+0069 or U+0131.
+  -->
+  <string name="spoken_letter_0130">"Stort I med prik over"</string>
+  <!-- Spoken description for unknown symbol code point. -->
+  <string name="spoken_symbol_unknown">"Ukendt symbol"</string>
+  <!-- Spoken description for unknown emoji code point. -->
+  <string name="spoken_emoji_unknown">"Ukendt emoji"</string>
+  <!-- Spoken description for emoticons ":-!". -->
+  <string name="spoken_emoticon_3A_2D_21_20">"Træt ansigt"</string>
+  <!-- Spoken description for emoticons ":-$". -->
+  <string name="spoken_emoticon_3A_2D_24_20">"Forlegent ansigt"</string>
+  <!-- Spoken description for emoticons "B-)". -->
+  <string name="spoken_emoticon_42_2D_29_20">"Ansigt med solbriller"</string>
+  <!-- Spoken description for emoticons ":O". -->
+  <string name="spoken_emoticon_3A_4F_20">"Overrasket ansigt"</string>
+  <!-- Spoken description for emoticons ":-*". -->
+  <string name="spoken_emoticon_3A_2D_2A_20">"Kyssende ansigt"</string>
+  <!-- Spoken description for emoticons ":-[". -->
+  <string name="spoken_emoticon_3A_2D_5B_20">"Surt ansigt"</string>
+  <!-- Spoken descriptions when opening a more keys keyboard that has alternative characters. -->
+  <string name="spoken_open_more_keys_keyboard">"Alternative tegn er tilgængelige"</string>
+  <!-- Spoken descriptions when closing a more keys keyboard that has alternative characters. -->
+  <string name="spoken_close_more_keys_keyboard">"Alternative tegn er deaktiveret"</string>
+  <!-- Spoken descriptions when opening a more suggestions panel that has alternative suggested words. -->
+  <string name="spoken_open_more_suggestions">"Alternative forslag er tilgængelige"</string>
+  <!-- Spoken descriptions when closing a more suggestions panel that has alternative suggested words. -->
+  <string name="spoken_close_more_suggestions">"Alternative forslag er deaktiveret"</string>
+</resources>

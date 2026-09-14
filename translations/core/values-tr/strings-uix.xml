@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Tema Değiştirici</string>
+  <string name="action_select_all_title">Tümünü Seç</string>
+  <string name="action_cut_title">Panoya Kes</string>
+  <string name="action_copy_title">Panoya Kopyala</string>
+  <string name="action_paste_title">Panodan Yapıştır</string>
+  <string name="action_undo_title">Geri Al</string>
+  <string name="action_redo_title">Yinele</string>
+  <string name="action_text_editor_title">Metin Düzenleyici</string>
+  <string name="action_debug_title">Hata Ayıklama Bilgisi</string>
+  <string name="action_more_actions_title">Tüm Eylemler</string>
+  <string name="action_bug_viewer_title">Hata Görüntüleyici</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Yukarı Ok</string>
+  <string name="action_cursor_down_title">Aşağı Ok</string>
+  <string name="action_cursor_left_title">Sol Ok</string>
+  <string name="action_cursor_right_title">Sağ Ok</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emojiler</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Son Kullanılanlar</string>
+  <string name="action_emoji_category_smileys_emotion">Gülümsemeler &amp; Duygular</string>
+  <string name="action_emoji_category_people_body">İnsanlar &amp; Vücut</string>
+  <string name="action_emoji_category_animals_nature">Hayvanlar &amp; Doğa</string>
+  <string name="action_emoji_category_food_drink">Yiyecek &amp; İçecek</string>
+  <string name="action_emoji_category_travel_places">Seyahat &amp; Yerler</string>
+  <string name="action_emoji_category_activities">Aktiviteler</string>
+  <string name="action_emoji_category_objects">Nesneler</string>
+  <string name="action_emoji_category_symbols">Semboller</string>
+  <string name="action_emoji_category_flags">Bayraklar</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Sonuç bulunamadı</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\"><xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g> kategorisine atla</string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Son kullanılan emojileri temizlemek istiyor musunuz?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">İptal</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Temizle</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Son kullanılan emojileri temizle</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Ara</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Ses Girişi</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Ses Girişi (Sistem)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\"><xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g> için ses girişi modeli yüklü değil, seçenekleri kontrol etmek için dokunun?</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Lütfen İzinler bölümüne gidin ve Mikrofon iznini etkinleştirerek sesli girişi kullanın</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Pano Yöneticisi</string>
+  <string name="action_clipboard_manager_unpin_item">Sabitlemeyi kaldır</string>
+  <string name="action_clipboard_manager_pin_item">Sabitle</string>
+  <string name="action_clipboard_manager_remove_item">Öğeyi Kaldır</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">Kaldırmayı onayla:\n\"%s\"</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">İptal</string>
+  <string name="action_clipboard_manager_disable_text">Temizlenecek öğe yok. Pano geçmişini devre dışı bırakmak ister misiniz?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Devre Dışı Bırak</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Temizlenecek sabitlenmemiş öğe yok. Tüm öğeleri sabitlenmemiş olarak kaldırmak ister misiniz?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Sabitlemeyi kaldır</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Tüm sabitlenmemiş öğeleri temizlemek ister misiniz?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Temizle</string>
+  <string name="action_clipboard_manager_clear_clipboard">Panoyu Temizle</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Cihaz Kilitli</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Pano geçmişine erişmek için lütfen cihazınızı kilidini açın</string>
+  <string name="action_clipboard_manager_error_general_title">Pano Hatası</string>
+  <string name="action_clipboard_manager_error_general_text">Pano geçmişi kaydedilemedi veya yüklenemedi. Bozulmuş olabilir. Silmeyi veya klavyeyi yeniden başlatmayı deneyebilirsiniz. Lütfen bunu bir hata olarak bildirin. Sebep: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Panoyu silmek istiyor musunuz? TÜM öğeler kaybolacak.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Tekrar dene</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Hata Görüntüleyicide hatayı denetle</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Sil</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Pano Geçmişi Pasif</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">Pano öğelerini kaydetmek için pano geçmişini etkinleştirebilirsiniz. Bu, en fazla <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> öğeyi <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> gün boyunca saklar (sabitlenmiş öğeler bundan muaftır). Bunu ayarlardan yapılandırabilirsiniz.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Pano Geçmişini Etkinleştir</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Uygulama resim eklemeyi desteklemiyor</string>
+  <string name="action_clipboard_manager_settings_title">Pano Yöneticisi Ayarları</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Sabitlenmemiş panoları saklama süresi (saat olarak)</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Saklanacak sabitlenmemiş öğe sayısı</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Hassas içerikleri kaydet</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Etkinleştirilirse, parola yöneticileri, gizli sekmeler gibi kaynaklardan gelen öğeler kaydedilir</string>
+  <string name="action_clipboard_manager_settings_list_layout">Izgara yerine dikey liste düzenini kullan</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Sabitlenen parçaları üstte tut</string>
+  <string name="action_clipboard_manager_settings_skip_delete_confirmation">Klipleri silerken onayı atla</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Öneri çubuğunda son kopyalanan metni göster</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Klavye Modları</string>
+  <string name="action_keyboard_modes_go_back">Geri git</string>
+  <string name="action_keyboard_modes_resize_keyboard">Klavye Boyutunu Değiştir</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standart</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Tek El</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Bölünmüş</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Kayan</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Sıfırla</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Uygula</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">Yazı Biçimleri</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Uygulama görüntü eklemeyi desteklemeyebilir, bu nedenle bu özellik düzgün çalışmayabilir.</string>
+  <string name="action_fonttyper_select_a_preset">Ön ayarı seç</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Çizik</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Süper kahraman</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Dramatik Metin</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Şeker</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Gökkuşağı</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Ufuk</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">Açılış Yazısı</string>
+  <string name="action_fonttyper_finish">Bitir</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Eylem Tuşu</string>
+  <string name="action_kind_pinned_key">Sabitlenmiş Eylem(ler)</string>
+  <string name="action_kind_favorites">Favori Eylemler</string>
+  <string name="action_kind_more">Daha Fazla Eylem</string>
+  <string name="action_kind_disabled">Gizli Eylemler</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Karanlık Mod</string>
+  <string name="theme_default_light">Aydınlık Mod</string>
+  <string name="theme_amoled_dark">AMOLED Koyu Mor</string>
+  <string name="theme_catppuccin_mocha">Catppuccin Mocha</string>
+  <string name="theme_classic_dark">AOSP Materyal Koyu</string>
+  <string name="theme_classic_light">AOSP Materyal Aydınlık</string>
+  <string name="theme_vi">FUTO VI Teması</string>
+  <string name="theme_deepsea_dark">Derin Deniz Karanlık</string>
+  <string name="theme_deepsea_light">Derin Deniz Aydınlık</string>
+  <string name="theme_emerald">Zümrüt</string>
+  <string name="theme_gradient1">Grafik 1</string>
+  <string name="theme_gradient2">Grafik 2</string>
+  <string name="theme_rainbow">Gökkuşağı</string>
+  <string name="theme_snowfall">Kar Yağışı</string>
+  <string name="theme_steel_gray">Çelik Gri</string>
+  <string name="theme_sunflower">Ayçiçeği</string>
+  <string name="theme_cotton_candy">Pamuk Şeker</string>
+  <string name="theme_hotdog">Sosisli Sandviç</string>
+  <string name="theme_high_contrast_yellow">Yüksek Kontrast Sarı</string>
+  <string name="theme_dev">İnşaat Teması</string>
+  <string name="theme_dynamic_system">Dinamik Otomatik</string>
+  <string name="theme_dynamic_dark">Dinamik Koyu</string>
+  <string name="theme_dynamic_light">Dinamik Aydınlık</string>
+  <string name="theme_custom_named">Özel: %s</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Güncelleme Kontrol Servisi</string>
+  <string name="autoupdater_update_available_title">Güncelleme Mevcut</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">Bir güncelleme mevcut (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). İndirmek için dokunun</string>]]></string>
+  <string name="autoupdater_dismiss_update">Kapat</string>
+  <string name="autoupdater_perform_update">Güncelle</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body">“%1$s” önerilerden çıkarılsın mı?</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Kara liste</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Emoji önerilerini devre dışı bırak</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Alpha</string>
+  <string name="keyboard_switch_keyboard">Klavye Değiştir</string>
+  <string name="keyboard_language_settings">Ayarlar</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Güncellemeleri kontrol etmek için dokunun veya ayarlardan kontrol edin</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Hiçbir sözlük yüklü değil, indirmek için dokunun?</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Eylem Çubuğunu Aç</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Eylem Çubuğunu Kapat</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Kapat</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Geri</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Klavyeyi göster</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Kapat</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Daralt</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Ödeme</string>
+  <string name="payment_screen_title">FUTO Klavye için Ödeme Yap</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">&quot;FUTO Klavye\'yi <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> gündür kullanıyorsunuz. Bu uygulamayı faydalı buluyorsanız, FUTO yazılımının gelecekteki geliştirmelerini desteklemek için ödeme yapmayı düşünün.&quot;</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">\"FUTO Klavye\'yi denediğiniz için teşekkürler! Bu uygulamayı faydalı buluyorsanız, FUTO yazılımının gelecekteki geliştirmelerini desteklemek için ödeme yapmayı düşünün.\"</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO, sizi kötüye kullanmayan iyi yazılımlar yapmaya kendini adamıştır. Bu uygulama asla reklam göstermez veya kişisel verilerinizi toplamaz.</string>
+  <string name="payment_screen_sales_point_development_title">Sürdürülebilir Geliştirme</string>
+  <string name="payment_screen_sales_point_development_body">FUTO’nun misyonu, açık kaynak yazılım ve zararsız yazılım iş modellerinin, projeler ve geliştiriciler için sürdürülebilir bir gelir kaynağı haline gelmesini sağlamaktır. Bu nedenle, kullanıcıların yazılım için gerçekten ödeme yapmasından yanayız.</string>
+  <string name="payment_screen_sales_point_privacy_title">Gizliliğe Bağlılık</string>
+  <string name="payment_screen_sales_point_privacy_body">Bu uygulama asla reklam göstermez veya verilerinizi satmaz. Biz bu işin içinde değiliz.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Bu sürümde ödeme desteklenmiyor</string>
+  <string name="payment_screen_already_paid_title">Zaten ödeme yaptınız mı?</string>
+  <string name="payment_screen_already_paid_body">Eğer FUTO Klavye veya FUTO Ses Girişi için zaten ödeme yaptıysanız, aşağıya dokunun.</string>
+  <string name="payment_screen_already_paid_button">Zaten ödeme yaptım</string>
+  <string name="payment_screen_already_paid_confirmation">Seçiminizi onaylayın</string>
+  <string name="payment_screen_already_paid_confirmation_body">Zaten ödeme yaptığınızı onaylamak istediğinizden emin misiniz? Onaylandıktan sonra tekrar ödeme yapmanız istenmeyecek.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Zaten ödeme yaptım</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">İptal</string>
+  <string name="payment_screen_set_reminder_title">Henüz ödemeye hazır değil misiniz?</string>
+  <string name="payment_screen_set_reminder_body">Bu, ayarlardaki hatırlatmayı girdiğiniz gün sayısı kadar gizleyecektir.</string>
+  <string name="payment_screen_set_reminder_setter">Ne zaman hatırlatılmak istersiniz?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">7 gün içinde</string>
+  <string name="payment_screen_set_reminder_setter_1_month">1 ay içinde</string>
+  <string name="payment_screen_set_reminder_setter_6_months">6 ay içinde</string>
+  <string name="payment_screen_set_reminder_setter_next_century">gelecek yüzyılda</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Hatırlatmayı onayla</string>
+  <string name="payment_screen_other_options">Diğer Seçenekler</string>
+  <string name="payment_screen_need_help_title">Yardım</string>
+  <string name="payment_screen_need_help_subtitle">Yardım mı gerekiyor? Web sitemizi ziyaret edin</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Google Play ile Öde (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + vergi)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">Öde (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + vergi)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay2"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay2\\\">FUTO Pay ile öde (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + vergi)</string>]]></string>
+  <string name="payment_screen_more_options">Daha Fazla Seçenek</string>
+  <string name="payment_screen_payment_complete_title">Ödeme Tamamlandı</string>
+  <string name="payment_screen_aftersales_title">Teşekkürler</string>
+  <string name="payment_screen_aftersales_title_pending">Ödeme Beklemede</string>
+  <string name="payment_screen_aftersales_paragraph_1">\"FUTO Klavye\'yi satın aldığınız için teşekkür ederiz!\"</string>
+  <string name="payment_screen_aftersales_paragraph_2">Satın alımınız, FUTO Klavye ve diğer FUTO projelerinin devam eden geliştirilmesine yardımcı olacaktır.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Ödemeniz hala beklemede, ancak yakında onaylanması gerekir.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Eğer yeni ödeme yaptıysanız, ödemeniz hala işleniyor olabilir; daha fazla bilgi içeren bir e-posta alacaksınız.</string>
+  <string name="payment_screen_payment_failed_title">Ödeme Hatası</string>
+  <string name="payment_screen_payment_failed_body">\"Maalesef, ödemeniz bir sebepten dolayı başarısız oldu. Yardıma ihtiyacınız varsa lütfen bizimle iletişime geçin. Bize keyboard@futo.org adresinden, aşağıdaki butonla veya Yardım\'daki Geri Bildirim ile ulaşabilirsiniz.\"</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Ödemenizde bir sorun olmuş olabilir. Eğer ödeme gerçekleştiyse, bir lisans anahtarı içeren bir e-posta almanız gerekir. Yardıma ihtiyacınız varsa lütfen bizimle iletişime geçin. Bize keyboard@futo.org adresinden, aşağıdaki butonla veya ana ekrandaki Geri Bildirim ile ulaşabilirsiniz.</string>
+  <string name="payment_screen_license_integrity_error">Lisans doğrulaması başarısız oldu. Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin.</string>
+  <string name="payment_screen_continue_button">Devam et</string>
+  <string name="payment_unpaid_version_title">Ödenmemiş FUTO Klavye</string>
+  <string name="payment_unpaid_version_indicator">Ödenmemiş</string>
+  <string name="payment_paid_version_indicator">Ücretli FUTO Klavye sürümünü kullandığınız için teşekkür ederiz!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Güncellemeler Hakkında</string>
+  <string name="manual_update_notice_paragraph_1">Bu uygulama internete bağlanmaz ve otomatik güncellemeleri kontrol edemez. Ancak, güncellemeleri manuel olarak kontrol edebilirsiniz.</string>
+  <string name="manual_update_notice_paragraph_2">Otomatik güncellemeler için lütfen F-Droid veya Obtainium kullanın. İndirme seçenekleri için keyboard.futo.org adresini ziyaret edin.</string>
+  <string name="manual_update_notice_dev_paragraph">\"FUTO Klavye\'nin geliştirme sürümündesiniz. Kararlı sürümü indirmek istiyorsanız keyboard.futo.org adresini ziyaret edin.\"</string>
+  <string name="manual_update_notice_visit_site_button">Ziyaret et</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Kapat</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">İpucu</string>
+  <string name="settings_unknown_error_title">Bilinmeyen Hata</string>
+  <string name="settings_unknown_error_subtitle">Bilinmeyen bir hata oluştu.</string>
+  <string name="settings_try_typing_here">Buraya yazmayı deneyin…</string>
+  <string name="settings_external_model_name">Dış kaynaklı model</string>
+  <string name="settings_check_for_updates_manually">Güncellemeleri manuel olarak kontrol et</string>
+  <string name="settings_update_available">Güncelleme Mevcut</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Ana sayfa</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">Bu seçenek, başka bir seçeneğe bağlı olduğu için kapalıdır. Menüye gitmek için dokunun: %1$s</string>
+  <string name="settings_search_menu_title">Ara</string>
+  <string name="settings_search_enter_your_search">Arama terimi girin…</string>
+  <string name="settings_search_no_options_found">Sonuç bulunamadı</string>
+  <string name="misc_settings_title">Çeşitli</string>
+  <string name="setting_section_collapsed">Daraltılmış</string>
+  <string name="setting_section_expanded">Genişletilmiş</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Diller ve Modeller</string>
+  <string name="language_settings_add_language_button">Dil ekle</string>
+  <string name="language_settings_select_language">Eklenecek dili seçin</string>
+  <string name="language_settings_search">Ara</string>
+  <string name="language_settings_select_layout">Eklemek için bir düzen seçin</string>
+  <string name="language_settings_warning_language_has_no_dict">Bu dilin yerleşik bir sözlüğü yok. Otomatik düzeltme ve kelime önerileri almak için bir tane indirip içe aktarmanızı öneririz.</string>
+  <string name="language_settings_resource_none">(Yok)</string>
+  <string name="language_settings_layouts_of_this_language">Klavye Düzenleri</string>
+  <string name="language_settings_add_layout_for_this_language">Klavye Düzeni Ekle</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Çok Dilli Yazma</string>
+  <string name="language_settings_remove_this_language">Dili Kaldır</string>
+  <string name="language_settings_manage_languages_title">Dilleri ve düzenleri yönet</string>
+  <string name="language_settings_manage_languages_subtitle">Etkinleştirdiğiniz dilleri görüntüleyin, dilleri kaldırın, düzenleri değiştirin veya ekleyin ya da çok dilli yazmayı açıp kapatın</string>
+  <string name="language_settings_resource_imported_indicator">(İçe Aktarıldı)</string>
+  <string name="language_settings_resource_unsupported_indicator">(Desteklenmiyor)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Yerleşik Sözlük</string>
+  <string name="language_settings_resource_voice_input_selected">Ses girişi modelini varsayılan ayarlara döndürmek mi yoksa başka bir dosya ile değiştirmek mi istersiniz?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Bu dil için yerleşik sesli giriş modeli yok, bu yüzden modeli kaldırırsanız, farklı bir model içe aktarana kadar sesli giriş bu dilde çalışmayacaktır!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Bu dil için özel bir ses girişi modeli yapılandırmadınız. İnternetten indirme seçeneklerini keşfedebilir veya bir dosyadan içe aktarabilirsiniz.</string>
+  <string name="language_settings_resource_transformer_selected">Dönüştürücü modelini varsayılan ayarlara döndürmek mi yoksa başka bir dosya ile değiştirmek mi istersiniz?</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">Bu dil için yerleşik bir dönüştürücü modeli yok, bu nedenle eğer bunu kaldırırsanız, dönüştürücü tabanlı tahminler bu dil için çalışmayacaktır, başka bir model içe aktarana kadar!</string>
+  <string name="language_settings_resource_transformer_selected_unset">Bu dil için özel bir dönüştürücü modeli yapılandırmadınız. İnternetten indirme seçeneklerini keşfedebilir veya bir dosyadan içe aktarabilirsiniz.</string>
+  <string name="language_settings_resource_dictionary_selected">Sözlüğü varsayılan ayarlara döndürmek mi yoksa başka bir dosya ile değiştirmek mi istersiniz?</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">Bu dil için yerleşik sözlük bulunmamaktadır, bu yüzden sözlüğü kaldırırsanız, farklı bir sözlük yükleyene kadar otomatik düzeltme ve tahminler bu dilde çalışmayacaktır!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">Bu dil için özel bir sözlük yapılandırmadınız. İnternetten indirme seçeneklerini keşfedebilir veya bir dosyadan içe aktarabilirsiniz.</string>
+  <string name="language_settings_resource_replace_button">Değiştir</string>
+  <string name="language_settings_resource_import_file_button">İçe aktar</string>
+  <string name="language_settings_resource_revert_to_default_button">Varsayılan Ayarlara Dön</string>
+  <string name="language_settings_resource_remove_button">Kaldır</string>
+  <string name="language_settings_resource_explore_online_button">Keşfet</string>
+  <string name="language_settings_remove_language_title">%1$s silinsin mi?</string>
+  <string name="language_settings_remove_language_body">%1$s kaldırılsın mı? Tüm ilişkili düzenleri ve özel kaynakları da silinecek.</string>
+  <string name="language_settings_remove_language_remove_button">Kaldır</string>
+  <string name="language_settings_remove_language_cancel_button">İptal</string>
+  <string name="language_settings_other_options">Diğer seçenekler</string>
+  <string name="language_settings_import_resource_from_file">Kaynak dosyasını içe aktar</string>
+  <string name="language_settings_explore_voice_input_models_online">Ses girişi modellerini keşfet</string>
+  <string name="language_settings_explore_dictionaries_online">Sözlükleri keşfet</string>
+  <string name="language_settings_explore_transformers_online">Dönüştürücü modelleri keşfet</string>
+  <string name="language_settings_import_dictionary_or_model">Sözlük veya model içe aktar</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Ses Girişi Modeli</string>
+  <string name="file_kind_transformer_model">Dönüştürücü Modeli</string>
+  <string name="file_kind_dictionary">Sözlük</string>
+  <string name="file_kind_invalid_file">Geçersiz dosya</string>
+  <string name="file_kind_cfg_backup">Yapılandırma Yedeklemesi</string>
+  <string name="resource_importer_import_title">İçe aktar - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">Hata: Bu dosya, derlenmiş bir sözlük (.dict) dosyası yerine bir kaynak kelime listesi (_wordlist.combined) gibi görünüyor.</string>
+  <string name="resource_importer_error_wordlist_2">Lütfen kelime listesi yerine derlenmiş sözlük dosyasını indirin. Eğer bu kelime listesini kendiniz oluşturduysanız, dicttool kullanarak harici olarak derleyin.</string>
+  <string name="resource_importer_error_invalid_fiile">Hata: Bu dosya tanınamadı. Geçersiz olabilir veya bozulmuş olabilir. Yeniden indirmeyi deneyin veya farklı bir dosya deneyin.</string>
+  <string name="resource_importer_cancel_button">İptal</string>
+  <string name="resource_importer_import_button">İçe aktar</string>
+  <string name="resource_importer_file_info">Dosya bilgisi: %1$s</string>
+  <string name="resource_importer_importing">%1$s dili için içe aktarılıyor:</string>
+  <string name="resource_importer_importing_cfg">Yapılandırma içe aktarılıyor… Lütfen işlem tamamlanana kadar bu menüyü kapatmayın (5–10 saniye)</string>
+  <string name="resource_importer_select_language">İçe aktarılacak dili seçin:</string>
+  <string name="resource_importer_warning_language_missing">Bu dosya, ayarlarda etkinleştirilmemiş bir dil (%1$s) için tasarlanmış gibi görünüyor.</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">Bu yapılandırma yedeğini içe aktarmak istediğinizden emin misiniz? Bu işlem tüm ayarlarınızı, kişisel sözlüğünüzü (tüm sistem için), öğrenilmiş sözlük kelimelerini, içe aktarılmış kaynakları ve daha fazlasını değiştirecektir. Emin değilseniz, önce başka bir yedek oluşturun.</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">Bu yapılandırma yedeği FUTO Keyboard’un daha yeni bir sürümüyle oluşturulmuş ve düzgün içe aktarılamayabilir. Önce FUTO Keyboard’u güncellemeyi deneyin.</string>
+  <string name="settings_export_configuration_title">Ayarları Yedekle</string>
+  <string name="settings_export_configuration">Yapılandırmayı dışa aktar</string>
+  <string name="settings_export_configuration_subtitle">Tüm ayarlarınızı, panonuzu, öğrenilmiş sözcüklerinizi, kaynaklarınızı ve daha fazlasını yedekleyin.</string>
+  <string name="settings_export_configuration_exporting">Yapılandırma dışa aktarılıyor…</string>
+  <string name="settings_export_configuration_exporting_text">Lütfen işlem tamamlanana kadar bu menüyü kapatmayın (5–10 saniye)</string>
+  <string name="settings_import_configuration">Yapılandırmayı içe aktar</string>
+  <string name="settings_import_configuration_subtitle">Daha önce yapılandırmanızı dışa aktardıysanız, buradan yeniden içe aktarabilirsiniz.</string>
+  <string name="settings_import_export_tags">yedekle, geri yükle, kaydet, yükle, dışa aktar, içe aktar, cihaz aktarımı</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Eylemleri Düzenle</string>
+  <string name="action_editor_subtitle">Favori eylemleri, sabitlenmiş eylemleri ve boşluk tuşunun yanındaki eylem tuşunu düzenleyin</string>
+  <string name="action_editor_edit_actions">Eylemleri Düzenle</string>
+  <string name="action_editor_warning_no_actions">Hiçbir eylem etkinleştirilmemiş</string>
+  <string name="action_editor_error_more_than_one_action_key">Lütfen yalnızca bir eylem tuşu atayın. Eylem tuşuna birden fazla eylem atayamazsınız.</string>
+  <string name="action_editor_warning_too_many_pinned">Lütfen daha az eylem sabitlemeyi düşünün. Bu kadar çok eylemi barındırmak için öneri çubuğu küçültülmek zorunda kalacaktır.</string>
+  <string name="action_editor_add_next_action">Sonraki Eylemi Ekle</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Eylemler</string>
+  <string name="action_settings_quick_options_title">Hızlı Seçenekler</string>
+  <string name="action_settings_quick_option_enable_action_key">Eylem tuşunu etkinleştir</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">Boşluk tuşunun solunda hızlı erişim için bir tuş gösterin. Bunu etkinleştirmek bir emoji tuşu ekler, ancak “Eylemleri Düzenle” bölümünden özelleştirilebilir.</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">Boşluk tuşunun solunda hızlı erişim için bir tuş gösterin. Bunu devre dışı bırakmak, şu anda atanmış eylemi taşıyacaktır: %s</string>
+  <string name="action_settings_quick_option_language_switch_key">Dil değiştirme tuşu</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">Emoji tuşunu dil değiştirme tuşuyla değiştirin. Başka bir şey atamak için “Eylemleri Düzenle” bölümüne gidin.</string>
+  <string name="action_settings_action_settings">Eylem Ayarları</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">Klavye Boyutunu Değiştir</string>
+  <string name="size_settings_subtitle2">Klavye boyutunu değiştirin, tek elle kullanımı, kayan veya bölünmüş modu etkinleştirin</string>
+  <string name="size_settings_resize_tip">Boyutlandırmak için \"Klavye Boyutunu Değiştir\" butonuna dokunun.</string>
+  <string name="size_settings_keyboard_modes_tip">Bunu her yerde Klavye Modları eylemi ile erişebilirsiniz:</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">Boyut ve mod, dikey ve yatay modlar için ayrı ayrı kaydedilir.</string>
+  <string name="size_settings_reset">Boyut ayarlarını sıfırla</string>
+  <string name="size_settings_reset_subtitle">Portre ve manzara için tüm boyutları ve modları varsayılan ayarlara döndürmek için dokunun</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">Uzun Basma Tuşları &amp; Boşluk Tuşu</string>
+  <string name="morekey_settings_subtitle">Uzun basma süresini, harf/simbol sıralamasını ve boşluk tuşu ile silme tuşunun davranışını yapılandırın.</string>
+  <string name="morekey_settings_layout">Uzun basma tuşlarının düzeni</string>
+  <string name="morekey_settings_reset">Varsayılan ayarlara sıfırla</string>
+  <string name="morekey_settings_move_kind_up">Yukarı taşı</string>
+  <string name="morekey_settings_move_kind_down">Aşağı taşı</string>
+  <string name="morekey_settings_move_kind_up_to_top">En üste taşı</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">En alta taşı</string>
+  <string name="morekey_settings_active">Aktif</string>
+  <string name="morekey_settings_inactive">Pasif</string>
+  <string name="morekey_settings_reactivate">Yeniden etkinleştir</string>
+  <string name="morekey_settings_disable">Devre Dışı Bırak</string>
+  <string name="morekey_settings_keys">Uzun Basma Tuşları</string>
+  <string name="morekey_settings_show_hints">İpuçlarını Göster</string>
+  <string name="morekey_settings_show_hints_subtitle">Her tuşta, birincil uzun basma tuşunu gösteren küçük bir ipucu görüntüleyin</string>
+  <string name="morekey_settings_show_hints_tags">ek karakterler, alt tuşları, semboller, açılır pencere tuşları</string>
+  <string name="morekey_settings_duration">Uzun Basma Süresi</string>
+  <string name="morekey_settings_duration_subtitle">Bir tuşun uzun basma olarak kabul edilmesi için ne kadar süre basılı tutulması gerektiği</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Sayılar</string>
+  <string name="morekey_settings_kind_numbers_example">örn. [1] [q] tuşunda</string>
+  <string name="morekey_settings_kind_language_keys">Dil tuşları</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">\"örn. [ñ] [n] tuşunda İspanyolca\'da\"</string>
+  <string name="morekey_settings_kind_symbols">Semboller</string>
+  <string name="morekey_settings_kind_symbols_example">örn. [@] [a] tuşunda</string>
+  <string name="morekey_settings_kind_actions">Hızlı eylemler</string>
+  <string name="morekey_settings_kind_actions_example">örn. [Kopyala] [c] tuşunda</string>
+  <string name="morekey_settings_kind_misc_common">Yaygın dillerden çeşitli harfler</string>
+  <string name="morekey_settings_kind_misc_common_example">örn. [ß] [s] tuşunda tüm Latin alfabesi dillerinde</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">Yazma Tercihleri</string>
+  <string name="typing_settings_suggest_emojis">Emoji Önerileri</string>
+  <string name="typing_settings_suggest_emojis_subtitle">Yazarken emojileri önerin</string>
+  <string name="typing_settings_vibration_strength">Titreşim</string>
+  <string name="typing_settings_vibration_strength_default">Varsayılan</string>
+  <string name="typing_settings_keypress_sound_volume">Ses Seviyesi</string>
+  <string name="typing_settings_keypress_sound_volume_default">Varsayılan</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">Ses ayarı, bazı Android sürümlerinde etkili olmayabilir.</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">Zil sesi modu sessiz veya titreşimdeyse ses çalmayacaktır.</string>
+  <string name="typing_settings_enable_clipboard_history">Pano Geçmişi</string>
+  <string name="typing_settings_enable_clipboard_history_tags">kopyala, yapıştır</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">Geri tuşuna basıldığında yapıştırılan/eklenen metni sil</string>
+  <string name="typing_settings_revert_correction_on_backspace">Geri tuşuyla otomatik düzeltmeyi geri al</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">Otomatik boşluk modu</string>
+  <string name="typing_settings_auto_space_mode_auto2">Öneriler ve noktalama işaretlerinden sonra hemen boşluk bırak</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">Önerilerden sonra hemen boşluk bırak</string>
+  <string name="typing_settings_auto_space_mode_legacy2">Önerilerden sonra gecikmeli boşluk (eski mod)</string>
+  <string name="typing_settings_auto_space_mode_none2">Devre dışı (önerilmez)</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Klavye</string>
+  <string name="keyboard_settings_show_number_row">Sayı Satırını Göster</string>
+  <string name="keyboard_settings_show_number_row_subtitle">Etkin olduğunda, sayı satırı desteklenen düzenlerde klavyenin üst kısmında gösterilir</string>
+  <string name="keyboard_settings_show_arrow_row">Ok Tuşlarını Göster</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">Etkin olduğunda, ok tuşları satırı klavyenin alt kısmında gösterilir</string>
+  <string name="keyboard_settings_extra_layouts">Ek Düzenler</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">Diller ekranında ek düzenleri yapılandırın</string>
+  <string name="keyboard_settings_show_suggestion_row">Eylem/öneri çubuğunu göster</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">Önerileri içeren çubuğu gösterin. Etkin tutmanız önerilir</string>
+  <string name="keyboard_settings_inline_autofill">Satır İçi Otomatik Doldurma</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">Öneri çubuğunda şifre yöneticisi otomatik doldurmayı gösterin</string>
+  <string name="keyboard_settings_period_key">Hızlı nokta tuşu</string>
+  <string name="keyboard_settings_period_key_subtitle2">Uzun basılan nokta tuşunun düzenini kaydırılabilir bir düzenle değiştirir: ! , . ?</string>
+  <string name="keyboard_settings_number_row_title">Rakam satırı</string>
+  <string name="keyboard_settings_number_row_style">Rakam satırı stili</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">Kompakt</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">Anahtar</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">Her zaman Batı rakamlarını kullan</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Klavye &amp; Yazma</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">Tema</string>
+  <string name="theme_settings_key_borders">Tuş Kenarları</string>
+  <string name="theme_settings_default_themes">Dahili</string>
+  <string name="theme_settings_seasonal_themes">Mevsimlik</string>
+  <string name="theme_settings_custom_themes">Temalarınız</string>
+  <string name="theme_settings_custom_theme_delete_title">Özel temayı silmek istiyor musunuz?</string>
+  <string name="theme_settings_custom_theme_delete_body">Tema: %s</string>
+  <string name="theme_settings_custom_theme_delete_confirm">Sil</string>
+  <string name="theme_settings_custom_theme_delete_cancel">İptal</string>
+  <!-- Theme customizer -->
+  <string name="theme_customizer_select_background_image_button">Resim seç</string>
+  <string name="theme_customizer_adjust_background_image_hint">Resmi ayarlamak için sürükleyin veya sıkıştırın</string>
+  <string name="theme_customizer_transparency_slider_name">Şeffaflık</string>
+  <string name="theme_customizer_blur_slider_name">Bulanıklık</string>
+  <string name="theme_customizer_color_sliders_name">Renk</string>
+  <string name="theme_customizer_dark_mode_toggle">Karanlık mod</string>
+  <string name="theme_customizer_light_mode_toggle">Aydınlık mod</string>
+  <string name="theme_customizer_finish_theme_adjustment">Bitir</string>
+  <string name="theme_customizer_load_custom_theme_file">ZIP dosyasından yükle</string>
+  <string name="theme_customizer_import_custom_theme_menu_title">Özel temayı içe aktar</string>
+  <string name="theme_customizer_import_custom_theme_name_text">Tema adı: %s</string>
+  <string name="theme_customizer_import_custom_theme_author_text">Yazar: %s</string>
+  <string name="dev_settings_title">Geliştirici Ayarları</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Ses Girişi</string>
+  <string name="voice_input_settings_builtin_disabled_notice">Yerleşik ses girişi devre dışı bırakıldı!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Yerleşik ses girişini devre dışı bırak</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">Dış uygulama tarafından sağlanan ses girişini kullanın</string>
+  <string name="voice_input_settings_indication_sounds">Göstergeler için sesler</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">Başlatma ve iptal sırasında kısa bir ses çal</string>
+  <string name="voice_input_settings_verbose_progress">Ayrıntılı ilerleme</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">Kullanılan mikrofon gibi ek bilgileri gösterin</string>
+  <string name="voice_input_settings_use_personal_dict">Ses için Kişisel Sözlük</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">Sesli girişte kişisel sözlüğün kullanılıp kullanılmayacağı</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Bluetooth Mikrofonunu Tercih Et</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">Bluetooth SCO bağlantısının müzakere edilmesi gerektiğinden kaydın başlamasında ekstra gecikme olabilir</string>
+  <string name="voice_input_settings_audio_focus">Ses Odaklama</string>
+  <string name="voice_input_settings_audio_focus_subtitle">Ses girişi etkinleştirildiğinde videolar/müzikler duraklatılsın</string>
+  <string name="voice_input_settings_suppress_symbols">Sembolleri Bastır</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">Ses girişinin sembol çıkarmasını engelleyin</string>
+  <string name="voice_input_settings_long_form">Uzun Form Ses Girişi</string>
+  <string name="voice_input_settings_long_form_subtitle">Devre dışı bırakılırsa, ses girişi 30 saniye sonra otomatik olarak duracaktır.</string>
+  <string name="voice_input_settings_autostop_vad">Sessizlikte otomatik durdurma</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">Sessizlik algılandığında otomatik olarak durun. Arka planda çok fazla gürültü varsa manuel olarak durdurmanız gerekebilir.</string>
+  <string name="voice_input_settings_change_models">Modeller</string>
+  <string name="voice_input_settings_change_models_subtitle">Modelleri değiştirmek için Diller &amp; Modeller menüsüne gidin</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">Metin Tahmini</string>
+  <string name="prediction_settings_transformer">Dönüştürücü LM</string>
+  <string name="prediction_settings_transformer_finetuning">Dönüştürücü ince ayarı</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">Etkinleştirildiğinde bataryanızı tüketebilir! Bu özellik daha fazla çalışma bekliyor</string>
+  <string name="prediction_settings_transformer_models">Dönüştürücü Modelleri</string>
+  <string name="prediction_settings_transformer_alpha_notice">Not: Dönüştürücü LM alpha aşamasındadır</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">Bu ayarlar deneysel olup yalnızca İngilizce için geçerlidir. Diğer dillerde hiçbir etkisi yoktur.</string>
+  <string name="prediction_settings_smart_keyhit_detection">Akıllı tuş vuruşu algılama</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">İlgili sonraki tuşları belirlemek için sözlük kullanır ve vuruş alanlarını artırır. Silme tuşundan sonra artırma yapılmaz</string>
+  <string name="prediction_settings_word_blacklist">Kelime Siyah Listesi</string>
+  <string name="prediction_settings_word_blacklist_add">Siyah listeye ekle</string>
+  <string name="prediction_settings_word_blacklist_none">Siyah listeye alınmış kelime yok.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">Kara listedeki sözcükleri görüntüle ve düzenle</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">Kara listeye alınmış önerileri görüntülemek, eklemek veya kaldırmak için buraya tıklayın</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">Sözcüğü kaldır</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Yardım &amp; Geri Bildirim</string>
+  <string name="help_menu_version_name">Sürüm Adı: %1$s</string>
+  <string name="help_menu_version_code">Sürüm Kodu: %1$s</string>
+  <string name="help_menu_version_tip">Sizden haber almak istiyoruz! Bir sorun bildiriyorsanız, sürümünüz ilgili olabilir: v%1$s</string>
+  <string name="help_menu_website">FUTO Website</string>
+  <string name="help_menu_website_subtitle">Hakkımızda ve felsefemiz hakkında daha fazla bilgi edinin</string>
+  <string name="help_menu_website_tags">indir, uygulamalar, sesli giriş</string>
+  <string name="help_menu_documentation">Belgeler</string>
+  <string name="help_menu_documentation_subtitle">Klavye özellikleri ve yetenekleri hakkında daha fazla bilgi edinin</string>
+  <string name="help_menu_discord">Discord Sunucusu</string>
+  <string name="help_menu_discord_subtitle">\"Konuşmak ister misiniz ama Zulip\'i sevmiyor musunuz? Burada sohbet edin\"</string>
+  <string name="help_menu_futo_chat">FUTO Sohbeti</string>
+  <string name="help_menu_futo_chat_subtitle">\"Konuşmak ister misiniz ama Discord\'u sevmiyor musunuz? Burada sohbet edin\"</string>
+  <string name="help_menu_github">Halka açık sorun takipçisi</string>
+  <string name="help_menu_github_subtitle">Belirli bir hata veya özellik isteği mi var? Burada paylaşın</string>
+  <string name="help_menu_email">E-posta: keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">Özel geri bildirim, yardım veya GitHub kullanmıyor musunuz? Bize e-posta gönderin</string>
+  <string name="help_menu_email_tags">gmail, destek, iletişim, yardım, bozuk, hata, sorun, problem, şikayet, talep, ödeme, aksaklık, arıza, düzeltme, müşteri hizmetleri, çökme, soru, bilgi talebi, yardım</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">Kurulum - Adım 1</string>
+  <string name="setup_step_2">Kurulum - Adım 2</string>
+  <string name="setup_step_3">Kurulum - Adım 3</string>
+  <string name="setup_welcome_text">\"FUTO Klavye\'ye (alpha) hoş geldiniz! Bu ürün hala geliştirme aşamasındadır ve henüz tamamlanmamıştır, sabrınız ve anlayışınız için teşekkür ederiz.\n\nBaşlamak için, FUTO Klavye\'yi bir giriş yöntemi olarak etkinleştirin.\"</string>
+  <string name="setup_open_input_settings">Giriş Yöntemi Ayarlarını Aç</string>
+  <string name="setup_warning_multiple_versions">Uyarı: Hem Play Store hem de Bağımsız sürümlerin yüklü olduğu görünüyor, yalnızca birini yüklemenizi öneririz.</string>
+  <string name="setup_active_input_method">Lütfen FUTO Klavye\'yi varsayılan giriş yöntemi olarak seçin. Türkçe çeviri: Ahmet Çeliker tarafından sağlanmıştır.</string>
+  <string name="setup_switch_input_methods">Giriş Yöntemlerini Değiştir</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">Katkıda Bulunanlar</string>
+  <string name="credits_menu_header_text">FUTO Klavyeyi harika bir uygulama haline getirmeye yardımcı olan bu kişilere teşekkürler!</string>
+  <string name="credits_menu_team_translators_title">Çevirmenler</string>
+  <string name="credits_menu_team_keyboard_layouts_title">Tasarım katkıda bulunanlar</string>
+  <string name="credits_menu_team_code_title">Koda katkıda bulunanlar</string>
+  <string name="credits_menu_team_third_party_libraries_title2">3. taraf kod ve varlıklar</string>
+  <string name="credits_menu_nonaffiliation_notice">Yukarıda listelenen yazarlar bizimle bağlantılı değildir ve bizi mutlaka desteklemek veya tanıtmak zorunda da değildir. Listeleme, bağlantı veya destek anlamına gelmez.</string>
+  <string name="credits_menu_contribute_translations_button">Uygulamayı çevirmeye yardım et</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">Tasarım katkısı yap</string>
+  <string name="credits_menu_contribute_code_button">Koda katkıda bulun</string>
+  <string name="credits_menu_project_information_title">%s bilgileri</string>
+  <string name="credits_menu_project_url_link">Proje URL’si</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">Dile özgü ayarlar</string>
+  <!-- Specific to Chinese input method -->
+  <string name="chinese_settings_title">Çince Giriş Ayarları</string>
+  <string name="chinese_setting_search_tags">Çince, Rime</string>
+  <string name="chinese_setting_simplification">Basitleştirme</string>
+  <string name="chinese_setting_simplification_simplify_by_language_country">Varsayılan (ülkeye göre)</string>
+  <string name="chinese_setting_simplification_force_simplified">Basitleştirilmiş</string>
+  <string name="chinese_setting_simplification_force_traditional">Geleneksel</string>
+  <string name="chinese_setting_pinyin_scheme">Pinyin Düzeni</string>
+  <string name="chinese_setting_fuzzy_pinyin">Bulanık Pinyin</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">Japonca Giriş Ayarları</string>
+  <string name="japanese_settings_toggle_flick_only">Sadece kaydırmalı</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">Tekrarlanan tuş basımlarında sesli harfler arasında geçişi devre dışı bırakır (Keitai girişi)</string>
+  <string name="japanese_settings_toggle_halfwidth_space">Yarı genişlikte boşluk kullan</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">Her zaman yarı genişlikte boşluk kullan</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">Gelişmiş Parametreler</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">Aşağıdaki seçenekler deneysel olup, uygulamanın iç işleyişi değiştikçe gelecekte kaldırılabilir veya değiştirilebilir. Bu değerleri değiştirmek deneyiminizi olumsuz etkileyebilir.\n\nNot: Bu ayarlar yalnızca İngilizceyi etkiler</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">Transformatör LM gücü</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">Daha düşük bir değer, otomatik düzeltmenin standart AOSP klavyesine daha benzer davranmasını sağlar; daha yüksek bir değer ise otomatik düzeltmeyi sinir ağına daha bağımlı hale getirir.\nVarsayılan değer: %1$s</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">Her zaman Transformer LM kullan</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">Her zaman İkili Sözlük kullan</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">Otomatik Düzeltme Eşiği</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">Daha düşük bir eşik, daha sık otomatik düzeltme yapar (ve daha sık hatalı düzeltme yapabilir); daha yüksek bir eşik ise daha az otomatik düzeltme yapar (ve daha az hatalı düzeltme yapar).\nVarsayılan değer: %1$s</string>
+  <!-- Personal dictionary -->
+  <string name="personal_dictionary_shortcut_error_symbols">Hata: Kısayol bir sembolle başlayamaz</string>
+  <string name="personal_dictionary_imported_additional_files_list_header">Dosyalar</string>
+  <string name="personal_dictionary_import_additional_file">İçe aktar</string>
+  <string name="personal_dictionary_words_list_header">Sözcükler</string>
+  <string name="personal_dictionary_cancel_action">İptal</string>
+  <string name="personal_dictionary_delete_additional_file">Ek sözlük dosyasını silmek istiyor musunuz?</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s silinecek</string>
+</resources>

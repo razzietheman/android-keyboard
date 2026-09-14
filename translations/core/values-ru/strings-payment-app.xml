@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Платеж для FUTO Keyboard</string>
+  <string name="payment_app_main_menu_title">Вы совершили платеж для FUTO Keyboard</string>
+  <string name="payment_app_main_menu_line_1">Спасибо за оплату!</string>
+  <string name="payment_app_main_menu_line_2">Ваша оплата поможет продолжать развитие FUTO Keyboard, и других проектов от FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Это приложение предназначено только для оплаты FUTO Клавиатуры через платежную систему Google. Устанавливать это приложение не обязательно. Чтобы убрать уведомление об оплате в FUTO Клавиатуры, нажмите \'Я уже оплатил’ или кнопку ниже.</string>
+  <string name="payment_app_activate_keyboard_button">Установить FUTO Keyboard как оплаченную</string>
+  <string name="payment_app_more_options_download_keyboard">Скачайте FUTO Keyboard из Play Store</string>
+  <string name="payment_app_more_options_visit_website">Посетите сайт FUTO Keyboard</string>
+  <string name="payment_app_more_options_email_support">Email поддержки</string>
+</resources>

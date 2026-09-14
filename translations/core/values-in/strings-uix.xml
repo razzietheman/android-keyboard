@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Ganti Tema</string>
+  <string name="action_select_all_title">Pilih Semua</string>
+  <string name="action_cut_title">Potong ke Papan Klip</string>
+  <string name="action_copy_title">Salin ke Papan Clip</string>
+  <string name="action_paste_title">Pasta dari Papan Klip</string>
+  <string name="action_text_editor_title">Editor Teks</string>
+  <string name="action_debug_title">Info Debug</string>
+  <string name="action_more_actions_title">Semua Aksi</string>
+  <string name="action_bug_viewer_title">Lihat Bug</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Panah Atas</string>
+  <string name="action_cursor_down_title">Panah Bawah</string>
+  <string name="action_cursor_left_title">Panah Kiri</string>
+  <string name="action_cursor_right_title">Panah Kanan</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emoji</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Terbaru</string>
+  <string name="action_emoji_category_smileys_emotion">Smiley &amp; Emotion</string>
+  <string name="action_emoji_category_people_body">Orang &amp; Badan</string>
+  <string name="action_emoji_category_animals_nature">Hewan &amp; Alam</string>
+  <string name="action_emoji_category_food_drink">Makanan &amp; Minuman</string>
+  <string name="action_emoji_category_travel_places">Wisata &amp; Tempat</string>
+  <string name="action_emoji_category_activities">Aktivitas</string>
+  <string name="action_emoji_category_objects">Objek</string>
+  <string name="action_emoji_category_symbols">Simbol</string>
+  <string name="action_emoji_category_flags">Bendera</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Batal</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Batal</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Menonaktifkan</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Hapus</string>
+  <string name="action_keyboard_modes_go_back">Balik</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standar</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Satu Tangan</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Pisah</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Permen</string>
+  <string name="action_fonttyper_finish">Selesai</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Mode Gelap</string>
+  <string name="theme_default_light">Mode Terang</string>
+  <string name="theme_gradient1">Gradien 1</string>
+  <string name="theme_gradient2">Gradien 2</string>
+  <string name="theme_rainbow">Pelangi</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Tutup</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Balik</string>
+  <string name="payment_screen_set_reminder_setter_7_days">dalam 7 hari</string>
+  <string name="payment_screen_set_reminder_setter_1_month">dalam 1 bulan</string>
+  <string name="payment_screen_set_reminder_setter_6_months">dalam 6 bulan</string>
+  <string name="payment_screen_payment_complete_title">Pembayaran Berhasil</string>
+  <string name="payment_screen_aftersales_title">Terima kasih</string>
+  <string name="payment_screen_aftersales_paragraph_1">Terima kasih untuk membeli Keyboard FUTO!</string>
+  <string name="payment_screen_continue_button">Selanjutnya</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Beranda</string>
+  <string name="settings_search_menu_title">Telusuri</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Bahasa &amp; Model</string>
+  <string name="language_settings_add_language_button">Tambahkan bahasa</string>
+  <string name="language_settings_search">Telusuri</string>
+  <string name="language_settings_resource_none">(Tidak ada)</string>
+  <string name="language_settings_remove_language_cancel_button">Batal</string>
+  <string name="file_kind_dictionary">Kamus</string>
+  <string name="resource_importer_cancel_button">Batal</string>
+  <string name="morekey_settings_active">Aktif</string>
+  <string name="morekey_settings_inactive">Tidak aktif</string>
+  <string name="morekey_settings_disable">Menonaktifkan</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Angka</string>
+</resources>

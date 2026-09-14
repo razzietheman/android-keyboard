@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="payment_app_main_menu_line_1">Köszönjük a befizetésed!</string>
+  <string name="payment_app_more_options_download_keyboard">Töltsd le a FUTO billentyűzetet a Play Store-ból</string>
+</resources>

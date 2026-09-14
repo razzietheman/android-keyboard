@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">شراء لوحة مفاتيح فوتو</string>
+  <string name="payment_app_main_menu_title">دفعتَ ثمن لوحة فوتو</string>
+  <string name="payment_app_main_menu_line_1">شكرًا على الشراء!</string>
+  <string name="payment_app_main_menu_line_2">شراؤك يدعم استمرار تطوير لوحة مفاتيح فوتو ومشاريع فوتو الأخرى.</string>
+  <string name="payment_app_main_menu_line_3">هذا التطبيق لا يعدو أن يكون وسيطاً للدفع عن لوحة فوتو عبر جوجل. لا حاجة لإبقاء التطبيق مثبتاً. لحذف إشعار الدفع من لوحة فوتو، اضغط ’دفعتُ سابقاً’ أو الزر أدناه.</string>
+  <string name="payment_app_activate_keyboard_button">اعتبر لوحة فوتو مشتراة</string>
+  <string name="payment_app_more_options_download_keyboard">نزّل لوحة فوتو من متجر بلاي</string>
+  <string name="payment_app_more_options_visit_website">افتح الموقع الإلكتروني للوحة مفاتيح فوتو</string>
+  <string name="payment_app_more_options_email_support">بريد الدعم</string>
+</resources>

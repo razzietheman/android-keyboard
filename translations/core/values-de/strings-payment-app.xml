@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Für FUTO Tastatur bezahlen</string>
+  <string name="payment_app_main_menu_title">Sie haben FUTO Tastatur gekauft</string>
+  <string name="payment_app_main_menu_line_1">Vielen Dank für ihren Kauf! </string>
+  <string name="payment_app_main_menu_line_2">Ihr Kauf wird die weitere Entwicklung von FUTO Keyboard und anderen FUTO-Projekten unterstützen.</string>
+  <string name="payment_app_main_menu_line_3">Diese App dient nur dazu, dass Sie für FUTO Keyboard über das Zahlungssystem von Google bezahlen können. Sie müssen diese App nicht installiert lassen. Um den Zahlungshinweis in FUTO Keyboard zu schließen, tippen Sie auf \'Ich habe bereits bezahlt\' oder die Schaltfläche unten.</string>
+  <string name="payment_app_activate_keyboard_button">FUTO Keyboard als \'bezahlt\' setzen</string>
+  <string name="payment_app_more_options_download_keyboard">FUTO Keyboard aus dem Play Store herunterladen</string>
+  <string name="payment_app_more_options_visit_website">Besuchen Sie die FUTO Keyboard Website</string>
+  <string name="payment_app_more_options_email_support">E-Mail-Support</string>
+</resources>

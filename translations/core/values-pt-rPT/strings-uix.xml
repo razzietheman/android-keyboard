@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Alterador de tema</string>
+  <string name="action_select_all_title">Selecionar tudo</string>
+  <string name="action_cut_title">Cortar</string>
+  <string name="action_copy_title">Copiar</string>
+  <string name="action_paste_title">Colar</string>
+  <string name="action_undo_title">Desfazer</string>
+  <string name="action_redo_title">Refazer</string>
+  <string name="action_text_editor_title">Editor de texto</string>
+  <string name="action_debug_title">Informações de depuração</string>
+  <string name="action_more_actions_title">Todas as ações</string>
+  <string name="action_bug_viewer_title">Visualizador de bugs</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Seta para cima</string>
+  <string name="action_cursor_down_title">Seta para baixo</string>
+  <string name="action_cursor_left_title">Seta para esquerda</string>
+  <string name="action_cursor_right_title">Seta para direita</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emojis</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Recentes</string>
+  <string name="action_emoji_category_smileys_emotion">Carinhas e emoções</string>
+  <string name="action_emoji_category_people_body">Pessoas e corpo</string>
+  <string name="action_emoji_category_animals_nature">Animais e natureza</string>
+  <string name="action_emoji_category_food_drink">Comida e bebidas</string>
+  <string name="action_emoji_category_travel_places">Viagens e locais</string>
+  <string name="action_emoji_category_activities">Atividades</string>
+  <string name="action_emoji_category_objects">Objetos</string>
+  <string name="action_emoji_category_symbols">Símbolos</string>
+  <string name="action_emoji_category_flags">Bandeiras</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Sem resultado encontrado</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[Saltar para <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Apagar emojis recentes?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Cancelar</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Apagar</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Apagar emojis recentes</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Procurar</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Entrada de voz</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Entrada de voz (sistema)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[Sem modelo de entrada de voz instalado para <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>, toque para verificar as opções?]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Vá para Permissões e ative a permissão do microfone para utilizar a entrada de voz</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Area de transferência</string>
+  <string name="action_clipboard_manager_unpin_item">Desafixar item</string>
+  <string name="action_clipboard_manager_pin_item">Fixar item</string>
+  <string name="action_clipboard_manager_remove_item">Remover item</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">Confirmar remover:\n\"%s\"</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog_image">Confirmar remoção da imagem</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Cancelar</string>
+  <string name="action_clipboard_manager_disable_text">Sem itens para limpar. Desativar histórico da área de transferência?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Desativar</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Sem itens desfixados para limpar. Desfixar todos os itens?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Desafixar</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Limpar todos os itens desafixados?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Limpar</string>
+  <string name="action_clipboard_manager_clear_clipboard">Limpar área de transferência</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Dispositivo bloqueado</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Desbloqueie o dispositivo para acessar o histórico da área de transferência</string>
+  <string name="action_clipboard_manager_error_general_title">Erro da área de transferência</string>
+  <string name="action_clipboard_manager_error_general_text">Não foi possível carregar ou guardar o histórico da área de transferência. Pode estar corrompido. Pode tentar apagá-lo ou reiniciar o teclado. Por favor, reporte isto como um bug. Motivo: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Apagar a área de transferência? TODOS os itens serão perdidos.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Repetir</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Inspecionar erro no Visualizador de bugs</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Eliminar</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Histórico da área de transferência inativo</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[Para guardar itens da área de transferência, pode ativar o histórico da área de transferência. Deste modo, até <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> itens serão cancelados por <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> dias (exceto itens fixados). Pode definir isto nas definições.]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Ativar histórico da área de transferência</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">A app não suport a inserção de imagens</string>
+  <string name="action_clipboard_manager_settings_title">Definições da área de transferência</string>
+  <string name="action_clipboard_manager_settings_save_images">Guardar imagens copiadas</string>
+  <string name="action_clipboard_manager_settings_save_screenshots">Guardar capturas de ecrã recentes</string>
+  <string name="action_clipboard_manager_settings_save_screenshots_subtitle">Você precisará de dar a permissão para aceder às suas capturas de ecrã</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Horas para manter itens desafixados</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Número de itens desafixados para manter</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Salvar itens sensíveis</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Caso ativado, irá guardar itens de gestores de passwords, janelas anónimas, etc</string>
+  <string name="action_clipboard_manager_settings_list_layout">Usar layout de lista vertical em vez de uma grade</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Manter itens fixados no topo</string>
+  <string name="action_clipboard_manager_settings_skip_delete_confirmation">Saltar confirmação ao apagar items</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Mostrar textos copiados recentemente na barra de sugestões</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Modos do teclado</string>
+  <string name="action_keyboard_modes_go_back">Voltar</string>
+  <string name="action_keyboard_modes_resize_keyboard">Redimensionar teclado</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Padrão</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Uma mão</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Dividido</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Flutuante</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Redefinir</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Aplicar</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">Texto estilizado</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Caso o app não suporta a inserção de imagens, o recurso pode não funcionar.</string>
+  <string name="action_fonttyper_select_a_preset">Selecionar predefinição</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Arranhado</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Super-herói</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Dramático</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Doce</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Arco-íris</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Horizonte</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">Abertura deslizante</string>
+  <string name="action_fonttyper_finish">Pronto</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Tecla de ação</string>
+  <string name="action_kind_pinned_key">Ações fixadas</string>
+  <string name="action_kind_favorites">Ações favoritas</string>
+  <string name="action_kind_more">Mais ações</string>
+  <string name="action_kind_disabled">Ações ocultas</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Modo escuro</string>
+  <string name="theme_default_light">Modo claro</string>
+  <string name="theme_amoled_dark">Roxo escuro para AMOLED</string>
+  <string name="theme_catppuccin_mocha">Moca Catppuccin</string>
+  <string name="theme_classic_dark">Material AOSP Escuro</string>
+  <string name="theme_classic_light">Material AOSP claro</string>
+  <string name="theme_vi">Tema FUTO VI</string>
+  <string name="theme_deepsea_dark">Oceano profundo escuro</string>
+  <string name="theme_deepsea_light">Oceano profundo claro</string>
+  <string name="theme_emerald">Esmeralda</string>
+  <string name="theme_gradient1">Gradiente 1</string>
+  <string name="theme_gradient2">Gradiente 2</string>
+  <string name="theme_rainbow">Arco-íris</string>
+  <string name="theme_snowfall">Nevada</string>
+  <string name="theme_steel_gray">Cinza aço</string>
+  <string name="theme_sunflower">Girassol</string>
+  <string name="theme_cotton_candy">Algodão doce</string>
+  <string name="theme_hotdog">Cachorro quente</string>
+  <string name="theme_high_contrast_yellow">Amarelo de alto contraste</string>
+  <string name="theme_dev">Tema de construção</string>
+  <string name="theme_dynamic_system">Auto dinâmico</string>
+  <string name="theme_dynamic_dark">Escuro dinâmico</string>
+  <string name="theme_dynamic_light">Claro dinâmico</string>
+  <string name="theme_custom_named">Personalizado: %s</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Serviço de encontrar atualizações</string>
+  <string name="autoupdater_update_available_title">Atualização disponível</string>
+  <string name="autoupdater_update_available_body"><![CDATA[Uma atualização está disponível (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Toque para descarregar]]></string>
+  <string name="autoupdater_dismiss_update">Ignorar</string>
+  <string name="autoupdater_perform_update">Atualizar</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[Bloquear a palavra \\&quot;<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>\\&quot; de ser sugerida?]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Bloquear</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Desativar sugestões de emoji</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Alpha</string>
+  <string name="keyboard_switch_keyboard">Alterar teclado</string>
+  <string name="keyboard_language_settings">Definições</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Toque para encontrar atualizações, ou verifique nas definições</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Sem dicionário instalado, toque para descarregar?</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Abrir barra de ações</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Fechar barra de ações</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Fechar</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Voltar</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Mostrar teclado</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Fechar</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Retrair</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Pagamento</string>
+  <string name="payment_screen_title">Pagar o Teclado FUTO</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[Está a usar o Teclado FUTO há <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> dias. Se considera esta aplicação útil, considere pagar-nos para apoiar o desenvolvimento futuro do software do FUTO.]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Obrigado por testar o Teclado FUTO! Se considera esta aplicação útil, considere pagar-nos para apoiar o desenvolvimento futuro do software do FUTO.</string>
+  <string name="payment_screen_sales_paragraph_2">O FUTO dedica-se a criar software de qualidade que não te abusa. Esta app nunca irá exibir anúncios ou recolher os teus dados pessoais.</string>
+  <string name="payment_screen_sales_point_development_title">Desenvolvimento sustentável</string>
+  <string name="payment_screen_sales_point_development_body">A missão da FUTO é que o software livre e as práticas comerciais de software não malicioso se tornem uma fonte de rendimento sustentável para os projetos e os seus desenvolvedores. Por esta razão, somos a favor de que os utilizadores paguem mesmo pelo software.</string>
+  <string name="payment_screen_sales_point_privacy_title">Compromisso com a privacidade</string>
+  <string name="payment_screen_sales_point_privacy_body">Esta app nunca irá exibir anúncios ou vender os teus dados. Não fazemos isso.</string>
+  <string name="payment_screen_error_build_unsupported_payment">O pagamento não é suportado nessa versão</string>
+  <string name="payment_screen_already_paid_title">Já pagou?</string>
+  <string name="payment_screen_already_paid_body">Se você já pagou pelo Teclado FUTO ou pelo Entrada por voz FUTO, toque abaixo.</string>
+  <string name="payment_screen_already_paid_button">Eu já paguei</string>
+  <string name="payment_screen_already_paid_confirmation">Confirmar sua escolha</string>
+  <string name="payment_screen_already_paid_confirmation_body">Tem a certeza de que pretende confirmar que já pagou? Após a confirmação, não será solicitado a pagar novamente.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Eu já paguei</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Cancelar</string>
+  <string name="payment_screen_set_reminder_title">Ainda não está pronto para pagar?</string>
+  <string name="payment_screen_set_reminder_body">Isto ocultará o lembrete no ecrã de definições durante o período de dias inserido.</string>
+  <string name="payment_screen_set_reminder_setter">Quando gostaria de ser lembrado?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">em 7 dias</string>
+  <string name="payment_screen_set_reminder_setter_1_month">em 1 mês</string>
+  <string name="payment_screen_set_reminder_setter_6_months">em 6 meses</string>
+  <string name="payment_screen_set_reminder_setter_next_century">no próximo século</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Confirmar lembrete</string>
+  <string name="payment_screen_other_options">Outras opções</string>
+  <string name="payment_screen_need_help_title">Ajuda</string>
+  <string name="payment_screen_need_help_subtitle">Precisa de ajuda? Visite nosso site</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[Pagar pelo Google Play (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + taxa)]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[Pagar (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + taxa)]]></string>
+  <string name="payment_screen_more_options">Mais opções</string>
+  <string name="payment_screen_payment_complete_title">Pagamento concluído</string>
+  <string name="payment_screen_aftersales_title">Obrigado</string>
+  <string name="payment_screen_aftersales_title_pending">Pagamento pendente</string>
+  <string name="payment_screen_aftersales_paragraph_1">Obrigado por pagar pelo Teclado FUTO!</string>
+  <string name="payment_screen_aftersales_paragraph_2">A sua compra ajuda o desenvolvimento contínuo do Teclado FUTO, e de outros projetos do FUTO.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">O seu pagamento ainda está pendente, mas deve ser confirmado em breve.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Se acabou de pagar, o seu pagamento ainda pode estar a ser processado. Deverá receber um e-mail com mais informações.</string>
+  <string name="payment_screen_payment_failed_title">Erro de pagamento</string>
+  <string name="payment_screen_payment_failed_body">Infelizmente, o pagamento falhou por algum motivo ou outro. Por favor contacte-nos se precisar de ajuda. Pode enviar-nos um e-mail para keyboard@futo.org no botão abaixo, ou com o Enviar retorno no menu de Ajuda</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Pode haver algum problema com o seu pagamento. Se tiver sido processado, deverá receber um e-mail com a chave de licença. Por favor, contacte-nos se precisar de ajuda. Pode enviar-nos um e-mail para keyboard@futo.org, com o botão abaixo, ou com o Enviar retorno no ecrã principal.</string>
+  <string name="payment_screen_license_integrity_error">Falha ao verificar a licença. Se acredita que isto é um erro, por favor contacte-nos.</string>
+  <string name="payment_screen_continue_button">Continuar</string>
+  <string name="payment_unpaid_version_title">Teclado FUTO não pago</string>
+  <string name="payment_unpaid_version_indicator">Não pago</string>
+  <string name="payment_paid_version_indicator">Obrigado por usar a versão paga do Teclado FUTO!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Comunicado sobre atualizações</string>
+  <string name="manual_update_notice_paragraph_1">Esta app não se liga à internet e não consegue procurar atualizações automaticamente. Mas pode verificar se há alguma atualização manualmente.</string>
+  <string name="manual_update_notice_paragraph_2">Utilize o F-Droid ou o Obtainium para atualizações automáticas. Visite keyboard.futo.org para opções de download.</string>
+  <string name="manual_update_notice_dev_paragraph">Está na versão de desenvolvimento do teclado FUTO. Visite keyboard.futo.org se quiser descarregar a versão estável.</string>
+  <string name="manual_update_notice_visit_site_button">Visitar</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Entendi</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Dica</string>
+  <string name="settings_unknown_error_title">Erro desconhecido</string>
+  <string name="settings_unknown_error_subtitle">Ocorreu um erro desconhecido.</string>
+  <string name="settings_try_typing_here">Tente digitar aqui…</string>
+  <string name="settings_external_model_name">Modelo importado externamente</string>
+  <string name="settings_check_for_updates_manually">Verificar atualizações manualmente</string>
+  <string name="settings_update_available">Atualização disponível</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Início</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">A opção está desativada pois depende de outra opção, toque para o visitar o menu: %1$s</string>
+  <string name="settings_search_menu_title">Procurar</string>
+  <string name="settings_search_enter_your_search">Digite um termo de pesquisa…</string>
+  <string name="settings_search_no_options_found">Nenhum resultado encontrado</string>
+  <string name="misc_settings_title">Outras</string>
+  <string name="setting_section_expanded">Expandido</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Idiomas e modelos</string>
+  <string name="language_settings_add_language_button">Adicionar idioma</string>
+  <string name="language_settings_select_language">Selecionar idioma para adicionar</string>
+  <string name="language_settings_search">Procurar</string>
+  <string name="language_settings_select_layout">Selecione um layout para adicionar</string>
+  <string name="language_settings_warning_language_has_no_dict">Este idioma não possui dicionário integrado. Recomendamos descarregar e importar um para obter correção automática e sugestões de palavras.</string>
+  <string name="language_settings_resource_none">(nenhum)</string>
+  <string name="language_settings_layouts_of_this_language">Layouts do teclado</string>
+  <string name="language_settings_add_layout_for_this_language">Adicionar layout de teclado</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Digitação multi-idioma</string>
+  <string name="language_settings_remove_this_language">Remover idioma</string>
+  <string name="language_settings_manage_languages_title">Gerir idiomas e layouts</string>
+  <string name="language_settings_manage_languages_subtitle">Visualize idiomas que adicionou, remova idiomas, altere ou adicione layouts adicionais ou habilite a digitação multi-idioma</string>
+  <string name="language_settings_resource_imported_indicator">(importado)</string>
+  <string name="language_settings_resource_unsupported_indicator">(não suportado)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Dicionário integrado</string>
+  <string name="language_settings_resource_voice_input_selected">Gostaria de reverter o modelo de entrada de voz para o padrão ou substituí-lo por outro ficheiro?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Não existe nenhum modelo de entrada de voz integrado para este idioma, pelo que, se o remover, a entrada de voz deixará de funcionar para este idioma até que importe um modelo diferente!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Não configurou um modelo de entrada de voz personalizado para este idioma. Pode explorar downloads online ou importar um de um ficheiro.</string>
+  <string name="language_settings_resource_transformer_selected">Gostaria de reverter o modelo do transformador para o padrão ou substituí-lo por outro ficheiro?</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">Não existe nenhum modelo de transformador integrado para esta linguagem, pelo que, se o remover, as previsões baseadas em transformadores deixarão de funcionar para esta linguagem até que importe um modelo diferente!</string>
+  <string name="language_settings_resource_transformer_selected_unset">Não configurou um modelo de transformador personalizado para esta linguagem. Pode explorar downloads online ou importar um de um ficheiro.</string>
+  <string name="language_settings_resource_dictionary_selected">Gostaria de reverter o dicionário para o padrão ou substituí-lo por outro ficheiro?</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">Não existe um dicionário integrado para este idioma, pelo que, se o remover, a correção automática e as previsões deixarão de funcionar para este idioma até que importe um dicionário diferente!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">Não configurou um dicionário personalizado para este idioma. Pode explorar downloads online ou importar um de um ficheiro.</string>
+  <string name="language_settings_resource_replace_button">Substituir</string>
+  <string name="language_settings_resource_import_file_button">Importar</string>
+  <string name="language_settings_resource_revert_to_default_button">Reverter para o padrão</string>
+  <string name="language_settings_resource_remove_button">Remover</string>
+  <string name="language_settings_resource_explore_online_button">Explorar</string>
+  <string name="language_settings_remove_language_title">Apagar %1$s?</string>
+  <string name="language_settings_remove_language_body">Remover %1$s, e todos os seus layouts associados e recursos personalizados?</string>
+  <string name="language_settings_remove_language_remove_button">Remover</string>
+  <string name="language_settings_remove_language_cancel_button">Cancelar</string>
+  <string name="language_settings_other_options">Outras opções</string>
+  <string name="language_settings_import_resource_from_file">Importar ficheiro de recursos</string>
+  <string name="language_settings_explore_voice_input_models_online">Explorar modelos de entrada de voz</string>
+  <string name="language_settings_explore_dictionaries_online">Explorar dicionários</string>
+  <string name="language_settings_explore_transformers_online">Explorar modelos de transformador</string>
+  <string name="language_settings_import_dictionary_or_model">Importar dicionário ou modelo</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Modelo de entrada de voz</string>
+  <string name="file_kind_transformer_model">Modelo de transformador</string>
+  <string name="file_kind_dictionary">Dicionário</string>
+  <string name="file_kind_invalid_file">Ficheiro inválido</string>
+  <string name="file_kind_cfg_backup">Backup de configuração</string>
+  <string name="resource_importer_import_title">Importar - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">Erro: Este ficheiro parece ser uma fonte de lista de palavras (_wordlist.combined) em vez de um ficheiro de dicionário compilado (.dict).</string>
+  <string name="resource_importer_error_wordlist_2">Descarregue o ficheiro do dicionário compilado, não a lista de palavras. Se criou esta lista sozinho, compile-a externamente utilizando o dicttool.</string>
+  <string name="resource_importer_error_invalid_fiile">Erro: Este ficheiro não pôde ser reconhecido. Pode ser inválido ou estar corrompido. Tente descarregá-lo novamente ou tente utilizar um ficheiro diferente.</string>
+  <string name="resource_importer_cancel_button">Cancelar</string>
+  <string name="resource_importer_import_button">Importar</string>
+  <string name="resource_importer_file_info">Informações do ficheiro: %1$s</string>
+  <string name="resource_importer_importing">Importação para o idioma: %1$s</string>
+  <string name="resource_importer_importing_cfg">Importando a configuração… Por favor, não feche este menu até que o processo seja concluído (leva de 5 a 10 segundos)</string>
+  <string name="resource_importer_select_language">Selecione o idioma para qual importar:</string>
+  <string name="resource_importer_warning_language_missing">Este ficheiro parece destinar-se a um idioma (%1$s) que não está ativado nas definições</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">Tem a certeza que quer importar esse backup de configuração? Isto substituirá todas as suas definições, o seu dicionário pessoal (sistema), palavras aprendidas do dicionário, qualquer recurso importado, e outros. Se não tiver a certeza, faça outro backup antes deste.</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">Este backup de configuração foi criado por uma versão mais nova do Teclado FUTO, e pode não ser importado corretamente. Tente atualizar o Teclado FUTO primeiro.</string>
+  <string name="settings_export_configuration_title">Backup de configurações</string>
+  <string name="settings_export_configuration">Exportar configuração</string>
+  <string name="settings_export_configuration_subtitle">Exporte todas as suas definições, palavras aprendidas, recursos e mais.</string>
+  <string name="settings_export_configuration_exporting">A exportar a configuração…</string>
+  <string name="settings_export_configuration_exporting_text">Por favor não feche este menu até o processo estar concluído (leva de 5 a 10 segundos)</string>
+  <string name="settings_import_configuration">Importar configuração</string>
+  <string name="settings_import_configuration_subtitle">Se exportou a sua configuração anteriormente, pode importá-la novamente aqui.</string>
+  <string name="settings_import_export_tags">backup, restaurar, restauração, salvar, carregar, exportar, importar, transferir dispositivo, mudar de dispositivo</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Editar ações</string>
+  <string name="action_editor_subtitle">Edite ações favoritas, ações fixadas, e a tecla de ação ao lado da barra de espaço</string>
+  <string name="action_editor_edit_actions">Editar ações</string>
+  <string name="action_editor_warning_no_actions">Nenhuma ação está ativada</string>
+  <string name="action_editor_error_more_than_one_action_key">Atribua apenas uma tecla de ação. Não é possível atribuir mais do que uma ação à mesma tecla.</string>
+  <string name="action_editor_warning_too_many_pinned">Considere fixar menos ações. A barra de sugestões terá de ser reduzida para acomodar tantas ações.</string>
+  <string name="action_editor_add_next_action">Adicionar o próximo</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Ações</string>
+  <string name="action_settings_quick_options_title">Opções rápidas</string>
+  <string name="action_settings_quick_option_enable_action_key">Ativar tecla de ação</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">Mostrar uma tecla à esquerda da barra de espaço para aceder rapidamente a uma ação. Ativar isto colocará a tecla de emoji, mas pode ser personalizada em \"Editar Ações\".</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">Mostrar uma tecla ao lado esquerdo da barra de espaço para acessar uma ação de forma rápida. Desativar isto moverá a ação atualmente atribuída: %s</string>
+  <string name="action_settings_quick_option_language_switch_key">Tecla alterar idioma</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">Substitua a tecla de emoji por uma tecla de troca de idioma. Vá a \"Editar Ações\" para inserir outra coisa.</string>
+  <string name="action_settings_action_settings">Definições de ação</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">Redimensionar teclado</string>
+  <string name="size_settings_subtitle2">Altere o tamanho do teclado, use em uma mão só, faça-o flutuante, ou dividido</string>
+  <string name="size_settings_resize_tip">Toque no botão \"Redimensionar teclado\" para redimensionar</string>
+  <string name="size_settings_keyboard_modes_tip">Pode aceder a isto em qualquer lugar com a ação Modos de teclado:</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">O tamanho e o modo são armazenados separadamente para o modo retrato e o modo paisagem.</string>
+  <string name="size_settings_reset">Repor definições de tamanho</string>
+  <string name="size_settings_reset_subtitle">Toque para repor todos os tamanhos e modos para retrato e paisagem para o padrão</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">Teclas pressionadas e barra de espaço</string>
+  <string name="morekey_settings_subtitle">Configure a duração do pressionamento, como ordenar letras/símbolos, e o comportamento das teclas de barra de espaço e de apagar.</string>
+  <string name="morekey_settings_layout">Layout das teclas pressionadas</string>
+  <string name="morekey_settings_reset">Repor para o padrão</string>
+  <string name="morekey_settings_move_kind_up">Mover para cima</string>
+  <string name="morekey_settings_move_kind_down">Mover para baixo</string>
+  <string name="morekey_settings_move_kind_up_to_top">Mover para o topo</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">Mover para o fim</string>
+  <string name="morekey_settings_kind_position">%1$sª posição de %2$s</string>
+  <string name="morekey_settings_active">Ativo</string>
+  <string name="morekey_settings_inactive">Inativo</string>
+  <string name="morekey_settings_reactivate">Reativar</string>
+  <string name="morekey_settings_disable">Desativar</string>
+  <string name="morekey_settings_keys">Teclas pressionadas</string>
+  <string name="morekey_settings_show_hints">Mostrar dicas</string>
+  <string name="morekey_settings_show_hints_subtitle">Exibir uma dica pequena em cada tecla, mostrando a tecla pressionada primária</string>
+  <string name="morekey_settings_show_hints_tags">caráteres adicionais, teclas alternativas, símbolos, teclas pop-up</string>
+  <string name="morekey_settings_duration">Duração do pressionamento</string>
+  <string name="morekey_settings_duration_subtitle">Por quanto tempo uma tecla tem que ficar pressionada para ser considerado um pressionamento</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Números</string>
+  <string name="morekey_settings_kind_numbers_example">ex: [1] no [q]</string>
+  <string name="morekey_settings_kind_language_keys">Teclas de idioma</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">ex: [ñ] no [n] em Espanhol</string>
+  <string name="morekey_settings_kind_symbols">Símbolos</string>
+  <string name="morekey_settings_kind_symbols_example">ex: [@] no [a]</string>
+  <string name="morekey_settings_kind_actions">Ações rápidas</string>
+  <string name="morekey_settings_kind_actions_example">ex: [Copiar] no [c]</string>
+  <string name="morekey_settings_kind_misc_common">Letras diversas de idiomas comuns</string>
+  <string name="morekey_settings_kind_misc_common_example">ex: [ß] em [s] em todas as línguas de escrita latina</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">Definições de digitação</string>
+  <string name="typing_settings_suggest_emojis">Sugestões de emoji</string>
+  <string name="typing_settings_suggest_emojis_subtitle">Sugira emojis enquanto escreve</string>
+  <string name="typing_settings_vibration_strength">Vibração</string>
+  <string name="typing_settings_vibration_strength_default">Padrão</string>
+  <string name="typing_settings_keypress_sound_volume">Volume do som de toque</string>
+  <string name="typing_settings_keypress_sound_volume_default">Padrão</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">A definição de volume pode não ter efeito em certas versões do Android.</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">O som não irá tocar se está no modo silencioso ou de vibração.</string>
+  <string name="typing_settings_enable_clipboard_history">Histórico da área de transferência</string>
+  <string name="typing_settings_enable_clipboard_history_tags">copiar, colar</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">Apagar texto colado/inserido com backspace</string>
+  <string name="typing_settings_revert_correction_on_backspace">Anular correção automática com backspace</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">Modo de espaços automáticos</string>
+  <string name="typing_settings_auto_space_mode_auto2">Espaço imediato após sugestões e pontuação</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">Espaço imediato após sugestões</string>
+  <string name="typing_settings_auto_space_mode_legacy2">Espaço atrasado após sugestões (modo legado)</string>
+  <string name="typing_settings_auto_space_mode_none2">Desativado (não recomendado)</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Teclado</string>
+  <string name="keyboard_settings_show_number_row">Mostrar linha de números</string>
+  <string name="keyboard_settings_show_number_row_subtitle">Quando ativado, a linha de números é exibida no topo do teclado em layouts suportados</string>
+  <string name="keyboard_settings_show_arrow_row">Mostrar teclas de seta</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">Quando ativado, as teclas de seta são exibidas na parte inferior do teclado</string>
+  <string name="keyboard_settings_extra_layouts">Layouts adicionais</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">Configure layouts adicionais na tela de idiomas</string>
+  <string name="keyboard_settings_show_suggestion_row">Mostrar barra de sugestões/ações</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">Mostrar a barra contendo sugestões. É recomendado manter isso ativado</string>
+  <string name="keyboard_settings_inline_autofill">Preenchimento automático integrado</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">Exibir o preenchimento automático do gestor de passwords na barra de sugestões</string>
+  <string name="keyboard_settings_period_key">Tecla rápida de ponto</string>
+  <string name="keyboard_settings_number_row_title">Linha de números</string>
+  <string name="keyboard_settings_number_row_style">Estilo da linha de números</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">Compacta</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">Tecla</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">Sempre usar numerais ocidentais</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Teclado e digitação</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">Tema</string>
+  <string name="theme_settings_key_borders">Bordas das teclas</string>
+  <string name="dev_settings_title">Configurações de desenvolvedor</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Entrada de voz</string>
+  <string name="voice_input_settings_builtin_disabled_notice">A entrada por voz integrada está desativada!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Desativar a entrada de voz integrada</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">Usar a entrada de voz fornecida por app externa</string>
+  <string name="voice_input_settings_indication_sounds">Sons de indicação</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">Tocar um som curto no início e ao cancelar</string>
+  <string name="voice_input_settings_verbose_progress">Progresso verboso</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">Exibir informações adicionais, como o microfone a ser usado</string>
+  <string name="voice_input_settings_use_personal_dict">Dicionário Pessoal para Voz</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">Usar ou não o dicionário pessoal para a introdução de voz</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Preferir microfone Bluetooth</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">vPode houver um atraso extra ao iniciar a gravação pois a conexão Bluetooth SCO tem que ser negociada</string>
+  <string name="voice_input_settings_audio_focus">Foco do áudio</string>
+  <string name="voice_input_settings_audio_focus_subtitle">Pausar vídeos/músicas quando a entrada de voz é ativada</string>
+  <string name="voice_input_settings_suppress_symbols">Suprimir símbolos</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">Prevenir com que a entrada de voz produza símbolos</string>
+  <string name="voice_input_settings_long_form">Entrada de voz de longa duração</string>
+  <string name="voice_input_settings_long_form_subtitle">Se desativado, a entrada de voz será interrompida após 30 segundos.</string>
+  <string name="voice_input_settings_autostop_vad">Parar automaticamente no silêncio</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">Pare automaticamente ao detetar silêncio. Pode ser necessário parar manualmente, mesmo que haja muito ruído de fundo.</string>
+  <string name="voice_input_settings_change_models">Modelos</string>
+  <string name="voice_input_settings_change_models_subtitle">Para alterar os modelos, visite o menu de Idiomas e modelos</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">Previsão de texto</string>
+  <string name="prediction_settings_transformer">Transformador LM</string>
+  <string name="prediction_settings_transformer_finetuning">Ajuste fino do transformador</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">Pode usar demasiada bateria se ativado! Esse recurso ainda precisa de mais trabalho</string>
+  <string name="prediction_settings_transformer_models">Modelos de transformador</string>
+  <string name="prediction_settings_transformer_alpha_notice">Nota: O transformador LM está em estado alpha</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">Estas definições são experimentais e apenas relevantes para o inglês. Não têm efeito para outros idiomas.</string>
+  <string name="prediction_settings_smart_keyhit_detection">Detecção de toque de tecla inteligente</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">Utiliza o dicionário para determinar as próximas teclas relevantes e aumenta a sua área de acerto. O aumento é evitado após um backspace.</string>
+  <string name="prediction_settings_word_blacklist">Palavras bloqueadas</string>
+  <string name="prediction_settings_word_blacklist_add">Bloquear palavra</string>
+  <string name="prediction_settings_word_blacklist_none">Não há palavras bloqueadas.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">Visualizar e editar palavras bloqueadas</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">Clique aqui para visualizar a lista de sugestões bloqueadas, adicione ou remova itens</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">Remover palavra</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Ajuda e feedback</string>
+  <string name="help_menu_version_name">Nome da versão: %1$s</string>
+  <string name="help_menu_version_code">Código da versão: %1$s</string>
+  <string name="help_menu_version_tip">Queremos saber a sua opinião! Se estiver a reportar um problema, a sua versão pode ser relevante: v%1$s</string>
+  <string name="help_menu_website">Site do FUTO</string>
+  <string name="help_menu_website_subtitle">Saiba mais sobre nós e a nossa filosofia</string>
+  <string name="help_menu_website_tags">download, apps, entrada de voz</string>
+  <string name="help_menu_documentation">Documentação</string>
+  <string name="help_menu_documentation_subtitle">Saiba mais sobre as características e capacidades do teclado</string>
+  <string name="help_menu_discord">Servidor Discord</string>
+  <string name="help_menu_discord_subtitle">Quer conversar, mas não gosta do Zulip? Converse aqui.</string>
+  <string name="help_menu_futo_chat">Chat FUTO (Zulip)</string>
+  <string name="help_menu_futo_chat_subtitle">Quer conversar, mas não gosta do Discord? Converse aqui.</string>
+  <string name="help_menu_github">Rastreador de problemas público (GitHub)</string>
+  <string name="help_menu_github_subtitle">Pedido de bug ou recurso específico? Poste aqui</string>
+  <string name="help_menu_email">Email keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">Feedback privado, ajuda ou não usa o GitHub? Envie-nos um e-mail</string>
+  <string name="help_menu_email_tags">gmail, suporte, ajuda, contato, funcionando, quebrado, bug, erro, problema, reclamação, ticket, pagamento, glitch, resolver, arrumar, corrigir, consumidor, crash, falha, questão, pergunta, assistência</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">Configuração - Passo 1</string>
+  <string name="setup_step_2">Configuração - Passo 2</string>
+  <string name="setup_step_3">Configuração - Passo 3</string>
+  <string name="setup_welcome_text">Bem-vindo ao Teclado FUTO (alfa)! Este produto ainda está em desenvolvimento e não está finalizado. Agradecemos a sua paciência e compreensão. \n\nPara começar, ative o Teclado FUTO como método de introdução.</string>
+  <string name="setup_open_input_settings">Abrir as definições do método de entrada</string>
+  <string name="setup_warning_multiple_versions">Aviso: parece que tem as versões Play Store e Standalone instaladas, recomendamos que instale apenas uma</string>
+  <string name="setup_active_input_method">Selecione o teclado FUTO como o seu método de introdução ativo.</string>
+  <string name="setup_switch_input_methods">Alterar métodos de entrada</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">Créditos</string>
+  <string name="credits_menu_header_text">Obrigado a estas pessoas por ajudarem a tornar o FUTO Keyboard numa excelente aplicação!</string>
+  <string name="credits_menu_team_translators_title">Tradutores</string>
+  <string name="credits_menu_team_keyboard_layouts_title">Contribuidores de layouts</string>
+  <string name="credits_menu_team_code_title">Contribuidores de código</string>
+  <string name="credits_menu_nonaffiliation_notice">Os autores na lista acima não estão afiliados conosco, e não necessariamente nos aprova ou promove. Essa lista não sugere afiliação ou apoio.</string>
+  <string name="credits_menu_contribute_translations_button">Ajude a traduzir a app</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">Contribua com layouts</string>
+  <string name="credits_menu_contribute_code_button">Contribua com código</string>
+  <string name="credits_menu_project_information_title">Informações sobre %s</string>
+  <string name="credits_menu_project_url_link">URL do projeto</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">Definições específicas do idioma</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">Definições de entrada em Japonês</string>
+  <string name="japanese_settings_toggle_flick_only">Somente toque rápido</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">Desativa o ciclo entre vogais em toques repetidos em teclas (Keitai input)</string>
+  <string name="japanese_settings_toggle_halfwidth_space">Usar espaço de meia-largura</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">Usar sempre espaço de meia largura</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">Parâmetros avançados</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">As opções abaixo são experimentais e podem ser removidas ou alteradas no futuro, à medida que o funcionamento interno da app for alterado. Alterar estes valores pode ter um impacto negativo na sua experiência. Nota: afetam apenas o inglês.</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">Intensidade do Transformador LM</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">Um valor menor fará com que o corretor automático se comporte mais como o do teclado AOSP padrão, enquanto um valor maior o tornará mais dependente da rede neural. O predefinido é %1$s</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">sempre o Transformador LM</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">sempre o BinaryDictionary</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">Valor limite do corretor automático</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">Um valor menor fará o corretor automático ser mais frequente (com mais chances de correções erradas), já um valor maior fará o corretor automático ser menos frequente (com menos chances de correções erradas). O padrão é %1$s</string>
+  <!-- Personal dictionary -->
+  <string name="personal_dictionary_shortcut_error_symbols">Erro: O atalho pode não começar com o símbolo</string>
+  <string name="personal_dictionary_imported_additional_files_list_header">Ficheiros</string>
+  <string name="personal_dictionary_import_additional_file">Importar</string>
+  <string name="personal_dictionary_words_list_header">Palavras</string>
+  <string name="personal_dictionary_cancel_action">Cancelar</string>
+  <string name="personal_dictionary_delete_additional_file">Apagar ficheiro de dicionário extra?</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s vai ser apagado</string>
+</resources>

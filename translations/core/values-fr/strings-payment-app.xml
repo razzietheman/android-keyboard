@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Paiement pour le Clavier FUTO</string>
+  <string name="payment_app_main_menu_title">Vous avez payé pour le Clavier FUTO</string>
+  <string name="payment_app_main_menu_line_1">Merci de votre paiement !</string>
+  <string name="payment_app_main_menu_line_2">Votre achat contribuera au développement continu du Clavier FUTO et d\'autres projets FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Cette application ne sert qu\'à vous permettre de payer le Clavier FUTO par le biais du système de paiement de Google. Vous n\'avez pas à garder cette application installée. Pour supprimer l\'avis de paiement dans le Clavier FUTO, appuyez sur `J\'ai déjà payé` ou le bouton ci-dessous. </string>
+  <string name="payment_app_activate_keyboard_button">Marquer le Clavier FUTO comme payé</string>
+  <string name="payment_app_more_options_download_keyboard">Télécharger le Clavier FUTO depuis le Play Store</string>
+  <string name="payment_app_more_options_visit_website">Visiter le site web du Clavier FUTO</string>
+  <string name="payment_app_more_options_email_support">Support par email</string>
+</resources>

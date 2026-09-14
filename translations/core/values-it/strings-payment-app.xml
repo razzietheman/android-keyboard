@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Pagamento per Tastiera FUTO</string>
+  <string name="payment_app_main_menu_title">Hai pagato per Tastiera FUTO</string>
+  <string name="payment_app_main_menu_line_1">Grazie per aver pagato!</string>
+  <string name="payment_app_main_menu_line_2">Il vostro acquisto contribuirà al continuo sviluppo della Tastiera FUTO e di altri progetti FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Questa applicazione serve solo a permettervi di pagare la tastiera FUTO attraverso il sistema di pagamento di Google. Non è necessario tenere installata questa app. Per eliminare l\'avviso di pagamento in su Tastiera FUTO, toccate ‘Ho già pagato’ o il pulsante sottostante.</string>
+  <string name="payment_app_activate_keyboard_button">Impostare la Tastiera FUTO come pagata</string>
+  <string name="payment_app_more_options_download_keyboard">Scarica Tastiera FUTO dal Play Store</string>
+  <string name="payment_app_more_options_visit_website">Visita il sito web della Tastiera FUTO</string>
+  <string name="payment_app_more_options_email_support">Assistenza via e-mail</string>
+</resources>

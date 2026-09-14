@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Перемикач тем</string>
+  <string name="action_select_all_title">Вибрати все</string>
+  <string name="action_cut_title">Вирізати в буфер обміну</string>
+  <string name="action_copy_title">Копіювати в буфер обміну</string>
+  <string name="action_paste_title">Вставити з буфера обміну</string>
+  <string name="action_undo_title">Скасувати</string>
+  <string name="action_redo_title">Повторити</string>
+  <string name="action_text_editor_title">Текстовий редактор</string>
+  <string name="action_debug_title">Інформація для налагодження</string>
+  <string name="action_more_actions_title">Усі дії</string>
+  <string name="action_bug_viewer_title">Переглядач помилок</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Стрілка вгору</string>
+  <string name="action_cursor_down_title">Стрілка вниз</string>
+  <string name="action_cursor_left_title">Стрілка вліво</string>
+  <string name="action_cursor_right_title">Стрілка вправо</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Емоджі</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Нещодавні</string>
+  <string name="action_emoji_category_smileys_emotion">Смайлики та емоції</string>
+  <string name="action_emoji_category_people_body">Люди та тіло</string>
+  <string name="action_emoji_category_animals_nature">Тварини та природа</string>
+  <string name="action_emoji_category_food_drink">Їжа та напої</string>
+  <string name="action_emoji_category_travel_places">Подорожі та місця</string>
+  <string name="action_emoji_category_activities">Активності</string>
+  <string name="action_emoji_category_objects">Об\'єкти</string>
+  <string name="action_emoji_category_symbols">Символи</string>
+  <string name="action_emoji_category_flags">Прапори</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Результатів не знайдено</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">Перейти до <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Очистити нещодавні емоджі?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Скасувати</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Очистити</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Очистити нещодавні емоджі</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Пошук</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Голосовий ввід</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Голосовий ввід (Система)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">Модель голосового вводу для <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g> не встановлена, натисніть, щоб перевірити варіанти?</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Перейдіть до розділу «Дозволи» та ввімкніть дозвіл на використання мікрофона для голосового введення</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Менеджер буфера обміну</string>
+  <string name="action_clipboard_manager_unpin_item">Відкріпити елемент</string>
+  <string name="action_clipboard_manager_pin_item">Закріпити елемент</string>
+  <string name="action_clipboard_manager_remove_item">Видалити елемент</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">Підтвердити видалення:\n«%s»</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog_image">Підтвердити видалення зображення</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Скасувати</string>
+  <string name="action_clipboard_manager_disable_text">Немає елементів для очищення. Вимкнути історію буфера обміну?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Вимкнути</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Немає елементів, які можна відкріпити. Відкріпити всі елементи?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Відкріпити</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Очистити всі відкриплені елементи?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Очистити</string>
+  <string name="action_clipboard_manager_clear_clipboard">Очистити буфер обміну</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Пристрій заблоковано</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Розблокуйте ваш пристрій, щоб отримати доступ до історії буфера обміну</string>
+  <string name="action_clipboard_manager_error_general_title">Помилка буфера обміну</string>
+  <string name="action_clipboard_manager_error_general_text">Історію буфера обміну не вдалося зберегти або завантажити. Вона може бути пошкоджена. Ви можете спробувати видалити її або перезапустити клавіатуру. Повідомте про це як про помилку. Причина: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Видалити буфер обміну? УСІ елементи будуть втрачені.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Повторити</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Переглянути помилку в Переглядачі помилок</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Видалити</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Історія буфера обміну неактивна</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">Аби зберегти елементи буфера обміну, можна ввімкнути історію буфера обміну. Це дозволить зберегти до <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> елементів на <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> дні (закріплені елементи не враховуються). Ви можете налаштувати це в налаштуваннях.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Увімкнути історію буфера обміну</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Застосунок не підтримує вставку зображень</string>
+  <string name="action_clipboard_manager_settings_title">Налаштування менеджера буфера обміну</string>
+  <string name="action_clipboard_manager_settings_save_images">Зберегти скопійовані зображення</string>
+  <string name="action_clipboard_manager_settings_save_screenshots">Зберегти останні знімки екрана</string>
+  <string name="action_clipboard_manager_settings_save_screenshots_subtitle">Вам потрібно надати дозвіл на доступ до ваших знімків екрана</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Годин для збереження відкріплених елементів</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Кількість незакріплених елементів, які треба зберегти</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Зберегти конфіденційні елементи</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Якщо цей параметр ввімкнено, він збереже елементи з менеджерів паролів, приватних вікон тощо.</string>
+  <string name="action_clipboard_manager_settings_list_layout">Використовуваии вертикальне розташування списку замість сітки</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Закріпити обрані кліпи зверху</string>
+  <string name="action_clipboard_manager_settings_skip_delete_confirmation">Пропустити підтвердження під час видалення відкріплених закріплень</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Показувати нещодавно скопійований текст у панелі підказок</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Режими клавіатури</string>
+  <string name="action_keyboard_modes_go_back">Назад</string>
+  <string name="action_keyboard_modes_resize_keyboard">Змінити розмір клавіатури</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Стандартна</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Одна рука</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Розділити</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Плавальна</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Скинути</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Застосувати</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">Стиль тексту</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Застосунок може не підтримувати вставку зображень, ця функція може не працювати.</string>
+  <string name="action_fonttyper_select_a_preset">Вибрати передустановку</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Подряпини</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Супергерой</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Драматичний текст</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Цукерка</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Веселка</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Горизонт</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">Вступні титри</string>
+  <string name="action_fonttyper_finish">Завершити</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Кнопка дії</string>
+  <string name="action_kind_pinned_key">Закріплені дії</string>
+  <string name="action_kind_favorites">Улюблені дії</string>
+  <string name="action_kind_more">Більше дій</string>
+  <string name="action_kind_disabled">Сховані дії</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Темний режим</string>
+  <string name="theme_default_light">Світлий режим</string>
+  <string name="theme_amoled_dark">Темний пурпурний AMOLED</string>
+  <string name="theme_catppuccin_mocha">Кетпучино Мокко</string>
+  <string name="theme_classic_dark">Темна класична AOSP Material</string>
+  <string name="theme_classic_light">Світла класична AOSP Material</string>
+  <string name="theme_vi">Тема FUTO VI</string>
+  <string name="theme_deepsea_dark">Темний глибокий океан</string>
+  <string name="theme_deepsea_light">Світлий глибокий океан</string>
+  <string name="theme_emerald">Смарагд</string>
+  <string name="theme_gradient1">Градієнт 1</string>
+  <string name="theme_gradient2">Градієнт 2</string>
+  <string name="theme_rainbow">Веселка</string>
+  <string name="theme_snowfall">Снігопад</string>
+  <string name="theme_steel_gray">Сталевий сірий</string>
+  <string name="theme_sunflower">Соняшник</string>
+  <string name="theme_cotton_candy">Цукрова вата</string>
+  <string name="theme_hotdog">Гарячий собака</string>
+  <string name="theme_high_contrast_yellow">Жовтий із високим контрастом</string>
+  <string name="theme_dev">Тема в розробці</string>
+  <string name="theme_dynamic_system">Динамічна авто</string>
+  <string name="theme_dynamic_dark">Динамічний темний</string>
+  <string name="theme_dynamic_light">Динамічний світлий</string>
+  <string name="theme_custom_named">Власна: %s</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Служба перевірки оновлень</string>
+  <string name="autoupdater_update_available_title">Доступне оновлення</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">Доступне оновлення (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Натисніть, щоб завантажити</string>]]></string>
+  <string name="autoupdater_dismiss_update">Відхилити</string>
+  <string name="autoupdater_perform_update">Оновити</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body">Відхилити пропозицію \"%1$s\"?</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Чорний список</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Вимкнути пропозиції емоджі</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Альфа</string>
+  <string name="keyboard_switch_keyboard">Перемкнути клавіатуру</string>
+  <string name="keyboard_language_settings">Налаштування</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Натисніть, щоби перевірити наявність оновлень, або перевірте в налаштуваннях.</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Словник не встановлено. Натисніть, аби завантажити</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Відкрити панель дій</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Закрити панель дій</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Закрити</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Назад</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Показати клавіатуру</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Закрити</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Згорнути</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Оплата</string>
+  <string name="payment_screen_title">Оплатити FUTO Клавіатуру</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">Ви користуєтеся FUTO Клавіатурою вже <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> днів. Якщо ви вважаєте цей застосунок корисним, розгляньте можливість оплати для підтримки подальшого розвитку програмного забезпечення FUTO.</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Дякуємо, що спробували FUTO Клавіатуру! Якщо ви вважаєте цей застосунок корисним, розгляньте можливість оплати для підтримки подальшого розвитку програмного забезпечення FUTO.</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO прагне створювати якісне програмне забезпечення, яке не зловживає вами. Цей застосунок ніколи не показуватиме вам рекламу або не збиратиме ваші особисті дані.</string>
+  <string name="payment_screen_sales_point_development_title">Сталий розвиток</string>
+  <string name="payment_screen_sales_point_development_body">Місія FUTO полягає в тому, щоб програмне забезпечення з відкритим кодом та добросовісні бізнес-практики стали сталим джерелом доходу для проєктів та їхніх розробників. З цієї причини ми підтримуємо ідею, що користувачі повинні платити за програмне забезпечення.</string>
+  <string name="payment_screen_sales_point_privacy_title">\"Зобов\'язання щодо приватності\"</string>
+  <string name="payment_screen_sales_point_privacy_body">Цей застосунок ніколи не показуватиме вам рекламу або не продаватиме ваші дані. Ми не займаємося цим бізнесом.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Оплата не підтримується в цій версії</string>
+  <string name="payment_screen_already_paid_title">Вже оплатили?</string>
+  <string name="payment_screen_already_paid_body">Якщо ви вже оплатили FUTO Клавіатуру або FUTO Голосовий ввід, натисніть нижче.</string>
+  <string name="payment_screen_already_paid_button">Я вже оплатив</string>
+  <string name="payment_screen_already_paid_confirmation">Підтвердьте свій вибір</string>
+  <string name="payment_screen_already_paid_confirmation_body">Ви впевнені, що хочете підтвердити, що вже оплатили? Після підтвердження вас більше не запитуватимуть про оплату.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Я вже оплатив</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Скасувати</string>
+  <string name="payment_screen_set_reminder_title">Ще не готові платити?</string>
+  <string name="payment_screen_set_reminder_body">Це приховає нагадування в екрані налаштувань на вказаний період днів.</string>
+  <string name="payment_screen_set_reminder_setter">Коли ви хочете отримати нагадування?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">через 7 днів</string>
+  <string name="payment_screen_set_reminder_setter_1_month">через 1 місяць</string>
+  <string name="payment_screen_set_reminder_setter_6_months">через 6 місяців</string>
+  <string name="payment_screen_set_reminder_setter_next_century">в наступному столітті</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Підтвердити нагадування</string>
+  <string name="payment_screen_other_options">Інші варіанти</string>
+  <string name="payment_screen_need_help_title">Допомога</string>
+  <string name="payment_screen_need_help_subtitle">Потрібна допомога? Відвідайте наш вебсайт</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Оплатити через Google Play (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + податок)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">Оплатити (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + податок)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay2"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay2\\\">Оплатити через FUTO Pay (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + податок)</string>]]></string>
+  <string name="payment_screen_more_options">Більше варіантів</string>
+  <string name="payment_screen_payment_complete_title">Оплата завершена</string>
+  <string name="payment_screen_aftersales_title">Дякуємо</string>
+  <string name="payment_screen_aftersales_title_pending">Оплата в обробці</string>
+  <string name="payment_screen_aftersales_paragraph_1">Дякуємо за покупку FUTO Клавіатури!</string>
+  <string name="payment_screen_aftersales_paragraph_2">Ваша покупка допоможе в подальшому розвитку FUTO Клавіатури та інших проєктів FUTO.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Ваша оплата ще в обробці, але вона повинна пройти незабаром.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Якщо ви щойно оплатили, ваша оплата може ще оброблятися, ви повинні отримати лист з додатковою інформацією.</string>
+  <string name="payment_screen_payment_failed_title">Помилка оплати</string>
+  <string name="payment_screen_payment_failed_body">\"На жаль, ваша оплата не пройшла з тієї чи іншої причини. Зв\'яжіться з нами, якщо вам потрібна допомога. Ви можете зв\'язатися з нами за адресою keyboard@futo.org, за допомогою кнопки нижче або через «Надіслати відгук» у розділі «Допомога».\"</string>
+  <string name="payment_screen_payment_failed_body_unconfident">\"Можливо, виникла проблема з вашою оплатою. Якщо вона пройшла, ви повинні отримати лист з ліцензійним ключем. Зв\'яжіться з нами, якщо вам потрібна допомога. Ви можете зв\'язатися з нами за адресою keyboard@futo.org, за допомогою кнопки нижче або через «Поділитися відгуком« на головному екрані.\"</string>
+  <string name="payment_screen_license_integrity_error">\"Не вдалося перевірити ліцензію. Якщо ви вважаєте, що це помилка, зв\'яжіться з нами.\"</string>
+  <string name="payment_screen_continue_button">Продовжити</string>
+  <string name="payment_unpaid_version_title">Неоплачена FUTO Клавіатура</string>
+  <string name="payment_unpaid_version_indicator">Неоплачена</string>
+  <string name="payment_paid_version_indicator">Дякуємо за використання платної версії FUTO Клавіатури!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Повідомлення про оновлення</string>
+  <string name="manual_update_notice_paragraph_1">Цей застосунок не під\'єднюється до мережі й не зможе перевіряти автоматичні оновлення. Проте ви можете перевірити оновлення вручну.</string>
+  <string name="manual_update_notice_paragraph_2">Використовуйте F-Droid або Obtainium для автоматичних оновлень. Відвідайте keyboard.futo.org для варіантів завантаження.</string>
+  <string name="manual_update_notice_dev_paragraph">Ви використовуєте розробницьку версію FUTO Клавіатури. Відвідайте keyboard.futo.org, якщо хочете завантажити стабільну версію.</string>
+  <string name="manual_update_notice_visit_site_button">Відвідати</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Відхилити</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Порада</string>
+  <string name="settings_unknown_error_title">Невідома помилка</string>
+  <string name="settings_unknown_error_subtitle">Виникла невідома помилка.</string>
+  <string name="settings_try_typing_here">Спробуйте ввести текст тут…</string>
+  <string name="settings_external_model_name">Екстернально імпортована модель</string>
+  <string name="settings_check_for_updates_manually">Перевірити оновлення вручну</string>
+  <string name="settings_update_available">Доступне оновлення</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Головна</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">Параметр вимкнено, оскільки залежить від іншого. Натисніть, щоб перейти до меню: %1$s</string>
+  <string name="settings_search_menu_title">Пошук</string>
+  <string name="settings_search_enter_your_search">Введітт пошуковий термін…</string>
+  <string name="settings_search_no_options_found">Результатів не знайдено</string>
+  <string name="misc_settings_title">Різне</string>
+  <string name="setting_section_collapsed">Згорнуто</string>
+  <string name="setting_section_expanded">Розгорнуто</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Мови та моделі</string>
+  <string name="language_settings_add_language_button">Додати мову</string>
+  <string name="language_settings_select_language">Виберіть мову для додавання</string>
+  <string name="language_settings_search">Пошук</string>
+  <string name="language_settings_select_layout">Виберіть розкладку для додавання</string>
+  <string name="language_settings_warning_language_has_no_dict">Ця мова не має вбудованого словника. Рекомендуємо завантажити та імпортувати один, щоб отримати автокорекцію та пропозиції слів.</string>
+  <string name="language_settings_resource_none">(Немає)</string>
+  <string name="language_settings_layouts_of_this_language">Розкладки клавіатури</string>
+  <string name="language_settings_add_layout_for_this_language">Додати розкладку клавіатури</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Багатомовний ввід</string>
+  <string name="language_settings_remove_this_language">Видалити мову</string>
+  <string name="language_settings_manage_languages_title">Керування мовами та розкладками</string>
+  <string name="language_settings_manage_languages_subtitle">Переглянути мови, які ви ввімкнули, видалити мови, змінити або додати додаткові розкладки, або ввімкнути багатомовне введення тексту</string>
+  <string name="language_settings_resource_imported_indicator">(Імпортовано)</string>
+  <string name="language_settings_resource_unsupported_indicator">(Не підтримується)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Вбудований словник</string>
+  <string name="language_settings_resource_voice_input_selected">Бажаєте повернути модель голосового вводу до стандартної, або замінити її на інший файл?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Для цієї мови не існує вбудованої моделі голосового вводу, тому якщо ви її видалите, голосовий ввід перестане працювати для цієї мови, поки ви не імпортуєте іншу модель!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Ви не налаштували власну модель голосового вводу для цієї мови. Ви можете знайти завантаження в Інтернеті або імпортувати одну з файлу.</string>
+  <string name="language_settings_resource_transformer_selected">Бажаєте повернути модель трансформера до стандартної, або замінити її на інший файл?</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">Для цієї мови не існує вбудованої моделі трансформера, тому якщо ви її видалите, прогнози на основі трансформера перестануть працювати для цієї мови, поки ви не імпортуєте іншу модель!</string>
+  <string name="language_settings_resource_transformer_selected_unset">Ви не налаштували власну модель трансформера для цієї мови. Ви можете знайти завантаження в Інтернеті або імпортувати одну з файлу.</string>
+  <string name="language_settings_resource_dictionary_selected">Бажаєте повернути словник до стандартного, або замінити його на інший файл?</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">Для цієї мови не існує вбудованого словника, тому якщо ви його видалите, автокорекція та прогнози перестануть працювати для цієї мови, поки ви не імпортуєте інший словник!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">Ви не налаштували власний словник для цієї мови. Ви можете знайти завантаження в Інтернеті або імпортувати один з файлу.</string>
+  <string name="language_settings_resource_replace_button">Замінити</string>
+  <string name="language_settings_resource_import_file_button">Імпортувати</string>
+  <string name="language_settings_resource_revert_to_default_button">Повернути до стандартного</string>
+  <string name="language_settings_resource_remove_button">Видалити</string>
+  <string name="language_settings_resource_explore_online_button">Дослідити</string>
+  <string name="language_settings_remove_language_title">Видалити %1$s?</string>
+  <string name="language_settings_remove_language_body">\"Видалити %1$s, всі його пов\'язані розкладки та користувацькі ресурси?\"</string>
+  <string name="language_settings_remove_language_remove_button">Видалити</string>
+  <string name="language_settings_remove_language_cancel_button">Скасувати</string>
+  <string name="language_settings_other_options">Інші варіанти</string>
+  <string name="language_settings_import_resource_from_file">Імпортувати файл ресурсу</string>
+  <string name="language_settings_explore_voice_input_models_online">Дослідити моделі голосового вводу</string>
+  <string name="language_settings_explore_dictionaries_online">Дослідити словники</string>
+  <string name="language_settings_explore_transformers_online">Дослідити моделі трансформерів</string>
+  <string name="language_settings_import_dictionary_or_model">Імпортувати словник чи модель</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Модель голосового вводу</string>
+  <string name="file_kind_transformer_model">Модель трансформера</string>
+  <string name="file_kind_dictionary">Словник</string>
+  <string name="file_kind_invalid_file">Неправильний файл</string>
+  <string name="file_kind_cfg_backup">Резервне копіювання конфігурації</string>
+  <string name="resource_importer_import_title">Імпорт - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">Помилка: Цей файл, здається, є вихідним списком слів (_wordlist.combined), а не скомпільованим словником (.dict).</string>
+  <string name="resource_importer_error_wordlist_2">Завантажте скомпільований файл словника, а не список слів. Якщо ви самі створили цей список слів, скомпільтуйте його зовні за допомогою dicttool.</string>
+  <string name="resource_importer_error_invalid_fiile">Помилка: Цей файл не вдалося розпізнати. Він може бути неправильним або пошкодженим. Спробуйте завантажити його знову або спробуйте інший файл.</string>
+  <string name="resource_importer_cancel_button">Скасувати</string>
+  <string name="resource_importer_import_button">Імпортувати</string>
+  <string name="resource_importer_file_info">Інформація про файл: %1$s</string>
+  <string name="resource_importer_importing">Імпортування для мови: %1$s</string>
+  <string name="resource_importer_importing_cfg">Імпортування конфігурації… Не закривайте це меню, поки процес не буде завершено (5–10 секунд)</string>
+  <string name="resource_importer_select_language">Виберіть мову для імпорту:</string>
+  <string name="resource_importer_warning_language_missing">Цей файл, здається, призначений для мови (%1$s), яка не увімкнена в налаштуваннях</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">Ви впевнені, що хочете імпортувати цю резервну копію конфігурації? Це замінить усі ваші налаштування, особистий словник (системний), вивчені слова словника, будь-які імпортовані ресурси тощо. Якщо ви не впевнені, зробіть перед цим ще одну резервну копію.</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">Ця резервна копія конфігурації була створена новою версією FUTO Keyboard, і вона може не імпортуватися належним чином. Спробуйте спочатку оновити FUTO Keyboard.</string>
+  <string name="settings_export_configuration_title">Налаштування резервної копії</string>
+  <string name="settings_export_configuration">Експортувати конфігурації</string>
+  <string name="settings_export_configuration_subtitle">Створіть резервну копію всіх налаштувань, буфера обміну, вивчених слів, ресурсів тощо.</string>
+  <string name="settings_export_configuration_exporting">Експртування конфігурації…</string>
+  <string name="settings_export_configuration_exporting_text">Не закривайте це меню, поки процес не буде завершено (5–10 секунд)</string>
+  <string name="settings_import_configuration">Імпортувати конфігурацію</string>
+  <string name="settings_import_configuration_subtitle">Якщо ви раніше експортували свою конфігурацію, ви можете імпортувати її знову тут.</string>
+  <string name="settings_import_export_tags">резервне копіювання, відновлення, збереження, завантаження, експорт, імпорт, перенесення пристрою</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Редагування дій</string>
+  <string name="action_editor_subtitle">Редагуйте улюблені дії, закріплені дії та кнопку дії поруч з пробілом</string>
+  <string name="action_editor_edit_actions">Редагувати дії</string>
+  <string name="action_editor_warning_no_actions">Дії не увімкнені</string>
+  <string name="action_editor_error_more_than_one_action_key">Призначте лише одну кнопку дії. Ви не можете призначити більше ніж одну дію кнопці дії.</string>
+  <string name="action_editor_warning_too_many_pinned">Розгляньте можливість закріплення меншої кількості дій. Панель пропозицій потрібно буде зменшити, щоб вмістити таку кількість дій.</string>
+  <string name="action_editor_add_next_action">Додати наступну</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Дії</string>
+  <string name="action_settings_quick_options_title">Швидкі налаштування</string>
+  <string name="action_settings_quick_option_enable_action_key">Увімкнути клавішу дії</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">Показати клавішу ліворуч від пробілу для швидкого доступу до дії. Увімкнувши цей параметр, буде розміщено клавішу емоджі, але її можна налаштувати в розділі «Редагувати дії»</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">Показати клавішу ліворуч від пробілу для швидкого доступу до дії. Вимкнення цього параметру призведе до переміщення поточної призначеної дії: %s</string>
+  <string name="action_settings_quick_option_language_switch_key">Клавіша зміни мови</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">Замінити клавішу емоджі клавішею перемикання мови. Перейдіть до «Редагувати дії», щоб встановити інше значення.</string>
+  <string name="action_settings_action_settings">Налаштування дії</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">Змінити розмір клавіатури</string>
+  <string name="size_settings_subtitle2">Змінити розмір клавіатури, зробити її одноручною, плавучою, розділеною</string>
+  <string name="size_settings_resize_tip">Натисніть кнопку \"Змінити розмір клавіатури\", щоб змінити розмір.</string>
+  <string name="size_settings_keyboard_modes_tip">Ви можете отримати доступ до цього в будь-якому місці за допомогою дії «Режими клавіатури»:</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">Розмір і режим зберігаються окремо для портретного та альбомного формату.</string>
+  <string name="size_settings_reset">Скинути налаштування розміру</string>
+  <string name="size_settings_reset_subtitle">Натисніть, щоб скинути всі розміри та режими для портретної та ландшафтної орієнтації до стандартних</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">Клавіші з довгим натисканням та пробіл</string>
+  <string name="morekey_settings_subtitle">Налаштуйте тривалість довгого натискання, порядок букв/символів та поведінку клавіші пробілу та клавіші видалення.</string>
+  <string name="morekey_settings_layout">Розкладка клавіш з довгим натисканням</string>
+  <string name="morekey_settings_reset">Скинути до стандартних</string>
+  <string name="morekey_settings_move_kind_up">Рух угору</string>
+  <string name="morekey_settings_move_kind_down">Рух униз</string>
+  <string name="morekey_settings_move_kind_up_to_top">Рух до верху</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">Рух донизу</string>
+  <string name="morekey_settings_kind_position">Позиція %1$s від %2$s</string>
+  <string name="morekey_settings_active">Активна</string>
+  <string name="morekey_settings_inactive">Неактивна</string>
+  <string name="morekey_settings_reactivate">Повторно активувати</string>
+  <string name="morekey_settings_disable">Деактивувати</string>
+  <string name="morekey_settings_keys">Клавіші з довгим натисканням</string>
+  <string name="morekey_settings_show_hints">Показати підказки</string>
+  <string name="morekey_settings_show_hints_subtitle">Відображати невелику підказку на кожній клавіші, що показує основну клавішу з довгим натисканням</string>
+  <string name="morekey_settings_show_hints_tags">додаткові символи, альтернативні клавіші, символи, спливні клавіші</string>
+  <string name="morekey_settings_duration">Тривалість довгого натискання</string>
+  <string name="morekey_settings_duration_subtitle">Як довго клавішу потрібно натискати, щоб вважати це довгим натисканням</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Цифри</string>
+  <string name="morekey_settings_kind_numbers_example">наприклад, [1] на [q]</string>
+  <string name="morekey_settings_kind_language_keys">Клавіші мов</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">наприклад, [ñ] на [n] в іспанській</string>
+  <string name="morekey_settings_kind_symbols">Символи</string>
+  <string name="morekey_settings_kind_symbols_example">наприклад, [@] на [a]</string>
+  <string name="morekey_settings_kind_actions">Швидкі дії</string>
+  <string name="morekey_settings_kind_actions_example">наприклад, [Копіювати] на [c]</string>
+  <string name="morekey_settings_kind_misc_common">Різні літери з поширених мов</string>
+  <string name="morekey_settings_kind_misc_common_example">наприклад, [ß] на [s] у всіх мовах латинського письма</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">Налаштування вводу</string>
+  <string name="typing_settings_suggest_emojis">Пропозиції емоджі</string>
+  <string name="typing_settings_suggest_emojis_subtitle">Пропонувати емоджі під час введення тексту</string>
+  <string name="typing_settings_vibration_strength">Вібрація</string>
+  <string name="typing_settings_vibration_strength_default">Типово</string>
+  <string name="typing_settings_keypress_sound_volume">Гучність звуку</string>
+  <string name="typing_settings_keypress_sound_volume_default">Типово</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">У деяких версіях Android налаштування гучності може не діяти.</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">Звук не відтворюватиметься, якщо режим дзвінка встановлено на «Без звуку» або «Вібрація».</string>
+  <string name="typing_settings_enable_clipboard_history">Історія буфера обміну</string>
+  <string name="typing_settings_enable_clipboard_history_tags">копіювати, вставити</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">Видалити вставлений / введений текст за допомогою клавіші Backspace</string>
+  <string name="typing_settings_revert_correction_on_backspace">Скасувати автокорекцію при натисканні Backspace</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">Режим автоматичних пробілів</string>
+  <string name="typing_settings_auto_space_mode_auto2">Пробіл одразу після пропозицій та розділових знаків</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">Пробіл одразу після пропозицій</string>
+  <string name="typing_settings_auto_space_mode_legacy2">Пробіл після пропозицій (старий режим)</string>
+  <string name="typing_settings_auto_space_mode_none2">Вимкнено (не рекомендується)</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Клавіатура</string>
+  <string name="keyboard_settings_show_number_row">Показати рядок цифр</string>
+  <string name="keyboard_settings_show_number_row_subtitle">Коли активовано, рядок цифр відображається зверху клавіатури на підтримуваних розкладках</string>
+  <string name="keyboard_settings_show_arrow_row">Показати стрілочні клавіші</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">Коли активовано, рядок стрілочних клавіш відображається внизу клавіатури</string>
+  <string name="keyboard_settings_extra_layouts">Додаткові розкладки</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">Налаштуйте додаткові розкладки на екрані мов</string>
+  <string name="keyboard_settings_show_suggestion_row">Показати панель дій/пропозицій</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">Показати панель з пропозиціями. Рекомендується залишати увімкненою</string>
+  <string name="keyboard_settings_inline_autofill">Вбудоване автозаповнення</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">Відображати автозаповнення менеджера паролів у панелі пропозицій</string>
+  <string name="keyboard_settings_period_key">Швидка клавіша крапки</string>
+  <string name="keyboard_settings_period_key_subtitle2">Замінює комбінації клавіш, що активуються при тривалому натисканні, на комбінації, що активуються швидким рухом пальця: ! , . ?</string>
+  <string name="keyboard_settings_number_row_title">Рядок чисел</string>
+  <string name="keyboard_settings_number_row_style">Стиль рядка чисел</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">Компактний</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">Повний</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">Завжди використовувати арабські цифри</string>
+  <string name="keyboard_settings_hide_when_hardware_keyboard_is_connected">Приховати при виявленні USB-клавіатури</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Клавіатура та введення</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">Тема</string>
+  <string name="theme_settings_key_borders">Межі клавіш</string>
+  <string name="theme_settings_default_themes">Вбудована</string>
+  <string name="theme_settings_seasonal_themes">Сезонна</string>
+  <string name="theme_settings_custom_themes">Ваші теми</string>
+  <string name="theme_settings_custom_theme_delete_title">Видалити власну тему?</string>
+  <string name="theme_settings_custom_theme_delete_body">Тема: %s</string>
+  <string name="theme_settings_custom_theme_delete_confirm">Видалити</string>
+  <string name="theme_settings_custom_theme_delete_cancel">Скасувати</string>
+  <!-- Theme customizer -->
+  <string name="theme_customizer_select_background_image_button">Вибрати зображення</string>
+  <string name="theme_customizer_adjust_background_image_hint">Перетягніть або розведіть пальці, щоб змінити розмір зображення</string>
+  <string name="theme_customizer_transparency_slider_name">Прозорість</string>
+  <string name="theme_customizer_blur_slider_name">Розмиття</string>
+  <string name="theme_customizer_color_sliders_name">Колір</string>
+  <string name="theme_customizer_dark_mode_toggle">Темний режим</string>
+  <string name="theme_customizer_light_mode_toggle">Світлий режим</string>
+  <string name="theme_customizer_finish_theme_adjustment">Завершити</string>
+  <string name="theme_customizer_load_custom_theme_file">Завантажити із ZIP-файлу</string>
+  <string name="theme_customizer_import_custom_theme_menu_title">Імпортувати власну тему</string>
+  <string name="theme_customizer_import_custom_theme_name_text">Назва теми: %s</string>
+  <string name="theme_customizer_import_custom_theme_author_text">Автор: %s</string>
+  <string name="dev_settings_title">Налаштування розробника</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Голосовий ввід</string>
+  <string name="voice_input_settings_builtin_disabled_notice">Вбудований голосовий ввід вимкнено!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Вимкнути вбудований голосовий ввід</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">Використовувати голосовий ввід, наданий зовнішнім додатком</string>
+  <string name="voice_input_settings_indication_sounds">Звуки індикації</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">Відтворювати короткий звук при старті та скасуванні</string>
+  <string name="voice_input_settings_verbose_progress">Детальний прогрес</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">Відображати додаткову інформацію, таку як використання мікрофона</string>
+  <string name="voice_input_settings_use_personal_dict">Особистий словник для голосу</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">Використовувати особистий словник для голосового введення</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Використовувати Bluetooth мікрофон</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">\"Може бути додаткова затримка перед початком запису, оскільки потрібно узгодити з\'єднання Bluetooth SCO\"</string>
+  <string name="voice_input_settings_audio_focus">Аудіо фокус</string>
+  <string name="voice_input_settings_audio_focus_subtitle">Пауза відео/музики при активації голосового вводу</string>
+  <string name="voice_input_settings_suppress_symbols">Приховати символи</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">Запобігти виводу символів під час голосового вводу</string>
+  <string name="voice_input_settings_long_form">Довгий голосовий ввід</string>
+  <string name="voice_input_settings_long_form_subtitle">Якщо вимкнено, голосовий ввід автоматично зупиниться через 30 секунд.</string>
+  <string name="voice_input_settings_autostop_vad">Авто-зупинка при мовчанні</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">Автоматично зупинятися, коли виявлено мовчання. Можливо, вам доведеться зупинити вручну, якщо є занадто багато фонових шумів.</string>
+  <string name="voice_input_settings_change_models">Моделі</string>
+  <string name="voice_input_settings_change_models_subtitle">Щоб змінити моделі, відвідайте меню «Мови та Моделі»</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">Прогнозування тексту</string>
+  <string name="prediction_settings_transformer">Трансформер LM</string>
+  <string name="prediction_settings_transformer_finetuning">Тонке налаштування трансформера</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">Може розряджати вашу батарею, якщо увімкнено! Ця функція потребує додаткової роботи</string>
+  <string name="prediction_settings_transformer_models">Моделі трансформера</string>
+  <string name="prediction_settings_transformer_alpha_notice">Примітка: Трансформер LM знаходиться в альфа-версії</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">Ці налаштування є експериментальними та стосуються лише англійської. На інші мови вони не впливають.</string>
+  <string name="prediction_settings_smart_keyhit_detection">Розумне виявлення натискань клавіш</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">Використовує словник для визначення відповідних наступних клавіш і збільшує їхню зону натискання. Збільшення уникається після натискання клавіші видалення</string>
+  <string name="prediction_settings_word_blacklist">Чорний список слів</string>
+  <string name="prediction_settings_word_blacklist_add">Додати до чорного списку</string>
+  <string name="prediction_settings_word_blacklist_none">Чорного списку слів немає.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">Переглянути та редагувати слова з чорного списку</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">Натисніть тут, щоб переглянути список пропозицій, що потрапили до чорного списку, а також додати або видалити записи</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">Видалити слово</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Допомога та відгуки</string>
+  <string name="help_menu_version_name">Назва версії: %1$s</string>
+  <string name="help_menu_version_code">Код версії: %1$s</string>
+  <string name="help_menu_version_tip">Ми хочемо почути вашу думку! Якщо ви повідомляєте про проблему, ваша версія може бути важливою: v%1$s</string>
+  <string name="help_menu_website">Вебсайт FUTO</string>
+  <string name="help_menu_website_subtitle">Дізнатися про нас та нашу філософію</string>
+  <string name="help_menu_website_tags">завантаження, застосунок, голосовий ввід</string>
+  <string name="help_menu_documentation">Документація</string>
+  <string name="help_menu_documentation_subtitle">Дізнайтеся більше про функції та можливості клавіатури</string>
+  <string name="help_menu_discord">Сервер Discord</string>
+  <string name="help_menu_discord_subtitle">Хочете поговорити, але не любите Zulip? Чат тут</string>
+  <string name="help_menu_futo_chat">Чат FUTO</string>
+  <string name="help_menu_futo_chat_subtitle">Хочете поговорити, але не любите Discord? Чат тут</string>
+  <string name="help_menu_github">Публічний трекер проблем</string>
+  <string name="help_menu_github_subtitle">Конкретна помилка або запит на функцію? Напишіть тут</string>
+  <string name="help_menu_email">Поштова адреса: keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">Приватний відгук, допомога або не користуєтеся GitHub? Напишіть нам</string>
+  <string name="help_menu_email_tags">пошта, підтримка, контакт, допомога, несправність, помилка, проблема, скарга, заявка, оплата, технічна підтримка, збій, несправність, виправлення, служба підтримки клієнтів, збій у роботі, запитання, запит, допомога</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">Налаштування - Крок 1</string>
+  <string name="setup_step_2">Налаштування - Крок 2</string>
+  <string name="setup_step_3">Налаштування - Крок 3</string>
+  <string name="setup_welcome_text">Ласкаво просимо до FUTO Клавіатури (альфа)! Цей продукт все ще розробляється і ще не завершений, ми вдячні за ваше терпіння та розуміння.\n\nЩоб почати, увімкніть FUTO Клавіатуру як метод введення.</string>
+  <string name="setup_open_input_settings">Відкрити налаштування методу введення</string>
+  <string name="setup_warning_multiple_versions">Увага: Схоже, у вас встановлені як версія з Play Store, так і автономна версія, ми рекомендуємо встановлювати лише одну</string>
+  <string name="setup_active_input_method">Виберіть FUTO Клавіатуру як ваш активний метод введення.</string>
+  <string name="setup_switch_input_methods">Переключити методи введення</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">Автори</string>
+  <string name="credits_menu_header_text">Дякуємо цим людям за те, що допомогли зробити FUTO Клавіатуру чудовим застосунком!</string>
+  <string name="credits_menu_team_translators_title">Перекладачі</string>
+  <string name="credits_menu_team_keyboard_layouts_title">Співавтори макетів</string>
+  <string name="credits_menu_team_code_title">Співавтори коду</string>
+  <string name="credits_menu_team_third_party_libraries_title2">Сторонній код та ресурси</string>
+  <string name="credits_menu_nonaffiliation_notice">Зазначені вище автори не пов’язані з нами і не обов’язково підтримують або рекламують нас. Включення до списку не означає приналежності до нас чи підтримки з нашого боку.</string>
+  <string name="credits_menu_contribute_translations_button">Допомогти перекласти застосунок</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">Запропонувати макети</string>
+  <string name="credits_menu_contribute_code_button">Запропонувати код</string>
+  <string name="credits_menu_project_information_title">Інофрмація про «%s»</string>
+  <string name="credits_menu_project_url_link">URL-адреса проєкту</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">Налаштування для конкретної мови</string>
+  <!-- Specific to Chinese input method -->
+  <string name="chinese_settings_title">Налаштування введення китайської</string>
+  <string name="chinese_setting_search_tags">китайська, рима</string>
+  <string name="chinese_setting_simplification">Спрощена</string>
+  <string name="chinese_setting_simplification_simplify_by_language_country">Типово (за країною)</string>
+  <string name="chinese_setting_simplification_force_simplified">Спрощено</string>
+  <string name="chinese_setting_simplification_force_traditional">Традиційна</string>
+  <string name="chinese_setting_pinyin_scheme">Система піньїнь</string>
+  <string name="chinese_setting_fuzzy_pinyin">Нечіткий піньїнь</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">Налаштування введення японської</string>
+  <string name="japanese_settings_toggle_flick_only">Тільки доторк</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">Вимкнує перемикання між голосними при повторному натисканні клавіш (введення Кейтай)</string>
+  <string name="japanese_settings_toggle_halfwidth_space">Використовувати пробіл половинної ширини</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">Завжди використовувати пробіл половинної ширини</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">Розширені параметри</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">Наведені нижче параметри є експериментальними і можуть бути видалені або змінені в майбутньому у зв’язку зі змінами у внутрішній структурі застосунку. Зміна цих значень може негативно вплинути на його роботу. Примітка: це стосується лише англійської</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">Сила трансформерних мовних моделей</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">Менше значення зробить роботу автокорекції більш схожою на стандартну клавіатуру AOSP, тоді як більше значення зробить її більш залежною від нейронної мережі Типове значення: %1$s</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">завжди трансформер мовної моделі</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">завжди бінарний словник</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">Поріг автокорекції</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">Нижчий поріг призведе до частішої автокорекції (і частіших помилок), тоді як вищий поріг спричинить рідшу автокорекцію (і рідші помилки). Типове значення: %1$s</string>
+  <!-- Personal dictionary -->
+  <string name="personal_dictionary_shortcut_error_symbols">Помилка: скорочення не може починатися із символу</string>
+  <string name="personal_dictionary_imported_additional_files_list_header">Файли</string>
+  <string name="personal_dictionary_import_additional_file">Імпортувати</string>
+  <string name="personal_dictionary_words_list_header">Слова</string>
+  <string name="personal_dictionary_cancel_action">Скасувати</string>
+  <string name="personal_dictionary_delete_additional_file">Видалити зайвий файл словника?</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s буде видалено</string>
+</resources>

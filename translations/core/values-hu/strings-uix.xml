@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_cut_title">Kivágás a vágólapra</string>
+  <string name="action_copy_title">Másolás a vágólapra</string>
+  <string name="action_paste_title">Beillesztés a vágólapról</string>
+  <string name="action_undo_title">Visszavonás</string>
+  <string name="action_text_editor_title">Szövegszerkesztő</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Felfele nyíl</string>
+  <string name="action_cursor_down_title">Lefele nyíl</string>
+  <string name="action_cursor_left_title">Balra nyíl</string>
+  <string name="action_cursor_right_title">Jobbra nyíl</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Hangulatjelek</string>
+  <string name="action_emoji_category_people_body">Emberek és test</string>
+  <string name="action_emoji_category_animals_nature">Állatvilág és természet</string>
+  <string name="action_emoji_category_food_drink">Étel-ital</string>
+  <string name="action_clipboard_manager_pin_item">Elem rögzítése</string>
+  <string name="action_clipboard_manager_remove_item">Elem eltávolítása</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Billentyűzet módok</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Egykezes</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Alkalmaz</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Szuperhős</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Szivárvány</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Sötét mód</string>
+  <string name="theme_default_light">Világos mód</string>
+  <string name="theme_gradient1">Színátmenet 1</string>
+  <string name="theme_gradient2">Színátmenet 2</string>
+  <string name="theme_rainbow">Szivárvány</string>
+  <string name="theme_snowfall">Hóesés</string>
+  <string name="theme_steel_gray">Acélszürke</string>
+  <string name="theme_sunflower">Napraforgó</string>
+  <string name="autoupdater_update_available_title">Frissítés elérhető</string>
+  <string name="autoupdater_perform_update">Frissítés</string>
+  <string name="keyboard_switch_keyboard">Billentyűzetváltás</string>
+  <string name="keyboard_language_settings">Beállítások</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Fizetés</string>
+</resources>

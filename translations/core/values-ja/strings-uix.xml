@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">テーマ切り替え</string>
+  <string name="action_select_all_title">すべて選択</string>
+  <string name="action_cut_title">クリップボードへ切り取り</string>
+  <string name="action_copy_title">クリップボードへコピー</string>
+  <string name="action_paste_title">クリップボードから貼り付け</string>
+  <string name="action_undo_title">元に戻す</string>
+  <string name="action_redo_title">やり直す</string>
+  <string name="action_text_editor_title">テキストエディタ</string>
+  <string name="action_debug_title">デバッグ情報</string>
+  <string name="action_more_actions_title">アクションリスト</string>
+  <string name="action_bug_viewer_title">バグビューア</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">上矢印</string>
+  <string name="action_cursor_down_title">下矢印</string>
+  <string name="action_cursor_left_title">左矢印</string>
+  <string name="action_cursor_right_title">右矢印</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">絵文字</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">最近使った絵文字</string>
+  <string name="action_emoji_category_smileys_emotion">スマイリー・感情</string>
+  <string name="action_emoji_category_people_body">人間・体</string>
+  <string name="action_emoji_category_animals_nature">動物・植物</string>
+  <string name="action_emoji_category_food_drink">食べ物</string>
+  <string name="action_emoji_category_travel_places">旅行・場所</string>
+  <string name="action_emoji_category_activities">活動</string>
+  <string name="action_emoji_category_objects">物・生活用品</string>
+  <string name="action_emoji_category_symbols">記号</string>
+  <string name="action_emoji_category_flags">旗</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">該当なし</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">: <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string> へジャンプ]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">最近の絵文字をクリアしますか？</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">キャンセル</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">クリア</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">最近の絵文字をクリア</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">検索</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">音声入力</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">音声入力（システム）</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">: <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>音声入力モデルがインストールされていません。タップでオプションを確認しますか？</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">音声入力を行うには、設定のアプリの権限からマイクを有効にしてください</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">クリップボードマネージャー</string>
+  <string name="action_clipboard_manager_unpin_item">ピン留めを外す</string>
+  <string name="action_clipboard_manager_pin_item">ピン留めする</string>
+  <string name="action_clipboard_manager_remove_item">削除する</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">キャンセル</string>
+  <string name="action_clipboard_manager_disable_text">クリアする項目がありません。クリップボードの履歴を無効化しますか？</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">無効化</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">ピン留めが外された項目はありません。すべてのピン留めを外しますか？</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">ピン留めを外す</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">ピン留めが外された項目をすべてクリアしますか？</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">クリア</string>
+  <string name="action_clipboard_manager_clear_clipboard">クリップボードをクリア</string>
+  <string name="action_clipboard_manager_error_device_locked_title">デバイスがロックされています</string>
+  <string name="action_clipboard_manager_error_device_locked_text">クリップボード履歴にアクセスするには、デバイスのロックを解除してください</string>
+  <string name="action_clipboard_manager_error_general_title">クリップボードエラー</string>
+  <string name="action_clipboard_manager_error_general_text">クリップボードの履歴を保存または読み込みできませんでした。破損している可能性があります。削除するか、キーボードを再起動してみてください。この問題をバグとして報告してください。理由: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">クリップボードを削除しますか？すべての項目が失われます。</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">再試行</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">バグビューアでエラーを確認</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">削除</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">クリップボード履歴を無効にする</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">クリップボードの項目を保存するには、クリップボード履歴を有効にしてください。これにより、最大<xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g>件の項目を<xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g>日間保存できます（ピン留めされた項目は対象外です）。この機能は設定から変更することができます。</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">クリップボード履歴を有効にする</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">このアプリは画像挿入をサポートしていません。</string>
+  <string name="action_clipboard_manager_settings_title">クリップボードマネージャー設定</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">ピン留めされていないクリップの保持時間</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">ピン留めされていないクリップの保持数</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">センシティブなクリップを保存</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">有効化すると、パスワードマネージャーやシークレットモード中の項目も保存されます</string>
+  <string name="action_clipboard_manager_settings_list_layout">グリッド表示からリスト表示へ変更する</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">ピン留めクリップを常に上部に</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">最近コピーしたテキストを候補に表示</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">キーボードモード</string>
+  <string name="action_keyboard_modes_go_back">戻る</string>
+  <string name="action_keyboard_modes_resize_keyboard">キーボードサイズ調整</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">標準</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">片手</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">分割</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">浮遊</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">初期化</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">適用</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">書体指定</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">このアプリでは画像挿入がサポートされていない可能性があります。</string>
+  <string name="action_fonttyper_select_a_preset">プリセットを選択</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">スクラッチ</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">スーパーヒーロー</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">ドラマチック</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">キャンディ</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">レインボー</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">ホライズン</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">オープニングクラウル</string>
+  <string name="action_fonttyper_finish">フィニッシュ</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">アクションキー</string>
+  <string name="action_kind_pinned_key">ピン留めされたアクション</string>
+  <string name="action_kind_favorites">お気に入りアクション</string>
+  <string name="action_kind_more">その他のアクション</string>
+  <string name="action_kind_disabled">非表示のアクション</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">ダークモード</string>
+  <string name="theme_default_light">ライトモード</string>
+  <string name="theme_amoled_dark">AMOLED ダークパープル</string>
+  <string name="theme_catppuccin_mocha">キャットプチノ・モカ</string>
+  <string name="theme_classic_dark">AOSP マテリアダーク</string>
+  <string name="theme_classic_light">AOSP マテリアライト</string>
+  <string name="theme_vi">FUTO VI テーマ</string>
+  <string name="theme_deepsea_dark">ディープシーダーク</string>
+  <string name="theme_deepsea_light">ディープシーライト</string>
+  <string name="theme_emerald">エメラルド</string>
+  <string name="theme_gradient1">グラジエント 1</string>
+  <string name="theme_gradient2">グラジエント 2</string>
+  <string name="theme_rainbow">レインボー</string>
+  <string name="theme_snowfall">スノーフォール</string>
+  <string name="theme_steel_gray">スチールグレー</string>
+  <string name="theme_sunflower">サンフラワー</string>
+  <string name="theme_cotton_candy">コットンキャンディ</string>
+  <string name="theme_hotdog">ホットドッグ</string>
+  <string name="theme_high_contrast_yellow">ハイコントラストイエロー</string>
+  <string name="theme_dev">工事中のテーマ</string>
+  <string name="theme_dynamic_system">ダイナミックオート</string>
+  <string name="theme_dynamic_dark">ダイナミックダーク</string>
+  <string name="theme_dynamic_light">ダイナミックライト</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">アップデート確認サービス</string>
+  <string name="autoupdater_update_available_title">アップデートが可能</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">アップデートが可能です (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). ダウンロードするにはタップしてください</string>]]></string>
+  <string name="autoupdater_dismiss_update">無視</string>
+  <string name="autoupdater_perform_update">アップデート</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[<string name=\\\"keyboard_suggest_blacklist_body\\\">「<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>」を入力候補から除外しますか？</string>]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">ブラックリスト</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">絵文字サジェストを無効化</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">アルファ</string>
+  <string name="keyboard_switch_keyboard">キーボード切り替え</string>
+  <string name="keyboard_language_settings">設定</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">タップでアップデートするか、設定を確認してください</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">辞書がありません。タップでダウンロード</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">アクションバーを開く</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">アクションバーを閉じる</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">閉じる</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">戻る</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">キーボードを表示</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">閉じる</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">たたむ</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">決済</string>
+  <string name="payment_screen_title">FUTO キーボードの購入</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">FUTO キーボードを<xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g>日間使用しています。このアプリが役に立つと思われる場合は、FUTO ソフトウェアの今後の開発を支援するため、ぜひお支払いをご検討ください。</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">FUTO キーボードをご利用いただきありがとうございます！ もしこのアプリが便利だと感じたら、今後の FUTO ソフトウェア開発を支援するために購入をご検討ください。</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO は権利を濫用しない、良いソフトウェアの提供に専念しています。このアプリは広告を表示したり、個人情報を収集したりすることは決してありません。</string>
+  <string name="payment_screen_sales_point_development_title">持続可能な開発</string>
+  <string name="payment_screen_sales_point_development_body">FUTOの使命は、オープンソースソフトウェアや悪意のないソフトウェアのビジネス慣行が、プロジェクトや開発者にとって持続可能な収入源となることです。これらの理由から、ユーザーがソフトウェアに対して実際に料金を支払うことを支持しています。</string>
+  <string name="payment_screen_sales_point_privacy_title">プライバシー保護への取り組み</string>
+  <string name="payment_screen_sales_point_privacy_body">このアプリはあなたに広告を提供したり、あなたの個人情報を販売することは決していたしません。 私たちがそのような事業を行うことはありません。</string>
+  <string name="payment_screen_error_build_unsupported_payment">このビルドでは決済がサポートされていません</string>
+  <string name="payment_screen_already_paid_title">お支払い済みですか？</string>
+  <string name="payment_screen_already_paid_body">すでに FUTO キーボードまたは FUTO 音声入力を購入済みの場合は、下をタップしてください。</string>
+  <string name="payment_screen_already_paid_button">支払い済みです</string>
+  <string name="payment_screen_already_paid_confirmation">選択を確認してください</string>
+  <string name="payment_screen_already_paid_confirmation_body">すでに支払い済みであることを確定してもよろしいですか？一度確定すると、再度支払いについて確認されることはありません。</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">支払い済みです</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">キャンセル</string>
+  <string name="payment_screen_set_reminder_title">支払いの準備ができていませんか？</string>
+  <string name="payment_screen_set_reminder_body">入力した日数の間、設定画面の通知が非表示になります。</string>
+  <string name="payment_screen_set_reminder_setter">いつ通知を受け取りたいですか？</string>
+  <string name="payment_screen_set_reminder_setter_7_days">7日後</string>
+  <string name="payment_screen_set_reminder_setter_1_month">1ヶ月後</string>
+  <string name="payment_screen_set_reminder_setter_6_months">6ヶ月後</string>
+  <string name="payment_screen_set_reminder_setter_next_century">一世紀後</string>
+  <string name="payment_screen_set_reminder_setter_confirm">通知を確認</string>
+  <string name="payment_screen_other_options">その他オプション</string>
+  <string name="payment_screen_need_help_title">ヘルプ</string>
+  <string name="payment_screen_need_help_subtitle">お困りですか？ウェブサイトをご覧ください。</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Google Play で支払う（<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g>＋税）</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">支払う（<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g>＋税）</string>]]></string>
+  <string name="payment_screen_more_options">その他オプション</string>
+  <string name="payment_screen_payment_complete_title">支払い完了</string>
+  <string name="payment_screen_aftersales_title">ありがとうございました</string>
+  <string name="payment_screen_aftersales_title_pending">支払い待ち</string>
+  <string name="payment_screen_aftersales_paragraph_1">FUTO キーボードをご購入いただきありがとうございます！</string>
+  <string name="payment_screen_aftersales_paragraph_2">あなたの購入が、FUTO キーボードやその他 FUTO プロジェクトの継続的な開発の支えとなっています。</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">お支払いはまだ確認中ですが、まもなく処理されます。</string>
+  <string name="payment_screen_aftersales_paragraph_3">もしお支払いをされたばかりなら、処理のため反映に時間がかかることがあります。詳細は別途メールにてお知らせします。</string>
+  <string name="payment_screen_payment_failed_title">支払いエラー</string>
+  <string name="payment_screen_payment_failed_body">申し訳ありませんが、お支払いが何らかの理由で失敗しました。お困りの際は、お気軽にお問い合わせください。keyboard@futo.org までメールをいただくか、下のボタン、またはヘルプの「フィードバックを送信」からご連絡いただけます。</string>
+  <string name="payment_screen_payment_failed_body_unconfident">お支払いに問題があった可能性があります。もしお支払いが完了していれば、ライセンスキーが記載されたメールが届くはずです。ご不明な点がありましたら、お気軽にお問い合わせください。keyboard@futo.org までメールをいただくか、下のボタン、またはメイン画面の「フィードバックを共有」からご連絡いただけます。</string>
+  <string name="payment_screen_license_integrity_error">ライセンスの認証に失敗しました。エラーだと思われる場合は、お問い合わせください。</string>
+  <string name="payment_screen_continue_button">続行</string>
+  <string name="payment_unpaid_version_title">未払い FUTO キーボード</string>
+  <string name="payment_unpaid_version_indicator">未払い</string>
+  <string name="payment_paid_version_indicator">有料版 FUTO キーボードをご利用いただきありがとうございます！</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">アップデート通知</string>
+  <string name="manual_update_notice_paragraph_1">このアプリはインターネットに接続されておらず、自動でアップデートを確認することができません。しかし、手動でアップデートを確認することは可能です。</string>
+  <string name="manual_update_notice_paragraph_2">自動アップデートのためには F-Droid または Obtainium を使用してください。ダウンロードオプションについては、keyboard.futo.org をご覧ください。</string>
+  <string name="manual_update_notice_dev_paragraph">現在、FUTO キーボードの開発版ビルドを使用しています。安定版をダウンロードするには、keyboard.futo.org をご覧ください。</string>
+  <string name="manual_update_notice_visit_site_button">アクセス</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">無視</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">チップ</string>
+  <string name="settings_unknown_error_title">不明のエラー</string>
+  <string name="settings_unknown_error_subtitle">不明のエラーが発生しました</string>
+  <string name="settings_try_typing_here">ここになにか打ち込んでみて…</string>
+  <string name="settings_external_model_name">外部から導入されたモデル</string>
+  <string name="settings_check_for_updates_manually">手動でアップデートを確認</string>
+  <string name="settings_update_available">アップデートが可能</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">ホーム</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">このオプションは他のオプションに依存しているため無効になっています。タップすると依存元の項目へ移動します: %1$s</string>
+  <string name="settings_search_menu_title">検索</string>
+  <string name="settings_search_enter_your_search">キーワードを検索…</string>
+  <string name="settings_search_no_options_found">該当なし</string>
+  <string name="misc_settings_title">その他</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">言語とモデル</string>
+  <string name="language_settings_add_language_button">言語を追加</string>
+  <string name="language_settings_select_language">追加する言語を選択</string>
+  <string name="language_settings_search">検索</string>
+  <string name="language_settings_select_layout">追加する配列を選択</string>
+  <string name="language_settings_warning_language_has_no_dict">この言語には組み込み辞書がありません。予測変換や自動修正を利用するには、辞書をダウンロードしてインポートすることをおすすめします。</string>
+  <string name="language_settings_resource_none">(なし)</string>
+  <string name="language_settings_layouts_of_this_language">キーボード配列</string>
+  <string name="language_settings_add_layout_for_this_language">キーボード配列を追加</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">多言語入力</string>
+  <string name="language_settings_remove_this_language">言語を削除</string>
+  <string name="language_settings_manage_languages_title">言語と配列の管理</string>
+  <string name="language_settings_manage_languages_subtitle">有効にした言語の一覧、言語の削除、配列の追加や変更、多言語入力の切り替えなど</string>
+  <string name="language_settings_resource_imported_indicator">(取り込み)</string>
+  <string name="language_settings_resource_unsupported_indicator">(未対応)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">組み込み辞書</string>
+  <string name="language_settings_resource_voice_input_selected">音声入力モデルをデフォルトに戻しますか、それとも別のファイルに置き換えますか？</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">この言語には組み込み音声入力モデルが存在しないため、これを削除すると、別のモデルをインポートするまで音声入力が使えなくなります！</string>
+  <string name="language_settings_resource_voice_input_selected_unset">この言語のカスタム音声入力モデルは設定されていません。ファイルからインポートするか、オンラインでダウンロードを検索することができます。</string>
+  <string name="language_settings_resource_transformer_selected">変換器モデルをデフォルトに戻しますか、それとも別のファイルに置き換えますか？</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">この言語には組み込み変換器モデルが存在しないため、これを削除すると、別のモデルをインポートするまで変換器に基づいた入力予測が使えなくなります！</string>
+  <string name="language_settings_resource_transformer_selected_unset">この言語のカスタム変換器モデルは設定されていません。ファイルからインポートするか、オンラインでダウンロードを検索することができます。</string>
+  <string name="language_settings_resource_dictionary_selected">辞書をデフォルトに戻しますか、それとも別のファイルに置き換えますか？</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">この言語には組み込み辞書が存在しないため、これを削除すると、別のモデルをインポートするまで予測変換や自動修正が使えなくなります！</string>
+  <string name="language_settings_resource_dictionary_selected_unset">この言語のカスタム辞書は設定されていません。ファイルからインポートするか、オンラインでダウンロードを検索することができます。</string>
+  <string name="language_settings_resource_replace_button">入れ替え</string>
+  <string name="language_settings_resource_import_file_button">インポート</string>
+  <string name="language_settings_resource_revert_to_default_button">初期設定に戻す</string>
+  <string name="language_settings_resource_remove_button">削除</string>
+  <string name="language_settings_resource_explore_online_button">探す</string>
+  <string name="language_settings_remove_language_title">%1$s を削除しますか？</string>
+  <string name="language_settings_remove_language_body">%1$sと、それに関連するすべての配列やカスタムリソースを削除しますか？</string>
+  <string name="language_settings_remove_language_remove_button">削除</string>
+  <string name="language_settings_remove_language_cancel_button">キャンセル</string>
+  <string name="language_settings_other_options">その他オプション</string>
+  <string name="language_settings_import_resource_from_file">リソースファイルをインポート</string>
+  <string name="language_settings_explore_voice_input_models_online">音声入力モデルを探す</string>
+  <string name="language_settings_explore_dictionaries_online">辞書を探す</string>
+  <string name="language_settings_explore_transformers_online">変換器モデルを探す</string>
+  <string name="language_settings_import_dictionary_or_model">辞書・モデルをインポート</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">音声入力モデル</string>
+  <string name="file_kind_transformer_model">変換器モデル</string>
+  <string name="file_kind_dictionary">辞書</string>
+  <string name="file_kind_invalid_file">無効なファイル</string>
+  <string name="file_kind_cfg_backup">設定のバックアップ</string>
+  <string name="resource_importer_import_title">インポート - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">エラー：このファイルはコンパイルされた辞書ファイル (.dict 形式) ではなく、単語リストソース (_wordlist.combined 形式) のようです。</string>
+  <string name="resource_importer_error_wordlist_2">単語リストではなく、コンパイル済みの辞書ファイルをダウンロードしてください。この単語リストを自分で作成した場合は、dicttool を使って外部でコンパイルしてください。</string>
+  <string name="resource_importer_error_invalid_fiile">エラー：このファイルは認識できませんでした。ファイルが無効か、破損している可能性があります。再ダウンロードするか、別のファイルでお試しください。</string>
+  <string name="resource_importer_cancel_button">キャンセル</string>
+  <string name="resource_importer_import_button">インポート</string>
+  <string name="resource_importer_file_info">ファイル情報： %1$s</string>
+  <string name="resource_importer_importing">次の言語をインポート中： %1$s</string>
+  <string name="resource_importer_importing_cfg">設定をインポートしています… 処理が完了するまでこのメニューを閉じないでください。（5〜10秒かかります）</string>
+  <string name="resource_importer_select_language">インポートする言語を選択：</string>
+  <string name="resource_importer_warning_language_missing">このファイルは、設定で有効になっていない言語 (%1$s) 用のようです。</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">この設定バックアップをインポートしてもよろしいですか？これにより、すべての設定、システム全体の個人辞書、学習した辞書の単語、インポートしたリソースなどが上書きされます。念のため、事前に別のバックアップを作成しておくことをお勧めします。</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">この設定バックアップは新しいバージョンの FUTO キーボードで作成されたため、正常にインポートできない可能性があります。まず FUTO キーボードをアップデートしてください。</string>
+  <string name="settings_export_configuration_title">設定のバックアップ</string>
+  <string name="settings_export_configuration">設定をエクスポート</string>
+  <string name="settings_export_configuration_subtitle">設定、クリップボード、学習した単語、リソースなど、すべてをバックアップしてください。</string>
+  <string name="settings_export_configuration_exporting">設定をエクスポート中…</string>
+  <string name="settings_export_configuration_exporting_text">処理が完了するまでこのメニューを閉じないでください。（5〜10秒かかります）</string>
+  <string name="settings_import_configuration">設定をインポート</string>
+  <string name="settings_import_configuration_subtitle">以前に設定をエクスポートしている場合は、ここで再インポートできます。</string>
+  <string name="settings_import_export_tags">backup, restore, save, load, export, import, transfer device, バックアップ, リストア, 復元, セーブ, 保存, ロード, 読み込み, エクスポート, インポート, トランスファーデバイス, デバイス転送</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">アクションの編集</string>
+  <string name="action_editor_subtitle">お気に入りのアクション、ピン留めしたアクション、スペースバーの横にあるアクションキーを編集</string>
+  <string name="action_editor_edit_actions">アクションの編集</string>
+  <string name="action_editor_warning_no_actions">有効なアクションはありません</string>
+  <string name="action_editor_error_more_than_one_action_key">アクションキーには1つだけ割り当ててください。アクションキーに複数のアクションを割り当てることはできません。</string>
+  <string name="action_editor_warning_too_many_pinned">ピン留めするアクションの数を減らすことを検討してください。アクションが多すぎるため、候補バーが縮小されます。</string>
+  <string name="action_editor_add_next_action">次の追加</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">アクション</string>
+  <string name="action_settings_quick_options_title">クイックオプション</string>
+  <string name="action_settings_quick_option_enable_action_key">アクションキーを有効化</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">スペースキーの左にキーを表示して、アクションに素早くアクセスできます。有効にすると絵文字キーが配置されますが、「アクション編集」でカスタマイズ可能です。</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">スペースバーの左にキーを表示し、アクションに素早くアクセスできます。これを無効にすると、現在割り当てられているアクション(%s)が移動します。</string>
+  <string name="action_settings_quick_option_language_switch_key">言語切り替えキー</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">絵文字キーを言語切替キーに変更します。また、「アクションの編集」から別のキーを指定することもできます。</string>
+  <string name="action_settings_action_settings">アクション設定</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">キーボードサイズ調整</string>
+  <string name="size_settings_subtitle2">キーボードのサイズ調整、片手モード、フローティング、分割表示</string>
+  <string name="size_settings_resize_tip">「キーボードサイズ調整」をタップするとリサイズできます。</string>
+  <string name="size_settings_keyboard_modes_tip">キーボードモードのアクションでどこからでもアクセスできます：</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">サイズとモードは、縦向きと横向きでそれぞれ別々に保存されます。</string>
+  <string name="size_settings_reset">サイズ設定をリセット</string>
+  <string name="size_settings_reset_subtitle">タップして、縦向きと横向きの両方のサイズとモードをすべて初期設定にリセットします</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">長押しキーとスペースバー</string>
+  <string name="morekey_settings_subtitle">キーの長押し時間、文字や記号の並び方、スペースキーおよび削除キーの動作設定をします。</string>
+  <string name="morekey_settings_layout">長押しキーの配列</string>
+  <string name="morekey_settings_reset">初期設定にリセット</string>
+  <string name="morekey_settings_move_kind_up">上へ移動</string>
+  <string name="morekey_settings_move_kind_down">下へ移動</string>
+  <string name="morekey_settings_move_kind_up_to_top">一番上へ移動</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">一番下へ移動</string>
+  <string name="morekey_settings_kind_position">位置： %2$s の %1$s</string>
+  <string name="morekey_settings_active">有効</string>
+  <string name="morekey_settings_inactive">無効</string>
+  <string name="morekey_settings_reactivate">再作動化</string>
+  <string name="morekey_settings_disable">無効化</string>
+  <string name="morekey_settings_keys">長押しキー</string>
+  <string name="morekey_settings_show_hints">ヒントを表示</string>
+  <string name="morekey_settings_show_hints_subtitle">各キーに長押しで入力できる文字を小さく表示します</string>
+  <string name="morekey_settings_show_hints_tags">追加文字、Altキー、記号、ポップアップキー</string>
+  <string name="morekey_settings_duration">長押しの時間</string>
+  <string name="morekey_settings_duration_subtitle">長押しと見なされるまでのキーのプレス時間</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">数字</string>
+  <string name="morekey_settings_kind_numbers_example">例：[1] は [q]</string>
+  <string name="morekey_settings_kind_language_keys">言語キー</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">例：[ō] を [o] に当てるなど</string>
+  <string name="morekey_settings_kind_symbols">記号</string>
+  <string name="morekey_settings_kind_symbols_example">例： [@] を [a] に割り当てる</string>
+  <string name="morekey_settings_kind_actions">クイックアクション</string>
+  <string name="morekey_settings_kind_actions_example">例： [コピー] を [c] に割り当てる</string>
+  <string name="morekey_settings_kind_misc_common">共通言語のその他文字など</string>
+  <string name="morekey_settings_kind_misc_common_example">例： ラテン文字を使用する言語の場合、[ß] を [s] に割り当てる</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">入力設定</string>
+  <string name="typing_settings_suggest_emojis">絵文字候補</string>
+  <string name="typing_settings_suggest_emojis_subtitle">入力中に絵文字を候補に表示する</string>
+  <string name="typing_settings_vibration_strength">振動</string>
+  <string name="typing_settings_vibration_strength_default">初期値</string>
+  <string name="typing_settings_keypress_sound_volume">打鍵音量</string>
+  <string name="typing_settings_keypress_sound_volume_default">初期値</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">一部の Android のバージョンでは、音量設定が反映されない場合があります。</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">着信モードがサイレントまたはバイブレーションに設定されている場合、音は再生されません。</string>
+  <string name="typing_settings_enable_clipboard_history">クリップボード履歴</string>
+  <string name="typing_settings_enable_clipboard_history_tags">コピー、貼り付け</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">バックスペースで挿入や貼り付けたテキストを削除する</string>
+  <string name="typing_settings_revert_correction_on_backspace">バックスペースで自動修正を元に戻す</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">自動スペースモード</string>
+  <string name="typing_settings_auto_space_mode_auto2">候補と句読点の直後にスペースを挿入</string>
+  <string name="typing_settings_auto_space_mode_suggestions2">候補の直後にスペースを挿入</string>
+  <string name="typing_settings_auto_space_mode_legacy2">候補確定後、遅延したスペースを挿入（レガシー機能）</string>
+  <string name="typing_settings_auto_space_mode_none2">無効化（非推奨）</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">キーボード</string>
+  <string name="keyboard_settings_show_number_row">数字行を表示</string>
+  <string name="keyboard_settings_show_number_row_subtitle">サポートされている配列の場合、キーボードの上部に数字の行が表示されます</string>
+  <string name="keyboard_settings_show_arrow_row">方向キーを表示</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">キーボードの下部に方向キーの行が表示されます</string>
+  <string name="keyboard_settings_extra_layouts">追加の配列</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">言語画面で追加の配列を設定します</string>
+  <string name="keyboard_settings_show_suggestion_row">アクションバー／サジェストバーを表示</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">候補バーを表示します。常に有効にしておくことを推奨します。</string>
+  <string name="keyboard_settings_inline_autofill">行内補完</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">パスワードマネージャーの自動入力およびアプリによる自動返信の提案を候補バーに表示する</string>
+  <string name="keyboard_settings_period_key">クイックピリオドキー</string>
+  <string name="keyboard_settings_number_row_title">数字行</string>
+  <string name="keyboard_settings_number_row_style">数字行スタイル</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">コンパクト</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">キー</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">常に洋数字を使用</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">キーボードと入力</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">テーマ</string>
+  <string name="theme_settings_key_borders">キー枠</string>
+  <string name="dev_settings_title">開発者設定</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">音声入力</string>
+  <string name="voice_input_settings_builtin_disabled_notice">組み込み音声入力が無効になりました！</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">組み込み音声入力を無効にする</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">外部アプリからの音声入力を使用</string>
+  <string name="voice_input_settings_indication_sounds">通知音</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">開始時とキャンセル時に短い音を再生します</string>
+  <string name="voice_input_settings_verbose_progress">進行状況の詳細表示</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">使用中のマイクなどの追加情報を表示します</string>
+  <string name="voice_input_settings_use_personal_dict">音声入力用ユーザー辞書</string>
+  <string name="voice_input_settings_use_personal_dict_subtitle">音声入力でユーザー辞書を使用する</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Bluetooth マイクを優先する</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">Bluetooth SCO 接続に時間がかかるため、録音の開始が遅れる場合があります</string>
+  <string name="voice_input_settings_audio_focus">音声合焦（オーディオフォーカス）</string>
+  <string name="voice_input_settings_audio_focus_subtitle">音声入力が有効になると音楽や動画を一時停止する</string>
+  <string name="voice_input_settings_suppress_symbols">記号抑制</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">音声入力における記号の出力を防止</string>
+  <string name="voice_input_settings_long_form">長文音声入力</string>
+  <string name="voice_input_settings_long_form_subtitle">無効にすると、音声入力が 30 秒後に自動停止します。</string>
+  <string name="voice_input_settings_autostop_vad">無言時自動停止</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">音声が途切れると自動的に停止します。背景雑音が多い環境では手動で停止する必要があります。</string>
+  <string name="voice_input_settings_change_models">モデル</string>
+  <string name="voice_input_settings_change_models_subtitle">モデルの変更は「言語とモデル」メニューから行えます。</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">文章予測</string>
+  <string name="prediction_settings_transformer">変換器 LM</string>
+  <string name="prediction_settings_transformer_finetuning">変換器の微調整</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">有効にするとバッテリーが早く消耗する可能性があります！この機能はまだ開発中です</string>
+  <string name="prediction_settings_transformer_models">変換器モデル</string>
+  <string name="prediction_settings_transformer_alpha_notice">注意：変換器 LM はアルファ版です</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">これらの設定は実験的なもので、英語にのみ適用されます。日本語など、英語以外の言語には影響しません。</string>
+  <string name="prediction_settings_smart_keyhit_detection">スマートキー入力検知</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">辞書を使って次に入力される可能性のあるキーを特定し、そのキーのヒット領域を拡大します。バックスペースの使用直後は領域拡大を行いません。</string>
+  <string name="prediction_settings_word_blacklist">単語ブラックリスト</string>
+  <string name="prediction_settings_word_blacklist_add">ブラックリストに登録</string>
+  <string name="prediction_settings_word_blacklist_none">ブラックリストに登録された単語はありません</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">ブラックリストされた単語を表示・編集</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">ブラックリストに登録された候補の一覧、項目の追加・削除はこちら</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">単語を消去</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">ヘルプとフィードバック</string>
+  <string name="help_menu_version_name">バージョン名：%1$s</string>
+  <string name="help_menu_version_code">バージョンコード：%1$s</string>
+  <string name="help_menu_version_tip">ご意見をお聞かせください！問題を報告される場合は、お使いのバージョン：v%1$s が重要となります。</string>
+  <string name="help_menu_website">FUTO 公式サイト</string>
+  <string name="help_menu_website_subtitle">私たちのことや、私たちの理念についてもっと知る</string>
+  <string name="help_menu_website_tags">download, apps, voice input, ダウンロード, アプリ, 音声入力</string>
+  <string name="help_menu_documentation">ドキュメンテーション</string>
+  <string name="help_menu_documentation_subtitle">キーボードの機能や性能について詳しく知る</string>
+  <string name="help_menu_discord">Discord サーバー</string>
+  <string name="help_menu_discord_subtitle">話したいけど Zulip は苦手？ ならこっちでチャットしよう</string>
+  <string name="help_menu_futo_chat">FUTO チャット (Zulip)</string>
+  <string name="help_menu_futo_chat_subtitle">話したいけど Discord は苦手？ ならこっちでチャットしよう</string>
+  <string name="help_menu_github">公開イシュートラッカー (GitHub)</string>
+  <string name="help_menu_github_subtitle">不具合やバグ報告、新機能の要望などはこちらに投稿してください</string>
+  <string name="help_menu_email">keyboard@futo.org 宛にメールを送る</string>
+  <string name="help_menu_email_subtitle">個人的な感想、ヘルプ、または GitHub を使用していない場合は、Eメールでお問い合わせください</string>
+  <string name="help_menu_email_tags">gmail, support, contact, help, broken, bug, error, issue, problem, complaint, ticket, payment, support, glitch, malfunction, fix, customer service, crash, question, inquiry, assistance, メール, サポート, コンタクト, ヘルプ, こわれた, バグ, エラー, 問題, 窓口, 決済, お支払い, 質問, カスタマーサービス, クラッシュ</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">セットアップ - ステップ 1</string>
+  <string name="setup_step_2">セットアップ - ステップ 2</string>
+  <string name="setup_step_3">セットアップ - ステップ 3</string>
+  <string name="setup_welcome_text">FUTO キーボード（アルファ版）へようこそ！この製品はまだ開発中で未完成です。皆様のご理解とご協力に感謝いたします。\n\n使い始めるには、FUTOキーボードを入力方法で有効にしてください。</string>
+  <string name="setup_open_input_settings">入力方法の設定を開く</string>
+  <string name="setup_warning_multiple_versions">警告： Play ストア版とスタンドアロン版の両方がインストールされているようです。どちらか一方のインストールのみを推奨します。</string>
+  <string name="setup_active_input_method">入力方法に FUTO キーボードを選択してください。</string>
+  <string name="setup_switch_input_methods">入力方法を切り替える</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">クレジット</string>
+  <string name="credits_menu_header_text">FUTO キーボードを素晴らしいアプリにすることに貢献してくださったこれらの方々に感謝します！</string>
+  <string name="credits_menu_team_translators_title">翻訳者</string>
+  <string name="credits_menu_team_keyboard_layouts_title">配列貢献者</string>
+  <string name="credits_menu_team_code_title">コード貢献者</string>
+  <string name="credits_menu_nonaffiliation_notice">上記の著者らは当社と提携しておらず、必ずしも当社を支持または推奨しているわけではありません。掲載は提携や支持を意味するものではありません。</string>
+  <string name="credits_menu_contribute_translations_button">アプリの翻訳に協力してください</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">配列を貢献する</string>
+  <string name="credits_menu_contribute_code_button">コードを貢献する</string>
+  <string name="credits_menu_project_information_title">%s 情報</string>
+  <string name="credits_menu_project_url_link">プロジェクト URL</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">言語特有の設定</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">日本語入力の設定</string>
+  <string name="japanese_settings_toggle_flick_only">フリックのみ</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">ケータイ入力（連続キー入力での母音循環）をオフにします。</string>
+  <string name="japanese_settings_toggle_halfwidth_space">半角スペースを使用</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">常に半角スペースを使用します</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">高度なパラメタ</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">以下のオプションは実験的なものであり、アプリの内部仕様の変更に伴い将来的に削除または変更される可能性があります。これらの値を変更すると、使用感に悪影響を及ぼすことがあります。 注意：これらは英語入力にのみ影響します。</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">変換器 LM 強度</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">値を低くすると、自動修正の動作が標準の AOSP キーボードにより近くなり、値を高くするとニューラルネットワークへの依存度が高くなります。 デフォルトは %1$s です。</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">必ず変換器 LM</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">必ずバイナリー辞書</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">自動修正しきい値</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">しきい値を低くすると自動修正がより頻繁に行われますが、その分、誤修正も増えます。逆にしきい値を高くすると自動修正が少なくなりますが、その分、誤修正も減ります。 デフォルトは %1$s です。</string>
+  <!-- Personal dictionary -->
+  <string name="personal_dictionary_shortcut_error_symbols">エラー：ショートカットを記号で始めることはできません</string>
+  <string name="personal_dictionary_imported_additional_files_list_header">ファイル</string>
+  <string name="personal_dictionary_import_additional_file">インポート</string>
+  <string name="personal_dictionary_words_list_header">単語</string>
+  <string name="personal_dictionary_cancel_action">キャンセル</string>
+  <string name="personal_dictionary_delete_additional_file">追加の辞書ファイルを削除しますか?</string>
+  <!-- %1$s will be replaced with the custom dictionary name -->
+  <string name="personal_dictionary_delete_additional_file_text">%1$s は削除されます</string>
+</resources>

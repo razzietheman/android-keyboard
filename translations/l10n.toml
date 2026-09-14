@@ -1,0 +1,13 @@
+basepath = "."
+
+[[paths]]
+  reference = "core/values/*.xml"
+  l10n = "core/values-{android_locale}/*.xml"
+
+[[paths]]
+  reference = "devbuild/values/*.xml"
+  l10n = "devbuild/values-{android_locale}/*.xml"
+
+[[paths]]
+  reference = "voiceinput/values/*.xml"
+  l10n = "voiceinput/values-{android_locale}/*.xml"

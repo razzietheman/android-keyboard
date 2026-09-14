@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Pagamento do Teclado FUTO</string>
+  <string name="payment_app_main_menu_title">Você pagou pelo Teclado FUTO</string>
+  <string name="payment_app_main_menu_line_1">Obrigado pelo pagamento!</string>
+  <string name="payment_app_main_menu_line_2">Sua compra ajudará no desenvolvimento contínuo do Teclado FUTO e de outros projetos do FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Este app serve apenas para permitir o pagamento do Teclado FUTO pelo sistema de pagamentos do Google. Você não precisa manter este app instalado. Para remover o aviso de pagamento no Teclado FUTO, toque em ‘Eu já paguei’ ou no botão abaixo.</string>
+  <string name="payment_app_activate_keyboard_button">Marcar o Teclado FUTO como pago</string>
+  <string name="payment_app_more_options_download_keyboard">Baixar o Teclado FUTO na Play Store</string>
+  <string name="payment_app_more_options_visit_website">Visitar o site do Teclado FUTO</string>
+  <string name="payment_app_more_options_email_support">Suporte por e-mail</string>
+</resources>

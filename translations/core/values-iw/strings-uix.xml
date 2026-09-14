@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">החלפת ערכת נושא</string>
+  <string name="action_select_all_title">בחר הכול</string>
+  <string name="action_cut_title">גזור</string>
+  <string name="action_copy_title">העתק</string>
+  <string name="action_paste_title">הדבק</string>
+  <string name="action_undo_title">בטל פעולה אחרונה</string>
+  <string name="action_redo_title">חזור על פעולה אחרונה</string>
+  <string name="action_text_editor_title">עורך טקסט</string>
+  <string name="action_debug_title">מידע לטיפול בשגיאות</string>
+  <string name="action_more_actions_title">כל הפעולות</string>
+  <string name="action_bug_viewer_title">צפה בבאג</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">חץ למעלה</string>
+  <string name="action_cursor_down_title">חץ למטה</string>
+  <string name="action_cursor_left_title">חץ שמאלה</string>
+  <string name="action_cursor_right_title">חץ ימינה</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">אימוג\'ים</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">אחרונים</string>
+  <string name="action_emoji_category_smileys_emotion">סמיילים ואימוג\'ים</string>
+  <string name="action_emoji_category_people_body">גוף ואנשים</string>
+  <string name="action_emoji_category_animals_nature">בעלי חיים וטבע</string>
+  <string name="action_emoji_category_food_drink">מזון ומשקאות</string>
+  <string name="action_emoji_category_travel_places">נסיעות ומקומות</string>
+  <string name="action_emoji_category_activities">פעולות</string>
+  <string name="action_emoji_category_objects">אובייקטים</string>
+  <string name="action_emoji_category_symbols">סמלים</string>
+  <string name="action_emoji_category_flags">דגלים</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">לא נמצאו תוצאות</string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">נקה אימוג\'ים אחרונים?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">ביטול</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">נקה</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">נקה אימוג\'ים אחרונים</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">חיפוש</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">קלט קולי</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">קלט קולי (מערכת)</string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">נא גש להרשאות האפליקציה ואפשר הרשאה למיקרופון על מנת להשתמש בקלט קולי</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">מנהל לוח העתקות</string>
+  <string name="action_clipboard_manager_unpin_item">הסר מנעוץ</string>
+  <string name="action_clipboard_manager_pin_item">נעץ</string>
+  <string name="action_clipboard_manager_remove_item">הסר</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog">אישור מחיקה:\n\"%s\"</string>
+  <string name="action_clipboard_manager_remove_item_confirm_dialog_image">אשר הסרת תמונה</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">ביטול</string>
+  <string name="action_clipboard_manager_disable_text">אין פריטים להסרה. ביטול היסטוריית מנהל העתקות?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">השבת</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">אין פריטים להסרה מנעוץ. האם להסיר את כל הפריטים?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">הסר מנעוץ</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">הסר את כל הפריטים מנעיצה?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">נקה</string>
+  <string name="action_clipboard_manager_clear_clipboard">נקה את מנהל העתקות</string>
+  <string name="action_clipboard_manager_error_device_locked_title">מכשיר נעול</string>
+  <string name="action_clipboard_manager_error_device_locked_text">נא פתח את מכשירך על מנת לקבל גישה להיסטוריית מנהל העתקות</string>
+  <string name="action_clipboard_manager_error_general_title">שגיאה במנהל העתקות</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">נסה שוב</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">עיין בשגיאה בעזרת Bug Viewer</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">מחק</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">מנהל העתקות מבוטל</string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">אפשר היסטוריית מנהל העתקות</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">האפליקציה אינה תומכת בהדבקת תמונות</string>
+  <string name="action_clipboard_manager_settings_title">הגדרות מנהל העתקות</string>
+  <string name="action_clipboard_manager_settings_save_images">נשמר העתק תמונות</string>
+  <string name="action_clipboard_manager_settings_save_screenshots">שמור צילום מסך אחרון</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">שמור פרטים רגישים במנהל העתקות</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">מצבי מקלדת</string>
+  <string name="action_keyboard_modes_go_back">חזרה</string>
+  <string name="action_keyboard_modes_resize_keyboard">קבע גודל מקלדת</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">סטנדרטי</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">יד אחת</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">פצל</string>
+</resources>

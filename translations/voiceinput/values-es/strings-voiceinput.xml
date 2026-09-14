@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- May be translated as "Stop voice input", "Stop input", etc -->
+  <string name="stop_recording">Detener grabación</string>
+  <!-- Appears when voice input is recording and no speech has been detected yet, we prompt the user to try talking. Must be fairly short. -->
+  <string name="try_saying_something">Intenta decir algo</string>
+  <!-- Appears when voice input is recording and no sound has been detected in a while, this is typically caused by disabling the microphone in Android quick settings -->
+  <string name="no_audio_detected_is_your_microphone_blocked">No se detectó audio, ¿está bloqueado tu micrófono?</string>
+  <!-- Appears when voice input is recording and speech is being actively detected. Must be fairly short. -->
+  <string name="listening">Escuchando…</string>
+  <!-- When the user is trying to use voice input but has not granted our app the Android microphone permission, we ask the user to please grant it to use voice input -->
+  <string name="grant_microphone_permission_to_use_voice_input">Concede permiso de micrófono para usar entrada de voz</string>
+  <string name="open_voice_input_settings">Abrir configuración de entrada de voz</string>
+  <!-- Verbose mode string to indicate we are extracting mel spectrogram audio features from the recorded audio. Must be fairly short. -->
+  <string name="extracting_features">Extrayendo características…</string>
+  <!-- Verbose mode string to indicate we are loading the voice recognition model file into memory. Must be fairly short. -->
+  <string name="loading_model">Cargando modelo…</string>
+  <!-- Verbose mode string to indicate the voice recognition model has switched to decoding mode and is outputting text. Must be fairly short. -->
+  <string name="decoding">Decodificación iniciada…</string>
+  <!-- String to indicate that a language has been detected for which we have a better voice recognition model, so we are switching models for the detected language. Must be fairly short. -->
+  <string name="switching_model">Cambiando de idioma…</string>
+  <!-- Generic string to indicate the voice recognition model is processing the recorded audio. Must be fairly short. -->
+  <string name="processing">Procesando…</string>
+  <!-- Generic string to indicate the voice recognition model is initializing. Must be fairly short. -->
+  <string name="initializing">Inicializando…</string>
+  <!-- Model name for the tiny english model -->
+  <string name="tiny_en_name">Inglés-39 (predeterminado)</string>
+  <!-- Model name for the base english model -->
+  <string name="base_en_name">Inglés-74 (más lento, más preciso)</string>
+  <!-- Model name for the small english model -->
+  <string name="small_en_name">Inglés-244 (lento)</string>
+  <!-- Model name for the tiny model -->
+  <string name="tiny_name">Multilingüe-39 (menos preciso)</string>
+  <!-- Model name for the base model -->
+  <string name="base_name">Multilingüe-74 (predeterminado)</string>
+  <!-- Model name for the small model -->
+  <string name="small_name">Multilingüe-244 (lento)</string>
+  <!-- Indicates that a bluetooth mic is being used -->
+  <string name="using_bluetooth_mic">Usando micrófono Bluetooth (%1$s)</string>
+  <!-- Indicates that although bluetooth mic is preferred, the builtin one is being used instead -->
+  <string name="using_built_in_mic">Usando micrófono del dispositivo (%1$s)</string>
+  <!--
+    Occurs when the model is corrupted, or loading failed for some other unknown reason,
+    usually the fix is to re-download the model and re-import it. For example this may happen
+    when the model is imported before the file is finished downloading
+  -->
+  <string name="model_load_error">Error al cargar modelo. Puede que esté corrompido o incompleto. Intenta revertirlo al predeterminado y descargarlo de nuevo.</string>
+</resources>

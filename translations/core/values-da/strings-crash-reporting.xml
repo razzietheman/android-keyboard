@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">FUTO tastaturet stoppede med at virke. Send os venligst en fejlrapport via email, så vi kan fikse problemet (keyboard@futo.org)</string>
+  <string name="crashed_text">FUTO tastaturet stoppede med at virke. Send os venligst en fejlrapport, så vi kan fikse problemet.</string>
+  <string name="crashed_title">Nedbrudsrapportering</string>
+  <string name="crash_report_accept">Send rapport</string>
+  <string name="crash_report_reject">Ignorér</string>
+</resources>

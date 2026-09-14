@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Application name for the dev version of keyboard. "FUTO" should not be translated. -->
+  <string name="english_ime_name">FUTO Tastatur [Dev Build]</string>
+  <!-- Name of Android spell checker service. "FUTO" should not be translated. -->
+  <string name="spell_checker_service_name">FUTO Rechtschreibprüfung [DEV Build]</string>
+  <!-- Title for Android Keyboard settings screen. "FUTO" should not be translated. -->
+  <string name="english_ime_settings">FUTO Tastatureinstellungen [Dev Build]</string>
+  <!-- Title for the spell checking service settings screen. "FUTO" should not be translated. -->
+  <string name="android_spell_checker_settings">FUTO Rechtschreibprüfung [DEV Build]</string>
+</resources>

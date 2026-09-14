@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  /*
+  **
+  ** Copyright 2014, The Android Open Source Project
+  **
+  ** Licensed under the Apache License, Version 2.0 (the "License");
+  ** you may not use this file except in compliance with the License.
+  ** You may obtain a copy of the License at
+  **
+  **     http://www.apache.org/licenses/LICENSE-2.0
+  **
+  ** Unless required by applicable law or agreed to in writing, software
+  ** distributed under the License is distributed on an "AS IS" BASIS,
+  ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ** See the License for the specific language governing permissions and
+  ** limitations under the License.
+  */
+
+  These accented letters (spoken_accented_letter_*) are unsupported by TTS.
+  These symbols (spoken_symbol_*) are also unsupported by TTS.
+  TODO: Remove these string resources when TTS/TalkBack support these letters.
+-->
+
+<resources>
+  <!-- Spoken description for Unicode code point U+00AA: "ª" FEMININE ORDINAL INDICATOR -->
+  <string name="spoken_accented_letter_00AA">"Sorszámnévjelölő (nőnemű)"</string>
+  <!-- Spoken description for Unicode code point U+00B5: "µ" MICRO SIGN -->
+  <string name="spoken_accented_letter_00B5">"„mű” jel"</string>
+  <!-- Spoken description for Unicode code point U+00BA: "º" MASCULINE ORDINAL INDICATOR -->
+  <string name="spoken_accented_letter_00BA">"Sorszámnévjelölő (hímnemű)"</string>
+  <!-- Spoken description for Unicode code point U+00DF: "ß" LATIN SMALL LETTER SHARP S -->
+  <string name="spoken_accented_letter_00DF">"Scharfes S"</string>
+  <!-- Spoken description for Unicode code point U+00E0: "à" LATIN SMALL LETTER A WITH GRAVE -->
+  <string name="spoken_accented_letter_00E0">"A, tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00E1: "á" LATIN SMALL LETTER A WITH ACUTE -->
+  <string name="spoken_accented_letter_00E1">"A, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00E2: "â" LATIN SMALL LETTER A WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_00E2">"A, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00E3: "ã" LATIN SMALL LETTER A WITH TILDE -->
+  <string name="spoken_accented_letter_00E3">"A, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+00E4: "ä" LATIN SMALL LETTER A WITH DIAERESIS -->
+  <string name="spoken_accented_letter_00E4">"A, trémával"</string>
+  <!-- Spoken description for Unicode code point U+00E5: "å" LATIN SMALL LETTER A WITH RING ABOVE -->
+  <string name="spoken_accented_letter_00E5">"A, felette körrel"</string>
+  <!-- Spoken description for Unicode code point U+00E6: "æ" LATIN SMALL LETTER AE -->
+  <string name="spoken_accented_letter_00E6">"A, E, ikerbetű"</string>
+  <!-- Spoken description for Unicode code point U+00E7: "ç" LATIN SMALL LETTER C WITH CEDILLA -->
+  <string name="spoken_accented_letter_00E7">"C, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+00E8: "è" LATIN SMALL LETTER E WITH GRAVE -->
+  <string name="spoken_accented_letter_00E8">"E, tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00E9: "é" LATIN SMALL LETTER E WITH ACUTE -->
+  <string name="spoken_accented_letter_00E9">"E, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00EA: "ê" LATIN SMALL LETTER E WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_00EA">"E, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00EB: "ë" LATIN SMALL LETTER E WITH DIAERESIS -->
+  <string name="spoken_accented_letter_00EB">"E, trémával"</string>
+  <!-- Spoken description for Unicode code point U+00EC: "ì" LATIN SMALL LETTER I WITH GRAVE -->
+  <string name="spoken_accented_letter_00EC">"I, tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00ED: "í" LATIN SMALL LETTER I WITH ACUTE -->
+  <string name="spoken_accented_letter_00ED">"I, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00EE: "î" LATIN SMALL LETTER I WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_00EE">"I, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00EF: "ï" LATIN SMALL LETTER I WITH DIAERESIS -->
+  <string name="spoken_accented_letter_00EF">"I, trémával"</string>
+  <!-- Spoken description for Unicode code point U+00F0: "ð" LATIN SMALL LETTER ETH -->
+  <string name="spoken_accented_letter_00F0">"Eth betű"</string>
+  <!-- Spoken description for Unicode code point U+00F1: "ñ" LATIN SMALL LETTER N WITH TILDE -->
+  <string name="spoken_accented_letter_00F1">"N, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+00F2: "ò" LATIN SMALL LETTER O WITH GRAVE -->
+  <string name="spoken_accented_letter_00F2">"O, tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00F3: "ó" LATIN SMALL LETTER O WITH ACUTE -->
+  <string name="spoken_accented_letter_00F3">"O, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00F4: "ô" LATIN SMALL LETTER O WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_00F4">"O, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00F5: "õ" LATIN SMALL LETTER O WITH TILDE -->
+  <string name="spoken_accented_letter_00F5">"O, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+00F6: "ö" LATIN SMALL LETTER O WITH DIAERESIS -->
+  <string name="spoken_accented_letter_00F6">"O, trémával"</string>
+  <!-- Spoken description for Unicode code point U+00F8: "ø" LATIN SMALL LETTER O WITH STROKE -->
+  <string name="spoken_accented_letter_00F8">"O, áthúzva"</string>
+  <!-- Spoken description for Unicode code point U+00F9: "ù" LATIN SMALL LETTER U WITH GRAVE -->
+  <string name="spoken_accented_letter_00F9">"U, tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00FA: "ú" LATIN SMALL LETTER U WITH ACUTE -->
+  <string name="spoken_accented_letter_00FA">"U, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00FB: "û" LATIN SMALL LETTER U WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_00FB">"U, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00FC: "ü" LATIN SMALL LETTER U WITH DIAERESIS -->
+  <string name="spoken_accented_letter_00FC">"U, trémával"</string>
+  <!-- Spoken description for Unicode code point U+00FD: "ý" LATIN SMALL LETTER Y WITH ACUTE -->
+  <string name="spoken_accented_letter_00FD">"Y, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+00FE: "þ" LATIN SMALL LETTER THORN -->
+  <string name="spoken_accented_letter_00FE">"Thorn betű"</string>
+  <!-- Spoken description for Unicode code point U+00FF: "ÿ" LATIN SMALL LETTER Y WITH DIAERESIS -->
+  <string name="spoken_accented_letter_00FF">"Y, trémával"</string>
+  <!-- Spoken description for Unicode code point U+0101: "ā" LATIN SMALL LETTER A WITH MACRON -->
+  <string name="spoken_accented_letter_0101">"A, hosszúsági jellel"</string>
+  <!-- Spoken description for Unicode code point U+0103: "ă" LATIN SMALL LETTER A WITH BREVE -->
+  <string name="spoken_accented_letter_0103">"A, rövidségi jellel"</string>
+  <!-- Spoken description for Unicode code point U+0105: "ą" LATIN SMALL LETTER A WITH OGONEK -->
+  <string name="spoken_accented_letter_0105">"A, horoggal"</string>
+  <!-- Spoken description for Unicode code point U+0107: "ć" LATIN SMALL LETTER C WITH ACUTE -->
+  <string name="spoken_accented_letter_0107">"C, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0109: "ĉ" LATIN SMALL LETTER C WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_0109">"C, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+010B: "ċ" LATIN SMALL LETTER C WITH DOT ABOVE -->
+  <string name="spoken_accented_letter_010B">"C, felette ponttal"</string>
+  <!-- Spoken description for Unicode code point U+010D: "č" LATIN SMALL LETTER C WITH CARON -->
+  <string name="spoken_accented_letter_010D">"C, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+010F: "ď" LATIN SMALL LETTER D WITH CARON -->
+  <string name="spoken_accented_letter_010F">"D, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+0111: "đ" LATIN SMALL LETTER D WITH STROKE -->
+  <string name="spoken_accented_letter_0111">"D, áthúzva"</string>
+  <!-- Spoken description for Unicode code point U+0113: "ē" LATIN SMALL LETTER E WITH MACRON -->
+  <string name="spoken_accented_letter_0113">"E, hosszúsági jellel"</string>
+  <!-- Spoken description for Unicode code point U+0115: "ĕ" LATIN SMALL LETTER E WITH BREVE -->
+  <string name="spoken_accented_letter_0115">"E, rövidségi jellel"</string>
+  <!-- Spoken description for Unicode code point U+0117: "ė" LATIN SMALL LETTER E WITH DOT ABOVE -->
+  <string name="spoken_accented_letter_0117">"E, felette ponttal"</string>
+  <!-- Spoken description for Unicode code point U+0119: "ę" LATIN SMALL LETTER E WITH OGONEK -->
+  <string name="spoken_accented_letter_0119">"E, horoggal"</string>
+  <!-- Spoken description for Unicode code point U+011B: "ě" LATIN SMALL LETTER E WITH CARON -->
+  <string name="spoken_accented_letter_011B">"E, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+011D: "ĝ" LATIN SMALL LETTER G WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_011D">"G, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+011F: "ğ" LATIN SMALL LETTER G WITH BREVE -->
+  <string name="spoken_accented_letter_011F">"G, rövidségi jellel"</string>
+  <!-- Spoken description for Unicode code point U+0121: "ġ" LATIN SMALL LETTER G WITH DOT ABOVE -->
+  <string name="spoken_accented_letter_0121">"G, felette ponttal"</string>
+  <!-- Spoken description for Unicode code point U+0123: "ģ" LATIN SMALL LETTER G WITH CEDILLA -->
+  <string name="spoken_accented_letter_0123">"G, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+0125: "ĥ" LATIN SMALL LETTER H WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_0125">"H, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0127: "ħ" LATIN SMALL LETTER H WITH STROKE -->
+  <string name="spoken_accented_letter_0127">"H, áthúzva"</string>
+  <!-- Spoken description for Unicode code point U+0129: "ĩ" LATIN SMALL LETTER I WITH TILDE -->
+  <string name="spoken_accented_letter_0129">"I, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+012B: "ī" LATIN SMALL LETTER I WITH MACRON -->
+  <string name="spoken_accented_letter_012B">"I, hosszúsági jellel"</string>
+  <!-- Spoken description for Unicode code point U+012D: "ĭ" LATIN SMALL LETTER I WITH BREVE -->
+  <string name="spoken_accented_letter_012D">"I, rövidségi jellel"</string>
+  <!-- Spoken description for Unicode code point U+012F: "į" LATIN SMALL LETTER I WITH OGONEK -->
+  <string name="spoken_accented_letter_012F">"I, horoggal"</string>
+  <!-- Spoken description for Unicode code point U+0131: "ı" LATIN SMALL LETTER DOTLESS I -->
+  <string name="spoken_accented_letter_0131">"Pont nélküli I"</string>
+  <!-- Spoken description for Unicode code point U+0133: "ĳ" LATIN SMALL LIGATURE IJ -->
+  <string name="spoken_accented_letter_0133">"I, J, ikerbetű"</string>
+  <!-- Spoken description for Unicode code point U+0135: "ĵ" LATIN SMALL LETTER J WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_0135">"J, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0137: "ķ" LATIN SMALL LETTER K WITH CEDILLA -->
+  <string name="spoken_accented_letter_0137">"K, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+0138: "ĸ" LATIN SMALL LETTER KRA -->
+  <string name="spoken_accented_letter_0138">"Kra betű"</string>
+  <!-- Spoken description for Unicode code point U+013A: "ĺ" LATIN SMALL LETTER L WITH ACUTE -->
+  <string name="spoken_accented_letter_013A">"L, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+013C: "ļ" LATIN SMALL LETTER L WITH CEDILLA -->
+  <string name="spoken_accented_letter_013C">"L, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+013E: "ľ" LATIN SMALL LETTER L WITH CARON -->
+  <string name="spoken_accented_letter_013E">"L, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+0140: "ŀ" LATIN SMALL LETTER L WITH MIDDLE DOT -->
+  <string name="spoken_accented_letter_0140">"L, középen ponttal"</string>
+  <!-- Spoken description for Unicode code point U+0142: "ł" LATIN SMALL LETTER L WITH STROKE -->
+  <string name="spoken_accented_letter_0142">"L, áthúzva"</string>
+  <!-- Spoken description for Unicode code point U+0144: "ń" LATIN SMALL LETTER N WITH ACUTE -->
+  <string name="spoken_accented_letter_0144">"N, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0146: "ņ" LATIN SMALL LETTER N WITH CEDILLA -->
+  <string name="spoken_accented_letter_0146">"N, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+0148: "ň" LATIN SMALL LETTER N WITH CARON -->
+  <string name="spoken_accented_letter_0148">"N, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+0149: "ŉ" LATIN SMALL LETTER N PRECEDED BY APOSTROPHE -->
+  <string name="spoken_accented_letter_0149">"N, előtte aposztróffal"</string>
+  <!-- Spoken description for Unicode code point U+014B: "ŋ" LATIN SMALL LETTER ENG -->
+  <string name="spoken_accented_letter_014B">"Eng betű"</string>
+  <!-- Spoken description for Unicode code point U+014D: "ō" LATIN SMALL LETTER O WITH MACRON -->
+  <string name="spoken_accented_letter_014D">"O, hosszúsági jellel"</string>
+  <!-- Spoken description for Unicode code point U+014F: "ŏ" LATIN SMALL LETTER O WITH BREVE -->
+  <string name="spoken_accented_letter_014F">"O, rövidségi jellel"</string>
+  <!-- Spoken description for Unicode code point U+0151: "ő" LATIN SMALL LETTER O WITH DOUBLE ACUTE -->
+  <string name="spoken_accented_letter_0151">"O, dupla éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0153: "œ" LATIN SMALL LIGATURE OE -->
+  <string name="spoken_accented_letter_0153">"O, E, ikerbetű"</string>
+  <!-- Spoken description for Unicode code point U+0155: "ŕ" LATIN SMALL LETTER R WITH ACUTE -->
+  <string name="spoken_accented_letter_0155">"R, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0157: "ŗ" LATIN SMALL LETTER R WITH CEDILLA -->
+  <string name="spoken_accented_letter_0157">"R, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+0159: "ř" LATIN SMALL LETTER R WITH CARON -->
+  <string name="spoken_accented_letter_0159">"R, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+015B: "ś" LATIN SMALL LETTER S WITH ACUTE -->
+  <string name="spoken_accented_letter_015B">"S, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+015D: "ŝ" LATIN SMALL LETTER S WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_015D">"S, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+015F: "ş" LATIN SMALL LETTER S WITH CEDILLA -->
+  <string name="spoken_accented_letter_015F">"S, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+0161: "š" LATIN SMALL LETTER S WITH CARON -->
+  <string name="spoken_accented_letter_0161">"S, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+0163: "ţ" LATIN SMALL LETTER T WITH CEDILLA -->
+  <string name="spoken_accented_letter_0163">"T, cédille-jel"</string>
+  <!-- Spoken description for Unicode code point U+0165: "ť" LATIN SMALL LETTER T WITH CARON -->
+  <string name="spoken_accented_letter_0165">"T, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+0167: "ŧ" LATIN SMALL LETTER T WITH STROKE -->
+  <string name="spoken_accented_letter_0167">"T, áthúzva"</string>
+  <!-- Spoken description for Unicode code point U+0169: "ũ" LATIN SMALL LETTER U WITH TILDE -->
+  <string name="spoken_accented_letter_0169">"U, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+016B: "ū" LATIN SMALL LETTER U WITH MACRON -->
+  <string name="spoken_accented_letter_016B">"U, hosszúsági jellel"</string>
+  <!-- Spoken description for Unicode code point U+016D: "ŭ" LATIN SMALL LETTER U WITH BREVE -->
+  <string name="spoken_accented_letter_016D">"U, rövidségi jellel"</string>
+  <!-- Spoken description for Unicode code point U+016F: "ů" LATIN SMALL LETTER U WITH RING ABOVE -->
+  <string name="spoken_accented_letter_016F">"U, felette körrel"</string>
+  <!-- Spoken description for Unicode code point U+0171: "ű" LATIN SMALL LETTER U WITH DOUBLE ACUTE -->
+  <string name="spoken_accented_letter_0171">"U, dupla éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0173: "ų" LATIN SMALL LETTER U WITH OGONEK -->
+  <string name="spoken_accented_letter_0173">"U, horoggal"</string>
+  <!-- Spoken description for Unicode code point U+0175: "ŵ" LATIN SMALL LETTER W WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_0175">"W, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+0177: "ŷ" LATIN SMALL LETTER Y WITH CIRCUMFLEX -->
+  <string name="spoken_accented_letter_0177">"Y, kúpos ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+017A: "ź" LATIN SMALL LETTER Z WITH ACUTE -->
+  <string name="spoken_accented_letter_017A">"Z, éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+017C: "ż" LATIN SMALL LETTER Z WITH DOT ABOVE -->
+  <string name="spoken_accented_letter_017C">"Z, felette ponttal"</string>
+  <!-- Spoken description for Unicode code point U+017E: "ž" LATIN SMALL LETTER Z WITH CARON -->
+  <string name="spoken_accented_letter_017E">"Z, hacsekkel"</string>
+  <!-- Spoken description for Unicode code point U+017F: "ſ" LATIN SMALL LETTER LONG S -->
+  <string name="spoken_accented_letter_017F">"Hosszú S"</string>
+  <!-- Spoken description for Unicode code point U+01A1: "ơ" LATIN SMALL LETTER O WITH HORN -->
+  <string name="spoken_accented_letter_01A1">"O, szarvval"</string>
+  <!-- Spoken description for Unicode code point U+01B0: "ư" LATIN SMALL LETTER U WITH HORN -->
+  <string name="spoken_accented_letter_01B0">"U, szarvval"</string>
+  <!-- Spoken description for Unicode code point U+0219: "ș" LATIN SMALL LETTER S WITH COMMA BELOW -->
+  <string name="spoken_accented_letter_0219">"S, alatta vesszővel"</string>
+  <!-- Spoken description for Unicode code point U+021B: "ț" LATIN SMALL LETTER T WITH COMMA BELOW -->
+  <string name="spoken_accented_letter_021B">"T, alatta vesszővel"</string>
+  <!-- Spoken description for Unicode code point U+0259: "ə" LATIN SMALL LETTER SCHWA -->
+  <string name="spoken_accented_letter_0259">"Schwa betű"</string>
+  <!-- Spoken description for Unicode code point U+1EA1: "ạ" LATIN SMALL LETTER A WITH DOT BELOW -->
+  <string name="spoken_accented_letter_1EA1">"A, alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EA3: "ả" LATIN SMALL LETTER A WITH HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EA3">"A, felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EA5: "ấ" LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE -->
+  <string name="spoken_accented_letter_1EA5">"A, kúpos ékezettel és éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EA7: "ầ" LATIN SMALL LETTER A WITH CIRCUMFLEX AND GRAVE -->
+  <string name="spoken_accented_letter_1EA7">"A, kúpos ékezettel és tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EA9: "ẩ" LATIN SMALL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EA9">"A, kúpos ékezettel és felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EAB: "ẫ" LATIN SMALL LETTER A WITH CIRCUMFLEX AND TILDE -->
+  <string name="spoken_accented_letter_1EAB">"A, kúpos ékezettel és hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1EAD: "ậ" LATIN SMALL LETTER A WITH CIRCUMFLEX AND DOT BELOW -->
+  <string name="spoken_accented_letter_1EAD">"A, kúpos ékezettel és alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EAF: "ắ" LATIN SMALL LETTER A WITH BREVE AND ACUTE -->
+  <string name="spoken_accented_letter_1EAF">"A, rövidségi jellel és éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EB1: "ằ" LATIN SMALL LETTER A WITH BREVE AND GRAVE -->
+  <string name="spoken_accented_letter_1EB1">"A, rövidségi jellel és tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EB3: "ẳ" LATIN SMALL LETTER A WITH BREVE AND HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EB3">"A, rövidségi jellel és felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EB5: "ẵ" LATIN SMALL LETTER A WITH BREVE AND TILDE -->
+  <string name="spoken_accented_letter_1EB5">"A, rövidségi jellel és hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1EB7: "ặ" LATIN SMALL LETTER A WITH BREVE AND DOT BELOW -->
+  <string name="spoken_accented_letter_1EB7">"A, rövidségi jellel és alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EB9: "ẹ" LATIN SMALL LETTER E WITH DOT BELOW -->
+  <string name="spoken_accented_letter_1EB9">"E, alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EBB: "ẻ" LATIN SMALL LETTER E WITH HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EBB">"E, felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EBD: "ẽ" LATIN SMALL LETTER E WITH TILDE -->
+  <string name="spoken_accented_letter_1EBD">"E, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1EBF: "ế" LATIN SMALL LETTER E WITH CIRCUMFLEX AND ACUTE -->
+  <string name="spoken_accented_letter_1EBF">"E, kúpos ékezettel és éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EC1: "ề" LATIN SMALL LETTER E WITH CIRCUMFLEX AND GRAVE -->
+  <string name="spoken_accented_letter_1EC1">"E, kúpos ékezettel és tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EC3: "ể" LATIN SMALL LETTER E WITH CIRCUMFLEX AND HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EC3">"E, kúpos ékezettel és felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EC5: "ễ" LATIN SMALL LETTER E WITH CIRCUMFLEX AND TILDE -->
+  <string name="spoken_accented_letter_1EC5">"E, kúpos ékezettel és hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1EC7: "ệ" LATIN SMALL LETTER E WITH CIRCUMFLEX AND DOT BELOW -->
+  <string name="spoken_accented_letter_1EC7">"E, kúpos ékezettel és alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EC9: "ỉ" LATIN SMALL LETTER I WITH HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EC9">"I, felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1ECB: "ị" LATIN SMALL LETTER I WITH DOT BELOW -->
+  <string name="spoken_accented_letter_1ECB">"I, alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1ECD: "ọ" LATIN SMALL LETTER O WITH DOT BELOW -->
+  <string name="spoken_accented_letter_1ECD">"O, alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1ECF: "ỏ" LATIN SMALL LETTER O WITH HOOK ABOVE -->
+  <string name="spoken_accented_letter_1ECF">"O, felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1ED1: "ố" LATIN SMALL LETTER O WITH CIRCUMFLEX AND ACUTE -->
+  <string name="spoken_accented_letter_1ED1">"O, kúpos ékezettel és éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1ED3: "ồ" LATIN SMALL LETTER O WITH CIRCUMFLEX AND GRAVE -->
+  <string name="spoken_accented_letter_1ED3">"O, kúpos ékezettel és tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1ED5: "ổ" LATIN SMALL LETTER O WITH CIRCUMFLEX AND HOOK ABOVE -->
+  <string name="spoken_accented_letter_1ED5">"O, kúpos ékezettel és felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1ED7: "ỗ" LATIN SMALL LETTER O WITH CIRCUMFLEX AND TILDE -->
+  <string name="spoken_accented_letter_1ED7">"O, kúpos ékezettel és hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1ED9: "ộ" LATIN SMALL LETTER O WITH CIRCUMFLEX AND DOT BELOW -->
+  <string name="spoken_accented_letter_1ED9">"O, kúpos ékezettel és alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EDB: "ớ" LATIN SMALL LETTER O WITH HORN AND ACUTE -->
+  <string name="spoken_accented_letter_1EDB">"O, szarvval és éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EDD: "ờ" LATIN SMALL LETTER O WITH HORN AND GRAVE -->
+  <string name="spoken_accented_letter_1EDD">"O, szarvval és tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EDF: "ở" LATIN SMALL LETTER O WITH HORN AND HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EDF">"O, szarvval és felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EE1: "ỡ" LATIN SMALL LETTER O WITH HORN AND TILDE -->
+  <string name="spoken_accented_letter_1EE1">"O, szarvval és hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1EE3: "ợ" LATIN SMALL LETTER O WITH HORN AND DOT BELOW -->
+  <string name="spoken_accented_letter_1EE3">"O, szarvval és alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EE5: "ụ" LATIN SMALL LETTER U WITH DOT BELOW -->
+  <string name="spoken_accented_letter_1EE5">"U, alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EE7: "ủ" LATIN SMALL LETTER U WITH HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EE7">"U, felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EE9: "ứ" LATIN SMALL LETTER U WITH HORN AND ACUTE -->
+  <string name="spoken_accented_letter_1EE9">"U, szarvval és éles ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EEB: "ừ" LATIN SMALL LETTER U WITH HORN AND GRAVE -->
+  <string name="spoken_accented_letter_1EEB">"U, szarvval és tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EED: "ử" LATIN SMALL LETTER U WITH HORN AND HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EED">"U, szarvval és felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EEF: "ữ" LATIN SMALL LETTER U WITH HORN AND TILDE -->
+  <string name="spoken_accented_letter_1EEF">"U, szarvval és hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+1EF1: "ự" LATIN SMALL LETTER U WITH HORN AND DOT BELOW -->
+  <string name="spoken_accented_letter_1EF1">"U, szarvval és alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EF3: "ỳ" LATIN SMALL LETTER Y WITH GRAVE -->
+  <string name="spoken_accented_letter_1EF3">"Y, tompa ékezettel"</string>
+  <!-- Spoken description for Unicode code point U+1EF5: "ỵ" LATIN SMALL LETTER Y WITH DOT BELOW -->
+  <string name="spoken_accented_letter_1EF5">"Y, alatta ponttal"</string>
+  <!-- Spoken description for Unicode code point U+1EF7: "ỷ" LATIN SMALL LETTER Y WITH HOOK ABOVE -->
+  <string name="spoken_accented_letter_1EF7">"Y, felette kampóval"</string>
+  <!-- Spoken description for Unicode code point U+1EF9: "ỹ" LATIN SMALL LETTER Y WITH TILDE -->
+  <string name="spoken_accented_letter_1EF9">"Y, hullámvonallal"</string>
+  <!-- Spoken description for Unicode code point U+00A1: "¡" INVERTED EXCLAMATION MARK -->
+  <string name="spoken_symbol_00A1">"Fordított felkiáltójel"</string>
+  <!-- Spoken description for Unicode code point U+00AB: "«" LEFT-POINTING DOUBLE ANGLE QUOTATION MARK -->
+  <string name="spoken_symbol_00AB">"Balra mutató francia csúcsos dupla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+00B7: "·" MIDDLE DOT -->
+  <string name="spoken_symbol_00B7">"Középső pont"</string>
+  <!-- Spoken description for Unicode code point U+00B9: "¹" SUPERSCRIPT ONE -->
+  <string name="spoken_symbol_00B9">"Felső indexszám egy"</string>
+  <!-- Spoken description for Unicode code point U+00BB: "»" RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK -->
+  <string name="spoken_symbol_00BB">"Jobbra mutató francia csúcsos dupla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+00BF: "¿" INVERTED QUESTION MARK -->
+  <string name="spoken_symbol_00BF">"Fordított kérdőjel"</string>
+  <!-- Spoken description for Unicode code point U+2018: "‘" LEFT SINGLE QUOTATION MARK -->
+  <string name="spoken_symbol_2018">"Bal angol szimpla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+2019: "’" RIGHT SINGLE QUOTATION MARK -->
+  <string name="spoken_symbol_2019">"Jobb angol szimpla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+201A: "‚" SINGLE LOW-9 QUOTATION MARK -->
+  <string name="spoken_symbol_201A">"Bal német szimpla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+201C: "“" LEFT DOUBLE QUOTATION MARK -->
+  <string name="spoken_symbol_201C">"Bal dupla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+201D: "”" RIGHT DOUBLE QUOTATION MARK -->
+  <string name="spoken_symbol_201D">"Jobb dupla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+2020: "†" DAGGER -->
+  <string name="spoken_symbol_2020">"Kereszt"</string>
+  <!-- Spoken description for Unicode code point U+2021: "‡" DOUBLE DAGGER -->
+  <string name="spoken_symbol_2021">"Kettős kereszt"</string>
+  <!-- Spoken description for Unicode code point U+2030: "‰" PER MILLE SIGN -->
+  <string name="spoken_symbol_2030">"Ezrelékjel"</string>
+  <!-- Spoken description for Unicode code point U+2032: "′" PRIME -->
+  <string name="spoken_symbol_2032">"Percjel"</string>
+  <!-- Spoken description for Unicode code point U+2033: "″" DOUBLE PRIME -->
+  <string name="spoken_symbol_2033">"Másodpercjel"</string>
+  <!-- Spoken description for Unicode code point U+2039: "‹" SINGLE LEFT-POINTING ANGLE QUOTATION MARK -->
+  <string name="spoken_symbol_2039">"Balra mutató francia csúcsos szimpla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+203A: "›" SINGLE RIGHT-POINTING ANGLE QUOTATION MARK -->
+  <string name="spoken_symbol_203A">"Jobbra mutató francia csúcsos szimpla idézőjel"</string>
+  <!-- Spoken description for Unicode code point U+2074: "⁴" SUPERSCRIPT FOUR -->
+  <string name="spoken_symbol_2074">"Felső indexszám négy"</string>
+  <!-- Spoken description for Unicode code point U+207F: "ⁿ" SUPERSCRIPT LATIN SMALL LETTER N -->
+  <string name="spoken_symbol_207F">"Felső index latin kisbetűs n"</string>
+  <!-- Spoken description for Unicode code point U+20B1: "₱" PESO SIGN -->
+  <string name="spoken_symbol_20B1">"Peso jel"</string>
+  <!-- Spoken description for Unicode code point U+2105: "℅" CARE OF -->
+  <string name="spoken_symbol_2105">"Százalék"</string>
+  <!-- Spoken description for Unicode code point U+2192: "→" RIGHTWARDS ARROW -->
+  <string name="spoken_symbol_2192">"Jobbra mutató nyíl"</string>
+  <!-- Spoken description for Unicode code point U+2193: "↓" DOWNWARDS ARROW -->
+  <string name="spoken_symbol_2193">"Lefelé mutató nyíl"</string>
+  <!-- Spoken description for Unicode code point U+2205: "∅" EMPTY SET -->
+  <string name="spoken_symbol_2205">"Üres halmaz"</string>
+  <!-- Spoken description for Unicode code point U+2206: "∆" INCREMENT -->
+  <string name="spoken_symbol_2206">"Növekmény"</string>
+  <!-- Spoken description for Unicode code point U+2264: "≤" LESS-THAN OR EQUAL TO -->
+  <string name="spoken_symbol_2264">"Egyenlő vagy kisebb mint"</string>
+  <!-- Spoken description for Unicode code point U+2265: "≥" GREATER-THAN OR EQUAL TO -->
+  <string name="spoken_symbol_2265">"Egyenlő vagy nagyobb mint"</string>
+  <!-- Spoken description for Unicode code point U+2605: "★" BLACK STAR -->
+  <string name="spoken_symbol_2605">"Fekete csillag"</string>
+</resources>

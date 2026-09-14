@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">FUTO σφάλμα εφαρμογής! Η αποστολή email (keyboard@futo.org) θα βοηθούσε στην επίλυση του</string>
+  <string name="crashed_text">FUTO σφάλμα εφαρμογής! Παρακαλούμε στην αποστολή της αναφοράς του, που θα βοηθήσει στην επίλυση του.</string>
+  <string name="crashed_title">Αναφορά σφάλματος</string>
+  <string name="crash_report_accept">Αποστολή αναφοράς</string>
+  <string name="crash_report_reject">Παράβλεψη</string>
+</resources>

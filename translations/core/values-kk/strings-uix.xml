@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_select_all_title">Барлығын таңдау</string>
+  <string name="action_cut_title">Алмасу буферіне қиып алу</string>
+  <string name="action_copy_title">Алмасу буферіне көшіру</string>
+  <string name="action_paste_title">Алмасу буферіне қою</string>
+  <string name="action_undo_title">Болдырмау</string>
+  <string name="action_redo_title">Қайтару</string>
+  <string name="action_text_editor_title">Мәтін редакторы</string>
+  <string name="action_emoji_category_food_drink">Азық-түлік және сусындар</string>
+  <string name="action_emoji_category_travel_places">Саяхат және орындар</string>
+  <string name="action_emoji_category_activities">Әрекеттер</string>
+  <string name="action_emoji_category_objects">Заттар</string>
+  <string name="action_emoji_category_symbols">Таңбалар</string>
+  <string name="action_emoji_category_flags">Жалаушалар</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Ештеңе табылмады</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Іздеу</string>
+  <string name="action_clipboard_manager_unpin_item">Элементті бекітпеу</string>
+  <string name="action_clipboard_manager_pin_item">Элементті бекіту</string>
+  <string name="action_clipboard_manager_remove_item">Элементті жою</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Бас тарту</string>
+  <string name="action_clipboard_manager_disable_text">Алмасу буферінде тазалайтын зат табылмады. Алмасу буфер тарихын өшіремізбе?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Өшіру</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Бекітпеу</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Бекітілмеген барлық элементтерді жоясызба?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Тазалау</string>
+  <string name="action_clipboard_manager_clear_clipboard">Алмасу буферін тазалау</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Құрылғы кілттенді</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Қайталау</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Жою</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Кемпірқосақ</string>
+  <string name="action_fonttyper_finish">Аяқтау</string>
+  <string name="language_settings_search">Іздеу</string>
+</resources>

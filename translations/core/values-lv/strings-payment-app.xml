@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">FUTO Tastatūras Samaksa</string>
+  <string name="payment_app_main_menu_title">Jūs esat nopircis FUTO Tastatūru</string>
+  <string name="payment_app_main_menu_line_1">Paldies par pirkumu!</string>
+  <string name="payment_app_main_menu_line_2">Jūsu samaksa mums palīdzēs izstrādāt FUTO Tastatūru, kā arī citus FUTO projektus.</string>
+  <string name="payment_app_activate_keyboard_button">Iestatīt FUTO Tastatūru kā nopirktu</string>
+  <string name="payment_app_more_options_download_keyboard">Lejupielādēt FUTO Tastatūru Play Veikalā</string>
+  <string name="payment_app_more_options_visit_website">Atvērt FUTO Tastatūras mājaslapu</string>
+  <string name="payment_app_more_options_email_support">E-pasta Atbalsts</string>
+</resources>

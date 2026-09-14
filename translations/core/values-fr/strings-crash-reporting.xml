@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">Le clavier FUTO a cesser de fonctionner ! Merci de nous envoyer le rapport d\'incident par courriel pour nous aider à résoudre ce problème (keyboard@futo.org).</string>
+  <string name="crashed_text">Le clavier FUTO a cesser de fonctionner ! Merci de nous envoyer le rapport d\'incident pour nous aider à résoudre ce problème.</string>
+  <string name="crashed_title">Rapport d\'Incident</string>
+  <string name="crash_report_accept">Envoyer le rapport</string>
+  <string name="crash_report_reject">Ignorer</string>
+</resources>

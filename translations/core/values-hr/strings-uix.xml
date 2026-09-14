@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Prebacivanje teme</string>
+  <string name="action_select_all_title">Odaberi sve</string>
+  <string name="action_cut_title">Izreži u međuspremnik</string>
+  <string name="action_copy_title">Kopiraj u međuspremnik</string>
+  <string name="action_paste_title">Zalijepi iz međuspremnika</string>
+  <string name="action_undo_title">Poništi</string>
+  <string name="action_redo_title">Ponovi</string>
+  <string name="action_text_editor_title">Uređivač teksta</string>
+  <string name="action_debug_title">Informacije o otklanjanju pogrešaka</string>
+  <string name="action_more_actions_title">Sve akcije</string>
+  <string name="action_bug_viewer_title">Preglednik grešaka</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Strijelica gore</string>
+  <string name="action_cursor_down_title">Strijelica dolje</string>
+  <string name="action_cursor_left_title">Strijelica lijevo</string>
+  <string name="action_cursor_right_title">Strijelica desno</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emojiji</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Nedavni</string>
+  <string name="action_emoji_category_smileys_emotion">Smajlići i emocije</string>
+  <string name="action_emoji_category_people_body">Ljudi i tijelo</string>
+  <string name="action_emoji_category_animals_nature">Životinje i priroda</string>
+  <string name="action_emoji_category_food_drink">Hrana i piće</string>
+  <string name="action_emoji_category_travel_places">Putovanja i Mjesta</string>
+  <string name="action_emoji_category_activities">Aktivnosti</string>
+  <string name="action_emoji_category_objects">Objekti</string>
+  <string name="action_emoji_category_symbols">Simboli</string>
+  <string name="action_emoji_category_flags">Zastave</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">Nema pronađenih rezultata</string>
+  <string name="action_emoji_jump_to_category"><![CDATA[<string name=\\\"action_emoji_jump_to_category\\\">Skoči na <xliff:g name=\\\"category\\\" example=\\\"Flags\\\">%s</xliff:g></string>]]></string>
+  <!-- Refers to clearing the most recently used emoji list -->
+  <string name="action_emoji_clear_recent_emojis_question">Izbrisati nedavne emojije?</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_cancel">Odustani</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_clear_recent_emojis_clear">Izbriši</string>
+  <string name="action_emoji_clear_recent_emojis_content_description">Izbriši nedavne emojije</string>
+  <!-- Must be fairly short -->
+  <string name="action_emoji_search_for_emojis">Pretraži</string>
+  <!-- For voice input action -->
+  <string name="action_voice_input_title">Glasovni unos</string>
+  <!-- Same as the one above but it uses the device's default system voice input instead of the built-in -->
+  <string name="action_system_voice_input_title">Glasovni unos (Sustav)</string>
+  <string name="action_voice_input_no_model_for_language_x_installed"><![CDATA[<string name=\\\"action_voice_input_no_model_for_language_x_installed\\\">Nema instaliranog modela glasovnog unosa za <xliff:g name=\\\"language\\\" example=\\\"español\\\">%s</xliff:g>, dodirnite za provjeru opcija?</string>]]></string>
+  <string name="action_voice_input_open_settings_button_to_grant_microphone_permission">Molimo idite na Dozvole i omogućite dozvolu za mikrofon za korištenje glasovnog unosa</string>
+  <!-- For clipboard manager action -->
+  <string name="action_clipboard_manager_title">Upravitelj međuspremnika</string>
+  <string name="action_clipboard_manager_unpin_item">Ukloni pričvršćivanje stavke</string>
+  <string name="action_clipboard_manager_pin_item">Pričvrsti stavku</string>
+  <string name="action_clipboard_manager_remove_item">Ukloni stavku</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Odustani</string>
+  <string name="action_clipboard_manager_disable_text">Nema stavki za brisanje. Onemogućiti povijest međuspremnika?</string>
+  <!-- Must be fairly short, refers to disabling clipboard history -->
+  <string name="action_clipboard_manager_disable_button">Onemogući</string>
+  <string name="action_clipboard_manager_unpin_all_items_text">Nema stavki bez pričvršćivanja za brisanje. Ukloniti pričvršćivanje svih stavki?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_unpin_all_items_button">Ukloni pričvršćivanje</string>
+  <string name="action_clipboard_manager_clear_unpinned_items_text">Izbrisati sve stavke bez pričvršćivanja?</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_clear_unpinned_items_button">Izbriši</string>
+  <string name="action_clipboard_manager_clear_clipboard">Izbriši međuspremnik</string>
+  <string name="action_clipboard_manager_error_device_locked_title">Uređaj zaključan</string>
+  <string name="action_clipboard_manager_error_device_locked_text">Molimo otključajte svoj uređaj za pristup povijesti međuspremnika</string>
+  <string name="action_clipboard_manager_error_general_title">Pogreška međuspremnika</string>
+  <string name="action_clipboard_manager_error_general_text">Povijest međuspremnika nije mogla biti spremljena ili učitana. Možda je oštećena. Možete pokušati izbrisati, ili ponovno pokrenuti tipkovnicu. Molimo prijavite ovo kao grešku. Razlog: %1$s</string>
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_text">Izbrisati međuspremnik? SVE stavke će biti izgubljene.</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_retry_saving_loading">Pokušaj ponovo</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_inspect_error_via_bugs_action">Istraži pogrešku u Pregledniku grešaka</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_delete_corrupted_clipboard_button">Izbriši</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_title">Povijest međuspremnika neaktivna</string>
+  <string name="action_clipboard_manager_error_clipboard_history_disabled_text_v2"><![CDATA[<string name=\\\"action_clipboard_manager_error_clipboard_history_disabled_text_v2\\\">Da biste spremili stavke međuspremnika, možete omogućiti povijest međuspremnika. Ovo će čuvati do <xliff:g id=\\\"numItems\\\" example=\\\"25\\\">%1$s</xliff:g> stavki tijekom <xliff:g id=\\\"numDays\\\" example=\\\"3\\\">%2$s</xliff:g> dana (pričvršćene stavke su izuzete). Ovo možete konfigurirati u postavkama.</string>]]></string>
+  <string name="action_clipboard_manager_enable_clipboard_history_button">Omogući povijest međuspremnika</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_clipboard_manager_error_app_image_insertion_unsupported">Aplikacija ne podržava umetanje slika</string>
+  <string name="action_clipboard_manager_settings_title">Postavke upravitelja međuspremnika</string>
+  <string name="action_clipboard_manager_settings_hours_to_keep_clips">Sati za čuvanje stavki bez pričvršćivanja</string>
+  <string name="action_clipboard_manager_settings_maximum_clips">Broj stavki bez pričvršćivanja za čuvanje</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips">Spremi osjetljive stavke</string>
+  <string name="action_clipboard_manager_settings_save_sensitive_clips_subtitle">Ako je omogućeno, spremit će stavke iz upravitelja lozinkama, inkognito prozora itd.</string>
+  <string name="action_clipboard_manager_settings_list_layout">Koristi vertikalni raspored umjesto mrežnog</string>
+  <string name="action_clipboard_manager_settings_show_pinned_above_others">Drži pričvršćene isječke na vrhu</string>
+  <string name="action_clipboard_manager_settings_show_quick_clips">Prikaži nedavno kopirani tekst u traci s prijedlozima</string>
+  <!-- For keyboard modes action -->
+  <string name="action_keyboard_modes_title">Načini tipkovnice</string>
+  <string name="action_keyboard_modes_go_back">Vrati se</string>
+  <string name="action_keyboard_modes_resize_keyboard">Promijeni veličinu tipkovnice</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for standard QWERTYUIOP keyboard mode, filling full screen width. -->
+  <string name="action_keyboard_modes_standard">Standardna</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for one-handed QWERTYUIOP keyboard mode, filling 2/3 screen width on one side -->
+  <string name="action_keyboard_modes_one_handed">Jedna ruka</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for split QWERT - - YUIOP keyboard mode, with gap in middle -->
+  <string name="action_keyboard_modes_split">Razdvojeno</string>
+  <!-- This string must be super short (below 10 chars if possible). The title for free-form draggable and resizable QWERTYUIOP keyboard mode. -->
+  <string name="action_keyboard_modes_floating">Plutajuća</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_reset_size">Resetiraj</string>
+  <!-- This string must be super short (below 10 chars if possible) -->
+  <string name="action_keyboard_modes_resizing_apply_new_size">Primijeni</string>
+  <!-- For Font Typer action -->
+  <string name="action_fonttyper_title">WordStyles</string>
+  <!-- This message is shown when we're typing in a text field does not support image insertion ("app" refers to the external app that is providing the text field) -->
+  <string name="action_fonttyper_app_unsupported_warning">Aplikacija možda ne podržava umetanje slika, ova funkcija možda neće raditi.</string>
+  <string name="action_fonttyper_select_a_preset">Odaberi unaprijed postavljeni stil</string>
+  <!-- Abstract, fragmented orange characters on a black background, resembling an alien script -->
+  <string name="action_fonttyper_preset_title_scratch">Oguljeno</string>
+  <!-- Comic book style text: bold, italicized yellow-orange letters with a thick shadow, looking 3d -->
+  <string name="action_fonttyper_preset_title_superhero">Superjunak</string>
+  <!-- Large, bold 3d white letters in a powerful cinematic perspective -->
+  <string name="action_fonttyper_preset_title_dramatictext">Dramatični tekst</string>
+  <!-- Pink candy-like cursive text -->
+  <string name="action_fonttyper_preset_title_candy">Slatkiš</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Duga</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Horizont</string>
+  <!-- Orange text on a black background, tilted in a 3d style effect, like a TV show opening crawl -->
+  <string name="action_fonttyper_preset_title_opening_crawl">Uvodni naslov</string>
+  <string name="action_fonttyper_finish">Završi</string>
+  <!-- Keyboard action kinds -->
+  <string name="action_kind_action_key">Akcijska tipka</string>
+  <string name="action_kind_pinned_key">Pričvršćene akcije</string>
+  <string name="action_kind_favorites">Omiljene akcije</string>
+  <string name="action_kind_more">Više akcija</string>
+  <string name="action_kind_disabled">Skrivene akcije</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Tamni način</string>
+  <string name="theme_default_light">Svijetli način</string>
+  <string name="theme_amoled_dark">AMOLED tamno ljubičasta</string>
+  <string name="theme_classic_dark">AOSP materijal tamni</string>
+  <string name="theme_classic_light">AOSP materijal svijetli</string>
+  <string name="theme_vi">FUTO VI tema</string>
+  <string name="theme_deepsea_dark">Tamno more</string>
+  <string name="theme_deepsea_light">Svijetlo more</string>
+  <string name="theme_emerald">Smaragd</string>
+  <string name="theme_gradient1">Gradijent 1</string>
+  <string name="theme_gradient2">Gradijent 2</string>
+  <string name="theme_rainbow">Duga</string>
+  <string name="theme_snowfall">Snježna oluja</string>
+  <string name="theme_steel_gray">Čelična siva</string>
+  <string name="theme_sunflower">Suncokret</string>
+  <string name="theme_cotton_candy">Vata na štapiću</string>
+  <string name="theme_hotdog">Hot dog</string>
+  <string name="theme_high_contrast_yellow">Visoki kontrast žuta</string>
+  <string name="theme_dev">Tema razvojne verzije</string>
+  <string name="theme_dynamic_system">Dinamički auto</string>
+  <string name="theme_dynamic_dark">Dinamički tamni</string>
+  <string name="theme_dynamic_light">Dinamički svijetli</string>
+  <!-- Auto update strings (note: the auto updater is currently inactive) -->
+  <string name="autoupdater_service_title">Ažuriraj uslugu provjere</string>
+  <string name="autoupdater_update_available_title">Ažuriranje dostupno</string>
+  <string name="autoupdater_update_available_body"><![CDATA[<string name=\\\"autoupdater_update_available_body\\\">ažuriranje je dostupno (<xliff:g name=\\\"versionDiff\\\" example=\\\"v1 -&gt; v2\\\">%s</xliff:g>). Dodirnite za preuzimanje</string>]]></string>
+  <string name="autoupdater_dismiss_update">Odbaci</string>
+  <string name="autoupdater_perform_update">Ažuriraj</string>
+  <!-- These strings can appear in the keyboard itself -->
+  <string name="keyboard_suggest_blacklist_body"><![CDATA[<string name=\\\"keyboard_suggest_blacklist_body\\\">Dodati riječ \\&quot;<xliff:g name=\\\"wordToBlacklist\\\" example=\\\"crane\\\">%s</xliff:g>\\&quot; na crnu listu za predlaganje?</string>]]></string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_add_word_to_blacklist">Crna lista</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_suggest_disable_emojis">Onemogući prijedloge emojija</string>
+  <!-- Must be fairly short -->
+  <string name="keyboard_version_status">Alpha</string>
+  <string name="keyboard_switch_keyboard">Prebaci tipkovnicu</string>
+  <string name="keyboard_language_settings">Postavke</string>
+  <string name="keyboard_actionbar_manual_update_check_notice">Dodirnite za provjeru ažuriranja ili provjerite u postavkama</string>
+  <!-- Should be fairly short (under 40 chars). Means there are no predictions for this language and a download is necessary by tapping on this notice. Appears in suggestion bar -->
+  <string name="keyboard_actionbar_no_dictionary_installed_notice">Rječnik nije instaliran, dodirnite za preuzimanje?</string>
+  <!--
+    Talkback descriptions (screen readers)
+
+    Expands the action bar above the keyboard
+  -->
+  <string name="keyboard_actionbar_expand_actions_talkback">Otvorite akcijsku traku</string>
+  <!-- Collapses the action bar (same element as above, but when action bar is open) -->
+  <string name="keyboard_actionbar_collapse_actions_talkback">Zatvorite akcijsku traku</string>
+  <!-- Dismisses/closes an important notice (usually the update check notice) -->
+  <string name="keyboard_actionbar_dismiss_important_notice_talkback">Zatvori</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, a back button is shown
+    to close the window and return to the keyboard, this is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_return_from_action_window_talkback">Natrag</string>
+  <!--
+    When an action window is opened, but it's not docked above keyboard, this button allows the
+    user to dock it above the keyboard, showing the keyboard below the action window
+  -->
+  <string name="keyboard_actionbar_dock_action_window_above_keyboard_talkback">Prikaži tipkovnicu</string>
+  <!--
+    When an action window is opened and docked, an X button is shown to close the action window
+    This is the talkback description for it
+  -->
+  <string name="keyboard_actionbar_close_docked_action_window_talkback">Zatvori</string>
+  <!--
+    When an action window is opened and docked, a down arrow allows the user to collapse it back
+    into the keyboard, undocking it from above the keyboard.
+  -->
+  <string name="keyboard_actionbar_undock_action_window_collapse_into_keyboard_talkback">Sažmi</string>
+  <!-- Payment screen -->
+  <string name="payment_screen_short_title">Plaćanje</string>
+  <string name="payment_screen_title">Platite za FUTO tipkovnicu</string>
+  <string name="payment_screen_sales_paragraph_1"><![CDATA[<string name=\\\"payment_screen_sales_paragraph_1\\\">Koristite FUTO tipkovnicu već <xliff:g name=\\\"days\\\" example=\\\"30\\\">%d</xliff:g> dana. Ako smatrate da je ova aplikacija korisna, razmislite o plaćanju kako biste podržali budući razvoj FUTO softvera.</string>]]></string>
+  <string name="payment_screen_sales_paragraph_1_alt">Hvala što ste isprobali FUTO tipkovnicu! Ako smatrate da je ova aplikacija korisna, razmislite o plaćanju kako biste podržali budući razvoj FUTO softvera.</string>
+  <string name="payment_screen_sales_paragraph_2">FUTO je posvećen razvoju dobrog softvera koji vas ne iskorištava. Ova aplikacija nikada neće prikazivati oglase niti prikupljati vaše osobne podatke.</string>
+  <string name="payment_screen_sales_point_development_title">Održivi razvoj</string>
+  <string name="payment_screen_sales_point_development_body">Misija FUTO-a je da otvoreni softver i poslovne prakse koje nisu zlonamjerne postanu održiv izvor prihoda za projekte i njihove programere. Iz tog razloga, podržavamo korisnike koji zapravo plaćaju za softver.</string>
+  <string name="payment_screen_sales_point_privacy_title">Obveza prema privatnosti</string>
+  <string name="payment_screen_sales_point_privacy_body">Ova aplikacija nikada neće prikazivati oglase niti prodavati vaše podatke. Nismo u tom poslu.</string>
+  <string name="payment_screen_error_build_unsupported_payment">Plaćanje nije podržano na ovoj verziji</string>
+  <string name="payment_screen_already_paid_title">Već ste platili?</string>
+  <string name="payment_screen_already_paid_body">Ako ste već platili za FUTO tipkovnicu ili FUTO glasovni unos, dodirnite ispod.</string>
+  <string name="payment_screen_already_paid_button">Već sam platio</string>
+  <string name="payment_screen_already_paid_confirmation">Potvrdite svoj izbor</string>
+  <string name="payment_screen_already_paid_confirmation_body">Jeste li sigurni da želite potvrditi da ste već platili? Nakon potvrde, više nećete biti pitani o plaćanju.</string>
+  <string name="payment_screen_already_paid_confirmation_confirm">Već sam platio</string>
+  <string name="payment_screen_already_paid_confirmation_cancel">Odustani</string>
+  <string name="payment_screen_set_reminder_title">Još niste spremni platiti?</string>
+  <string name="payment_screen_set_reminder_body">Ovo će sakriti podsjetnik u postavkama na razdoblje dana koje ste unijeli.</string>
+  <string name="payment_screen_set_reminder_setter">Kada želite da vas podsjetimo?</string>
+  <string name="payment_screen_set_reminder_setter_7_days">za 7 dana</string>
+  <string name="payment_screen_set_reminder_setter_1_month">za 1 mjesec</string>
+  <string name="payment_screen_set_reminder_setter_6_months">za 6 mjeseci</string>
+  <string name="payment_screen_set_reminder_setter_next_century">sljedeće stoljeće</string>
+  <string name="payment_screen_set_reminder_setter_confirm">Potvrdi podsjetnik</string>
+  <string name="payment_screen_other_options">Druge opcije</string>
+  <string name="payment_screen_need_help_title">Pomoć</string>
+  <string name="payment_screen_need_help_subtitle">Trebate pomoć? Posjetite našu web stranicu</string>
+  <string name="payment_screen_pay_via_google"><![CDATA[<string name=\\\"payment_screen_pay_via_google\\\">Platite putem Google Playa (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + PDV)</string>]]></string>
+  <string name="payment_screen_pay_via_futopay"><![CDATA[<string name=\\\"payment_screen_pay_via_futopay\\\">Platite (<xliff:g name=\\\"price\\\" example=\\\"~$2.99\\\">%s</xliff:g> + PDV)</string>]]></string>
+  <string name="payment_screen_more_options">Više opcija</string>
+  <string name="payment_screen_payment_complete_title">Plaćanje završeno</string>
+  <string name="payment_screen_aftersales_title">Hvala Vam</string>
+  <string name="payment_screen_aftersales_title_pending">Plaćanje na čekanju</string>
+  <string name="payment_screen_aftersales_paragraph_1">Hvala Vam što ste kupili FUTO tipkovnicu!</string>
+  <string name="payment_screen_aftersales_paragraph_2">Vaša kupnja će pomoći u daljnjem razvoju FUTO tipkovnice i drugih FUTO projekata.</string>
+  <string name="payment_screen_aftersales_paragraph_2_pending">Vaša uplata je još uvijek na čekanju, ali bi trebala biti obrađena uskoro.</string>
+  <string name="payment_screen_aftersales_paragraph_3">Ako ste upravo platili, vaša uplata se možda još obrađuje, trebali biste primiti e-mail s više informacija.</string>
+  <string name="payment_screen_payment_failed_title">Pogreška pri plaćanju</string>
+  <string name="payment_screen_payment_failed_body">Nažalost, vaša uplata nije uspjela iz nekog razloga. Molimo kontaktirajte nas ako trebate pomoć. Možete nas kontaktirati na keyboard@futo.org, putem gumba ispod ili putem opcije \"Pošaljite povratne informacije\" u pomoći.</string>
+  <string name="payment_screen_payment_failed_body_unconfident">Mogao je doći do problema s vašom uplatom. Ako je uplata prošla, trebali biste primiti e-mail s licenčnim ključem. Molimo kontaktirajte nas ako trebate pomoć. Možete nas kontaktirati na keyboard@futo.org, putem gumba ispod ili putem opcije \"Podijelite povratne informacije\" na glavnom ekranu.</string>
+  <string name="payment_screen_license_integrity_error">Nije uspjelo provjeriti licencu. Ako smatrate da je ovo greška, molimo kontaktirajte nas.</string>
+  <string name="payment_screen_continue_button">Nastavi</string>
+  <string name="payment_unpaid_version_title">Neplaćena FUTO tipkovnica</string>
+  <string name="payment_unpaid_version_indicator">Neplaćeno</string>
+  <string name="payment_paid_version_indicator">Hvala Vam što koristite plaćenu verziju FUTO tipkovnice!</string>
+  <!-- Lack of automatic updates notice -->
+  <string name="manual_update_notice_title">Obavijest o ažuriranjima</string>
+  <string name="manual_update_notice_paragraph_1">Ova aplikacija se ne povezuje na internet i neće moći provjeriti automatska ažuriranja. Međutim, možete provjeriti ažuriranja ručno.</string>
+  <string name="manual_update_notice_paragraph_2">Molimo koristite F-Droid ili Obtainium za automatska ažuriranja. Posjetite keyboard.futo.org za opcije preuzimanja.</string>
+  <string name="manual_update_notice_dev_paragraph">Na ste razvojnoj verziji FUTO tipkovnice. Posjetite keyboard.futo.org ako želite preuzeti stabilnu verziju.</string>
+  <string name="manual_update_notice_visit_site_button">Posjetite</string>
+  <!-- can be translated as "understood", etc -->
+  <string name="manual_update_notice_dismiss_notice_button">Zatvori</string>
+  <!-- General settings strings -->
+  <string name="settings_tip">Savjet</string>
+  <string name="settings_unknown_error_title">Nepoznata pogreška</string>
+  <string name="settings_unknown_error_subtitle">Došlo je do nepoznate pogreške.</string>
+  <string name="settings_try_typing_here">Pokušajte tipkati ovdje…</string>
+  <string name="settings_external_model_name">Vanjski uvezeni model</string>
+  <string name="settings_check_for_updates_manually">Provjeri ažuriranja ručno</string>
+  <string name="settings_update_available">Ažuriranje dostupno</string>
+  <!--
+    May be translated as "Start", "All", etc. This is the starting menu where all settings live.
+    Usually the string `english_ime_settings` is used instead, but this title is used in search
+    results.
+  -->
+  <string name="settings_home_title">Početna</string>
+  <!--
+    When a setting exists but is hidden due to another option being disabled (or enabled), the search
+    will display the option title with this subtitle. Tapping will visit the menu where the setting
+    lives, and usually the user can figure out what option to toggle to show the option. For example,
+    all voice input options are hidden if the "Use System Voice Input" toggle is on.
+  -->
+  <string name="settings_search_option_exists_but_disabled">Opcija je onemogućena jer ovisi o drugoj opciji, dodirnite za posjet izborniku: %1$s</string>
+  <string name="settings_search_menu_title">Pretraživanje</string>
+  <string name="settings_search_enter_your_search">Unesite pojam za pretraživanje…</string>
+  <string name="settings_search_no_options_found">Nema pronađenih rezultata</string>
+  <string name="misc_settings_title">Razno</string>
+  <!-- When adding a new language -->
+  <string name="language_settings_title">Jezici i modeli</string>
+  <string name="language_settings_add_language_button">Dodaj jezik</string>
+  <string name="language_settings_select_language">Odaberite jezik za dodavanje</string>
+  <string name="language_settings_search">Pretraži</string>
+  <string name="language_settings_select_layout">Odaberite raspored za dodavanje</string>
+  <string name="language_settings_warning_language_has_no_dict">Ovaj jezik nema ugrađeni rječnik. Preporučujemo preuzimanje i uvoz jednog kako biste dobili automatsko ispravljanje i prijedloge riječi.</string>
+  <string name="language_settings_resource_none">(Nijedno)</string>
+  <string name="language_settings_layouts_of_this_language">Izgledi tipkovnice</string>
+  <string name="language_settings_add_layout_for_this_language">Dodaj izgled tipkovnice</string>
+  <string name="language_settings_enable_multilingual_typing_for_this_language">Višejezično tipkanje</string>
+  <string name="language_settings_remove_this_language">Ukloni jezik</string>
+  <string name="language_settings_manage_languages_title">Upravljanje jezicima i rasporedima</string>
+  <string name="language_settings_manage_languages_subtitle">Pogledajte jezike koje ste omogućili, uklonite jezike, promijenite ili dodajte dodatne rasporede, ili prebacite višejezično tipkanje</string>
+  <string name="language_settings_resource_imported_indicator">(Uvezeno)</string>
+  <string name="language_settings_resource_unsupported_indicator">(Nepodržano)</string>
+  <string name="language_settings_resource_builtin_dictionary_name">Ugrađeni rječnik</string>
+  <string name="language_settings_resource_voice_input_selected">Želite li vratiti model glasovnog unosa na zadani, ili ga zamijeniti drugom datotekom?</string>
+  <string name="language_settings_resource_voice_input_selected_no_default_warning">Ne postoji ugrađeni model glasovnog unosa za ovaj jezik, pa ako ga uklonite, glasovni unos će prestati raditi za ovaj jezik dok ne uvezete drugi model!</string>
+  <string name="language_settings_resource_voice_input_selected_unset">Niste konfigurirali prilagođeni model glasovnog unosa za ovaj jezik. Možete istražiti preuzimanja online ili uvesti jedan iz datoteke.</string>
+  <string name="language_settings_resource_transformer_selected">Želite li vratiti model transformatora na zadani, ili ga zamijeniti drugom datotekom?</string>
+  <string name="language_settings_resource_transformer_selected_no_default_warning">Ne postoji ugrađeni model transformatora za ovaj jezik, pa ako ga uklonite, predikcije temeljene na transformatoru će prestati raditi za ovaj jezik dok ne uvezete drugi model!</string>
+  <string name="language_settings_resource_transformer_selected_unset">Niste konfigurirali prilagođeni model transformatora za ovaj jezik. Možete istražiti preuzimanja online ili uvesti jedan iz datoteke.</string>
+  <string name="language_settings_resource_dictionary_selected">Želite li vratiti rječnik na zadani, ili ga zamijeniti drugom datotekom?</string>
+  <string name="language_settings_resource_dictionary_selected_no_default_warning">Ne postoji ugrađeni rječnik za ovaj jezik, pa ako ga uklonite, automatsko ispravljanje i predikcije će prestati raditi za ovaj jezik dok ne uvezete drugi rječnik!</string>
+  <string name="language_settings_resource_dictionary_selected_unset">Niste konfigurirali prilagođeni rječnik za ovaj jezik. Možete istražiti preuzimanja online ili uvesti jedan iz datoteke.</string>
+  <string name="language_settings_resource_replace_button">Zamijeni</string>
+  <string name="language_settings_resource_import_file_button">Uvezi</string>
+  <string name="language_settings_resource_revert_to_default_button">Vrati na zadano</string>
+  <string name="language_settings_resource_remove_button">Ukloni</string>
+  <string name="language_settings_resource_explore_online_button">Istraži</string>
+  <string name="language_settings_remove_language_title">Izbrisati %1$s?</string>
+  <string name="language_settings_remove_language_body">Ukloniti %1$s, sve povezane rasporede i prilagođene resurse?</string>
+  <string name="language_settings_remove_language_remove_button">Ukloni</string>
+  <string name="language_settings_remove_language_cancel_button">Odustani</string>
+  <string name="language_settings_other_options">Druge opcije</string>
+  <string name="language_settings_import_resource_from_file">Uvezi datoteku resursa</string>
+  <string name="language_settings_explore_voice_input_models_online">Istraži modele glasovnog unosa</string>
+  <string name="language_settings_explore_dictionaries_online">Istraži rječnike</string>
+  <string name="language_settings_explore_transformers_online">Istraži modele transformatora</string>
+  <string name="language_settings_import_dictionary_or_model">Uvezi rječnik ili model</string>
+  <!-- Reource importer -->
+  <string name="file_kind_voice_input_model">Model glasovnog unosa</string>
+  <string name="file_kind_transformer_model">Model transformatora</string>
+  <string name="file_kind_dictionary">Rječnik</string>
+  <string name="file_kind_invalid_file">Nevažeća datoteka</string>
+  <string name="file_kind_cfg_backup">Sigurnosna kopija konfiguracije</string>
+  <string name="resource_importer_import_title">Uvoz - %1$s</string>
+  <string name="resource_importer_error_wordlist_1">Pogreška: Ova datoteka izgleda kao izvorna lista riječi (_wordlist.combined) umjesto kao kompajlirani rječnik (.dict) datoteka.</string>
+  <string name="resource_importer_error_wordlist_2">Molimo preuzmite kompajliranu datoteku rječnika, a ne listu riječi. Ako ste ovu listu riječi napravili sami, kompajlirajte je vanjskim alatom koristeći dicttool.</string>
+  <string name="resource_importer_error_invalid_fiile">Pogreška: Ova datoteka nije mogla biti prepoznata. Možda je nevažeća ili je mogla biti oštećena. Pokušajte je ponovno preuzeti ili isprobajte drugu datoteku.</string>
+  <string name="resource_importer_cancel_button">Odustani</string>
+  <string name="resource_importer_import_button">Uvezi</string>
+  <string name="resource_importer_file_info">Informacije o datoteci: %1$s</string>
+  <string name="resource_importer_importing">Uvoz za jezik: %1$s</string>
+  <string name="resource_importer_importing_cfg">Uvoz konfiguracije… Molimo ne zatvarajte ovaj izbornik dok se proces ne završi (5 do 10 sekundi)</string>
+  <string name="resource_importer_select_language">Odaberite jezik za uvoz:</string>
+  <string name="resource_importer_warning_language_missing">Ova datoteka izgleda da je namijenjena jeziku (%1$s) koji nije omogućen u postavkama</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">Jeste li sigurni da želite uvesti ovu sigurnosnu kopiju konfiguracije? Ovo će zamijeniti sve vaše postavke, osobni rječnik (sustavno), naučene riječi rječnika, sve uvezene resurse i još više. Ako niste sigurni, napravite još jednu sigurnosnu kopiju prije ovoga.</string>
+  <string name="resource_importer_warning_cfg_backup_newer_version">Ova sigurnosna kopija konfiguracije je napravljena novijom verzijom FUTO tipkovnice i možda se neće ispravno uvesti. Pokušajte prvo ažurirati FUTO tipkovnicu.</string>
+  <string name="settings_export_configuration_title">Sigurnosna kopija postavki</string>
+  <string name="settings_export_configuration">Izvezi konfiguraciju</string>
+  <string name="settings_export_configuration_subtitle">Izradite sigurnosnu kopiju svih svojih postavki, međuspremnika, naučenih riječi, resursa i još mnogo toga.</string>
+  <string name="settings_export_configuration_exporting">Izvoz konfiguracije…</string>
+  <string name="settings_export_configuration_exporting_text">Molimo ne zatvarajte ovaj izbornik dok se proces ne završi (5 do 10 sekundi)</string>
+  <string name="settings_import_configuration">Uvezi konfiguraciju</string>
+  <string name="settings_import_configuration_subtitle">Ako ste prethodno izvezli svoju konfiguraciju, možete je ovdje ponovno uvesti.</string>
+  <string name="settings_import_export_tags">sigurnosna kopija, obnova, spremi, učitaj, izvoz, uvoz, prijenos uređaja</string>
+  <!-- Keyboard actions -->
+  <string name="action_editor_title">Uredi akcije</string>
+  <string name="action_editor_subtitle">Uredite omiljene akcije, pričvršćene akcije i akcijsku tipku pored razmaka</string>
+  <string name="action_editor_edit_actions">Uredi akcije</string>
+  <string name="action_editor_warning_no_actions">Nema omogućеnih akcija</string>
+  <string name="action_editor_error_more_than_one_action_key">Dodijelite samo jednu akcijsku tipku. Ne možete dodijeliti više od jedne akcije akcijskoj tipki.</string>
+  <string name="action_editor_warning_too_many_pinned">Razmislite o pričvršćivanju manje akcija. Traka s prijedlozima će se morati smanjiti kako bi se prilagodilo ovoliko akcija.</string>
+  <string name="action_editor_add_next_action">Dodaj sljedeće</string>
+  <!-- Action settings -->
+  <string name="action_settings_title">Akcije</string>
+  <string name="action_settings_quick_options_title">Brze opcije</string>
+  <string name="action_settings_quick_option_enable_action_key">Omogući akcijsku tipku</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_no_assignment">Prikaži tipku lijevo od razmaknice za brzi pristup akciji. Omogućavanje ovoga će postaviti tipku za emojije, ali se može prilagoditi u “Uredi akcije“</string>
+  <string name="action_settings_quick_option_enable_action_key_subtitle_with_assignment">Prikaži tipku lijevo od razmaknice za brzi pristup akciji. Onemogućavanje ovoga će premjestiti trenutno dodijeljenu akciju: %s</string>
+  <string name="action_settings_quick_option_language_switch_key">Tipka za prebacivanje jezika</string>
+  <string name="action_settings_quick_option_language_switch_key_subtitle">Zamijenite tipku za emojije tipkom za prebacivanje jezika. Idite na “Uredi akcije” da biste stavili nešto drugo.</string>
+  <string name="action_settings_action_settings">Postavke akcija</string>
+  <!-- Keyboard's size settings -->
+  <string name="size_settings_title">Promijeni veličinu tipkovnice</string>
+  <string name="size_settings_subtitle2">Promijenite veličinu tipkovnice, učinite je za jednu ruku, plutajuću ili razdvojenu</string>
+  <string name="size_settings_resize_tip">Dodirnite gumb „Promijeni veličinu tipkovnice” za promjenu veličine.</string>
+  <string name="size_settings_keyboard_modes_tip">Možete pristupiti ovome bilo gdje putem akcije Načini tipkovnice:</string>
+  <string name="size_settings_keyboard_modes_portrait_landscape_tip">Veličina i način pohranjuju se odvojeno za portret i pejzaž.</string>
+  <string name="size_settings_reset">Resetiraj postavke veličine</string>
+  <string name="size_settings_reset_subtitle">Dodirnite za resetiranje svih veličina i načina za portret i pejzaž na zadane postavke</string>
+  <!-- Long-press keys, or otherwise called secondary keys, more keys, additional keys -->
+  <string name="morekey_settings_title">Tipke za dugo pritiskanje i razmaknica</string>
+  <string name="morekey_settings_subtitle">Konfigurirajte trajanje dugog pritiskanja, redoslijed slova/simbola i ponašanje razmaknice i tipke za brisanje.</string>
+  <string name="morekey_settings_layout">Raspored tipki za dugo pritiskanje</string>
+  <string name="morekey_settings_reset">Resetiraj na zadano</string>
+  <string name="morekey_settings_move_kind_up">Premjesti gore</string>
+  <string name="morekey_settings_move_kind_down">Premjesti dolje</string>
+  <string name="morekey_settings_move_kind_up_to_top">Premjesti na vrh</string>
+  <string name="morekey_settings_move_kind_down_to_bottom">Premjesti na dno</string>
+  <string name="morekey_settings_kind_position">Pozicija %1$s od %2$s</string>
+  <string name="morekey_settings_active">Aktivno</string>
+  <string name="morekey_settings_inactive">Neaktivno</string>
+  <string name="morekey_settings_reactivate">Ponovno aktiviraj</string>
+  <string name="morekey_settings_disable">Deaktiviraj</string>
+  <string name="morekey_settings_keys">Tipke za dugo pritiskanje</string>
+  <string name="morekey_settings_show_hints">Prikaži savjete</string>
+  <string name="morekey_settings_show_hints_subtitle">Prikaži mali savjet na svakoj tipki, pokazujući primarnu tipku za dugo pritiskanje</string>
+  <string name="morekey_settings_show_hints_tags">dodatni znakovi, alt tipke, simboli, iskačuće tipke</string>
+  <string name="morekey_settings_duration">Trajanje dugog pritiskanja</string>
+  <string name="morekey_settings_duration_subtitle">Koliko dugo tipku treba držati da bi se smatrala dugim pritiskom</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Brojevi</string>
+  <string name="morekey_settings_kind_numbers_example">npr. [1] na [q]</string>
+  <string name="morekey_settings_kind_language_keys">Jezik tipke</string>
+  <!-- This example can be adjusted per language for better understanding -->
+  <string name="morekey_settings_kind_language_keys_example">npr. [ñ] na [n] na španjolskom</string>
+  <string name="morekey_settings_kind_symbols">Simboli</string>
+  <string name="morekey_settings_kind_symbols_example">npr. [@] na [a]</string>
+  <string name="morekey_settings_kind_actions">Brze akcije</string>
+  <string name="morekey_settings_kind_actions_example">npr. [Kopiraj] na [c]</string>
+  <string name="morekey_settings_kind_misc_common">Razna slova iz uobičajenih jezika</string>
+  <string name="morekey_settings_kind_misc_common_example">npr. [ß] na [s] u svim jezicima koji koriste latinično pismo</string>
+  <!-- typing settings -->
+  <string name="typing_settings_title">Preferencije tipkanja</string>
+  <string name="typing_settings_suggest_emojis">Prijedlozi emojija</string>
+  <string name="typing_settings_suggest_emojis_subtitle">Predlažite emojije dok tipkate</string>
+  <string name="typing_settings_vibration_strength">Vibracija</string>
+  <string name="typing_settings_vibration_strength_default">Zadano</string>
+  <string name="typing_settings_keypress_sound_volume">Jačina zvuka</string>
+  <string name="typing_settings_keypress_sound_volume_default">Zadano</string>
+  <string name="typing_settings_keypress_sound_volume_vendor_warning">Postavka jačine zvuka možda neće imati učinak na nekim verzijama Androida.</string>
+  <string name="typing_settings_keypress_sound_volume_ringer_mode_warning">Zvuk se neće reproducirati ako je vaš način zvona postavljen na tiho ili vibriranje.</string>
+  <string name="typing_settings_enable_clipboard_history">Povijest međuspremnika</string>
+  <string name="typing_settings_enable_clipboard_history_tags">kopiraj, zalijepi</string>
+  <string name="typing_settings_delete_pasted_text_on_backspace">Briši zalijepljeni/umetnuti tekst na tipki za brisanje</string>
+  <string name="typing_settings_revert_correction_on_backspace">Poništi automatsko ispravljanje na tipki za brisanje</string>
+  <!-- Automatic space insertion -->
+  <string name="typing_settings_auto_space_mode">Način automatskog umetanja razmaka</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Tipkovnica</string>
+  <string name="keyboard_settings_show_number_row">Prikaži red brojeva</string>
+  <string name="keyboard_settings_show_number_row_subtitle">Kada je aktivno, red brojeva se prikazuje na vrhu tipkovnice na podržanim rasporedima</string>
+  <string name="keyboard_settings_show_arrow_row">Prikaži strijelice</string>
+  <string name="keyboard_settings_show_arrow_row_subtitle">Kada je aktivno, red tipki sa strelicama se prikazuje na dnu tipkovnice</string>
+  <string name="keyboard_settings_extra_layouts">Dodatni rasporedi</string>
+  <string name="keyboard_settings_extra_layouts_subtitle">Konfigurirajte dodatne rasporede na ekranu jezika</string>
+  <string name="keyboard_settings_show_suggestion_row">Prikaži traku s prijedlozima/akcijama</string>
+  <string name="keyboard_settings_show_suggestion_row_subtitle">Prikaži traku koja sadrži prijedloge. Preporučuje se da ostane omogućena</string>
+  <string name="keyboard_settings_inline_autofill">Inline automatsko popunjavanje</string>
+  <string name="keyboard_settings_inline_autofill_subtitle">Prikaži automatsko popunjavanje upravitelja lozinkama i prijedloge automatskog odgovora (osigurava aplikacija) u traci s prijedlozima</string>
+  <string name="keyboard_settings_period_key">Brza tipka za točku</string>
+  <string name="keyboard_settings_number_row_title">Red brojeva</string>
+  <string name="keyboard_settings_number_row_style">Stil reda brojeva</string>
+  <!-- Slightly more compact than a full key, has no background -->
+  <string name="keyboard_settings_number_row_style_default">Kompaktno</string>
+  <!-- "Key" as in full-size keyboard key -->
+  <string name="keyboard_settings_number_row_style_classic">Tipka</string>
+  <!-- Languages like Arabic can have their own digit symbols, this forces use of Western numerals -->
+  <string name="keyboard_settings_number_row_dont_use_script_digits">Uvijek koristi zapadno-arapske brojeve</string>
+  <!-- misc titles -->
+  <string name="settings_keyboard_typing_title">Tipkovnica i tipkanje</string>
+  <!-- Theme, as in visual style -->
+  <string name="theme_settings_title">Tema</string>
+  <string name="theme_settings_key_borders">Granice tipki</string>
+  <string name="dev_settings_title">Postavke za programere</string>
+  <!-- Voice input settings menu -->
+  <string name="voice_input_settings_title">Glasovni unos</string>
+  <string name="voice_input_settings_builtin_disabled_notice">Ugrađeni glasovni unos je onemogućen!</string>
+  <string name="voice_input_settings_disable_builtin_voice_input">Onemogući ugrađeni glasovni unos</string>
+  <string name="voice_input_settings_disable_builtin_voice_input_subtitle">Koristi glasovni unos koji osigurava vanjska aplikacija</string>
+  <string name="voice_input_settings_indication_sounds">Zvukovi indikacije</string>
+  <string name="voice_input_settings_indication_sounds_subtitle">Reproduciraj kratki zvuk pri pokretanju i otkazivanju</string>
+  <string name="voice_input_settings_verbose_progress">Detaljan napredak</string>
+  <string name="voice_input_settings_verbose_progress_subtitle">Prikaži dodatne informacije, poput korištenja mikrofona</string>
+  <string name="voice_input_settings_use_bluetooth_mic">Preferiraj Bluetooth mikrofon</string>
+  <string name="voice_input_settings_use_bluetooth_mic_subtitle">Može doći do dodatnog kašnjenja pri pokretanju snimanja jer se mora uspostaviti Bluetooth SCO veza</string>
+  <string name="voice_input_settings_audio_focus">Audio fokus</string>
+  <string name="voice_input_settings_audio_focus_subtitle">Pauziraj video/muziku kada je aktiviran glasovni unos</string>
+  <string name="voice_input_settings_suppress_symbols">Smanji simbole</string>
+  <string name="voice_input_settings_suppress_symbols_subtitle">Spriječi glasovni unos da isporučuje simbole</string>
+  <string name="voice_input_settings_long_form">Dug oblik glasovnog unosa</string>
+  <string name="voice_input_settings_long_form_subtitle">Ako je onemogućeno, glasovni unos će se automatski zaustaviti nakon 30 sekundi.</string>
+  <string name="voice_input_settings_autostop_vad">Automatsko zaustavljanje na tišini</string>
+  <string name="voice_input_settings_autostop_vad_subtitle">Automatski se zaustavi kada se otkrije tišina. Možda ćete morati ručno zaustaviti bez obzira na previše pozadinske buke.</string>
+  <string name="voice_input_settings_change_models">Modeli</string>
+  <string name="voice_input_settings_change_models_subtitle">Za promjenu modela, posjetite izbornik Jezici i modeli</string>
+  <!-- Prediction menu -->
+  <string name="prediction_settings_title">Predikcija teksta</string>
+  <string name="prediction_settings_transformer">Transformer LM</string>
+  <string name="prediction_settings_transformer_finetuning">Fino podešavanje transformatora</string>
+  <string name="prediction_settings_transformer_finetuning_subtitle">Može potrošiti vašu bateriju ako je omogućeno! Ova funkcija zahtijeva dodatni rad</string>
+  <string name="prediction_settings_transformer_models">Modeli transformatora</string>
+  <string name="prediction_settings_transformer_alpha_notice">Napomena: Transformer LM je u alfa stanju</string>
+  <!-- When translating this, you can point out the local language specifically, e.g. for Portuguese, "... This has no effect for typing in Portuguese and other languages" -->
+  <string name="prediction_settings_transformer_english_notice">Ove postavke su eksperimentalne i odnose se samo na engleski jezik. Nemaju utjecaja na druge jezike.</string>
+  <string name="prediction_settings_smart_keyhit_detection">Pametna detekcija pritiska tipki</string>
+  <string name="prediction_settings_smart_keyhit_detection_subtitle">Koristi rječnik za određivanje relevantnih sljedećih tipki i povećava njihovo područje pritiska. Povećanje se izbjegava nakon brisanja</string>
+  <string name="prediction_settings_word_blacklist">Crna lista riječi</string>
+  <string name="prediction_settings_word_blacklist_add">Dodaj na crnu listu</string>
+  <string name="prediction_settings_word_blacklist_none">Nema riječi na crnoj listi.</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_title">Pogledaj i uređuj riječi na crnoj listi</string>
+  <string name="prediction_settings_word_blacklist_edit_blacklisted_words_subtitle">Kliknite ovdje za pregled popisa prijedloga na crnoj listi, dodavanje ili uklanjanje stavki</string>
+  <string name="prediction_settings_word_blacklist_remove_word_from_blacklist">Ukloni riječ</string>
+  <!-- Help & feedback menu -->
+  <string name="help_menu_title">Pomoć i povratne informacije</string>
+  <string name="help_menu_version_name">Naziv verzije: %1$s</string>
+  <string name="help_menu_version_code">Kod verzije: %1$s</string>
+  <string name="help_menu_version_tip">Želimo čuti vaše mišljenje! Ako prijavljujete problem, vaša verzija može biti relevantna: v%1$s</string>
+  <string name="help_menu_website">FUTO web stranica</string>
+  <string name="help_menu_website_subtitle">Saznajte više o nama i našoj filozofiji</string>
+  <string name="help_menu_website_tags">preuzimanje, aplikacije, glasovni unos</string>
+  <string name="help_menu_documentation">Dokumentacija</string>
+  <string name="help_menu_documentation_subtitle">Saznajte više o značajkama i mogućnostima tipkovnice</string>
+  <string name="help_menu_discord">Discord poslužitelj</string>
+  <string name="help_menu_discord_subtitle">Želite razgovarati, ali ne volite Zulip? Čavrljajte ovdje</string>
+  <string name="help_menu_futo_chat">FUTO Chat (Zulip)</string>
+  <string name="help_menu_futo_chat_subtitle">Želite razgovarati, ali ne volite Discord? Čavrljajte ovdje</string>
+  <string name="help_menu_github">Javni sustav za praćenje problema (GitHub)</string>
+  <string name="help_menu_github_subtitle">Specifična greška ili zahtjev za značajkom? Objavite ovdje</string>
+  <string name="help_menu_email">Email: keyboard@futo.org</string>
+  <string name="help_menu_email_subtitle">Privatne povratne informacije, pomoć ili ne koristite GitHub? Pošaljite nam email</string>
+  <string name="help_menu_email_tags">gmail, podrška, kontakt, pomoć, kvar, greška, problem, pritužba, tiket, uplata, podrška, greška, neispravnost, popravak, korisnička služba, rušenje, pitanje, upit, pomoć</string>
+  <!-- Setup configuration -->
+  <string name="setup_step_1">Postavka - Korak 1</string>
+  <string name="setup_step_2">Postavka - Korak 2</string>
+  <string name="setup_step_3">Postavka - Korak 3</string>
+  <string name="setup_welcome_text">Dobrodošli u FUTO tipkovnicu (alpha)! Ovaj proizvod je još uvijek u razvoju i nije dovršen, cijenimo vašu strpljivost i razumijevanje.\n\nZa početak, omogućite FUTO tipkovnicu kao metodu unosa.</string>
+  <string name="setup_open_input_settings">Otvorite postavke metode unosa</string>
+  <string name="setup_warning_multiple_versions">Upozorenje: Čini se da imate instalirane i verzije iz Play Store-a i samostalne verzije, preporučujemo instalaciju samo jedne</string>
+  <string name="setup_active_input_method">Molimo odaberite FUTO tipkovnicu kao svoju aktivnu metodu unosa.</string>
+  <string name="setup_switch_input_methods">Prebaci metode unosa</string>
+  <!-- Credits menu -->
+  <string name="credits_menu_title">Zasluge</string>
+  <string name="credits_menu_header_text">Zahvaljujemo ovim ljudima što su pomogli da FUTO tipkovnica postane odlična aplikacija!</string>
+  <string name="credits_menu_team_translators_title">Prevoditelji</string>
+  <string name="credits_menu_team_keyboard_layouts_title">Suradnici za rasporede</string>
+  <string name="credits_menu_team_code_title">Suradnici za kod</string>
+  <string name="credits_menu_nonaffiliation_notice">Autori navedeni iznad nisu povezani s nama i ne moraju nužno podržavati ili promovirati nas. Navođenje ne implicira povezanost ili podršku.</string>
+  <string name="credits_menu_contribute_translations_button">Pomozite prevesti aplikaciju</string>
+  <string name="credits_menu_contribute_keyboard_layouts_button">Doprinijeti rasporedima</string>
+  <string name="credits_menu_contribute_code_button">Doprinijeti kodu</string>
+  <string name="credits_menu_project_information_title">%s informacije</string>
+  <string name="credits_menu_project_url_link">URL projekta</string>
+  <!-- Settings category title -->
+  <string name="language_specific_settings_title">Postavke specifične za jezik</string>
+  <!-- Specific to Japanese input method -->
+  <string name="japanese_settings_title">Postavke unosa za japanski jezik</string>
+  <string name="japanese_settings_toggle_flick_only">Samo povlačenje</string>
+  <string name="japanese_settings_toggle_flick_only_subtitle">Onemogućuje prebacivanje između samoglasnika pri ponovljenim pritiscima tipki (Keitai unos)</string>
+  <string name="japanese_settings_toggle_halfwidth_space">Koristi razmak polovične širine</string>
+  <string name="japanese_settings_toggle_halfwidth_space_subtitle">Uvijek koristi razmak polovične širine</string>
+  <!-- Advanced parameters, these are only really relevant for English -->
+  <string name="prediction_settings_transformer_advanced_params">Napredni parametri</string>
+  <string name="prediction_settings_transformer_advanced_params_experimental_notice">Opcije u nastavku su eksperimentalne i mogu biti uklonjene ili promijenjene u budućnosti kako se unutarnji rad aplikacije mijenja. Promjena ovih vrijednosti može negativno utjecati na vaše iskustvo. Napomena: Ove postavke utječu samo na engleski jezik\u0020</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength">Snaga Transformer jezičnog modela</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_subtitle">Niža vrijednost će učiniti da automatska ispravka radi sličnije standardnoj AOSP tipkovnici, dok će viša vrijednost povećati ovisnost o neuronskoj mreži. Zadano je %1$s</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_transformer">uvijek koristi Transformer jezični model</string>
+  <string name="prediction_settings_transformer_advanced_params_transformer_lm_strength_always_binarydictionary">uvijek koristi BinaryDictionary</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold">Prag automatske ispravke</string>
+  <string name="prediction_settings_transformer_advanced_params_autocorrect_threshold_subtitle">Niži prag će češće automatski ispravljati (ali i češće pogrešno ispravljati), dok će viši prag automatsku ispravku koristiti rjeđe (ali s manje pogrešaka). Zadano je %1$s</string>
+</resources>

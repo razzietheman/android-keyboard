@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Pagament pel teclat FUTO</string>
+  <string name="payment_app_main_menu_title">Has pagat pel teclat FUTO</string>
+  <string name="payment_app_main_menu_line_1">Gràcies per pagar!</string>
+  <string name="payment_app_main_menu_line_2">La teva compra ajudarà al desenvolupament del teclat FUTO, i altres projectes FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Aquesta aplicació només serveix per permetre\'t pagar el teclat FUTO a través del sistema de pagament de Google. No cal que mantinguis aquesta aplicació instal·lada. Per eliminar l\'avís de pagament al teclat FUTO, toca ‘Ja he pagat‘ o el botó de sota.</string>
+  <string name="payment_app_activate_keyboard_button">Marca el teclat FUTO com a pagat</string>
+  <string name="payment_app_more_options_download_keyboard">Descarrega el teclat FUTO des de la Play Store</string>
+  <string name="payment_app_more_options_visit_website">Visita la pàgina web del teclat FUTO</string>
+  <string name="payment_app_more_options_email_support">Assistència per correu electrònic</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="crashed_text_email">FUTO Keyboard ist abgestürzt! Bitte schreiben Sie uns eine Nachricht per E-Mail, um uns zu helfen das Problem zu lösen (keyboard@futo.org)</string>
+  <string name="crashed_text">FUTO Keyboard ist abgestürzt! Bitte senden Sie uns eine Nachricht, um uns zu helfen das Problem zu lösen. </string>
+  <string name="crashed_title">Absturzbericht</string>
+  <string name="crash_report_accept">Absturzbericht senden</string>
+  <string name="crash_report_reject">Ignorieren</string>
+</resources>

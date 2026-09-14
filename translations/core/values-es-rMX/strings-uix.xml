@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard actions -->
+  <string name="action_theme_switcher_title">Selector de temas</string>
+  <string name="action_select_all_title">Seleccionar todo</string>
+  <string name="action_cut_title">Cortar al portapapeles</string>
+  <string name="action_copy_title">Copiar al portapapeles</string>
+  <string name="action_paste_title">Pegar al portapapeles</string>
+  <string name="action_undo_title">Deshacer</string>
+  <string name="action_redo_title">Rehacer</string>
+  <string name="action_text_editor_title">Editor de texto</string>
+  <string name="action_debug_title">Información de depuración</string>
+  <string name="action_more_actions_title">Todas las acciones</string>
+  <string name="action_bug_viewer_title">Visor de errores</string>
+  <!-- These move the text cursor up, down, left, right -->
+  <string name="action_cursor_up_title">Flecha hacia arriba</string>
+  <string name="action_cursor_down_title">Flecha hacia abajo</string>
+  <string name="action_cursor_left_title">Flecha izquierda</string>
+  <string name="action_cursor_right_title">Flecha derecha</string>
+  <!-- For emoji menu action -->
+  <string name="action_emoji_title">Emojis</string>
+  <!-- Refers to the most recently used emojis -->
+  <string name="action_emoji_category_most_recently_used">Reciente</string>
+  <string name="action_emoji_category_smileys_emotion">Emoticonos y emociones</string>
+  <string name="action_emoji_category_people_body">Personas y cuerpo</string>
+  <string name="action_emoji_category_animals_nature">Animales y naturaleza</string>
+  <string name="action_emoji_category_food_drink">Comida y bebida</string>
+  <string name="action_emoji_category_travel_places">Viaje y lugares</string>
+  <string name="action_emoji_category_activities">Actividades</string>
+  <string name="action_emoji_category_objects">Objetos</string>
+  <string name="action_emoji_category_symbols">Símbolos</string>
+  <string name="action_emoji_category_flags">Banderas</string>
+  <string name="action_emoji_category_ascii">ASCII</string>
+  <string name="action_emoji_search_no_results_found">No se encontraron resultados</string>
+  <!-- Must be fairly short -->
+  <string name="action_clipboard_manager_cancel_action_button">Cancelar</string>
+  <!-- Rainbow colored text with a skewed shadow -->
+  <string name="action_fonttyper_preset_title_rainbow">Arcoíris</string>
+  <!-- Sky and ground colored serif text with a dark grey shadow, the text color looks like a horizon -->
+  <string name="action_fonttyper_preset_title_horizon">Horizonte</string>
+  <!-- Keyboard themes -->
+  <string name="theme_default_dark">Modo oscuro</string>
+  <string name="file_kind_dictionary">Diccionario</string>
+  <string name="resource_importer_warning_cfg_backup_is_destructive2">¿Confirma que quiere importar esta copia de seguridad de la configuración? Esto remplazará todas sus configuraciones, diccionarios personales (en todo el sistema), palabras aprendidas, etcétera. Si tiene dudas, realice otra copia de seguridad antes de continuar.</string>
+  <string name="settings_export_configuration">Exportar configuración</string>
+  <string name="settings_export_configuration_exporting">Exportando configuración…</string>
+  <string name="settings_import_configuration">Importar configuración</string>
+  <string name="action_settings_quick_option_language_switch_key">Tecla para cambiar de idioma</string>
+  <!-- Types of morekeys that can be configured, and examples of them -->
+  <string name="morekey_settings_kind_numbers">Números</string>
+  <string name="morekey_settings_kind_language_keys">Teclas de idioma</string>
+  <string name="morekey_settings_kind_symbols">Símbolos</string>
+  <string name="typing_settings_vibration_strength">Vibración</string>
+  <string name="typing_settings_keypress_sound_volume">Volumen de sonido</string>
+  <!-- Misc keyboard settings -->
+  <string name="keyboard_settings_title">Teclado</string>
+  <string name="theme_settings_custom_theme_delete_confirm">Eliminar</string>
+  <string name="theme_settings_custom_theme_delete_cancel">Cancelar</string>
+  <!-- Theme customizer -->
+  <string name="theme_customizer_select_background_image_button">Seleccionar imagen</string>
+  <string name="theme_customizer_color_sliders_name">Color</string>
+  <string name="theme_customizer_dark_mode_toggle">Modo oscuro</string>
+  <string name="help_menu_documentation">Documentación</string>
+  <string name="help_menu_discord">Servidor de Discord</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These strings are not used by the keyboard app itself, but by the Google Play payment app -->
+  <string name="payment_app_name">Plată pentru Tastatura FUTO</string>
+  <string name="payment_app_main_menu_title">Ai plătit pentru tastatura FUTO</string>
+  <string name="payment_app_main_menu_line_1">Îți mulțumim pentru plata efectuată!</string>
+  <string name="payment_app_main_menu_line_2">Achiziția ta va susține dezvoltarea continuă a tastaturii FUTO și a altor proiecte FUTO.</string>
+  <string name="payment_app_main_menu_line_3">Această aplicație servește doar pentru a-ți permite să plătești tastatura FUTO prin sistemul de plată Google. Nu este nevoie să o păstrezi instalată. Pentru a elimina notificarea de plată din tastatura FUTO, apasă pe „Am plătit deja” sau pe butonul de mai jos.</string>
+  <string name="payment_app_activate_keyboard_button">Setează tastatura FUTO ca plătită</string>
+  <string name="payment_app_more_options_download_keyboard">Descarcă tastatura FUTO din Magazinul Play</string>
+  <string name="payment_app_more_options_visit_website">Accesează site-ul tastaturii FUTO</string>
+  <string name="payment_app_more_options_email_support">Trimite email către suport</string>
+</resources>
