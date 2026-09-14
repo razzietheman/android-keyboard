@@ -1,0 +1,52 @@
+# t9.yml — 12-tangenters T9-layout för FUTO Keyboard.
+#
+# Nu verifierad mot RIKTIG, fungerande layoutkod: futo-org/futo-keyboard-layouts
+# (hämtad från GitHub 2026-09-14) innehåller Special/phone.yaml, som är
+# strukturellt nästan identisk med vad ett T9-tangentbord behöver — en
+# 12-knappars sifferdialog med bokstäver som "hint" under varje sifferknapp.
+# Den här filen är en direkt anpassning av den, INTE en gissning längre.
+#
+# Skillnader mot Special/phone.yaml:
+#   - Bottenraden använder riktiga *, 0, # (T9Engine.kt lyssnar på dessa
+#     som kodpunkter) istället för telefonens -, +, .
+#   - numberRowMode/bottomRowHeightMode borttagna (inte relevanta för T9,
+#     som inte ska visa en separat sifferrad ovanpå — hela tangentbordet
+#     ÄR sifferraden).
+
+name: T9
+attributes: &globalAttrs
+  width: Grow
+  showPopup: false
+  moreKeyMode: OnlyExplicit
+  useKeySpecShortcut: false
+  style: Normal
+  shiftable: false
+  labelFlags:
+    alignLabelOffCenter: true
+    hasHintLabel: true
+rowHeightMode: FillHeight
+rows:
+  - letters:
+      - {type: base, spec: "1"}
+      - {type: base, spec: "2", hint: "ABC"}
+      - {type: base, spec: "3", hint: "DEF"}
+      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: &functional { style: Functional, labelFlags: {} }}
+    splittable: false
+  - letters:
+      - {type: base, spec: "4", hint: "GHI"}
+      - {type: base, spec: "5", hint: "JKL"}
+      - {type: base, spec: "6", hint: "MNO"}
+      - {type: base, spec: "!icon/space_key_for_number_layout|!code/key_space", attributes: { style: Functional, labelFlags: {}, longPressEnabled: true }}
+    splittable: false
+  - letters:
+      - {type: base, spec: "7", hint: "PQRS"}
+      - {type: base, spec: "8", hint: "TUV"}
+      - {type: base, spec: "9", hint: "WXYZ"}
+      - {type: enter, attributes: *functional}
+    splittable: false
+  - bottom:
+      - {type: base, spec: "*"}
+      - {type: base, spec: "0", moreKeys: "!noPanelAutoMoreKey!,+"}
+      - {type: base, spec: "#"}
+    attributes: *globalAttrs
+    splittable: false
