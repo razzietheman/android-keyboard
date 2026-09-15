@@ -442,6 +442,7 @@ dependencies {
     //implementation "androidx.work:work-runtime:$work_version"
 
     implementation project(":voiceinput-shared")
+    implementation project(":t9engine")
 
     implementation "com.charleskorn.kaml:kaml:0.61.0"
 
