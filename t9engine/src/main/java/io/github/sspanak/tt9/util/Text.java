@@ -1,4 +1,3 @@
-
 package io.github.sspanak.tt9.util;
 
 import androidx.annotation.NonNull;
@@ -11,23 +10,23 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import io.github.sspanak.tt9.ime.helpers.InputConnectionAsync;
-// NOTE (T9-i-FUTO-patch): ursprungligen "import io.github.sspanak.tt9.ime.modes.InputMode;"
-// InputMode.java togs bort ur denna portering eftersom den drar in TT9:s egen
-// UI-tray (ui/tray/SuggestionsBar.java, som i sin tur behöver TT9:s R-resurser).
-// Vi behövde bara dess CASE_*-konstanter, så de är inlinade som lokala konstanter
-// nedan istället. Om du senare porterar in InputMode.java på riktigt: ta bort
-// blocket nedan och återställ importen ovan.
-class InputMode {
-	public static final int CASE_UPPER = 0;
-	public static final int CASE_CAPITALIZE = 1;
-	public static final int CASE_LOWER = 2;
-	public static final int CASE_DICTIONARY = 3;
-}
 import io.github.sspanak.tt9.languages.Language;
 import io.github.sspanak.tt9.languages.LanguageKind;
 import io.github.sspanak.tt9.util.chars.Characters;
 
 public class Text extends TextTools {
+
+	// NOTE (T9-i-FUTO-patch): ursprungligen "import io.github.sspanak.tt9.ime.modes.InputMode;"
+	// InputMode.java togs bort ur denna portering eftersom den drar in TT9:s egen
+	// UI-tray (ui/tray/SuggestionsBar.java, som i sin tur behöver TT9:s R-resurser).
+	// Vi behövde bara dess CASE_*-konstanter, så de är inlinade som en statisk klass här.
+	private static class InputMode {
+		public static final int CASE_UPPER = 0;
+		public static final int CASE_CAPITALIZE = 1;
+		public static final int CASE_LOWER = 2;
+		public static final int CASE_DICTIONARY = 3;
+	}
+
 	private static final String ALPHANUMERIC_CLASS = "1-9\\p{L}\\p{M}\\u200D\\u200C";
 	private static final Pattern ALPHANUMERIC_AT_END = Pattern.compile("([" + ALPHANUMERIC_CLASS + "]+)$");
 	private static final Pattern ALPHANUMERIC_WITH_APOSTROPHES_AT_END = Pattern.compile("([" + ALPHANUMERIC_CLASS + "']+)$");
@@ -304,7 +303,7 @@ public class Text extends TextTools {
 		bi.setText(text);
 		final int end = bi.last();
 		return end - bi.preceding(end);
-}
+	}
 
 
 	/**
