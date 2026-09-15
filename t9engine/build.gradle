@@ -24,11 +24,17 @@ android {
 
     defaultConfig {
         minSdk 24
+        buildConfigField "boolean", "DEBUG", "true"
+        // TODO: koppla till samma versionCode-logik som rot-build.gradle använder
+        // (getVersionCode()) om du vill hålla dem synkade, annars räcker ett
+        // statiskt värde för egen bruk.
+        buildConfigField "int", "VERSION_CODE", "1"
+        buildConfigField "String", "DICTIONARY_EXTENSION", "\".dict\""
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     // BuildConfig.DEBUG / VERSION_CODE / DICTIONARY_EXTENSION används av den
@@ -36,15 +42,6 @@ android {
     // ger oss dessa utan att behöva patcha de filerna.
     buildFeatures {
         buildConfig true
-    }
-
-    defaultConfig {
-        buildConfigField "boolean", "DEBUG", "true"
-        // TODO: koppla till samma versionCode-logik som rot-build.gradle använder
-        // (getVersionCode()) om du vill hålla dem synkade, annars räcker ett
-        // statiskt värde för egen bruk.
-        buildConfigField "int", "VERSION_CODE", "1"
-        buildConfigField "String", "DICTIONARY_EXTENSION", "\".dict\""
     }
 }
 
