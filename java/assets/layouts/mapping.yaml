@@ -807,6 +807,7 @@ languages:
   sv:
     - qwerty
     - nordic
+    - t9
   sw:
     - qwerty
     - qwertz

@@ -18,6 +18,7 @@ import org.futo.inputmethod.engine.general.ActionInputTransactionIME
 import org.futo.inputmethod.engine.general.GeneralIME
 import org.futo.inputmethod.engine.general.ChineseIME
 import org.futo.inputmethod.engine.general.JapaneseIME
+import org.futo.inputmethod.engine.general.T9Engine
 import org.futo.inputmethod.latin.LatinIME
 import org.futo.inputmethod.latin.settings.Settings
 import org.futo.inputmethod.latin.settings.SettingsValues
@@ -48,7 +49,8 @@ private val ImesEverUsedWithDictionaryPersonalization = SettingsKey(
 enum class IMEKind(val factory: (IMEHelper) -> IMEInterface) {
     General({ GeneralIME(it) }),
     Chinese({ ChineseIME(it) }),
-    Japanese({ JapaneseIME(it) })
+    Japanese({ JapaneseIME(it) }),
+    T9({ T9Engine(it) })
 }
 
 class IMEManager(
@@ -61,12 +63,22 @@ class IMEManager(
 
     @Composable fun isImeLoading(): Boolean = activeIme?.getLoadingState()?.value == true
 
-    private fun getActiveIMEKind(settingsValues: SettingsValues): IMEKind =
-        when(settingsValues.mLocale.language) {
+    private fun getActiveIMEKind(settingsValues: SettingsValues): IMEKind {
+        val layoutName = try {
+            org.futo.inputmethod.latin.RichInputMethodManager.getInstance()
+                .currentSubtype?.keyboardLayoutSetName
+        } catch (e: Exception) {
+            null
+        }
+
+        if (layoutName == "t9") return IMEKind.T9
+
+        return when (settingsValues.mLocale.language) {
             "zh" -> IMEKind.Chinese
             "ja" -> IMEKind.Japanese
             else -> IMEKind.General
         }
+    }
 
     private fun onImeChanged(old: IMEInterface?, new: IMEInterface) {
         if(old != null && inInput) {

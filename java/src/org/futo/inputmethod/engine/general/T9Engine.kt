@@ -14,7 +14,7 @@ package org.futo.inputmethod.engine.general
  *   3. DataStore.init(context) måste anropas en gång (t.ex. i onCreate) med
  *      tillgång till TT9:s ordboks-SQLite-filer (kopiera dem till FUTO:s
  *      assets/filesDir vid första körning).
- *   4. Layouten (fysiska 0–9/*/#-knapparna) definieras separat som en
+ *   4. Layouten (fysiska 0-9, stjärna och fyrkant) definieras separat som en
  *      v2keyboard-YAML och är inte del av denna fil.
  *
  * Detta är ett arbetsutkast — service-livscykeln, trådning och felhantering
