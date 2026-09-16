@@ -1,0 +1,60 @@
+// t9engine/build.gradle
+//
+// Egen liten Android-library-modul för den porterade delen av TT9:s
+// (io.github.sspanak.tt9) SQLite-baserade ordboks-/prediktionsmotor.
+//
+// Varför en egen modul och inte bara källfiler direkt i FUTO:s app-modul?
+// Koden refererar "io.github.sspanak.tt9.R" för sina strängresurser. Om den
+// bara låg i FUTO:s app-modul (namespace org.futo.inputmethod.latin) skulle
+// R-klassen som genereras heta org.futo.inputmethod.latin.R och importerna
+// skulle inte resolva. Genom att göra detta till en egen modul med sitt eget
+// "namespace" genererar Android Gradle Plugin en riktig io.github.sspanak.tt9.R
+// — exakt vad koden redan förväntar sig, helt utan att ändra importerna.
+//
+// SDK-nivåer och Kotlin-version kopierade rakt av från rot-build.gradle så de
+// stämmer överens med resten av projektet.
+
+plugins {
+    // T9-i-FUTO-patch (byggfel-fix): explicit version, samma mönster som
+    // voiceinput-shared/build.gradle redan använder framgångsrikt. Att bara
+    // skriva "id 'com.android.library'" och förlita sig på att ärva
+    // versionen från root-build.gradles "apply false"-deklaration är
+    // skört och beroende av exakt evalueringsordning mellan moduler —
+    // gav felet "Plugin [id: 'com.android.library'] was not found".
+    id 'com.android.library' version '8.10.1'
+}
+
+android {
+    namespace 'io.github.sspanak.tt9'
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 24
+        buildConfigField "boolean", "DEBUG", "true"
+        // TODO: koppla till samma versionCode-logik som rot-build.gradle använder
+        // (getVersionCode()) om du vill hålla dem synkade, annars räcker ett
+        // statiskt värde för egen bruk.
+        buildConfigField "int", "VERSION_CODE", "1"
+        buildConfigField "String", "DICTIONARY_EXTENSION", "\".dict\""
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // BuildConfig.DEBUG / VERSION_CODE / DICTIONARY_EXTENSION används av den
+    // porterade koden (db/words/DictionaryLoader.java m.fl.). buildConfigField
+    // ger oss dessa utan att behöva patcha de filerna.
+    buildFeatures {
+        buildConfig true
+    }
+}
+
+dependencies {
+    implementation 'androidx.annotation:annotation:1.8.1'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.window:window:1.3.0'
+    implementation 'androidx.window:window-java:1.3.0'
+    implementation 'androidx.preference:preference:1.2.1'
+}
