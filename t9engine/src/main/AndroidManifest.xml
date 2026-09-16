@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Minimal manifest för t9engine-biblioteksmodulen. Inga permissions/
-    komponenter behövs här — den porterade koden är ren logik (SQLite,
-    filhantering) som körs inifrån FUTO:s egen IME-service (T9Engine.kt),
-    vars behörigheter redan täcker detta (lagring i appens egen datamapp).
--->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" />
