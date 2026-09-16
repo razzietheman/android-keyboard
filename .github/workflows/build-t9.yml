@@ -54,5 +54,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: .github/
+          path: /android-keyboard/tree/main
           if-no-files-found: error
