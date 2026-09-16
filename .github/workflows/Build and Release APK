@@ -3,11 +3,11 @@ name: Build and Release APK
 on:
   push:
     tags:
-      - 'v*' # Körs automatiskt när du skapar en tagg som startar på "v" (ex. v1.0.0)
-  workflow_dispatch: # Gör att du även kan starta bygget manuellt under Actions-fliken
+      - 'v*'
+  workflow_dispatch:
 
 permissions:
-  contents: write # Ger arbetsflödet rättighet att skapa releases och ladda upp filer
+  contents: write
 
 jobs:
   build-and-release:
@@ -38,26 +38,26 @@ jobs:
 
       - name: Locate APK
         run: |
-          mkdir -p .github/apk
+          mkdir -p /tmp/apk_out
           
-          APKS=$(find . -type f -name "*.apk" -not -path "./.github/*")
+          # Hämta alla skapade APK-filer oavsett undermapp (t.ex. android-keyboard/build/...)
+          find . -type f -name "*.apk" -exec cp {} /tmp/apk_out/ \;
           
-          if [ -z "$APKS" ]; then
+          if [ -z "$(ls -A /tmp/apk_out)" ]; then
             echo "ERROR: Ingen APK-fil hittades efter bygget!"
-            echo "Följande filer skapades under build/:"
-            find . -type f -path "*/build/*" | head -n 30
+            echo "Följande filer skapades i projektet:"
+            find . -type f -name "*.aar" -o -name "*.apk"
             exit 1
           fi
           
-          echo "$APKS" | xargs -I {} cp {} .github/apk/
           echo "Hittade och kopierade följande APK:"
-          ls -la .github/apk/*.apk
+          ls -la /tmp/apk_out/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: .github/apk/*.apk
-          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('draft-{0}', github.sha) }}
+          files: /tmp/apk_out/*.apk
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v1.0.0-{0}', github.sha) }}
           name: ${{ github.ref_type == 'tag' && github.ref_name || format('Build {0}', github.sha) }}
           draft: false
           prerelease: false
