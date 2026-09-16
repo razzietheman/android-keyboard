@@ -29,8 +29,13 @@ jobs:
           VERSION_NAME: "1.0.0"
         run: ./gradlew assembleDebug --stacktrace
 
+      - name: Copy APK to root repository path
+        run: |
+          mkdir -p .apk
+          find . -type f -name "*.apk" -not -path "./.apk/*" -exec cp {} .apk/ \;
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: "**/build/outputs/apk/**/*.apk"
+          path: .apk/*.apk
