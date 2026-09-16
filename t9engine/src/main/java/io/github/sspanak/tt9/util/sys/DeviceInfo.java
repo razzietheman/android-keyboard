@@ -23,7 +23,10 @@ public class DeviceInfo extends HardwareInfo {
 	public static final boolean AT_LEAST_ANDROID_13 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU;
 	public static final boolean AT_LEAST_ANDROID_14 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE;
 	public static final boolean AT_LEAST_ANDROID_15 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM;
-	public static final boolean AT_LEAST_ANDROID_16 = Build.VERSION.SDK_INT >= Build.VERSION_CODES.BAKLAVA;
+	// T9-i-FUTO-patch: Build.VERSION_CODES.BAKLAVA (Android 16, API 36) finns inte i
+	// SDK 35 som t9engine kompileras mot. 36 är det permanenta, stabila API-numret för
+	// den nivån oavsett kodnamn, så det är säkert att hårdkoda tills compileSdk höjs.
+	public static final boolean AT_LEAST_ANDROID_16 = Build.VERSION.SDK_INT >= 36;
 
 
 	/**

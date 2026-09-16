@@ -27,6 +27,6 @@ public class DictionaryLoadingBar {
 
 	public void showStart(int totalLanguages) {}
 	public void showProgress(Language language, long elapsedMs, int currentFile, int progressPercent) {}
-	public void showError(String errorType, Language language, int line) {}
+	public void showError(String errorType, Language language, long line) {}
 	public void showCancelled() {}
 }

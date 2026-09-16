@@ -1,11 +1,50 @@
 package io.github.sspanak.tt9.preferences.settings;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 
-public class SettingsStatic extends SettingsColors {
-	protected SettingsStatic(Context context) { super(context); }
+import androidx.annotation.NonNull;
+import androidx.preference.PreferenceManager;
 
-	/************* internal settings *************/
+import io.github.sspanak.tt9.languages.Language;
+
+import java.util.ArrayList;
+
+/**
+ * T9-i-FUTO-patch: kraftigt förenklad version av TT9:s riktiga SettingsStatic.java.
+ *
+ * Originalet ärver "extends SettingsColors", som via en lång kedja
+ * (SettingsColors -> SettingsHotkeys -> SettingsVirtualNumpad ->
+ * SettingsCustomKeyActions -> SettingsUI -> SettingsTyping ->
+ * SettingsMindReading -> SettingsKeyChars -> SettingsInput -> SettingsHacks
+ * -> SettingsAddedWords -> BaseSettings) drar in TT9:s HELA command-system
+ * (io.github.sspanak.tt9.commands.*, ~24 klasser för hotkey-bindningar) och
+ * dussintals Compose-baserade inställningsskärmar
+ * (preferences.screens.appearance/keypad/modePredictive/...). Att porta in
+ * allt det vore oproportionerligt mot vad T9Engine.kt faktiskt behöver.
+ *
+ * Den här filen håller därför sin egen Context/SharedPreferences (samma
+ * grundmönster som BaseSettings.java) och implementerar bara de metoder
+ * som T9-motorns kod (WordPredictions, NaturalLanguage, SystemSettings,
+ * CustomWordsImporter, DictionaryLoader) faktiskt anropar. Standardvärdena
+ * är rimliga gissningar, INTE nödvändigtvis identiska med TT9:s riktiga
+ * fabriksinställningar (de bor i XML-preference-resurser vi inte har).
+ *
+ * Om du vill ha exakt TT9-beteende (t.ex. riktig temabaserad tangentbords-
+ * bakgrundsfärg, eller UI för att konfigurera extra tecken per sifferknapp)
+ * är detta rätt fil att bygga ut, alternativt porta in de uteslutna
+ * klasserna på riktigt (och då även deras command-system/UI-beroenden).
+ */
+public class SettingsStatic {
+	protected final Context context;
+	protected final SharedPreferences prefs;
+
+	protected SettingsStatic(Context context) {
+		this.context = context;
+		this.prefs = PreferenceManager.getDefaultSharedPreferences(context);
+	}
+
+	/************* internal settings (kopierade oförändrade från originalet) *************/
 	public static final int AUTO_ASSISTANCE_BEFORE_TEXT = 50; // chars
 	public static final int AUTO_ASSISTANCE_AFTER_TEXT = 2; // chars
 	public static final int BACKSPACE_ACCELERATION_MAX_CHARS = 20; // maximum chars to be deleted at once in very long words
@@ -61,4 +100,52 @@ public class SettingsStatic extends SettingsColors {
 	/************* hacks *************/
 	public final static int PREFERENCES_CLICK_DEBOUNCE_TIME = 250; // ms
 	public final static int VOICE_INPUT_START_FAILURE_TIMEOUT = 5000; // ms
+
+	/************* T9-i-FUTO-patch: minimala ersättningar för de 8 metoderna
+	 * som saknades när Settings-arvskedjan klipptes av (se klasskommentaren) *************/
+
+	/** Extra tecken konfigurerade för en viss sifferknapp/språk. Ingen UI för detta är
+	 *  porterad, så det finns aldrig något sparat — tomt är ett korrekt "inget extra" svar. */
+	@NonNull public String getCharsExtra(@NonNull Language language, @NonNull String listKey) {
+		return "";
+	}
+
+	/** Extra ordnade tecken för en sifferknapp (används för teckenbaserad matchning utöver
+	 *  ordboken). Tom lista = ingen extra teckenordning konfigurerad, kärnprediktionen via
+	 *  siffersekvens-uppslag i DataStore påverkas inte av detta. */
+	@NonNull public ArrayList<String> getOrderedKeyChars(Language language, int number) {
+		return new ArrayList<>();
+	}
+
+	public boolean getPredictTopWords() {
+		return prefs.getBoolean("pref_predict_top_words", true);
+	}
+
+	public boolean getPredictWordPairs() {
+		return prefs.getBoolean("pref_predict_word_pairs", true);
+	}
+
+	/** Riktig TT9 räknar ut detta från den aktiva färgschemats ljusstyrka
+	 *  (colorScheme.getKeyboardBackground()) — det systemet är inte porterat,
+	 *  så detta är ett enkelt, statiskt fallback-värde. */
+	public boolean getDarkTheme() {
+		return false;
+	}
+
+	/** Se getDarkTheme() — används bara kosmetiskt (navigationsfältets färg). */
+	public int getKeyboardBackground() {
+		return 0;
+	}
+
+	public int getImportWordsMaxFileLines() {
+		return 10000;
+	}
+
+	public int getImportWordsMaxWords() {
+		return 50000;
+	}
+
+	public boolean getPredictiveMode() {
+		return prefs.getBoolean("pref_predictive_mode", true);
+	}
 }
