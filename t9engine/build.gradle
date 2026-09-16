@@ -17,7 +17,7 @@
 plugins {
     // Använder apply false utan explicit version för att ärva AGP-versionen (8.2.2) 
     // från rotprojektets classpath och undvika versionskonflikter.
-    id 'com.android.library' apply false
+    id 'com.android.library'
 }
 
 android {
