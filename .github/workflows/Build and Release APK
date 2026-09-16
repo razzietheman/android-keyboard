@@ -1,0 +1,65 @@
+name: Build and Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
+      - name: Build APK
+        env:
+          VERSION_CODE: 1
+          VERSION_NAME: "1.0.0"
+        run: ./gradlew assembleDebug --stacktrace
+
+      - name: Locate APK
+        run: |
+          mkdir -p /tmp/apk_out
+          
+          # Hämta alla skapade APK-filer oavsett undermapp (t.ex. android-keyboard/build/...)
+          find . -type f -name "*.apk" -exec cp {} /tmp/apk_out/ \;
+          
+          if [ -z "$(ls -A /tmp/apk_out)" ]; then
+            echo "ERROR: Ingen APK-fil hittades efter bygget!"
+            echo "Följande filer skapades i projektet:"
+            find . -type f -name "*.aar" -o -name "*.apk"
+            exit 1
+          fi
+          
+          echo "Hittade och kopierade följande APK:"
+          ls -la /tmp/apk_out/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: /tmp/apk_out/*.apk
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v1.0.0-{0}', github.sha) }}
+          name: ${{ github.ref_type == 'tag' && github.ref_name || format('Build {0}', github.sha) }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
