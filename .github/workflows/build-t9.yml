@@ -23,36 +23,19 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Make gradlew executable
-        run: chmod +x gradlew
-
       - name: Build APK
         env:
           VERSION_CODE: 1
           VERSION_NAME: "1.0.0"
         run: ./gradlew assembleDebug --stacktrace
 
-      - name: Copy APK to .github directory
+      - name: Copy APK to root repository path
         run: |
-          mkdir -p .github
-          
-          # Sök efter APK-filer
-          APKS=$(find . -type f -name "*.apk" -not -path "./.github/*")
-          
-          if [ -z "$APKS" ]; then
-            echo "ERROR: Ingen APK-fil hittades efter bygget!"
-            echo "Följande filer skapades under build/:"
-            find . -type f -path "*/build/*" | head -n 30
-            exit 1
-          fi
-          
-          echo "$APKS" | xargs -I {} cp {} .github/
-          echo "Kopierade följande APK:er till .github/:"
-          ls -la .github/*.apk
+          mkdir -p .apk
+          find . -type f -name "*.apk" -not -path "./.apk/*" -exec cp {} .apk/ \;
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: /android-keyboard/tree/main
-          if-no-files-found: error
+          path: .apk/*.apk
