@@ -15,13 +15,9 @@
 // stämmer överens med resten av projektet.
 
 plugins {
-    // T9-i-FUTO-patch (byggfel-fix): explicit version, samma mönster som
-    // voiceinput-shared/build.gradle redan använder framgångsrikt. Att bara
-    // skriva "id 'com.android.library'" och förlita sig på att ärva
-    // versionen från root-build.gradles "apply false"-deklaration är
-    // skört och beroende av exakt evalueringsordning mellan moduler —
-    // gav felet "Plugin [id: 'com.android.library'] was not found".
-    id 'com.android.library' version '8.10.1'
+    // Använder apply false utan explicit version för att ärva AGP-versionen (8.2.2) 
+    // från rotprojektets classpath och undvika versionskonflikter.
+    id 'com.android.library' apply false
 }
 
 android {
