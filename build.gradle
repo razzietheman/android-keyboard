@@ -1,35 +1,31 @@
-// t9engine/build.gradle
-//
-// Egen liten Android-library-modul för den porterade delen av TT9:s
-// (io.github.sspanak.tt9) SQLite-baserade ordboks-/prediktionsmotor.
-//
-// Varför en egen modul och inte bara källfiler direkt i FUTO:s app-modul?
-// Koden refererar "io.github.sspanak.tt9.R" för sina strängresurser. Om den
-// bara låg i FUTO:s app-modul (namespace org.futo.inputmethod.latin) skulle
-// R-klassen som genereras heta org.futo.inputmethod.latin.R och importerna
-// skulle inte resolva. Genom att göra detta till en egen modul med sitt eget
-// "namespace" genererar Android Gradle Plugin en riktig io.github.sspanak.tt9.R
-// — exakt vad koden redan förväntar sig, helt utan att ändra importerna.
-//
-// SDK-nivåer och Kotlin-version kopierade rakt av från rot-build.gradle så de
-// stämmer överens med resten av projektet.
-
 plugins {
-    id 'com.android.library'
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
 }
 
 android {
-    namespace 'io.github.sspanak.tt9'
+    namespace 'org.futo.inputmethod.latin'
     compileSdk 35
 
     defaultConfig {
+        applicationId 'org.futo.inputmethod.latin'
         minSdk 24
-        buildConfigField "boolean", "DEBUG", "true"
-        // TODO: koppla till samma versionCode-logik som rot-build.gradle använder
-        // (getVersionCode()) om du vill hålla dem synkade, annars räcker ett
-        // statiskt värde för egen bruk.
-        buildConfigField "int", "VERSION_CODE", "1"
-        buildConfigField "String", "DICTIONARY_EXTENSION", "\".dict\""
+        targetSdk 35
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+        }
     }
 
     compileOptions {
@@ -37,17 +33,29 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-    // BuildConfig.DEBUG / VERSION_CODE / DICTIONARY_EXTENSION används av den
-    // porterade koden (db/words/DictionaryLoader.java m.fl.). buildConfigField
-    // ger oss dessa utan att behöva patcha de filerna.
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
     buildFeatures {
         buildConfig true
+        viewBinding true
     }
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.8.1'
+    // Kopplar in t9engine-modulen som bibliotek
+    implementation project(':t9engine')
+
+    // Grundläggande Android-beroenden för FUTO Keyboard
     implementation 'androidx.core:core-ktx:1.13.1'
-    implementation 'androidx.window:window:1.3.0'
-    implementation 'androidx.window:window-java:1.3.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.preference:preference-ktx:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Tester
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
