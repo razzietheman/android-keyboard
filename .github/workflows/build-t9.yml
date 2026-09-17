@@ -18,12 +18,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: recursive
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
+
+      - name: Setup Android NDK
+        uses: nsetup/setup-ndk@v1
+        with:
+          ndk-version: r25b
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
