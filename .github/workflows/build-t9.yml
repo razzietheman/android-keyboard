@@ -27,7 +27,12 @@ jobs:
         env:
           VERSION_CODE: 1
           VERSION_NAME: "1.0.0"
-        run: ./gradlew assembleDebug --stacktrace
+        # T9-i-FUTO-patch (byggfel-fix): FUTO har produkt-flavors
+        # (unstable/stable/playstore). "assembleDebug" är bara en tom
+        # paraply-uppgift som INTE bygger någon av de faktiska
+        # APK-producerande varianterna. "unstable" är FUTO:s egen
+        # standardflavor (getIsDefault().set(true) i build.gradle).
+        run: ./gradlew assembleUnstableDebug --stacktrace
 
       - name: Copy APK to root repository path
         run: |
