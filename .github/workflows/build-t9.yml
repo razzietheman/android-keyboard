@@ -23,24 +23,16 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Build APK
-        env:
-          VERSION_CODE: 1
-          VERSION_NAME: "1.0.0"
-        # T9-i-FUTO-patch (byggfel-fix): FUTO har produkt-flavors
-        # (unstable/stable/playstore). "assembleDebug" är bara en tom
-        # paraply-uppgift som INTE bygger någon av de faktiska
-        # APK-producerande varianterna. "unstable" är FUTO:s egen
-        # standardflavor (getIsDefault().set(true) i build.gradle).
-        run: ./gradlew assembleUnstableDebug --stacktrace
-
-      - name: Copy APK to root repository path
+      - name: DIAGNOSTIK — lista alla faktiska Gradle-uppgifter
         run: |
-          mkdir -p .apk
-          find . -type f -name "*.apk" -not -path "./.apk/*" -exec cp {} .apk/ \;
+          ./gradlew tasks --all > all-tasks.txt 2>&1 || true
+          echo "===== assemble/package-relaterade uppgifter ====="
+          grep -i "assemble\|package" all-tasks.txt || echo "(inga träffar alls!)"
+          echo "===== projektlista ====="
+          ./gradlew projects || true
 
-      - name: Upload APK
+      - name: Ladda upp diagnostik-fil
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug
-          path: .apk/*.apk
+          name: gradle-task-diagnostics
+          path: all-tasks.txt
