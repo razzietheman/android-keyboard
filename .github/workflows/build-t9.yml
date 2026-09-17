@@ -1,12 +1,17 @@
-name: Build APK
+name: Build and Release APK
 
 on:
   push:
     branches: [ main, master ]
+    tags:
+      - 'v*'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  build-and-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -23,30 +28,35 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: DIAGNOSTIK — visa build.gradles faktiska plugin-block
-        run: |
-          echo "===== rot-build.gradle: plugins{}-block ====="
-          sed -n '/^plugins {/,/^}/p' build.gradle
-          echo "===== rot-build.gradle: android{}-blockets f\u00f6rsta 20 rader ====="
-          sed -n '/^android {/,+20p' build.gradle
-          echo "===== finns applicationId? ====="
-          grep -n "applicationId" build.gradle || echo "INGEN TR\u00c4FF"
-          echo "===== t9engine/build.gradle plugins{} ====="
-          sed -n '/^plugins {/,/^}/p' t9engine/build.gradle
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
-      - name: DIAGNOSTIK — lista alla faktiska Gradle-uppgifter
-        run: |
-          ./gradlew tasks --all > all-tasks.txt 2>&1 || true
-          echo "===== assemble/package-relaterade uppgifter ====="
-          grep -i "assemble\|package" all-tasks.txt || echo "(inga tr\u00e4ffar alls!)"
-          echo "===== projektlista ====="
-          ./gradlew projects > projects.txt 2>&1 || true
-          cat projects.txt
+      - name: Build Release APK
+        env:
+          VERSION_CODE: 1
+          VERSION_NAME: "1.0.0"
+        run: ./gradlew assembleRelease --stacktrace
 
-      - name: Ladda upp diagnostik-fil
-        uses: actions/upload-artifact@v4
+      - name: Locate APK
+        run: |
+          mkdir -p /tmp/apk_out
+          find . -type f -name "*.apk" -exec cp {} /tmp/apk_out/ \;
+          
+          if [ -z "$(ls -A /tmp/apk_out)" ]; then
+            echo "ERROR: Ingen APK-fil hittades efter bygget!"
+            exit 1
+          fi
+          
+          echo "Hittade följande APK:"
+          ls -la /tmp/apk_out/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: gradle-task-diagnostics
-          path: |
-            all-tasks.txt
-            projects.txt
+          files: /tmp/apk_out/*.apk
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v1.0.0-{0}', github.sha) }}
+          name: ${{ github.ref_type == 'tag' && github.ref_name || format('Release {0}', github.sha) }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
