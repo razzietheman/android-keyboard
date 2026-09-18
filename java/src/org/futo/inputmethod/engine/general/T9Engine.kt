@@ -153,13 +153,14 @@ class T9Engine(
         newSelStart: Int, newSelEnd: Int,
         composingSpanStart: Int, composingSpanEnd: Int
     ) {
-        // Om markören flyttas utanför vår komposition (t.ex. användaren
-        // trycker någon annanstans i texten) bör den öppna sifferbufferten
-        // committas/nollställas. Enklast: nollställ alltid här.
-        if (digitSequence.isNotEmpty()) {
-            digitSequence = ""
-            setNeutralSuggestionStrip()
-        }
+        // T9-i-FUTO-patch (buggfix): den tidigare implementationen nollställde
+        // digitSequence på VARJE anrop av denna callback — men den triggas i
+        // praktiken efter så gott som varje knapptryckning (inte bara vid
+        // faktiska externa markörflyttar), vilket gjorde att en flersiffrig
+        // sekvens aldrig hann byggas upp: varje ny siffra behandlades som en
+        // ny, isolerad ensiffrig sekvens. Detta är avstängt tills vidare —
+        // digitSequence nollställs redan korrekt i commitWord() och vid
+        // mellanslag/annan-knapp i handleKeypress(), vilket räcker.
     }
 
     override fun isGestureHandlingAvailable(): Boolean = false
