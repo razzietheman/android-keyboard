@@ -56,6 +56,17 @@ class T9Engine(
     // Bufferten med siffror användaren tryckt för aktuellt (ännu inte bekräftade) ord
     private var digitSequence: String = ""
 
+    // T9-i-FUTO-patch: multi-tap-läge (klassiskt "tryck flera gånger på samma
+    // knapp för att välja bokstav", som på gamla knapptelefoner) — ett separat
+    // inmatningsläge vid sidan av det prediktiva ordboksläget ovan. Växlas med
+    // '#', som tidigare inte gjorde något (och därför föll igenom till att
+    // skriva ut ett bokstavligt "#" — se "else"-grenen i handleKeypress).
+    private var multiTapMode = false
+    private var lastMultiTapDigit = -1
+    private var multiTapCycleIndex = 0
+    private var lastMultiTapTimeMs = 0L
+    private val MULTI_TAP_TIMEOUT_MS = 1200L
+
     // Förenklad version av TT9:s InputMode.CASE_* cykel (se ime/modes/InputMode.java).
     // TT9:s egen variant har även CASE_DICTIONARY och auto-detektion via AutoTextCase.java
     // (versalisera efter punkt, tomt fält, etc.) — utelämnat här för enkelhetens skull,
@@ -194,7 +205,10 @@ class T9Engine(
 
         when {
             event.mKeyCode == Constants.CODE_DELETE -> {
-                if (digitSequence.isNotEmpty()) {
+                if (multiTapMode) {
+                    lastMultiTapDigit = -1
+                    connect?.deleteSurroundingText(1, 0)
+                } else if (digitSequence.isNotEmpty()) {
                     // Ta bort sista siffran och kör om prediktionen
                     digitSequence = digitSequence.dropLast(1)
                     reloadPredictions(language)
@@ -205,14 +219,35 @@ class T9Engine(
             }
 
             event.mCodePoint in '0'.code..'9'.code -> {
-                digitSequence += (event.mCodePoint - '0'.code).toString()
-                reloadPredictions(language)
+                if (multiTapMode) {
+                    handleMultiTapDigit(event.mCodePoint - '0'.code, language)
+                } else {
+                    digitSequence += (event.mCodePoint - '0'.code).toString()
+                    reloadPredictions(language)
+                }
             }
 
             event.mCodePoint == '*'.code -> cycleTextCase()
 
+            event.mCodePoint == '#'.code -> {
+                // T9-i-FUTO-patch: växlar mellan prediktivt läge och multi-tap.
+                // Avslutar ev. pågående ord/tecken-cykel innan läget byts.
+                if (multiTapMode) {
+                    lastMultiTapDigit = -1
+                } else {
+                    commitPendingSequenceIfAny(addTrailingSpace = false)
+                }
+                multiTapMode = !multiTapMode
+                setNeutralSuggestionStrip()
+            }
+
             event.mCodePoint == ' '.code || event.mKeyCode == Constants.CODE_SPACE -> {
-                commitPendingSequenceIfAny(addTrailingSpace = true)
+                if (multiTapMode) {
+                    lastMultiTapDigit = -1
+                    connect?.commitText(" ", 1)
+                } else {
+                    commitPendingSequenceIfAny(addTrailingSpace = true)
+                }
             }
 
             else -> {
@@ -222,6 +257,47 @@ class T9Engine(
                 connect?.commitText(String(Character.toChars(event.mCodePoint)), 1)
             }
         }
+    }
+
+    /**
+     * Klassisk multi-tap: tryck samma sifferknapp flera gånger i rad (inom
+     * MULTI_TAP_TIMEOUT_MS) för att cykla genom bokstäverna på den knappen
+     * (t.ex. 2,2,2 → a → b → c på en knapptelefon). Ett tryck på en ANNAN
+     * knapp, eller samma knapp efter timeout, avslutar cykeln och börjar en
+     * ny — precis som på riktiga knapptelefoner.
+     *
+     * Bokstäverna kommer från TT9:s språkdefinition (Language.getKeyCharacters),
+     * samma data som används för att bygga siffersekvens-uppslaget i det
+     * prediktiva läget — så samma tangent-till-bokstav-mappning gäller i
+     * båda lägena.
+     */
+    private fun handleMultiTapDigit(digit: Int, language: Language) {
+        val letters = language.getKeyCharacters(digit)
+        if (letters.isEmpty()) {
+            // Ingen bokstavsmappning för den här knappen (t.ex. 0/1 är
+            // SPECIAL/PUNCTUATION i TT9:s layoutdefinitioner) — skriv siffran rakt av.
+            lastMultiTapDigit = -1
+            connect?.commitText(digit.toString(), 1)
+            return
+        }
+
+        val now = System.currentTimeMillis()
+        val isContinuingCycle = digit == lastMultiTapDigit &&
+            (now - lastMultiTapTimeMs) < MULTI_TAP_TIMEOUT_MS
+
+        if (isContinuingCycle) {
+            // Samma knapp igen inom tidsgränsen — ta bort föregående bokstav
+            // och ersätt med nästa i cykeln.
+            multiTapCycleIndex = (multiTapCycleIndex + 1) % letters.size
+            connect?.deleteSurroundingText(1, 0)
+        } else {
+            // Ny knapp, eller timeout — börja en ny cykel på denna knapp.
+            multiTapCycleIndex = 0
+        }
+
+        connect?.commitText(applyTextCase(letters[multiTapCycleIndex]), 1)
+        lastMultiTapDigit = digit
+        lastMultiTapTimeMs = now
     }
 
     private fun reloadPredictions(language: Language) {
