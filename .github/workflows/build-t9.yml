@@ -26,10 +26,16 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      # T9-i-FUTO-patch (byggfel-fix): build.gradle deklarerar
+      # ndkVersion '28.2.13676358'. Tidigare installerades 25.2.9519653
+      # här, vilket inte matchar — AGP kräver EXAKT den deklarerade
+      # versionen, så en mismatch gör att den ändå försöker
+      # auto-ladda-ner rätt version (eller failar, beroende på miljö).
+      # Installera rätt version direkt istället.
       - name: Install Android NDK
         run: |
-          echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --install "ndk;25.2.9519653"
-          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/25.2.9519653" >> $GITHUB_ENV
+          echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --install "ndk;28.2.13676358"
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/28.2.13676358" >> $GITHUB_ENV
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
@@ -37,22 +43,27 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
+      # T9-i-FUTO-patch (byggfel-fix): FUTO har produkt-flavors
+      # (unstable/stable/playstore). Bara "assembleRelease" är en tom
+      # paraply-uppgift som inte bygger något av de faktiska
+      # APK-producerande varianterna. "unstable" är FUTO:s egen
+      # standardflavor (getIsDefault().set(true) i build.gradle).
       - name: Build Release APK
         env:
           VERSION_CODE: 1
           VERSION_NAME: "1.0.0"
-        run: ./gradlew assembleRelease --stacktrace
+        run: ./gradlew assembleUnstableRelease --stacktrace
 
       - name: Locate APK
         run: |
           mkdir -p /tmp/apk_out
           find . -type f -name "*.apk" -exec cp {} /tmp/apk_out/ \;
-          
+
           if [ -z "$(ls -A /tmp/apk_out)" ]; then
             echo "ERROR: Ingen APK-fil hittades efter bygget!"
             exit 1
           fi
-          
+
           echo "Hittade följande APK:"
           ls -la /tmp/apk_out/
 
