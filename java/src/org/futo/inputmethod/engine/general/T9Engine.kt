@@ -4,22 +4,27 @@ package org.futo.inputmethod.engine.general
  * T9Engine — kopplar samman TT9:s (io.github.sspanak.tt9) SQLite-baserade
  * ordboks-/prediktionslager med FUTO:s IMEInterface.
  *
- * FÖRUTSÄTTNINGAR / TODO innan detta kompilerar:
- *   1. Kopiera in TT9:s paket io.github.sspanak.tt9.db.* och
- *      io.github.sspanak.tt9.ime.modes.predictions.* (Predictions,
- *      WordPredictions, Sequences) som ett eget källträd eller Gradle-modul.
- *   2. TT9:s SettingsStore/Language/NullLanguage-klasser refereras av
- *      Predictions/DataStore. Antingen porta dem rakt av (de är fristående
- *      Java utan View-beroenden), eller skriv tunna egna motsvarigheter.
- *   3. DataStore.init(context) måste anropas en gång (t.ex. i onCreate) med
- *      tillgång till TT9:s ordboks-SQLite-filer (kopiera dem till FUTO:s
- *      assets/filesDir vid första körning).
- *   4. Layouten (fysiska 0-9, stjärna och fyrkant) definieras separat som en
- *      v2keyboard-YAML och är inte del av denna fil.
+ * OMDESIGNAD (2026-09): multi-tap är nu DEFAULT-beteendet för varje
+ * sifferknapp — ingen separat "läges-knapp" behövs. Varje knapptryckning:
+ *   1. Sätter/cyklar direkt in en bokstav i texten (multi-tap: samma knapp
+ *      igen inom kort tid = nästa bokstav på den knappen, t.ex. 4,4,3,3,5
+ *      ger "hej": 4-4→h, 3-3→e, 5→j).
+ *   2. Bygger SAMTIDIGT upp en siffersekvens som skickas till TT9:s
+ *      prediktionsmotor, vars ordförslag visas i förslagsraden som
+ *      ALTERNATIV till vad multi-tap redan skrivit. Trycker man på ett
+ *      förslag ersätts de redan inskrivna bokstäverna med det valda ordet.
  *
- * Detta är ett arbetsutkast — service-livscykeln, trådning och felhantering
- * behöver härdas innan produktion, men strukturen och FUTO-kopplingarna
- * (IMEHelper, Event, SuggestedWordInfo) är verifierade mot faktisk källkod.
+ * '*' och '#' är egna, vanliga tecken (inga lägesväxlare):
+ *   - Långtryck '*' öppnar FUTO:s emoji-panel (helper.triggerAction, se
+ *     Registry.kt — EmojiAction ligger på index 0 i AllActionsMap).
+ *   - Långtryck '#' visar en liten meny med vanliga specialtecken
+ *     (definierat i layoutfilen t9.yaml, inte i denna fil) — FUTO har
+ *     ingen enkel, programmatiskt trigger-bar "öppna hela teckenpanelen"-
+ *     krok utan att byta hela tangentbordslayouten, vilket är
+ *     arkitektoniskt oprövat ihop med hur T9-interceptionen fungerar.
+ *
+ * Strukturen och FUTO-kopplingarna (IMEHelper, Event, SuggestedWordInfo,
+ * triggerAction) är verifierade mot faktisk källkod.
  */
 
 import androidx.compose.runtime.MutableState
@@ -30,10 +35,8 @@ import io.github.sspanak.tt9.languages.Language
 import io.github.sspanak.tt9.languages.LanguageCollection
 import io.github.sspanak.tt9.preferences.settings.SettingsStore
 import org.futo.inputmethod.engine.DefaultStateHint
-import org.futo.inputmethod.engine.ExpandableSuggestionBarConfiguration
 import org.futo.inputmethod.engine.IMEHelper
 import org.futo.inputmethod.engine.IMEInterface
-import org.futo.inputmethod.engine.NonExpandableSuggestionBar
 import org.futo.inputmethod.engine.StateHint
 import org.futo.inputmethod.event.Event
 import org.futo.inputmethod.latin.SuggestedWords
@@ -53,44 +56,24 @@ class T9Engine(
     private lateinit var settingsStore: SettingsStore
     private var currentLanguage: Language? = null
 
-    // Bufferten med siffror användaren tryckt för aktuellt (ännu inte bekräftade) ord
-    private var digitSequence: String = ""
+    // En siffra per BOKSTAVSPOSITION i det pågående ordet (inte en per
+    // knapptryckning — cyklande tryck på samma knapp lägger INTE till en ny
+    // post, de byter bara ut bokstaven på den redan existerande positionen).
+    // Används både för TT9:s prediktiva uppslag (joinToString) och för att
+    // veta hur många tecken som ska tas bort om ett förslag väljs istället.
+    private val wordDigits = mutableListOf<Int>()
+    private val digitSequence get() = wordDigits.joinToString("")
 
-    // T9-i-FUTO-patch: multi-tap-läge (klassiskt "tryck flera gånger på samma
-    // knapp för att välja bokstav", som på gamla knapptelefoner) — ett separat
-    // inmatningsläge vid sidan av det prediktiva ordboksläget ovan. Växlas med
-    // '#', som tidigare inte gjorde något (och därför föll igenom till att
-    // skriva ut ett bokstavligt "#" — se "else"-grenen i handleKeypress).
-    private var multiTapMode = false
+    // Multi-tap-cykling
     private var lastMultiTapDigit = -1
     private var multiTapCycleIndex = 0
     private var lastMultiTapTimeMs = 0L
     private val MULTI_TAP_TIMEOUT_MS = 1200L
 
-    // Förenklad version av TT9:s InputMode.CASE_* cykel (se ime/modes/InputMode.java).
-    // TT9:s egen variant har även CASE_DICTIONARY och auto-detektion via AutoTextCase.java
-    // (versalisera efter punkt, tomt fält, etc.) — utelämnat här för enkelhetens skull,
-    // men portar man vidare fidelity är AutoTextCase.java rätt fil att titta på.
-    private enum class TextCase { LOWER, CAPITALIZE, UPPER }
-    private var textCase: TextCase = TextCase.LOWER
-
-    private fun applyTextCase(word: String): String = when (textCase) {
-        TextCase.LOWER -> word.lowercase(java.util.Locale.getDefault())
-        TextCase.CAPITALIZE -> word.replaceFirstChar { it.titlecase(java.util.Locale.getDefault()) }
-        TextCase.UPPER -> word.uppercase(java.util.Locale.getDefault())
-    }
-
-    /** TT9-konvention: '*' växlar lower → Capitalize → UPPER → lower ... */
-    private fun cycleTextCase() {
-        textCase = when (textCase) {
-            TextCase.LOWER -> TextCase.CAPITALIZE
-            TextCase.CAPITALIZE -> TextCase.UPPER
-            TextCase.UPPER -> TextCase.LOWER
-        }
-        // Uppdatera förslagsraden direkt så användaren ser den nya skiftlägesformen
-        // utan att behöva trycka en sifferknapp igen.
-        onPredictionsChanged()
-    }
+    // T9-i-FUTO-patch: EmojiAction ligger på index 0 i AllActionsMap
+    // (Registry.kt — "Note: indices must stay stable"). Verifiera mot
+    // Registry.kt igen om FUTO:s actionlista någonsin ändras.
+    private val EMOJI_ACTION_ID = 0
 
     private val loadingState: MutableState<Boolean> = mutableStateOf(false)
     override fun getLoadingState(): MutableState<Boolean> = loadingState
@@ -109,9 +92,9 @@ class T9Engine(
     }
 
     /**
-     * Slår upp TT9:s Language-objekt utifrån FUTO:s aktiva subtyp/locale, motsvarande
-     * mönstret i HeliBoard-integrationens T9InputHandler.kt. Körs lazy (inte i onCreate)
-     * eftersom RichInputMethodManager kan sakna en aktiv subtyp vid tidig livscykel.
+     * Slår upp TT9:s Language-objekt utifrån FUTO:s aktiva subtyp/locale.
+     * Körs lazy (inte i onCreate) eftersom RichInputMethodManager kan sakna
+     * en aktiv subtyp vid tidig livscykel.
      */
     private fun resolveLanguage(): Language? {
         val locale = try {
@@ -125,9 +108,13 @@ class T9Engine(
             ?: LanguageCollection.getByLanguageCode(locale.language)
     }
 
-    // Språk-ID:n vi redan trigga en ordboks-koll för denna process — DictionaryLoader.load()
+    // Språk-ID:n vi redan triggat en ordboks-koll för denna process — DictionaryLoader.load()
     // raderar och laddar om ordboken varje gång den anropas, så det här måste bara hända en
-    // gång per språk, inte vid varje knapptryckning. Samma resonemang som i HeliBoard-versionen.
+    // gång per språk, inte vid varje knapptryckning.
+    //
+    // OBS: multi-tap-bokstäverna beror INTE på den nedladdade ordboken (de kommer från
+    // språkDEFINITIONEN, redan bundlad som asset) — bara de PREDIKTIVA ordförslagen gör det.
+    // Multi-tap fungerar alltså direkt även om nedladdningen inte hunnit klart.
     private val checkedLanguageIds = mutableSetOf<Int>()
 
     private fun ensureDictionaryLoaded(language: Language) {
@@ -141,19 +128,21 @@ class T9Engine(
     }
 
     override fun onDestroy() {
-        digitSequence = ""
+        wordDigits.clear()
     }
 
     override fun onDeviceUnlocked() {}
 
     override fun onStartInput() {
-        digitSequence = ""
+        wordDigits.clear()
+        lastMultiTapDigit = -1
         setNeutralSuggestionStrip()
     }
 
     override fun onFinishInput() {
-        commitPendingSequenceIfAny(addTrailingSpace = false)
-        digitSequence = ""
+        // Bokstäverna är redan skrivna via multi-tap — bara nollställ tillståndet,
+        // inget att committa/ta bort.
+        finalizeWord()
     }
 
     override fun onLayoutUpdated(layout: KeyboardLayoutSetV2) {}
@@ -164,14 +153,9 @@ class T9Engine(
         newSelStart: Int, newSelEnd: Int,
         composingSpanStart: Int, composingSpanEnd: Int
     ) {
-        // T9-i-FUTO-patch (buggfix): den tidigare implementationen nollställde
-        // digitSequence på VARJE anrop av denna callback — men den triggas i
-        // praktiken efter så gott som varje knapptryckning (inte bara vid
-        // faktiska externa markörflyttar), vilket gjorde att en flersiffrig
-        // sekvens aldrig hann byggas upp: varje ny siffra behandlades som en
-        // ny, isolerad ensiffrig sekvens. Detta är avstängt tills vidare —
-        // digitSequence nollställs redan korrekt i commitWord() och vid
-        // mellanslag/annan-knapp i handleKeypress(), vilket räcker.
+        // Medvetet tom — se tidigare buggfix-kommentar i historiken: att
+        // nollställa tillstånd här bröt flersiffriga sekvenser eftersom
+        // callbacken triggas efter i princip varje knapptryckning.
     }
 
     override fun isGestureHandlingAvailable(): Boolean = false
@@ -186,8 +170,11 @@ class T9Engine(
             Event.EVENT_TYPE_INPUT_KEYPRESS,
             Event.EVENT_TYPE_INPUT_KEYPRESS_RESUMED -> handleKeypress(event)
 
+            // Användaren tryckte på ett PREDIKTIVT förslag i förslagsraden —
+            // ersätt de redan multi-tap-skrivna bokstäverna i aktuellt ord
+            // med det valda ordet istället.
             Event.EVENT_TYPE_SUGGESTION_PICKED -> {
-                event.mSuggestedWordInfo?.let { commitWord(it.word) }
+                event.mSuggestedWordInfo?.let { replaceCurrentWordWith(it.word) }
             }
 
             Event.EVENT_TYPE_DOWN_UP_KEYEVENT -> {
@@ -205,78 +192,66 @@ class T9Engine(
 
         when {
             event.mKeyCode == Constants.CODE_DELETE -> {
-                if (multiTapMode) {
-                    lastMultiTapDigit = -1
+                if (wordDigits.isNotEmpty()) {
                     connect?.deleteSurroundingText(1, 0)
-                } else if (digitSequence.isNotEmpty()) {
-                    // Ta bort sista siffran och kör om prediktionen
-                    digitSequence = digitSequence.dropLast(1)
+                    wordDigits.removeAt(wordDigits.size - 1)
+                    lastMultiTapDigit = -1   // nästa tryck på samma knapp ska börja en ny cykel
                     reloadPredictions(language)
                 } else {
-                    // Ingen aktiv komposition — vanlig backsteg i texten
                     connect?.deleteSurroundingText(1, 0)
                 }
             }
 
             event.mCodePoint in '0'.code..'9'.code -> {
-                if (multiTapMode) {
-                    handleMultiTapDigit(event.mCodePoint - '0'.code, language)
-                } else {
-                    digitSequence += (event.mCodePoint - '0'.code).toString()
-                    reloadPredictions(language)
-                }
+                handleMultiTapDigit(event.mCodePoint - '0'.code, language)
             }
 
-            event.mCodePoint == '*'.code -> cycleTextCase()
+            event.mCodePoint == '*'.code -> {
+                finalizeWord()
+                connect?.commitText("*", 1)
+            }
 
             event.mCodePoint == '#'.code -> {
-                // T9-i-FUTO-patch: växlar mellan prediktivt läge och multi-tap.
-                // Avslutar ev. pågående ord/tecken-cykel innan läget byts.
-                if (multiTapMode) {
-                    lastMultiTapDigit = -1
-                } else {
-                    commitPendingSequenceIfAny(addTrailingSpace = false)
-                }
-                multiTapMode = !multiTapMode
-                setNeutralSuggestionStrip()
+                finalizeWord()
+                connect?.commitText("#", 1)
             }
 
             event.mCodePoint == ' '.code || event.mKeyCode == Constants.CODE_SPACE -> {
-                if (multiTapMode) {
-                    lastMultiTapDigit = -1
-                    connect?.commitText(" ", 1)
-                } else {
-                    commitPendingSequenceIfAny(addTrailingSpace = true)
-                }
+                finalizeWord()
+                connect?.commitText(" ", 1)
+            }
+
+            // T9-i-FUTO-patch: trigger-kod för "öppna emoji-panelen", skickad
+            // från en moreKeys-post i t9.yaml (långtryck på '*'). Se
+            // klasskommentaren högst upp för var EMOJI_ACTION_ID kommer ifrån.
+            event.mKeyCode == Constants.CODE_EMOJI -> {
+                finalizeWord()
+                helper.triggerAction(EMOJI_ACTION_ID, false)
             }
 
             else -> {
-                // Okänd knapp i T9-läge — committa ev. pågående ord först,
-                // skriv sedan ut tecknet rakt av.
-                commitPendingSequenceIfAny(addTrailingSpace = false)
+                // Okänd knapp i T9-läge — avsluta ev. pågående ord, skriv
+                // sedan ut tecknet rakt av (t.ex. tecken från '#'-menyn).
+                finalizeWord()
                 connect?.commitText(String(Character.toChars(event.mCodePoint)), 1)
             }
         }
     }
 
     /**
-     * Klassisk multi-tap: tryck samma sifferknapp flera gånger i rad (inom
-     * MULTI_TAP_TIMEOUT_MS) för att cykla genom bokstäverna på den knappen
-     * (t.ex. 2,2,2 → a → b → c på en knapptelefon). Ett tryck på en ANNAN
-     * knapp, eller samma knapp efter timeout, avslutar cykeln och börjar en
-     * ny — precis som på riktiga knapptelefoner.
-     *
-     * Bokstäverna kommer från TT9:s språkdefinition (Language.getKeyCharacters),
-     * samma data som används för att bygga siffersekvens-uppslaget i det
-     * prediktiva läget — så samma tangent-till-bokstav-mappning gäller i
-     * båda lägena.
+     * Multi-tap + parallell prediktion. Samma sifferknapp igen inom
+     * MULTI_TAP_TIMEOUT_MS cyklar till nästa bokstav på den knappen och
+     * ERSÄTTER föregående (samma position i ordet). En ny knapp, eller
+     * samma knapp efter timeout, låser föregående bokstav och börjar en
+     * ny position.
      */
     private fun handleMultiTapDigit(digit: Int, language: Language) {
         val letters = language.getKeyCharacters(digit)
         if (letters.isEmpty()) {
-            // Ingen bokstavsmappning för den här knappen (t.ex. 0/1 är
-            // SPECIAL/PUNCTUATION i TT9:s layoutdefinitioner) — skriv siffran rakt av.
-            lastMultiTapDigit = -1
+            // Ingen bokstavsmappning för den här knappen (0/1 är
+            // SPECIAL/PUNCTUATION i TT9:s layoutdefinitioner) — avsluta
+            // ev. pågående ord och skriv siffran rakt av.
+            finalizeWord()
             connect?.commitText(digit.toString(), 1)
             return
         }
@@ -286,22 +261,25 @@ class T9Engine(
             (now - lastMultiTapTimeMs) < MULTI_TAP_TIMEOUT_MS
 
         if (isContinuingCycle) {
-            // Samma knapp igen inom tidsgränsen — ta bort föregående bokstav
-            // och ersätt med nästa i cykeln.
             multiTapCycleIndex = (multiTapCycleIndex + 1) % letters.size
             connect?.deleteSurroundingText(1, 0)
+            // Samma position i ordet — wordDigits ändras inte.
         } else {
-            // Ny knapp, eller timeout — börja en ny cykel på denna knapp.
             multiTapCycleIndex = 0
+            wordDigits.add(digit)
         }
 
-        connect?.commitText(applyTextCase(letters[multiTapCycleIndex]), 1)
+        connect?.commitText(letters[multiTapCycleIndex], 1)
         lastMultiTapDigit = digit
         lastMultiTapTimeMs = now
+
+        // Kör parallellt de prediktiva förslagen för hela ordet hittills,
+        // så de finns som alternativ i förslagsraden.
+        reloadPredictions(language)
     }
 
     private fun reloadPredictions(language: Language) {
-        if (digitSequence.isEmpty()) {
+        if (wordDigits.isEmpty()) {
             setNeutralSuggestionStrip()
             return
         }
@@ -320,8 +298,7 @@ class T9Engine(
         }
 
         val infoList = ArrayList<SuggestedWordInfo>(words.size)
-        words.forEachIndexed { index, rawWord ->
-            val word = applyTextCase(rawWord)
+        words.forEachIndexed { index, word ->
             infoList.add(
                 SuggestedWordInfo(
                     word,
@@ -340,25 +317,27 @@ class T9Engine(
         )
     }
 
-    private fun commitWord(word: String) {
+    /**
+     * Användaren valde ett PREDIKTIVT förslag istället för det multi-tap
+     * redan skrivit. Ta bort de redan inskrivna bokstäverna (en per post i
+     * wordDigits) och skriv in det valda ordet istället.
+     */
+    private fun replaceCurrentWordWith(word: String) {
+        if (wordDigits.isNotEmpty()) {
+            connect?.deleteSurroundingText(wordDigits.size, 0)
+        }
         connect?.commitText(word, 1)
         predictions.onAccept(word, digitSequence)   // låt TT9 lära sig/toppa ordet
-        digitSequence = ""
-        // Förenklad regel: gemener efter varje ord. TT9:s AutoTextCase.java
-        // återställer istället till versal efter meningsslutstecken (. ! ?) —
-        // värt att portera hit om du vill ha exakt samma känsla.
-        textCase = TextCase.LOWER
+        wordDigits.clear()
+        lastMultiTapDigit = -1
         setNeutralSuggestionStrip()
     }
 
-    private fun commitPendingSequenceIfAny(addTrailingSpace: Boolean) {
-        val words = predictions.getList()
-        if (digitSequence.isNotEmpty() && words.isNotEmpty()) {
-            commitWord(applyTextCase(words.first()))
-        }
-        if (addTrailingSpace) {
-            connect?.commitText(" ", 1)
-        }
+    /** Nollställer ord-tillståndet UTAN att röra redan skriven text (den är redan korrekt). */
+    private fun finalizeWord() {
+        wordDigits.clear()
+        lastMultiTapDigit = -1
+        setNeutralSuggestionStrip()
     }
 
     private fun setNeutralSuggestionStrip() {
