@@ -230,8 +230,16 @@ class T9Engine(
             }
 
             else -> {
-                // Okänd knapp i T9-läge — avsluta ev. pågående ord, skriv
-                // sedan ut tecknet rakt av (t.ex. tecken från '#'-menyn).
+                // T9-i-FUTO-patch (kraschfix): funktionsknappar utan ett skrivbart
+                // tecken (t.ex. tryck på FUTO:s övriga åtgärdsknappar i raden ovanför
+                // tangentbordet — inställningar, urklipp, röstinmatning osv., eller
+                // andra !code/-koder vi inte har en egen gren för) har
+                // event.mCodePoint == Event.NOT_A_CODE_POINT (-1). Character.toChars(-1)
+                // kastar IllegalArgumentException och kraschade hela tangentbordet.
+                // Ignorera dem säkert istället för att gissa att allt är skrivbar text.
+                if (event.isFunctionalKeyEvent()) {
+                    return
+                }
                 finalizeWord()
                 connect?.commitText(String(Character.toChars(event.mCodePoint)), 1)
             }
