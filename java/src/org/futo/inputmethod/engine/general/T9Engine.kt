@@ -233,7 +233,7 @@ class T9Engine(
                 if (wordDigits.isNotEmpty()) {
                     connect?.deleteSurroundingText(1, 0)
                     wordDigits.removeAt(wordDigits.size - 1)
-                    lastMultiTapDigit = -1   // nästa tryck på samma knapp ska börja en ny cykel
+                    lastMultiTapDigit = -1
                     reloadPredictions(language)
                 } else {
                     connect?.deleteSurroundingText(1, 0)
@@ -349,7 +349,7 @@ class T9Engine(
                 SuggestedWordInfo(
                     word,
                     "",
-                    Int.MAX_VALUE - index,           // enkel rangordning: DB-ordningen avgör
+                    Int.MAX_VALUE - index,
                     SuggestedWordInfo.KIND_PREDICTION,
                     null,
                     SuggestedWordInfo.NOT_AN_INDEX,
@@ -373,7 +373,7 @@ class T9Engine(
             connect?.deleteSurroundingText(wordDigits.size, 0)
         }
         connect?.commitText(word, 1)
-        predictions.onAccept(word, digitSequence)   // låt TT9 lära sig/toppa ordet
+        predictions.onAccept(word, digitSequence)
         wordDigits.clear()
         lastMultiTapDigit = -1
         setNeutralSuggestionStrip()
