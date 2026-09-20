@@ -186,11 +186,14 @@ class T9Engine(
 
         when (event.eventType) {
             Event.EVENT_TYPE_INPUT_KEYPRESS,
-            Event.EVENT_TYPE_INPUT_KEYPRESS_RESUMED -> handleKeypress(event)
+            Event.EVENT_TYPE_INPUT_KEYPRESS_RESUMED -> {
+                handleKeypress(event)
+            }
 
-            // Användaren tryckte på ett PREDIKTIVT förslag i förslagsraden —
-            // ersätt de redan multi-tap-skrivna bokstäverna i aktuellt ord
-            // med det valda ordet istället.
+            Event.EVENT_TYPE_SOFTWARE_GENERATED_STRING -> {
+                handleSoftwareGeneratedText(event)
+            }
+
             Event.EVENT_TYPE_SUGGESTION_PICKED -> {
                 event.mSuggestedWordInfo?.let { replaceCurrentWordWith(it.word) }
             }
@@ -200,8 +203,21 @@ class T9Engine(
                 // som INPUT_KEYPRESS — mappa vidare vid behov.
             }
 
-            else -> { /* ignorera resten (gester, batch-input etc. används inte i T9) */ }
+            else -> {
+                // ignorera resten (gester, batch-input etc. används inte i T9)
+            }
         }
+    }
+
+    private fun handleSoftwareGeneratedText(event: Event) {
+        val text = event.mText ?: return
+
+        if (text.isEmpty()) {
+            return
+        }
+
+        finalizeWord()
+        connect?.commitText(text, 1)
     }
 
     private fun handleKeypress(event: Event) {
@@ -243,6 +259,9 @@ class T9Engine(
                 connect?.commitText(" ", 1)
             }
 
+            // T9-i-FUTO-patch: trigger-kod för "öppna emoji-panelen", skickad
+            // från en moreKeys-post i t9.yaml (långtryck på '*'). Se
+            // klasskommentaren högst upp för var EMOJI_ACTION_ID kommer ifrån.
             event.mKeyCode == Constants.CODE_EMOJI -> {
                 finalizeWord()
                 helper.triggerAction(EMOJI_ACTION_ID, false)
