@@ -16,8 +16,6 @@ attributes: &globalAttrs
     hasHintLabel: true
 
 rows:
-  # FUTO:s valbara sifferrad.
-  # Denna rad ska innehålla rena siffror utan T9-hints.
   - numbers:
       - "1"
       - "2"
