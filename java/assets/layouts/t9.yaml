@@ -1,5 +1,5 @@
 name: T9
-numberRowMode: AlwaysDisabled
+numberRowMode: UserConfigurable
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
 rowHeightMode: FillHeight
@@ -16,6 +16,21 @@ attributes: &globalAttrs
     hasHintLabel: true
 
 rows:
+  # FUTO:s valbara sifferrad.
+  # Denna rad ska innehålla rena siffror utan T9-hints.
+  - numbers:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "0"
+    splittable: false
+
   - letters:
       - {type: base, spec: "1"}
       - {type: base, spec: "2", hint: "ABC"}
@@ -42,15 +57,17 @@ rows:
 
   - bottom:
       - {type: base, spec: "*", attributes: { width: Grow }}
+
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
         moreKeys: "!noPanelAutoMoreKey!,0"
         attributes:
-          style: Functional
           width: Grow
+          style: Functional
           labelFlags: {}
           longPressEnabled: true
+
       - {type: base, spec: "#", moreKeys: "?,!,;,:,-,_,@", attributes: { width: Grow, longPressEnabled: true }}
     attributes: *globalAttrs
     splittable: false
