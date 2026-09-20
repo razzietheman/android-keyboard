@@ -1,12 +1,3 @@
-# t9.yml — 12-tangenters T9-layout för FUTO Keyboard.
-# T9-layouter med:
-# - 1-9 som T9-knappar
-# - action-emoji där mellanslag normalt brukar ligga
-# - mellanslag flyttat ner till bottenraden
-# - 0 hidden bakom long-press på mellanslag
-# - * och # som vanliga väldigt små tecken
-# - inga extra sifferrader ovanför T9-layoutern
-
 name: T9
 numberRowMode: AlwaysDisabled
 bottomRowHeightMode: Flexible
@@ -28,7 +19,7 @@ rows:
       - {type: base, spec: "1"}
       - {type: base, spec: "2", hint: "ABC"}
       - {type: base, spec: "3", hint: "DEF"}
-      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: &functional { style: Functional, labelFlags: {} }}
+      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: &functional { style: Functional, labelFlags: {}, repeatableEnabled: true }}
     splittable: false
 
   - letters:
@@ -47,7 +38,17 @@ rows:
 
   - bottom:
       - {type: base, spec: "*", attributes: { width: FunctionalKey }}
-      - {type: base, spec: "!icon/space_key_for_number_layout|!code/key_space", hint: "0", moreKeys: "!noPanelAutoMoreKey!,0", attributes: { style: Functional, width: Grow, labelFlags: {}, longPressEnabled: true }}
+
+      - type: base
+        spec: "!icon/space_key_for_number_layout|!code/key_space"
+        hint: "0"
+        moreKeys: ["!noPanelAutoMoreKey!", "0"]
+        attributes:
+          style: Functional
+          width: Grow
+          labelFlags: {}
+          longPressEnabled: true
+
       - {type: base, spec: "#", moreKeys: "?,!,;,:,-,_,@", attributes: { width: FunctionalKey, longPressEnabled: true }}
     attributes: *globalAttrs
     splittable: false
