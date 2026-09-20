@@ -181,25 +181,6 @@ class T9Engine(
         return false
     }
 
-    /**
-     * FUTO:s extra sifferrad (överst i tangentbordet) ska vara rena siffror.
-     * Dessa tryck ska inte gå igenom T9 multi-tap-logiken.
-     */
-    private fun isNumberRowPress(event: Event): Boolean {
-        if (event.mCodePoint !in '0'.code..'9'.code) return false
-
-        // Undvik att felaktigt behandla alla nummer som "number row" om Y-värdet inte finns.
-        if (event.mY < 0) return false
-
-        val keyboardHeight = helper.keyboardRect.height
-        if (keyboardHeight <= 0) return false
-
-        // T9-layouten har en extra top-row med siffror i FUTO.
-        // För att skilja den från T9-raderna räcker det att kolla om
-        // trycket ligger i den övre ~20 % av tangentbordet.
-        return event.mY < keyboardHeight * 0.20f
-    }
-
     override fun onEvent(event: Event) {
         helper.requestCursorUpdate()
 
@@ -241,13 +222,6 @@ class T9Engine(
 
     private fun handleKeypress(event: Event) {
         if (handleFutoAction(event)) {
-            return
-        }
-
-        // FUTO:s extra sifferrad ska alltid skriva siffror direkt.
-        if (isNumberRowPress(event)) {
-            finalizeWord()
-            connect?.commitText(event.mCodePoint.toChar().toString(), 1)
             return
         }
 
