@@ -30,6 +30,7 @@ rows:
       - {type: base, spec: "8", attributes: { width: Regular }}
       - {type: base, spec: "9", attributes: { width: Regular }}
       - {type: base, spec: "0", attributes: { width: Regular }}
+    rowHeight: 0.65
     splittable: false
 
   - letters:
