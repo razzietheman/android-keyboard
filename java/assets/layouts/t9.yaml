@@ -4,6 +4,9 @@ bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
 rowHeightMode: FillHeight
 
+overrideWidths:
+  Regular: 0.1
+
 attributes: &globalAttrs
   width: Grow
   showPopup: false
@@ -17,20 +20,16 @@ attributes: &globalAttrs
 
 rows:
   - numbers:
-      - type: gap
-        attributes: { width: Grow }
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "0"
-      - type: gap
-        attributes: { width: Grow }
+      - {type: base, spec: "1", attributes: { width: Regular }}
+      - {type: base, spec: "2", attributes: { width: Regular }}
+      - {type: base, spec: "3", attributes: { width: Regular }}
+      - {type: base, spec: "4", attributes: { width: Regular }}
+      - {type: base, spec: "5", attributes: { width: Regular }}
+      - {type: base, spec: "6", attributes: { width: Regular }}
+      - {type: base, spec: "7", attributes: { width: Regular }}
+      - {type: base, spec: "8", attributes: { width: Regular }}
+      - {type: base, spec: "9", attributes: { width: Regular }}
+      - {type: base, spec: "0", attributes: { width: Regular }}
     splittable: false
 
   - letters:
@@ -59,7 +58,6 @@ rows:
 
   - bottom:
       - {type: base, spec: "*", attributes: { width: Grow }}
-
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
@@ -69,7 +67,6 @@ rows:
           style: Functional
           labelFlags: {}
           longPressEnabled: true
-
       - {type: base, spec: "#", moreKeys: "?,!,;,:,-,_,@", attributes: { width: Grow, longPressEnabled: true }}
     attributes: *globalAttrs
     splittable: false
