@@ -42,19 +42,15 @@ rows:
 
   - bottom:
       - {type: base, spec: "*", attributes: { width: Grow }}
-
       - type: base
-        spec: "!icon/space_key_for_number_layout|!code/key_space"
+        spec: "!icon/space_key_for_number_layout| "
         hint: "0"
-        moreKeys:
-          - "!noPanelAutoMoreKey!"
-          - "0"
+        moreKeys: "!noPanelAutoMoreKey!,0"
         attributes:
-          width: Grow
           style: Functional
+          width: Grow
           labelFlags: {}
           longPressEnabled: true
-
       - {type: base, spec: "#", moreKeys: "?,!,;,:,-,_,@", attributes: { width: Grow, longPressEnabled: true }}
     attributes: *globalAttrs
     splittable: false
