@@ -163,6 +163,24 @@ class T9Engine(
 
     // --- Input -----------------------------------------------------------
 
+    private fun handleFutoAction(event: Event): Boolean {
+        val keyCode = event.mKeyCode
+
+        if (keyCode in Constants.CODE_ACTION_0..Constants.CODE_ACTION_MAX) {
+            finalizeWord()
+            helper.triggerAction(keyCode - Constants.CODE_ACTION_0, false)
+            return true
+        }
+
+        if (keyCode in Constants.CODE_ALT_ACTION_0..Constants.CODE_ALT_ACTION_MAX) {
+            finalizeWord()
+            helper.triggerAction(keyCode - Constants.CODE_ALT_ACTION_0, true)
+            return true
+        }
+
+        return false
+    }
+
     override fun onEvent(event: Event) {
         helper.requestCursorUpdate()
 
@@ -187,6 +205,10 @@ class T9Engine(
     }
 
     private fun handleKeypress(event: Event) {
+        if (handleFutoAction(event)) {
+            return
+        }
+
         val language = currentLanguage ?: resolveLanguage()?.also { currentLanguage = it } ?: return
         ensureDictionaryLoaded(language)
 
@@ -221,9 +243,6 @@ class T9Engine(
                 connect?.commitText(" ", 1)
             }
 
-            // T9-i-FUTO-patch: trigger-kod för "öppna emoji-panelen", skickad
-            // från en moreKeys-post i t9.yaml (långtryck på '*'). Se
-            // klasskommentaren högst upp för var EMOJI_ACTION_ID kommer ifrån.
             event.mKeyCode == Constants.CODE_EMOJI -> {
                 finalizeWord()
                 helper.triggerAction(EMOJI_ACTION_ID, false)
