@@ -20,7 +20,7 @@ attributes: &globalAttrs
 
 rows:
   # ============================
-  #   Sifferrad (fixad)
+  #   Sifferrad
   # ============================
   - numbers:
       - {type: base, spec: "1", attributes: { width: Regular }}
@@ -72,26 +72,26 @@ rows:
     splittable: false
 
   # ============================
-  #   Symbolrad (fixad)
+  #   Symbolrad (uppdaterad)
   # ============================
   - bottom:
       - {type: base, spec: "*", attributes: { width: Grow }}
 
-      # Mellanslag (fixad longPress = 0)
+      # Mellanslag (longPress = 0, aldrig @)
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
-        moreKeys: "!noPanelAutoMoreKey!,0"
+        moreKeys: "0"
         attributes:
           width: Grow
           style: Functional
           labelFlags: {}
           longPressEnabled: true
 
-      # Symboltangent med full specialteckenuppsättning
+      # Gboard‑style symbolpanel (inlagd här)
       - type: base
         spec: "#"
-        moreKeys: "?,!,;,:,-,_,@,/,\\,',\",(,),[,],{,},+,=,*"
+        moreKeys: "!,?,.,,,;,',\",:,/,\\,-,_,@,+,=,*,(,),[,],{,},<,>,^,~,|,§,%,£,$,€,©,®,✓,•,←,→,↑,↓"
         attributes:
           width: Grow
           longPressEnabled: true
