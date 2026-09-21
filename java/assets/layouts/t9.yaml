@@ -8,7 +8,7 @@ overrideWidths:
   Regular: 0.1
 
 attributes: &globalAttrs
-  width: Regular
+  width: Grow
   showPopup: false
   moreKeyMode: OnlyExplicit
   useKeySpecShortcut: false
@@ -83,7 +83,7 @@ rows:
         hint: "0"
         moreKeys: "0"
         attributes:
-          width: Regular
+          width: Grow
           style: Functional
           labelFlags: {}
           longPressEnabled: true
