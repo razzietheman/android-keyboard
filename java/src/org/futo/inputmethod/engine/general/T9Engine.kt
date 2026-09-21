@@ -27,6 +27,7 @@ package org.futo.inputmethod.engine.general
  * triggerAction) är verifierade mot faktisk källkod.
  */
 
+import android.text.InputType
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import io.github.sspanak.tt9.db.DataStore
@@ -254,7 +255,42 @@ class T9Engine(
         connect?.commitText(text, 1)
     }
 
+    /**
+     * T9-i-FUTO-patch (buggfix): fält av typen NUMBER/PHONE/DATETIME (PIN-koder,
+     * telefonnummer, verifieringskoder osv.) ska ALDRIG gå genom T9:s bokstavs-
+     * logik — FUTO växlar till sitt eget inbyggda numeriska tangentbord för
+     * sådana fält (helt separat från vår t9.yaml), men eftersom T9 fortfarande
+     * är den VALDA layouten för språket fångade T9Engine ändå upp
+     * knapptryckningarna där och tolkade siffrorna som multi-tap-bokstäver
+     * (bekräftat: skärmbild där "1" och "2" blev "a" och "j" i ett
+     * verifieringskod-fält). isT9LayoutActive() i IMEManager.kt kollar bara
+     * VILKEN LAYOUT som är vald för språket, inte vilken typ av fält som
+     * faktiskt är aktivt just nu — det är därför kollen måste göras här,
+     * i motorn själv, snarare än i routingen.
+     */
+    private fun isNumericInputField(): Boolean {
+        val inputType = helper.getCurrentEditorInfo()?.inputType ?: return false
+        val fieldClass = inputType and InputType.TYPE_MASK_CLASS
+        return fieldClass == InputType.TYPE_CLASS_NUMBER ||
+            fieldClass == InputType.TYPE_CLASS_PHONE ||
+            fieldClass == InputType.TYPE_CLASS_DATETIME
+    }
+
     private fun handleKeypress(event: Event) {
+        if (isNumericInputField()) {
+            finalizeWord()
+            if (event.isFunctionalKeyEvent()) {
+                if (event.mKeyCode == Constants.CODE_DELETE) {
+                    connect?.deleteSurroundingText(1, 0)
+                }
+                // Övriga funktionsknappar (t.ex. emoji-tangenten) är inte
+                // meningsfulla i ett rent siffer-/telefon-/datumfält — ignorera.
+                return
+            }
+            connect?.commitText(String(Character.toChars(event.mCodePoint)), 1)
+            return
+        }
+
         if (handleFutoAction(event)) {
             return
         }
