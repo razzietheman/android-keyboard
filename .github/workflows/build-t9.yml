@@ -26,7 +26,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      # T9-i-FUTO-patch: installera exakt rätt NDK-version
       - name: Install Android NDK
         run: |
           echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --install "ndk;28.2.13676358"
@@ -38,7 +37,6 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
-      # FUTO använder flavor "unstable" som default
       - name: Build Release APK
         env:
           VERSION_CODE: 1
@@ -59,19 +57,19 @@ jobs:
           ls -la /tmp/apk_out/
 
       # ================================
-      #   RELEASE NAMING (din önskade modell)
+      #   Datum + buildnummer
       #   vYYYY.MM.DD-build-N
       # ================================
+      - name: Set date
+        run: echo "DATE=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           files: /tmp/apk_out/*.apk
 
-          # Om push är en tag → använd taggen
-          # Annars → skapa auto-version vYYYY.MM.DD-build-N
-          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v{0}-build-{1}', github.event.head_commit.timestamp[0:10], github.run_number) }}
-
-          name: ${{ github.ref_type == 'tag' && github.ref_name || format('Release {0}-build-{1}', github.event.head_commit.timestamp[0:10], github.run_number) }}
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v{0}-build-{1}', env.DATE, github.run_number) }}
+          name: ${{ github.ref_type == 'tag' && github.ref_name || format('Release {0}-build-{1}', env.DATE, github.run_number) }}
 
           draft: false
           prerelease: false
