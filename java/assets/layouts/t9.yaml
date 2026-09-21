@@ -19,6 +19,9 @@ attributes: &globalAttrs
     hasHintLabel: true
 
 rows:
+  # ============================
+  #   Sifferrad (fixad)
+  # ============================
   - numbers:
       - {type: base, spec: "1", attributes: { width: Regular }}
       - {type: base, spec: "2", attributes: { width: Regular }}
@@ -33,22 +36,33 @@ rows:
     rowHeight: 0.65
     splittable: false
 
+  # ============================
+  #   T9-rad 1
+  # ============================
   - letters:
       - {type: base, spec: "1"}
       - {type: base, spec: "2", hint: "ABC"}
       - {type: base, spec: "3", hint: "DEF"}
-      - {type: base, spec: "!icon/delete_key|!code/key_delete", attributes: &functional { width: Grow, style: Functional, labelFlags: {}, repeatableEnabled: true }}
+      - {type: base, spec: "!icon/delete_key|!code/key_delete",
+         attributes: &functional { width: Grow, style: Functional, labelFlags: {}, repeatableEnabled: true }}
     attributes: *globalAttrs
     splittable: false
 
+  # ============================
+  #   T9-rad 2
+  # ============================
   - letters:
       - {type: base, spec: "4", hint: "GHI"}
       - {type: base, spec: "5", hint: "JKL"}
       - {type: base, spec: "6", hint: "MNO"}
-      - {type: base, spec: "!icon/action_emoji|!code/action_emoji", attributes: { width: Grow, style: Functional, labelFlags: {} }}
+      - {type: base, spec: "!icon/action_emoji|!code/action_emoji",
+         attributes: { width: Grow, style: Functional, labelFlags: {} }}
     attributes: *globalAttrs
     splittable: false
 
+  # ============================
+  #   T9-rad 3
+  # ============================
   - letters:
       - {type: base, spec: "7", hint: "PQRS"}
       - {type: base, spec: "8", hint: "TUV"}
@@ -57,8 +71,13 @@ rows:
     attributes: *globalAttrs
     splittable: false
 
+  # ============================
+  #   Symbolrad (fixad)
+  # ============================
   - bottom:
       - {type: base, spec: "*", attributes: { width: Grow }}
+
+      # Mellanslag (fixad longPress = 0)
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
@@ -68,6 +87,14 @@ rows:
           style: Functional
           labelFlags: {}
           longPressEnabled: true
-      - {type: base, spec: "#", moreKeys: "?,!,;,:,-,_,@", attributes: { width: Grow, longPressEnabled: true }}
+
+      # Symboltangent med full specialteckenuppsättning
+      - type: base
+        spec: "#"
+        moreKeys: "?,!,;,:,-,_,@,/,\\,',\",(,),[,],{,},+,=,*"
+        attributes:
+          width: Grow
+          longPressEnabled: true
+
     attributes: *globalAttrs
     splittable: false
