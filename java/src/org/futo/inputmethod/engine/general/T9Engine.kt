@@ -44,7 +44,6 @@ import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
 import org.futo.inputmethod.latin.common.Constants
 import org.futo.inputmethod.latin.common.InputPointers
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
-import android.text.InputType
 
 class T9Engine(
     private val helper: IMEHelper
@@ -258,23 +257,6 @@ class T9Engine(
     private fun handleKeypress(event: Event) {
         if (handleFutoAction(event)) {
             return
-        }
-
-        // Force numeric mode in numeric fields
-        val editorInfo = helper.editorInfo
-        if (editorInfo != null) {
-            val inputType = editorInfo.inputType
-
-            val isNumericField =
-                (inputType and InputType.TYPE_CLASS_NUMBER) != 0 ||
-                (inputType and InputType.TYPE_CLASS_PHONE) != 0 ||
-                (inputType and InputType.TYPE_NUMBER_VARIATION_PASSWORD) != 0
-
-            if (isNumericField) {
-                finalizeWord()
-                connect?.commitText(event.mCodePoint.toChar().toString(), 1)
-                return
-            }
         }
 
         // FUTO:s extra sifferrad ska alltid skriva siffror direkt.
