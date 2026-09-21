@@ -150,7 +150,7 @@ class T9Engine(
             val isNumericField =
                 (inputType and InputType.TYPE_CLASS_NUMBER) != 0 ||
                 (inputType and InputType.TYPE_CLASS_PHONE) != 0 ||
-                (inputType and InputType.TYPE_NUMBER_VARIATION_PASSWORD) != 0
+                ((inputType and InputType.TYPE_MASK_VARIATION) == InputType.TYPE_NUMBER_VARIATION_PASSWORD)
 
             if (isNumericField) {
                 finalizeWord()
