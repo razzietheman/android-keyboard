@@ -1,5 +1,7 @@
 name: T9
-
+layoutSetOverrides:
+  symbols: "t9_symbols"
+  symbolsShifted: "t9_symbols"
 numberRowMode: UserConfigurable
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
