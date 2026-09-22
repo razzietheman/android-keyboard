@@ -808,7 +808,6 @@ languages:
     - qwerty
     - nordic
     - t9
-    - t9_symbols
   sw:
     - qwerty
     - qwertz
