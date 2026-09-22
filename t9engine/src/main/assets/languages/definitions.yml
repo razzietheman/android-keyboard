@@ -968,15 +968,15 @@ iconABC: ic_lang_latin
 iconT9: ic_lang_sv
 layout:
   - [SPECIAL] # 0
-  - [PUNCTUATION] # 1
-  - [a, b, c, å, ä] # 2
-  - [d, e, f, é] # 3
-  - [g, h, i] # 4
-  - [j, k, l] # 5
-  - [m, n, o, ö] # 6
-  - [p, q, r, s] # 7
-  - [t, u, v] # 8
-  - [w, x, y, z] # 9
+  - [PUNCTUATION, 1] # 1
+  - [a, b, c, å, ä, 2] # 2
+  - [d, e, f, é, 3] # 3
+  - [g, h, i, 4] # 4
+  - [j, k, l, 5] # 5
+  - [m, n, o, ö, 6] # 6
+  - [p, q, r, s, 7] # 7
+  - [t, u, v, 8] # 8
+  - [w, x, y, z, 9] # 9
 ---
 locale: zgh-MA
 dictionaryFile: tamazight-utf8.txt
