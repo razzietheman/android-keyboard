@@ -1,7 +1,4 @@
 name: T9
-layoutSetOverrides:
-  symbols: "t9_symbols"
-  symbolsShifted: "t9_symbols"
 
 numberRowMode: UserConfigurable
 bottomRowHeightMode: Flexible
@@ -86,14 +83,14 @@ rows:
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
-        moreKeys: "0"
+        moreKeys: ["0"]
         attributes:
           width: Grow
           style: Functional
           labelFlags: {}
           longPressEnabled: true
 
-      # Punkt (ingen moreKeys)
+      # Punkt
       - type: base
         spec: "."
         attributes:
