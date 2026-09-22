@@ -1,7 +1,4 @@
 name: T9
-layoutSetOverrides:
-  symbols: "t9_symbols"
-  symbolsShifted: "t9_symbols"
 numberRowMode: UserConfigurable
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
@@ -75,13 +72,12 @@ rows:
     splittable: false
 
   # ============================
-  #   Nedersta raden (uppdaterad)
+  #   Symbolrad (uppdaterad)
   # ============================
   - bottom:
-      # Komma
       - {type: base, spec: ",", attributes: { width: Grow }}
 
-      # Mellanslag (longPress = 0)
+      # Mellanslag (longPress = 0, aldrig @)
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
@@ -97,7 +93,7 @@ rows:
         spec: "."
         attributes:
           width: Grow
-
+      
       # Symbolpanel-knapp (?123) – efter punkt
       - type: mode_switch
         spec: "?123"
