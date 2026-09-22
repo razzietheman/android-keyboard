@@ -13,7 +13,7 @@ attributes: &globalAttrs
   moreKeyMode: OnlyExplicit
   useKeySpecShortcut: false
   style: Normal
-  shiftable: false
+  shiftable: true
   labelFlags:
     alignLabelOffCenter: true
     hasHintLabel: true
