@@ -1,4 +1,8 @@
 name: T9
+layoutSetOverrides:
+  symbols: "t9_symbols"
+  symbolsShifted: "t9_symbols"
+
 numberRowMode: UserConfigurable
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
@@ -40,9 +44,9 @@ rows:
   #   T9-rad 1
   # ============================
   - letters:
-      - {type: base, spec: "1"}
-      - {type: base, spec: "2", hint: "ABC"}
-      - {type: base, spec: "3", hint: "DEF"}
+      - {type: base, spec: "1", hint: "1"}
+      - {type: base, spec: "2", hint: "ABC2"}
+      - {type: base, spec: "3", hint: "DEF3"}
       - {type: base, spec: "!icon/delete_key|!code/key_delete",
          attributes: &functional { width: Grow, style: Functional, labelFlags: {}, repeatableEnabled: true }}
     attributes: *globalAttrs
@@ -52,9 +56,9 @@ rows:
   #   T9-rad 2
   # ============================
   - letters:
-      - {type: base, spec: "4", hint: "GHI"}
-      - {type: base, spec: "5", hint: "JKL"}
-      - {type: base, spec: "6", hint: "MNO"}
+      - {type: base, spec: "4", hint: "GHI4"}
+      - {type: base, spec: "5", hint: "JKL5"}
+      - {type: base, spec: "6", hint: "MNO6"}
       - {type: base, spec: "!icon/action_emoji|!code/action_emoji",
          attributes: { width: Grow, style: Functional, labelFlags: {} }}
     attributes: *globalAttrs
@@ -64,20 +68,21 @@ rows:
   #   T9-rad 3
   # ============================
   - letters:
-      - {type: base, spec: "7", hint: "PQRS"}
-      - {type: base, spec: "8", hint: "TUV"}
-      - {type: base, spec: "9", hint: "WXYZ"}
+      - {type: base, spec: "7", hint: "PQRS7"}
+      - {type: base, spec: "8", hint: "TUV8"}
+      - {type: base, spec: "9", hint: "WXYZ9"}
       - {type: enter, attributes: { width: Grow, style: Functional, labelFlags: {} }}
     attributes: *globalAttrs
     splittable: false
 
   # ============================
-  #   Symbolrad (uppdaterad)
+  #   Nedersta raden (uppdaterad)
   # ============================
   - bottom:
+      # Komma
       - {type: base, spec: ",", attributes: { width: Grow }}
 
-      # Mellanslag (longPress = 0, aldrig @)
+      # Mellanslag (longPress = 0)
       - type: base
         spec: "!icon/space_key_for_number_layout| "
         hint: "0"
@@ -88,13 +93,22 @@ rows:
           labelFlags: {}
           longPressEnabled: true
 
-      # Gboard‑style symbolpanel (inlagd här)
+      # Punkt (ingen moreKeys)
       - type: base
         spec: "."
-        moreKeys: "!#?,.,,,;,',\",:,/,\\,-,_,@,+,=,*,(,),[,],{,},<,>,^,~,|,§,%,£,$,€,©,®,✓,•,←,→,↑,↓"
         attributes:
           width: Grow
-          longPressEnabled: true
+
+      # Symbolpanel-knapp (?123) – efter punkt
+      - type: mode_switch
+        spec: "?123"
+        attributes:
+          width: Grow
+          style: Functional
+          labelFlags: {}
+
+      # Enter
+      - {type: enter, attributes: { width: Grow, style: Functional, labelFlags: {} }}
 
     attributes: *globalAttrs
     splittable: false
