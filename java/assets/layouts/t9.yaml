@@ -104,8 +104,5 @@ rows:
           style: Functional
           labelFlags: {}
 
-      # Enter
-      - {type: enter, attributes: { width: Grow, style: Functional, labelFlags: {} }}
-
     attributes: *globalAttrs
     splittable: false
