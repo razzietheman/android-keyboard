@@ -41,8 +41,8 @@ rows:
   # ============================
   - letters:
       - {type: base, spec: "1", hint: "1"}
-      - {type: base, spec: "2", hint: "ABC2"}
-      - {type: base, spec: "3", hint: "DEF3"}
+      - {type: base, spec: "2", hint: "ABC"}
+      - {type: base, spec: "3", hint: "DEF"}
       - {type: base, spec: "!icon/delete_key|!code/key_delete",
          attributes: &functional { width: Grow, style: Functional, labelFlags: {}, repeatableEnabled: true }}
     attributes: *globalAttrs
@@ -52,9 +52,9 @@ rows:
   #   T9-rad 2
   # ============================
   - letters:
-      - {type: base, spec: "4", hint: "GHI4"}
-      - {type: base, spec: "5", hint: "JKL5"}
-      - {type: base, spec: "6", hint: "MNO6"}
+      - {type: base, spec: "4", hint: "GHI"}
+      - {type: base, spec: "5", hint: "JKL"}
+      - {type: base, spec: "6", hint: "MNO"}
       - {type: base, spec: "!icon/action_emoji|!code/action_emoji",
          attributes: { width: Grow, style: Functional, labelFlags: {} }}
     attributes: *globalAttrs
@@ -64,9 +64,9 @@ rows:
   #   T9-rad 3
   # ============================
   - letters:
-      - {type: base, spec: "7", hint: "PQRS7"}
-      - {type: base, spec: "8", hint: "TUV8"}
-      - {type: base, spec: "9", hint: "WXYZ9"}
+      - {type: base, spec: "7", hint: "PQRS"}
+      - {type: base, spec: "8", hint: "TUV"}
+      - {type: base, spec: "9", hint: "WXYZ"}
       - {type: enter, attributes: { width: Grow, style: Functional, labelFlags: {} }}
     attributes: *globalAttrs
     splittable: false
