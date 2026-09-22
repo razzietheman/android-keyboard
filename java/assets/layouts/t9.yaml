@@ -95,7 +95,7 @@ rows:
           width: Grow
       
       # Symbolpanel-knapp (?123) – efter punkt
-      - type: mode_switch
+      - type: base
         spec: "?123"
         attributes:
           width: Grow
