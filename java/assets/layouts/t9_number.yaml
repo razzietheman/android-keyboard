@@ -1,8 +1,8 @@
 name: "T9Numbers"
 
 overrideWidths:
-  Regular: 0.2
-  FunctionalKey: 0.15
+  Regular: 0.22
+  FunctionalKey: 0.18
 
 attributes: &globalAttrs
   width: Grow
@@ -44,10 +44,13 @@ rows:
     attributes: *globalAttrs
     splittable: false
 
+  # Nedersta raden – ABC + tillbaka till symbols + 0 + punkt + enter
   - bottom:
       - type: alphabet
         attributes: { width: Grow, style: Functional }
       - {type: base, spec: ",", attributes: { width: Grow }}
+      - type: symbols                    # ← tillbaka till teckenpanelen
+        attributes: { width: Grow, style: Functional }
       - {type: base, spec: "0", attributes: { width: Grow }}
       - {type: base, spec: ".", attributes: { width: Grow }}
       - type: enter
