@@ -44,13 +44,16 @@ rows:
     attributes: *globalAttrs
     splittable: false
 
-  # Nedersta raden – ABC + tillbaka till symbols + 0 + punkt + enter
+  # Nedersta raden – ?123 (tillbaka till symbols) + , + 0 + . + enter
   - bottom:
-      - type: alphabet
-        attributes: { width: Grow, style: Functional }
+      # ?123 – växlar nummer ↔ symbols (inte till alfabetet)
+      - type: base
+        spec: "?123|!code/key_to_number_layout"
+        attributes:
+          width: Grow
+          style: Functional
+          labelFlags: {}
       - {type: base, spec: ",", attributes: { width: Grow }}
-      - type: symbols                    # ← tillbaka till teckenpanelen
-        attributes: { width: Grow, style: Functional }
       - {type: base, spec: "0", attributes: { width: Grow }}
       - {type: base, spec: ".", attributes: { width: Grow }}
       - type: enter
