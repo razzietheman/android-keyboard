@@ -1,0 +1,60 @@
+name: "T9Numbers"
+
+overrideWidths:
+  Regular: 0.22
+  FunctionalKey: 0.18
+
+attributes: &globalAttrs
+  width: Grow
+  showPopup: false
+  moreKeyMode: OnlyExplicit
+  useKeySpecShortcut: false
+  style: Normal
+  shiftable: false
+  labelFlags:
+    alignLabelOffCenter: false
+    hasHintLabel: false
+
+rowHeightMode: FillHeight
+bottomRowWidthMode: Identical
+
+rows:
+  - letters:
+      - {type: base, spec: "1"}
+      - {type: base, spec: "2"}
+      - {type: base, spec: "3"}
+      - type: delete
+        attributes: { width: Grow, style: Functional, repeatableEnabled: true }
+    attributes: *globalAttrs
+    splittable: false
+
+  - letters:
+      - {type: base, spec: "4"}
+      - {type: base, spec: "5"}
+      - {type: base, spec: "6"}
+      - {type: base, spec: "+", attributes: { style: Functional }}
+    attributes: *globalAttrs
+    splittable: false
+
+  - letters:
+      - {type: base, spec: "7"}
+      - {type: base, spec: "8"}
+      - {type: base, spec: "9"}
+      - {type: base, spec: "-", attributes: { style: Functional }}
+    attributes: *globalAttrs
+    splittable: false
+
+  # Nedersta raden – ?123 (tillbaka till symbols) + , + 0 + . + enter
+  - bottom:
+      # ?123 – växlar nummer ↔ symbols (inte till alfabetet)
+      - {type: base, spec: ",", attributes: { width: Grow }}
+      - {type: base, spec: "0", attributes: { width: Grow }}
+      - {type: base, spec: ".", attributes: { width: Grow }}
+      - type: base
+        spec: "ABC|!code/key_switch_alpha_symbol"
+        attributes:
+          width: Grow
+          style: Functional
+          labelFlags: {}
+    attributes: *globalAttrs
+    splittable: false
