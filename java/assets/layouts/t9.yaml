@@ -46,7 +46,7 @@ rows:
   #   T9-rad 1
   # ============================
   - letters:
-      - {type: base, spec: "1", hint: "1"}
+      - {type: base, spec: "1"}
       - {type: base, spec: "2", hint: "ABC2"}
       - {type: base, spec: "3", hint: "DEF3"}
       - {type: base, spec: "!icon/delete_key|!code/key_delete",

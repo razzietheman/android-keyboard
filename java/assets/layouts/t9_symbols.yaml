@@ -59,13 +59,9 @@ rows:
 
   # Nedersta raden – jämnare fördelning
   - bottom:
-      - type: alphabet
-        attributes: { width: Grow, style: Functional }
-      - {type: base, spec: ",", attributes: { width: Grow }}
       - type: number
         attributes: { width: Grow, style: Functional }
-      - type: space
-        attributes: { width: Grow }
+      - {type: base, spec: ",", attributes: { width: Grow }}
       - {type: base, spec: "/", attributes: { width: Grow }}
       - {type: base, spec: ".", attributes: { width: Grow }}
       - type: enter
