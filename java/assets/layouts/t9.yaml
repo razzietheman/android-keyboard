@@ -3,6 +3,7 @@ name: T9
 layoutSetOverrides:
   symbols: "t9_symbols"
   symbolsShifted: "t9_symbols"
+  number: "t9_number"
 
 numberRowMode: UserConfigurable
 bottomRowHeightMode: Flexible

@@ -1,0 +1,56 @@
+name: "T9Numbers"
+
+overrideWidths:
+  Regular: 0.2
+  FunctionalKey: 0.15
+
+attributes: &globalAttrs
+  width: Grow
+  showPopup: false
+  moreKeyMode: OnlyExplicit
+  useKeySpecShortcut: false
+  style: Normal
+  shiftable: false
+  labelFlags:
+    alignLabelOffCenter: false
+    hasHintLabel: false
+
+rowHeightMode: FillHeight
+bottomRowWidthMode: Identical
+
+rows:
+  - letters:
+      - {type: base, spec: "1"}
+      - {type: base, spec: "2"}
+      - {type: base, spec: "3"}
+      - type: delete
+        attributes: { width: Grow, style: Functional, repeatableEnabled: true }
+    attributes: *globalAttrs
+    splittable: false
+
+  - letters:
+      - {type: base, spec: "4"}
+      - {type: base, spec: "5"}
+      - {type: base, spec: "6"}
+      - {type: base, spec: "+", attributes: { style: Functional }}
+    attributes: *globalAttrs
+    splittable: false
+
+  - letters:
+      - {type: base, spec: "7"}
+      - {type: base, spec: "8"}
+      - {type: base, spec: "9"}
+      - {type: base, spec: "-", attributes: { style: Functional }}
+    attributes: *globalAttrs
+    splittable: false
+
+  - bottom:
+      - type: alphabet
+        attributes: { width: Grow, style: Functional }
+      - {type: base, spec: ",", attributes: { width: Grow }}
+      - {type: base, spec: "0", attributes: { width: Grow }}
+      - {type: base, spec: ".", attributes: { width: Grow }}
+      - type: enter
+        attributes: { width: Grow, style: Functional }
+    attributes: *globalAttrs
+    splittable: false
