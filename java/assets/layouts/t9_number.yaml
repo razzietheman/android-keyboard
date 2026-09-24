@@ -47,16 +47,14 @@ rows:
   # Nedersta raden – ?123 (tillbaka till symbols) + , + 0 + . + enter
   - bottom:
       # ?123 – växlar nummer ↔ symbols (inte till alfabetet)
+      - {type: base, spec: ",", attributes: { width: Grow }}
+      - {type: base, spec: "0", attributes: { width: Grow }}
+      - {type: base, spec: ".", attributes: { width: Grow }}
       - type: base
-        spec: "?123|!code/key_to_number_layout"
+        spec: "ABC|!code/key_switch_alpha_symbol"
         attributes:
           width: Grow
           style: Functional
           labelFlags: {}
-      - {type: base, spec: ",", attributes: { width: Grow }}
-      - {type: base, spec: "0", attributes: { width: Grow }}
-      - {type: base, spec: ".", attributes: { width: Grow }}
-      - type: enter
-        attributes: { width: Grow, style: Functional }
     attributes: *globalAttrs
     splittable: false
