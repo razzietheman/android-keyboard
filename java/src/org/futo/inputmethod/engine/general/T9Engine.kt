@@ -40,6 +40,7 @@ import org.futo.inputmethod.engine.IMEHelper
 import org.futo.inputmethod.engine.IMEInterface
 import org.futo.inputmethod.engine.StateHint
 import org.futo.inputmethod.event.Event
+import org.futo.inputmethod.keyboard.KeyboardId
 import org.futo.inputmethod.latin.SuggestedWords
 import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
 import org.futo.inputmethod.latin.common.Constants
@@ -216,6 +217,15 @@ class T9Engine(
         return event.mY < keyboardHeight * 0.20f
     }
 
+    /**
+     * Är vi på FUTO:s nummerpanel (t9_number / ELEMENT_NUMBER)?
+     * Då ska siffror alltid bli siffror, aldrig multi-tap-bokstäver.
+     */
+    private fun isOnNumberPanel(): Boolean {
+        val keyboard = helper.keyboardSwitcher.keyboard ?: return false
+        return keyboard.mId.mElementId == KeyboardId.ELEMENT_NUMBER
+    }
+
     override fun onEvent(event: Event) {
         helper.requestCursorUpdate()
 
@@ -297,6 +307,13 @@ class T9Engine(
 
         // FUTO:s extra sifferrad ska alltid skriva siffror direkt.
         if (isNumberRowPress(event)) {
+            finalizeWord()
+            connect?.commitText(event.mCodePoint.toChar().toString(), 1)
+            return
+        }
+
+        // Nummerpanelen (t9_number.yaml / ELEMENT_NUMBER) ska alltid skriva siffror.
+        if (isOnNumberPanel() && event.mCodePoint in '0'.code..'9'.code) {
             finalizeWord()
             connect?.commitText(event.mCodePoint.toChar().toString(), 1)
             return
