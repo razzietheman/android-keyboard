@@ -2,7 +2,7 @@ name: "T9Symbols"
 
 overrideWidths:
   Regular: 0.1
-  FunctionalKey: 0.18
+  FunctionalKey: 0.15
 
 attributes: &globalAttrs
   width: Grow
@@ -12,19 +12,19 @@ attributes: &globalAttrs
   style: Normal
   shiftable: false
   labelFlags:
-    alignLabelOffCenter: true
+    alignLabelOffCenter: false   # ← centrerar tecknen i rutan
     hasHintLabel: false
 
 rows:
-  # Rad 1 – siffror
+  # Rad 1 – siffror (döljs om number row är av)
   - letters: "1 2 3 4 5 6 7 8 9 0"
     numRowMode: Hideable
 
-  # Rad 2 – extra symboler (när number row är på)
+  # Rad 2 – extra symboler (visas bara när number row är på)
   - letters: "% \\ | = [ ] < > { }"
     numRowMode: Filler
 
-  # Rad 3 – huvudsymboler (10 nycklar)
+  # Rad 3 – huvudsymboler (10 jämna nycklar)
   - letters:
       - "@"
       - "#"
@@ -39,10 +39,8 @@ rows:
     attributes: *globalAttrs
     splittable: false
 
-  # Rad 4 – shift + symboler + delete
+  # Rad 4 – symboler + delete (ingen shift → ingen =\<-ruta)
   - letters:
-      - type: shift
-        attributes: { width: Grow, style: Functional }
       - "*"
       - "\""
       - "'"
@@ -50,12 +48,16 @@ rows:
       - ";"
       - "!"
       - "?"
+      - "~"
       - type: delete
-        attributes: { width: Grow, style: Functional, repeatableEnabled: true }
+        attributes:
+          width: Grow
+          style: Functional
+          repeatableEnabled: true
     attributes: *globalAttrs
     splittable: false
 
-  # Nedersta raden – tät
+  # Nedersta raden – jämnare fördelning
   - bottom:
       - type: alphabet
         attributes: { width: Grow, style: Functional }
