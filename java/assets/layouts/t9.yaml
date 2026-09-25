@@ -86,8 +86,8 @@ rows:
 
       # Mellanslag – kort tryck = mellanslag, långtryck = 0
       - type: base
-        spec: "!icon/space_key| "                    # vanlig space (CODE_SPACE)
-        hint: "!icon/space_key"
+        spec: " "                    # vanlig space (CODE_SPACE)
+        hint: "␣"
         moreKeys:
           - "!noPanelAutoMoreKey!"
           - "0"
@@ -97,6 +97,7 @@ rows:
           longPressEnabled: true
           moreKeyMode: OnlyExplicit
           labelFlags:
+            alignLabelOffCenter: false
             hasHintLabel: true       # krävs för att "0" ska synas
 
       # Punkt
