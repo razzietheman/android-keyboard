@@ -12,7 +12,7 @@ attributes: &globalAttrs
   style: Normal
   shiftable: false
   labelFlags:
-    alignLabelOffCenter: false   # ← centrerar tecknen i rutan
+    alignLabelOffCenter: false
     hasHintLabel: false
 
 rows:
@@ -20,26 +20,29 @@ rows:
   - letters: "1 2 3 4 5 6 7 8 9 0"
     numRowMode: Hideable
 
-  # Rad 2 – extra symboler (visas bara när number row är på)
-  - letters: "% \\ | = [ ] < > { }"
+  # Rad 2 – extra (visas bara när number row är på)
+  - letters: "• √ π ÷ × ¶ ° § ¡ ¿"
     numRowMode: Filler
 
-  # Rad 3 – huvudsymboler (10 jämna nycklar)
+  # Rad 3 – vanliga symboler (som Gboard ?123)
   - letters:
       - "@"
       - "#"
-      - "$"
-      - "_"
+      - type: base
+        spec: "kr"
+        moreKeys: ["€", "£", "$", "¥", "¢"]
+        attributes: { longPressEnabled: true, moreKeyMode: OnlyExplicit }
       - "%"
       - "&"
       - "-"
       - "+"
       - "("
       - ")"
+      - "/"
     attributes: *globalAttrs
     splittable: false
 
-  # Rad 4 – symboler + delete (ingen shift → ingen =\<-ruta)
+  # Rad 4 – citat / skiljetecken
   - letters:
       - "*"
       - "\""
@@ -49,6 +52,7 @@ rows:
       - "!"
       - "?"
       - "~"
+      - "`"
       - type: delete
         attributes:
           width: Grow
@@ -57,12 +61,48 @@ rows:
     attributes: *globalAttrs
     splittable: false
 
-  # Nedersta raden – jämnare fördelning
+  # Rad 5 – parenteser, valuta, juridik
+  - letters:
+      - "["
+      - "]"
+      - "{"
+      - "}"
+      - "<"
+      - ">"
+      - "\\"
+      - "|"
+      - "="
+      - "^"
+    attributes: *globalAttrs
+    splittable: false
+
+  # Rad 6 – copyright m.m.
+  - letters:
+      - "©"
+      - "®"
+      - "™"
+      - "£"
+      - "€"
+      - "$"
+      - "¢"
+      - "_"
+      - type: delete
+        attributes:
+          width: Grow
+          style: Functional
+          repeatableEnabled: true
+    attributes: *globalAttrs
+    splittable: false
+
+  # Nedersta raden – endast till number (enligt din cykel)
   - bottom:
       - type: number
         attributes: { width: Grow, style: Functional }
       - {type: base, spec: ",", attributes: { width: Grow }}
-      - {type: base, spec: "/", attributes: { width: Grow }}
+      - {type: base, spec: "_", attributes: { width: Grow }}
+      - type: base
+        spec: "!icon/space_key| "
+        attributes: { width: Grow, style: Spacebar }
       - {type: base, spec: ".", attributes: { width: Grow }}
       - type: enter
         attributes: { width: Grow, style: Functional }
