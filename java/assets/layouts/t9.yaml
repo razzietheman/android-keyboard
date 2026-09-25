@@ -86,8 +86,8 @@ rows:
 
       # Mellanslag – kort tryck = mellanslag, långtryck = 0
       - type: base
-        spec: " "                    # vanlig space (CODE_SPACE)
-        hint: "␣"
+        spec: "!icon/space_key| "                    # vanlig space (CODE_SPACE)
+        hint: "!icon/space_key"
         moreKeys:
           - "!noPanelAutoMoreKey!"
           - "0"
