@@ -1,5 +1,4 @@
 name: T9
-numberRowMode: AlwaysDisabled
 autoShift: true
 layoutSetOverrides:
   symbols: "t9_symbols"
