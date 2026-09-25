@@ -43,9 +43,11 @@ import org.futo.inputmethod.event.Event
 import org.futo.inputmethod.keyboard.KeyboardId
 import org.futo.inputmethod.latin.SuggestedWords
 import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
+import org.futo.inputmethod.latin.WordComposer
 import org.futo.inputmethod.latin.common.Constants
 import org.futo.inputmethod.latin.common.InputPointers
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
+import java.util.Locale
 
 class T9Engine(
     private val helper: IMEHelper
@@ -384,6 +386,9 @@ class T9Engine(
      * ERSÄTTER föregående (samma position i ordet). En ny knapp, eller
      * samma knapp efter timeout, låser föregående bokstav och börjar en
      * ny position.
+     *
+     * Respekterar FUTO:s shift-läge (auto-shift vid meningsstart, manuell
+     * shift och caps lock) så att rätt bokstav blir stor.
      */
     private fun handleMultiTapDigit(digit: Int, language: Language) {
         val letters = language.getKeyCharacters(digit)
@@ -409,7 +414,14 @@ class T9Engine(
             wordDigits.add(digit)
         }
 
-        connect?.commitText(letters[multiTapCycleIndex], 1)
+        // Stor bokstav om shift/auto-shift är aktivt
+        var letter = letters[multiTapCycleIndex]
+        val shiftMode = helper.keyboardShiftMode
+        if (shiftMode != WordComposer.CAPS_MODE_OFF) {
+            letter = letter.uppercase(Locale.getDefault())
+        }
+
+        connect?.commitText(letter, 1)
         lastMultiTapDigit = digit
         lastMultiTapTimeMs = now
 
