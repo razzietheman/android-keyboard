@@ -1,4 +1,4 @@
-name: "T9Symbols"
+name: "T9SymbolsShift"
 
 overrideWidths:
   Regular: 0.1
@@ -16,46 +16,53 @@ attributes: &globalAttrs
     hasHintLabel: false
 
 rows:
-  # Sifferrad (följer FUTO-inställningen)
   - letters: "1 2 3 4 5 6 7 8 9 0"
     numRowMode: Hideable
 
-  # Vanliga symboler
   - letters:
-      - "@"
-      - "#"
-      - type: base
-        spec: "kr"
-        moreKeys: ["€", "£", "$", "¥", "¢"]
-        attributes: { longPressEnabled: true, moreKeyMode: OnlyExplicit }
-      - "%"
-      - "&"
-      - "-"
-      - "+"
-      - "("
-      - ")"
-      - "/"
+      - "~"
+      - "`"
+      - "|"
+      - "•"
+      - "√"
+      - "π"
+      - "÷"
+      - "×"
+      - "§"
+      - "°"
     attributes: *globalAttrs
     splittable: false
 
-  # Skiljetecken + delete
   - letters:
-      - "*"
-      - "\""
-      - "'"
-      - ":"
-      - ";"
-      - "!"
-      - "?"
-      - type: shift
-        spec: "=\\<"
-        attributes: { width: Grow, style: Functional, labelFlags: {} }
+      - "£"
+      - "€"
+      - "$"
+      - "¢"
+      - "^"
+      - "="
+      - "{"
+      - "}"
+      - "\\"
       - type: delete
         attributes: { width: Grow, style: Functional, repeatableEnabled: true }
     attributes: *globalAttrs
     splittable: false
 
-  # Nederst → number (enligt din cykel)
+  - letters:
+      - "©"
+      - "®"
+      - "™"
+      - "["
+      - "]"
+      - "<"
+      - ">"
+      - "_"
+      - type: shift
+        spec: "?123"
+        attributes: { width: Grow, style: Functional, labelFlags: {} }
+    attributes: *globalAttrs
+    splittable: false
+
   - bottom:
       - type: number
         attributes: { width: Grow, style: Functional }
