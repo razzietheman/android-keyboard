@@ -401,8 +401,12 @@ class KeyboardState(private val switchActions: SwitchActions) {
             }
             Constants.CODE_SWITCH_ALPHA_SYMBOL -> {
                 symbolKeyState.onPress()
-                if(currentLayout.kind == KeyboardLayoutKind.Symbols
+                if (currentLayout.kind == KeyboardLayoutKind.Symbols
                     || currentLayout.kind == KeyboardLayoutKind.Number) {
+                    // Number → ABC: nollställ så nästa ?123 från T9 går till symbols igen
+                    if (currentLayout.kind == KeyboardLayoutKind.Number) {
+                        prefersNumberLayout = false
+                    }
                     setAlphabetLayout(autoCapsFlags)
                 } else {
                     setSymbolLayout()
