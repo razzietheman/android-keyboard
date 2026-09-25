@@ -1,5 +1,5 @@
 name: T9
-
+autoShift: true
 layoutSetOverrides:
   symbols: "t9_symbols"
   symbolsShifted: "t9_symbols"
