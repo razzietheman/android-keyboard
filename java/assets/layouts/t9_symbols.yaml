@@ -39,9 +39,6 @@ rows:
     splittable: false
 
   - letters:
-      - type: base
-        spec: "=\\<|!code/key_shift"
-        attributes: { width: Grow, style: Functional, showPopup: false }
       - "*"
       - "\""
       - "'"
@@ -55,8 +52,9 @@ rows:
     splittable: false
 
   - bottom:
-      - { type: base, spec: ",", attributes: { width: Grow } }
-      - { type: base, spec: ".", attributes: { width: Grow } }
+      - type: base
+        spec: "=\\<|!code/key_shift"
+        attributes: { width: Grow, style: Functional, showPopup: false }
       - type: number
         attributes: { width: Grow, style: Functional }
     attributes: *globalAttrs
