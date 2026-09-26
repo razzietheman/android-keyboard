@@ -16,18 +16,18 @@ attributes: &globalAttrs
     hasHintLabel: false
 
 rows:
-  # Sifferrad (följer FUTO-inställningen)
   - letters: "1 2 3 4 5 6 7 8 9 0"
     numRowMode: Hideable
 
-  # Vanliga symboler
   - letters:
       - "@"
       - "#"
       - type: base
         spec: "kr"
         moreKeys: ["€", "£", "$", "¥", "¢"]
-        attributes: { longPressEnabled: true, moreKeyMode: OnlyExplicit }
+        attributes:
+          longPressEnabled: true
+          moreKeyMode: OnlyExplicit
       - "%"
       - "&"
       - "-"
@@ -38,7 +38,6 @@ rows:
     attributes: *globalAttrs
     splittable: false
 
-  # Skiljetecken + delete
   - letters:
       - "*"
       - "\""
@@ -47,23 +46,21 @@ rows:
       - ";"
       - "!"
       - "?"
-      - type: shift
-        spec: "=\\<"
-        attributes: { width: Grow, style: Functional, labelFlags: {} }
+      - type: base
+        spec: "=\\<|!code/key_shift"
+        attributes: { width: Grow, style: Functional, showPopup: false }
       - type: delete
         attributes: { width: Grow, style: Functional, repeatableEnabled: true }
     attributes: *globalAttrs
     splittable: false
 
-  # Nederst → number (enligt din cykel)
   - bottom:
       - type: number
         attributes: { width: Grow, style: Functional }
-      - {type: base, spec: ",", attributes: { width: Grow }}
-      - type: base
-        spec: "!icon/space_key| "
-        attributes: { width: Grow, style: Spacebar }
-      - {type: base, spec: ".", attributes: { width: Grow }}
+      - { type: base, spec: ",", attributes: { width: Grow } }
+      - type: space
+        attributes: { width: Grow }
+      - { type: base, spec: ".", attributes: { width: Grow } }
       - type: enter
         attributes: { width: Grow, style: Functional }
     attributes: *globalAttrs

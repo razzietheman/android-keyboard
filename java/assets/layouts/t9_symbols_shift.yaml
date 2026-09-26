@@ -57,20 +57,19 @@ rows:
       - "<"
       - ">"
       - "_"
-      - type: shift
-        spec: "?123"
-        attributes: { width: Grow, style: Functional, labelFlags: {} }
+      - type: base
+        spec: "?123|!code/key_shift"
+        attributes: { width: Grow, style: Functional, showPopup: false }
     attributes: *globalAttrs
     splittable: false
 
   - bottom:
       - type: number
         attributes: { width: Grow, style: Functional }
-      - {type: base, spec: ",", attributes: { width: Grow }}
-      - type: base
-        spec: "!icon/space_key| "
-        attributes: { width: Grow, style: Spacebar }
-      - {type: base, spec: ".", attributes: { width: Grow }}
+      - { type: base, spec: ",", attributes: { width: Grow } }
+      - type: space
+        attributes: { width: Grow }
+      - { type: base, spec: ".", attributes: { width: Grow } }
       - type: enter
         attributes: { width: Grow, style: Functional }
     attributes: *globalAttrs

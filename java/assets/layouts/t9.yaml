@@ -5,7 +5,7 @@ layoutSetOverrides:
   symbolsShifted: "t9_symbols_shift"
   number: "t9_number"
 
-numberRowMode: UserConfigurable
+numberRowMode: AlwaysDisabled
 bottomRowHeightMode: Flexible
 bottomRowWidthMode: Identical
 rowHeightMode: FillHeight
