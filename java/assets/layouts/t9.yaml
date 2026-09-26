@@ -61,8 +61,11 @@ rows:
       - {type: base, spec: "4", hint: "GHI"}
       - {type: base, spec: "5", hint: "JKL"}
       - {type: base, spec: "6", hint: "MNO"}
-      - {type: base, spec: "!icon/action_emoji|!code/action_emoji",
-         attributes: { width: Grow, style: Functional, labelFlags: {} }}
+      - type: action
+        fallbackKey:
+          type: base
+          spec: "!icon/action_emoji|!code/action_emoji"
+        attributes: { width: Grow, style: Functional, labelFlags: {} }
     attributes: *globalAttrs
     splittable: false
 
@@ -86,18 +89,18 @@ rows:
 
       # Mellanslag – kort tryck = mellanslag, långtryck = 0
       - type: base
-        spec: "⎵| "                    # vanlig space (CODE_SPACE)
+        spec: "⎵| "
         moreKeys:
           - "!noPanelAutoMoreKey!"
           - "0"
         attributes:
           width: Grow
-          style: Spacebar            # eller Functional
+          style: Spacebar
           longPressEnabled: true
           moreKeyMode: OnlyExplicit
           labelFlags:
             alignLabelOffCenter: false
-            hasHintLabel: true       # krävs för att "0" ska synas
+            hasHintLabel: true
 
       # Punkt
       - type: base
@@ -105,7 +108,7 @@ rows:
         attributes:
           width: Grow
 
-      # ?123 (symbols-knapp) – INGEN spec här!
+      # ?123 (symbols)
       - type: symbols
         attributes:
           width: Grow
