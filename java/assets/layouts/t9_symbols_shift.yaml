@@ -16,9 +16,6 @@ attributes: &globalAttrs
     hasHintLabel: false
 
 rows:
-  - letters: "1 2 3 4 5 6 7 8 9 0"
-    numRowMode: Hideable
-
   - letters:
       - "~"
       - "`"
@@ -57,9 +54,6 @@ rows:
       - "<"
       - ">"
       - "_"
-      - type: base
-        spec: "?123|!code/key_shift"
-        attributes: { width: Grow, style: Functional, showPopup: false }
     attributes: *globalAttrs
     splittable: false
 
@@ -67,10 +61,6 @@ rows:
       - type: number
         attributes: { width: Grow, style: Functional }
       - { type: base, spec: ",", attributes: { width: Grow } }
-      - type: space
-        attributes: { width: Grow }
       - { type: base, spec: ".", attributes: { width: Grow } }
-      - type: enter
-        attributes: { width: Grow, style: Functional }
     attributes: *globalAttrs
     splittable: false

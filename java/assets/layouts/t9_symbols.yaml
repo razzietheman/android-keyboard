@@ -39,6 +39,9 @@ rows:
     splittable: false
 
   - letters:
+      - type: base
+        spec: "=\\<|!code/key_shift"
+        attributes: { width: Grow, style: Functional, showPopup: false }
       - "*"
       - "\""
       - "'"
@@ -46,22 +49,15 @@ rows:
       - ";"
       - "!"
       - "?"
-      - type: base
-        spec: "=\\<|!code/key_shift"
-        attributes: { width: Grow, style: Functional, showPopup: false }
       - type: delete
         attributes: { width: Grow, style: Functional, repeatableEnabled: true }
     attributes: *globalAttrs
     splittable: false
 
   - bottom:
-      - type: number
-        attributes: { width: Grow, style: Functional }
       - { type: base, spec: ",", attributes: { width: Grow } }
-      - type: space
-        attributes: { width: Grow }
       - { type: base, spec: ".", attributes: { width: Grow } }
-      - type: enter
+      - type: number
         attributes: { width: Grow, style: Functional }
     attributes: *globalAttrs
     splittable: false
