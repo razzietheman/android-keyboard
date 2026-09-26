@@ -14,20 +14,17 @@ package org.futo.inputmethod.engine.general
  *      ALTERNATIV till vad multi-tap redan skrivit. Trycker man på ett
  *      förslag ersätts de redan inskrivna bokstäverna med det valda ordet.
  *
- * '*' och '#' är egna, vanliga tecken (inga lägesväxlare):
- *   - Långtryck '*' öppnar FUTO:s emoji-panel (helper.triggerAction, se
- *     Registry.kt — EmojiAction ligger på index 0 i AllActionsMap).
- *   - Långtryck '#' visar en liten meny med vanliga specialtecken
- *     (definierat i layoutfilen t9.yaml, inte i denna fil) — FUTO har
- *     ingen enkel, programmatiskt trigger-bar "öppna hela teckenpanelen"-
- *     krok utan att byta hela tangentbordslayouten, vilket är
- *     arkitektoniskt oprövat ihop med hur T9-interceptionen fungerar.
+ * Auto-caps: respekterar FUTO:s "Automatisk användning av stora bokstäver"
+ * via getCurrentAutoCapsState() + helper.keyboardShiftMode. Efter mellanslag
+ * / skiljetecken uppdateras shift-läget så nästa ord börjar med versal.
  *
- * Strukturen och FUTO-kopplingarna (IMEHelper, Event, SuggestedWordInfo,
- * triggerAction) är verifierade mot faktisk källkod.
+ * '*' och '#' är egna, vanliga tecken (inga lägesväxlare):
+ *   - Långtryck '*' öppnar FUTO:s emoji-panel (helper.triggerAction).
+ *   - Långtryck '#' visar specialtecken via layoutfilen t9.yaml.
  */
 
 import android.text.InputType
+import android.text.TextUtils
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import io.github.sspanak.tt9.db.DataStore
@@ -46,6 +43,7 @@ import org.futo.inputmethod.latin.SuggestedWords.SuggestedWordInfo
 import org.futo.inputmethod.latin.WordComposer
 import org.futo.inputmethod.latin.common.Constants
 import org.futo.inputmethod.latin.common.InputPointers
+import org.futo.inputmethod.latin.settings.Settings
 import org.futo.inputmethod.v2keyboard.KeyboardLayoutSetV2
 import java.util.Locale
 
@@ -55,28 +53,18 @@ class T9Engine(
 
     private val connect get() = helper.getCurrentInputConnection()
 
-    // TT9:s prediktionsmotor (SQLite-baserad, se Predictions.java / WordPredictions.java)
     private lateinit var predictions: WordPredictions
     private lateinit var settingsStore: SettingsStore
     private var currentLanguage: Language? = null
 
-    // En siffra per BOKSTAVSPOSITION i det pågående ordet (inte en per
-    // knapptryckning — cyklande tryck på samma knapp lägger INTE till en ny
-    // post, de byter bara ut bokstaven på den redan existerande positionen).
-    // Används både för TT9:s prediktiva uppslag (joinToString) och för att
-    // veta hur många tecken som ska tas bort om ett förslag väljs istället.
     private val wordDigits = mutableListOf<Int>()
     private val digitSequence get() = wordDigits.joinToString("")
 
-    // Multi-tap-cykling
     private var lastMultiTapDigit = -1
     private var multiTapCycleIndex = 0
     private var lastMultiTapTimeMs = 0L
     private val MULTI_TAP_TIMEOUT_MS = 1200L
 
-    // T9-i-FUTO-patch: EmojiAction ligger på index 0 i AllActionsMap
-    // (Registry.kt — "Note: indices must stay stable"). Verifiera mot
-    // Registry.kt igen om FUTO:s actionlista någonsin ändras.
     private val EMOJI_ACTION_ID = 0
 
     private val loadingState: MutableState<Boolean> = mutableStateOf(false)
@@ -95,11 +83,6 @@ class T9Engine(
         }
     }
 
-    /**
-     * Slår upp TT9:s Language-objekt utifrån FUTO:s aktiva subtyp/locale.
-     * Körs lazy (inte i onCreate) eftersom RichInputMethodManager kan sakna
-     * en aktiv subtyp vid tidig livscykel.
-     */
     private fun resolveLanguage(): Language? {
         val locale = try {
             org.futo.inputmethod.latin.RichInputMethodManager.getInstance()
@@ -112,13 +95,6 @@ class T9Engine(
             ?: LanguageCollection.getByLanguageCode(locale.language)
     }
 
-    // Språk-ID:n vi redan triggat en ordboks-koll för denna process — DictionaryLoader.load()
-    // raderar och laddar om ordboken varje gång den anropas, så det här måste bara hända en
-    // gång per språk, inte vid varje knapptryckning.
-    //
-    // OBS: multi-tap-bokstäverna beror INTE på den nedladdade ordboken (de kommer från
-    // språkDEFINITIONEN, redan bundlad som asset) — bara de PREDIKTIVA ordförslagen gör det.
-    // Multi-tap fungerar alltså direkt även om nedladdningen inte hunnit klart.
     private val checkedLanguageIds = mutableSetOf<Int>()
 
     private fun ensureDictionaryLoaded(language: Language) {
@@ -141,11 +117,11 @@ class T9Engine(
         wordDigits.clear()
         lastMultiTapDigit = -1
         setNeutralSuggestionStrip()
+        // Se till att shift-läge speglar auto-caps vid fältstart
+        helper.keyboardSwitcher.requestUpdatingShiftState(getCurrentAutoCapsState())
     }
 
     override fun onFinishInput() {
-        // Bokstäverna är redan skrivna via multi-tap — bara nollställ tillståndet,
-        // inget att committa/ta bort.
         finalizeWord()
     }
 
@@ -157,13 +133,88 @@ class T9Engine(
         newSelStart: Int, newSelEnd: Int,
         composingSpanStart: Int, composingSpanEnd: Int
     ) {
-        // Medvetet tom — se tidigare buggfix-kommentar i historiken: att
-        // nollställa tillstånd här bröt flersiffriga sekvenser eftersom
-        // callbacken triggas efter i princip varje knapptryckning.
+        // Medvetet tom — nollställning här bröt flersiffriga sekvenser.
     }
 
     override fun isGestureHandlingAvailable(): Boolean = false
     override fun getStateHint(imeHint: String?): StateHint = DefaultStateHint
+
+    // --- Auto-caps (FUTO "Automatisk användning av stora bokstäver") ----
+
+    /**
+     * Måste implementeras — default i IMEInterface är alltid CAP_MODE_OFF,
+     * vilket gör att KeyboardState aldrig auto-shiftar och keyboardShiftMode
+     * förblir OFF. Då blir multi-tap alltid små bokstäver.
+     */
+    override fun getCurrentAutoCapsState(): Int {
+        val settings = try {
+            Settings.getInstance().current
+        } catch (_: Exception) {
+            return Constants.TextUtils.CAP_MODE_OFF
+        }
+        if (!settings.mAutoCap) {
+            return Constants.TextUtils.CAP_MODE_OFF
+        }
+
+        val editorInfo = helper.getCurrentEditorInfo() ?: return Constants.TextUtils.CAP_MODE_OFF
+        val inputType = editorInfo.inputType
+        // Fält som inte ska ha auto-caps (lösenord, e-post, URL, etc.)
+        val variation = inputType and InputType.TYPE_MASK_VARIATION
+        if (variation == InputType.TYPE_TEXT_VARIATION_PASSWORD ||
+            variation == InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD ||
+            variation == InputType.TYPE_TEXT_VARIATION_WEB_PASSWORD ||
+            variation == InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS ||
+            variation == InputType.TYPE_TEXT_VARIATION_WEB_EMAIL_ADDRESS ||
+            variation == InputType.TYPE_TEXT_VARIATION_URI
+        ) {
+            return Constants.TextUtils.CAP_MODE_OFF
+        }
+
+        val ic = connect ?: return Constants.TextUtils.CAP_MODE_OFF
+        return try {
+            // Enkel, stabil heuristik utifrån text före markören.
+            // CAP_MODE_WORDS = stor bokstav i början av mening/ord.
+            val before = ic.getTextBeforeCursor(4, 0)?.toString() ?: ""
+            when {
+                before.isEmpty() -> TextUtils.CAP_MODE_WORDS
+                before.endsWith(". ") || before.endsWith("! ") || before.endsWith("? ") ->
+                    TextUtils.CAP_MODE_WORDS
+                before.endsWith(".\n") || before.endsWith("!\n") || before.endsWith("?\n") ->
+                    TextUtils.CAP_MODE_WORDS
+                before.endsWith("\n") -> TextUtils.CAP_MODE_WORDS
+                // Efter skiljetecken utan mellanslag ännu (vanligt i vissa fält)
+                before.length >= 1 && before.last() in ".!?" -> TextUtils.CAP_MODE_WORDS
+                else -> Constants.TextUtils.CAP_MODE_OFF
+            }
+        } catch (_: Exception) {
+            Constants.TextUtils.CAP_MODE_OFF
+        }
+    }
+
+    /** True om manuell shift, caps lock eller auto-caps kräver versal. */
+    private fun shouldUppercaseLetter(): Boolean {
+        val shiftMode = helper.keyboardShiftMode
+        if (shiftMode != WordComposer.CAPS_MODE_OFF) {
+            return true
+        }
+        return getCurrentAutoCapsState() != Constants.TextUtils.CAP_MODE_OFF
+    }
+
+    private fun applyCase(letter: String): String {
+        return if (shouldUppercaseLetter()) {
+            letter.uppercase(Locale.getDefault())
+        } else {
+            letter
+        }
+    }
+
+    private fun refreshShiftState() {
+        try {
+            helper.keyboardSwitcher.requestUpdatingShiftState(getCurrentAutoCapsState())
+        } catch (_: Exception) {
+            // ignore
+        }
+    }
 
     // --- Input -----------------------------------------------------------
 
@@ -185,27 +236,16 @@ class T9Engine(
         return false
     }
 
-    /**
-     * FUTO:s extra sifferrad (överst i tangentbordet) ska vara rena siffror.
-     * Dessa tryck ska inte gå igenom T9 multi-tap-logiken.
-     *
-     * Viktigt: om FUTO:s sifferrad inte är aktiv ska de översta T9-knapparna
-     * behandlas som bokstäver igen, även om de ligger i samma höjd.
-     */
     private fun isNumberRowPress(event: Event): Boolean {
         if (event.mCodePoint !in '0'.code..'9'.code) {
             return false
         }
 
-        // Om FUTO:s extra sifferrad inte är aktiv, är översta raden helt enkelt
-        // T9-raden i layouten och ska INTE betraktas som number-row.
         val keyboard = helper.keyboardSwitcher.keyboard
         if (keyboard?.mId?.mNumberRow != true) {
             return false
         }
 
-        // Händelser från hårdvaruknappar eller andra källor saknar normalt
-        // användbara skärmkoordinater.
         if (event.mY < 0) {
             return false
         }
@@ -215,14 +255,9 @@ class T9Engine(
             return false
         }
 
-        // Den separata sifferraden ligger överst i tangentbordet.
         return event.mY < keyboardHeight * 0.20f
     }
 
-    /**
-     * Är vi på FUTO:s nummerpanel (t9_number / ELEMENT_NUMBER)?
-     * Då ska siffror alltid bli siffror, aldrig multi-tap-bokstäver.
-     */
     private fun isOnNumberPanel(): Boolean {
         val keyboard = helper.keyboardSwitcher.keyboard ?: return false
         return keyboard.mId.mElementId == KeyboardId.ELEMENT_NUMBER
@@ -246,40 +281,23 @@ class T9Engine(
             }
 
             Event.EVENT_TYPE_DOWN_UP_KEYEVENT -> {
-                // Fysiska knappar (hårdvarunumpad) hamnar ofta här istället för
-                // som INPUT_KEYPRESS — mappa vidare vid behov.
+                // Fysiska knappar
             }
 
             else -> {
-                // ignorera resten (gester, batch-input etc. används inte i T9)
             }
         }
     }
 
     private fun handleSoftwareGeneratedText(event: Event) {
         val text = event.mText ?: return
-
-        if (text.isEmpty()) {
-            return
-        }
+        if (text.isEmpty()) return
 
         finalizeWord()
         connect?.commitText(text, 1)
+        refreshShiftState()
     }
 
-    /**
-     * T9-i-FUTO-patch (buggfix): fält av typen NUMBER/PHONE/DATETIME (PIN-koder,
-     * telefonnummer, verifieringskoder osv.) ska ALDRIG gå genom T9:s bokstavs-
-     * logik — FUTO växlar till sitt eget inbyggda numeriska tangentbord för
-     * sådana fält (helt separat från vår t9.yaml), men eftersom T9 fortfarande
-     * är den VALDA layouten för språket fångade T9Engine ändå upp
-     * knapptryckningarna där och tolkade siffrorna som multi-tap-bokstäver
-     * (bekräftat: skärmbild där "1" och "2" blev "a" och "j" i ett
-     * verifieringskod-fält). isT9LayoutActive() i IMEManager.kt kollar bara
-     * VILKEN LAYOUT som är vald för språket, inte vilken typ av fält som
-     * faktiskt är aktivt just nu — det är därför kollen måste göras här,
-     * i motorn själv, snarare än i routingen.
-     */
     private fun isNumericInputField(): Boolean {
         val inputType = helper.getCurrentEditorInfo()?.inputType ?: return false
         val fieldClass = inputType and InputType.TYPE_MASK_CLASS
@@ -295,8 +313,6 @@ class T9Engine(
                 if (event.mKeyCode == Constants.CODE_DELETE) {
                     connect?.deleteSurroundingText(1, 0)
                 }
-                // Övriga funktionsknappar (t.ex. emoji-tangenten) är inte
-                // meningsfulla i ett rent siffer-/telefon-/datumfält — ignorera.
                 return
             }
             connect?.commitText(String(Character.toChars(event.mCodePoint)), 1)
@@ -307,17 +323,17 @@ class T9Engine(
             return
         }
 
-        // FUTO:s extra sifferrad ska alltid skriva siffror direkt.
         if (isNumberRowPress(event)) {
             finalizeWord()
             connect?.commitText(event.mCodePoint.toChar().toString(), 1)
+            refreshShiftState()
             return
         }
 
-        // Nummerpanelen (t9_number.yaml / ELEMENT_NUMBER) ska alltid skriva siffror.
         if (isOnNumberPanel() && event.mCodePoint in '0'.code..'9'.code) {
             finalizeWord()
             connect?.commitText(event.mCodePoint.toChar().toString(), 1)
+            refreshShiftState()
             return
         }
 
@@ -334,6 +350,7 @@ class T9Engine(
                 } else {
                     connect?.deleteSurroundingText(1, 0)
                 }
+                refreshShiftState()
             }
 
             event.mCodePoint in '0'.code..'9'.code -> {
@@ -343,61 +360,52 @@ class T9Engine(
             event.mCodePoint == '*'.code -> {
                 finalizeWord()
                 connect?.commitText("*", 1)
+                refreshShiftState()
             }
 
             event.mCodePoint == '#'.code -> {
                 finalizeWord()
                 connect?.commitText("#", 1)
+                refreshShiftState()
             }
 
             event.mCodePoint == ' '.code || event.mKeyCode == Constants.CODE_SPACE -> {
                 finalizeWord()
                 connect?.commitText(" ", 1)
+                // Efter mellanslag: uppdatera auto-caps (t.ex. efter ". ")
+                refreshShiftState()
             }
 
-            // T9-i-FUTO-patch: trigger-kod för "öppna emoji-panelen", skickad
-            // från en moreKeys-post i t9.yaml (långtryck på '*'). Se
-            // klasskommentaren högst upp för var EMOJI_ACTION_ID kommer ifrån.
             event.mKeyCode == Constants.CODE_EMOJI -> {
                 finalizeWord()
                 helper.triggerAction(EMOJI_ACTION_ID, false)
             }
 
             else -> {
-                // T9-i-FUTO-patch (kraschfix): funktionsknappar utan ett skrivbart
-                // tecken (t.ex. tryck på FUTO:s övriga åtgärdsknappar i raden ovanför
-                // tangentbordet — inställningar, urklipp, röstinmatning osv., eller
-                // andra !code/-koder vi inte har en egen gren för) har
-                // event.mCodePoint == Event.NOT_A_CODE_POINT (-1). Character.toChars(-1)
-                // kastar IllegalArgumentException och kraschade hela tangentbordet.
-                // Ignorera dem säkert istället för att gissa att allt är skrivbar text.
                 if (event.isFunctionalKeyEvent()) {
                     return
                 }
                 finalizeWord()
-                connect?.commitText(String(Character.toChars(event.mCodePoint)), 1)
+                val ch = String(Character.toChars(event.mCodePoint))
+                // Stor bokstav även för vanliga tecken om auto-caps gäller
+                // (t.ex. bokstäver från other keys) — siffror/symboler oförändrade
+                val out = if (ch.length == 1 && ch[0].isLetter()) applyCase(ch) else ch
+                connect?.commitText(out, 1)
+                refreshShiftState()
             }
         }
     }
 
     /**
-     * Multi-tap + parallell prediktion. Samma sifferknapp igen inom
-     * MULTI_TAP_TIMEOUT_MS cyklar till nästa bokstav på den knappen och
-     * ERSÄTTER föregående (samma position i ordet). En ny knapp, eller
-     * samma knapp efter timeout, låser föregående bokstav och börjar en
-     * ny position.
-     *
-     * Respekterar FUTO:s shift-läge (auto-shift vid meningsstart, manuell
-     * shift och caps lock) så att rätt bokstav blir stor.
+     * Multi-tap + parallell prediktion.
+     * Respekterar FUTO auto-caps + manuell shift/caps lock.
      */
     private fun handleMultiTapDigit(digit: Int, language: Language) {
         val letters = language.getKeyCharacters(digit)
         if (letters.isEmpty()) {
-            // Ingen bokstavsmappning för den här knappen (0/1 är
-            // SPECIAL/PUNCTUATION i TT9:s layoutdefinitioner) — avsluta
-            // ev. pågående ord och skriv siffran rakt av.
             finalizeWord()
             connect?.commitText(digit.toString(), 1)
+            refreshShiftState()
             return
         }
 
@@ -408,25 +416,33 @@ class T9Engine(
         if (isContinuingCycle) {
             multiTapCycleIndex = (multiTapCycleIndex + 1) % letters.size
             connect?.deleteSurroundingText(1, 0)
-            // Samma position i ordet — wordDigits ändras inte.
         } else {
             multiTapCycleIndex = 0
             wordDigits.add(digit)
         }
 
-        // Stor bokstav om shift/auto-shift är aktivt
-        var letter = letters[multiTapCycleIndex]
-        val shiftMode = helper.keyboardShiftMode
-        if (shiftMode != WordComposer.CAPS_MODE_OFF) {
-            letter = letter.uppercase(Locale.getDefault())
+        val raw = letters[multiTapCycleIndex]
+        // Vid cykling inom samma position behåll samma "ska versalisera"-beslut
+        // som för första tecknet i den positionen: auto-caps gäller bara
+        // första bokstaven i ordet (wordDigits.size == 1 efter add).
+        val letter = if (wordDigits.size <= 1 || (isContinuingCycle && wordDigits.size == 1)) {
+            applyCase(raw)
+        } else {
+            // Fortsättning av ord → alltid gemen (om inte manuell caps lock)
+            val shiftMode = helper.keyboardShiftMode
+            if (shiftMode == WordComposer.CAPS_MODE_MANUAL_SHIFT_LOCKED ||
+                shiftMode == WordComposer.CAPS_MODE_AUTO_SHIFT_LOCKED
+            ) {
+                raw.uppercase(Locale.getDefault())
+            } else {
+                raw
+            }
         }
 
         connect?.commitText(letter, 1)
         lastMultiTapDigit = digit
         lastMultiTapTimeMs = now
 
-        // Kör parallellt de prediktiva förslagen för hela ordet hittills,
-        // så de finns som alternativ i förslagsraden.
         reloadPredictions(language)
     }
 
@@ -441,7 +457,6 @@ class T9Engine(
             .load()
     }
 
-    /** Callback från WordPredictions när den asynkrona DB-frågan är klar. */
     private fun onPredictionsChanged() {
         val words = predictions.getList()
         if (words.isEmpty()) {
@@ -469,23 +484,27 @@ class T9Engine(
         )
     }
 
-    /**
-     * Användaren valde ett PREDIKTIVT förslag istället för det multi-tap
-     * redan skrivit. Ta bort de redan inskrivna bokstäverna (en per post i
-     * wordDigits) och skriv in det valda ordet istället.
-     */
     private fun replaceCurrentWordWith(word: String) {
         if (wordDigits.isNotEmpty()) {
             connect?.deleteSurroundingText(wordDigits.size, 0)
         }
-        connect?.commitText(word, 1)
+        // Förslag från TT9 kan behålla sin egen casing; vid auto-caps
+        // i början av mening → versalisera första bokstaven.
+        val out = if (shouldUppercaseLetter() && word.isNotEmpty()) {
+            word.replaceFirstChar {
+                if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString()
+            }
+        } else {
+            word
+        }
+        connect?.commitText(out, 1)
         predictions.onAccept(word, digitSequence)
         wordDigits.clear()
         lastMultiTapDigit = -1
         setNeutralSuggestionStrip()
+        refreshShiftState()
     }
 
-    /** Nollställer ord-tillståndet UTAN att röra redan skriven text (den är redan korrekt). */
     private fun finalizeWord() {
         wordDigits.clear()
         lastMultiTapDigit = -1
@@ -496,7 +515,7 @@ class T9Engine(
         helper.setNeutralSuggestionStrip()
     }
 
-    // --- Funktioner T9 inte använder, men som IMEInterface kräver --------
+    // --- IMEInterface stubs -----------------------------------------------
 
     override fun onStartBatchInput() {}
     override fun onUpdateBatchInput(batchPointers: InputPointers?) {}
